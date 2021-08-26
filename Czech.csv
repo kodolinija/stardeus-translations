@@ -1643,7 +1643,7 @@ objects.devices.sleepingpod,Spací modul,
 objects.devices.sleepingpod.desc,"Soukromý spací modul, do kterého se vejde jeden kolonista. Poskytuje soukromí a lepší odpočinek.",
 printing.item,Tisk: {0},
 haul.item,Přepravit položku,
-hauling.item,Přepravuji položku
+hauling.item,Přepravuji položku,
 sleeping.slots,Místo na spaní,
 sleeping.slots.pets,Místo na spaní (Zvířata),
 demand.type.Custom,Vlastní částka,
