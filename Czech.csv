@@ -2234,7 +2234,7 @@ chasing.target,Pronásledování {0},
 evt.human.hatched.crawlers.title,Stvoření vylíhnuté z kolonisty,
 evt.human.hatched.crawlers.desc,Z břicha {0} se právě vylíhli mimozemští tvorové,
 evt.food.on.device.title,Potraviny poškodily zařízení,
-evt.food.on.device.desc,"Někdo nechal nedokončený {0} na {1}, drobky spadly dovnitř a způsobily zkrat."
+evt.food.on.device.desc,"Někdo nechal nedokončený {0} na {1}, drobky spadly dovnitř a způsobily zkrat.",
 auto.save.periodic,Pravidelné automatické ukládání,
 auto.save.on.exit,Automatické uložení při ukončení,
 hint.close_events_clock,"Při prohlížení nebo správě oznámení o událostech zvažte pozastavení času, jinak mohou nová oznámení změnit pořadí v seznamu a resetovat stránkování.",
