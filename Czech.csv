@@ -1893,7 +1893,7 @@ texture.size,Kvalita textury,
 tex.full,Plná,
 tex.half,Polovina,
 tex.quarter,Čtvrtina,
-tex.eighth,Osmina
+tex.eighth,Osmina,
 skill.Cleaning,Čištění,
 tool.plan,Plánování,
 tool.plan.desc,Naplánujte si loď předem,
