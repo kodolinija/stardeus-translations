@@ -2075,7 +2075,7 @@ evt.stasis.pod.friendly.crew.title,Ze stázového modulu vyšly přátelské byt
 evt.stasis.pod.friendly.crew.desc,"Stázový modul katapultoval několik přátelských bytostí. Stanou se součástí naší kolonie. Postarejte se, aby se cítili vítáni!",
 objects.devices.cpumodule.desc,"Modul CPU přispěje výpočetním výkonem k vaší neuronové síti, což vám umožní ovládat více botů současně.",
 objects.devices.cpumodule,Modul CPU (4Thz),
-objects.devices.cpumodulemini.desc,"Modul CPU přispěje k výpočetnímu výkonu vaší neuronové sítě a umožní vám ovládat více botů současně."
+objects.devices.cpumodulemini.desc,"Modul CPU přispěje k výpočetnímu výkonu vaší neuronové sítě a umožní vám ovládat více botů současně.",
 objects.devices.cpumodulemini,Modul CPU (1Thz),
 research.overclocking,Přetaktování,
 research.overclockingadvanced,Pokročilé přetaktování,
