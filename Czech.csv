@@ -453,7 +453,7 @@ goal.BuildRepairStation.desc,"Musíme mít alespoň jednu opravárenskou stanici
 goal.BuildHeater,Sestavení ohřívače,
 goal.BuildHeater.desc,"Aby byly uzavřené prostory teplé a obyvatelné, musíme postavit topení.",
 goal.BuildMiniMatterReactor,Sestavení energetického reaktoru,
-goal.BuildMiniMatterReactor.desc,"Měli bychom postavit Energetický reaktor, který bude vyrábět elektřinu pro naše zařízení a výzkum." ,
+goal.BuildMiniMatterReactor.desc,"Měli bychom postavit Energetický reaktor, který bude vyrábět elektřinu pro naše zařízení a výzkum.",
 goal.BuildMoreChargeStations,Postav další dobíjecí stanice,
 goal.BuildMoreChargeStations.desc,"Postav více dobíjecích stanic, aby se mohlo dobíjet více botů najednou.",
 goal.BuildMoreRepairStations,Postav další opravárenské stanice ,
