@@ -2182,7 +2182,7 @@ video.bg.scale.tip,"Pokročilé vesmírné pozadí lze zmenšit, aby se zlepšil
 video.ui.scale.tip,Tuto hodnotu můžete při hraní nastavit,
 video.apply.tip,Některé možnosti se použijí okamžitě po jejich změně,
 audio.max.silence.tip,Upravuje doby ticha mezi hudebními skladbami. ,
-audio.music.cutoff.tip,"Pokud je tato možnost povolena, bude hudba při přiblížení znít tlumeněji."
+audio.music.cutoff.tip,"Pokud je tato možnost povolena, bude hudba při přiblížení znít tlumeněji.",
 audio.amb.cutoff.tip,"Pokud je tato funkce povolena, budou zdroje okolního prostředí (různé zvuky zařízení, hluk motoru atd.) znít na větší vzdálenost tlumeněji.",
 audio.fx.cutoff.tip,"Pokud je tato možnost povolena, budou zvukové efekty (pípání, výbuchy atd.) znít na větší vzdálenost tlumeněji.",
 soft.cursor.tip,"Pokud váš software pro snímání her nezaznamenává hardwarový kurzor, můžete při nahrávání herních videí povolit softwarový kurzor.",
