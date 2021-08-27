@@ -113,7 +113,7 @@ First and foremost: Thanks [Spajus](https://github.com/spajus) for developing st
 
 ### Czech
 
-* [ShadowOffice](https://github.com/eFkoCaptain)
+* [eFkoCaptain](https://github.com/eFkoCaptain)
 
 
 
