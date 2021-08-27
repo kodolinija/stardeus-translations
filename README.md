@@ -79,12 +79,12 @@ You can find the source file <a href="https://docs.google.com/spreadsheets/d/1ii
 Contributions are awesome! Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/Language`)
+3. Commit your Changes (`git commit -m 'Add some Language'`)
+4. Push to the Branch (`git push origin feature/Language`)
 5. Open a Pull Request
 
-
+If you use Github Desktop check [this](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) out.
 
 <!-- CONTACT -->
 ## Contact
