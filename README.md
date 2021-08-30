@@ -100,7 +100,7 @@ Just don't forget to visit get-a-role.
 <!-- CREDITS -->
 ## Credits
 
-First and foremost: Thanks [Spajus](https://github.com/spajus) for developing stardeus and be so interactive and helful to us all :)
+First and foremost: Thanks [Spajus](https://github.com/spajus) for developing stardeus and be so interactive and helpful to us all :)
 
 ### German
 
