@@ -110,6 +110,7 @@ First and foremost: Thanks [Spajus](https://github.com/spajus) for developing st
 ### French
 
 * [ShadowOffice](https://github.com/shadowoffice)
+* !Neo
 
 ### Czech
 
