@@ -53,3 +53,25 @@ being.thinks.safe	{0} pense que {1} est en sécurité
 being.thinks.unsafe	{0} pense que {1} n'est pas sûr !	
 being.can.reach	{0} peut aller à {1}	
 being.cannot.reach	{0} ne peut pas aller à {1}
+ship.size	Taille du navire
+shuttle.damaged	La navette est endommagée
+shuttle.damaged.desc	La navette doit être réparée avant de pouvoir être lancée en expédition
+shuttle.has.pending.task	La navette a une tâche en attente
+shuttle.has.pending.task.desc	Cette navette ne peut pas être utilisée car elle a une tâche en attente. Annulez la tâche ou attendez qu'elle soit terminée en premier.
+relocation.pending	Déplacement en attente
+add	Ajouter
+ongoing.trade	Commerce en cours
+quantity	Quantité
+trade.selling	Notre offre
+trade.buying	Leur offre
+trade.cancel	Annuler l'échange
+start.mining	Commencer l'exploitation minière
+about.wallet	Comment obtenir de l'argent
+about.wallet.desc	Les devises peuvent être extraites après avoir installé des mises à niveau d'exploitation minière sur votre ordinateur de navire ou des appareils d'exploitation minière compatibles. Vous pouvez également obtenir de l'argent en échangeant des marchandises. [Note du développeur : l'économie du jeu n'en est qu'à ses débuts, de nombreuses parties seront manquantes]
+mining.currency	Exploitation minière {0}
+our.valuables	Nos objets de valeur
+their.valuables	Leurs objets de valeur
+net.worth	Valeur nette
+wallet.disclaimer	Clause de non-responsabilité concernant le portefeuille
+wallet.disclaimer.desc	Les monnaies du jeu Stardeus ne sont pas de vraies crypto-monnaies, leur extraction est complètement fausse. Si une devise du jeu Stardeus a une crypto-monnaie du monde réel avec le même nom, c'est purement par accident. Stardeus n'approuve ni ne promeut aucune crypto-monnaie réelle.
+not.mining.currency	extrait aucune devise
