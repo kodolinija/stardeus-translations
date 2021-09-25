@@ -1,0 +1,7 @@
+You can find English translations in game's folder:
+Stardeus_Data\StreamingAssets\Mods\Core\Translations
+
+Or from the source Google Sheet:
+https://docs.google.com/spreadsheets/d/1iiaORk6Ma5c2DpijK3oFs08fdk9PAe7QsCoiiBzdEUU/edit?usp=sharing
+
+You can do File > Download > Comma Separated Values (CSV) to download English.csv from the sheet above
