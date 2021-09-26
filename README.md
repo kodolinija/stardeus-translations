@@ -117,6 +117,16 @@ First and foremost: Thanks [Spajus](https://github.com/spajus) for developing st
 * [eFkoCaptain](https://github.com/eFkoCaptain)
 
 
+### Chinese 
+
+YouHanHua Team
+
+- [law_4x](https://github.com/law4x)
+- 翻译菌2号
+- Senio
+- Ding
+- 404のUMP-9
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
