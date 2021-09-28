@@ -105,7 +105,7 @@ First and foremost: Thanks [Spajus](https://github.com/spajus) for developing st
 ### German
 
 * Tassido
-* [Me lol](https://github.com/K-Win)
+* [K-Win](https://github.com/K-Win)
 
 ### French
 
