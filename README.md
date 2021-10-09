@@ -100,8 +100,6 @@ Just don't forget to visit get-a-role.
 <!-- CREDITS -->
 ## Credits
 
-First and foremost: Thanks [Spajus](https://github.com/spajus) for developing stardeus and be so interactive and helpful to us all :)
-
 ### German
 
 * Tassido
@@ -121,11 +119,15 @@ First and foremost: Thanks [Spajus](https://github.com/spajus) for developing st
 
 YouHanHua Team
 
-- [law_4x](https://github.com/law4x)
-- 翻译菌2号
-- Senio
-- Ding
-- 404のUMP-9
+* [law_4x](https://github.com/law4x)
+* 翻译菌2号
+* Senio
+* Ding
+* 404のUMP-9
+
+### Portuguese (Brazil)
+
+* [unggod](https://github.com/unggod)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
