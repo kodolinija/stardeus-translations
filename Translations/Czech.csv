@@ -2610,8 +2610,5 @@ space.object.info.ShipMerchant,"Jedná se o obchodní loď. Pokud máme k dispoz
 space.object.info.Player,Toto je naše loď.,
 space.object.info.Shuttle,Toto je raketoplán,
 act.Firefight,Hašení požárů,
-log,Záznam,
 last.visit,Poslední návštěva: {0},
-last.log.entry,Poslední záznam v protokolu,
-so.discovered,Objeveno: {0},
 last.expedition,Poslední expedice: {0},
