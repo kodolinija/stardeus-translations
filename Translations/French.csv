@@ -530,7 +530,7 @@ info.ad.rejected.no.nutrient.extractor,Tâche rejetée : le travailleur n'a pas
 info.ad.rejected.unreachable,Tâche rejetée : le travailleur n'a pas pu atteindre cet emplacement,
 info.ad.rejected.unreachable.material,Tâche rejetée : le travailleur n'a pas pu atteindre un matériau requis,
 info.ad.rejected.unsafe,Tâche rejetée : le travailleur l'a abandonnée en raison de conditions d'environnement dangereuses,
-info.being.immobilized,Immobilisé. Construire un étage en dessous,
+info.being.immobilized,Immobilisé,
 info.charge.station.unavailable,Impossible de trouver une borne de recharge disponible,
 info.connector.full,Aucun créneau disponible,
 info.connector.slots.available,A des emplacements disponibles,

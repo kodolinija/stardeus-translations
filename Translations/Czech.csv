@@ -535,7 +535,7 @@ info.ad.rejected.no.nutrient.extractor,Úkol zamítnut: robot nemohl najít nebo
 info.ad.rejected.unreachable,Úkol zamítnut: robot nemohl dosáhnout tohoto místa,
 info.ad.rejected.unreachable.material,Úkol zamítnut: robot se nemohl dostat k požadovanému materiálu,
 info.ad.rejected.unsafe,Úkol zamítnut: robot ji opustil kvůli nebezpečným podmínkám prostředí.,
-info.being.immobilized,Znehybněn. Vybudujte pod ním podlahu ,
+info.being.immobilized,Znehybněn,
 info.charge.station.unavailable,Nepodařilo se najít dostupnou nabíjecí stanici,
 info.connector.full,Žádná volná místa,
 info.connector.slots.available,Má volné sloty,

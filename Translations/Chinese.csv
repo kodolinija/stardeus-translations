@@ -535,7 +535,7 @@ info.ad.rejected.no.nutrient.extractor,任务被拒绝：工人找不到或无�
 info.ad.rejected.unreachable,任务被拒绝：工人无法到达此位置,
 info.ad.rejected.unreachable.material,任务被拒绝：工人无法获得所需的材料,
 info.ad.rejected.unsafe,任务被拒绝：由于不安全的环境条件，工人将其丢弃,
-info.being.immobilized,不可移动。请在底下建造地板。,
+info.being.immobilized,不可移动,
 info.charge.station.unavailable,找不到可用的充电站,
 info.connector.full,没有可用的充电桩,
 info.connector.slots.available,有可用的充电桩,

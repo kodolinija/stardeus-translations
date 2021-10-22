@@ -535,7 +535,7 @@ info.ad.rejected.no.nutrient.extractor,Ordem Rejeitada: Trabalhador não localiz
 info.ad.rejected.unreachable,Ordem Rejeitada: Trabalhador não tem acesso ao local,
 info.ad.rejected.unreachable.material,Ordem Rejeitada: Trabalhador não tem acesso ao material necessário,
 info.ad.rejected.unsafe,Ordem Rejeitada: Ambiente hostil ao trabalhador,
-info.being.immobilized,Preso. Construa um Piso para ele se mover,
+info.being.immobilized,Preso,
 info.charge.station.unavailable,Nenhuma Estação de Recarga Disponível,
 info.connector.full,Nenhuma Conexão Disponível,
 info.connector.slots.available,Conexões Disponíveis,
