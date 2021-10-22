@@ -532,7 +532,7 @@ info.ad.rejected.no.nutrient.extractor,Aufgabe abgelehnt: Arbeiter konnte keinen
 info.ad.rejected.unreachable,Aufgabe abgelehnt: Arbeiter konnte diesen Standort nicht erreichen,
 info.ad.rejected.unreachable.material,Aufgabe abgelehnt: Arbeiter konnte ein erforderliches Material nicht erreichen,
 info.ad.rejected.unsafe,Aufgabe abgelehnt: Arbeiter hat sie aufgrund unsicherer Umgebungsbedingungen fallen lassen,
-info.being.immobilized,Immobilisiert. Baue einen Boden darunter,
+info.being.immobilized,Immobilisiert,
 info.charge.station.unavailable,Es konnte keine verfügbare Ladestation gefunden werden,
 info.connector.full,Keine Plätze verfügbar,
 info.connector.slots.available,Hat freie Plätze,
