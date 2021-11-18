@@ -2363,7 +2363,7 @@ placement.tip.InSpaceAttached,"Může být položeno pouze ve vesmíru a připev
 placement.tip.InSpaceAttachedChained,"Může být položeno pouze ve vesmíru a připevněno k loďi.<br>Můžeš jich spojit více dohramady.",
 placement.tip.NearShipComputer,Může být položeno pouze v blízkosti Lodního počítače.,
 placement.tip.workspot,<br>Pracovní místo(Kruh) může být pouze do na podlaze</br>,
-hint.el_connect_tool,Můžeš použít připojovací nástroj k připojení všech tvých zařízení. Stačí pouze táhnout myší od konektoru. <nobr><sprite=""Glyphs_IconsWhite"" name=""Connect""><b></b></nobr>,
+hint.el_connect_tool,Můžeš použít připojovací nástroj k připojení všech tvých zařízení. Stačí pouze táhnout myší od konektoru.<nobr><sprite=""IconsWhite"" name=""Connect""><b></b></nobr>,
 processor.queue,Fronta na zpracování,
 menu.upgrades,Vylepšení,
 menu.upgrades.desc,Vytvořit modul pro vylepšení,
