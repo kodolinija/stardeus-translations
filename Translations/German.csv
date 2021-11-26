@@ -2369,7 +2369,7 @@ placement.tip.InSpaceAttached,"Kann nur im Weltraum platziert werden, wenn es an
 placement.tip.InSpaceAttachedChained,"Kann nur im Weltraum platziert werden, der an der Außenseite des Schiffes befestigt ist.<br> Du kannst diese Gegenstände miteinander verketten.",
 placement.tip.NearShipComputer,Kann nur neben dem Schiffscomputer platziert werden.,
 placement.tip.workspot,<br>Der Arbeitsplatz (Kreis) sollte sich auf einem Boden befinden.,
-hint.el_connect_tool,"Du kannst das <nobr><sprite=""IconsWhite"" name=""Connect""><b>Verbinden</b></nobr>-Werkzeug im Menü benutzen, um Verbindungen zwischen Verbindern und elektrischen Objekten zu verwalten, indem du einfach eine Linie mit der Maus ziehst.",
+hint.el_connect_tool,"Du kannst das <nobr><sprite=""Glyphs_IconsWhite"" name=""Connect""><b>Verbinden</b></nobr>-Werkzeug im Menü benutzen, um Verbindungen zwischen Verbindern und elektrischen Objekten zu verwalten, indem du einfach eine Linie mit der Maus ziehst.",
 processor.queue,Verarbeitungs-Warteschlange,
 menu.upgrades,Verbesserungen,
 menu.upgrades.desc,Erzeuge ein Verbesserungs-Modul,

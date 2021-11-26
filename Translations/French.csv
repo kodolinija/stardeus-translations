@@ -2358,7 +2358,7 @@ placement.tip.InSpaceAttached,"Ne peut être placé que dans l'espace, attaché 
 placement.tip.InSpaceAttachedChained,"Ne peut être placé que dans l'espace, attaché à l'extérieur du vaisseau.<br>Vous pouvez enchaîner ces objets ensemble.",
 placement.tip.NearShipComputer,Ne peut être placé qu'à côté de l'ordinateur du navire.,
 placement.tip.workspot,<br>Le poste de travail (Cercle) doit être au sol.,
-hint.el_connect_tool,Vous pouvez utiliser l'outil <nobr><sprite=""IconsWhite"" name=""Connect""><b>Connecter</b></nobr> dans le menu pour gérer les liens entre le connecteur et les objets électriques en faisant simplement glisser une ligne avec votre souris.,
+hint.el_connect_tool,Vous pouvez utiliser l'outil <nobr><sprite=""Glyphs_IconsWhite"" name=""Connect""><b>Connecter</b></nobr> dans le menu pour gérer les liens entre le connecteur et les objets électriques en faisant simplement glisser une ligne avec votre souris.,
 processor.queue,File d'attente,
 menu.upgrades,Mises à jours,
 menu.upgrades.desc,Modules de mise à niveau,
