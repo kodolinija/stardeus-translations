@@ -2253,7 +2253,7 @@ placement.tip.InSpaceAttached,只能放置在太空中，与飞船外部相连�
 placement.tip.InSpaceAttachedChained,只能放置在太空中，与飞船外部相连。<br>你可以将这些物品连在一起。,
 placement.tip.NearShipComputer,只能放置在舰载计算机的旁边。,
 placement.tip.workspot,<br>工作点（圆圈）应该在一块地板上。,
-hint.el_connect_tool,你可以使用底部菜单中的<nobr><sprite=""IconsWhite"" name=""Connect""><b>连接</b></nobr>工具，来管理连接器和电气设备之间的链接，只需用鼠标一直线拖动即可。,
+hint.el_connect_tool,你可以使用底部菜单中的<nobr><sprite=""Glyphs_IconsWhite"" name=""Connect""><b>连接</b></nobr>工具，来管理连接器和电气设备之间的链接，只需用鼠标一直线拖动即可。,
 processor.queue,处理队列,
 menu.upgrades,升级,
 menu.upgrades.desc,生成升级模块,
