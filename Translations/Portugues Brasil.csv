@@ -2372,7 +2372,7 @@ placement.tip.InSpaceAttached,"Só pode ser colocado no espaço aberto preso a N
 placement.tip.InSpaceAttachedChained,"Só pode ser colocado no espaço aberto preso a Nave-mãe . <br>Pode ser colocado junto a outros do mesmo .",
 placement.tip.NearShipComputer,Somente ao redor da CPU .,
 placement.tip.workspot,<br>Acesso (circulo) precisa ser em Piso .,
-hint.el_connect_tool,Você pode usar a ferramenta <nobr><sprite=""IconsWhite"" name=""Connect""><b>Conectar</b></nobr> no menu radial para mudar conexões entre os objetos apenas puxando uma linha entre eles .,
+hint.el_connect_tool,Você pode usar a ferramenta <nobr><sprite=""Glyphs_IconsWhite"" name=""Connect""><b>Conectar</b></nobr> no menu radial para mudar conexões entre os objetos apenas puxando uma linha entre eles .,
 processor.queue,Fila de processo,
 menu.upgrades,Melhoria,
 menu.upgrades.desc,Spawn Upgrade modules,
