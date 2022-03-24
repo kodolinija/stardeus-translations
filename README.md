@@ -140,3 +140,7 @@ YouHanHua Team
 [stars-url]: https://github.com/K-Win/stardeus-translations/stargazers
 [issues-shield]: https://img.shields.io/github/issues/K-Win/stardeus-translations.svg?style=for-the-badge
 [issues-url]: https://github.com/K-Win/stardeus-translations/issues
+
+### Japanese
+
+* [Souzen Yurama](https://github.com/s-yurama)
