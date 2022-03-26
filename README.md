@@ -15,7 +15,7 @@
   <h3 align="center">Stardeus Translations</h3>
 
   <p align="center">
-    A community project to provide multiple languages to stardeus
+    A community project to provide multiple languages for Stardeus
     <br />
     <a href="https://stardeusgame.com/"><strong>Stardeus Homepage »</strong></a>
     <br />
