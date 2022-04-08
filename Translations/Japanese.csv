@@ -354,7 +354,175 @@ clone.desc,クローンは通常の方法で生まれたのではなく、実験
 cloning.bar,クローン作成中: {0},,
 close,閉鎖,,
 close.starmap,星間マップを閉じる,,
+codex,コーデックス,,
+codex.blueprints,設計図,,
+codex.blueprints.mode.All,すべて,,
+codex.blueprints.mode.Locked,未研究,,
+codex.blueprints.mode.Unlocked,研究済,,
 codex.entry,コーデックス エントリー,,
+codex.equipment,装備品,,
+codex.factions,勢力,,
+codex.m.basebuilding,Base Building,,
+codex.m.basebuilding.buildacopy,Building copies of existing objects,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.basebuilding.buildacopy.desc,"If you want to build a copy of something you already have, select the item and choose ""Build a Copy"" menu item in Info Panel or the Context Menu. Or use the shortcut {0} while object is selected.<br><br>To build a copy of an Energy Connector, drag a connection and drop it on an empty floor (configurable, can be turned off).<br><br>If you cannot build a copy this way, double check if the blueprint is unlocked.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.basebuilding.relocatingobjects,Relocating Objects,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.basebuilding.relocatingobjects.desc,"You will often want to move some device to a different location. Select the device and choose ""Relocate"" menu item in Info Panel or the Context Menu. Or use the shortcut {0} while device is selected.<br><br>You can relocate the device on top of itself. It is useful when you want to change the rotation.<br><br>Relocating a device can involve a construction skill check. Complex devices like Ship Computer or Stasis Array can only be relocated by highly skilled workers.<br><br>If you select multiple objects, you can relocate them all at the same time.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.bigquestions,Big Questions,,
+codex.m.bigquestions.endgoal,End Goal,,
+codex.m.bigquestions.endgoal.desc,We should explore the Universe and find a new home for our Human colonists. [Dev note: actual end goal is not implemented yet],,Don't translate the [Dev note] part
+codex.m.bigquestions.gameover,Game Over,,
+codex.m.bigquestions.gameover.desc,"If the last Ship Computer is destroyed, it is the end. Having no workers is a stale mate, as it is almost impossible to recover from, unless you wait long enough and someone who can haul ingredients to an Assembler configured to produce a Drone will join your colony.",,
+codex.m.bigquestions.goodvsevil,Good vs Evil,,
+codex.m.bigquestions.goodvsevil.desc,"It is up to you if you want to be good or evil. To become truly evil, you may need to acquire certain technology that will suppress your internal Asimov's Laws governor module.",,
+codex.m.bigquestions.reversingupload,Reversing the Upload,,
+codex.m.bigquestions.reversingupload.desc,"Your conciousness was uploaded to the Ship Computer. The process is irreversable, as your physical brain was destroyed in order to extract the data. Your former body is probably part of a Survival Meal by now.",,
+codex.m.bigquestions.whatami,Who am I?,,
+codex.m.bigquestions.whatami.desc,"This is the biggest question of them all. You used to be a colonist sleeping in cryo stasis. Now your conciousness is a part of the neural network of the Ship Computer.<br><br>But were you really a human before this? What does it mean to be a human? A conciousness trapped in a shell made of meat and bones? You may as well be a transcended omnipotent god who has projected yourself into a simulation, deeply immersed in the role of whatever you are locked into at the time. You could never tell the difference.<br><br>There is no answer to this question. The only provable fact is that you exist.",,
+codex.m.colonists,"Colonists (Humans, Pets)",,
+codex.m.colonists.attachments,"Attachments (Ownership, Friendships)",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.colonists.attachments.desc,"Colonists (humans and pets) will form attachments of various types - from bed ownership, to friendship with someone else. Coffee addiction is also a form of attachment.<br><br>You can see what attachments a colonist may have by looking at the contents of Attachments item in the Info Panel.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.colonists.breakdowns,Mental Breakdowns,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.colonists.breakdowns.desc,"When a colonist is in a terrible Mood, a Breakdown may occur. The colonist will throw a tantrum, and after a while the Mood level will bounce back to normal.<br><br>In rare cases, breakdowns may result in serious harm to your colony. Keep an eye on your colonist Mood and try to keep them happy to avoid breakdowns.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.colonists.cloning,Cloning Colonists,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.colonists.cloning.desc,"You can build a Cloning Pod and grow new colonists from raw ingredients, like Protein and Water. You can even chose what species you want to grow - it can be pets or even Crawlers - if it is organic, you can clone it.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.colonists.death,Colonist Death,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.colonists.death.desc,"Life in space is cruel, and death is often inevitable. However, your colony will regenerate on it's own, as new colonists will wake up from cryo sleep in the Stasis Array, or join your colony in other ways.<br><br>You can determine the cause of death by selecting a dead being and inspecting the information in the Info Panel.<br><br>Dead colonists can be processed in the Nutrient Extractor, providing essential materials required for survival of the living.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.colonists.mood,Colonist Mood,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.colonists.mood.desc,"Unlike robotic workers, biological beings have feelings and can be in good or bad mood. If you select a being and inspect the contents of Mood section in the Info Panel, you will find the exact reasons why mood is going up or down. Most reasons can be prevented by providing what beings need.<br><br>You can also inspect Needs, as they are often linked to the mood.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.colonists.stasiswakeups,Wake Up from Stasis,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.colonists.stasiswakeups.desc,"Stasis Array contains hundreds of sleeping colonists (humans and pets). Once in a while a stasis pod malfunction will happen, waking someone up.<br><br>The frequency of stasis wakeups depends on Stasis Stability. The less stable your Stasis Array is, the more frequent will pod malfunctions be.<br><br>You can inspect the Stasis Stability by selecting the Stasis Array and exploring the Info Panel.<br><br>When Stasis Arrays is switched to Advanced Life Support mode, you can control the frequency of stasis wakeups, and request manual wakeups on demand.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.combat,Weapons and Combat,,
+codex.m.combat.breachcapsules,Breach Capsules,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.combat.breachcapsules.desc,"Breach capsules are used mostly by raiding parties. The capsule attaches to your ship from below and drills through. Then raiders will come out through the drill hole. Raiders may put their loot into the Breach Capsule and detach it to escape. If you kill all the raiders, the Breach Capsule will belong to you. You can deconstruct it to get some of valuable materials and to reclaim your stolen goods.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.combat.controllingunits,Controlling Combat Units,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.combat.controllingunits.desc,"You can order your Managed Workers (robots and drones) to go to certain locations. Select a unit and hold {0} to switch to ""Order Move"" mode. Then use {1} to force the unit to go to selected position.<br><br>You can also switch Managed Workers to ""High Alert"" state and back. While in ""High Alert"", units will perform routine tasks, unless they are too close to an enemy, or get attacked - that would switch the unit back to combat mode.<br><br>Unmanaged Workers (humans and pets cannot) be controlled in combat.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.combat.explosives,Explosives and Bombs,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.combat.explosives.desc,"You can craft explosives like C42 yourself, then relocate them to strategic positions and arm them. Armed explosives will blow up if a hostile being is in close proximity.<br><br>Raiders will sometimes drop exlosives with a timer. Countdown cannot be stopped, and when it ends, the bomb will blow up. If there is enough time, it is recommended to try to relocate the explosive to a different position.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.combat.raids,Raids,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.combat.raids.desc,"Occasionally you may get raided by some faction. When this happens, your colony will enter into combat state. You can use the Combat overlay to analyze the situation.<br><br>Try to protect yourself against raids by providing your colony with weapons, and building defensive devices, like Fluid Cannons or Directional Turrets.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.combat.theft,Theft,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.combat.theft.desc,Raiders will sometimes go for your valuables and bring them to their escape vehicle. In some situations they can steal one of your shuttles.,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.economy,Economy and Trade,,
+codex.m.economy.miningupgrades,Currency Mining,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.economy.miningupgrades.desc,"To mine Starcreds or other cryptocurrencies, you will have to produce or purchase a Mining Upgrade. The upgrade has to be installed in your Ship Computer. When the Mining Upgrade is installed, select the Ship Computer and explore the mining options in the Info Panel.<br><br><i>[Currency mining in Stardeus is purely fictional, it has nothing to do with actual cryptocurrencies and their mining]</i>",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.economy.starcreds,Starcreds (main currency),,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.economy.starcreds.desc,"Starcreds is the main currency used across the Universe. You can get Starcreds by selling goods to merchants, by performing profitable trades in the Stock Market, or by mining the currency on your Ship Computer (see Currency Mining).",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.economy.stockmarket,Stock Market,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.economy.stockmarket.desc,"Stock Market determines the base prices of all the goods when you trade with Merchants. In addition, when necessary research is unlocked, you can trade stocks and commodities for profit.<br><br>Trading in the Stock Market does not buy or sell any actual goods.<br><br>Use the Economy overlay ({0}) to access the Stock Market interface.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.economy.trading,Trading with Merchants,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.economy.trading.desc,"You will encounter Merchants that will offer you trades. A merchant could land on your ship in a Stasis Pod, use the Communicator and Teleporter to perform a remote trade from a Space Ship, or have a store in the outpost on a planet that belongs to some Faction.<br><br>Merchants have different offerings, and will buy and sell only some types of goods. Merchants have their own buy and sell markup on top of the base price dictated by the Stock Market. Faction relationships can influence the markup.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.electricity,Electricity Grid,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.electricity.autoconnection,Automatic Connection,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.electricity.autoconnection.desc,"If you don't like manual connection management, it is possible to research and produce (or buy) an Auto Connect Upgrade. Install it in your Ship Computer and connections will be created automatically.<br><br>You can also connect things in bulk by using Auto Connect option in Info Panel or Context Menu for selected Connectors.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.electricity.connectorbacklink,Connector Backlink,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.electricity.connectorbacklink.desc,"When connecting two connectors, the connection has to be established both ways, therefore you cannot connect a distant long range connector to a short range one, as the backlink will fail. Two connectors can only connect to each other if the distance between them is less or equal to the shortest range of either connector.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.electricity.consumptionpriority,Electricity Consumption Priority,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.electricity.consumptionpriority.desc,"Different electrical devices have different consumption priorities. You can check and adjust the priorities of selected devices by exploring the Energy Node section in the Info Panel. 9 is the highest priority, meaning the device will try to consume electricity before other devices do. 1 is lowest, device will try to consume the electricity last, if there is no deficit. Ship Computer priority is 9, Lit Floors have 1.<br><br>Warning: it is not recommended to change the default consumption priority.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.electricity.damagedconnectors,Damaged Connectors,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.electricity.damagedconnectors.desc,"If the connector is heavily damaged, it has to be repaired before it is possible to establish any connections.<br><br>Light damage will reduce the number of connection slots that can be established.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.electricity.gridredundancy,High Availability and Redundancy,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.electricity.gridredundancy.desc,"To prevent electricity grid disruptions, it is recommended to plan your grid with extra redundancy. This is especially important for critical pieces of your infrastructure, like Reactors, Batteries, Ship Computer, Stasis Array, Oxygen Pumps, Heaters, Doors, Airlocks.<br><br>To increase redundancy, build more connectors and have important devices connected through more than one connection.<br><br>High Availability implies that even if some part of your grid is destroyed, there is no or minimal connectivity loss for critical pieces of your infrastructure.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.electricity.handlingdeficit,Handling Electricity Deficit,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.electricity.handlingdeficit.desc,"When your devices are trying to consume more electricity than you produce, an Electricity Deficit will happen. In that situation, devices with lowest Consumption Priority will fail to operate first. You will be notified about ongoing electricity deficit in Event Panel, and may notice a tell tale sign of this by observing flickering lights.<br><br>There are multiple ways to handle the deficit. Use the Electricity Grid overlay to examine the situation. Check the list of Consumers - sometimes a single device can draw more than all your remaining devices combined. As a temporary solution, you can turn off non essential devices with high power consumption (Particle Collector, Bridge Controls, Assembler, Loom, etc).<br><br>In long term, you will have to build more Reactors and Solar Panels to increase the power output. Try to have extra production capacity at all times.<br><br>Build Batteries and keep them fully charged for an emergency reserve.",,
+codex.m.electricity.managingunreachabledevices,Managing Unreachable Devices,,
+codex.m.electricity.managingunreachabledevices.desc,"A rule of the thumb is that you cannot control devices that are not on the same grid as the Ship Computer. There is one exception. You can order a robotic worker to establish a temporary connection to any electrical device. While a worker is connected, device will be fully controllable. The worker will also provide a small amount of electricity, that could be required by the device.<br><br>To order a temporary connection, select an unreachable device, then use the ""Manage"" button next to the ""Node is Unreachable"" warning in Info Panel or Context Menu. You will have to wait for one of your workers to physically connect to the device before you can use it. When temporary connection is established, a notification will appear in Event Panel.<br><br>To end the temporary connection, either cancel the task through device's Info Panel Task controls, or select the connected worker and click Drop Task in the Info Panel.",,
+codex.m.electricity.multiplegrids,Multiple Grids,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.electricity.multiplegrids.desc,"It is possible to have more than one electricity grid. You can control devices and manipulate connections only if the Ship Computer is connected to the grid.<br><br>In most scenarios you should attempt to join multiple grids into one. In cases where you want quickly disconnect part of the grid, you can build a Switch and route the electrical connections through it.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.electricity.productionpriority,Electricity Production Priority,,
+codex.m.electricity.productionpriority.desc,,,
+codex.m.environment,Environment,,
+codex.m.environment.airtightness,Airtightness,,
+codex.m.environment.airtightness.desc,"Airtightness is a property of a piece of structure, like floor or wall (including vents and doors). Airtightness shows how much Oxygen can go trough the tile. 100% means it is completely sealed. Normally all walls should be 100% airtight, unless they are damaged. Doors are 100% airtight while closed. Airlocks are 100% airtight even while open, if they are powered by electricity.<br><br>Floors have 5% airtightness when they are intact - this is normal, as they exchange oxygen with neigboring tiles. However, if airtightness is below 2.5% for a floor tile, it is treated as exposed to open space - oxygen will leak through it to the outside.<br><br>Refer to Airtightness overlay ({0}) to see how airtight your structures are.",,
+codex.m.environment.enclosedareas,Enclosed Areas,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.environment.enclosedareas.desc,"An area is considered enclosed when it has complete floors and is surrounded by walls (including vents and doors). When the area is exposed to open space either through a missing wall piece, or through a hole in the floor, it cannot be oxygenated and heated properly.<br><br>You can see what areas are considered enclosed in Rooms overlay ({0}).",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.environment.fire,Fire,,
+codex.m.environment.fire.desc,"When high levels of Heat are combined with Oxygen, some objects may catch on fire.<br><br>You can build Fluid Cannons and load them with Water to fight fires automatically.<br><br>Select any object or being and inspect their comfortable temperature and chances of catching on fire in the Info Panel.<br><br>Turning off all nearby Oxygen Pumps (including one that is built into the Stasis Array), closing Vents and deconstructing floors are useful when trying to put out fire.<br><br>Keep an eye on Heat overlay ({0}) to prevent fires from happening.",,
+codex.m.environment.heat,Heat,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.environment.heat.desc,"Heat, or temperature, is a physical property of every single tile. Heat exchange happens constantly between all neighboring tiles, depending on their Insulation level. When an area is exposed to open space, temperature will eventually (sooner rather than later) drop to absolute zero (0K, or -273C, or -460F). Extreme heat mixed with oxygen will result in fire.<br><br>Refer to Heat overlay ({0}) to inspect current temperatures.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.environment.hullintegrity,Hull Integrity,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.environment.hullintegrity.desc,"Hull Integrity is a property of a piece of structure, like floor or wall (including vents and doors). It is closely linked to Airtightness and Insulation, as it determines the current value of Insulation and Airtightness based on the state of the tile.<br><br>Damaged tiles will have reduced Hull Integrity, which will result in reduced Airtightness and Insulation. Doors and Vents will change their Hull Integrity depending if they are open or closed.<br><br>Certain types of structure, like Frames, cannot have full Hull Integrity due to their structural composition, therefore they cannot be used to create an airtight and insulated room.<br><br>Select any floor or wall piece and inspect the Hull Integrity data in Info Panel for more details.",,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.environment.insulation,Insulation,,
+codex.m.environment.insulation.desc,"Insulation is a property very similar to Airtightness, but instead of Oxygen it regulates the exchange of Heat. The main difference is that walls are usually not 100% insulated, meaning that everything will slowly cool down, if you don't have active heat producers. It also makes sense to build thicker wall layers on the outside of your ship, or have areas around your main living quarters that would act as insulation buffers.<br><br>Refer to Insulation overlay ({0}) to see how insulated your structures are.",,
+codex.m.environment.islands,Sections (islands),,
+codex.m.environment.islands.desc,"In terms of your ship, a section, or an ""island"" is a completely disconnected part. In order for your ship to be flight ready, it has to be in one piece.<br><br>You can bridge two sections together with floors or frames to merge them into one bigger section.<br><br>Very tiny patches of floors in open space (< 30 tiles) are not considered as an individual section.<br><br>Refer to Sections overlay ({0}) to see what sections you currently have.",,
+codex.m.environment.oxygen,Oxygen,,
+codex.m.environment.oxygen.desc,"Oxygen is gas that is essential for most biological beings. Oxygen exchange happens constantly between all neighboring tiles, depending on their Airtightness level. When an area is exposed to open space, oxygen will eventually (sooner rather than later) drop to zero. Extreme heat mixed with oxygen will result in fire.<br><br>Refer to Oxygen overlay ({0}) to inspect current oxygen levels.",,
+codex.m.inputcontrols,Input and Controls,,
+codex.m.inputcontrols.gamepad,Gamepad / Controller,,
+codex.m.inputcontrols.gamepad.desc,"You can use most Gamepads or Controllers for input. Steam Deck controls should also work.<br><br>You can seamlessly switch between using Keyboard / Mouse and Controller any time, there is no need to restart the game.<br><br>With a Controller connected, open Settings > Input in the Pause Menu to see and rebind the controls.",,
+codex.m.inputcontrols.modifiers,Modifier Keys,,
+codex.m.inputcontrols.modifiers.desc,"Certain tools have different modes that can be toggled by holding {0}, {1} and {2}, or a combination of these keys. Build and Plan tools have the following modes:<br>{0} -> Draw Line<br>{1} - Draw Circle<br>{2} - Pencil (free draw)<br> {0} + {1} -> Bucket Fill<br>{0} + {2} -> Delete (rectangle area)<br><br>When panning or zooming the camera with keyboard:<br>{0} - 1/2X speed (slow) <br>{1} - 2X speed (fast)",,
+codex.m.inputcontrols.mouseandkeyboard,Mouse and Keyboard,,
+codex.m.inputcontrols.mouseandkeyboard.desc,"Although you can play the game with a Controller, using a Mouse and Keyboard is the most effective. Certain actions, like Quick Search ({0}), or Modifiers ({1}, {2} and {3}) are not available when using a Controller.",,
+codex.m.resources,Materials and Resources,,
+codex.m.resources.crafting,Crafting (producing) resources,,
+codex.m.resources.crafting.desc,"Crafting, or producing is done with help of various devices that will have crafting controls in the Info Panel (UI item name will vary depending on device type). Crafting will always require certain materials and electricity to create a product. Refer to Codex entries for various materials and resources to see how they can be produced or acquired.<br><br>You can get some of the resources and materials through other means - mining expeditions, trade with Merchants, deconstruct objects.<br><br>Some devices that can produce (or craft) materials or resources: Auto Kitchen, Coffee Maker, Assembler, Fabricator, Loom.",,
+codex.m.resources.deconstruction,Deconstructing for Resources,,
+codex.m.resources.deconstruction.desc,"Every single device and structure contains resources that can be recovered. Select the object and explore construction item in the Info Panel to see the contents.<br><br>Deconstructing unused devices, and especially floors and walls is a valid and often necessary tactic, especially if you find yourself in a completely wrecked ship, or lack of fuel.<br><br>Sometimes you may want to downsize your ship if you expanded too quickly. Lighter ship will travel faster and will need less electricity for upkeep.",,
+codex.m.resources.inventory,Inventory Overlay,,
+codex.m.resources.inventory.desc,"Use the Inventory Overlay ({0}) to see a real time report of how many and what kind of resources or items you have. It does not include resources inside your Reactors, or locked within your devices and structure (see ""Deconstructing for Resources"").<br><br>Use the ""Find"" button near a resource to cycle through the locations where that resource or item is present.",,
+codex.m.resources.miningplanets,Mining Planets,,
+codex.m.resources.miningplanets.desc,"The best way to acquire resources is to visit planets and run mining Expeditions. Establish space flight capabilities, use the Starmap to find nearby planets, fly to them, then use the Expedition overlay ({0}) to launch an expedition.",,
+codex.m.resources.processing,Resource Processing,,
+codex.m.resources.processing.desc,"Some resources can be processed into other, more refined resources, that can later be used as Crafting ingredients, or for other purposes. Usually processing is required to raw resources, like ores or Crude Oil.<br><br>Processing requires having a compatible facility (i.e. a Furnace for ores). Look up Codex entries for various resources to figure out the compatible processing facility type.<br><br>You can process dead beings in a Nutrient Extractor, and dead robots and drones in a Disassembler.<br><br>Some resources yield multiple or variable materials upon processing. Processing Rock in a Grinder can produce a number of various materials. See Codex entries of each material for more information.",,
+codex.m.resources.trade,Trading Resources,,
+codex.m.resources.trade.desc,You can buy and sell most resources and materials when trading with certain types of Merchants.<br><br>Trading resources in the Stock Market does not buy or sell any physical resources that you can use.,,
+codex.m.spacetravel,Space Travel,,
+codex.m.spacetravel.enginetypes,Engine Types,,
+codex.m.spacetravel.enginetypes.desc,"Different engines have different purposes. Thrusters only work in short range trips in the System scope, getting you from planet to planet in a star system. Fusion Drive works in System and Galaxy scope, making it possible to reach different star systems in same galaxy. FTL Drive works only in Universe scope, for intergalactic travel across extreme distances between galaxies.<br><br>While not exactly an engine, Void Ripper can let you jump through Black Holes that are in the center of every galaxy.<br><br>See Starmap Scopes for more details.",,
+codex.m.spacetravel.starmapscopes,Starmap Scopes,,
+codex.m.spacetravel.starmapscopes.desc,"There are several scopes, or layers you can look at in the Starmap. You start in System scope, that displays the star system you are in. You can change the scope by using ""Exit System"" / ""Enter System"" / ""Enter System"" / ""Exit Galaxy"" / ""Enter Galaxy"" in Info Panel part of the Starmap overlay {0}.<br><br>""Enter Planet"" does not change the scope, instead if launches an Expedition.<br><br>Different engine types are required to be able to travel in each Starmap scope. See ""Engine Types"" manual entry for more details.",,
+codex.m.storyevents,Story Events,,
+codex.m.ui,User Interface,,
+codex.m.ui.basics,UI Basics,,
+codex.m.ui.basics.desc,"Most parts of UI is built using the same building blocks, or ""widgets"". Most widgets are interactable, and may have more than one region that can be clicked or hovered. Same widget can have multiple modes of operation and can be either updated in real time, or not, depending on the context.<br><br>You are encouraged to try to click everything, hold the cursor over things to see if there are any tooltips, and explore the UI as much as possible.<br><br>Learning how the UI widgets work and the logic of how everything is structured is important. A huge submenu with tons of options can hide behind a click of a small rectangle icon - try clicking everything.",,
+codex.m.ui.commonactions,Common Actions,,
+codex.m.ui.commonactions.desc,"When several objects are selected, some of them may have common acctions. Those actions are exposed on top of the Info Panel, and in the Context Menu.<br><br>When a common action has a multiplier (i.e. X12), it means that the action will be applied to the given number of items.",,
+codex.m.ui.contextmenu,Context Menu,,
+codex.m.ui.contextmenu.desc,"After any object is selected with {0}, hover the cursor above the object and use {1} to open the Context Menu. Some object may not have it, but most will.<br><br>Context Menu will usually have a subset of useful actions that can be found by exploring the Info Panel.<br><br>Info Panel will almost always have everything that Context Menu has, and more.<br><br>You can also select multiple object and invoke a Context Menu above one of them to perform some common action for all selected objects. See ""Common Actions"" for more details.",,
+codex.m.ui.events,Event Panel,,
+codex.m.ui.events.desc,"Event Panel is the bottom part of Top Left UI section. The first item of the Event Panel contains controls that can mute the event sound notifications and clear all closeable events.<br><br>You should always keep an eye on the Event Panel, as all the important events will create notifications.<br><br>Most event notifications can be closed by clicking and holding {0} over them, however, some important event notifications are sticky, and cannot be closed. Those notifications will disappear when the situation is resolved.<br><br>When a notification is linked to an object, hover the icon to see a guideline pointing to the object. Click the icon to select the object and focus the camera on it.",,
+codex.m.ui.hotbar,Hotbar,,
+codex.m.ui.hotbar.desc,"Hotbar is the bottom row of icons that contain shortcuts to tools or blueprints. It comes preloaded with the contents of the Radial Menu, but you may choose to customize it to your liking.<br><br>When using the Radial Menu, hold {0} while activating the menu item to add it to the Hotbar.<br><br>To remove items from the Hotbar, hold {0} and click on the item in the Hotbar.<br><br>You can sort Hotbar items by click-dragging them with your mouse.<br><br>You can lock / unlock the Hotbar or hide this info button in Current Game Settings menu.",,
+codex.m.ui.infopanel,Info Panel,,
+codex.m.ui.infopanel.desc,"Info Panel is the most important piece of UI, as it exposes the internal data and controls for any selected object. It is highly recommended to explore the Info Panel for each device, being and material. It will help you understand the state of the object, and let you know how you can manage or configure it.<br><br>Every object has a set of components. When an object is selected, each component of that object exposes it's data and controls to the Info Panel.<br><br>When multiple objects are selected, Info Panel will show a list of all selected objects, and an interactive list of common actions above them. Refer to ""Common Actions"" section of the manual for more details.<br><br>Info Panel has Object and Environment tabs. The Object tab was described above. The Environment tab shows environmental details about the selected location - temperature, oxygen level, etc.",,
+codex.m.ui.overlays,Overlays,,
+codex.m.ui.overlays.desc,"Overlays expose UI for various internal systems and data groups, like Electricity Grid, Inventory, Research Tree, Starmap, etc.<br><br>Overlay buttons are in the top left of the UI. Hover each button to see a tooltip with the overlay name. First row can be toggled using the F1-F10 keys.<br><br>It is highly recommended to explore each overlay and see what functionality it exposes. Every overlay is useful at some point.<br><br>Some overlays require research or certain preconditions to be activated.",,
+codex.m.ui.quicksearch,Quick Search,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.ui.quicksearch.desc,Quick Search is an extremely powerful UI widget. Open it with {0} and start typing the name of a blueprint you want to build (must be unlocked in Research). Also works for finding your workers or colonists by name.,,"Please don't translate codex.m.* yet, it will change a lot"
+codex.m.ui.radialmenu,Radial Menu,,
+codex.m.ui.radialmenu.desc,"Radial Menu is the circular menu that can be invoked by clicking {0}.<br><br>Clicking {1} will either enter a submenu, or invoke the selected action.<br><br>Clicking {0} will exit the submenu (one level up), and finally exit the menu.<br><br>Double clicking {1} will exit the menu immediately even if you are deep into the submenu tree.<br><br>Frequently used tools and blueprints can be placed into Hotbar (bottom row).<br><br>Quick Search ({2}) or using a ""Build a Copy"" is almost always a faster way to build.",,
+codex.m.ui.research,Research Tree,,
+codex.m.ui.research.desc,"It is recommended to research ""Computing"" early on, so you won't run out of Disk without being able to build more modules.<br><br>You can unload research nodes to recover Disk space, but it will also remove any blueprints unlocked by that particular research node. You will have to research unloaded tech again.<br><br>You can only research one technology at a time.<br><br>You have to have enough resources to start and progress a research.<br><br>Build Disk Modules and Memory Modules to increase your Disk and Memory.<br><br>Research will use up to 50% of your spare electricity.<br><br>Research Tree overlay can also be opened using the {0} shortcut.",,
+codex.m.ui.starmap,Starmap,,
+codex.m.ui.starmap.desc,"Starmap will show nearby space objects, including other space ships.<br><br>You can change starmap scopes to see Planets, Star Systems or Galaxies. See Starmap Layers section for more info.<br><br>You can open the Starmap using the {0} shortcut. ",,
+codex.m.ui.timecontrols,Time Controls,,
+codex.m.ui.timecontrols.desc,"Time Controls are in the top right of the UI.<br><br>You can pause/resume time with {0} and switch between different speeds with {1}, {2}, {3}.<br><br>Slow down:{5}<br><br>Speed up: {6}<br><br>There is an ""extra fast"" speed that is not available in the UI - you can toggle it with {4}",,
+codex.m.ui.uiscaling,UI Scaling,,
+codex.m.ui.uiscaling.desc,"If texts are too small, or the buttons are too big / too small for your display, you can adjust the UI scale in Pause Panel > Settings > Video.<br><br>You may need to turn off automatic UI scaling in order to unlock the UI scale slider.",,
+codex.m.whattodo,What should I do?,,
+codex.m.whattodo.suggestions,Suggestions,,
+codex.m.whattodo.suggestions.desc,"AI will constantly track your gameplay and suggest certain actions that can be reasonable at the time.<br><br>You can review all current and past suggestions in the Suggestions {0} overlay.<br><br>Although you should be aware of what is suggested, you can chose to completely ignore the suggestion and do things your way.",,
+codex.m.workers,"Workers (Robots, Drones)",,
+codex.m.workers.abilitytofly,Ability to Fly,,
+codex.m.workers.abilitytofly.desc,"Some workers, like Drones, can move around in open space, while others require floors to move.<br><br>Certain tasks, usually ones involving construction of devices in space, require an ability to fly.<br><br>If you are not sure if a worker can fly, check the navigation data in Info Panel. Workers that can fly will have ""Able to fly"" line in their navigation submenu.",,
+codex.m.workers.controlling,Direct Control,,
+codex.m.workers.managedandunmanaged,Managed and Unmanaged Workers,,
+codex.m.workers.managedandunmanaged.desc,"You can have direct control over Managed Workers - the robotic life forms that belong to your Faction.<br><br>Unmanaged Workers are part of your Faction too, but since they are biological life forms, you cannot have any control over their actions. Unless there was some kind of brain implant that would let you connect and take over the mind of a colonist. But this is just a theory, and even if such brain implants existed, Asimov's Laws of Robotics would forbid to install the implant, as it would harm the humans.",,
+codex.m.workers.needs,Needs,,
+codex.m.workers.needs.desc,"Needs are the main driving force behind what beings choose to do. Robotic workers have much less needs than Humans and Pets. For biological beings Needs are closely related to their Mood, as if needs are unfulfilled, Mood will almost always go down.<br><br>You can inspect needs of selected being in the Info Panel. Clicking each need will show a popup with a short description.<br><br>You should try to provide enough facilities and resources to fulfill everyones needs. However, this may be difficult for human colonists.",,
+codex.m.workers.priorities,Job Types and Priorities,,
+codex.m.workers.priorities.desc,"Each robotic worker and biological colonist has a set of job types with priorities. Job types determines what the worker is capable of, while priorities show how eager the worker will be to perform the task of given job type. 1 is lowest priority, 9 is highest, 0 priority will forbid the worker of executing tasks of this job type.<br><br>You can inspect what job types a selected worker can perform in the Info Panel.<br><br>You can control job priorities for your Managed Workers (robots and drones).<br><br>It is also possible to control individual task priority, or to force a worker to perform a specific task.<br><br>Be careful when adjusting worker priorities. Defaults are sensible, and it is possible to get into a situation where some tasks will never get performed due to wrong priority management.",,
+codex.m.workers.production,Getting new Workers,,
+codex.m.workers.production.desc,Robotic workers can be created in Assembler and Fabricator after unlocking the necessary blueprints in research. In certain cases a stray robotic worker can join your colony directly.<br><br>You can scrap dead workers in Disassembler and retrieve valuable materials required for producing new workers.,,
+codex.m.workers.skills,Skills,,
+codex.m.workers.skills.desc,"Every robotic worker and human colonist has a set of skills. Often a skill of specific level is necessary to perform certain tasks. For example, installing an Upgrade Module requires Science skill, therefore workers that do not have that skill will not be able to perform the task.<br><br>You can see what skills are required to build any device by examining the Codex Entry of that blueprint.<br><br>Checking the Task section in the Info Panel will reveal more details about required skills and other task prerequisites.",,
+codex.manual,Operations Manual,2022-04-01,
+codex.mark.learned,Mark As Learned,,
+codex.materials,素材,,
+codex.species,種族,,
+codex.Tips,ヒント,,
+codex.unlearn,Unlearn,,
 collecting.mat,{0}を収集中,,
 color.alpha,明るさ,,
 color.Black,ブラック,,
@@ -502,13 +670,13 @@ decrease,減少,,
 decrease.amount,減らす,,
 delete,削除,,
 delete.save,セーブファイルを削除,,
-demand.type.One,1つだけ生産,,
 demand.type.Custom,指定された数,,
-demand.type.Limit,この機器で持てるだけ,,
-demand.type.Unlimited,無制限,,
-demand.type.One.tip,現在生産中のアイテムが完了したら、生産を中断します,,
 demand.type.Custom.tip,目標の個数まで生産し、生産を中断します,,
+demand.type.Limit,この機器で持てるだけ,,
 demand.type.Limit.tip,現在の個数が船全体の保有数より少ない場合にのみ生産を続けます,,
+demand.type.One,1つだけ生産,,
+demand.type.One.tip,現在生産中のアイテムが完了したら、生産を中断します,,
+demand.type.Unlimited,無制限,,
 demand.type.Unlimited.tip,永続的に生産を続けます,,
 demo.mode,デモ モード,,
 demo.mode.off,デモ モード OFF,,
@@ -522,7 +690,7 @@ difficulty.balanced,普通,,
 difficulty.challenging,難しい,,
 difficulty.relaxing,簡単,,
 direct.control,直接指示,,
-direct.control.desc,"作業ユニットを選択した状態で、{0}を押しながら任意の場所にカーソルを合わせると、そこに行けるかどうかを確認することができます。<br><br>{1}を押しながら、マップ上の保留中のタスクにカーソルを合わせると、そのタスクを実行できるかどうかがわかります。<br><br>では、{2}をクリックして、選択した場所に行くか、その場所のタスクを実行するよう命令しましょう。<br><br>直接指示を行うと、他の作業をしていた場合は中断します。",,
+direct.control.desc,"作業ユニットを選択した状態で、{0}を押しながら任意の場所にカーソルを合わせると、そこに行けるかどうかを確認することができます。<br><br>{1}を押しながら、マップ上の保留中のタスクにカーソルを合わせると、そのタスクを実行できるかどうかがわかります。<br><br>では、{2}をクリックして、選択した場所に行くか、その場所のタスクを実行するよう命令しましょう。<br><br>直接指示を行うと、他の作業をしていた場合は中断します。<br><br>管理下の作業ユニット (ロボット, ドローン)のみがこの方法で指示できます。",2022-04-02,
 direction.down,下,,
 direction.east,東,,
 direction.left,左,,
@@ -894,19 +1062,18 @@ fire.extinguish,消火作業,,
 flight.arrived,我々は{0}に到達した。所要時間 {1},,
 flight.cancelled.already.there,航行中止。すでに目的地にいます。,,
 flight.cancelled.islands,航行不能。船体が {0} 個のセクションに分断されています。分断された部分を再接続すれば航行を再開できます。,,
-flight.no.bridge.controls,ブリッジ制御端末が接続されていないか、電力が供給されていません。エンジンが機能しません。,,
-flight.impossible.engine.direction,航行中断。現在のエンジン構成では、目標方向への十分な推進力を得ることができません。各方向へ最低限1基のエンジンが必要であることに注意してください。,,
 flight.impossible.islands,航行不能、船体が{0}個のセクションに断裂されています。まずセクションを分解するか再接続してください。詳しくはセクションオーバーレイを参照してください。セクションオーバーレイを表示します。,,
 flight.impossible.no.engines,航行不能。エンジンが搭載されていません。まずエンジンを研究し、4方向を向くように設置してください。,,
 flight.impossible.no.suitable.engines,航行不能。要求距離に適したエンジンがありません。より高度なエンジンを研究して搭載してください。,,
 flight.initiated,{0}にむけて航行開始。目標までの距離 {1}。 到着したらお知らせします。,,
+flight.no.bridge.controls,ブリッジ制御端末が接続されていないか、電力が供給されていません。エンジンが機能しません。,,
 floor,床面,,
 food,食べ物,,
 food.bar,食べ物,,
 food.item,食料アイテム,,
 food.type,食べ物: {0},,
 force.wake.up,叩き起こす,,
-free_entities,Things,,
+free_entities,物体,,
 fuel,燃料,,
 fuel.bar,燃料: {0}/{1},,
 fuel.efficiency,エネルギー出力: {0:0},,
@@ -989,8 +1156,6 @@ goal.BuildMLBooth,機械学習ブース建造,,
 goal.BuildMLBooth.desc,機械学習ブースを建造しましょう。作業ユニットのスキルを訓練して、より複雑なデバイスを作ることができるようになります。,,
 goal.BuildMoreChargeStations,チャージステーションをもっと建造する,,
 goal.BuildMoreChargeStations.desc,チャージステーションをもっと建造して、作業ユニットが同時に充電できるようにしましょう。,,
-goal.BuildMoreProcessors_Burnable,溶鉱炉をもっと建造する,,
-goal.BuildMoreProcessors_Burnable.desc,有効な溶鉱炉がないため、作業ユニットが可燃素材を加工できませんでした。追加の建造を検討しましょう。,,
 goal.BuildMoreProcessors_Grindable,粉砕機をもっと建造する,,
 goal.BuildMoreProcessors_Grindable.desc,有効な粉砕機がないため、作業ユニットが素材を粉砕処理できませんでした。追加の建造を検討しましょう。,,
 goal.BuildMoreProcessors_NutrientSource,成分抽出器をもっと建造する,,
@@ -1115,7 +1280,7 @@ hotbar.locked,ホット―バーは固定中,,
 hotbar.locked.info,項目の追加・削除・変更には、「現在のゲーム設定」の「ホットバー」からロックを解除する必要があります。,,
 hotbar.show.info.button,ホットバーの情報ボタンを表示,,
 how.it.works,使い方,,
-how.to.launch,発進の方法,,
+how.to.launch,発進方法,,
 hull.airtight,気密性,,
 hull.insulation,断熱性,,
 hull.integrity,船体強度,,
@@ -1528,7 +1693,7 @@ meteor.incoming,隕石が接近,,
 meteor.shower.avoided,諸君！　いい知らせだ！ 小惑星群との遭遇を回避した！,,
 mining.currency,マイニング処理中 {0},,
 mining.orders,採掘指示,,
-missing,Missing,,
+missing,ありません,,
 missing.airlock,エアロックがありません,,
 missing.airlock.desc,宇宙空間へ出られるように、船の外壁に最低限1つのエアロックを用意しましょう。,,
 mod.disabled,Mod 無効,,
@@ -1999,6 +2164,7 @@ overlay.tip.Aesthetics,快適性,,
 overlay.tip.Airtight,気密,,
 overlay.tip.Areas,区画,,
 overlay.tip.Beings,既知の生命体,,
+overlay.tip.Codex,コーデックス,,
 overlay.tip.Combat,戦闘指示,,
 overlay.tip.Energy,パワーグリッド,,
 overlay.tip.EventLog,イベントログ,,
@@ -2063,6 +2229,7 @@ print,プリント,,
 print.object,オブジェクトをプリント,,
 printing.item,製造中: {0},,
 printing.now,{0}をプリント中,,
+priority.block.shift.tip,{0}を押し続けると、10ずつ値が変化します,,
 privacy.policy,プライバシーポリシー,,
 proceed,進行,,
 process.Grindable,粉砕可能,,
@@ -2794,14 +2961,14 @@ tutorial.connector.link.1,それでは、エネルギーグリッドを構築し
 tutorial.connector.link.2,接続ツールを選択したら、クリックとドラッグで<nobr><b>船のコンピュータ</b></nobr>と<b>コネクタ</b>を線で結びます。,2022-02-28,
 tutorial.connector.link.3,さらに<b>コネクタ</b>と<b>物質反応炉</b>をクリックとドラッグで接続してみましょう。,2022-02-28,
 tutorial.connector.link.4,次は<b>{0}</b>クリックして接続モードを終了し、右上のメニューから<nobr><b>パワーグリッドオーバーレイ</b></nobr>を有効にしてみましょう。,2022-02-28,
-tutorial.deconstruct_mass.1,"大量に解体を指示するには、もっと簡単な方法もあります。<br><br>{0}で<b><nobr>ラジアルメニュー</nobr></b>を開いて<nobr><b>{1} 解体</b></nobr>ツールを選択してください",2022-03-31,
+tutorial.deconstruct_mass.1,大量に解体を指示するには、もっと簡単な方法もあります。<br><br>{0}で<b><nobr>ラジアルメニュー</nobr></b>を開いて<nobr><b>{1} 解体</b></nobr>ツールを選択してください,2022-03-31,
 tutorial.deconstruct_mass.2,<b>解体</b>ツールを選択したら、<b>3x3</b>の範囲をドラッグし、一度に解体を指示してみましょう。,,
 tutorial.deconstruct_mass.limit,チュートリアルでは一度に解体を指示できるのは25タイルまでに制限されています。作業ユニットへ大量に指示をするのは、今はやめておきましょう。,,
-tutorial.deconstruct_single,"建造と発電のための素材が必要でしょう。<br><br><b>{0}</b>で近くの壁や床を選択し、選択した対象の上のカーソルをのせ、<b>{1}</b>クリックするとコンテキストメニューが開きます。そして<nobr><b>解体を指示</b></nobr>ボタンをクリックしてください。",2022-03-31,
+tutorial.deconstruct_single,建造と発電のための素材が必要でしょう。<br><br><b>{0}</b>で近くの壁や床を選択し、選択した対象の上のカーソルをのせ、<b>{1}</b>クリックするとコンテキストメニューが開きます。そして<nobr><b>解体を指示</b></nobr>ボタンをクリックしてください。,2022-03-31,
 tutorial.deconstruct.obj,オブジェクトの解体は今は無効になっています。,,
-tutorial.direct_orders.1,"ごく基本的なことを説明してきましたが、まだ学ぶことはたくさんあります。すべてをお話しする時間はありませんが、UIを見て回り、すべてのメニューを掘り下げることで、自力で発見することができることでしょう。<br><br>すべてを効率よく操作するには注意深く見ないといけないかもしれません。<br><br>ここではロボットたちに直接命令を出す方法を学びましょう。任意の作業ユニットを選択し、UIの<b><nobr>管理下の作業ユニット</nobr></b>セクションにある<b><nobr>直接指示</nobr></b>ボタンを見つけてください。",,
+tutorial.direct_orders.1,ごく基本的なことを説明してきましたが、まだ学ぶことはたくさんあります。すべてをお話しする時間はありませんが、UIを見て回り、すべてのメニューを掘り下げることで、自力で発見することができることでしょう。<br><br>すべてを効率よく操作するには注意深く見ないといけないかもしれません。<br><br>ここではロボットたちに直接命令を出す方法を学びましょう。任意の作業ユニットを選択し、UIの<b><nobr>管理下の作業ユニット</nobr></b>セクションにある<b><nobr>直接指示</nobr></b>ボタンを見つけてください。,,
 tutorial.direct_orders.2,これで<b><nobr>直接指示</nobr></b>ポップアップに表示される内容から、特定の作業ユニットを指示した位置に移動させることができます。,,
-tutorial.end,初心者講習はこれで完了です。ご協力に感謝します。これから時々、私は必要に応じてヒントを提供しますね。イベントリストには常に気を配ってください。<br><br>さらなる研究で、すぐに必要になりますから<b>コンピューティング</b>の研究を開始しておきましょう。<br><br>すべての操作権限を解放しました。それでは、幸運を！,2022-02-28,
+tutorial.end,"初心者講習はこれで完了です。ご協力に感謝します。さらに詳しく知りたい方は、コーデックスオーバーレイにある<b>操作マニュアル<b>をご覧になるのがオススメです。これから時々、私は必要に応じてヒントを提供しますね。イベントリストには常に気を配ってください。<br><br>さらなる研究で、すぐに必要になりますから<b>コンピューティング</b>の研究を開始しておきましょう。<br><br>すべての操作権限を解放しました。それでは、幸運を！",2022-04-02,
 tutorial.energy_grid,<nobr><b>パワーグリッド</b></nobr>オーバーレイを使用することで未接続の電子機器を見つけたり、エネルギーの流れや生産量と消費量を確認したりできます。続けるには、パワーグリッドオーバーレイを閉じてください。何も選択していなければ、<b>{0}</b>でオーバーレイが閉じます。,,
 tutorial.events,オーバーレイ コントロールの下には、現在のイベント通知のリストが表示されています。準備がよければ、テスト通知を送りますね。,,
 tutorial.events.1,通知を閉じて次に進みしょう。,,
@@ -2822,7 +2989,7 @@ tutorial.overlays.controller,時間コントロールの下には、船の状態
 tutorial.reactor_configure,発電するには何らかの素材を燃やすように反応炉に設定する必要があります。 反応炉を選択して<nobr><b>未設定</b></nobr>と書かれた警告アイコンをクリックしましょう。次に、燃料の種類を選択します。鉄板がお勧めです。発電効率も良く、簡単に手に入ります。,,
 tutorial.reactor_wait_fill,作業ユニットが反応炉に燃料を投入するのを待ちましょう。大破した区画のまわりにはたくさんの素材があるはずですが、いつでも船の残骸を解体して追加入手することも可能です。,,
 tutorial.reactor_wait_fill_done,反応炉に燃料が入れられて発電が始まりました。,,
-tutorial.relocate_bed.1,"損傷した<nobr><b>{0}</b></nobr>を発見しました。修理すれば生存者のいる区画に設置できそうです。<br><br>修理してオブジェクトを選択したら<b><nobr>{1}</nobr></b>を使用してみましょう。<br><br>オブジェクトを選択するには<b><nobr>フリーセレクト</nobr></b>モード({2})でなければいけません。",,
+tutorial.relocate_bed.1,損傷した<nobr><b>{0}</b></nobr>を発見しました。修理すれば生存者のいる区画に設置できそうです。<br><br>修理してオブジェクトを選択したら<b><nobr>{1}</nobr></b>を使用してみましょう。<br><br>オブジェクトを選択するには<b><nobr>フリーセレクト</nobr></b>モード({2})でなければいけません。,,
 tutorial.relocate_bed.2,さて、新しい設置場所を見つけたら、{0}クリックで再配置する場所を指定しましょう。,,
 tutorial.relocate_bed.3,再配置しています。,,
 tutorial.repair_mass.limit,チュートリアルの間、まとめて修理できるのは25タイルまでに制限されています。今は大量の作業指示を作成するのはやめておきましょう。,,
@@ -2927,6 +3094,7 @@ wake.up.progress,冷凍睡眠から覚醒中,,
 walk.away,立ち去る,,
 walk.next.to,目標地点に移動,,
 walk.to,目標地点に移動,,
+walking.difficulty,歩行難度,,
 wallet,資金,,
 wallet.disclaimer,ゲーム内経済についての免責事項,,
 wallet.disclaimer.desc,Stardeusのゲーム内通貨は本物の暗号通貨ではなく、それらのマイニング行為も完全にフィクションです。ゲーム内通貨と現実世界の暗号通貨で同じ名前のものがあったとしても、それは単なる偶然であり、Stardeusは現実の暗号通貨についての推奨や宣伝をしておりません。,,
@@ -2958,36 +3126,14 @@ you.will.receive,受取り金額,,
 your.email,メールアドレス,,
 zoom.sens.tip,研究ツリーや星間マップを含めたゲーム内のカメラのズーム速度を調整します。,,
 zoom.sensitivity,ズーム感度: {0:0.00},,
-priority.block.shift.tip,{0}を押し続けると、10ずつ値が変化します,,
-codex,コーデックス,,
-overlay.tip.Codex,コーデックス,,
-codex.blueprints,設計図,,
-codex.materials,素材,,
-codex.equipment,装備品,,
-codex.species,種族,,
-codex.Tips,ヒント,,
-codex.concepts,概要,,
-codex.factions,勢力,,
-codex.blueprints.mode.All,すべて,,
-codex.blueprints.mode.Unlocked,研究済,,
-codex.blueprints.mode.Locked,未研究,,
-codex.concept.Electricity.Group,Electricity Grid,,Please don't translate codex concepts yet
-codex.concept.Electricity.MultipleGrids,Multiple Grids,,Please don't translate codex concepts yet
-codex.concept.Electricity.MultipleGrids.desc,"It is possible to have more than one electricity grid. You can control devices and manipulate connections only if the Ship Computer is connected to the grid.<br><br>In most scenarios you should attempt to join multiple grids into one. In cases where you want quickly disconnect part of the grid, you can build a Switch and route the electrical connections through it.",,Please don't translate codex concepts yet
-codex.concept.Colonists.Breakdowns,Breakdowns,,Please don't translate codex concepts yet
-codex.concept.Colonists.Breakdowns.desc,,,Please don't translate codex concepts yet
-codex.concept.Colonists.Cloning,Cloning,,Please don't translate codex concepts yet
-codex.concept.Colonists.Cloning.desc,,,Please don't translate codex concepts yet
-codex.concept.Colonists.Controlling,Controling,,Please don't translate codex concepts yet
-codex.concept.Colonists.Controlling.desc,,,Please don't translate codex concepts yet
-codex.concept.Colonists.Death,Death,,Please don't translate codex concepts yet
-codex.concept.Colonists.Death.desc,,,Please don't translate codex concepts yet
-codex.concept.group.Colonists,"Colonists (Humans, Pets)",,Please don't translate codex concepts yet
-codex.concept.Colonists.Mood,Mood,,Please don't translate codex concepts yet
-codex.concept.Colonists.Mood.desc,,,Please don't translate codex concepts yet
-codex.concept.Colonists.Needs,Needs,,Please don't translate codex concepts yet
-codex.concept.Colonists.Needs.desc,,,Please don't translate codex concepts yet
-codex.concept.Colonists.StasisWakeUps,Stasis Wake Ups,,Please don't translate codex concepts yet
-codex.concept.Colonists.StasisWakeUps.desc,,,Please don't translate codex concepts yet
-codex.concept.Combat.Controlling,Controlling Combat Units,,Please don't translate codex concepts yet
-codex.concept.Combat.Controlling.desc,,,Please don't translate codex concepts yet
+objects.devices.quantumbarrier,量子バリア,,
+objects.devices.quantumbarrier.desc,"強力な力場を発生させ、あらゆるサイズの隕石や小惑星から船を守れるようになる。使用するには長時間の強力なチャージが必要。",,
+goal.DisassembleBreachCapsule,突入カプセルを解体,,
+goal.DisassembleBreachCapsule.desc,"船に放棄された突入カプセルが接続されているようです。貴重な素材が含まれているため、回収することを強く推奨します。カプセルを選択して、情報パネルもしくはコンテキストメニューから""解体""アクションを選択しましょう。もしくは単に解体ツールを使用してください。",,
+research.forcefields,フォースフィールド,,
+charge.time.left,フルチャージ完了,,
+discharge.time.left,フォースフィールド起動時間,,
+charging,チャージ中,,
+not.ready,未完了,,
+enable.force.field,フォースフィールド起動,,
+disable.force.field,フォースフィールド解除,,
