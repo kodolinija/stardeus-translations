@@ -144,3 +144,7 @@ YouHanHua Team
 ### Japanese
 
 * [Souzen Yurama](https://github.com/s-yurama)
+
+### Ukrainian
+
+* [that-damned-IT-guy](https://github.com/dm-0975)
