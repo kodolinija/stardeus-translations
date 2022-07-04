@@ -53,16 +53,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This repository is a place for volunteers to contribute to the game stardeus.
-We are currently actively supporting 3 languages with the intend to expand.
+This repository is a place for volunteers to contribute community translations for Stardeus.
 
 Getting started is actually super easy!
 So if you are new to this and have the will and time. You might want to give it a shot.
 
 On the other hand, you might tumble over this repository and always had this annoying translation error in your game.
 In this case please open an <a href="https://github.com/othneildrew/Best-README-Template/issues">Issue</a> so we can improve our translation.
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
