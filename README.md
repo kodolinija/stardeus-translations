@@ -104,6 +104,7 @@ Just don't forget to visit get-a-role.
 
 * Tassido
 * [K-Win](https://github.com/K-Win)
+* Innos
 
 ### French
 
