@@ -61,6 +61,10 @@ So if you are new to this and have the will and time. You might want to give it 
 On the other hand, you might tumble over this repository and always had this annoying translation error in your game.
 In this case please open an <a href="https://github.com/othneildrew/Best-README-Template/issues">Issue</a> so we can improve our translation.
 
+## Contributor License Agreement
+
+Before contributing, you will have to sign [the following CLA](https://docs.google.com/document/d/1X2G0VvNNtRHAApqbNKRXkYmKHlg1j5tBF2hZPy6LHM4/edit?usp=sharing). You can either print the document, sign and scan it (or make a photo). Then email the agreement to tomas at kodolinija dot com, including the details about your intended contribution. This agreement applies to all contributions to Kodo Linija, be it translations, modding repository, or anything related.
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -113,7 +117,7 @@ Just don't forget to visit get-a-role.
 * [eFkoCaptain](https://github.com/eFkoCaptain)
 
 
-### Chinese 
+### Chinese
 
 YouHanHua Team
 

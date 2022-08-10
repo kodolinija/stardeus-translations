@@ -1,0 +1,3 @@
+## Contributor License Agreement
+
+Before contributing, you will have to sign [the following CLA](https://docs.google.com/document/d/1X2G0VvNNtRHAApqbNKRXkYmKHlg1j5tBF2hZPy6LHM4/edit?usp=sharing). You can either print the document, sign and scan it (or make a photo). Then email the agreement to tomas at kodolinija dot com, including the details about your intended contribution. This agreement applies to all contributions to Kodo Linija, be it translations, modding repository, or anything related.
