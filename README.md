@@ -107,11 +107,6 @@ Just don't forget to visit get-a-role.
 * [K-Win](https://github.com/K-Win)
 * Innos
 
-### French
-
-* [ShadowOffice](https://github.com/shadowoffice)
-* !Neo
-
 ### Czech
 
 * [eFkoCaptain](https://github.com/eFkoCaptain)
