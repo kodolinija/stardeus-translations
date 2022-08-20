@@ -116,17 +116,6 @@ Just don't forget to visit get-a-role.
 
 * [eFkoCaptain](https://github.com/eFkoCaptain)
 
-
-### Chinese
-
-YouHanHua Team
-
-* [law_4x](https://github.com/law4x)
-* 翻译菌2号
-* Senio
-* Ding
-* 404のUMP-9
-
 ### Portuguese (Brazil)
 
 * [unggod](https://github.com/unggod)
