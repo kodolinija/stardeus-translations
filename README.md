@@ -150,3 +150,7 @@ YouHanHua Team
 ### Ukrainian
 
 * [that-damned-IT-guy](https://github.com/dm-0975)
+
+### Russian
+
+* [iyalang](https://github.com/iyalang)
