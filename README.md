@@ -111,7 +111,7 @@ Just don't forget to visit get-a-role.
 
 * [ShadowOffice](https://github.com/shadowoffice)
 * !Neo
-* [rem02](https://github.com/rem02/stardeus-translations)
+* [rem02](https://github.com/rem02/stardeus-translations) aka ZeMecano
 
 ### Czech
 
