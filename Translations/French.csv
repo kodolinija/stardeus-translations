@@ -3092,7 +3092,7 @@ starmap.about,"Nous avons connecté les commandes de pont ! Cliquez sur la surc
 starmap.blackhole.warping,Se déformer à travers un trou noir<br><size=200%>{0}</size>,
 starmap.changing.scope,Portée de la carte des étoiles<br><size=200%>{0}</size>,
 starmap.enter.dest.not.null,"Opération impossible, nous avons une destination active. Nous devons terminer ou annuler notre voyage actuel pour modifier la portée dans la carte des étoiles.",
-start.mining,Commencer à miner,
+start.mining,"Commencer à miner",
 start.tutorial,Démarrer le didacticiel,
 starting.expedition,Départ de l'expédition vers {0}. La navette sera lancée lorsque les membres d'équipage l'embarqueront. Vous pouvez suivre la progression de l'expédition dans la surcouche ""Expéditions"" dans le menu en haut à droite.,
 stasis.matrix,La matrice,
