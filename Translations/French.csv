@@ -2195,7 +2195,7 @@ obj.materials.protein.desc,Nutriment extrait d'organismes vivants à base de via
 obj.materials.quartz,Quartz,
 obj.materials.quartz.desc,Un minéral commun utilisé pour produire du verre,
 obj.materials.rock,Roche,
-obj.materials.rock.desc,"Substance ressemblant à de la pierre pouvant être dans le sol et nécessaire à plusieurs systèmes de survie. Peut contenir d'autres matériaux à l'intérieur".,2022-03-30,
+obj.materials.rock.desc,"Substance ressemblant à de la pierre pouvant être dans le sol et nécessaire à plusieurs systèmes de survie. Peut contenir d'autres matériaux à l'intérieur.",2022-03-30,
 obj.materials.rubber,Caoutchouc,
 obj.materials.rubber.desc,Un matériau élastique largement utilisé dans diverses machines et équipements,
 obj.materials.silicon,Silicium,
