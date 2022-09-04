@@ -2057,7 +2057,7 @@ no.task.reason.unreachable.mats.grounded,"<b>n'a pas pu atteindre tous les maté
 no.task.reason.unsafe,"<b>{0}</b> tâches ignorées, car le lieu de travail ou les matériaux requis pour la tâche se trouvaient dans un <b>emplacement dangereux</b> (pas d'oxygène, trop froid, trop chaud ?)",
 no.task.reason.workable,<b>{0}</b> les tâches sont <b>réalisables</b> pour cela.,
 no.tasks.rason.clock.stopped,"Remarque: <b>Le temps est suspendu</b> pour le moment, les tâches ne sont évaluées que lorsque le temps est en cours d'exécution.",
-no.terraform.controls,Cette fonction nécessite une connexion au controleur de terraformation. Recherchez "Terraformation" pour acquérir le plan du controleur de terraformation.
+no.terraform.controls,"Cette fonction nécessite une connexion au controleur de terraformation. Recherchez ""Terraformation"" pour acquérir le plan du controleur de terraformation".
 no.terraform.target,Aucune cible pour la terraformation, 
 no.terraform.target.help,"Approchez-vous d'une planète terraformable pour commencer le processus de terraformation. Vous pouvez trouver des planètes terraformables dans la carte en recherchant une marque spéciale près du nom de la galaxie, du système et de la planète.",
 no.terraformable,Aucune planète terraformable,
