@@ -1821,8 +1821,9 @@ menu.equipment,Équipement,,
 menu.equipment.desc,Équipement d'apparition,,
 menu.exit,Quitter,,
 menu.exit.desc,Quitter au menu principal,,
-menu.exit.os,Quitter vers le bureau,,
-menu.exit.os.desc,Enregistrez le jeu et quittez vers le bureau,,
+
+
+
 menu.facilities,Installations,,
 menu.facilities.desc,Diverses installations,,
 menu.floorlit,Sols éclairés,,
