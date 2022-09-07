@@ -3562,7 +3562,7 @@ video.vsync.every3,3フレームごと,,
 video.vsync.every4,4フレームごと,,
 video.vsync.off,オフ,,
 video.vsync.on,オン,,
-video.vsync.tip,"ヒント：垂直同期を「2フレームごと""」に設定すると、FPSがモニタのリフレッシュレートの半分（通常は30）に制限されます。これはノートパソコンなどのバッテリー消費や発熱を減らすのに役立つかもしれません。""",,
+video.vsync.tip,"ヒント：垂直同期を ""2フレームごと"" に設定すると、FPSがモニタのリフレッシュレートの半分（通常は30）に制限されます。これはノートパソコンなどのバッテリー消費や発熱を減らすのに役立つかもしれません。",,
 vmouse.acceleration,ゲームパッドのポインター加速度。{0:0.##},,
 vmouse.acceleration.tip,ポインタはゲームパッドのスティックを操作している間、この量だけ加速していきます。0に設定すると加速はしなくなります。,,
 vmouse.max.speed,ゲームパッドのポインター最大速度。{0:0.##}x,,
@@ -3633,4 +3633,12 @@ zoom.sens.tip,研究ツリーや星間マップを含めたゲーム内のカメ
 zoom.sensitivity,ズームのカメラ感度: {0:0.00},,
 el.connector.fully.utilized,コネクタは全て使用中！,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.build.connector.here,ここにコネクタを建造しましょう,,Displayed in a tooltip when dragging a connector 
-el.connector.out.of.range,接続範囲外！,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
+el.connector.out.of.range,接続範囲外です！,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
+el.connector.not.on.grid,コネクタが船のコンピュータのグリッド外です！,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
+el.device.not.powerable,この機器は電力不要です！,,Displayed in a tooltip when trying to connect a device that does not require electricity
+el.device.heavily.damaged,大破している機器です！,,Displayed in a tooltip when tryng to connect to a device that is damaged too much
+el.device.not.constructed,未完成の機器です！,,Displayed when trying to connect to a device that has not been built yet
+el.not.a.connector,この機器はコネクタではありません！,,"Displayed in a tooltip when trying to connect two devices directly (which is not allowed, one of the devices must be a connector)"
+blocked.door,通行不能のドア,,"Displayed in event panel when there is a door that is blocked by some device, preventing the door from being used"
+soon,まもなく,,Displayed when something is going to happen very soon (countdown timer is down to 0). Should be short.
+
