@@ -65,8 +65,6 @@ achievement.TerraformOceans,Terraformer les océans,,
 achievement.TerraformOceans.desc,Créer des océans et des fleuves sur une planète,,
 achievement.TerraformTerrain,Terraformer un terrain,,
 achievement.TerraformTerrain.desc,Créer un relief et des continents sur une planète,,
-
-
 achievement.unlocked,Succès débloqué: {0},,
 achievement.VoidRipper,Surffer du vide,,
 achievement.VoidRipper.desc,Traverser un trou noir,,
@@ -919,7 +917,6 @@ enable.combat.tip,"Si le combat est désactivé, le jeu deviendra complètement 
 enable.elysium.mode,Activer le mode Elysium,,
 enable.force.field,Activer le champ de force,,
 enabling.elysium,Activer l'Elysium,,
-
 enclosed.areas,Zones fermées,,
 ended.ago,Terminé {0},,
 ends.in,Terminé en {0},,
@@ -1774,8 +1771,6 @@ material.TitaniumPlate,Plaque de titane,,
 material.Uranium,Uranium,,
 material.Water,L'eau,,
 material.Wood,Bois,,
-
-
 matter.reactor,Réacteur de matière,,
 max.texture.size.too.high,"La qualité de texture sélectionnée n'est pas disponible pour votre GPU. Il sera automatiquement réinitialisé à la valeur la plus élevée disponible.",,
 meal.take,Prends un repas,,
@@ -1862,8 +1857,6 @@ menu.main,Menu principal,,
 menu.main.tooltip,Utilisez TAB pour rechercher des éléments dans ce menu,,
 menu.materials,Matériaux,,
 menu.materials.desc,Divers matériaux,,
-
-
 menu.meals,Repas,,
 menu.meals.desc,Génère un repas,,
 menu.misc,Divers,,
@@ -2763,10 +2756,6 @@ research.lighting,Éclairage,,
 research.liquidprocessing,Traitement des liquides,,
 research.manufacturing,Production,,
 research.manufacturingadvanced,Production avancée,,
-
-
-
-
 research.mindcontrol,Contrôle mental,,
 research.molecularrearrangement,Réarrangement moléculaire,,
 research.not.powered,Impossible d'afficher la recherche lorsque l'ordinateur de bord n'est pas alimenté. Connectez l'ordinateur de bord au réseau électrique.,,
@@ -3584,11 +3573,8 @@ unsafe.temp.too.hot,Conditions dangereuses: trop chaud,,
 update.available,Mise à jour disponible,,
 update.available.info,Votre version a <b>{0}</b> jours !<br><br>Dernière version: <b>{2}</b><br>Votre version: <b>{1}</b><br>Nouveaux changements et correctifs: <b>{3}</b>,,
 upgrade.how.to,Installation d'amélioration,,
-
 upgrade.how.to.desc,"Pour installer cette amélioration, recherchez un appareil compatible, ouvrez son panneau d'informations et dans la section ""Améliorations"", sélectionnez cette amélioration dans la liste des améliorations disponibles.",,
-
 upgrade.how.to.install,Comment installer,,
-
 upgrade.in.progres,Amélioration en cours,,
 upgrade.not.available,Amélioration non disponible,,
 upgrade.slots,Emplacements d'amélioration,,
@@ -3597,6 +3583,7 @@ upload.to.steam,Télécharger sur le Workshop,,
 use.toilet,Utiliser les toilettes,,
 used.a.toilet,Utilisé des toilettes,,
 used.planter.toilet,A utilisé une jardinière comme toilette,,
+v.mouse.sens.tip,"Lorsque vous jouez avec une manette de jeu, vous pouvez contrôler le pointeur de la souris virtuelle. Ceci règle la vitesse de ce pointeur.",,
 value.is.empty,La valeur est vide,,
 velocity,Vecteur de vitesse,,
 vent.closed,l'évent est fermé,,
@@ -3624,7 +3611,6 @@ video.vsync.every4,Chaque 4ème image,,
 video.vsync.off,Désactivé,,
 video.vsync.on,Activé,,
 video.vsync.tip,"Astuce: le réglage de VSYNC sur ""Chaque 2ème image"" limitera le FPS à la moitié du taux de rafraîchissement de votre moniteur (généralement 30). Cela peut aider à réduire la consommation de la batterie et la chaleur sur les ordinateurs portables.",,
-v.mouse.sens.tip,"Lorsque vous jouez avec une manette de jeu, vous pouvez contrôler le pointeur de la souris virtuelle. Ceci règle la vitesse de ce pointeur.",,
 vmouse.acceleration,Accélération du pad de la manette: {0:0.##},,
 vmouse.acceleration.tip,"Le mouvement du pointeur de la manette de jeu s'accélérera de ce montant pendant que le manche est tenu. Mettre à 0 pour désactiver l'accélération.",,
 vmouse.max.speed,Vitesse max du pad de la manette: {0:0.##}x,,
