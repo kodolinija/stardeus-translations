@@ -3665,3 +3665,26 @@ your.email,Seu E-mail,,
 zoom,zoom,,
 zoom.sens.tip,"Velocidade do zoom da câmera no jogo , incluindo pesquisa e mapa estelar .",,
 zoom.sensitivity,Sensibilidade do Zoom: {0:0.00},,
+quests,Missões,,
+overlay.tip.Quests,Missões,,
+quest.ColonizePlanet,Colonizar um Planeta,,
+quest.ColonizePlanet.desc,Precisamos achar um planeta compatível e assentar uma colonia.,,
+quest.new,Nova Missão: <b>{0}</b><br><br>{1},,
+quest.show.all,Mostrar Missões,,
+quest.step.completed,<b>{2}</b> [{0}/{1}]<br><b>fase completada</b>: {3},,
+quest.completed,<b>Missão completada: {0}</b><br><br>{1},,
+quest.step.research.title,Pesquise <b>{0}</b>,,
+quest.step.build.one.title,Construa <b>{0}</b>,,
+quest.step.build.many.title,Construções <b>{0} {1}</b>,,
+quest.step.colonize.title,Colonizar uma planeta compatível,,
+quest.step.terraform.title,Terraformar <b>{0}</b>,,
+quests.active,Ativa,,"Appears on buttons that switch tabs, should be short"
+quests.available,Disponível,,"Appears on buttons that switch tabs, should be short"
+quests.failed,Fracassada,,"Appears on buttons that switch tabs, should be short"
+quests.completed,Completada,,"Appears on buttons that switch tabs, should be short"
+quests.list.active,<b>Missões: Ativas</b> ,,Used as a list header for this quest type
+quests.list.available,<b>Missões: Disponíveis</b>,,Used as a list header for this quest type
+quests.list.failed,<b>Missões: Fracassadas</b> Quests,,Used as a list header for this quest type
+quests.list.completed,<b>Missões: COmpletadas</b>,,Used as a list header for this quest type
+quest.details,Detalhes,,"Displayed on a small button, should be short"
+quest.set.active,Selecionar,,"Displayed on a small button, should be short"
