@@ -3,5 +3,5 @@
     "Name" : "Stardeus Translations",
     "Description" : "Community contributed Stardeus translations",
     "ModVersion" : "1.0.0",
-    "Dependencies" : [ "core" ]
+    "Dependencies" : [ "Core" ]
 }
