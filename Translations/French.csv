@@ -2799,7 +2799,7 @@ research.drone,Drone,,
 research.economy,Économie,,
 research.economy.desc,"Déverrouille la fonctionnalité de surcouche ""Économie""",,
 research.electronics,Électronique,,
-research.elysium,Elysium,," "
+research.elysium,Elysium,,
 research.elysium.desc,Permet la conversion de la chambre de stase en Elysium.,,
 research.elysiumefficiency,Efficacité de l'Elysium,,
 research.elysiumelectricity,Production d'électricité de l'Elysium,,
