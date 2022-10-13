@@ -2328,7 +2328,7 @@ objects.devices.furnace.desc,"Haut fourneau, généralement utilisé pour la fus
 objects.devices.fusiondrive,Propulseur à fusion,,
 objects.devices.fusiondrive.desc,"Un propulseur à fusion, alimenté par l'électricité. Nécessaire pour voyager à travers différents systèmes stellaires.",2022-01-07,
 objects.devices.grinder,Broyeur,,
-objects.devices.grinder.desc,Utilisé pour broyer des matériaux plus gros en plus fins. Utilisez-le pour transformer les roches en sol ou le charbon en carbone.,,
+objects.devices.grinder.desc,Utilisé pour broyer des matériaux plus gros en plus fins. Utilisez-le pour transformer les roches en terre ou le charbon en carbone.,,
 objects.devices.heater,Radiateur,,
 objects.devices.heater.desc,Consomme de l'électricité pour amener la température jusqu'à 21°C (70°F). Les zones plus grandes en nécessiteront plus d'un. Les construire à proximité les uns des autres n'apporte aucun avantage.,,
 objects.devices.heatermini,Mini-radiateur,,
