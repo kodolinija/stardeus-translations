@@ -1381,7 +1381,7 @@ goal.StartExpedition.desc,"Nous sommes à proximité d'une planète, vous utilis
 goal.StartResearch,Lancer une recherche,,
 goal.StartResearch.desc,Vous n'effectuez aucune recherche. Je suggère d'avoir une recherche active chaque fois que possible. Vous devrez construire plus de modules de stockage et de mémoire et ajouter plus de puissance à votre réseau électrique pour rechercher des technologies plus avancées.,,
 goal.StasisALS,Support de vie avancé pour la chambre de stase,,
-goal.StasisALS.desc,"Sélectionnez la <b>chambre de stase/b> et utilisez l'élément de menu <b>Stabillité Cruogénique</b> pour trouver et activer le <b>Support de vie avancé</b>.<br><br>Cela consommera une quantité importante d'électricité, mais la <b>stabilité cryogénique</b> augmentera et nous aurons plus de contrôle sur le taux de réveil des colons.",,
+goal.StasisALS.desc,"Sélectionnez la <b>chambre de stase</b> et utilisez l'élément de menu <b>Stabillité Cryogénique</b> pour trouver et activer le <b>Support de vie avancé</b>.<br><br>Cela consommera une quantité importante d'électricité, mais la <b>stabilité cryogénique</b> augmentera et nous aurons plus de contrôle sur le taux de réveil des colons.",,
 goals,Suggestions,,
 goals.completed,Suggestions terminées,,
 goals.pending,Suggestions actives,,
