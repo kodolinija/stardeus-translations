@@ -1790,7 +1790,6 @@ nav.fail.unreachable.flying,"Fliegender Arbeiter konnte keinen Weg zum Zielort f
 nav.fail.object.blocked.by.adjacent,Der Zugang zu diesem Objekt ist durch benachbarte Objekte oder Strukturen blockiert.,
 ad.rej.nav.fail.grounded,"Bodengebundenes Wesen konnte keinen Weg zum Zielort finden. Prüfe, ob die Türen mit Strom versorgt werden und nicht verschlossen sind, oder ob das Wesen nicht eingemauert ist.",
 ad.rej.nav.fail.flying,"Fliegendes Wesen hat den Weg zum Zielort nicht gefunden. Prüfe, ob die Türen mit Strom versorgt werden und nicht verschlossen sind, oder ob der Arbeiter nicht eingemauert ist.",
-everyones.tasks,Jedermanns Aufgaben,
 venting,Lüften,
 make.siren.silent,Ton: EIN,
 make.siren.loud,Ton: AUS,
