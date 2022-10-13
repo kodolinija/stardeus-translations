@@ -295,6 +295,7 @@ error.no.cpu,Schiffscomputer ist nicht verfügbar,
 error.title.required,Titel ist erforderlich,
 ev.vented.into.space,"In den Weltraum gesaugt","when a pressurized airlock is exposed to open space, someone can get »sucked out« (vented) into open space"
 ev.vented.into.space.desc,"<b>{0}</b> befand sich in einem unter Druck stehenden Bereich in der Nähe einer Luftschleuse, die sich plötzlich öffnete, und wurde unglücklicherweise in die Weiten des Weltraums abgesaugt – auf Nimmerwiedersehen.","A longer description of »Vented Into Space« event. {0} will be replaced by a name [Weidengeist: Slightly rephrased for German to avoid gender assumption and using multiple pronouns.]"
+event.birthday,"{0} hat Geburstag und ist nun {1} Jahre alt.",
 event.content.hint,Protokolleintrag,
 event.log.disabled.in.tutorial,"Überprüfe das Ereignisprotokoll, nachdem das Tutorial beendet ist.",
 event.panel.clear.tutorial.info,"Dies würde die Benachrichtigungen löschen, aber diese Funktion ist während des Tutorials deaktiviert.",
