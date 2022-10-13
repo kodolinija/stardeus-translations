@@ -311,7 +311,7 @@ evt.asteroid.desc,"Das Radar hat einen Asteroiden mit einer gefährlich nahen Fl
 evt.asteroid.impact.desc,"Asteroid ist mit dem Schiff kollidiert!",
 evt.asteroid.impact.title,Asteroideneinschlag!,
 evt.asteroid.title,"Radarwarnung – Asteroid in der Nähe",
-evt.battery.discharge.desc,"Aufgrund einer Fehlfunktion hat sich die {0}s Batterie sofort entladen. Der Arbeiter wird jetzt in den Notlademodus versetzt.","{0} is the name of the worker"
+evt.battery.discharge.desc,"Aufgrund einer Fehlfunktion hat sich {0}s Batterie sofort entladen. Der Arbeiter wird jetzt in den Notlademodus versetzt.","{0} is the name of the worker"
 evt.battery.discharge.title,Batteriefehlfunktion,
 evt.breach.capsule.impact.desc,"Auf Kampf vorbereiten, wir werden geentert!",
 evt.breach.capsule.impact.title,"Enterkapsel hat angedockt",
