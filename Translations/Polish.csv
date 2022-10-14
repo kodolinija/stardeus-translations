@@ -1,4 +1,4 @@
-Key  (PURPLE means not ready for translation yet),Translation,Version,Comment (context for translators)
+Key,Translation,Version,Comment
 <Gamepad>,Gamepad,,Used in input settings when showing bindings for Gamepad (controller) 
 <Keyboard>,Keyboard,,Used in input settings when showing bindings for Keyboard 
 <Mouse>,Mouse,,Used in input settings when showing bindings for Mouse
