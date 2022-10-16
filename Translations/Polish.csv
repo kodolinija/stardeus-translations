@@ -108,7 +108,7 @@ act.HaulUnstoredItem,Holuje przedmiot do magazynu,,
 act.Heal,Uzyskuje pomoc medyczną,,
 act.Install,Instaluje,,
 act.InstallUpgrade,Instaluje ulepszenie,,
-act.MLTrain,Uczy maszyny,,"Directly translates to ""he/she is teaching machines something"". "Machine learning" doesnt have a translation in polish. job offers frequently dont translate this part. ""Nauczanie maszynowe"" which is a direct translation sounds mega-dumb"
+act.MLTrain,Uczy maszyny,,"Directly translates to ""he/she is teaching machines something"". ""Machine learning"" doesnt have a translation in polish. job offers frequently dont translate this part. ""Nauczanie maszynowe"" which is a direct translation sounds mega-dumb"
 act.MoveNextToObject,Idzie do celu,,
 act.MoveNextToPos,Idzie,,"the same translation as above but for the sake of telling activities apart this can stay as ""Idzie"" which is ""He/She is going somewhere"""
 act.MoveObj,Przenosi coś,,
