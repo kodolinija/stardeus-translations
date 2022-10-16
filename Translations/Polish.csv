@@ -1,5 +1,5 @@
 Key,Translation,Version,Comment
-<Gamepad>,Gamepad,,Used in input settings when showing bindings for Gamepad (controller) 
+<Gamepad>,Kontroler,,Used in input settings when showing bindings for Gamepad (controller) 
 <Keyboard>,Keyboard,,Used in input settings when showing bindings for Keyboard 
 <Mouse>,Mouse,,Used in input settings when showing bindings for Mouse
 abort,Abort,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
