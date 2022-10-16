@@ -156,3 +156,7 @@ YouHanHua Team
 ### Russian
 
 * [iyalang](https://github.com/iyalang)
+
+### Korean
+
+* [Ciizel](https://github.com/Ciizel)
