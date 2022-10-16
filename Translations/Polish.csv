@@ -215,7 +215,7 @@ advert.retry,Ponów zadanie,,
 advert.task,Zadanie <i>[{0}]</i>: {1},,
 aesthetics,Estetyka,,
 aesthetics.at,Estetyka: {0}: {1:0.0},,
-after.settle,Twoja ludzka kolonia zamieszkała na planecie {0}. Znalezienie i terraformacja planety zajęła {1} dni. {2} kolonistów zdecydowało pozostać na statku.<br><br>Jeśli chcesz"," możesz dalej odkrywać galaktykę.,,"{0} is planet name, {1} is a number (of days), {2} is a number (of colonists)"
+after.settle,Twoja ludzka kolonia zamieszkała na planecie {0}. Znalezienie i terraformacja planety zajęła {1} dni. {2} kolonistów zdecydowało pozostać na statku.<br><br> Dzięki nim możesz dalej odkrywać galaktykę.,,"{0} is planet name, {1} is a number (of days), {2} is a number (of colonists)"
 age,Wiek,,
 airtightness.at,Szczelność na {0}: {1},,"When you open ""airtightness"" overlay, hovering any location with the mouse will show a tooltip showing ""Airtightness at [123:12]: 99%"". {0} variable is coordinate, {1} is percentage."
 all.time,Od samego początku,,
