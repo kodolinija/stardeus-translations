@@ -1671,7 +1671,7 @@ load.failed.incompatible,저장은 현재 버전과 호환되지 않습니다: {
 load.save,게임 불러오기,,
 loading,로드 중...,,
 loading.news,뉴스 로드 중...,,
-loading.save,<size=200%>{0}</size><br>신경망 부팅,,
+loading.save,<size=200%>{0}</size><br>신경망 부팅 ,,
 location,위치,,
 lock,잠김,,Action verb for a button that locks the door
 locked,잠김,,Label for a state that shows that door is locked
