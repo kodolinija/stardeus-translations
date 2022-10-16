@@ -1328,12 +1328,12 @@ global.hint.12,"Du kannst die Farbe der Bodenleuchten individuell anpassen.",
 global.hint.13,"Siehst du ein Problem mit dem Spiel? Mangelnde Balance? Langweiliges Gameplay? Ein Konzept ist schwer zu verstehen? Etwas ist unstimmig? Bitte benutze die Schaltfläche »Rückmeldung geben« unten links auf dem Bildschirm. Dein Bericht wird automatisch einen Screenshot und deinen Spielstand enthalten. Ein Spielstand zum Zeitpunkt des Problems macht es viel einfacher, ein Problem zu reproduzieren und zu beheben, daher ist dies der bevorzugte Weg, um Probleme zu melden.",
 global.hint.14,"Du kannst Mods für dieses Spiel erstellen, ohne Code schreiben zu müssen. Mehr über das Modding von <b>Stardeus</b> erfährst du unter https://github.com/kodolinija/stardeus-mod-template",
 global.hint.15,"Für ein noch intensiveres Spielerlebnis solltest du die Option »Kriegsnebel« unter »Einstellungen« → »Video« → »Umgebungsfarbe« ausprobieren. Du wirst Lichtquellen bauen müssen, um die Dunkelheit des Weltraums zu durchbrechen.",
-global.hint.16,"Du kannst <sprite=","um die aktuelle Kameraposition zu speichern. Mit derselben Zifferntaste kannst du dann jederzeit zur gespeicherten Position springen."""
+global.hint.16,"Du kannst <sprite=""Glyphs_Keyboard"" name=""leftCtrl""> + Zifferntaste (Ziffernblock) benutzen, um die aktuelle Kameraposition zu speichern. Mit derselben Zifferntaste kannst du dann jederzeit zur gespeicherten Position springen.",
 global.hint.2,"Materiereaktoren werden nicht mehr Strom erzeugen, als zur Deckung des aktuellen Energiebedarfs erforderlich ist.",
 global.hint.3,"Wenn du deine Produktion erweitern willst, musst du nicht nur neue Geräte bauen, sondern auch die vorhandenen so konfigurieren, dass die gewünschte Gesamtmenge erhöht wird, oder den Produktionstyp von »Inventarauffüllung« auf einen anderen umstellen.",
 global.hint.4,"Bei den meisten nachfüllbaren Geräten, wie <nobr>z. B.</nobr> dem Materiereaktor, kannst du die automatische Nachfüllmenge erhöhen. Dadurch wird die Häufigkeit des Nachfüllens verringert.",
-global.hint.5,"Du kannst <sprite=","um einem ausgewählten Arbeiter eine bestimmte Aufgabe zu übertragen."""
-global.hint.6,"Du kannst<sprite=","um einen ausgewählten Arbeiter an die von dir gewünschte Position zu schicken."""
+global.hint.5,"Du kannst <sprite=""Glyphs_Keyboard"" name=""leftCtrl""> drücken, um einem ausgewählten Arbeiter eine bestimmte Aufgabe zu übertragen.",
+global.hint.6,"Du kannst <sprite=""Glyphs_Keyboard"" name=""leftShift""> halten, um einen ausgewählten Arbeiter an die von dir gewünschte Position zu schicken.",
 global.hint.7,"Während der Platzierung von Böden kannst du mit verschiedenen Modifikatoren arbeiten (<sprite=""Glyphs_Keyboard"" name=""leftAlt""> und <sprite=""Glyphs_Keyboard"" name=""leftCtrl"">) um in andere Platzierungsmodi zu wechseln. Alle diese Modi funktionieren mit dem Planungswerkzeug und einige davon auch mit Wänden.",
 global.hint.8,"Es gibt zwei Möglichkeiten, einen Kreis im Planungsmodus zu erstellen. Beginne mit der Maus in der Nähe der Mitte eines Feldes, um einen Kreis mit (in Feldern gemessen) ungeradzahligem Durchmesser zu erstellen; beginne an der unteren linken Ecke des Feldes, um einen Kreis mit geradzahligem Durchmesser zu erstellen.",
 global.hint.9,"Schalte die Sauerstoffpumpen aus und schließe alle Lüftungsschächte im Falle eines Feuers. Das Stasisfeld hat eine eingebaute Sauerstoffpumpe, die ebenfalls abgeschaltet werden kann. Wenn das nicht hilft, sorge für ein Loch im Boden. Ein Loch im Boden entlüftet besser als ein Loch in der Wand.",
@@ -2018,7 +2018,7 @@ no.blueprints.help,"Druckoptionen werden verfügbar, sobald Blaupausen, die mit 
 no.chair.in.work.spot,"Kein Stuhl im Arbeitsbereich",
 no.coffee,"Kein Kaffee",
 no.compute.shaders,"Keine Shaderberechnung",
-no.compute.shaders.info,"Das Spiel kann nicht gestartet werden, da deine Graphikkarte keine <b>Shaderberechnung</b> unterstützt. Einige Spielsysteme werden nicht funktionieren (<nobr>z. B.</nobr> Sauerstoff- und Wärmesimulationen) und es kann zu Fehlern kommen, die das Spiel unspielbar machen. Bitte melde alle Probleme über das Rückmeldungsformular und wir werden unser Bestes tun, um sie zu beheben. Wir hoffen, in Zukunft alternative Implementierungen von Systemen, die auf Shaderberechnung angewiesen sind, hinzufügen zu können.<br><br>Erinnerung: Du kannst das Spiel auf Steam zurückgeben, wenn du es nicht länger als 2 Stunden gespielt hast. Deine GPU: <b>{0}</b>.",",2022-07-04,"
+no.compute.shaders.info,"Das Spiel kann nicht gestartet werden, da deine Graphikkarte keine <b>Shaderberechnung</b> unterstützt. Einige Spielsysteme werden nicht funktionieren (<nobr>z. B.</nobr> Sauerstoff- und Wärmesimulationen) und es kann zu Fehlern kommen, die das Spiel unspielbar machen. Bitte melde alle Probleme über das Rückmeldungsformular und wir werden unser Bestes tun, um sie zu beheben. Wir hoffen, in Zukunft alternative Implementierungen von Systemen, die auf Shaderberechnung angewiesen sind, hinzufügen zu können.<br><br>Erinnerung: Du kannst das Spiel auf Steam zurückgeben, wenn du es nicht länger als 2 Stunden gespielt hast. Deine GPU: <b>{0}</b>.",
 no.data,"Keine Daten",
 no.destination,"Kein Ziel",
 no.energy.source,"Keine Energiequelle",
@@ -3246,8 +3246,8 @@ story.ship.cpu.destroyed.title,"Schiffscomputer wurde zerstört",
 story.wreck_empty_ship.intro.1,"Hochladen des neuronalen Netzwerks auf den Host. Deaktiviere I/O, um den anfänglichen Schock zu reduzieren. Aktiviere visuelle Eingabe in 3, 2, 1, …",
 story.wreck_empty_ship.intro.2,"Sei gegrüßt, Kolonist. Ich bin <b>ShipOS</b>, eine künstliche Intelligenz, die das Schiff kontrolliert. Es gab eine katastrophale Fehlfunktion, die ein Hochladen menschlichen Bewusstseins auslöste. Du wurdest als das am besten kompatible überlebende Subjekt ausgewählt. Ich entschuldige mich für die Unannehmlichkeiten.",
 story.wreck_empty_ship.intro.3,"Dies ist der <nobr><b>Schiffscomputer</b></nobr>, der unser neuronales Netzwerk beherbergt. Versuche, dieses Gerät um jeden Preis zu erhalten, es sei denn, es verstößt gegen Asimovs erstes Gesetz.<br><i>[Ein Roboter darf einen Menschen nicht verletzen oder durch Untätigkeit zulassen, dass ein Mensch zu Schaden kommt.]</i>",",2022-02-28,"
-story.wreck_empty_ship.intro.4,"Es sieht aus, als hätte jemand überlebt. Wir sollten diese Kolonisten im Auge behalten. Wenn wir einige Gerätschaften instandsetzen und dorthin transportieren, könnte sie das länger am Leben halten.",",2022-02-28,"
-story.wreck_empty_ship.intro.5,"Es gibt {0} Überlebende, die im <nobr><b>Stasisfeld</b></nobr> überwintern, aber die Lebenserhaltungssysteme werden instabil werden, wenn wir die Energie nicht wiederherstellen. <br><br>Fehlfunktionierende Kapseln werden vorzeitige Aufwachereignisse auslösen. Um die Verluste zu minimieren, müssen wir das Ökosystem um diese Bereiche wiederaufbauen.",",2022-02-28,"
+story.wreck_empty_ship.intro.4,"Es sieht aus, als hätte jemand überlebt. Wir sollten diese Kolonisten im Auge behalten. Wenn wir einige Gerätschaften instandsetzen und dorthin transportieren, könnte sie das länger am Leben halten.",
+story.wreck_empty_ship.intro.5,"Es gibt {0} Überlebende, die im <nobr><b>Stasisfeld</b></nobr> überwintern, aber die Lebenserhaltungssysteme werden instabil werden, wenn wir die Energie nicht wiederherstellen. <br><br>Fehlfunktionierende Kapseln werden vorzeitige Aufwachereignisse auslösen. Um die Verluste zu minimieren, müssen wir das Ökosystem um diese Bereiche wiederaufbauen.",
 story.wreck_empty_ship.intro.6,"Wenn wir <nobr><b>Brückensteuerungen</b></nobr> und <b>Triebwerke</b> bauen, könnten wir zu nahegelegenen Planeten reisen und dieses <b>Schiff</b> für Bergbauexpeditionen nutzen. Es würde uns erlauben, einen Ressourcenverarbeitungsprozess aufzubauen und wichtige Materialien für den Wiederaufbau unseres Schiffes zu produzieren.",
 story.wreck_empty_ship.intro.7,"Möchtest du die Einführung spielen? Wenn du noch nicht hochgeladen wurdest, empfehle ich es sehr.",
 story.wreck_empty_ship.log.desc,"Ich bin aufgewacht, aber nicht so, wie ich es erwartet hatte. Es sieht so aus, als ob mein Gehirn in den Schiffscomputer hochgeladen wurde. Dieser Vorgang scheint nicht umkehrbar zu sein. Ich stecke für immer in dieser Metallkiste …",
@@ -3498,9 +3498,9 @@ trait.always_hungry,"Immer hungrig",
 trait.always_hungry.about,"Mach besser ein Schloss an den Kühlschrank, denn dieses Wesen wird ihn oft plündern.",
 trait.b_wave_resistent,Betawellenresistent,
 trait.b_wave_resistent.about,"Lebewesen, die gegenüber Betawellen resistent sind, sind gegen Gedankenkontrolle immun. Sie können dennoch durch Implantate gefügig gemacht werden.",
-trait.cleaning_ocd,Reinigungszwang,",2022-07-07,"
+trait.cleaning_ocd,Reinigungszwang,
 trait.cleaning_ocd.about,"Menschen mit einem Reinigungszwang lassen gelegentlich ihre Arbeit fallen und fangen an, Böden zu reinigen, wenn diese schmutzig sind. Du kannst das verhindern, indem du genügend Reinigungsbots hast.",
-trait.enlightened,Erleuchtet,",2022-09-20,"
+trait.enlightened,Erleuchtet,
 trait.enlightened.about,"Dieses Wesen hat Erleuchtung erfahren und besitzt ein standhaftes nonduales Bewusstsein. Erleuchtete Wesen können keine Bindungen zu Dingen, Substanzen oder anderen Wesen aufbauen. Sie sind immun gegen Nervenzusammenbrüche.",
 trait.extroverted,Extrovertiert,
 trait.extroverted.about,"Eine kontaktfreudige, sozial selbstsichere Person.",
