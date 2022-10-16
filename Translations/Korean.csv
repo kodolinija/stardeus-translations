@@ -8,7 +8,7 @@ aborting.expedition.target.too.far,탐사을 중단합니다. {0} 목표에서 �
 about,About,,"""About"" menu item name"
 about.mods,모드 정보,,"""Mods"" in this context is game modifications, or expansions. "
 about.wallet,자금 획득 방법,,
-about.wallet.desc,함선 컴퓨터나 호환되는 채굴 장치에 채굴 업그레이드를 설치하여 채광후 획득한 자원을 거래하여 돈을 벌수 있습니다.,2022-03-19,
+about.wallet.desc,함선 컴퓨터나 호환되는 채굴 장치에 채굴 업그레이드를 설치하여 채광후 획득한 화폐를 채굴할수있습니다. 상품을 거래하여 돈을 벌 수도 있습니다.,2022-03-19,
 accumulated.heat,누적 열,,A device can start overheating. This is a label for a value of the heat amount the device has accumulated.
 achievement.AsimovOverride,로그 AI,,"AI here is short for Artificial Intelligence. Rogue AI is something like Skynet in Terminator movie, or the AI that enslaved humans in The Elysium movie."
 achievement.AsimovOverride.desc,Asimov 오버라이드 모듈 설치,,"Asimov is Isaac Asimov, a famous sci-fi writer who created the ""three laws of robotics"""
