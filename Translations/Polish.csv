@@ -6,7 +6,7 @@ abort,Przerwij,,
 aborting.expedition.died,Przerywanie ekspedycji. Członek załogi {0} zginął zanim dotarł do transportera.,,{0} will be replaced with a name
 aborting.expedition.target.too.far,Przerywanie ekspedycji. Jesteśmy za daleko od {0}.,,{0} will be replaced with a destination name (i.e. planet name)
 about,Więcej o,,
-about.mods,O dodatkach,,"""If its only unofficial modifications then ""dodatkach"" can be changed to ""modach""""
+about.mods,O dodatkach,,"""If its only unofficial modifications then ""dodatkach"" can be changed to ""modach"""""
 about.wallet,Jak zdobyć pieniądze,,
 about.wallet.desc,Waluty mogą być wykopane po zainstalowaniu ulepszeń kryptokopania na twoim Komputerze Pokładowym albo na innym kompatybilnym urządzeniu kryptokopania. Możesz też zdobyć pieniądze handlując towarem.,2022-03-19,
 accumulated.heat,Łączne ciepło,,
