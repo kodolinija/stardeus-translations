@@ -6,7 +6,7 @@ abort,Przerwij,,
 aborting.expedition.died,Przerywanie ekspedycji. Członek załogi {0} zginął zanim dotarł do transportera.,,{0} will be replaced with a name
 aborting.expedition.target.too.far,Przerywanie ekspedycji. Jesteśmy za daleko od {0}.,,{0} will be replaced with a destination name (i.e. planet name)
 about,Więcej o,,
-about.mods,O dodatkach,,"""If its only unofficial modifications then ""dodatkach"" can be changed to ""modach"""""
+about.mods,O dodatkach,,"If its only unofficial modifications then ""dodatkach"" can be changed to ""modach"""
 about.wallet,Jak zdobyć pieniądze,,
 about.wallet.desc,Waluty mogą być wykopane po zainstalowaniu ulepszeń kryptokopania na twoim Komputerze Pokładowym albo na innym kompatybilnym urządzeniu kryptokopania. Możesz też zdobyć pieniądze handlując towarem.,2022-03-19,
 accumulated.heat,Łączne ciepło,,
@@ -18,11 +18,11 @@ achievement.CatRidingCleaningBot,Jazda na gapę,,
 achievement.CatRidingCleaningBot.desc,Niech kot przejedzie się na robocie sprzątajcym,,
 achievement.CloneHuman,Wiem kim jestem,,
 achievement.CloneHuman.desc,Sklonuj człowieka,,
-achievement.Colonize,W końcu...,,"""""W końcu..."" interchangable with ""Wreszcie..."" which translates to ""Finaly..."". a direct translation for ""The End"" is ""Koniec"" but it doesnt really make sense in this instance"""
+achievement.Colonize,W końcu...,,"""W końcu..."" interchangable with ""Wreszcie..."" which translates to ""Finaly..."". a direct translation for ""The End"" is ""Koniec"" but it doesnt really make sense in this instance"
 achievement.Colonize.desc,Osadź kolonię na dogodnej planecie,,
 achievement.CPUDestroyed,Jeszczę tu wrócę...,,
 achievement.CPUDestroyed.desc,Strać Komputer Pokładowy,,
-achievement.CrawlerAttach,Darmowy przytulasek,,"Darmowy przytulasek" directly translates to "Free huggies" as there isnt a nice "hug" transalation that fits the quest
+achievement.CrawlerAttach,Darmowy przytulasek,,"""Darmowy przytulasek"" directly translates to ""Free huggies"" as there isnt a nice ""hug"" transalation that fits the quest"
 achievement.CrawlerAttach.desc,Niech Pełzak przyczepi się do ludzkiego kolonisty,,
 achievement.CrawlerUber,Taxi dla Pełzaków,,
 achievement.CrawlerUber.desc,Złap Pełzaka wracając z ekspedycji kopalnianej,,
@@ -31,13 +31,13 @@ achievement.Crypto.desc,Zainstaluj ulepszenie kryptokopania Starkredyty na swoim
 achievement.date,Zdobyto: {0},,"{0} is a date, like 2022-10-12"
 achievement.DiscoverEgg,A tego tu nie było,,
 achievement.DiscoverEgg.desc,Znajdź jajko na swoim statku,,
-achievement.DiscoverTerraformable,Znalezione...,,"Znalezione nie kradzione" translates to "Finders keepers". Fits the theme
+achievement.DiscoverTerraformable,Znalezione...,,"""Znalezione nie kradzione"" translates to ""Finders keepers"""
 achievement.DiscoverTerraformable.desc,Znajdź planetę do terraformacji,,
 achievement.Elysium,Elizium,,
 achievement.Elysium.desc,Zamień swoją Komnatę Kriostazy w Elizium,,
 achievement.FirstContact,Pierwszy kontakt,,
 achievement.FirstContact.desc,Poznaj inną frakcję,,
-achievement.FirstCup,Smacznej kawusi,,a popular saying among young adults. roughly translates to "i wish you a tasty cup of coffee"
+achievement.FirstCup,Smacznej kawusi,,"a popular saying among young adults. roughly translates to ""i wish you a tasty cup of coffee"""
 achievement.FirstCup.desc,Niech ktoś napije się kawy,,
 achievement.HatchCrawlers,Nie o taki poród chodziło,,
 achievement.HatchCrawlers.desc,Pozwól aby Pełzak zalęgł w koloniście,,
@@ -56,7 +56,7 @@ achievement.OnePiece.desc,Połącz sekcje zniszczonego statku w jedno,,
 achievement.StasisDestroyed,Zero nadziei,,
 achievement.StasisDestroyed.desc,Zniszczono twoją Komnatę Kriostazy,,
 achievement.StockMarketLoss,Jeden z nas,,
-achievement.StockMarketLoss.desc,Na giełdzie sprzedaj papier wartościowy ze stratą $100k,,
+achievement.StockMarketLoss.desc,"Na giełdzie, sprzedaj papier wartościowy ze stratą $100k",,
 achievement.TerraformAtmosphere,Terraformacja atmosfery,,
 achievement.TerraformAtmosphere.desc,Stwórz atmosferę na obcej planecie,,
 achievement.TerraformBiosphere,Terraformacja biosfery,,
@@ -108,20 +108,20 @@ act.HaulUnstoredItem,Holuje przedmiot do magazynu,,
 act.Heal,Uzyskuje pomoc medyczną,,
 act.Install,Instaluje,,
 act.InstallUpgrade,Instaluje ulepszenie,,
-act.MLTrain,Uczy maszyny,,Directly translates to "he/she is teaching machines something". "Machine learning" doesnt have a translation in polish for now. for instance job offers frequently dont translate this part. "Nauczanie maszynowe" which is a direct translation sounds mega-dumb
+act.MLTrain,Uczy maszyny,,"Directly translates to ""he/she is teaching machines something"". "Machine learning" doesnt have a translation in polish. job offers frequently dont translate this part. ""Nauczanie maszynowe"" which is a direct translation sounds mega-dumb"
 act.MoveNextToObject,Idzie do celu,,
-act.MoveNextToPos,Idzie,,the same translation as above but for the sake of telling activities apart this can stay as "Idzie" which is "He/She is going somewhere"
+act.MoveNextToPos,Idzie,,"the same translation as above but for the sake of telling activities apart this can stay as ""Idzie"" which is ""He/She is going somewhere"""
 act.MoveObj,Przenosi coś,,
 act.MoveToOrNextToPos,Idzie do pozycji,,
 act.MoveToPos,Idzie do pozycji,,
 act.MoveToSafety,Idzie w bezpieczne miejsce,,
 act.MoveToWorkSpot,Idzie do miejsca pracy,,
 act.None,Nic nie robi,,
-act.Noop,Obija się,,"Slacking around" fits nicely
+act.Noop,Obija się,,"""Slacking around"" fits nicely"
 act.OperateDevice,Operuje urządzenie,,
 act.Panic,Panikuje,,
 act.Pet,Głaszcze zwierzaka,,
-act.PlaceUnconstructed,Zamawia budowę,,This needs to be rechecked. "ordering construction" needs more context in this example
+act.PlaceUnconstructed,Zamawia budowę,,"This needs to be rechecked. ""ordering construction"" needs more context in this example"
 act.Process,Procesuje,,
 act.ProcessStoredMat,Procesuje materiał,,
 act.ProvideTempGrid,Zapewnia tymczasowe połączenie,,
@@ -132,7 +132,7 @@ act.Repair,Naprawia szkody,,
 act.ReplaceTile,Wymienia objekt,,
 act.RescueInSpace,Ratuje istotę z kosmosu,,
 act.researching,Bada,,
-act.Ride,Jedzie,,if its an animal then "Ujeżdża"
+act.Ride,Jedzie,,"if its an animal then ""Ujeżdża"""
 act.Roam,Łazi sobie,,
 act.Sleep,Idzie spać,,
 act.Socialize,Spędza czas towarzysko,,
@@ -148,7 +148,7 @@ act.Vent,Daje upust emocjom,,
 act.Wait,Czeka,,
 act.WaitForMaintenance,Jest zadbywany,,
 act.WaitForRecharge,Ładuje się,,
-act.Workout,Ćwiczy,,noun is "Ćwiczenia". for now it is "He/She is working out"
+act.Workout,Ćwiczy,,"noun is ""Ćwiczenia"". for now it is ""He/She is working out"""
 action.extract_nutrients,Wyodrębnia środki odżywcze,,
 action.process,Proces,,this needs to be checked again with context
 action.required,Konieczne są działania,,
@@ -189,13 +189,13 @@ ad.rej.no.worker.with.skill,"Żaden z obecnych pracowników nie jest w stanie wy
 ad.rej.no.workers,Brak dostępnych pracowników,,
 ad.rej.processable.not.available,Brak przedmiotów do zprocesowania,,
 ad.rej.processor.queue.full,Kolejka Procesora była pełna,,
-ad.rej.taking.damage,"Opuszczono, ponieważ pracownik otrzymał obrażenia",,
+ad.rej.taking.damage,"Pozucono, ponieważ pracownik otrzymał obrażenia",,
 ad.rej.target.unavailable,Cel niedostępny,,
 ad.rej.undefined,Niezdefiniowany (Błąd),,
 ad.rej.unreachable,Nie ma jak się tam dostać,,
 ad.rej.unreachable.item,Pracownik nie mógł sięgnąć przedmiotu,,
-ad.rej.unreachable.mat.flying,"Latający pracownik nie mógł dostać się do wymaganego materiału. Sprawdź, czy pracownik ma bezpośrednią drogę do materiału".,,
-ad.rej.unreachable.mat.grounded,"Naziemny pracownik nie mógł dostać się do wymaganego materiału. Sprawdź, czy pracownik ma bezpośrednią drogę do materiału.,,
+ad.rej.unreachable.mat.flying,"Latający pracownik nie mógł dostać się do wymaganego materiału. Sprawdź, czy pracownik ma bezpośrednią drogę do materiału.",,
+ad.rej.unreachable.mat.grounded,"Naziemny pracownik nie mógł dostać się do wymaganego materiału. Sprawdź, czy pracownik ma bezpośrednią drogę do materiału.",,
 ad.rej.unsafe,Niebezpieczne warunki,,
 ad.rej.unsafe.for.skilled,Warunki wokół miejsca pracy nie są bezpieczne dla pracownika który może wykonać to zadanie. Najprawdopodbniej jest to zadanie dla człowieka.,,
 ad.rej.urgent.need,Pracwonik miał ważną potrzebę,,
