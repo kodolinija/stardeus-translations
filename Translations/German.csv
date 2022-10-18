@@ -3764,4 +3764,4 @@ game.speed.multiplier,"Geschw.-Multiplikator<br><b>{0:0.#} ×</b>",,"game clock 
 modifier.NoHeavyDisasters,"Schwere Katastrophen deaktivieren",,
 modifier.NoHeavyDisasters.desc,"Der Geschichtengenerator wird Katatrophen, die Teilen deines Schiffs schweren Schaden zufügen können (d. h. <b>Asteroiden</b> oder <b>Meteorenschauer</b>) überspringen.",,
 modifier.NoFireSpread,"Feuerausbreitung deaktivieren",,
-modifier.NoFireSpread.desc,"Verhindert sich selbst entzündende Feuer und sowie Brandausbreitung in heißen Bereichen.",,
+modifier.NoFireSpread.desc,"Verhindert sich selbst entzündende Feuer sowie Brandausbreitung in heißen Bereichen.",,
