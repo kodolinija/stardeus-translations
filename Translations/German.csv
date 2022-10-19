@@ -3768,3 +3768,6 @@ modifier.NoFireSpread.desc,"Verhindert sich selbst entzündende Feuer sowie Bran
 include.player.log,"Player.log-Datei mit anhängen",,
 include.player.log.tip,"Die Player.log-Datei enthält Protokolle über das letzte gespielte Spiel. Es könnte sehr wertvoll sein, um herauszufinden, was den Fehler verursacht hat.",,
 show.player.log.dir,"Player.log-Verzeichnis öffnen",,
+open.steam.forums,"Steamforen öffnen",,
+open.steam.forums.tip,"Nachdem du deinen Bericht versandt hast, wirst du ein Hinweisfenster mit einer <b>Fehler-ID</b> sehen. Bitte kopiere diese und teile sie unter einem relevanten Thema im Steamforum. Benutze die <b>Suche</b>, bevor du ein neues Thema anlegst. Wenn du deinen Bericht einem bereits existierenden Thema hinzufügst, verleihst du dem Fehler mehr Gewicht.",,
+report.no.forum.post.warn,"Aufgrund einer großen Menge eingehender Fehlerberichte werden <b>Fehler ohne passendes Thema in den Steamforen länger für die Abarbeitung brauchen!</b>",,
