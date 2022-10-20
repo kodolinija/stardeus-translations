@@ -100,6 +100,7 @@ If you feel lost at any point, please join the <a href="https://discord.com/invi
 * Tassido
 * [K-Win](https://github.com/K-Win)
 * Innos
+* [Weidengeist](https://github.com/weidengeist/)
 
 ### French
 
