@@ -412,7 +412,7 @@ cannot.enter.while.moving,"Dieses Objekt kann in Bewegung nicht betreten werden.
 cannot.reach.position,"Kann diese Position nicht erreichen",,
 cannot.save.gen,"Das Spiel kann im Moment nicht gespeichert werden. Bitte versuche es erneut, wenn die aktuelle Operation beendet ist.",,
 carbohydrates,Kohlenhydrate,,
-carbon.buildup,Kohlenstoffaufbau,,
+carbon.buildup,Kohlenstoffansammlung,,
 carbon.buildup.help,"In Reaktoren sammelt sich mit der Zeit Kohlenstoff an. Wenn die Anhäufung 100 % erreicht, wirft der Reaktor den angesammelten Kohlenstoff aus.",,
 change,Ändern,,
 change.color,"Farbe wechseln",,
