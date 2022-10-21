@@ -974,7 +974,7 @@ enter.new.first.name,"Neuen Vornamen eingeben",,
 enter.new.last.name,"Neuen Nachnamen eingeben",,
 enter.new.name,"Neuen Namen eingeben",,
 enter.new.nick.name,"Neuen Spitznamen eingeben",,
-enter.planet,"Planeten anfliegen",,"Used in an action button that would start an expedition to explore a planet [Weidengeist: Shortened to fit the button.]"
+enter.planet,"Anfliegen",,"Used in an action button that would start an expedition to explore a planet [Weidengeist: Shortened to fit the button.]"
 enter.shuttle,"Betreten des Schiffs",,"Expedition state label. Showed when expedition members are on their way to the Shuttle"
 enter.system,"System anfliegen",,"Used in an action button when you are flying in the galaxy and want to enter a particular star system. It will then shift from galaxy view to star system view."
 enter.universe,"Universum anfliegen",,"May be used if we will have more than one universe (multiverse), this would change the current universe."
