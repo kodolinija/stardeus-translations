@@ -3780,5 +3780,5 @@ obj.upgrades.autopilotupgrade.desc,함선 컴퓨터가 인간 오퍼레이터 �
 research.autopilot,오토 파일럿,,
 structure.walls.ventreinforced01,강화 환기구,,
 structure.walls.ventreinforced01.desc,일반 환기구의 강화 버전입니다.,,
-structure.walls.wallsocketreinforced01,강과 벽 소켓 {0}-{1},,
+structure.walls.wallsocketreinforced01,강화 벽 소켓 {0}-{1},,
 structure.walls.wallsocketreinforced01.desc,벽 소켓의 강화 버전입니다.,,
