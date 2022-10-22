@@ -55,25 +55,27 @@
 
 This repository is a place for volunteers to contribute community translations for Stardeus.
 
-Getting started is actually super easy!
-So if you are new to this and have the will and time. You might want to give it a shot.
+You can contribute new translations, fixes to existing translations, or point out errors by creating an <a href="https://github.com/othneildrew/Best-README-Template/issues">Issue</a>.
 
-On the other hand, you might tumble over this repository and always had this annoying translation error in your game.
-In this case please open an <a href="https://github.com/othneildrew/Best-README-Template/issues">Issue</a> so we can improve our translation.
+Before making a Pull Request, please send in a signed CLA (read the next section).
 
 ## Contributor License Agreement
 
-Before contributing, you will have to sign [the following CLA](https://docs.google.com/document/d/1X2G0VvNNtRHAApqbNKRXkYmKHlg1j5tBF2hZPy6LHM4/edit?usp=sharing). You can either print the document, sign and scan it (or make a photo). Then email the agreement to tomas at kodolinija dot com, including the details about your intended contribution. This agreement applies to all contributions to Kodo Linija, be it translations, modding repository, or anything related.
+Before contributing, you will have to sign [the following CLA](https://docs.google.com/document/d/1X2G0VvNNtRHAApqbNKRXkYmKHlg1j5tBF2hZPy6LHM4/edit?usp=sharing). You can either print the document, sign and scan it or make a photo. Then email the agreement to tomas at kodolinija dot com, including the details about your intended contribution. This agreement applies to all contributions to Kodo Linija, be it translations, modding repository, or anything related.
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-First off, please make sure you spent some time in the game.
-Also, be ready to play your translation. Often words in your language might don't really fit in a box or the context is missing.
+1. Before beginning the effort, it is very highly recommended to communicate your intent at #stardeus-translations on Stardeus Discord, or by creating an issue here on GitHub. If the language has multiple contributors, or if the language is already under active translation, the work could end up conflicting with others, so it's best to communicate before starting and get a confirmation.
+2. Contribute in small chunks rather than in one big update, this way it's easier to collaborate and merge the efforts from different people.
+3. Make sure you spent some time in the game. Demo can be used for translating too.
+4. Be ready to play your translation. Often words in your language might don't really fit in a box or the context is missing.
 
 ### The Source file
 
 You can find the source file <a href="https://docs.google.com/spreadsheets/d/1iiaORk6Ma5c2DpijK3oFs08fdk9PAe7QsCoiiBzdEUU/edit#gid=0">here</a>.
+
+The recommended way of translating is to make a copy of the source sheet, modify the "Translation" column (please don't modify any other columns), then download
 
 ### Contributing
 
@@ -90,13 +92,7 @@ If you use Github Desktop check [this](https://docs.github.com/en/desktop/contri
 <!-- CONTACT -->
 ## Contact
 
-If you feel lost at any point feel free to reach out.
-
-You can find me in the <a href="https://discord.com/invite/89amEwP">Stardeus Discord Server</a> or add me directly: K-Win#9990.
-In the Discord there is a specific channel related to translations.
-Just don't forget to visit get-a-role.
-
-
+If you feel lost at any point, please join the <a href="https://discord.com/invite/89amEwP">Stardeus Discord Server</a> and ask for help in #stardeus-translations channel.
 
 <!-- CREDITS -->
 ## Credits
@@ -106,6 +102,7 @@ Just don't forget to visit get-a-role.
 * Tassido
 * [K-Win](https://github.com/K-Win)
 * Innos
+* [Weidengeist](https://github.com/weidengeist/)
 
 ### French
 
@@ -156,3 +153,7 @@ YouHanHua Team
 ### Russian
 
 * [iyalang](https://github.com/iyalang)
+
+### Korean
+
+* [Ciizel](https://github.com/Ciizel)
