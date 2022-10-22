@@ -66,10 +66,10 @@ Before contributing, you will have to sign [the following CLA](https://docs.goog
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Before beginning the effort, it is very highly recommended to communicate your intent at #stardeus-translations on Stardeus Discord, or by creating an issue here on GitHub. If the language has multiple contributors, or if the language is already under active translation, the work could end up conflicting with others, so it's best to communicate before starting and get a confirmation.
-Another suggestion is to contribute in small chunks rather than in one big update, this way it's easier to collaborate and merge the efforts from different people.
-Make sure you spent some time in the game. Demo can be used for translating too.
-Also, be ready to play your translation. Often words in your language might don't really fit in a box or the context is missing.
+1. Before beginning the effort, it is very highly recommended to communicate your intent at #stardeus-translations on Stardeus Discord, or by creating an issue here on GitHub. If the language has multiple contributors, or if the language is already under active translation, the work could end up conflicting with others, so it's best to communicate before starting and get a confirmation.
+2. Contribute in small chunks rather than in one big update, this way it's easier to collaborate and merge the efforts from different people.
+3. Make sure you spent some time in the game. Demo can be used for translating too.
+4. Be ready to play your translation. Often words in your language might don't really fit in a box or the context is missing.
 
 ### The Source file
 
