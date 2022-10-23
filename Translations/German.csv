@@ -3778,3 +3778,5 @@ structure.walls.ventreinforced01,"Verstärkter Lüftungsschacht",,
 structure.walls.ventreinforced01.desc,"Eine verstärkte Version des regulären Lüftungsschachts.",,
 structure.walls.wallsocketreinforced01,"Verstärkte Wandsteckdose {0}–{1}",,
 structure.walls.wallsocketreinforced01.desc,"Eine verstärkte Version der Wandsteckdose.",,
+ev.construct.fail.title,"Fehlgeschlagener Bau",,
+ev.construct.fail.desc,"<b>{0}</b> hatte beim Bau einen kritischen Defekt. Das Baugebiet braucht möglicherweise sofortige Aufmerksamkeit.",,"{0} will be the device name"
