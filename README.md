@@ -70,6 +70,7 @@ Before contributing, you will have to sign [the following CLA](https://docs.goog
 2. Contribute in small chunks rather than in one big update, this way it's easier to collaborate and merge the efforts from different people.
 3. Make sure you spent some time in the game. Demo can be used for translating too.
 4. Be ready to play your translation. Often words in your language might don't really fit in a box or the context is missing.
+5. Use the "Generate Validity Report" in Settings > Language in game (or demo) to see if there are any errors in your translation.
 
 ### The Source file
 
