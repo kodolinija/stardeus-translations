@@ -1002,7 +1002,7 @@ estimated.time.at.kw,"Voraussichtlich verbleibende Zeit: {0} bei {1}",,"{0} will
 eta,"Geschätzte Ankunftszeit: {0}",,"ETA is short for »Estimated Time of Arrival«"
 ev.vented.into.space,"In den Weltraum gesaugt",,"when a pressurized airlock is exposed to open space, someone can get »sucked out« (vented) into open space"
 ev.vented.into.space.desc,"<b>{0}</b> befand sich in einem unter Druck stehenden Bereich in der Nähe einer Luftschleuse, die sich plötzlich öffnete, und wurde unglücklicherweise in die Weiten des Weltraums abgesaugt – auf Nimmerwiedersehen.",,"A longer description of »Vented Into Space« event. {0} will be replaced by a name [Weidengeist: Slightly rephrased for German to avoid gender assumption and using multiple pronouns.]"
-evaluator,Beurteiler,,"Used for task audit. Label for a worker who has evaluated (considered taking) a task. Displayed in a list next to »Times Evaluated« (how many times someone tried to take this task) and »Last Evaluation Time« (when did anyone try to take this task)."
+evaluator,Auswerter,,"Used for task audit. Label for a worker who has evaluated (considered taking) a task. Displayed in a list next to »Times Evaluated« (how many times someone tried to take this task) and »Last Evaluation Time« (when did anyone try to take this task)."
 event.birthday,"{0} hat Geburtstag und ist nun {1} Jahre alt.",,
 event.content.hint,Protokolleintrag,,
 event.log.disabled.in.tutorial,"Überprüfe das Ereignisprotokoll, nachdem das Tutorial beendet ist.",,
@@ -2045,7 +2045,7 @@ no.target,"Kein Ziel",,
 no.task,"Keine Aufgabe",,
 no.task.reason.could.not.fly,"Überspringe <b>{0}</b> Aufgaben im offenen Weltraum, weil dieser <b>Arbeiter nicht fliegen kann</b>.",,"{0} will be count of tasks, a number (1 or bigger)"
 no.task.reason.job.priority0,"<b>{0}</b> Aufgaben übersprungen, weil der Arbeiter <b>keine Priorität für diesen Aufgabentype</b> hat.",,"Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number)."
-no.task.reason.last.eval,"Der Arbeiter hat alle Aufgaben vor <b>{0}</b> (Spielzeit) bewertet.",,
+no.task.reason.last.eval,"Der Arbeiter hat alle Aufgaben vor <b>{0}</b> (Spielzeit) ausgewertet.",,
 no.task.reason.no.skill,"<b>Nicht genug Fertigkeiten</b> für <b>{0}</b>aufgaben.",,
 no.task.reason.reluctant,"<b>{0}</b> Aufgaben wurden übersprungen, weil der <b>Arbeiter diese Aufgabe nicht erledigen wollte</b> (zu weit weg, ist vor Kurzem fehlgeschlagen usw.)",,
 no.task.reason.total,"Es gibt <b>{0}</b> ausstehende Aufgaben.",,
@@ -3388,7 +3388,7 @@ time.ago,"vor {0}",,
 time.since.damage.received,"Zeit seit letztem Schaden",,
 time.stopped,"Zeit gestoppt",,
 time.till.impact,"Zeit bis zum Aufprall",,
-times.evaluated,"Anzahl der Bewertungen",,
+times.evaluated,"Anzahl der Auswertungen",,
 tip,Tipp,,
 tip.long.press,"Klicken und halten, um diese Art von Schaltfläche zu aktivieren",,
 toggle,Umschalten,,
