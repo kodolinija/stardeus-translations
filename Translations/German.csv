@@ -1403,7 +1403,7 @@ harvest.priority.help,"Wie wahrscheinlich es ist, dass Wesen dazu neigen, die Pf
 harvested,Geerntet,,
 harvesting.now.bar,"Ernte: {0}",,"Meaning of {0} unknown. Fruit? Progress counter?"
 haul,Transportieren,,
-haul.ingredients,"Bestandsteile transportieren",,
+haul.ingredients,"Bestandteile transportieren",,
 haul.item,"Gegenstand transportieren",,
 haul.materials,"Materialien transportieren",,
 haul.priority,Transportpriorität,,
@@ -3628,8 +3628,8 @@ unity.data.privacy.fetch.fail,"Die Unity-Datenschutzerklärungs-URL konnte nicht
 unknown,Unbekannt,,
 unlink,Trennen,,"as in »remove a link«"
 unload,"Aus Speicher entfernen",,
-unlock,Freischalten,,"[Weidengeist: Hopefully not used in the context of doors …]"
-unlocked,Freigeschaltet,,
+unlock,Entriegeln,,"used for doors"
+unlocked,Freigeschaltet,,"used for research tree technologies"
 unoccupied,Unbesetzt,,
 unpowered,"Keine Stromversorgung",,
 unreachable.areas,"Unerreichbare Räume",,
@@ -3780,3 +3780,17 @@ structure.walls.wallsocketreinforced01,"Verstärkte Wandsteckdose {0}–{1}",,
 structure.walls.wallsocketreinforced01.desc,"Eine verstärkte Version der Wandsteckdose.",,
 ev.construct.fail.title,"Fehlgeschlagener Bau",,
 ev.construct.fail.desc,"<b>{0}</b> hatte beim Bau einen kritischen Defekt. Das Baugebiet braucht möglicherweise sofortige Aufmerksamkeit.",,"{0} will be the device name"
+maxed.out,"auf Höchststufe",,"As in ""skill level is maxed out"" or ""as good as it gets"""
+task.priority,Aufgabenpriorität,,
+production.cost,Produktionskosten,,"Will show up as ""Production Cost: 1 day @ 200kW"""
+smooth.zoom,"Weicher Zoom",,
+produced.item,"Hergestellter Gegenstand",,"Label for the item we are creating / producing / cooking / crafting etc"
+ingredient,Bestandteil,,"Label for the item that is an ingredient in production"
+output.multiplier,Ausgabemultiplikator,,"Example: ""Output Multiplier: x5"" - how many items the device will produce in one batch"
+teleporter.designated.for.trade,"Für Handel festgelegt",,"Label on a teleporter that is meant to be a portal for traded goods"
+teleporter.designated.for.trade.tip,"Dieser Teleporter ist fürs Handeln bestimmt. Jedes Gut oder Wesen, das von anderen Schiffen oder Planeten gekauft wird, wird über diesen Teleporter geliefert.",,
+teleporter.designate.for.trade,"Für Handel festlegen",,
+teleporter.designate.for.trade.tip,"Weise diesen Teleporter dem Handel zu. Dies wird den zuvor festgelegten Handelsteleporter als solchen ersetzen.",,
+trade.unsafe.environment,"Wir sind im Begriff, biologische Lebensformen zu kaufen. Der Teleporter, den du für den Handel vorgesehen hast, befindet sich in unsicherer Umgebung. Gekaufte Wesen könnten sofortige tödliche Verletzungen erleiden.<br><br>Du kannst den Teleporter entweder umsetzen oder einen anderen Handelsteleporter festlegen und den Kauf danach tätigen.",,
+teleporter.designated.unpowered,"Der für den Handel festgelegte Teleporter ist derzeit nicht angeschlossen oder hat ein Elektrizitätsdefizit.",,
+combat.state.DirectControl,"Unter Kontrolle",,"A state when fighter is directly controlled by the player"
