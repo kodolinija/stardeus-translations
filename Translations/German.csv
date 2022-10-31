@@ -460,7 +460,7 @@ codex.m.basebuilding.devicewear.desc,"Die meisten Geräte, insbesondere solche, 
 codex.m.basebuilding.relocatingobjects,"Objekte verlagern",,
 codex.m.basebuilding.relocatingobjects.desc,"Es kommt häufig vor, dass du ein Gerät an einen anderen Ort verschieben möchtest. Wähle hierfür das Gerät aus und wähle den Menüpunkt ""Verschieben"" im Infobereich oder im Kontextmenü. Oder verwende die Tastenkombination {0}, während das Gerät ausgewählt ist.<br><br>Du kannst das Gerät über sich selbst verschieben. Dass ist nützlich, wenn du die Rotation ändern möchtest.<br><br>Das Verschieben eines Geräts kann eine Überprüfung der Konstruktionsfähigkeiten erfordern. Komplexe Geräte wie der Schiffscomputer oder die Stasiskammer können nur von hochqualifizierten Arbeitern verschoben werden.<br><br>Wenn du mehrere Objekte auswählst, kannst du sie alle gleichzeitig verlagern.",,
 codex.m.basebuilding.teleporters,Teleporters,,
-codex.m.basebuilding.teleporters.desc,"<b>Teleporter</b> können als Eine-Richtung-Portale zu anderen Teleportern verwendet werden.<br><br>Zwei Teleporter können miteinander verbunden werden und so ein Zwei-Wege-Portal erzeugen.<br><br>Ein funktionierender Teleporter wird außerdem benötigt, um mit Handelsschiffen, Raumstationen oder planetaren Außenposten Handel zu treiben.",,
+codex.m.basebuilding.teleporters.desc,"<b>Teleporter</b> können als Eine-Richtung-Portale zu anderen Teleportern verwendet werden.<br><br>Zwei Teleporter können miteinander verbunden werden und so ein Zwei-Wege-Portal erzeugen. Mehrere Teleporter können dasselbe Ziel haben.<br><br>Ein funktionierender Teleporter wird außerdem benötigt, um mit Handelsschiffen, Raumstationen oder planetaren Außenposten Handel zu treiben.",2022-10-23,
 codex.m.basebuilding.winching,Winden,,
 codex.m.basebuilding.winching.desc,"Du kannst die Winde und den Windenanker verwenden, um einen abgebrochenen Teil des Schiffes einzuholen. Baue die Winde in der Nähe der Kante deines Schiffes und den Windenanker in der Nähe der Kante eines abgebrochenen Schiffsteils.<br><br>Wähle dann den Windenhaken aus und verwende die Infotafel oder das Kontextmenü, um den Abschnitt einzuholen. Der Vorgang wird abgebrochen, wenn sich Hindernisse im Weg befinden (Solarpaneele, Triebwerke usw.).<br><br>Du musst die Windentechnologie im Forschungsbaum freischalten, um die Blaupausen für Windenhaken und Windenanker zu erhalten.",,
 codex.m.bigquestions,"Zentrale Fragen",,
@@ -1123,7 +1123,7 @@ exp.stage.takeoff,Abflug,,
 exp.stage.travel.to.base,"Auf der Rückreise",,
 exp.stage.travel.to.dest,"Unterwegs zum Zielort",,
 exp.stage.unloading,"Ausladen der Ausbeute",,
-exp.stage.waiting.for.base,"Warten auf Abholung",,
+exp.stage.waiting.for.base,"Zu weit entfernt für eine Rückkehr",2022-10-28,
 expedition,Expedition,,
 expedition.aborted,"Expedition abgebrochen",,
 expedition.aborted.shuttle.damaged,"Die Expedition wurde abgebrochen, weil das Schiff vor dem Start beschädigt wurde.",,
@@ -1403,7 +1403,7 @@ harvest.priority.help,"Wie wahrscheinlich es ist, dass Wesen dazu neigen, die Pf
 harvested,Geerntet,,
 harvesting.now.bar,"Ernte: {0}",,"Meaning of {0} unknown. Fruit? Progress counter?"
 haul,Transportieren,,
-haul.ingredients,"Bestandsteile transportieren",,
+haul.ingredients,"Bestandteile transportieren",,
 haul.item,"Gegenstand transportieren",,
 haul.materials,"Materialien transportieren",,
 haul.priority,Transportpriorität,,
@@ -2818,7 +2818,7 @@ research.furnitureadvanced,"Gehobene Ausstattung",,
 research.heating,Heizung,,
 research.hygiene,Hygiene,,
 research.inefficient,"Ineffiziente Forschung",,
-research.inefficient.tip,"Aktuelle <b>Forschung dauert länger</b>. Es gibt <b>nicht genug überschüssige Elektrizität</b>, um die volle Forschungskapazität auszuschöpfen.",,
+research.inefficient.tip,"Aktuelle <b>Forschung dauert länger</b>. Es gibt entweder <b>nicht genug überschüssige Elektrizität</b> oder nicht ausreichend viele aktive <b>Forschungsstationen</b>, um die volle Forschungskapazität auszuschöpfen. Klicke auf diese Benachrichtigung für weitere Informationen.",2022-10-24,
 research.lacks.disk,"Forschung benötigt <b>Festplattenspeicher</b>",,
 research.lacks.disk.and.memory,"Forschung benötigt <b>Festplatten</b>- und <b>Arbeitsspeicher</b>",,
 research.lacks.memory,"Forschung benötigt <b>Arbeitsspeicher</b>",,
@@ -3560,8 +3560,8 @@ tutorial.deconstruct_mass.limit,"Der Massenrückbau ist für die Dauer des Tutor
 tutorial.deconstruct_single,"Wir werden einige Rohstoffe für den Bau und die Stromerzeugung benötigen.<br><br>Wähle mit <b>{0}</b> ein einzelnes Wand- oder Bodenfeld, klicke dann <b>{1}</b>, um das Kontextmenü zu öffnen, und wähle dort die Option <nobr><b>Dekonstruktion befehlen</b></nobr> aus.",2022-06-21,
 tutorial.deconstruct.obj,"Die Dekonstruktion von Objekten ist momentan deaktiviert.",,
 tutorial.direct_orders.1,"Wir haben die nötigsten Grundlagen abgedeckt, aber es gibt noch viel mehr zu lernen. Es ist nicht genug Zeit, dir alles zu zeigen. Stattdessen sollst du Dinge selbst herausfinden, indem du die Nutzeroberfläche erkundest und tief in jedem Menüeintrag herumstöberst.<br><br>Du musst sorgfältig lesen, wenn du alle Feinheiten zum Leiten dieser Operation meistern willst.<br><br>Ich werde dir zeigen, wie du deinen robotischen Arbeitern direkte Anweisungen gibst. Wähle irgendeinen Arbeiter und finde den Button <b>Direkte Kontrolle</b> im Abschnitt <b>Kontrollierter Arbeiter</b> der Infotafel.",,
-tutorial.direct_orders.2,"Benutze nun die im Pop-up <b>Direkte Kontrolle</b> zur Verfügung gestellten Informationen, um den Arbeiter auf eine Position deiner Wahl zu schicken.",,
-tutorial.end,"Die Einführung ist nun abgeschlossen. Ich danke dir für deine Geduld. Um dir weiterhin das Lernen zu ermöglichen, empfehle ich dringlichst, im <b>Betriebshandbuch</b> des <b>Kodex</b>overlays zu stöbern.<br><br>Ich werde gelegentlich Ratschläge erteilen, wenn bestimmte Aktionen angebracht sind. Behalte die Ereignisliste im Auge.<br><br>Vollständige Freigabe erteilt. Viel Glück!",2022-08-18,
+tutorial.direct_orders.2,"Weise nun den kontrollierten Arbeiter an, sich zu einer Position deiner Wahl zu bewegen. Unter dem Mauszeiger wird es einen Hinweis geben. Stelle sicher, dass der Arbeiter ausgewählt ist, und vergiss nicht, die direkte Kontrolle anschließend wieder zu lösen, da der Arbeiter andernfalls auf weitere Instruktionen warten wird.",2022-10-28,
+tutorial.end,"Die Einführung ist nun abgeschlossen. Ich danke dir für deine Geduld. Um dir weiterhin das Lernen zu ermöglichen, empfehle ich dringlichst, im <b>Betriebshandbuch</b> des <b>Kodex</b>overlays zu stöbern.<br><br>Ich werde gelegentlich Ratschläge erteilen, wenn bestimmte Aktionen angebracht sind. Behalte die Ereignisliste im Auge.<br><br>Vollständige Freigabe erteilt. Viel Glück!",2022-08-18,"Now order the controlled worker to move to a position of your choice. The will be a hint underneath the mouse cursor. Make sure you have the worker selected, and don't forget to release the direct control afterwards, or the worker will keep waiting for more instructions."
 tutorial.energy_grid,"Du kannst das <nobr><b>Stromnetz</b></nobr>overlay verwenden, um abgeschaltete Geräte zu finden sowie den Energiefluss und die Menge der Produktion und des Verbrauchs zu sehen. Schalte das Stromnetzoverlay aus, um fortzufahren. <b>{0}</b> wird das Overlay schließen, wenn nichts anderes ausgewählt ist.",,
 tutorial.events,"Unterhalb der Overlaysteuerelemente findest du eine Liste mit aktuellen Ereignisbenachrichtigungen. Du bekommst eine Testbenachrichtigung, wenn du bereit bist.",,
 tutorial.events.1,"Schließe die Benachrichtigung, um fortzufahren.",,
@@ -3628,8 +3628,8 @@ unity.data.privacy.fetch.fail,"Die Unity-Datenschutzerklärungs-URL konnte nicht
 unknown,Unbekannt,,
 unlink,Trennen,,"as in »remove a link«"
 unload,"Aus Speicher entfernen",,
-unlock,Freischalten,,"[Weidengeist: Hopefully not used in the context of doors …]"
-unlocked,Freigeschaltet,,
+unlock,Entriegeln,,"used for doors"
+unlocked,Freigeschaltet,,"used for research tree technologies"
 unoccupied,Unbesetzt,,
 unpowered,"Keine Stromversorgung",,
 unreachable.areas,"Unerreichbare Räume",,
@@ -3780,3 +3780,22 @@ structure.walls.wallsocketreinforced01,"Verstärkte Wandsteckdose {0}–{1}",,
 structure.walls.wallsocketreinforced01.desc,"Eine verstärkte Version der Wandsteckdose.",,
 ev.construct.fail.title,"Fehlgeschlagener Bau",,
 ev.construct.fail.desc,"<b>{0}</b> hatte beim Bau einen kritischen Defekt. Das Baugebiet braucht möglicherweise sofortige Aufmerksamkeit.",,"{0} will be the device name"
+maxed.out,"auf Höchststufe",,"As in ""skill level is maxed out"" or ""as good as it gets"""
+task.priority,Aufgabenpriorität,,
+production.cost,Produktionskosten,,"Will show up as ""Production Cost: 1 day @ 200kW"""
+smooth.zoom,"Weicher Zoom",,
+produced.item,"Hergestellter Gegenstand",,"Label for the item we are creating / producing / cooking / crafting etc"
+ingredient,Bestandteil,,"Label for the item that is an ingredient in production"
+output.multiplier,Ausgabemultiplikator,,"Example: ""Output Multiplier: x5"" - how many items the device will produce in one batch"
+teleporter.designated.for.trade,"Für Handel festgelegt",,"Label on a teleporter that is meant to be a portal for traded goods"
+teleporter.designated.for.trade.tip,"Dieser Teleporter ist fürs Handeln bestimmt. Jedes Gut oder Wesen, das von anderen Schiffen oder Planeten gekauft wird, wird über diesen Teleporter geliefert.",,
+teleporter.designate.for.trade,"Für Handel festlegen",,
+teleporter.designate.for.trade.tip,"Weise diesen Teleporter dem Handel zu. Dies wird den zuvor festgelegten Handelsteleporter als solchen ersetzen.",,
+trade.unsafe.environment,"Wir sind im Begriff, biologische Lebensformen zu kaufen. Der Teleporter, den du für den Handel vorgesehen hast, befindet sich in unsicherer Umgebung. Gekaufte Wesen könnten sofortige tödliche Verletzungen erleiden.<br><br>Du kannst den Teleporter entweder umsetzen oder einen anderen Handelsteleporter festlegen und den Kauf danach tätigen.",,
+teleporter.designated.unpowered,"Der für den Handel festgelegte Teleporter ist derzeit nicht angeschlossen oder hat ein Elektrizitätsdefizit.",,
+combat.state.DirectControl,"Unter Kontrolle",,"A state when fighter is directly controlled by the player"
+direct.control.take,"Kontrolle übernehmen",,"Action to start controlling a worker (or multiple workers)"
+direct.control.release,"Kontrolle lösen",,"To stop controlling a selected worker or workers"
+direct.control.hover.tip,"Halte {0}, um direkte Befehle zu erteilen",,
+direct.control.release.btn,"K. lösen",,"Button (short) for releasing worker from direct control"
+direct.control.take.btn,Kontroll.,,"Take direct control of a worker. Short button. Verb"
