@@ -156,3 +156,7 @@ YouHanHua Team
 ### Russian
 
 * [iyalang](https://github.com/iyalang)
+
+### Polish
+
+* [Ketyak](https://github.com/Ketyak)
