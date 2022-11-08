@@ -158,3 +158,7 @@ YouHanHua Team
 ### Korean
 
 * [Ciizel](https://github.com/Ciizel)
+
+### Polish
+
+* [Ketyak](https://github.com/Ketyak)
