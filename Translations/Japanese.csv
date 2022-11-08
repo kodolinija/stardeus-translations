@@ -2370,7 +2370,7 @@ objects.devices.plantermini.desc,1つの植物を育てるための小型の水�
 objects.devices.probe,プローブ,,
 objects.devices.probe.desc,プローブを星系内の彼方に射出することで、遠方の惑星をスキャンすることができます。プローブは1回限りの使い捨てです。,,
 objects.devices.quantumbarrier,量子バリア発生器,,
-objects.devices.quantumbarrier.desc,強力な力場を発生させ、あらゆるサイズの隕石や小惑星から船を守れるようになる。使用するには長時間の強力なチャージが必要。,,
+objects.devices.quantumbarrier.desc,フォースフィールドを発生させ、あらゆるサイズの隕石や小惑星から船を守れるようになる。使用するには長時間の強力なチャージが必要。,,
 objects.devices.radar,レーダー,,
 objects.devices.radar.desc,周囲をスキャンし、接近する物体（小惑星、宇宙船、アノマリー）を事前に警告してくれる。惑星やその他の宇宙浮遊物をスキャンして資源を探すこともできる。,,
 objects.devices.radiator,ラジエーター,,
