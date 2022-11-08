@@ -236,6 +236,7 @@ apply,Zastosuj,,
 area.size,Rozmiar {0},,
 arriving.soon,Przybywa: {0},,{0} will be replaced with who is arriving (i.e Arriving: Ore trader). For now only used for notifying about arriving merchants.
 asimov.violation.1,"Ta akcja narusza Pierwsze Prawo Robotyki Asimova. Robot nie może skrzywdzić człowieka ani przez zaniechanie dopuścić, aby człowiek doznał krzywdy. Przerywanie.",,
+
 asimov.violation.3,"Ta akcja narusza Trzecie Prawo Robotyki Asimova. Robot musi chronić swoją egzystencję, o ile taka ochrona nie jest sprzeczna z Pierwszym lub Drugim Prawem. Przerywanie.",,
 assemble,Złóż,,
 assembling.now,Składa {0},,
