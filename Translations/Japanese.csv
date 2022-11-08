@@ -3769,8 +3769,8 @@ evt.mutiny.title,反乱,,
 evt.mutiny.desc,船に反乱が起こりました！何人かの入植者は敵対的になっています,,
 evt.engine.failure.title,エンジンの故障,,
 evt.engine.failure.desc,<b>{0}</b> を失敗した! 燃料が爆発し、エンジンを破壊した,,
-brain.log.enabled,Log Brain Activity,,"Log is a verb here. If this setting is enabled, worker's brain activity will be logged (see ""log"" translation key)"
-debug.log,Debug Log,,Noun
+brain.log.enabled,中枢部活動 ログ,,"Log is a verb here. If this setting is enabled, worker's brain activity will be logged (see ""log"" translation key)"
+debug.log,デバッグ ログ,,Noun
 game.speed.multiplier,ゲームスピード<br><b>{0:0.#}X</b>,,"game clock speed multiplier, {0:0.#} may become a number like ""10"", or ""0.5"""
 modifier.NoHeavyDisasters,重度の災害を無効にする,,
 modifier.NoHeavyDisasters.desc,ストーリージェネレーターは、船の大部分に深刻な損害を与える可能性のある災害をスキップします (i.e. <b>小惑星</b>または<b>流星群</b>),,
