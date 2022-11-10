@@ -2343,7 +2343,7 @@ objects.devices.heatermini.desc,小さな部屋にオススメ、おひとり様
 objects.devices.heatsink,ヒートシンク,,
 objects.devices.heatsink.desc,船のコンピュータの近くに設置するとオーバーヒートを遅らせることができます。複数追加すると、追加した分の効果は減少していきます。,,
 objects.devices.jukebox,ジュークボックス,,
-objects.devices.jukebox.desc,コインが挿入されると、選択した音楽を自動的に再生するマシン。,,
+objects.devices.jukebox.desc,コインが投入されると、選択した音楽を自動的に再生するマシン。,,
 objects.devices.lightblock,照明ブロック,,
 objects.devices.lightblock.desc,色をRGBで設定できるオシャレな光源。明るく輝く。,,
 objects.devices.loom,縫製機,,
