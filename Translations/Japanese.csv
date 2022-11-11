@@ -3200,6 +3200,7 @@ species.Crawler,クロウラー,,
 species.Dog,イヌ,,
 species.Drone,作業ドローン,,
 species.Robot,ロボット,,
+
 species.Human,人間,,
 species.Sentry,セントリードローン,,
 speed,移動速度,,
