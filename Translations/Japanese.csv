@@ -2474,15 +2474,15 @@ objects.furniture.vase01,植木鉢,,
 objects.furniture.vase01.desc,小さな植物を育てるためのスタイリッシュな金属製の器,,
 objects.furniture.wardrobesteel,鉄製のワードローブ,,
 objects.furniture.wardrobesteel.desc,衣類用アイテムを収納するための場所,,
-off,オフ,,"""オン"" と組み合わせて、いくつかのことを説明するために使用することができます:
-1. デバイスの状態 (オンまたはオフ)
-2. 設備の状態: 装備(オン)または未装備(オフ)。 ""帽子をかぶっています"", ""宇宙服は脱いでいます""のように"
+off,オフ,,"In combination with ""off"" could be used to describe several things:
+1. State of device (turned on or turned off)
+2. State of equipment: equipped (on) or unequipped (off). As in ""the hat is on"", ""the space suit is off"""
 offline,オフライン,,
 offline.workers,オフラインのワーカー,,
 ok,OK,,
-on,オン,,"""オフ"" と組み合わせて、いくつかのことを説明するために使用することができます:
-1. デバイスの状態 (オンまたはオフ)
-2. 設備の状態: 装備(オン)または未装備(オフ)。 ""帽子をかぶっています"", ""宇宙服は脱いでいます""のように"
+on,オン,,"In combination with ""off"" could be used to describe several things:
+1. State of device (turned on or turned off)
+2. State of equipment: equipped (on) or unequipped (off). As in ""the hat is on"", ""the space suit is off"""
 on.expedition,探査中,,
 on.fire,火災発生！,,
 ongoing.trade,取引中,,
