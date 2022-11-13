@@ -3817,3 +3817,7 @@ objects.devices.jukebox,Jukebox,,
 act.UseJukebox,"Benutzt eine Jukebox",,
 used.a.jukebox,"Hat Jukebox benutzt",,
 use.jukebox,"Jukebox benutzen",,
+harvest.output,Ernteerträge,,"Label for list of products that are received when harvesting a plant"
+experimental.features,"Experimentelle Spielmechaniken",,
+experimental.features.tip,"Hiermit werden automatisch alle derzeit existierenden experimentellen Spielmechaniken aktiviert. Einige davon sind möglicherweise noch nicht vollständig fertiggestellt.<br><br><b>Warnung!</b> Das Deaktivieren experimenteller Mechaniken zerstört unter Umständen Spielstände, die mit aktivierten experimentellen Mechaniken angelegt wurden.",,
+experimental.feature,"Experimentelle Spielmechanik",,
