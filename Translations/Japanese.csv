@@ -5,7 +5,7 @@ Key,Translation,Version,Comment
 abort,中止,,
 aborting.expedition.died,探査中止。クルーの {0} はシャトルに搭乗する前に死亡しました。,,
 aborting.expedition.target.too.far,探査中止。目標の {0} から離れすぎています。,,
-about,About,,
+about,情報,,
 about.mods,Modsについて,,
 about.wallet,資金を手に入れるには,,
 about.wallet.desc,マイニングアップグレードを船のコンピュータや対応するシステムにインストールすることで通貨をマイニングすることができます。また、商品を取引することでもお金を手に入れることができます。,2022-03-19,
