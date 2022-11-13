@@ -2714,7 +2714,7 @@ quest.tasks.current,現在の作業,,
 quest.tasks.failed,失敗した作業,,
 quests,クエスト,,
 quests.active,実行中,,"Appears on buttons that switch tabs, should be short"
-quests.available,利用可能,,"Appears on buttons that switch tabs, should be short"
+quests.available,実行可能,,"Appears on buttons that switch tabs, should be short"
 quests.completed,完了,,"Appears on buttons that switch tabs, should be short"
 quests.failed,失敗,,"Appears on buttons that switch tabs, should be short"
 quests.list.available,実行可能なクエスト,2022-09-21,Used as a list header for this quest type
