@@ -3834,5 +3834,5 @@ booting.neural.network,ニューラルネットワーク起動中,,
 fragmentation.defrag.progress,ニューラルネットワークの最適化中:{0},,{0} will show percentage (i.e 15%)
 fragmentation.defrag.started,最適化を開始,,
 fragmentation.defrag.ended,最適化の完了,,
-fragmentation.defrag.started.desc,ニューラルネットワーク最適化プロセスを開始 ：船のコンピュータ {1} 機で断片化 {0},,
-fragmentation.defrag.ended.desc,ニューラルネットワークの最適化を完了 ： {0},,
+fragmentation.defrag.started.desc,ニューラルネットワーク、船のコンピュータ {1} 基で断片化  {0} の最適化プロセスを開始,,
+fragmentation.defrag.ended.desc,ニューラルネットワーク、 {0} の最適化を完了,,
