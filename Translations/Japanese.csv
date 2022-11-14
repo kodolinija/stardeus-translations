@@ -3827,12 +3827,12 @@ fragmentation.info,ニューラルネットワークは断片化が高レベル�
 fragmentation.reducing.speed.1,中レベルのニューラルネットワークの断片化により、処理速度が低下中：現在の効率： {0} 。最適化を推奨します。,,"{0} will show percentage, i.e. 15%"
 fragmentation.reducing.speed.2,高レベルのニューラルネットワークの断片化により、処理速度が低下中：現在の効率：{0} 。 最適化を強く推奨します。,,"{0} will show percentage, i.e. 15%"
 fragmentation.status,最適化中： {0},,"{0} will show percentage, i.e. 15%"
-codex.m.shipcomputer.fragmentation.desc,"船のコンピュータは効率を維持するために、ニューラルネットワークを定期的に最適化する必要があります。最適化手順は、ニューラルネットワークを数時間シャットダウンします。その間、船を制御できません。<br><br>必要に応じて、最適化手順を遅らせることができます。しかし、断片化している間は、シミュレーションを高速で実行することはできません。<br><br>船のコンピュータを複数構築すれば、最適化手順がより速く実行できます。<br><br>船のコンピュータの近くにヒートシンクを設置すると、断片化しにくくなります。",,
+codex.m.shipcomputer.fragmentation.desc,"効率を維持するために、船のコンピュータ・ニューラルネットワークを定期的に最適化する必要があります。最適化手順は、ニューラルネットワークを数時間シャットダウンします。その間、船を制御できません。<br><br>必要に応じて、最適化手順を遅らせることができます。しかし、断片化している間は、シミュレーションを高速で実行することはできません。<br><br>船のコンピュータを複数構築すれば、最適化手順がより速く実行できます。<br><br>船のコンピュータの近くにヒートシンクを設置すると、断片化しにくくなります。",,
 codex.m.shipcomputer,船のコンピュータ,,
 codex.m.shipcomputer.fragmentation,ニューラルネットワークの断片化,,
 booting.neural.network,ニューラルネットワーク起動中,,
 fragmentation.defrag.progress,ニューラルネットワークの最適化中:{0},,{0} will show percentage (i.e 15%)
 fragmentation.defrag.started,最適化を開始,,
 fragmentation.defrag.ended,最適化の完了,,
-fragmentation.defrag.started.desc,ニューラルネットワーク最適化プロセスを開始、船のコンピュータ {1} 基で  {0} 断片化中,,"{0} is percentage (i.e10%), {1} is a number (i.e. 3)"
+fragmentation.defrag.started.desc,ニューラルネットワーク最適化プロセスを開始、船のコンピュータ {1} 基で {0} の断片化,,"{0} is percentage (i.e10%), {1} is a number (i.e. 3)"
 fragmentation.defrag.ended.desc,ニューラルネットワーク、 {0} で最適化を完了,,{0} is time (i.e. 1h 12m)
