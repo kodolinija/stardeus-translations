@@ -3822,7 +3822,7 @@ harvest.output,収穫物の詳細,,Label for list of products that are received 
 experimental.features,実験的な機能,,
 experimental.features.tip,有効にすると、ゲームに実装された実験的な機能が自動的に全て有効になります。そのうちのいくつかは、まだ不完全かもしれません。<br><br><b>警告!</b> 実験的な機能を無効にすると、実験的な機能を有効にしてプレイしたセーブデータが壊れる可能性があります。,,
 experimental.feature,実験的な機能,,
-fragmentation.defrag.now,今すぐ、最適化する,,
+fragmentation.defrag.now,今すぐ最適化する,,
 fragmentation.info,ニューラルネットワークは断片化が高レベルに達した。現在の効率: {0}。最適化することを推奨します。<br><br>この手順は、ニューラルネットワークが数時間中断されます。最適化する前に、緊急に船を管理する行動を実行するのが賢明です。,,{0} will show percentage, i.e. 15%
 fragmentation.reducing.speed.1,中レベルのニューラルネットワークの断片化により処理速度が低下中：現在の効率： {0} 。最適化を推奨します。,,{0} will show percentage, i.e. 15%
 fragmentation.reducing.speed.2,高レベルのニューラルネットワークの断片化により処理速度が低下中：現在の効率：{0} 。 最適化を強く推奨します。,,{0} will show percentage, i.e. 15%
