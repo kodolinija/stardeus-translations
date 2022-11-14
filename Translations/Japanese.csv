@@ -51,7 +51,7 @@ achievement.Money8,$1x10^8,,
 achievement.Money8.desc,"100,000,000 Starcreds を得た",,
 achievement.Money9,$1x10^9,,
 achievement.Money9.desc,"1,000,000,000 Starcreds を得た",,
-achievement.OnePiece,一は全,,"""一は全、全は一なり""の慣用句の略で、""無傷または欠けてない; 完全体""を意味します。 Examples of idiom use: We are lucky to have walked away from that car accident all in one piece. I made sure to pack the heirloom carefully so that it would still be all in one piece when it reached my daughter."
+achievement.OnePiece,一は全,,"short for ""all in one piece"" idiom, which means ""Uninjured or unharmed; fully intact."". Examples of idiom use: We are lucky to have walked away from that car accident all in one piece. I made sure to pack the heirloom carefully so that it would still be all in one piece when it reached my daughter."
 achievement.OnePiece.desc,破壊された船の全セクションをひとつに繋げる,,
 achievement.StasisDestroyed,失われた希望,,
 achievement.StasisDestroyed.desc,コールドスリープが破壊される,,
@@ -2780,7 +2780,7 @@ research.biospheregeneration,生態系の構築,,
 research.biotech,バイオテクノロジー,,
 research.blackholes,ブラックホール,,
 research.cancel,研究中断,,
-research.cant.do.parallel,<b>並列研究</b>のための十分な空き容量がありません:<br>{0},,"{0}は""研究にはメモリやディスクが不足です""のようなものになります。. Displayed if multiple research items are running and this one cannot reserve the resources"
+research.cant.do.parallel,<b>並列研究</b>のための十分な空き容量がありません:<br>{0},,"{0} will be something like ""Research lacks Memory or Disk"". Displayed if multiple research items are running and this one cannot reserve the resources"
 research.carrier,輸送,,
 research.cleaningbot,お掃除ロボット,,
 research.cloning,クローニング,,
