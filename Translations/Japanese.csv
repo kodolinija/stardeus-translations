@@ -2334,7 +2334,7 @@ objects.devices.heatsink.desc,船のコンピュータの近くに設置する�
 objects.devices.lightblock,照明ブロック,,
 objects.devices.lightblock.desc,色をRGBで設定できるオシャレな光源。明るく輝く。,,
 objects.devices.loom,縫製機,,
-objects.devices.loom.desc,様々な資材を縫製して衣類を生産できる装置。,,
+objects.devices.loom.desc,様々な材料を縫製して衣類へ加工できる装置。,,
 objects.devices.matterreactor,物質反応炉 ({0}kW),,
 objects.devices.matterreactor.desc,資材を燃料にして発電する、より大型の反応炉。小型のものよりも効率が良い。最大{0}kWまで発電可能。実際の出力はパワーグリッドの必要電力によって異なることがある。電力不足にもかかわらず稼働していない場合、電力が需要のある場所に届いていない可能性が高い。その場合はパワーグリッドオーバーレイを参照すること。時折、セルフクリーニング処理の過程で燃えカスのカーボンが排出されることがある。,,
 objects.devices.matterreactormini,物質反応炉 ({0}kW),,
