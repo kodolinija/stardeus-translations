@@ -1,7 +1,7 @@
+Key,Translation,Version,Comment
 <Gamepad>,Kontroll,,
 <Keyboard>,Tangentbord,,
 <Mouse>,Mus,,
-Key,Translation,Version,Comment
 abort,Avbryt,,
 aborting.expedition.died,Avbryter expeditionen. Besättningsmedlemen {0} dog innan den var inne i farkosten.,,
 aborting.expedition.target.too.far,"Avbryter expeditionen. Vi är för långt ifrån våran destination, {0}.",,
