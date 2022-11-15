@@ -1417,7 +1417,7 @@ heat.production.rate,熱産生率,,
 heat.pump,ヒートポンプ,,
 heat.sink,ヒートシンク,,
 heat.sink.effectiveness,ヒートシンク冷却効果,,
-heat.sink.effectiveness.desc,船のコンピュータの熱を逃し断片化を遅くさせるために、ヒートシンクをいくつか設置することができます。ヒートシンクの設計図は温度制御を研究してください。,2022-11-14,
+heat.sink.effectiveness.desc,船のコンピュータの熱を逃し断片化を遅くさせるために、ヒートシンクをいくつか設置することができます。ヒートシンクの設計図は温度制御を研究してください。,,
 heater,ヒーター,,
 help.money,資産と経済,,
 help.money.desc,自分の船にあるものを商人に売ったり、船のコンピュータを使って通貨をマイニングしたりすることでお金を得ることができます。,,
@@ -2330,7 +2330,7 @@ objects.devices.heater.desc,電気を消費して室温を21°C(70°F)まで上�
 objects.devices.heatermini,小型ヒーター,,
 objects.devices.heatermini.desc,小さな部屋にオススメ、おひとり様用のコンパクトなヒーターだ。,,
 objects.devices.heatsink,ヒートシンク,,
-objects.devices.heatsink.desc,船のコンピュータの近くに設置すると、冷却してニューラルネットワークの断片化プロセスを遅らせます。複数追加すると、一つずつの効果は減少していきます。,2022-11-14,"Example of diminishing effect: Having 1 heatsink will reduce by 30%, having 2 will reduce by 50%, having 3 will reduce by 60%, having 10 will reduce by 70%. "
+objects.devices.heatsink.desc,船のコンピュータの近くに設置すると、冷却してニューラルネットワークの断片化プロセスを遅らせます。複数追加すると、一つずつの効果は減少していきます。,,"Example of diminishing effect: Having 1 heatsink will reduce by 30%, having 2 will reduce by 50%, having 3 will reduce by 60%, having 10 will reduce by 70%. "
 objects.devices.lightblock,照明ブロック,,
 objects.devices.lightblock.desc,色をRGBで設定できるオシャレな光源。明るく輝く。,,
 objects.devices.loom,縫製機,,
