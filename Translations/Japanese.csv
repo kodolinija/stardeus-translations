@@ -2376,7 +2376,7 @@ objects.devices.researchstation.desc,科学スキルを持つ人間は、研究�
 objects.devices.securitycontrols,保安制御端末,,
 objects.devices.securitycontrols.desc,船の保安に関連するデバイスを一元管理する。保安制御端末と船のコンピュータが同じグリッド上にあることが必要。,,
 objects.devices.shipcomputer,船のコンピュータ,,
-objects.devices.shipcomputer.desc,ニューラルネットワークを保持しているホストコンピュータです。時間の経過とともに蓄熱し、断片化が生じ稼働効率が低下します。時間が経過すると極端な高温になることもあります。稼働能力を完全に回復させるためには定期的に最適化を行う必要があります。,2022-11-14,
+objects.devices.shipcomputer.desc,ニューラルネットワークを保持しているホストコンピュータです。時間の経過とともに蓄熱し、断片化が生じ稼働効率が低下します。時間が経過すると極端な高温になることもあります。稼働能力を完全に回復させるためには定期的に最適化を行う必要があります。,2022-03-19,
 objects.devices.shower,シャワー,,
 objects.devices.shower.desc,入植者たちが自分自身を清潔に保つための場所,,
 objects.devices.shuttle,シャトル,,
