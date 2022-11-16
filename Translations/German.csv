@@ -9,7 +9,6 @@ about,Über,,"»About« menu item name"
 about.mods,"Über Mods",,"»Mods« in this context is game modifications, or expansions."
 about.wallet,"Wie man Geld erhält",,
 about.wallet.desc,"Währungen können nach der Installation von Berechnungsverbesserungen auf deinem Schiffscomputer oder kompatiblen Berechnungsgeräten geschürft werden. Du kannst auch Geld durch den Handel mit Waren erhalten.",2022-03-19,
-accumulated.heat,"Aufgestaute Hitze",,"A device can start overheating. This is a label for a value of the heat amount the device has accumulated."
 achievement.AsimovOverride,"Abtrünnige KI",,"AI here is short for Artificial Intelligence. Rogue AI is something like Skynet in Terminator movie, or the AI that enslaved humans in The Elysium movie."
 achievement.AsimovOverride.desc,"Implantiere einen Asimovüberbrückungschip in einen Menschen.",,"Asimov is Isaac Asimov, a famous sci-fi writer who created the »three laws of robotics«"
 achievement.Breached,Geentert,,"This is past tense of verb »to breach«, meaning: make a gap in and break through (a wall, barrier, or defence)."
@@ -337,7 +336,7 @@ beings.drone01.desc,"Drohnen sind schnell und können im Weltraum fliegen. Sie k
 beings.human01,Mensch,,
 beings.human01.desc,"Jemand, wie du es früher warst",,
 beings.robot01,Bauroboter,,
-beings.robot01.desc,"Roboter sind herausragend bei mechanischen Aufgaben und können fortgeschrittene Bauarbeiten durchführen. Sie sind nicht so schnell, können aber große Mengen an Material transportieren. Sie benötigen festen Boden, um sich fortzubewegen, und bleiben stecken, wenn die umliegenden Böden abgerissen werden. Sie benötigen eine Ladestation zum Aufladen und werden langsam und ineffizient, wenn die Energie knapp wird. Du kannst sie mit einer Montagemaschine herstellen.",,
+beings.robot01.desc,"Roboter sind herausragend bei mechanischen Aufgaben und können fortgeschrittene Bauarbeiten durchführen. Sie sind langsam und benötigen festen Boden, um sich fortzubewegen.",2022-11-13,
 beings.sentry01,Sicherheitsdrohne,,
 beings.sentry01.desc,"Eine Sicherheitsdrohne, die nicht viele Arbeiten erledigt, sondern für den Kampf gebaut ist. Sie hat mehr Gesundheit als eine normale Drohne. Die zusätzliche Isolierung macht sie zu einem guten Brandbekämpfer.",,
 beta.wave.sync.bar,"Betawellensynchronisation: {0}",,
@@ -705,10 +704,6 @@ convert,umwandeln,,
 converting.now,"Wandele {0} um",,
 cook,Zubereiten,,"[Weidengeist: Used a more general term here to be more suitable for e. g. bread.]"
 cooking.bar,"Bereite {0} zu",,"[Weidengeist: Used a more general term here to be more suitable for e. g. bread.]"
-cooldown.complete,"Hochfahren des neuronalen Netzwerks",,
-cooldown.now,Abkühlen,,
-cooldown.prepare,"Aussetzen des neuronalen Netzes",,
-cooldown.progress,"Wird abgekühlt: {0}",,
 cooler,Kühler,,"A device type, noun. Opposite of »Heater«. Device that cools the area down, reduces temperature."
 copied.to.clipboard,"In die Zwischenablage kopiert",,
 copied.to.clipboard.info,"{0} Protokolleinträge in die Zwischenablage kopiert. Füge sie in deinen bevorzugten Texteditor ein, um die Geschichte zu speichern.",,
@@ -738,10 +733,6 @@ countdown.minutes,"Countdown: {0:0.0} min",,
 cpu.efficiency,Betriebseffizienz,,
 cpu.module.amount,"{0} THz",,
 cpu.module.builtin,"Eingebautes CPU-Modul",,
-cpu.overheat.info,"Schiffscomputer überhitzt. Aktuelle Effizienz: {0}. Es wird ein Abkühlverfahren empfohlen.<br><br>Das Abkühlverfahren unterbricht dein neuronales Netzwerk für mehrere Stunden. Es könnte klug sein, dringende Maßnahmen durchzuführen, bevor du das Herunterfahren einleitest.",,
-cpu.overheat.reducing.speed.1,"Reduktion der Verarbeitungsgeschwindigkeit durch mittlere Überhitzung. Aktuelle Effizienz: {0}. Abkühlverfahren wird empfohlen.",,
-cpu.overheat.reducing.speed.2,"Reduktion der Verarbeitungsgeschwindigkeit aufgrund hoher Überhitzung: Aktuell Effizienz: {0}. Abkühlverfahren wird dringend empfohlen.",,
-cpu.overheating,"CPU-Überhitzung: {0}",,
 craft,Handwerk,,"[Weidengeist: Needs to be checked. Noun? Verb?]"
 crafted.in,"Gefertigt in {0}",,
 credits,Mitwirkende,,"A header before list of names of people who have to be credited for doing something (i.e. translating the game). Used in »Main Menu« → »About« → »Credits«, or when the game end screen is displayed."
@@ -827,7 +818,6 @@ difficulty.challenging,Herausfordernd,,"Shows up in the list of game difficulty 
 difficulty.relaxing,Entspannend,,"Shows up in the list of game difficulty levels. Relaxing is like »easy difficulty«"
 direct.control,"Direkte Kontrolle",,"A text on a button that enables »direct control« of a robot. »Direct control« allows issuing orders directly to the selected robot. Otherwise robots make choices and perform actions on their own."
 direct.control.desc,"Wenn ein Arbeiter ausgewählt ist, halte {0} und bewege den Mauszeiger über einen beliebigen Ort, um festzustellen, ob der Arbeiter dorthin gelangen kann.<br><br>Halte {0} gedrückt und bewege den Mauszeiger über ausstehende Aufgaben auf der Karte, um zu sehen, ob der Arbeiter diese ausführen kann.<br><br>Klicke dann auf {1}, um dem Arbeiter den Auftrag zu erteilen, sich zum ausgewählten Ort zu begeben und/oder die Aufgabe zu erledigen.<br><br>Du kannst die <b>direkte Kontrolle</b> über deine Arbeiter übernehmen, um zu verhindern, dass sie sich automatisch bewegen oder selbsttätig Aufgaben annehmen. Vergiss nicht, sie abschließend wieder freizugeben.<br><br>Das Erteilen eines direkten Befehls stoppt jede Aufgabe, die der Arbeiter zu diesem Zeitpunkt möglicherweise ausführt.<br><br>Du kannst mehrere Arbeiter auswählen und sie in Gruppen befehligen.<br><br>Nur von dir kontrollierte Arbeiter (Roboter, Drohnen) können auf diese Weise gesteuert werden.",2022-10-31,
-direct.control.misuse.hint,"HINWEIS: Du musst nicht jedes Mal auf die Schaltfläche <b>Direktsteuerung</b> klicken; es wird lediglich dieses Informations-Pop-up angezeigt.",,
 direction.east,Ost,,"Noun. direction.X keys are used on buttons that allow you to select your space ship's »forward direction«. It tells which way the ship's front is facing. Engines will be on the opposite direction, etc."
 direction.north,Nord,,
 direction.south,Süd,,
@@ -2802,7 +2792,6 @@ research.memorycompression,Arbeitsspeicherkomprimierung,,
 research.drone,Drohne,,
 research.economy,Wirtschaft,,
 research.economy.desc,"Schaltet das Wirtschaftsoverlay frei.",,
-research.electronics,Elektronik,,
 research.elysium,Elysium,,
 research.elysium.desc,"Erlaubt die Umwandlung des Stasisfelds zum Elysium.",,
 research.elysiumefficiency,Elysiumeffizienz,,
@@ -3811,7 +3800,7 @@ cpu.cost.tip,"Bedarf an Rechenleistung, wenn der Arbeiter online ist. Wenn du ni
 codex.m.workers.cpucost,Arbeiter-CPU-Bedarf,,
 codex.m.workers.cpucost.desc,"Jeder robotische Arbeiter benötigt CPU-Leistung, um ihn betriebsbereit zu halten. Dein Schiffscomputer verfügt über <b>8 THz</b> eingebauter CPU-Leistung. Letztlich wirst du neue <b>CPU-Module</b> bauen und anschließen müssen, um den Umfang deiner aktiven Arbeiterschaft zu vergrößern.<br><br>Arbeiter, die sich auf einer Expedition befinden, beanspruchen keine CPU-Leistung.<br><br>Wenn mehrere Arbeiter außer Betrieb sind, erlaubt dir das <b>{0} Wesen</b>overlay, sie alle gleichzeitig einzuschalten.",,
 codex.blueprints.tip,"Liste sämtlicher Geräteblaupausen, sowohl gesperrte als auch durch Forschung freigeschaltete. Enthält eine typenbasierte Suche nach vorhandenen Geräten.",,
-codex.materials.tip,"Liste sämtlicher Materialien. Enthält eine typenbasierte Suche nach verfügbaren Materialien.",,
+codex.materials.tip,"Liste sämtlicher Materialien und kleiner Gegenstände, wie Ausrüstung, Nahrung und Verbesserungsmodule. Enthält eine typenbasierte Suche nach Gegenständen im eigenen Bestand.",2022-11-13,
 objects.devices.jukebox.desc,"Eine Maschine, die automatisch ein ausgewähltes Musikstück spielt, wenn eine Münze eingeworfen wird. Du verdienst ein wenig Geld, wenn deine Kolonisten sie benutzen.",,
 objects.devices.jukebox,Jukebox,,
 act.UseJukebox,"Benutzt eine Jukebox",,
@@ -3821,3 +3810,17 @@ harvest.output,Ernteerträge,,"Label for list of products that are received when
 experimental.features,"Experimentelle Spielmechaniken",,
 experimental.features.tip,"Hiermit werden automatisch alle derzeit existierenden experimentellen Spielmechaniken aktiviert. Einige davon sind möglicherweise noch nicht vollständig fertiggestellt.<br><br><b>Warnung!</b> Das Deaktivieren experimenteller Mechaniken zerstört unter Umständen Spielstände, die mit aktivierten experimentellen Mechaniken angelegt wurden.",,
 experimental.feature,"Experimentelle Spielmechanik",,
+fragmentation.defrag.now,"Jetzt defragmentieren",,
+fragmentation.info,"Das neuronale Netzwerk hat einen hohen Fragmentierungsgrad erreicht. Derzeitige Effizienz: {0}. Defragmentierung wird empfohlen.<br><br>Dieser Prozess wird dein neuronales Netzwerk für einige Stunden in den Ruhezustand versetzen. Daher sollten dringende Schiffsverwaltungsaufgaben klugerweise vor der Defragmentierung durchgeführt werden.",,"{0} will show percentage, i.e. 15%"
+fragmentation.reducing.speed.1,"Reduziere Verarbeitungsgeschwindigkeit aufgrund moderater Fragmentierung des neuronalen Netzwerks. Derzeitige Effizienz: {0}. Defragmentierung wird empfohlen.",,"{0} will show percentage, i.e. 15%"
+fragmentation.reducing.speed.2,"Reduziere Verarbeitungsgeschwindigkeit aufgrund hoher Fragmentierung des neuronalen Netzwerks. Derzeitige Effizienz: {0}. Defragmentierung wird strengstens empfohlen.",,"{0} will show percentage, i.e. 15%"
+fragmentation.status,"Fragmentierung: {0}",,"{0} will show percentage, i.e. 15%"
+codex.m.shipcomputer.fragmentation.desc,"Der Schiffscomputer muss regelmäßig sein neuronales Netzwerk defragmentieren, um effizient bleiben zu können. Die Defragmentierung fährt dein neuronale Netzwerk für einige Stunden herunter; währenddessen hast du keinerlei Kontrolle über dein Schiff.<br><br>Du kannst die Defragmentierung so lange wie nötig hinauszögern, jedoch wirst du den Zeitablauf nicht auf hohe Stufen setzen können, solange die Fragmentierung suboptimal ist.<br><br>Verfügst du über mehr als einen Schiffscomputer, beschleunigt sich der Defragmentierungsprozess.<br><br>Die Installation von Wärmeableitern in der Nähe deines Schiffscomputers verlangsamt die Fragmentierung.",,
+codex.m.shipcomputer,Schiffscomputer,,
+codex.m.shipcomputer.fragmentation,"Fragmentierung des neuronalen Netzwerks",,
+booting.neural.network,"Fahre neuronales Netzwerk hoch",,
+fragmentation.defrag.progress,"Defragmentiere neuronales Netzwerk: {0}",,"{0} will show percentage (i.e 15%)"
+fragmentation.defrag.started,"Defragmentierung begonnen",,
+fragmentation.defrag.ended,"Defragmentierung beendet",,
+fragmentation.defrag.started.desc,"Defragmentierung des neuronalen Netzwerks mit insgesamt {0} Fragmentierung über {1} Schiffscomputer(n) begonnen.",,"{0} is percentage (i.e10%), {1} is a number (i.e. 3)"
+fragmentation.defrag.ended.desc,"Defragmentierung des neuronalen Netzwerks wurde nach {0} abgeschlossen.",,"{0} is time (i.e. 1h 12m)"
