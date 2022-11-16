@@ -2296,7 +2296,7 @@ objects.devices.cpumodulemini.desc,CPUモジュールは、ニューラルネッ
 objects.devices.craftingstation,作業台,,
 objects.devices.craftingstation.desc,半自動化された作業台。作業する人間を必要とする。,,
 objects.devices.directionalturret,追尾タレット,,
-objects.devices.directionalturret.desc,高い爆発力を持つを伴う指向性エネルギー兵器。脅威を感知すると自動的に攻撃します(メテオロイド、突入カプセル、または敵ユニット). 船の外側に取り付けるためのものです。屋内で使用する時は、自己責任で。,2022-11-15,
+objects.devices.directionalturret.desc,高い爆発力を伴う指向性エネルギー兵器。脅威を感知すると自動的に攻撃します(メテオロイド、突入カプセル、または敵ユニット). 船の外側に取り付けるためのものです。屋内で使用する時は、自己責任で。,2022-11-15,
 objects.devices.disassembler,解体処理機,,
 objects.devices.disassembler.desc,壊れた機械（ロボット、ドローン、ボットなど）を分解して原料を回収できる,,
 objects.devices.diskmodule,ディスクモジュール ({0}ZB),,
