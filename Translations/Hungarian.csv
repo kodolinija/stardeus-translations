@@ -826,3 +826,92 @@ difficulty.balanced,Kiegyensúlyozott,,"Shows up in the list of game difficulty 
 difficulty.challenging,Nehéz,,"Shows up in the list of game difficulty levels. Challenging is like ""hard difficulty"""
 difficulty.relaxing,Nyugis,,"Shows up in the list of game difficulty levels. Relaxing is like ""easy difficulty"""
 direct.control,Közvetlen Vezérlés,,"A text on a button that enables ""direct control"" of a robot. ""Direct control"" allows issuing orders directly to the selected robot. Otherwise robots make choices and perform actions on their own."
+direct.control.desc,"Amikor ki van választva egy mukás, tartsd lenyomva a(z) {0} billentyűt, és vidd a kurzort bármely hely fölé, hogy megtudd, hogy a munkás oda tud-e menni.<br><br>A(z) {0} nyomva tartása alatt a függőben lévő feladatokra mutatva megnézheted, hogy a munkás képes-e elvégezni azt a feladatot.<br><br>Ezalatt az {1}-ra kattintva tudsz parancsot adni a munkásnak, hogy menjen a kiválasztott helyre és hajtsa végre a feladatot.<br><br>A munkásokon alkalmazhatod a <b>Közvetlen Irányítást< /b> is, hogy megakadályozd őket a mozgásban, vagy esetleg feladatok automatikus elvállalásában. Ha többé nincs szükséged a munkás fenntartására vagy szeretnéd, hogy újra automatikusan feladatokat vállaljanak el, ne felejtsd el feloldani a Közvetlen Irányítást.<br><br>Közvetlen parancs kiadása során a munkás minden aktuális tevékenységet abbahagy.<br><br>Egyszerre több munkást is kiválaszthatsz, és csoportokba rendezheted őket. <br><br>Csak Irányított Munkásokat (robotok, drónok) lehet így irányítani.",2022-10-31,
+direction.east,Kelet,,"Noun. direction.X keys are used on buttons that allow you to select your space ship's ""forward direction"". It tells which way the ship's front is facing. Engines will be on the opposite direction, etc."
+direction.north,Észak,,
+direction.south,Dél,,
+direction.west,Nyugat,,
+dirt,Kosz,,
+dirt.desc,Koszfolt,,"Decals in game development are textures that are placed on top of other textures to add various marks (bullet damage, blood, dirt, etc). In this case it is for menu item that allows spawning dirt on the floor."
+disable.achievements,Teljesítmények Letiltása,,
+disable.achievements.tip,"Ha zavarónak találod a Teljesítményeket, teljesen letilthatod őket",,
+disable.force.field,Erőtér Letiltása,,
+disable.merchant.beacon,Kereskedő Jeladó Letiltása,,
+disabled.in.tutorial,Letiltva az Oktatóprogramban,,
+disassemble,Szétszerel,,
+disassembling.bar,Szétszerelés: {0}/{1},,
+discharge.time.left,Erőtér Ideje,,"A label displayed next to the time left for a force field device to be activated (because it's battery is discharging, after some time it will auto-deactivate and will have to recharge). See ""charge.time.left"" key for more context."
+disconnect.all,Minden Lecsatlakoztatása,,
+disk.compression,Lemeztömörítés: {0},,
+memory.compression,Memóriatömörítés: {0},,
+do.not.show.again,Ne mutasd többet,,
+dock,Dokkolj,,Verb. Displayed on an action button that tells a robot to return to a docking station.
+dockable,Dokkolható,,Adjective. Displayed on a button that opens a submenu that contains robot's docking status and controls
+docked,Dokkolt,,"Robot state, denoting that robot is currently inside it's designated docking station"
+docking,Dokkol,,"Robot state, denoting that robot is currently trying to reach it's docking station"
+does.not.include.batteries,Nem Tartalmaz Elemeket,,
+dont.save,Kilépés Mentés Nélkül,,
+door,Ajtó,,
+door.not.powered,"Az ajtó nincs bekötve, vagy nincs áram alatt",,
+download.mods,Modulok Letöltése,,
+drag.dist.tip,"Kisegítő lehetőségek. Megmondja, hány képpontot kell húznia a gombra kattintva, hogy a műveletet ""húzásnak"" tekintse.",,
+drag.release.build.con,Csatlakozók építése húzás felengedésével,,
+drag.release.build.con.tip,"Ha ez engedélyezve van, akkor a csatlakozási eszköz építeni fog egy csatlakozót, ha a csatlakozó ki van húzva, majd felengedésre kerül egy üres padlón.",,
+drink.coffee,Kávézz,,
+drop.task,Feladat Befejezése,,
+duplicate.binding,Duplikált gombfunkció,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad). 
+duplicate.binding.info,"A(z) {0} számára kiválasztott bemenet máshol már használatban van. A legtöbb esetben érdemes visszaállítani a módosítást. Vegye figyelembe, hogy a kezelőfelület navigációjában a billentyűzet nyílbillentyűi, az Enter és az ESC használatban vannak.",,
+dust.accumulation,Por felhalmozódás,,
+dust.amount,Por mennyisége,,
+dust.amount.bar,Portörlés: {0}/{1},,
+dust.storm.end,Porvihar Végetért,,
+dust.storm.ongoing,Porvihar Van Folyamatban,,"Displayed in the event list. This text is displayed for the whole duration of the dust storm, so the player can see that the dust storm did not go away yet. Should not be much longer than the English translation."
+eat,Egyél,,
+eating,Eszik,,
+economy.research.required,"""Gazdaság"" kutatásra van szükség ennek a funkciónak az engedélyezéséhez",,
+edge.pan.speed,Képernyő szélének görgetési sebessége: {0:0.0},,
+edge.pan.tip,Szabályozza a szélgörgetés sebességét. Állítsd ezt 0-ra a szélgörgetés letiltásához.,,
+egg,Tojás,,
+eject,Kivetés,,
+eject.ammo,Lőszer kiadása,,
+eject.contents,Tartalom kivetése,,
+eject.food,Kaja kivetése,,
+eject.fuel,Üzemanyag kiadása,,
+el.build.connector.here,Építs csatlakozót ide,,Displayed in a tooltip when dragging a connector 
+el.connector.fully.utilized,A csatlakózók teljesen ki vannak használva itt!,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
+el.connector.not.on.grid,A csatlakozó nincs a Fedélzeti Számítógéppel egy hálózaton!,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
+el.connector.out.of.range,Hatótávolságon Kívül!,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
+el.consumption.priority,Fogyasztási Prioritás,,
+el.consumption.priority.desc,"A villamosenergia-fogyasztási prioritás lehetővé teszi annak kezelését, hogy egy eszköz mikor vesz áramot a hálózatból. Nagyobb szám nagyobb prioritást ad egy eszköznek, így először az vesz fel áramot, míg a kisebb szám a többi eszköz után, ha van még elérhető áram.",,
+el.device.heavily.damaged,Az eszköz komolyan megsérült!,,Displayed in a tooltip when tryng to connect to a device that is damaged too much
+el.device.not.constructed,Az eszköz még nincs megépítve!,,Displayed when trying to connect to a device that has not been built yet
+el.device.not.powerable,Az eszköz nem igényel áramot!,,Displayed in a tooltip when trying to connect a device that does not require electricity
+el.disconnected.devices,Nem Kapcsolódó Eszközök,,
+el.not.a.connector,A készülék nem csatlakozó!,,"Displayed in a tooltip when trying to connect two devices directly (which is not allowed, one of the devices must be a connector)"
+el.production.priority,Termelési Prioritás,,
+el.production.priority.desc,"A villamosenergia-termelési prioritás határozza meg, hogy egy eszköz termel-e villamos energiát, ha a hálózat a szükségesnél több energiát tud biztosítani. A nagyobb szám magasabb prioritást jelent. A magasabb prioritású eszközök termelnek áramot először. Ezzel módosíthatod a különböző típusú üzemanyagok prioritását.",,
+electricity.deficit,Villamosenergia Hiány,,
+electricity.grid,Elektromos Hálózat,,
+elysium.mode.confirm,"Arra készülsz, hogy ezt a Hibernációs Kamrát <b><nobr>Elysiummá</nobr></b> alakítsd, ami szimulációba helyezi alvó kolonistákat, és lehetővé teszi, hogy testüket biológiai erőforrásként használd (mint a mátrixban). <b>A folyamat visszafordíthatatlan</b>. Kérlek, erősítsd meg szándékod!",,
+elysium.mode.unavailable,Az Elysium mód nem elérhető. Először fel kell oldanod az <b><nobr>Elysium</nobr></b> technológiát a Kutatási Adatbázisban.,,
+emergency.recharge.bar,Vészhelyzeti Töltés: {0},,
+emergency.recharge.complete,Vészhelyzeti Töltés Kész,,
+emergency.recharge.end.help,"A munkás feltöltődött 10%-ra, és újra online lett. Ez a töltés nem tart sokáig, ezért ügyelj arra, hogy a közelben elegendő szabad és megfelelően csatlakoztatott töltőállomás álljon rendelkezésre.",,
+emergency.recharge.help,"Az munkásod teljesen lemerült. A beépített vészhelyzeti napelem töltők aktiválásra kerültek. A munkás újra online lesz, amikor Energia Szintje eléri a 10%-ot. A folyamat automatikus, de lassú.<br><br>Annak érdekében, hogy ez ne ismétlődhessen meg, építs több töltőállomást, vagy állítsd be a munkások prioritásait megfelelően.",,
+emergency.recharge.info,"Nem lehet használni amíg a Vészhelyzeti Töltés mód aktív. A munkás automatikusan újraindítja magát, ha a tartalék napelemek 10%-ra visszatöltötték a töltöttségi szintet.",,
+emergency.recharge.start,Leállás Vészhelyzeti Újratöltéshez,,
+emergency.siren,Vészhelyzeti Sziréna,,
+emergency.siren.active,Sürgősségi Sziréna Aktív,,
+emergency.siren.automatic,Automatikus,,"A mode for the Emergency Siren device. When the mode is ""Automatic"", the siren will sound on it's own when emergency happens."
+emergency.siren.automatic.info,"Az automatikus vészhelyzeti sziréna magától bekapcsol, ha bármilyen kritikus riasztás történik. Ide tartoznak a beérkező aszteroidák, a tűz és hasonló katasztrófák. A kolonisták a legközelebbi Vészhelyzeti Sziréna felé futnak, ha az aktív.",,
+emergency.siren.manual,Manuális,,"A mode for the Emergency Siren device. When the mode is ""Manual"", the siren will only sound when the player turns it on."
+emotional.attachments,Kötődések,,"A label for list of things a person is attached to. As in ""Emotional attachments"". Someone can be attached to another person (i.e. they are friends, or in love), a thing (i.e. their favorite chair near a table, their own bed), or a substance (addiction to coffee). When the subject of this attachment is lost, the person will feel bad about it."
+empty,Üres,,"Adjective. Used in several places where there is supposed to be a list of items, but there is nothing to show. For example if a storage unit does not have any contents, and you try to see the list of contents, it will show this ""Empty"" text"
+enable.combat,Harc Engedélyezése,,
+enable.combat.tip,"Ha a harcot letiltod, a játék teljesen nyugis lesz. A természeti katasztrófák, például a meteor záporok továbbra is előfordulhatnak.",,
+enable.elysium.mode,Elysium Mód Engedélyezése,,
+enable.force.field,Erőtér Engedélyezése,,
+enabling.elysium,Elysium engedélyezése,,
+enclosed.areas,Zárt Területek,,
+ended.ago,{0} befejeződött,,"Displayed in tooltip when you hover an old event notification. {0} will be used in conjunction of ""time.ago"" translation. Example: ""Ended 5 hours ago"""
+ends.in,{0} van hátra,,
