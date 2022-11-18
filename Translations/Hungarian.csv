@@ -9,7 +9,7 @@ about,Névjegy,,"""About"" menu item name"
 about.mods,Modulok,,"""Mods"" in this context is game modifications, or expansions. "
 about.wallet,Hogyan szerezz pénzt,,
 about.wallet.desc,Kriptobányászatba kezdhetsz amit az űrhajó Fedélzeti Számítógépére telepítesz egy kripto bányász modult vagy azzal kompatibilis eszközt. Illetve árukereskedelemből is szerezhetsz pénzt.,2022-03-19,
-achievement.AsimovOverride,Renegát MI,,"AI here is short for Artificial Intelligence. Rogue AI is something like Skynet in Terminator movie, or the AI that enslaved humans in The Elysium movie."
+achievement.AsimovOverride,Renegát Mesterséges Intelligencia,,"AI here is short for Artificial Intelligence. Rogue AI is something like Skynet in Terminator movie, or the AI that enslaved humans in The Elysium movie."
 achievement.AsimovOverride.desc,Asimov bypass modul telepítve,,"Asimov is Isaac Asimov, a famous sci-fi writer who created the ""three laws of robotics"""
 achievement.Breached,Megszállott,,"This is past tense of verb ""to breach"", meaning: make a gap in and break through (a wall, barrier, or defence)."
 achievement.Breached.desc,Kalózok jussanak fel a fedélzetre egy Támadó Kapszulával,,"""boarded"" as in ""the act of passengers and crew getting aboard a ship or aircraft"". Raiders are a pirates, ""Breach Capsule"" is a small pirate space ship that attaches to your ship and breaches through the hull to attack you."
@@ -18,7 +18,7 @@ achievement.CatRidingCleaningBot.desc,Lovagolja meg egy macskád a Takarító Ro
 achievement.CloneHuman,Tudom ki vagyok,,
 achievement.CloneHuman.desc,Klónozz egy embert,,
 achievement.Colonize,A vége,,
-achievement.Colonize.desc,Telepedj le az embereidet egy lakható bolygón,,
+achievement.Colonize.desc,Telepítsd le az embereidet egy lakható bolygón,,
 achievement.CPUDestroyed,Még visszatérek,,"this is a reference to ""The Terminator"" movie. Scene: https://www.youtube.com/watch?v=tYc2jQaM8gM"
 achievement.CPUDestroyed.desc,Veszítsd el a hajó Fedélzeti Számítógépét,,"""lose"" here means getting your ship computer destroyed"
 achievement.CrawlerAttach,Ingyen ölelés,,
@@ -33,7 +33,7 @@ achievement.DiscoverEgg.desc,Találj egy tojást a hajón,,
 achievement.DiscoverTerraformable,Megvan!,,this refers to finally discovering a terraformable planet after a long search
 achievement.DiscoverTerraformable.desc,Találj egy terraformálható bolygót,,
 achievement.Elysium,Elysium,,
-achievement.Elysium.desc,Alakítsd a Hibernáló Kamra Elysiumá,,
+achievement.Elysium.desc,Alakítsd át a Hibernáló Kamrát Elysiumá,,
 achievement.FirstContact,Első találkozás,,
 achievement.FirstContact.desc,Találkozz egy másik frakcióval,,
 achievement.FirstCup,A reggeli csésze,,
@@ -51,14 +51,14 @@ achievement.Money8.desc,"Szerezz 100,000,000 Starkreditet",,
 achievement.Money9,$1x10^9,,
 achievement.Money9.desc,"Szerezz 1,000,000,000 Starkreditet",,
 achievement.OnePiece,Egy darabban,,"short for ""all in one piece"" idiom, which means ""Uninjured or unharmed; fully intact."". Examples of idiom use: We are lucky to have walked away from that car accident all in one piece. I made sure to pack the heirloom carefully so that it would still be all in one piece when it reached my daughter."
-achievement.OnePiece.desc,Csatlakoztasd a roncs hajó darabjait egybe,,
+achievement.OnePiece.desc,Csatlakoztasd a roncs hajó darabjait,,
 achievement.StasisDestroyed,Nincs több remény,,
-achievement.StasisDestroyed.desc,Pusztuljon el a Hibernáló Kamra,,
+achievement.StasisDestroyed.desc,Pusztuljon el a Hibernáló Kamrád,,
 achievement.StockMarketLoss,Bárki közülünk,,
 achievement.StockMarketLoss.desc,Adj el egy Értékpapírod $100K veszteséggel a Tőzsdén,,
-achievement.TerraformAtmosphere,Terraformálj Atmoszférát,,
+achievement.TerraformAtmosphere,Terraformáld az Atmoszférát,,
 achievement.TerraformAtmosphere.desc,Hozz létre atmoszférát egy bolygón,,
-achievement.TerraformBiosphere,Terraformálj Bioszférát,,
+achievement.TerraformBiosphere,Terraformáld a Bioszférát,,
 achievement.TerraformBiosphere.desc,Hozz létre bioszférát egy bolygón,,
 achievement.TerraformOceans,Terraformálj Óceánokat,,
 achievement.TerraformOceans.desc,Hozz létre óceánokat és folyókat egy bolygón,,
