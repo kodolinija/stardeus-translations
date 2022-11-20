@@ -3806,3 +3806,33 @@ device.warn.if.idle,Figyelmeztess ha Tétlen,,next to a button that will enable 
 cpu.cost,CPU Költség,,cost of processing power of a robotic worker
 cpu.cost.tip,"A feldolgozási teljesítmény költsége, amikor a munkás elérhető. Ha nincs elég CPU-d, előfordulhat, hogy néhány munkás leáll.",,
 codex.m.workers.cpucost,Munkás CPU költsége,,
+codex.m.workers.cpucost.desc,"Minden robotmunkásnak van egy CPU-költsége, amely szükséges a munkás online tartásához. A Fedélzeti Számítógép <b>8 Thz</b> beépített CPU-teljesítménnyel rendelkezik. Végül új <b>CPU-modulokat</b> kell építened és csatlakoztatnod az aktív munkások létszámának növeléséhez.<br><br>Az Expedíciókon részt vevő munkásoknak nincs szükségük CPU-ra.<br> <br>Ha több munkás offline állapotban van, a <b>Lények {0}</b> Nézet lehetővé teszi, hogy egyszerre be- vagy kikapcsold őket.",,
+codex.blueprints.tip,A kutatás során lezárt és feloldott eszközök összes tervrajzának listája. Tartalmazza a meglévő eszközök típus szerinti keresését.,,
+codex.materials.tip,"Az összes nyersanyag és kisebb tétel, például felszerelés, élelmiszer vagy frissítések listája. Tartalmazza a tulajdonodban lévő tárgyak típus szerinti keresését.",2022-11-13,
+objects.devices.jukebox.desc,"Egy gép, amely automatikusan lejátssza a kiválasztott zenei felvételt, amikor behelyeznek egy érmét. Kereshetsz némi pénzt, ha a kolonistáid használják.",,
+objects.devices.jukebox,Zenegép,,
+act.UseJukebox,Zenegépet Használ,,
+used.a.jukebox,Zenegépet Használt,,
+use.jukebox,Zenegép Használata,,
+harvest.output,Betakarítás kimenete,,Label for list of products that are received when harvesting a plant
+experimental.features,Kísérleti Funkciók,,
+experimental.features.tip,"Ez automatikusan engedélyezi a játékban jelenleg létező összes kísérleti funkciót. Előfordulhat, hogy némelyikük még nincs teljesen kész.<br><br><b>Figyelem!</b> A kísérleti funkciók letiltása elronthatja azokat a mentéseket, amelyek az engedélyezett kísérleti funkciókkal lettek játszva.",,
+experimental.feature,Kísérleti Funkció,,
+fragmentation.defrag.now,Töredezettségmentesítés most,,
+fragmentation.info,A neurális hálózat töredezettségi szintje nagyon magas. Jelenlegi hatékonyság: {0}. A töredezettségmentesítési eljárás javasolt.<br><br>Ez az eljárás több órára felfüggeszti a neurális hálózatot. Bölcs dolog lehet minden sürgős hajókezelési műveletet végrehajtani a töredezettségmentesítés előtt.,,"{0} will show percentage, i.e. 15%"
+fragmentation.reducing.speed.1,A feldolgozási sebesség csökkent a neurális hálózat közepes szintű fragmentáltsága miatt. Jelenlegi hatékonyság: {0}. Töredezettségmentesítés javasolt.,,"{0} will show percentage, i.e. 15%"
+fragmentation.reducing.speed.2,A feldolgozási sebesség csökkentést a neurális hálózat nagyfokú töredezettsége miatt: Jelenlegi hatékonyság: {0}. Töredezettségmentesítés erősen ajánlott.,,"{0} will show percentage, i.e. 15%"
+fragmentation.status,Töredezettség: {0},,"{0} will show percentage, i.e. 15%"
+codex.m.shipcomputer.fragmentation.desc,"A Fedélzeti Számítógépen időközönként töredezettségmentesíteni kell neurális hálózatát, hogy hatékony maradjon. A töredezettségmentesítési eljárás több órára leállítja a neurális hálózatot, amely alatt nincs ellenőrzed a hajód felett.<br><br>A töredezettségmentesítési eljárást addig késleltetheti, ameddig csak kell, de nem fogod tudni futtatni a szimulációt nagy sebességgel, miközben a töredezettség szuboptimális.<br><br>Ha egynél több Fedélzeti Számítógép van, akkor a töredezettségmentesítés gyorsabban lefut.<br><br>A hűtőbordák a Fedélzeti Számítógép közvetlen közelében történő elhelyezése lelassítja a töredezettségi folyamatot.",,
+codex.m.shipcomputer,Fedélzeti Számítógép,,
+codex.m.shipcomputer.fragmentation,Neurális Hálózat Töredezettsége,,
+booting.neural.network,Neurális Hálózat Indítása,,
+fragmentation.defrag.progress,Neurális Hálózat Töredezettségmentesítése: {0},,{0} will show percentage (i.e 15%)
+fragmentation.defrag.started,Elindult a Töredezettségmentesítés,,
+fragmentation.defrag.ended,A Töredezettségmentesítés Befejeződött,,
+fragmentation.defrag.started.desc,Elindult a neurális hálózat töredezettségmentesítési folyamata {0} töredezettséggel {1} Fedélzeti Számítógépen.,,"{0} is percentage (i.e10%), {1} is a number (i.e. 3)"
+fragmentation.defrag.ended.desc,Befejeződött a neurális hálózat töredezettségmentesítése ennyi idő alatt: {0}.,,{0} is time (i.e. 1h 12m)
+unreachable.mat,Elérhetetlen Nyersanyag,,
+nav.fail.flying.cnt,A <b>Repülő munkás</b> nem tudta elérni: <b>{0}</b>,,
+nav.fail.grounded.cnt,A <b>földi munkás</b> nem tudta elérni: <b>{0}</b>,,
+nav.fail.bio.cnt,A <b>biológiai élőlény</b> nem tudta elérni: <b>{0}</b>,,
