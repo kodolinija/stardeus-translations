@@ -238,7 +238,10 @@ arriving.soon,接近中: {0},,
 asimov.violation.1,この行為はアシモフのロボット工学の第一原則に反しています。ロボットは人間に危害を加えてはいけません。また、その危険を見過ごすことで危害を及ぼしてもいけません。中止します。,,
 asimov.violation.3,この行為はアシモフのロボット工学の第三原則に反しています。ロボットは第一原則か第二原則に反するおそれがない限り、自己を保護しなければなりません。中止します。,,
 assemble,組み立て,,
-assembling.now,{0}を組み立て中,,"1. This is a text in UI of the Crafting Station/Assembler/Fabricator.It combined with the name of the device which is produced right now (like ""Assembling Microchip"")2. This is a tooltip text, appearing when you hover a mouse over Crafting Station/Assembler/Fabricator.It combined with the state of production process in percents (like ""Assembling 85%"")"
+assembling.now,{0}を組み立て中,,"1. This is a text in UI of the Crafting Station/Assembler/Fabricator.
+It combined with the name of the device which is produced right now (like ""Assembling Microchip"")
+2. This is a tooltip text, appearing when you hover a mouse over Crafting Station/Assembler/Fabricator.
+It combined with the state of production process in percents (like ""Assembling 85%"")"
 assigned.to.selected.worker,選択中のワーカーを割り当て,,
 assigned.to.worker,割り当て中: {0},,
 assigned.worker,割り当て済み,,
@@ -848,7 +851,8 @@ dock,ドッキング,,Verb. Displayed on an action button that tells a robot to 
 dockable,ドッキング可能,,Adjective. Displayed on a button that opens a submenu that contains robot's docking status and controls
 docked,ドッキングされている,,"Robot state, denoting that robot is currently inside it's designated docking station"
 docking,ドッキング中,,"Robot state, denoting that robot is currently trying to reach it's docking station"
-does.not.include.batteries,バッテリーを含まない,,"This is a tooltip/balloon text, appearing when you hover cursor over the ""Max Production"" string in the Electric Grid Overlay (section Details)It means - the value (amount of production power) does not include electric power which produced by Batteries."
+does.not.include.batteries,バッテリーを含まない,,"This is a tooltip/balloon text, appearing when you hover cursor over the ""Max Production"" string in the Electric Grid Overlay (section Details)
+It means - the value (amount of production power) does not include electric power which produced by Batteries."
 dont.save,セーブしないで終了,,
 door,ドア,,
 door.not.powered,ドアはグリッドに未接続か電力不足です,,
@@ -3621,9 +3625,9 @@ unequip,装備解除,,
 unfinished.feature,未完成,,
 uninstall,取り除く,,
 units.imperial,インペリアル,,
-units.km.millions,M km,,
-units.lightyears,ly,,
-units.lightyears.billions,BLY,,
+units.km.millions,x千km,,
+units.lightyears,x光年,,
+units.lightyears.billions,x十億光年,,
 units.metric,メトリック,,
 units.of.measurement,測定単位,,
 unity.data.privacy,Unity Data Privacy,,
@@ -3836,3 +3840,7 @@ unreachable.mat,到達不能な資材,,
 nav.fail.flying.cnt,<b>飛行型 ワーカー</b> 到達の失敗： <b>{0}</b>,,
 nav.fail.grounded.cnt,<b>地上型 ワーカー</b> 到達の失敗： <b>{0}</b>,,
 nav.fail.bio.cnt,<b>生物学的 生命体</b> 到達の失敗： <b>{0}</b> ,,
+disable.event,ストーリーイベント無効,,
+disable.story.events.btn,ストーリーイベント {0},,"{0} will be X/Y, i.e. 80/80. If some event is disabled it will be 79/80"
+disable.story.events.tip,全てのストーリーイベントを有効化,,
+disable.story.events.tip.disabled,ストーリーイベント無効化： {0},,"{0} will be replaced with a comma separated list of event names, i.e. (Asteroid, Meteoroid Shower)"
