@@ -166,3 +166,7 @@ YouHanHua Team
 ### Polish
 
 * [Ketyak](https://github.com/Ketyak)
+
+### Swedish
+
+* [blarrkan](https://github.com/blarrkan)
