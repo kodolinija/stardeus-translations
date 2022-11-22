@@ -98,6 +98,10 @@ If you feel lost at any point, please join the <a href="https://discord.com/invi
 <!-- CREDITS -->
 ## Credits
 
+### Hungarian
+
+* [David Hlavati](https://github.com/Synida)
+
 ### German
 
 * Tassido
@@ -162,3 +166,7 @@ YouHanHua Team
 ### Polish
 
 * [Ketyak](https://github.com/Ketyak)
+
+### Swedish
+
+* [blarrkan](https://github.com/blarrkan)
