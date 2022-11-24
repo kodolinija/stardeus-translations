@@ -150,6 +150,7 @@ YouHanHua Team
 ### Japanese
 
 * [Souzen Yurama](https://github.com/s-yurama)
+* [Taijiro Inagaki](https://github.com/Taiga-OKS)
 
 ### Ukrainian
 
