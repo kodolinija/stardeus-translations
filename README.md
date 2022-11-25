@@ -98,6 +98,10 @@ If you feel lost at any point, please join the <a href="https://discord.com/invi
 <!-- CREDITS -->
 ## Credits
 
+### Hungarian
+
+* [David Hlavati](https://github.com/Synida)
+
 ### German
 
 * Tassido
@@ -146,6 +150,7 @@ YouHanHua Team
 ### Japanese
 
 * [Souzen Yurama](https://github.com/s-yurama)
+* [Taijiro Inagaki](https://github.com/Taiga-OKS)
 
 ### Ukrainian
 
@@ -162,3 +167,7 @@ YouHanHua Team
 ### Polish
 
 * [Ketyak](https://github.com/Ketyak)
+
+### Swedish
+
+* [blarrkan](https://github.com/blarrkan)
