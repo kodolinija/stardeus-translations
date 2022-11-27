@@ -3840,7 +3840,7 @@ unreachable.mat,到達不能な資材,,
 nav.fail.flying.cnt,<b>飛行型 ワーカー</b> 到達の失敗： <b>{0}</b>,,
 nav.fail.grounded.cnt,<b>地上型 ワーカー</b> 到達の失敗： <b>{0}</b>,,
 nav.fail.bio.cnt,<b>生物学的 生命体</b> 到達の失敗： <b>{0}</b> ,,
-disable.event,ストーリーイベント無効,,
 disable.story.events.btn,ストーリーイベント {0},,"{0} will be X/Y, i.e. 80/80. If some event is disabled it will be 79/80"
 disable.story.events.tip,全てのストーリーイベントが有効,,
 disable.story.events.tip.disabled,ストーリーイベント無効化： {0},,"{0} will be replaced with a comma separated list of event names, i.e. (Asteroid, Meteoroid Shower)"
+placement.tip.spacing.gap,同じカテゴリの物から少なくとも {0} タイル離れている必要があります。,,{0} is a number
