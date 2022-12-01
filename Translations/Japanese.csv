@@ -3844,3 +3844,5 @@ disable.story.events.btn,ストーリーイベント {0},,"{0} will be X/Y, i.e.
 disable.story.events.tip,全てのストーリーイベントが有効,,
 disable.story.events.tip.disabled,ストーリーイベント無効化： {0},,"{0} will be replaced with a comma separated list of event names, i.e. (Asteroid, Meteoroid Shower)"
 placement.tip.spacing.gap,同じカテゴリの物から少なくとも {0} タイル離れている必要があります。,,{0} is a number
+disable.all.mods,全てのMODを無効,,
+enable.all.mods,全てのMODを有効,,
