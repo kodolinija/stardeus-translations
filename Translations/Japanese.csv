@@ -1,5 +1,5 @@
-Key,Translation,Version,Comment
-<Gamepad>,ゲームパッド,,
+Key  (PURPLE means not ready for translation yet),Translation,Version,Comment (context for translators)
+<Gamepad>,ゲームパッド,,Used in input settings when showing bindings for Gamepad (controller) 
 <Keyboard>,キーボード,,
 <Mouse>,マウス,,
 abort,中止,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
@@ -391,7 +391,7 @@ breakdown.BreakdownStartFire.desc,{0} が徘徊して、放火している。,,
 breakdown.CrawlerAttached,入植者にバケモノが取りついた！,,
 breakdown.CrawlerAttached.desc,{0} の顔にエイリアンが取りついた！,,
 breakdown.Deconstruct,手近なものを勝手に解体している,,
-brew,抽出,,
+brew,抽出,,"Action verb. Used on a button that brews a drink (coffee, beer, etc). Should be short if possible"
 brewing.bar,抽出中：{0},,"Displayed in a tooltip of a machine that brews drinks. Shows what exactly is brewing. {0} will be the drink name, i.e. ""Brewing: Coffee"""
 bridge.controls,ブリッジ制御端末,,
 build.a.copy,同じものを構築,,
@@ -421,9 +421,9 @@ change,変更,,
 change.color,色を変更,,
 change.target.material,目標の資材を変更,,
 changelog,アップデート情報,,
-charge.time.left,フルチャージ完了,,
+charge.time.left,フルチャージ完了,,Label of the progress bar that shows how long a device (i.e. a Force Field) will have to charge to get to 100%
 charging,チャージ中,,
-chart,チャート,,
+chart,チャート,,Text on a button that toggles display of a chart (i.e. electricity graph). Should be short if possible.
 chasing.target,{0} を追跡中,,"{0} will be the target (person) name (i.e. ""Chasing John"")"
 choose.color,色を選択,,
 clean.biowaste,清掃する,,
@@ -3766,7 +3766,7 @@ evt.mutiny.desc,船に反乱が起こりました！何人かの入植者は敵�
 evt.engine.failure.title,エンジンの故障,,
 evt.engine.failure.desc,<b>{0}</b> を失敗した! 燃料が爆発し、エンジンを破壊した,,
 brain.log.enabled,中枢部活動ログ,,"Log is a verb here. If this setting is enabled, worker's brain activity will be logged (see ""log"" translation key)"
-debug.log,Debug Log,,Noun
+debug.log,デバッグ ログ,,Noun
 game.speed.multiplier,ネットスピード<br><b>x{0:0.#}</b>,,"game clock speed multiplier, {0:0.#} may become a number like ""10"", or ""0.5"""
 modifier.NoHeavyDisasters,重度の災害を無効にする,,
 modifier.NoHeavyDisasters.desc,ストーリージェネレーターは、船の大部分に深刻な損害を与える可能性のある災害をスキップします (i.e. <b>小惑星</b>または<b>流星群</b>),,
@@ -3846,3 +3846,6 @@ disable.story.events.tip.disabled,ストーリーイベント無効化： {0},,"
 placement.tip.spacing.gap,同じカテゴリの物から少なくとも {0} タイル離れている必要があります。,,{0} is a number
 disable.all.mods,全てのMODを無効,,
 enable.all.mods,全てのMODを有効,,
+evt.spawn.derelict.ship.title,レーダーが難破船を探知,,
+evt.spawn.derelict.ship.desc,パッシブレーダーで捜索中に解体可能な難破船の反応を探知しました。位置を示すマーカーを星間マップに追加しました。,,
+space.object.info.ShipDerelict,難破船,,
