@@ -3849,3 +3849,8 @@ enable.all.mods,全てのMODを有効,,
 evt.spawn.derelict.ship.title,レーダーが難破船を探知,,
 evt.spawn.derelict.ship.desc,パッシブレーダーで捜索中に解体可能な難破船の反応を探知しました。位置を示すマーカーを星間マップに追加しました。,,
 space.object.info.ShipDerelict,難破船,,
+space.object.approach,接近する,,
+space.object.approach.fail.expedition.running,"探査中のため、目標物へ向かうことができません。探査隊を呼び戻してリトライしてください。",,
+move.section,移動させる,,"動詞です。スラスターに表示されるボタンで、宇宙空間で船のパーツを移動させる操作を提供します。"
+move.section.distance,移動距離,,"名詞です。""移動させる"" ボタンと組み合わせて使用し、移動距離を指示します。"
+move.section.angle,移動方向,,
