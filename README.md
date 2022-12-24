@@ -134,6 +134,7 @@ YouHanHua Team
 ### Portuguese (Brazil)
 
 * [unggod](https://github.com/unggod)
+* [Leandro Voltolino](https://github.com/xupisco)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
