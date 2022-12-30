@@ -2305,7 +2305,7 @@ obj.plants.coffeetree.desc,Un petit arbre qui produit des grains de café préci
 obj.plants.oak,Chêne,,
 obj.plants.oak.desc,"Un arbre fort, une excellente source de bois",,
 obj.plants.rubbertree,Hévéa,,
-obj.plants.rubbertree.desc,Un arbre tropical de grande taille qui peut produire du latex.,,
+obj.plants.rubbertree.desc,Un arbre tropical de grande taille qui peut produire du caoutchouc naturel.,,
 obj.plants.wheat,Blé,,
 obj.plants.wheat.desc,Une culture végétale courante qui pousse bien en apesanteur,,
 obj.shuttles.shuttleflying,Navette volante,,
