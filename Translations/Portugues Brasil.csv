@@ -3909,4 +3909,20 @@ research.scanning.desc,Adiciona a ferramenta para localizar recursos dentro do S
 system.scan.basic.unlocked,O recurso de Rastreamento foi adicionado ao Mapa Estelar. É necessário ter no mínimo um <b>Radar</b> para rastrear recurso dentro do Sistema.,,provisório
 system.scan.advanced.unlocked,Recurso de Rastreamento expandido. Construa <b>Rastreadores</b> para aumentar seu alcance.,,provisório
 ship.computer.cap.unlock,O limite de Computadores Ativos foi aumentado para <b>{0}</b> em uma rede.,,
-upgrade.unlocked,Overclock disponível,,provisório
+upgrade.unlocked,Melhoria disponível,,provisório
+obj.materials.caoutchouc,Resina,,
+obj.materials.caoutchouc.desc,O famoso liquido branco extraído da Seringueira.,,
+obj.plants.rubbertree,Seringueira,,
+obj.plants.rubbertree.desc,Uma alta arvore que produz uma resina muito cobiçada.,,
+objects.furniture.pantry,Guarda comida,,need test
+objects.furniture.pantry.desc,"Local usado para armazenar mantimentos.",,
+objects.devices.pentagramstatue,Estatua especial,,wip
+objects.devices.pentagramstatue.desc,Uma estatua com propriedades desconhecidas.,,wip
+objects.furniture.largepantry,Dispensa,,need test
+objects.furniture.largepantry.desc,"Uma versão muito maior do Guarda comida , podendo armazenas mantimentos como grãos de cafe, farinha, grãos , etc.",,
+objects.furniture.sofa,Sofá,,
+objects.furniture.sofa.desc,Um local para se descansar. Também é usado como cama em certas punições..,,
+obj.materials.leather,Couro,,
+objects.furniture.armchair,Poltrona,,
+objects.furniture.armchair.desc,Uma caldeira com braços muito confortáveis para descanso.,,
+obj.materials.leather.desc,Material extraído de seres biológico.,,
