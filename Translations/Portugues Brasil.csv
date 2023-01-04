@@ -3919,10 +3919,17 @@ objects.furniture.pantry.desc,"Local usado para armazenar mantimentos.",,
 objects.devices.pentagramstatue,Estatua especial,,wip
 objects.devices.pentagramstatue.desc,Uma estatua com propriedades desconhecidas.,,wip
 objects.furniture.largepantry,Dispensa,,need test
-objects.furniture.largepantry.desc,"Uma versão muito maior do Guarda comida , podendo armazenas mantimentos como grãos de cafe, farinha, grãos , etc.",,
+objects.furniture.largepantry.desc,"Uma versão muito maior do Guarda comida, podendo armazenas mantimentos como grãos de cafe, farinha, grãos, etc.",,
 objects.furniture.sofa,Sofá,,
-objects.furniture.sofa.desc,Um local para se descansar. Também é usado como cama em certas punições..,,
+objects.furniture.sofa.desc,Um local para se descansar. Também é usado como cama em certas situações..,,
 obj.materials.leather,Couro,,
 objects.furniture.armchair,Poltrona,,
 objects.furniture.armchair.desc,Uma caldeira com braços muito confortáveis para descanso.,,
 obj.materials.leather.desc,Material extraído de seres biológico.,,
+beings.orbotron01,Orbetron,,wip
+species.Orbotron,Orbetron,,wip
+beings.orbotron01.desc,Um sintético inspirado numa forma de vida alienígena circular.,,wip
+research.orbotron,Orbetron,,wip
+hold.cancel.to.skip,Segura {0} para acelerar,,
+faction.AntiPlayer,Revoltos,,wip
+faction.AntiPlayer.about,Facção composta por quem perdeu a paciência com você.,,wip
