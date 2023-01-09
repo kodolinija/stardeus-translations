@@ -24,8 +24,6 @@
     ·
     <a href="https://discord.com/invite/89amEwP">Discord</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Found an Error?</a>
-    ·
     <a href="https://docs.google.com/spreadsheets/d/1iiaORk6Ma5c2DpijK3oFs08fdk9PAe7QsCoiiBzdEUU/edit?usp=sharing">The Source</a>
   </p>
 </p>
