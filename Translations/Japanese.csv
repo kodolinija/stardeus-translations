@@ -75,7 +75,7 @@ achievements,実績,,
 achievements.disabled,実績機能は無効化中,,
 achievements.stat,実績 [{0}/{1}],,
 act.AnimalEat,食事中,,
-act.BotDock,ドッキングする,,
+act.BotDock,ドッキング中,,
 act.BreakdownDeconstruct,物を破壊,,
 act.BreakdownInsanity,発狂寸前,,
 act.BreakdownStartFire,放火中,,
@@ -164,7 +164,7 @@ active.orders.info,作業をするための指示はツールを通じて行わ�
 ad.rej.cancelled,作業はキャンセルされました,,
 ad.rej.construction.site.obstructed,建造する場所に到達できなかった,,
 ad.rej.could.not.reserve,アイテムを確保できなかった,,
-ad.rej.dock.not.available,ドッキングできません,,
+ad.rej.dock.not.available,ドッキング不可,,
 ad.rej.emergency.siren,緊急警報に気を取られている,,
 ad.rej.interrupted,中断された,,
 ad.rej.lacking.bed,ベッドを見つけられなかった,,
@@ -847,10 +847,10 @@ disconnect.all,全て切断,,
 disk.compression,ディスク圧縮率: {0},,
 memory.compression,メモリの圧縮率: {0},,
 do.not.show.again,次から表示しない,,
-dock,ドッキング,,Verb. Displayed on an action button that tells a robot to return to a docking station.
+dock,ドッキングする,,Verb. Displayed on an action button that tells a robot to return to a docking station.
 dockable,ドッキング可能,,Adjective. Displayed on a button that opens a submenu that contains robot's docking status and controls
-docked,ドッキングされている,,"Robot state, denoting that robot is currently inside it's designated docking station"
-docking,ドッキング中,,"Robot state, denoting that robot is currently trying to reach it's docking station"
+docked,連結中,,"Robot state, denoting that robot is currently inside it's designated docking station"
+docking,移動中,,"Robot state, denoting that robot is currently trying to reach it's docking station"
 does.not.include.batteries,バッテリーを含まない,,"This is a tooltip/balloon text, appearing when you hover cursor over the ""Max Production"" string in the Electric Grid Overlay (section Details)
 It means - the value (amount of production power) does not include electric power which produced by Batteries."
 dont.save,セーブしないで終了,,
@@ -2075,7 +2075,7 @@ not.available,無効,,
 not.configured,未設定,,
 not.customizable.in.demo,体験版ではカスタマイズ出来ません,,
 not.customizable.in.demo.storygen,体験版ではランダムなストーリーの生成のみですが、これは絶対にバランスが悪く、完全にランダムなイベントを引き起こします。,,
-not.docked,ドッキングされていない,,
+not.docked,していない,,
 not.enclosed,区画が床や隔壁で密閉されていない,,
 not.enough.ram,メモリが不足,,
 not.enough.ram.info,必要メモリ: {0}EB、 使用可能: {1}EB、パワーグリッドを確認するかメモリモジュールを追加で建造してください（コンピューティングの研究でアンロックされます）。,,
@@ -3602,7 +3602,7 @@ tutorial.restriction,チュートリアル中の操作制限,,
 tutorial.robot.blocked,ロボットが作業場所に到達できません,,
 tutorial.robot.blocked.desc,ロボットだけが物質反応炉を建造するスキルを持っています。しかし、ロボットが反応炉の場所に到達できないようです。ロボットから反応炉までの経路を確認してください。隔壁を解体する必要があるかもしれません。ロボットは多少遅れてタスクを再試行しますが、経路が確保された後、手動で強制的に再試行することもできます。この通知は状況が解決されない限り、閉じられても自動的に再通知されます。,,
 tutorial.select_floor,同じ場所に複数の物がある場合、その場所を何度かクリックすれば物を順次選択できます。船のコンピュータをもう一度クリックするとその下の床が選択されます。下のレイヤーを選択すると、上の物を透かして見ることができるようになります。,,
-tutorial.test_event,長押しで閉じる,,
+tutorial.test_event,この通知を閉じてみましょう,2023-01-06,
 tutorial.test_event.2,アイコンをクリック,,
 tutorial.test_event.info,情報アイコンをクリックすると、通常はそのイベントに関する詳細が表示されます。続行するには通知を閉じてください。,,
 tutorial.time_speed,<b>{0}</b>でゲーム内の時間の進行と停止が、そして<b>{1}</b>で異なるスピード間での切り替えができます。<br><br>それでは早速、時間の流れるスピードを変えてみましょう。,2022-06-06,
@@ -3621,7 +3621,7 @@ uncomfortable.temp,温度が不適切,,
 unconfigured,未設定,,
 undamaged,損傷なし,,
 undiscovered.research,未発見,,
-undock,ドッキング離脱,,
+undock,離脱中,,
 unequip,装備解除,,
 unfinished.feature,開発が未完了の機能,,
 uninstall,取り除く,,
@@ -3954,3 +3954,8 @@ cleanable,清掃可能,,
 production.settings,生産設定,,
 emblem,エンブレム,,
 reactor,反応炉,,
+plant,植物,,Noun (as in a flower or garden plant)
+unstored.material,未収納のアイテム,,Label for menu of material piles that aren inside the storage
+goal.ApproachDerelict,難破船に接近する,,
+goal.ApproachDerelict.desc,我々は<b>難破船</b>の近くにいるようだ。準備が整ったら、星間マップで<b>接近する</b>を選択しよう。,,
+task.details,タスク詳細,,Label for a list about details of a work item (task)
