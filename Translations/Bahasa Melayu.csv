@@ -1,0 +1,20 @@
+Key  (PURPLE means not ready for translation yet),Translation,Version,Comment (context for translators)
+<Gamepad>,Gamepad,,Used in input settings when showing bindings for Gamepad (controller) 
+<Keyboard>,Keyboard,,Used in input settings when showing bindings for Keyboard 
+<Mouse>,Mouse,,Used in input settings when showing bindings for Mouse
+abort,Batal,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
+aborting.expedition.died,Ekspedisi dibatalkan. Anak kapal {0} mati sebelum memasuki pesawat ulang-alik..,,{0} will be replaced with a name
+aborting.expedition.target.too.far,Ekspedisi dibatalkan. Kita terlalu jauh daripada sasaran {0}.,,{0} will be replaced with a destination name (i.e. planet name)
+about,About,,"""About"" menu item name"
+about.mods,Mengenai Mods,,"""Mods"" in this context is game modifications, or expansions. "
+about.wallet,Cara Untuk Membuat Duit,,
+about.wallet.desc,Duit boleh dilombong selepas penaiktarafan perlombongan mata wang telah dipasang dalam Komputer Kapal atau alat perlombongan yang sesuai. Duit juga boleh dijana dengan berniaga barang dagang atau saham.,2022-03-19,
+achievement.AsimovOverride,AI Jahat,,"AI here is short for Artificial Intelligence. Rogue AI is something like Skynet in Terminator movie, or the AI that enslaved humans in The Elysium movie."
+achievement.AsimovOverride.desc,Pemasangan Modul Pemintasan Asimov,,"Asimov is Isaac Asimov, a famous sci-fi writer who created the ""three laws of robotics"""
+achievement.Breached,Penembusan,,"This is past tense of verb ""to breach"", meaning: make a gap in and break through (a wall, barrier, or defence)."
+achievement.Breached.desc,Diceroboh oleh lanun melalui Kapsul Penembus,,"""boarded"" as in ""the act of passengers and crew getting aboard a ship or aircraft"". Raiders are a pirates, ""Breach Capsule"" is a small pirate space ship that attaches to your ship and breaches through the hull to attack you."
+achievement.CatRidingCleaningBot,Curi Naik,,"""joy ride"" is an English idiom for ""a fast and dangerous ride in a stolen vehicle."""
+achievement.CatRidingCleaningBot.desc,Kucing menunggang robot pembersih,,"There are viral videos on youtube showing cats riding roombas (cleaning robots), example: https://www.youtube.com/watch?v=SajTWY9a0e0"
+achievement.CloneHuman,Saya Tahu Siapa Diri Saya,,
+achievement.CloneHuman.desc,Klon seorang manusia,,
+achievement.Colonize,Tamat,,
