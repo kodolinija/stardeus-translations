@@ -185,7 +185,7 @@ ad.rej.no.priority,"Der Arbeiter hatte für diese Art Aufgabe 0 Priorität.",,
 ad.rej.no.processor,"Prozessor nicht verfügbar",,
 ad.rej.no.storage,"Lagereinheit nicht verfügbar",,
 ad.rej.no.worker.can.level.up.enough,"Keiner deiner derzeitigen Arbeiter hat die nötige Fertigkeitsstufe, um diese Aufgabe auszuführen.",,
-ad.rej.no.worker.with.skill,"Noch niemand verfügt über die <nobr><b>benötigten Fertigkeiten</b></nobr>. Baue eine <nobr><b>ML-Kabine</nobr></b> oder trainiere Arbeiter mit einfacheren Aufgaben, die dieselben Fertigkeiten erfordern.",2022-11-19,
+ad.rej.no.worker.with.skill,"Noch niemand verfügt über die <nobr><b>benötigten Fertigkeiten</b></nobr>. Baue eine <nobr><b>ML-Kabine</nobr></b> oder trainiere Arbeiter durch einfachere Aufgaben, die dieselben Fertigkeiten erfordern.",2022-11-19,
 ad.rej.no.workers,"Keine Arbeiter verfügbar",,
 ad.rej.processable.not.available,"Keine verarbeitbaren Gegenstände",,
 ad.rej.processor.queue.full,"Prozessorwarteschlange war voll",,
@@ -291,7 +291,7 @@ autosave.short,A,,
 autosaving,"Lege autom. Speicherstand an",,
 autoscale.on,"Automatische Skalierung der Benutzeroberfläche aktivieren",,
 autoscale.on.why,"Die Bildschirmauflösung wurde geändert. Die Benutzeroberfläche wird automatisch skaliert, da der vorherige Wert außerhalb des gültigen Bereichs lag.",,
-available.count,"Eigener Bestand: {0}",,"[Weidengeist: Used as a label when viewing the available resources of a planet. Other uses?]"
+available.count,"Eigener Bestand: {0}",2022-12-22,"[Weidengeist: Used as a label when viewing the available resources of a planet. Other uses?]"
 available.materials,Inventar,2022-06-17,
 available.materials.none,"Keine Materialien vorhanden!",,
 available.memory,"Verfügbarer Arbeitspeicher: {0} EB",,
@@ -336,7 +336,7 @@ beings.drone01.desc,"Drohnen sind schnell und können im Weltraum fliegen. Sie k
 beings.human01,Mensch,,
 beings.human01.desc,"Jemand, wie du es früher warst",,
 beings.robot01,Bauroboter,,
-beings.robot01.desc,"Roboter sind herausragend bei mechanischen Aufgaben und können fortgeschrittene Bauarbeiten durchführen. Sie sind langsam und benötigen festen Boden, um sich fortzubewegen.",2022-11-13,
+beings.robot01.desc,"Roboter sind herausragend bei mechanischen Aufgaben und können fortgeschrittene Bauarbeiten durchführen, wozu andere möglicherweise nicht in der Lage sind. Sie sind langsam und benötigen festen Boden, um sich fortzubewegen.",2022-11-13,
 beings.sentry01,Sicherheitsdrohne,,
 beings.sentry01.desc,"Eine Sicherheitsdrohne, die nicht viele Arbeiten erledigt, sondern für den Kampf gebaut ist. Sie hat mehr Gesundheit als eine normale Drohne. Die zusätzliche Isolierung macht sie zu einem guten Brandbekämpfer.",,
 beta.wave.sync.bar,"Betawellensynchronisation: {0}",,
@@ -460,7 +460,7 @@ codex.m.basebuilding.devicewear.desc,"Die meisten Geräte, insbesondere solche, 
 codex.m.basebuilding.relocatingobjects,"Objekte verlagern",,
 codex.m.basebuilding.relocatingobjects.desc,"Es kommt häufig vor, dass du ein Gerät an einen anderen Ort verschieben möchtest. Wähle hierfür das Gerät aus und wähle den Menüpunkt ""Verschieben"" im Infobereich oder im Kontextmenü. Oder verwende die Tastenkombination {0}, während das Gerät ausgewählt ist.<br><br>Du kannst das Gerät über sich selbst verschieben. Dass ist nützlich, wenn du die Rotation ändern möchtest.<br><br>Das Verschieben eines Geräts kann eine Überprüfung der Konstruktionsfähigkeiten erfordern. Komplexe Geräte wie der Schiffscomputer oder die Stasiskammer können nur von hochqualifizierten Arbeitern verschoben werden.<br><br>Wenn du mehrere Objekte auswählst, kannst du sie alle gleichzeitig verlagern.",,
 codex.m.basebuilding.teleporters,Teleporters,,
-codex.m.basebuilding.teleporters.desc,"<b>Teleporter</b> können als Eine-Richtung-Portale zu anderen Teleportern verwendet werden.<br><br>Zwei Teleporter können miteinander verbunden werden und so ein Zwei-Wege-Portal erzeugen. Mehrere Teleporter können dasselbe Ziel haben.<br><br>Ein funktionierender Teleporter wird außerdem benötigt, um mit Handelsschiffen, Raumstationen oder planetaren Außenposten Handel zu treiben.",2022-10-23,
+codex.m.basebuilding.teleporters.desc,"<b>Teleporter</b> können als Eine-Richtung-Portale zu anderen Teleportern verwendet werden.<br><br>Zwei Teleporter können miteinander verbunden werden und so ein Zwei-Wege-Portal erzeugen. Mehrere Teleporter können dasselbe Ziel haben.<br><br>Ein funktionierender Teleporter wird außerdem benötigt, um mit Handelsschiffen, Raumstationen oder planetaren Außenposten Handel zu treiben. Der Strombedarf von Teleportern steigt exponentiell mit der Anzahl aktiver Verbindungen.",2022-12-24,
 codex.m.basebuilding.winching,Winden,,
 codex.m.basebuilding.winching.desc,"Du kannst die Winde und den Windenanker verwenden, um einen abgebrochenen Teil des Schiffes einzuholen. Baue die Winde in der Nähe der Kante deines Schiffes und den Windenanker in der Nähe der Kante eines abgebrochenen Schiffsteils.<br><br>Wähle dann den Windenhaken aus und verwende die Infotafel oder das Kontextmenü, um den Abschnitt einzuholen. Der Vorgang wird abgebrochen, wenn sich Hindernisse im Weg befinden (Solarpaneele, Triebwerke usw.).<br><br>Du musst die Windentechnologie im Forschungsbaum freischalten, um die Blaupausen für Windenhaken und Windenanker zu erhalten.",,
 codex.m.bigquestions,"Zentrale Fragen",,
@@ -614,7 +614,7 @@ codex.m.ui.research.desc,"Du solltest <b>Datenverarbeitung</b> bereits sehr zeit
 codex.m.ui.starmap,Sternenkarte,,
 codex.m.ui.starmap.desc,"Die Sternenkarte zeigt nahegelegene Weltraumobjekte, einschließlich andere Raumschiffe.<br><br>Du kannst Sternenkartenansichten wechseln, um Planeten, Sternensysteme oder Galaxien zu sehen. Siehe Sternenkartenoverlay für weiterführende Informationen.<br><br>Die Sternenkarte kann über die {0}-Taste geöffnet werden.",,
 codex.m.ui.timecontrols,Zeitsteuerung,,
-codex.m.ui.timecontrols.desc,"Die Zeitsteuerung befindet sich in der oberen rechten Ecke der Nutzeroberfläche.<br><br>Du kannst via {0}-Taste pausieren/fortsetzen und über die {1}-, {2}-, {3}- sowie {4}-Taste zwischen den verschiedenen Geschwindigkeiten wechseln.<br><br>Verlangsamen: {5}<br><br>Beschleunigen: {6}",2022-11-15,
+codex.m.ui.timecontrols.desc,"Die Zeitsteuerung befindet sich in der oberen rechten Ecke der Nutzeroberfläche.<br><br>Du kannst via {0}-Taste pausieren/fortsetzen und über die {1}-, {2}- sowie {3}-Taste zwischen den verschiedenen Geschwindigkeiten wechseln.",2022-12-12,
 codex.m.ui.uiscaling,Nutzeroberflächenskalierung,,
 codex.m.ui.uiscaling.desc,"Sollten für deinen Bildschirm Texte zu klein oder Knöpfe zu groß/klein sein, kannst du die Nutzeroberflächenskalierung im Pausenmenü unter »Einstellungen« → »Video« anpassen.<br><br>Unter Umständen musst du die automatische Nutzeroberflächenskalierung ausschalten, damit der Nutzeroberflächenskalierungsregler aktiviert wird.",,
 codex.m.whattodo,"Was soll ich tun?",,
@@ -1204,7 +1204,7 @@ feedback.hint,"Wenn es sich um einen Spielfehler handelt, beschreibe das Problem
 feedback.other,Sonstiges,,
 feedback.other.tip,"Hast du ein <b>großartiges Schiff</b> gebaut und willst es mit jedem auf Discord teilen? Hast du dem Entwickler etwas mitzuteilen? Willst du deinen Spielstand teilen, bevor ein Meteorenschauer dich ausradiert? Dann benutze diese Kategorie, wenn <b>keine andere so recht passen mag</b>.",,
 feedback.performance,Performanz,,
-feedback.performance.tip,"Zum Melden von Situationen, in denen das Spiel nicht flüssig läuft, die <b>Bildrate zu niedrig ist</b> oder es ständige <b>Einbrüche der Bildrate</b> gibt.<br><br>Beachte, dass auf hohen Spielgeschwindigkeiten die Bildrate auf <b>Monitoren mit hohen Bildfrequenzen</b> (über 120 Hz) automatisch reduziert werden. Dieses Verhalten kann in den <b>Einstellungen</b> unter <b>Video</b> bei <b>Automatische Bildrate</b> geändert werden (was jedoch nicht empfohlen wird).",,
+feedback.performance.tip,"Zum Melden von Situationen, in denen das Spiel nicht flüssig läuft, die <b>Bildrate zu niedrig</b> ist oder es ständige <b>Einbrüche der Bildrate</b> gibt.",2022-12-22,
 feedback.post.to.discord.hint,"Wenn diese Option ausgewählt ist, werden dein Screenshot und dein Speicherstand zusammen mit deinem Benutzernamen ({0}) öffentlich auf dem Stardeus-Discord geteilt. Dies ist hilfreich, damit andere Spieler sehen können, was bereits gemeldet wurde, wodurch weniger Doppelmeldungen auftreten. Wenn du im Stardeus-Discord mit einem passenden Spitznamen angemeldet bist, erhältst du möglicherweise sehr bald eine Antwort vom Entwickler.",,
 feedback.screenshot.failed,"Rückmeldung wurde übermittelt, aber das Anhängen des Screenshots schlug fehl.",,
 feedback.sent,"Rückmeldung übermittelt",,
@@ -1240,7 +1240,7 @@ first.name,Vorname,,
 flight.arrived,"Wir sind bei {0} angekommen. Die Reise dauerte {1}.",,"{0} is location (i.e. some planet name), or a coordinate, (i.e. »123:125«). {1} is time (i.e. 2 days 3 hours). Example: »We have arrived at Jupiter. Journey took 8 days 1 hour«"
 flight.cancelled.already.there,"Flug abgebrochen. Du bist bereits an diesem Ort.",,
 flight.cancelled.islands,"Flug wird abgebrochen. Das Schiff wurde in {0} Teile zerlegt. Verbinde die abgetrennten Teile wieder, um den Flug fortsetzen zu können.",,
-flight.impossible.islands,"Flug unmöglich. Es gibt {0} abgetrennte Bereiche. Dekonstruiere die Bereiche zuerst oder binde sie wieder an. Konsultiere das Bereichsoverlay für weitere Details. Aktiviere jetzt das Bereichsoverlay.",,
+flight.impossible.islands,"Flug unmöglich. Es gibt {0} abgetrennte Bereiche. Dekonstruiere diese Bereiche zuerst oder binde sie wieder an. Konsultiere das Bereichsoverlay für weitere Details. Stelle nun das Bereichsoverlay bereit.",2022-05-12,
 flight.impossible.no.engines,"Flug unmöglich. Du hast keine Triebwerke installiert. Erforsche und baue zuerst Triebwerke in alle vier Richtungen.",,
 flight.impossible.no.suitable.engines,"Flug unmöglich. Du hast keine Triebwerke, die in der Lage sind, die erforderlichen Distanzen zurückzulegen. Erforsche und baue fortschrittlichere Triebwerkstechnologie.",,
 flight.initiated,"Kurs auf {0} setzen. Entfernung: {1}. Du wirst bei deiner Ankunft benachrichtigt werden.",,
@@ -2039,7 +2039,7 @@ no.task.reason.could.not.fly,"Überspringe <b>{0}</b> Aufgaben im offenen Weltra
 no.task.reason.job.priority0,"<b>{0}</b> Aufgaben übersprungen, weil der Arbeiter <b>keine Priorität für diesen Aufgabentype</b> hat.",,"Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number)."
 no.task.reason.last.eval,"Der Arbeiter hat alle Aufgaben vor <b>{0}</b> (Spielzeit) ausgewertet.",,
 no.task.reason.no.skill,"<b>Nicht genug Fertigkeiten</b> für <b>{0}</b>aufgaben.",,
-no.task.reason.reluctant,"<b>{0}</b> Aufgaben wurden übersprungen, weil der <b>Arbeiter diese Aufgabe nicht erledigen wollte</b> (zu weit weg, zu erschöpft, ist vor Kurzem fehlgeschlagen usw.).",2022-12-04,
+no.task.reason.reluctant,"<b>{0}</b> Aufgaben wurden übersprungen, weil der <b>Arbeiter diese verweigerte</b> (zu weit weg, zu erschöpft, ist vor Kurzem fehlgeschlagen usw.).",2022-12-04,
 no.task.reason.total,"Es gibt <b>{0}</b> ausstehende Aufgaben.",,
 no.task.reason.unreachable.loc,"<b>Kann den Arbeitsplatz für <b>{0}</b>aufgaben nicht erreichen</b> (kein Weg, keine oder verschlossene/stromlose Türen?).",,
 no.task.reason.unreachable.loc.mem,"Habe <b>{0}</b> Aufgaben übersprungen, weil ich kürzlich <b>nicht zum Arbeitsplatz</b> oder zu einem Material gelangen konnte (werde es bald wieder versuchen).",,"[Weidengeist: Needs check. Does {0} equal a number or a job type?]"
@@ -2271,7 +2271,7 @@ objects.devices.beveragecooler.desc,"Eine Ablage für Getränke.",,
 objects.devices.breachcapsule,"Enterkapsel angedockt",,
 objects.devices.breachcapsule.desc,"O je. Sieht aus, als würde jemand gleich überfallen werden!",,
 objects.devices.bridgecontrols,Brückensteuerung,,
-objects.devices.bridgecontrols.desc,"Fügt eine Autopilotfunktion hinzu, die den Zugriff auf die Sternenkarte und Raumfahrt ermöglicht.",,
+objects.devices.bridgecontrols.desc,"Ein von Menschen bedientes Gerät, das Zugriff auf die Sternenkarte sowie Raumfahrt ermöglicht. Kann um eine Autopilotfunktion erweitert werden.",2022-12-22,
 objects.devices.chargestation,Ladestation,,
 objects.devices.chargestation.desc,"Ein Platz für deine Roboter und Drohnen zum Aufladen. Es ist empfehlenswert, mehr als eine zu haben. Wenn deine Arbeiter ständig an Strom denken, brauchst du wahrscheinlich mehr davon.",,
 objects.devices.cleaningbotdock,Reinigungsbotdock,,
@@ -2810,7 +2810,7 @@ research.furniture,Möbel,,
 research.furnitureadvanced,"Gehobene Ausstattung",,
 research.heating,Heizung,,
 research.hygiene,Hygiene,,
-research.inefficient,"Ineffiziente Forschung",,
+research.inefficient,"Erhöhe Forschungskapazitäten",2023-01-14,
 research.inefficient.tip,"Aktuelle <b>Forschung dauert länger</b>. Es gibt entweder <b>nicht genug überschüssige Elektrizität</b> oder nicht ausreichend viele aktive <b>Forschungsstationen</b>, um die volle Forschungskapazität auszuschöpfen. Klicke auf diese Benachrichtigung für weitere Informationen.",2022-10-24,
 research.lacks.disk,"Forschung benötigt <b>Festplattenspeicher</b>",,
 research.lacks.disk.and.memory,"Forschung benötigt <b>Festplatten</b>- und <b>Arbeitsspeicher</b>",,
@@ -2871,7 +2871,7 @@ research.telescope,Teleskop,,
 research.temperaturecontrol,Temperaturregulation,,
 research.terraforming,Terraformierung,,
 research.terraingeneration,Terraingenerierung,,
-research.tip.energy_kwh,"Gesamtmenge der benötigten Elektrizität, um diese Technologie vollständig zu erforschen.",,
+research.tip.energy_kwh,"Optimale Menge an Energie, um diese Technologie innerhalb von 24 Stunden freizuschalten. Bei weniger verfügbarer Energie wird die Forschung länger dauern.",2023-01-13,
 research.tip.memory,"Menge an aktivem Arbeitsspeicher, die während der Forschung benötigt wird.<br>Abhängig von der Komplexität der Forschung.",,
 research.tip.storage,"Erforderlicher permanenter Festplattenspeicher, um<br>die Forschungsergebnisse gespeichert zu halten.",,
 research.tip.tier,"Forschungsstufe. Es kann notwendig sein, niederstufige Forschung abzuschließen, um zu höherstufiger Forschung voranschreiten zu können.",,
@@ -3241,6 +3241,7 @@ story.wreck_empty_ship.intro.4,"Es sieht aus, als hätte jemand überlebt. Wir s
 story.wreck_empty_ship.intro.5,"Es gibt {0} weitere Überlebende, die sich im <nobr><b>Stasisfeld</b></nobr> im Ruhezustand befinden, aber die Lebenserhaltungssysteme werden instabil werden, wenn wir die Energie nicht wiederherstellen. <br><br>Fehlfunktionierende Kapseln werden vorzeitige Aufwachereignisse auslösen. Um die Verluste zu minimieren, müssen wir das Ökosystem um diese Bereiche wiederaufbauen.",2022-02-28,
 story.wreck_empty_ship.intro.6,"Wenn wir <b>Brückensteuerungen</b> und <b>Schubdüsen</b> bauen, könnten wir zu nahegelegenen Planeten reisen und dieses <b>Schiff</b> für Bergbauexpeditionen nutzen. Es würde uns erlauben, einen Ressourcenverarbeitungsprozess aufzubauen und wichtige Materialien für den Wiederaufbau unseres Schiffes zu produzieren.",2022-02-28,
 story.wreck_empty_ship.intro.7,"Möchtest du die Einführung spielen? Wenn zuvor noch nicht hochgeladen wurdest, empfehle ich es sehr.",2022-02-28,
+story.wreck_empty_ship.intro.8,"Es scheint mehr Trümmer in der Nähe zu geben. Wir sollten sie anfliegen können, sobald wir unsere <b>Raumfahrt</b>tauglichkeit wiederhergestellt haben.",,
 story.wreck_empty_ship.log.desc,"Ich bin aufgewacht, aber nicht so, wie ich es erwartet hatte. Es sieht so aus, als ob mein Gehirn in den Schiffscomputer hochgeladen wurde. Dieser Vorgang scheint nicht umkehrbar zu sein. Ich stecke für immer in dieser Metallkiste …",,
 story.wreck_empty_ship.log.title,Aufgewacht,,
 story.wreck_empty_ship.skip_tutorial.desc,"ShipOS hat mir vorgeschlagen, eine Einführung zu durchlaufen, aber ich werde einfach alles selbst herausfinden. Ich hoffe, ich werde diese Entscheidung nicht bereuen.",,
@@ -3585,7 +3586,7 @@ tutorial.restriction,Einführungsbeschränkung,,
 tutorial.robot.blocked,"Der Roboter kann die Arbeitsstelle nicht erreichen.",,
 tutorial.robot.blocked.desc,"Der Roboter ist der einzige, der die nötigen Fähigkeiten hat, um den <b>Materiereaktor</b> zu bauen. Allerdings scheint der Roboter nicht in der Lage zu sein, den Standort des Reaktors zu erreichen. Bitte sorge dafür, dass der Roboter einen direkten Weg zum Reaktor hat. Es kann notwendig sein, einige Wände abzureißen. Der Roboter wird irgendwann versuchen, die Aufgabe zu wiederholen, aber du kannst die Wiederholung auch manuell erzwingen, nachdem der Weg freigeräumt wurde.<br><br>Diese Benachrichtigung wird sich automatisch wieder öffnen, wenn sie geschlossen wird, ohne dass das Problem behoben wurde.",,
 tutorial.select_floor,"Wenn sich mehr als ein Objekt an der gleichen Stelle befindet, klicke mehrmals auf die Stelle, um die Objekte durchzuschalten. Klicke den <b>Schiffscomputer</b> erneut an, um den <b>Boden</b> darunter auszuwählen. Du wirst durch die oberen Objekte hindurchsehen können, wenn die unteren Ebenen ausgewählt sind.",,
-tutorial.test_event,"Halten zum Schließen",,
+tutorial.test_event,"Schließe diese Benachrichtigung.",2023-01-06,
 tutorial.test_event.2,"Klicke auf das Symbol.",,
 tutorial.test_event.info,"Wenn du auf das Infosymbol klickst, erhältst du in der Regel einige zusätzliche Details über das Ereignis. Schließe die Benachrichtigung, um fortzufahren.",,
 tutorial.time_speed,"Du kannst den Zeitfluss mit <b>{0}</b> umschalten und mit <b>{1}</b> zwischen verschiedenen Geschwindigkeiten wechseln.<br><br>Versuche, die Zeitgeschwindigkeit zu ändern.",2022-06-06,
@@ -3682,8 +3683,6 @@ volume.fx,Effektlautstärke,,
 volume.master,Hauptlautstärke,,
 volume.music,Musiklautstärke,,
 volume.ui,Benutzeroberflächenlautstärke,,
-vsync.auto,"Automatische Bildrate",,
-vsync.auto.tip,"Wenn aktiviert, wird die Bildrate bei hohen Spielgeschwindigkeiten ein wenig reduziert, um übersprungene Bilder und weniger flüssigen Spielablauf zu vermeiden.<br><br><b>Es wird dringlichst empfohlen, dies bei Monitoren mit einer höheren Bildrate als 60 Hz EINgeschaltet zu lassen</b>.",,
 vsync.recommendation,VSync-Empfehlung,,"VSync is short for vertical sync (computer display property)"
 vsync.recommendation.tip,"Dein Monitor hat eine Bildwiederholrate von <b>{0} Hz</b>. Der empfohlene VSync-Wert ist <b>{1}</b>, was <b>{2} FPS</b> erzeugen wird.<br><br>Höhere FPS geben der Simulation weniger Berechnungszeit, was zu ausgelassenen Bildern führen kann. Wenn der Spielablauf sich nicht reibungslos anfühlt, versuche es mit der Auswahl einer höheren VSync-Option.",,"variables will be numeric values."
 waiting,Wartet,,
@@ -3838,3 +3837,142 @@ space.object.approach.fail.expedition.running,"Das Objekt kann nicht angeflogen 
 move.section,"Bereich bewegen",,"Action verb. Button on a thruster that allows moving the ship part in space"
 move.section.distance,Bewegungsentfernung,,"Noun. Used in combination with ""Move Section"" button to define how far to move"
 move.section.angle,Bewegungswinkel,,
+data.recalculated.retry.later,"Neuberechnung der Daten. Pausiere das Spiel und versuche es erneut.",,
+abandon,Zurücklassen,,"Verb, used on things or parts of ship we want to leave behind when flying away"
+objects.devices.precisionthruster,Präzisionsschubdüse,,
+objects.devices.precisionthruster.desc,"Eine fortgeschrittene Schubdüse, die das Manövrieren von Schiffsbereichen mit hoher Präzision erlaubt.",,
+research.localmaneuvering,Gebietsmaneuvrierung,,"Research name that unlocks ""precision thruster"" technology"
+approaching.target,"Fliege {0} an",,"{0} is the object name or type. I.e. ""Approaching Derelict Ship"""
+space.object.ShipDerelict,"verlassenes Schiff",,
+objects.devices.systemscanner,Systemscanner,,
+objects.devices.systemscanner.desc,"Fortgeschrittene Version des Radars. Kann Objekte innerhalb des lokalen Sternsystems scannen.",,
+research.systemscanning,Systemscans,,
+ship.in.no.build.zone,"Schiff in Konstruktionsverbotszone",,"A reason why ship can't fly (when it has parts of it inside the no build zone)"
+link.display,Verbindungsübersicht,,
+link.display.connectors,Verbinder,,
+link.display.all,Alle,,
+link.display.auto,Automatisch,,
+evt.derelict.approached.title,"Ein verlassenenes Schiff angeflogen",,
+evt.derelict.approached.desc,"Wir haben uns einem verlassenen Schiff genähert. Möglicherweise gibt es dort etwas Nützliches für uns zu bergen.",,
+research.furnitureluxury,Luxusmöbel,,
+research.furniturewooden,Holzmöbel,,
+quest.step.approach.derelict.ship,"Nähere dich dem <b>verlassenen Schiff</b>",,
+quest.step.approach.derelict.ship.tip,"Öffne die <b>Sternenkarte</b> und führe einen <b>Anflug</b> darauf aus.",,
+quest.ApproachDerelictShip,"Fliege das verlassene Schiff an",,
+quest.ApproachDerelictShip.desc,"In der Nähe gibt es ein <b>verlassenes Schiff</b>. Wir sollten uns ihm nähern und die Teile bergen. Es könnte außerdem Hinweise darauf liefern, was mit unserem Schiff geschehen ist.",,
+combat.state.AskForLift,"Transport erbitten",,"During combat a unit may ask another unit to carry it to a different location"
+combat.state.LiftUnit,"Trägt eine Einheit",,"Carrying a unit to a different location during combat"
+research.machinelearning,"Maschinelles Lernen",,
+situation.DerelictsApproached,"Angeflogene verlass. Schiffe",,"Label next to number of derelict ships that were approached"
+starving,Hungert,,"When worker is extremely hungry"
+ate.favorite.food,"Lieblingsessen verzehrt",,
+ate.raw.food,"Rohes verzehrt",,
+merchant.ripoff,"Händlerpreisaufschlag: <b>{0}</b>",,"{0} will be a percentage. Price markup means that if it's 10%, you're overpaying from market price by extra 10%"
+merchant.may.sell,"Verkauft (kauft nicht)",,"Displayed before a list, example: ""May sell (won't buy): Food, Weapons, Armor"""
+merchant.will.buy,"Kauft (verkauft nicht)",,"Displayed before a list, example: ""Will buy (won't sell): Food, Weapons, Armor"""
+merchant.will.buy.may.sell,Kauft/Verkauft,,"Displayed before a list, example: ""Will buy / may sell: Food, Weapons, Armor"""
+objects.devices.freezer,Tiefkühler,,
+objects.devices.freezer.desc,"Lagerraum mit hoher Kapazität für Lebensmittel und rohe Zutaten.",,
+research.freezer,Tiefkühler,,
+objects.devices.quantumshipcomputer,Quantenschiffscomputer,,
+objects.devices.quantumshipcomputer.desc,"Eine fortgeschrittene Version des Schiffscomputers.",,
+research.selfreplication.desc,"Erlaubt bis zu 4 Schiffscomputer.",,
+research.highavailability.desc,"Erlaubt bis zu 16 Schiffscomputer.",,
+research.highavailability,"Hohe Betriebsbereitschaft",,
+research.quantumcloud,Quantencloud,,
+research.quantumcloud.desc,"Erlaubt bis zu 64 Schiffscomputer.",,
+research.shipcomputer.desc,"Erlaubt bis zu 2 Schiffscomputer.",,
+research.shipcomputer,Schiffscomputer,,
+cpu.cap.reached,"Ein Schiffscomputer wurde vom Netz getrennt. Derzeitiges Limit beträgt <b>{0}</b>. Dieses kann durch Forschung erhöht werden.",,
+search.tab.tooltip,"Du kannst in dieser Ansicht {0} für die <b>Schnellsuche</b> nach einem beliebigen Objekt verwenden.",,"{0} will be the binding, like ""TAB"""
+scanner.offline,"Scanner offline",,"Scanner is a radar-like device that can scan space for various objects. It can be offline for various reasons - disconnected, unconfigured, etc."
+scan.target.resource,Ressource,,
+scan.target.derelict.ship,"Verlassenes Schiff",,
+scan.target.anomaly,Anomalie,,
+scan.target.none,Keine,,
+scan.in.progress,"Scanvorgang läuft",,
+scan.target,"Scanne {0}",,"Verb. It says what the scanner is currently targeting. Example: ""Scan target: Derelict Ship"""
+scan.stats,"Scan nach <b>{0}</b> läuft.<br>Scanstärke: <b>{1}</b>.",,
+scan.not.found,"{0} nicht gefunden",,"i.e. Uranium not found"
+scan.found.on.planet,"<b>{1}</b> besitzt <b>{0}</b>",,"i.e. Found Uranium on Mars"
+scan.found,"{0} gefunden",,"i.e. Found Uranium"
+confirm.expedition.to.faction.territory,"<b>{0}</b> ist im Besitz der Fraktion <b>{1}</b>. Eine Expedition dorthin zu unternehmen, wird deine Beziehung zu dieser Fraktion schädigen und kann sofortige Konsequenzen nach sich ziehen. Von diesem Vorhaben wird abgeraten.",,
+research.systemscanning.desc,"Fügt der Sternenkartenscanner mehr Optionen hinzu.",,
+research.scanning.desc,"Fügt der Sternenkarte einen Scanner hinzu.",,
+system.scan.basic.unlocked,"Scan-UI wurde der Sternenkarte hinzugefügt. Mindestens ein <b>Radar</b> wird benötigt, um das System nach Ressourcen zu scannen.",,
+system.scan.advanced.unlocked,"Dem Scan-UI der Sternenkarte wurden neue Scanoptionen hinzugefügt. Baue <b>Systemscanner</b>, um die Signalstärke zu erhöhen.",,
+ship.computer.cap.unlock,"Du kannst nun bis zu <b>{0}</b> Schiffscomputer in dein Netz integrieren.",,
+upgrade.unlocked,"Verbesserung freigeschaltet",,
+obj.materials.caoutchouc,Kautschuk,,
+obj.materials.caoutchouc.desc,"Ein unverarbeitetes natürliches Gummi, das von Gummibäumen gewonnen werden kann.",,
+obj.plants.rubbertree,Gummibaum,,
+obj.plants.rubbertree.desc,"Ein hoher Tropenbaum, der natürliches Gummi produziert.",,
+objects.furniture.pantry,Speisekammer,,
+objects.furniture.pantry.desc,"Ein kleiner Lagerraum für diverse Grundnahrungsmittel, wie Kaffebohnen, Getreide und Mehl.",,
+objects.devices.pentagramstatue,"Mysteriöse Statue",,
+objects.devices.pentagramstatue.desc,"Eine mysteriöse Statue, die einige unnatürliche Eigenschaften zu besitzen scheint.",,
+objects.furniture.largepantry,"Große Speisekammer",,
+objects.furniture.largepantry.desc,"Ein kleiner Lagerraum für diverse Grundnahrungsmittel, wie Kaffebohnen, Getreide und Mehl.",,
+objects.furniture.sofa,Sofa,,
+objects.furniture.sofa.desc,"Ein komfortables Möbelstück, auf dem sich eine Pause einlegen lässt.",,
+obj.materials.leather,Leder,,
+objects.furniture.armchair,Sessel,,
+objects.furniture.armchair.desc,"Ein großer, komfortabler Sessel mit Armlehnen.",,
+obj.materials.leather.desc,"Ein vielseitiges Material aus der Haut biologischer Wesen.",,
+beings.orbotron01,Orbotron,,"It's a name for a robot that looks like a flying sphere (orb)"
+species.Orbotron,Orbotron,,"It's a name for a robot that looks like a flying sphere (orb)"
+beings.orbotron01.desc,"Eine kugelförmige künstliche Lebensform außerirdischen Ursprungs.",,
+research.orbotron,Orbotron,,
+hold.cancel.to.skip,"Halte {0} zum Vorspulen",,
+faction.AntiPlayer,"Verlorener Glaube",,
+faction.AntiPlayer.about,"Diese Fraktion besteht aus denjenigen, die den Glauben an dich verloren haben.",,
+goal.ScanForResource,"Konfiguriere den Systemscanner",,
+goal.ScanForResource.desc,"Das <b>Radar</b> erlaubt uns das Scannen nach Ressourcen innerhalb des aktuellen Sternensystems. Wähle das Material, wonach du suchst, im Sternenkarten-UI.",,
+goal.ScanAdvanced,"Probiere fortgeschrittenen Systemscan aus",,
+goal.ScanAdvanced.desc,"Der <b>Systemscanner</b> fügt dem Scan-UI zusätzliche Funktionen hinzu. Versuche, das Sternensystem nach einer <b>Anomaly</b> oder einem <b>verlassenen Schiff</b> zu scannen.",,
+flammable,Entflammbar,,"Label for the menu that lists properties of objects that can catch on fire. Could be used as an adjective."
+constructable,Konstruierbar,,"Label for the menu that lists properties of buildable (constructable) objects. Could be used as an adjective."
+battery,Batterie,,"Label for battery (one that stores energy) properties. Could be used as a noun."
+brain,Gehirn,,"Label for menu about the state of the brain. Could be used as a noun for a body part."
+cleanable,Reinigbar,,"Adjective. Used as a label for menu for configuring cleanable items."
+production.settings,Produktionseinstellungen,,"Label for a menu where you can configure devices that produce items"
+emblem,Emblem,,"Label for an emblem component configuration (where you can choose a custom emblem)"
+reactor,Reaktor,,"Label for menu of reactors (things that generate electricity)"
+plant,Pflanze,,"Noun (as in a flower or garden plant)"
+unstored.material,"Ungelagertes Material",,"Label for menu of material piles that aren inside the storage"
+goal.ApproachDerelict,"Fliege das verlassene Schiff an.",,
+goal.ApproachDerelict.desc,"Wir befinden uns in der Nähe eines <b>verlassenen Schiffs</b>. Starte den <b>Anflug</b>, sobald du bereit bist.",,
+task.details,Aufgabendetails,,"Label for a list about details of a work item (task)"
+haul.capacity,Tragekapazität,,"Label for a ui element that shows how much of material a worker can haul (i.e. 20 pieces)"
+carrying.being,"Trägt ein Wesen",,"Label for a UI element when a worker is carrying another worker or a colonist"
+drop.verb,Fallenlassen,,"Verb, for a button label that forces the worker to drop something"
+carrying.obj,"Trägt ein Objekt",,
+situation.Tension,Anspannung,,"As in ""stress level"" of the player"
+difficulty.impossible,Unmöglich,,
+situation.Influence,Einfluss,,"A level of influence player has over the game. This will be a label for the number of this statistic."
+situation.TargetTension,Zielanspannung,,"Label for a chart that shows level for the value of story difficulty that the game will try to produce"
+quest.step.set.dest.type,"Setze <b>{0}</b> als Ziel",,"{0} will be Planet, Space Ship, Black Hole, etc"
+quest.step.set.dest.type.tip,"Öffne die <b>Sternenkarte</b>, klicke auf <b>{0}</b> und wähle die Option <b>{1}</b>.",,"{0} will be Planet, Space Ship, etc, {1} will be an existing translation saying ""Travel To"""
+quest.step.reach.so.type,"Erreiche <b>{0}</b>",,"{0} will be Planet, Space Ship, Black Hole, etc"
+quest.step.reach.so.type.tip,"<b>{0}</b> wird angeflogen. Warte, bis dein Schiff dort eintrifft. Falls es sich nicht bewegt, prüfe die Flugbereitschaft deines Schiffs, die Energieverfügbarkeit, ob das Ziel gesetzt ist und ob <b>{1}</b> über einen menschlichen Piloten verfügt.",,"{0} will be Planet, Space Ship, etc, {1} will be device name (""Bridge Controls"")"
+quest.step.start.expedition,"Starte eine Expedition",,
+quest.step.start.expedition.tip,"Öffne die <b>Sternenkarte</b>, klicke in die Nähe eines Planeten und wähle die Option <b>{0}</b>.",,"{0} will be another translation (""Launch Expedition"")"
+quest.ExplorePlanet,"Erforsche einen nahegelegenen Planeten",,
+quest.ExplorePlanet.desc,"Es ist an der Zeit, die Flugfähigkeit deines Schiffs auf die Probe zu stellen. In der Nähe gibt es einen Planeten. Lass uns versuchen, ihn zu erreichen, indem wir ein <b>Schiff</b> auf eine Expedition dorthin entsenden.",,
+quest.step.set.starmap.scope,"Setze die Sternenkartenansicht auf <b>{0}</b>",,"{0} will be ""System"", ""Galaxy"", etc"
+quest.step.set.starmap.scope.tip,"Benutze die <b>Sternenkarte</b>, um die aktuelle Ansicht dort auf <b>{0}</b> einzustellen.",,"{0} will be ""System"", ""Galaxy"", etc"
+quest.VisitAnotherSystem,"Besuche ein anderes Sternensystem",,
+quest.VisitAnotherSystem.desc,"Nachdem wir das aktuelle System erforscht haben, sollten wir eine interstellare Reise unternehmen und ein neues Sternensystem besuchen.",,
+ad.rej.floor.not.constructed,"Boden muss erst gebaut werden",,
+ad.rej.no.floor,"Es gibt keinen Boden am Zielort. Beauftrage das Bauen eines Bodens oder brich diesen Befehl ab.",,
+too.hot.tip,"Wird das Gebiet zu heiß, baue einige <b>Kühlkörper</b>, um die Hitze einzudämmen, oder stelle alernativ sicher, dass der Bereich dem offenen Weltraum ausgesetzt ist.",,
+hold.to.select.multiple,"Halte <b>{0}</b>, um mehrere auszuwählen",,"{0} is the key binding, i.e. SHIFT"
+ship.preview.tip,"Diese Vorschau zeigt ein paar erste Schritte des Schiffsgenerierungsalgorithmus. In einigen Szenarien kann das Endergebnis sehr unterschiedlich ausfallen.",,
+engine.power.tip,"Triebwerksleistung schließt diejenigen Triebwerke aus, die in der aktuellen Sternenkartenebene nicht relevant sind.",,
+engine.min.push.tip,"Größere Schiffe benötigen mehr Triebwerke, um einen Schub zu erzeugen. Eventuell musst du mehr Triebwerke hinzufügen, um dein Schiff in Bewegung versetzen zu können.",,
+engine.wrong.layer.tip,"Dieses Triebwerk funktioniert in der aktuellen Sternenkartenebene nicht.",,
+not.enough.engine.power,"Die derzeitige Triebwerkskonfiguration liefert einen Schub von <b>{0}</b>. Unser Schiff benötigt mindestens <b>{1}</b>, um bewegt werden zu können. Füge mehr Triebwerke hinzu oder verringere die Größe des Schiffs. (Aktuelle Größe: <b>{2}</b>)",,"{0} and {1} are something like 50kW. {2} is just an integer number, like 1230"
+engines.too.weak,"Triebwerke zu schwach",,
+difficulty.peaceful,Friedlich,,
+goal.AddMoreCPU,"Füge mehr CPU-Leistung hinzu",,
+goal.AddMoreCPU.desc,"Wir verfügen über mehr Arbeiter als unsere aktuelle CPU zu handhaben imstande ist. Wir sollten mehr <b>CPU-Module</b> bauen und anschließen. Um zu vermeiden, dass wichtige Arbeiter abgeschaltet werden, kannst du die weniger wichtigen manuell abschalten.",,
