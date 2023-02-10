@@ -1,6 +1,6 @@
 Key  (PURPLE means not ready for translation yet),Translation,Version,Comment (context for translators)
-<Gamepad>,Kontroller,,Used in input settings when showing bindings for Gamepad (controller) 
-<Keyboard>,Billentyűzet,,Used in input settings when showing bindings for Keyboard 
+<Gamepad>,Kontroller,,Used in input settings when showing bindings for Gamepad (controller)
+<Keyboard>,Billentyűzet,,Used in input settings when showing bindings for Keyboard
 <Mouse>,Egér,,Used in input settings when showing bindings for Mouse
 abort,Abbahagy,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
 aborting.expedition.died,Az expedíció meghiúsult. A személyzet tagja - {0} - meghalt mielőtt beszállhatott volna az Űrsiklóba.,,{0} will be replaced with a name
@@ -203,7 +203,6 @@ ad.rej.worker.offline,A munkás elérhetetlenné vált,,
 add,Hozzáad,,
 add.log.entry,Naplóbejegyzés hozzáadása,,
 add.to.queue,Hozzáadás a listához,,
-adj.rej.unreachable,Cél elérhetetlen,,
 advanced,Fejlettebb,,"For now only used in switching between ""Advanced"" and ""Basic"" life support system function"
 advert.cancel,{0} viszavonása,,
 advert.priority,Feladat prioritás: {0},,
@@ -858,7 +857,7 @@ drag.release.build.con,Csatlakozók építése húzással,,
 drag.release.build.con.tip,"Ha ez engedélyezve van, akkor a csatlakozási eszköz építeni fog egy csatlakozót, ha a csatlakozó ki van húzva, majd felengedésre kerül egy üres padlón.",,
 drink.coffee,Kávézz,,
 drop.task,Befejezés,,
-duplicate.binding,Duplikált gombfunkció,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad). 
+duplicate.binding,Duplikált gombfunkció,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad).
 duplicate.binding.info,"A(z) {0} számára kiválasztott bemenet máshol már használatban van. A legtöbb esetben érdemes visszaállítani a módosítást. Vegye figyelembe, hogy a kezelőfelület navigációjában a billentyűzet nyílbillentyűi, az Enter és az ESC használatban vannak.",,
 dust.accumulation,Por felhalmozódás,,
 dust.amount,Por mennyisége,,
@@ -876,7 +875,7 @@ eject.ammo,Lőszer kiadása,,
 eject.contents,Tartalom kivetése,,
 eject.food,Kaja kivetése,,
 eject.fuel,Üzemanyag kiadása,,
-el.build.connector.here,Építs csatlakozót ide,,Displayed in a tooltip when dragging a connector 
+el.build.connector.here,Építs csatlakozót ide,,Displayed in a tooltip when dragging a connector
 el.connector.fully.utilized,A csatlakózók teljesen ki vannak használva itt!,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.connector.not.on.grid,A csatlakozó nincs a Fedélzeti Számítógéppel egy hálózaton!,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
 el.connector.out.of.range,Hatótávolságon Kívül!,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
@@ -1482,7 +1481,7 @@ inconsistent.game.state,"Nem sikerült menteni. Egy hiba akadályozza meg a ment
 increase,Növel,,
 increase.amount,Mennyiség növelése,,
 indestructible,Elpusztíthatatlan,,
-indestructible.desc,"Az elpusztíthatatlan tárgyak nem szenvednek sebzést ütéstől, robbanástól, tűztől vagy a környezettől.",, 
+indestructible.desc,"Az elpusztíthatatlan tárgyak nem szenvednek sebzést ütéstől, robbanástól, tűztől vagy a környezettől.",,
 infinity,Végtelenség,,"Used in displaying time estimate when something would take forever to execute. Example: research time estimate when there is 0kW of energy output shows a tooltip: ""ETA: Infinity @0kW"""
 info.ad.rejected,Feladat Elutasítva,,
 info.ad.rejected.cancelled,A feladat törölve,,
@@ -3040,7 +3039,7 @@ ship.no.bridge.controls,Hídvezérlő Elérhetetlen,,
 ship.no.bridge.controls.operator,Nincs Hídkezelő,,
 ship.no.engines,Hajtóművek Elérhetetlenek,,
 ship.not.in.one.piece,A hajó nincs egy darabban,,
-shooter,Lőtte,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter. 
+shooter,Lőtte,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter.
 short.title,Rövid Cím,,
 shortcut.not.bound,(nincs beállítva),,
 shortcut.tip,Gyorsgomb: {0},,

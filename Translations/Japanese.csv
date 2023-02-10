@@ -1,5 +1,5 @@
 Key  (PURPLE means not ready for translation yet),Translation,Version,Comment (context for translators)
-<Gamepad>,ゲームパッド,,Used in input settings when showing bindings for Gamepad (controller) 
+<Gamepad>,ゲームパッド,,Used in input settings when showing bindings for Gamepad (controller)
 <Keyboard>,キーボード,,
 <Mouse>,マウス,,
 abort,中止,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
@@ -203,7 +203,6 @@ ad.rej.worker.offline,作業ユニットはオフライン,,
 add,追加,,
 add.log.entry,航海日誌に記録する,,
 add.to.queue,研究待ちに追加,,
-adj.rej.unreachable,目標到達不能,,
 advanced,高性能モード,,
 advert.cancel,キャンセル {0},,
 advert.priority,タスク優先度: {0},,
@@ -880,7 +879,7 @@ eject.ammo,弾薬を取り出す,,
 eject.contents,内容物を取り出す,,
 eject.food,食べ物を取り出す,,
 eject.fuel,燃料を取り出す,,
-el.build.connector.here,コネクタと接続,,Displayed in a tooltip when dragging a connector 
+el.build.connector.here,コネクタと接続,,Displayed in a tooltip when dragging a connector
 el.connector.fully.utilized,コネクタのスロットはすべて使用中です！,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.connector.not.on.grid,コネクタは船のコンピュータと同じグリッドに接続されていません！,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
 el.connector.out.of.range,コネクタの接続範囲外です！,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
@@ -4006,5 +4005,5 @@ height,高さ,,noun
 width,幅,,noun
 color.hue,色相,,color property (H in HSL)
 color.saturation,彩度,,color property (S in HSL)
-color.luminosity,明るさ,,color property (L in HSL) 
+color.luminosity,明るさ,,color property (L in HSL)
 steam.connection.unavailable,"Steamとの接続が確立できませんでした。実績やワークショップとの連携が機能しません。問題の対応方法:<br> - インターネットの接続と、ファイアウォールの設定を確認してください。<br> - Steamが起動しているか確認してください。<br> - Steamを再起動してみてください。<br> - PCを再起動してください。<br> - ゲームはひと休みして、お散歩に出かけてみましょう。",,
