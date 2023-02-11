@@ -203,7 +203,6 @@ ad.rej.worker.offline,"Arbeiter wurde vom Netz genommen",,
 add,Hinzufügen,,
 add.log.entry,"Protokolleintrag hinzufügen",,
 add.to.queue,"Zur Warteschl. hinz.",,
-adj.rej.unreachable,"Ziel nicht erreichbar",,
 advanced,Erweitert,,"For now only used in switching between »Advanced« and »Basic« life support system function"
 advert.cancel,"{0} abbrechen",,
 advert.priority,"Aufgabenpriorität: {0}",,

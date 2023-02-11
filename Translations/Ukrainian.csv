@@ -1,6 +1,6 @@
 Key  (PURPLE means not ready for translation yet),Translation,Version,Comment (context for translators)
-<Gamepad>,Геймпад,,Used in input settings when showing bindings for Gamepad (controller) 
-<Keyboard>,Клавіатура,,Used in input settings when showing bindings for Keyboard 
+<Gamepad>,Геймпад,,Used in input settings when showing bindings for Gamepad (controller)
+<Keyboard>,Клавіатура,,Used in input settings when showing bindings for Keyboard
 <Mouse>,Миша,,Used in input settings when showing bindings for Mouse
 abort,Перервати,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
 aborting.expedition.died,Перериваємо експедицію. Член команди {0} помер до того як потрапив до шатлу.,,{0} will be replaced with a name
@@ -203,7 +203,6 @@ ad.rej.worker.offline,Працівник у оффлайні,,
 add,Додати,,
 add.log.entry,Додати запис до журналу,,
 add.to.queue,Додати до черги,,
-adj.rej.unreachable,Ціль недосяжна,,
 advanced,Розвинений,,"For now only used in switching between ""Advanced"" and ""Basic"" life support system function"
 advert.cancel,Відмінити {0},,
 advert.priority,Пріоритет завдання: {0},,
@@ -862,7 +861,7 @@ drag.release.build.con,Будувати конектори перетягува�
 drag.release.build.con.tip,Якщо увімкнено - за допомогою інструмента Підключити можна наказати змонтувати конектор просто перетягуючи з'єднання до порожньої локації на підлозі.,,
 drink.coffee,Випити Кави,,
 drop.task,Відміна,,
-duplicate.binding,Комбінація Дублюється,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad). 
+duplicate.binding,Комбінація Дублюється,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad).
 duplicate.binding.info,"Комбінація, яку Ви обрали для {0} вже задіяна. Зазвичай, кращим рішенням буде відмінити таке призначення. Зауважте, що клавіші зі стрілками, Enter та ESC використовуються в навігації ІК.",,
 dust.accumulation,Накопичення Пилу,,
 dust.amount,Кількість Пилу,,
@@ -880,7 +879,7 @@ eject.ammo,Розрядити,,
 eject.contents,Вивантажити Вміст,,
 eject.food,Вивантажити Їжу,,
 eject.fuel,Вивантажити Паливо,,
-el.build.connector.here,Змонтувати тут Конектор,,Displayed in a tooltip when dragging a connector 
+el.build.connector.here,Змонтувати тут Конектор,,Displayed in a tooltip when dragging a connector
 el.connector.fully.utilized,Конектор задіяно повністю!,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.connector.not.on.grid,Конектор не у одній Мережі із Корабельним Комп'ютером!,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
 el.connector.out.of.range,За межею!,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
@@ -1486,7 +1485,7 @@ inconsistent.game.state,"Неможливо зробити сейв. Певни�
 increase,Збільшити,,
 increase.amount,Збільшити Кількість,,
 indestructible,Невразливий,,
-indestructible.desc,"Невразливі об'єкти не отримують ніяких пошкоджень від ударів, вибухів, вогню або інших деструктивних чинників оточення.",, 
+indestructible.desc,"Невразливі об'єкти не отримують ніяких пошкоджень від ударів, вибухів, вогню або інших деструктивних чинників оточення.",,
 infinity,Безкінечність,,"Used in displaying time estimate when something would take forever to execute. Example: research time estimate when there is 0kW of energy output shows a tooltip: ""ETA: Infinity @0kW"""
 info.ad.rejected,Завдання відхилено,,
 info.ad.rejected.cancelled,Завдання було скасовано,,
@@ -3044,7 +3043,7 @@ ship.no.bridge.controls,Навігаційна Рубка Відключена,,
 ship.no.bridge.controls.operator,Відсутній Оператор Навігаційної Рубки,,
 ship.no.engines,Двигуни Відключені,,
 ship.not.in.one.piece,Більше Ніж Один Сегмент,,
-shooter,Кулю випущено,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter. 
+shooter,Кулю випущено,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter.
 short.title,Короткий Заголовок,,
 shortcut.not.bound,(не прив'язано),,
 shortcut.tip,Хоткей: {0},,
@@ -4006,5 +4005,5 @@ height,Висота,,noun
 width,Ширина,,noun
 color.hue,Відтінок,,color property (H in HSL)
 color.saturation,Насиченість,,color property (S in HSL)
-color.luminosity,Світність,,color property (L in HSL) 
+color.luminosity,Світність,,color property (L in HSL)
 steam.connection.unavailable,"Неможливо встановити підключення до Steam. За таких умов неможливо буде користуватися функціоналом Steam Achievments та Workshop. Ось декілька порад, що можуть допомогти у вирішенні проблеми:<br> - Будь ласка перевірте чи коректно працює підключення до Internet, та чи налаштування брандмуера(фаєрвола) не становлять перешкод для обміну інформацією зі Steam<br> - Будь ласка переконайтесь що клієнт Steam працює у нормальному режимі<br> - Будь ласка спробуйте перезавантажити(перезапустити) клієнт Steam<br> - Будь ласка спробуйте перезавантажити Операційну Систему свого комп'ютера<br> - І нарешті - зробіть невелику перерву та прогуляйтеся (принаймні за чаєм/кавою/...)",,
