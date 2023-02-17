@@ -1,6 +1,6 @@
 Key,Translation,Version,Comment
-<Gamepad>,Геймпад,,Used in input settings when showing bindings for Gamepad (controller) 
-<Keyboard>,Клавиатура,,Used in input settings when showing bindings for Keyboard 
+<Gamepad>,Геймпад,,Used in input settings when showing bindings for Gamepad (controller)
+<Keyboard>,Клавиатура,,Used in input settings when showing bindings for Keyboard
 <Mouse>,Мышь,,Used in input settings when showing bindings for Mouse
 abandon,Удалить,,"Verb, used on things or parts of ship we want to leave behind when flying away"
 abort,Прервать,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
@@ -207,7 +207,6 @@ ad.rej.worker.offline,Работник выключился,,
 add,Добавить,,
 add.log.entry,Добавить запись в лог,,
 add.to.queue,Добавить в очередь,,
-adj.rej.unreachable,Цель недоступна,,
 advanced,Улучшенный,,"For now only used in switching between ""Advanced"" and ""Basic"" life support system function"
 advert.cancel,Отменить {0},,
 advert.priority,Приоритет задачи: {0},,
@@ -894,7 +893,7 @@ drag.release.build.con.tip,"Если этот параметр включен, �
 drink.coffee,Пить кофе,,
 drop.task,Отменить,,
 drop.verb,Бросить,,"Verb, for a button label that forces the worker to drop something"
-duplicate.binding,Привязка уже существует,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad). 
+duplicate.binding,Привязка уже существует,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad).
 duplicate.binding.info,"Способ ввода, который вы выбрали для {0}, уже используется в другом месте. В большинстве случаев вы можете отменить свое изменение. Обратите внимание, что клавиши со стрелками, Enter и ESC используются для навигации по пользовательскому интерфейсу.",,
 dust.accumulation,Накопление пыли,,
 dust.amount,Количество пыли,,
@@ -912,7 +911,7 @@ eject.ammo,Извлечь боеприпасы,,
 eject.contents,Извлечь содержимое,,
 eject.food,Извлечь еду,,
 eject.fuel,Извлечь топливо,,
-el.build.connector.here,Постройте здесь коннектор,,Displayed in a tooltip when dragging a connector 
+el.build.connector.here,Постройте здесь коннектор,,Displayed in a tooltip when dragging a connector
 el.connector.fully.utilized,Все слоты коннектора заняты!,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.connector.not.on.grid,Коннектор не находится в одной сети с Бортовым Компьютером!,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
 el.connector.out.of.range,Вне пределов досягаемости!,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
@@ -1558,7 +1557,7 @@ inconsistent.game.state,"Сохранение не удалось, баг меш
 increase,Увеличить,,
 increase.amount,Увеличить количество,,
 indestructible,Неразрушаем,,
-indestructible.desc,"Неразрушаемые объекты не получают повреждений от ударов, взрывов, огня или окружающей среды",, 
+indestructible.desc,"Неразрушаемые объекты не получают повреждений от ударов, взрывов, огня или окружающей среды",,
 infinity,Бесконечность,,"Used in displaying time estimate when something would take forever to execute. Example: research time estimate when there is 0kW of energy output shows a tooltip: ""ETA: Infinity @0kW"""
 info.ad.rejected,Задача отклонена,,
 info.ad.rejected.cancelled,Задача отменена,,
@@ -3224,7 +3223,7 @@ ship.no.bridge.controls,Пост управления оффлайн,,
 ship.no.bridge.controls.operator,Нет оператора Поста управления,,
 ship.no.engines,Двигатели оффлайн,,
 ship.not.in.one.piece,Сегменты не соединены,,
-shooter,,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter. 
+shooter,,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter.
 short.title,Короткий заголовок,,
 shortcut.not.bound,(нет привязки),,
 shortcut.tip,Быстрый доступ: {0},,

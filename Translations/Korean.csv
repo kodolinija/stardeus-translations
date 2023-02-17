@@ -1,6 +1,6 @@
 Key  (PURPLE means not ready for translation yet),Translation,Version,Comment (context for translators)
-<Gamepad>,게임패드,,Used in input settings when showing bindings for Gamepad (controller) 
-<Keyboard>,키보드,,Used in input settings when showing bindings for Keyboard 
+<Gamepad>,게임패드,,Used in input settings when showing bindings for Gamepad (controller)
+<Keyboard>,키보드,,Used in input settings when showing bindings for Keyboard
 <Mouse>,마우스,,Used in input settings when showing bindings for Mouse
 abort,중단,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
 aborting.expedition.died,탐사을 중단합니다. {0} 승무원이 셔틀에 탑승하기 전에 사망했습니다.,,{0} will be replaced with a name
@@ -203,7 +203,6 @@ ad.rej.worker.offline,작업 유닛 오프라인 됨,,
 add,추가,,
 add.log.entry,행해일지에 기록,,
 add.to.queue,연구 목록에 추가,,
-adj.rej.unreachable,목표 도달 불가능,,
 advanced,고성능,,"For now only used in switching between ""Advanced"" and ""Basic"" life support system function"
 advert.cancel,{0} 취소,,
 advert.priority,작업 우선 순위: {0},,
@@ -858,7 +857,7 @@ drag.release.build.con,드래그로 커넥터 건설,,
 drag.release.build.con.tip,활성화된 경우 연결 도구로 연결을 끌어서 빈 바닥에서 놓을 때 커넥터를 만듭니다.,,
 drink.coffee,커피 마시기,,
 drop.task,작업 취소,,
-duplicate.binding,중복 키설정,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad). 
+duplicate.binding,중복 키설정,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad).
 duplicate.binding.info,"설정한 입력 {0} 키가 이미 다른곳에 설정되어있습니다. 대부분의 경우 변경 내용을 취소하는 것이 좋습니다. 방향키, Enter, ESC는 UI 내비게이션에 사용된다는 점에 유의하십시오.",,
 dust.accumulation,먼지 축적,,
 dust.amount,먼지량,,
@@ -876,7 +875,7 @@ eject.ammo,탄약 꺼내기,,
 eject.contents,내용물 꺼내기,,
 eject.food,음식 꺼내기,,
 eject.fuel,연료 꺼내기,,
-el.build.connector.here,여기에 커넥터 건설,,Displayed in a tooltip when dragging a connector 
+el.build.connector.here,여기에 커넥터 건설,,Displayed in a tooltip when dragging a connector
 el.connector.fully.utilized,커넥터 모두 사용 중!,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.connector.not.on.grid,커넥터가 함선 컴퓨터 전력망에 없음!,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
 el.connector.out.of.range,범위를 벗어났습니다!,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
@@ -1482,7 +1481,7 @@ inconsistent.game.state,"저장할 수 없습니다. 오류로 저장 파일이 
 increase,증가,,
 increase.amount,금액 증가,,
 indestructible,파괴 불가능,,
-indestructible.desc,"파괴 불가능 오브젝트는 충격, 폭발, 화재, 환경 등의 어떠한 데미지도 받지 않는다.",, 
+indestructible.desc,"파괴 불가능 오브젝트는 충격, 폭발, 화재, 환경 등의 어떠한 데미지도 받지 않는다.",,
 infinity,무한대,,"Used in displaying time estimate when something would take forever to execute. Example: research time estimate when there is 0kW of energy output shows a tooltip: ""ETA: Infinity @0kW"""
 info.ad.rejected,작업 거부됨,,
 info.ad.rejected.cancelled,작업 취소됨,,
@@ -3041,7 +3040,7 @@ ship.no.bridge.controls,함교 제어 단말기 오프라인,,
 ship.no.bridge.controls.operator,함교 오퍼레이터 미배치,,
 ship.no.engines,엔진 오프라인,,
 ship.not.in.one.piece,단일 함선이 아님,,
-shooter,사수,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter. 
+shooter,사수,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter.
 short.title,간단 제목,,
 shortcut.not.bound,(미설정),,
 shortcut.tip,단축키: {0},,
