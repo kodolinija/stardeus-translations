@@ -1,5 +1,5 @@
 Key  (PURPLE means not ready for translation yet),Translation,Version,Comment (context for translators)
-<Gamepad>,ゲームパッド,,Used in input settings when showing bindings for Gamepad (controller) 
+<Gamepad>,ゲームパッド,,Used in input settings when showing bindings for Gamepad (controller)
 <Keyboard>,キーボード,,
 <Mouse>,マウス,,
 abort,中止,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
@@ -203,7 +203,6 @@ ad.rej.worker.offline,作業ユニットはオフライン,,
 add,追加,,
 add.log.entry,航海日誌に記録する,,
 add.to.queue,研究待ちに追加,,
-adj.rej.unreachable,目標到達不能,,
 advanced,高性能モード,,
 advert.cancel,キャンセル {0},,
 advert.priority,タスク優先度: {0},,
@@ -880,7 +879,7 @@ eject.ammo,弾薬を取り出す,,
 eject.contents,内容物を取り出す,,
 eject.food,食べ物を取り出す,,
 eject.fuel,燃料を取り出す,,
-el.build.connector.here,コネクタと接続,,Displayed in a tooltip when dragging a connector 
+el.build.connector.here,コネクタと接続,,Displayed in a tooltip when dragging a connector
 el.connector.fully.utilized,コネクタのスロットはすべて使用中です！,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.connector.not.on.grid,コネクタは船のコンピュータと同じグリッドに接続されていません！,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
 el.connector.out.of.range,コネクタの接続範囲外です！,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
@@ -1052,7 +1051,7 @@ evt.egg.hatched.crawlers.desc,新たな生命体をいくつか検出。注意�
 evt.egg.hatched.crawlers.title,卵から何かが孵った,,
 evt.el.con.fail,回路がショート,,
 evt.el.con.fail.desc,{0}への接続中に、回路のショートが発生してしまったようだ,,
-evt.el.device.damaged.desc,{0}は損耗により故障しました。修理が必要です。,,
+evt.el.device.damaged.desc,{0}は損耗により故障しました。修理か交換が必要です。,2022-01-30,
 evt.el.device.damaged.title,{0}に故障発生,,
 evt.end.explosion,爆発を検知,,
 evt.end.fire,火災発生,,
@@ -2045,7 +2044,7 @@ no.shower,シャワーがない,,
 no.shuttles,シャトルがない,,
 no.shuttles.desc,探査にクルーを送り込むには少なくともシャトルを1機は建造しなければなりません,,
 no.socialize.partner,誰とも交際していない,,
-no.target,目標無し,,
+no.target,目標なし,,
 no.task,作業なし,,
 no.task.reason.could.not.fly,この<b>作業ユニットは飛行できない</b>ため、宇宙空間での作業を<b>{0}個</b>スキップしました。,,
 no.task.reason.job.priority0,<b>この種類の作業に対する優先度が指定されていないため</b>、<b>{0}</b>のタスクはスキップされました。,,
@@ -3003,7 +3002,7 @@ select.processable,加工素材を選択,,
 select.projectile,飛来する物体を選択,,
 select.shuttle,シャトルを選択,,
 select.skill,スキルを選択,,
-select.target,ターゲットマーカーを選択,,
+select.target,目標を選択,,
 select.target.material,目標の素材を選択,,
 select.terraforming.material,テラフォーミング素材を選択,,
 select.upgrade,アップグレードを選択,,
@@ -3875,7 +3874,7 @@ research.furniturewooden,木製の家具,,
 quest.step.approach.derelict.ship,<b>難破船</b>へ接近する,,
 quest.step.approach.derelict.ship.tip,<b>星間マップ</b>を開いて、難破船に<b>接近する</b>指示を実行しましょう。,,
 quest.ApproachDerelictShip,難破船との接触,,
-quest.ApproachDerelictShip.desc,近くに<b>難破船</b>が存在します。近づいてパーツをサルベージしましょう。我々の船に何が起きたのか、その手がかりがあるかもしれない。,,
+quest.ApproachDerelictShip.desc,近くに<b>難破船</b>が存在します。近づいてパーツをサルベージしましょう。我々の船に何が起きたのか、その手がかりがあるかもしれません。,,
 combat.state.AskForLift,搬送を要求中,,During combat a unit may ask another unit to carry it to a different location
 combat.state.LiftUnit,ユニットを搬送中,,Carrying a unit to a different location during combat
 research.machinelearning,機械学習,,
@@ -3965,7 +3964,7 @@ drop.verb,投下,,"Verb, for a button label that forces the worker to drop somet
 carrying.obj,オブジェクトを搬送中,,
 situation.Tension,プレイヤー体験の負荷度合,,"As in ""stress level"" of the player"
 difficulty.impossible,無謀,,
-situation.Clout,影響度,,A level of influence player has over the game. This will be a label for the number of this statistic.
+situation.Influence,影響度,,A level of influence player has over the game. This will be a label for the number of this statistic.
 situation.TargetTension,目標の負荷レベル,,Label for a chart that shows level for the value of story difficulty that the game will try to produce
 quest.step.set.dest.type,航行目標に<b>{0}</b>指定する,,"{0} will be Planet, Space Ship, Black Hole, etc"
 quest.step.set.dest.type.tip,"<b>星間マップ</b>を開く, click on a <b>{0}</b> and chose the option: <b>{1}</b>.",,"{0} will be Planet, Space Ship, etc, {1} will be an existing translation saying ""Travel To"""
@@ -3981,3 +3980,30 @@ quest.VisitAnotherSystem,次の星系へ,,
 quest.VisitAnotherSystem.desc,"現在の星系の探査をやりつくしたら、星間航行を行い、新たな星系を訪れなければなりません。",,
 ad.rej.floor.not.constructed,床を最初に建造する必要があります,,
 ad.rej.no.floor,下に床がないようです。床面の建造を指示するか、このタスクをキャンセルしてください。,,
+too.hot.tip,"区画の温度が高温になっている場合は、熱対策として<b>ラジエーター</b>をいくつか設置してみましょう。もしくは、宇宙空間に開放する面積を増やしてみましょう。",,
+hold.to.select.multiple,複数選択をする場合は、<b>{0}</b>を押しながら操作しましょう。,,"{0} is the key binding, i.e. SHIFT"
+ship.preview.tip,このプレビューは、船体生成アルゴリズムに関する初期のいくつかのステップを示しています。シナリオによっては全く異なる結果になる場合があります。,,
+engine.power.tip,エンジン出力の数値には、現在の星間マップの表示範囲に無関係のエンジンは含まれません。,,
+engine.min.push.tip,大きな船は、より多くのエンジンが必要です。航行のために追加のエンジンが必要かもしれません。,,
+engine.wrong.layer.tip,このエンジンは現在の星間マップの範囲では機能しません。,,
+not.enough.engine.power,現在のエンジンで推進できるのは<b>{0}</b>までです。我々の船が航行するには少なくとも<b>{1}</b>が必要です。エンジンを追加するか、船のサイズを小さくしてください。（現在のサイズ: <b>{2}</b>）,,"{0} and {1} are something like 50kW. {2} is just an integer number, like 1230"
+engines.too.weak,エンジンが出力不足,,
+difficulty.peaceful,平和的,,
+goal.AddMoreCPU,CPUを追加,,
+goal.AddMoreCPU.desc,"我々は現在、CPUの処理能力を上回る作業ユニットを保有しているようです。より多くの<b>CPUモジュール</b>を建造して接続しましょう。重要な作業ユニットが機能停止しないように、不要なものを手動でオフにすることもできます。",,
+no.label,ラベル無し,,"For labeling devices, shown when there is no label assigned to an object"
+set.label,ラベルを設定,,Title for action to set the label
+label,ラベル,,"As in ""tag"", ""name"". Noun."
+size,サイズ,,Noun.
+offset,オフセット,,Vertical or horizontal offset. Noun.
+research.labeling,ラベリング,,
+research.labeling.desc,機器のカスタムラベルを開放,,
+objects.furniture.sign,表示,,"As in ""sign post"""
+objects.furniture.sign.desc,自由にメッセージを表示できるセルフパワー型のフラットパネル。,,
+research.sign,標識,,"As in ""sign post"". Noun."
+height,高さ,,noun
+width,幅,,noun
+color.hue,色相,,color property (H in HSL)
+color.saturation,彩度,,color property (S in HSL)
+color.luminosity,明るさ,,color property (L in HSL)
+steam.connection.unavailable,"Steamとの接続が確立できませんでした。実績やワークショップとの連携が機能しません。問題の対応方法:<br> - インターネットの接続と、ファイアウォールの設定を確認してください。<br> - Steamが起動しているか確認してください。<br> - Steamを再起動してみてください。<br> - PCを再起動してください。<br> - ゲームはひと休みして、お散歩に出かけてみましょう。",,

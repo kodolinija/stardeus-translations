@@ -1,6 +1,6 @@
 Key,Translation,Version,Comment
-<Gamepad>,Ovladač,,Used in input settings when showing bindings for Gamepad (controller) 
-<Keyboard>,Klavesnice,,Used in input settings when showing bindings for Keyboard 
+<Gamepad>,Ovladač,,Used in input settings when showing bindings for Gamepad (controller)
+<Keyboard>,Klavesnice,,Used in input settings when showing bindings for Keyboard
 <Mouse>,Myš,,Used in input settings when showing bindings for Mouse
 abort,Zrušit,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
 aborting.expedition.died,Expedice zrušena. Člen posádky {0} zemřel předtím než nastoupil do rakety.,,{0} will be replaced with a name
@@ -203,7 +203,6 @@ ad.rej.worker.offline,Pracovník přešel do režimu offline,,
 add,Přidat,,
 add.log.entry,Přidat záznam protokolu,,
 add.to.queue,Přidat do fronty,,
-adj.rej.unreachable,Cíl nedosažitelný,,
 advanced,Pokročilý,,"For now only used in switching between ""Advanced"" and ""Basic"" life support system function"
 advert.cancel,Zrušit {0},,
 advert.priority,Priorita úlohy: {0},,
@@ -858,7 +857,7 @@ drag.release.build.con,Sestavení konektorů na přetažení myší,,
 drag.release.build.con.tip,"Pokud je tato možnost povolena, nástroj pro připojení vytvoří konektor, když je připojení přetaženo a uvolněno na prázdné podlaze.",,
 drink.coffee,Vypít kávu,,
 drop.task,Odvolat úkol,,
-duplicate.binding,Duplikovat vazbu,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad). 
+duplicate.binding,Duplikovat vazbu,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad).
 duplicate.binding.info,"Vstup, který jste zvolili pro {0}, se již používá jinde. Ve většině případů budete chtít změnu vrátit. Všimněte si, že při navigaci v uživatelském rozhraní se používají klávesy se šipkami, Enter a ESC.",,
 dust.accumulation,Hromadění prachu,,
 dust.amount,Množství prachu,,
@@ -876,7 +875,7 @@ eject.ammo,Vyjmout munici,,
 eject.contents,Vyjmout obsah,,
 eject.food,Vyjmout jídlo,,
 eject.fuel,Vyjmout palivo,,
-el.build.connector.here,Zde vytvořte konektor,,Displayed in a tooltip when dragging a connector 
+el.build.connector.here,Zde vytvořte konektor,,Displayed in a tooltip when dragging a connector
 el.connector.fully.utilized,Konektor je plně využit!,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.connector.not.on.grid,Konektor není v síti lodního počítače!,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
 el.connector.out.of.range,Mimo dosah!,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
@@ -1482,7 +1481,7 @@ inconsistent.game.state,"Nelze uložit. Chyba brání správnému vytvoření uk
 increase,Zvýšení,,
 increase.amount,Zvyšení o,,
 indestructible,Nezničitelný,,
-indestructible.desc,"Nezničitelné předměty nebudou poškozeny nárazem, výbuchem, ohněm ani prostředím.",, 
+indestructible.desc,"Nezničitelné předměty nebudou poškozeny nárazem, výbuchem, ohněm ani prostředím.",,
 infinity,Nekonečno,,"Used in displaying time estimate when something would take forever to execute. Example: research time estimate when there is 0kW of energy output shows a tooltip: ""ETA: Infinity @0kW"""
 info.ad.rejected,Úkol zamítnut,,
 info.ad.rejected.cancelled,Úkol byl zrušen,,
@@ -3041,7 +3040,7 @@ ship.no.bridge.controls,Ovládání můstku offline,,
 ship.no.bridge.controls.operator,Žádný operátor můstku,,
 ship.no.engines,Motory offline,,
 ship.not.in.one.piece,Loď není v jednom kuse,,
-shooter,Střelec,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter. 
+shooter,Střelec,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter.
 short.title,Krátký název,,
 shortcut.not.bound,(není vázáno),,
 shortcut.tip,Zkratka: {0},,
