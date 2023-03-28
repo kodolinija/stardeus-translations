@@ -3051,7 +3051,7 @@ show.areas,区画を確認,,
 show.build.guidelines,建造モードでのガイドライン表示,,
 show.destination,移動先に視点を移動,,
 show.engines,エンジン,,
-show.hints.after.load,ロード後にヒントを表示,,
+show.hints,ヒントを表示,2023-03-14,Label for a toggle that disables or enables popups with hints
 show.research.tree,研究ツリーを開く,,
 shower,シャワールーム,,
 shower.dirty,シャワーは汚物で満杯,,
@@ -4079,3 +4079,16 @@ pixel.art,ドット絵,,
 pixel.art.low.budget,ショボいドット絵だ,,
 modifier.ExplosionBias,爆発の影響範囲: {0},,how likely explosions can occur. {0} will be from -100% to +100%
 modifier.ExplosionBias.desc,"（損傷、回路の短絡、建造失敗などによって引き起こされる）誘爆の発生確率を調整します。",,
+space.object.PlanetPOI,特異点,,
+space.object.info.PlanetPOI,この付近には何らかの特異点があるようです。探査へ向かうことができます。,,
+space.object.Moon,月,,
+space.object.info.Moon,"惑星の重力に捕らわれた自然衛星です。大きさ、形状や組成はさまざまで、表面の特徴や環境、資源もさまざまです。",,
+ore.deposit,{0} 鉱床,,"{0} will be replaced with ore name, such as Iron"
+mining.difficulty,採集難易度,,
+mining.difficulty.info,資源を採集すると、採集難易度が上昇していきます。上昇すると採集量が低下していきます。高度な採掘装置を使用すれば産出量を増やせるかもしれません。,,
+exp.mine.resource.title,採集中 {0} (1日あたり{1:0.00}),,"{0} is resource name (i.e. Iron), {1:0.00} will become a number, like 1.35"
+est.mining.rate,採集効率: 1日あたり{0:0.00},,"{0:0.00} will become a number, like 1.35"
+orders,指示内容,,"noun, as in current orders"
+min.mine.rate,効率の下限値,,
+min.mine.rate.tip,採集効率が設定値を下回ると、探査を自動的に終了します。,,
+
