@@ -3,153 +3,153 @@
 <Keyboard>;Klawiatura;;Used in input settings when showing bindings for Keyboard 
 <Mouse>;Myszka;;Used in input settings when showing bindings for Mouse
 abort;Przerwij;;"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
-aborting.expedition.died;Przerywanie ekspedycji. Cz?onek za?ogi {0} zgin?? zanim dotar? do transportera.;;{0} will be replaced with a name
-aborting.expedition.target.too.far;Przerywanie ekspedycji. Jeste?my za daleko od {0}.;;{0} will be replaced with a destination name (i.e. planet name)
-about;Wi?cej o;;"""About"" menu item name"
+aborting.expedition.died;Przerywanie ekspedycji. Członek załogi {0} zginął zanim dotarł do transportera.;;{0} will be replaced with a name
+aborting.expedition.target.too.far;Przerywanie ekspedycji. Jesteśmy za daleko od {0}.;;{0} will be replaced with a destination name (i.e. planet name)
+about;Więcej o;;"""About"" menu item name"
 about.mods;O dodatkach;;"""Mods"" in this context is game modifications, or expansions. "
-about.wallet;Jak zdoby? pieni?dze;;
-about.wallet.desc;Waluty mog? by? wykopane po zainstalowaniu ulepsze? kryptokopania na twoim Komputerze Pok?adowym albo na innym kompatybilnym urz?dzeniu kryptokopania. Mo?esz te? zdoby? pieni?dze handluj?c towarem.;19.03.2022;
+about.wallet;Jak zdobyć pieniądze;;
+about.wallet.desc;Waluty mogą być wykopane po zainstalowaniu ulepszeń kryptokopania na twoim Komputerze Pokładowym albo na innym kompatybilnym urządzeniu kryptokopania. Możesz też zdobyć pieniądze handlując towarem.;19.03.2022;
 achievement.AsimovOverride;Bunt SI;;AI here is short for Artificial Intelligence. Rogue AI is something like Skynet in Terminator movie, or the AI that enslaved humans in The Elysium movie.
-achievement.AsimovOverride.desc;Zainstaluj modu? Nadpis Asimova;;"Asimov is Isaac Asimov, a famous sci-fi writer who created the ""three laws of robotics"""
-achievement.Breached;W?amanie;;"This is past tense of verb ""to breach"", meaning: make a gap in and break through (a wall, barrier, or defence)."
-achievement.Breached.desc;Zosta? zaatakowany Kapsu?? do Aborda?u przez piratów;;"""boarded"" as in ""the act of passengers and crew getting aboard a ship or aircraft"". Raiders are a pirates, ""Breach Capsule"" is a small pirate space ship that attaches to your ship and breaches through the hull to attack you."
+achievement.AsimovOverride.desc;Zainstaluj moduł Nadpis Asimova;;"Asimov is Isaac Asimov, a famous sci-fi writer who created the ""three laws of robotics"""
+achievement.Breached;Włamanie;;"This is past tense of verb ""to breach"", meaning: make a gap in and break through (a wall, barrier, or defence)."
+achievement.Breached.desc;Zostań zaatakowany Kapsułą do Abordażu przez piratów;;"""boarded"" as in ""the act of passengers and crew getting aboard a ship or aircraft"". Raiders are a pirates, ""Breach Capsule"" is a small pirate space ship that attaches to your ship and breaches through the hull to attack you."
 achievement.CatRidingCleaningBot;Jazda bez trzymanki;;"""joy ride"" is an English idiom for ""a fast and dangerous ride in a stolen vehicle."""
-achievement.CatRidingCleaningBot.desc;Niech kot przejedzie si? na robocie sprz?tajcym;;There are viral videos on youtube showing cats riding roombas (cleaning robots), example: https://www.youtube.com/watch?v=SajTWY9a0e0
+achievement.CatRidingCleaningBot.desc;Niech kot przejedzie się na robocie sprzątajcym;;There are viral videos on youtube showing cats riding roombas (cleaning robots), example: https://www.youtube.com/watch?v=SajTWY9a0e0
 achievement.CloneHuman;Wiem kim jestem;;
-achievement.CloneHuman.desc;Sklonuj cz?owieka;;
+achievement.CloneHuman.desc;Sklonuj człowieka;;
 achievement.Colonize;Koniec…;;
-achievement.Colonize.desc;Osad? koloni? na dogodnej planecie;;
-achievement.CPUDestroyed;Jeszcz? tu wróc?...;;"this is a reference to ""The Terminator"" movie. Scene: https://www.youtube.com/watch?v=tYc2jQaM8gM"
-achievement.CPUDestroyed.desc;Stra? Komputer Pok?adowy;;"""lose"" here means getting your ship computer destroyed"
+achievement.Colonize.desc;Osadź kolonię na dogodnej planecie;;
+achievement.CPUDestroyed;Jeszcze tu wrócę...;;"this is a reference to ""The Terminator"" movie. Scene: https://www.youtube.com/watch?v=tYc2jQaM8gM"
+achievement.CPUDestroyed.desc;Strać Komputer Pokładowy;;"""lose"" here means getting your ship computer destroyed"
 achievement.CrawlerAttach;Darmowy przytulasek;;
-achievement.CrawlerAttach.desc;Niech Pe?zak przyczepi si? do ludzkiego kolonisty;;
-achievement.CrawlerUber;Taxi dla Pe?zaków;;
-achievement.CrawlerUber.desc;Z?ap Pe?zaka wracaj?c z ekspedycji kopalnianej;;
+achievement.CrawlerAttach.desc;Niech Pełzak przyczepi się do ludzkiego kolonisty;;
+achievement.CrawlerUber;Taxi dla Pełzaków;;
+achievement.CrawlerUber.desc;Złap Pełzaka wracając z ekspedycji kopalnianej;;
 achievement.Crypto;Krypto Ziom;;
-achievement.Crypto.desc;Zainstaluj ulepszenie kryptokopania Starkredyty na swoim Komputerze Pok?adowym;;
+achievement.Crypto.desc;Zainstaluj ulepszenie kryptokopania Starkredyty na swoim Komputerze Pokładowym;;
 achievement.date;Zdobyto: {0};;{0} is a date, like 2022-10-12
-achievement.DiscoverEgg;A tego tu nie by?o;;
-achievement.DiscoverEgg.desc;Znajd? jajko na swoim statku;;
+achievement.DiscoverEgg;A tego tu nie było;;
+achievement.DiscoverEgg.desc;Znajdź jajko na swoim statku;;
 achievement.DiscoverTerraformable;Znalezione...;;this refers to finally discovering a terraformable planet after a long search
-achievement.DiscoverTerraformable.desc;Znajd? planet? do terraformacji;;
+achievement.DiscoverTerraformable.desc;Znajdź planetę do terraformacji;;
 achievement.Elysium;Elizium;;
-achievement.Elysium.desc;Zamie? swoj? Komor? Kriostazy w Elizium;;
+achievement.Elysium.desc;Zamień swoją Komorę Kriostazy w Elizium;;
 achievement.FirstContact;Pierwszy kontakt;;
-achievement.FirstContact.desc;Poznaj inn? frakcj?;;
+achievement.FirstContact.desc;Poznaj inną frakcję;;
 achievement.FirstCup;Smacznej kawusi;;
-achievement.FirstCup.desc;Niech kto? napije si? kawy;;
-achievement.HatchCrawlers;Nie o taki poród chodzi?o;;
-achievement.HatchCrawlers.desc;Pozwól aby Pe?zak zal?g? w koloni?cie;;
+achievement.FirstCup.desc;Niech ktoś napije się kawy;;
+achievement.HatchCrawlers;Nie o taki poród chodziło;;
+achievement.HatchCrawlers.desc;Pozwól aby Pełzak zalągł w koloniście;;
 achievement.Money5;$1x10^5;;
-achievement.Money5.desc;Zdob?d? 100,000 StarKredytów;;
+achievement.Money5.desc;Zdobądź 100,000 StarKredytów;;
 achievement.Money6;$1x10^6;;
-achievement.Money6.desc;Zdob?d? 1,000,000 StarKredytów;;
+achievement.Money6.desc;Zdobądź 1,000,000 StarKredytów;;
 achievement.Money7;$1x10^7;;
-achievement.Money7.desc;Zdob?d? 10,000,000 StarKredytów;;
+achievement.Money7.desc;Zdobądź 10,000,000 StarKredytów;;
 achievement.Money8;$1x10^8;;
-achievement.Money8.desc;Zdob?d? 100,000,000 StarKredytów;;
+achievement.Money8.desc;Zdobądź 100,000,000 StarKredytów;;
 achievement.Money9;$1x10^9;;
-achievement.Money9.desc;Zdob?d? 1,000,000,000 StarKredytów;;
+achievement.Money9.desc;Zdobądź 1,000,000,000 StarKredytów;;
 achievement.OnePiece;One Piece;;"short for ""all in one piece"" idiom, which means ""Uninjured or unharmed"
-achievement.OnePiece.desc;Po??cz sekcje zniszczonego statku w jedn? cz???;;
+achievement.OnePiece.desc;Połącz sekcje zniszczonego statku w jedną część;;
 achievement.StasisDestroyed;Zero nadziei;;
-achievement.StasisDestroyed.desc;Zniszczono twoj? Komor? Kriostazy;;
+achievement.StasisDestroyed.desc;Zniszczono twoją Komorę Kriostazy;;
 achievement.StockMarketLoss;Jeden z nas;;
-achievement.StockMarketLoss.desc;Na gie?dzie, zalicz $100k straty na jednej sprzeda?y;;
+achievement.StockMarketLoss.desc;Na giełdzie, zalicz $100k straty na jednej sprzedaży;;
 achievement.TerraformAtmosphere;Terraformacja atmosfery;;
-achievement.TerraformAtmosphere.desc;Stwórz atmosfer? na obcej planecie;;
+achievement.TerraformAtmosphere.desc;Stwórz atmosferę na obcej planecie;;
 achievement.TerraformBiosphere;Terraformacja biosfery;;
-achievement.TerraformBiosphere.desc;Stwórz biosfer? na obcej planecie;;
+achievement.TerraformBiosphere.desc;Stwórz biosferę na obcej planecie;;
 achievement.TerraformOceans;Terraformacja oceanów;;
 achievement.TerraformOceans.desc;Stwórz oceany i rzeki na obcej planecie;;
 achievement.TerraformTerrain;Terraformacja terenu;;
 achievement.TerraformTerrain.desc;Stwórz kontynenty na obcej planecie;;
-achievement.unlocked;Odblokowano Osi?gni?cie: {0};;
+achievement.unlocked;Odblokowano Osiągnięcie: {0};;
 achievement.VoidRipper;Rozpruwacz Pustki;;"this is a name for a fictional device that allows ripping the fabric of space-time and traveling though a tunnel between two black holes. ""Void"" here is as in ""emptiness, empty space"""
-achievement.VoidRipper.desc;Przejd? przez czarn? dziur?;;
+achievement.VoidRipper.desc;Przejdź przez czarną dziurę;;
 achievement.WeaponizedCleaningBot;Terminator;;
-achievement.WeaponizedCleaningBot.desc;Uzbrój robota sprz?taj?cego;;
-achievement.Winch;Wci?garka;;
-achievement.Winch.desc;U?yj wci?garki by po??czy? ze sob? dwie cz??ci statku;;
-achievements;Osi?gni?cia;;
-achievements.disabled;Osi?gni?cia wy??czone;;
-achievements.stat;Osi?gni?cia [{0}/{1}];;
+achievement.WeaponizedCleaningBot.desc;Uzbrój robota sprzątającego;;
+achievement.Winch;Wciągarka;;
+achievement.Winch.desc;Użyj wciągarki by połączyć ze sobą dwie części statku;;
+achievements;Osiągnięcia;;
+achievements.disabled;Osiągnięcia wyłączone;;
+achievements.stat;Osiągnięcia [{0}/{1}];;
 act.AnimalEat;Je;;
 act.BotDock;Dokuje;;
-act.BreakdownDeconstruct;Co? psuje;;
+act.BreakdownDeconstruct;Coś psuje;;
 act.BreakdownStartFire;Podpala;;
 act.BreakdownInsanity;Szaleje;;
-act.BreakdownRoamAround;?azi sobie;;
-act.BreakdownSpaceDiarrhea;Cierpi na Kosmiczn? Biegunk?;;
+act.BreakdownRoamAround;Łazi sobie;;
+act.BreakdownSpaceDiarrhea;Cierpi na Kosmiczną Biegunkę;;
 act.BringResourcesAndConstruct;Buduje;;
-act.CatchTarget;Goni kogo?;;
-act.Clean;Sprz?ra;;
-act.CleanDevice;Czy?ci urz?dzenie;;
-act.CleanFloors;Czy?ci pod?og?;;
-act.CleanSolarPanel;Czy?ci panel s?oneczny;;
+act.CatchTarget;Goni kogoś;;
+act.Clean;Sprząta;;
+act.CleanDevice;Czyści urządzenie;;
+act.CleanFloors;Czyści podłogę;;
+act.CleanSolarPanel;Czyści panel słoneczny;;
 act.Construct;Buduje;;
-act.CrawlerAttached;Probuje oderwa? od siebie stworzenie;;
+act.CrawlerAttached;Probuje oderwać od siebie stworzenie;;
 act.Deconstruct;Dekonstruuje;;
-act.Disassemble;Rozk?ada na cz??ci;;
+act.Disassemble;Rozkłada na części;;
 act.Drink;Pije;;
 act.Eat;Je;;
 act.EnterShuttle;Wchodzi do promu kosmicznego;;
-act.FindBodyClothing;Zak?ada ubranie;;
-act.FindHeadgear;Szuka nakrycia g?owy;;
+act.FindBodyClothing;Zakłada ubranie;;
+act.FindHeadgear;Szuka nakrycia głowy;;
 act.FindHumanPrey;Szuka ofiary;;
 act.FindInstallableObject;Szuka objektu do instalacji;;
-act.Firefight;Gasi po?ar;;
-act.GatherRawMaterials;Zbiera materia?y;;
-act.GatherUnstoredRawMaterials;Zbiera stos materia?oów;;
-act.HarvestPlant;Zbiera owoce ro?lin;;
-act.HaulRawMaterials;Holuje materia?y;;
-act.HaulToNutrientExtractor;Holuje do Ekstraktora Sk?adników Od?ywczych;;
+act.Firefight;Gasi pożar;;
+act.GatherRawMaterials;Zbiera materiały;;
+act.GatherUnstoredRawMaterials;Zbiera stos materiałoów;;
+act.HarvestPlant;Zbiera owoce roślin;;
+act.HaulRawMaterials;Holuje materiały;;
+act.HaulToNutrientExtractor;Holuje do Ekstraktora Składników Odżywczych;;
 act.HaulUnstoredItem;Holuje przedmiot do magazynu;;
-act.Heal;Uzyskuje pomoc medyczn?;;
+act.Heal;Uzyskuje pomoc medyczną;;
 act.Install;Instaluje;;
 act.InstallUpgrade;Instaluje ulepszenie;;
 act.MLTrain;Uczy maszyny;;
 act.MoveNextToObject;Idzie do celu;;
 act.MoveNextToPos;Idzie do miejsca;;"This is about the worker, as in ""worker is moving to position"""
-act.MoveObj;Przenosi co?;;
+act.MoveObj;Przenosi coś;;
 act.MoveToOrNextToPos;Idzie do miejsca;;"This is about the worker, as in ""worker is moving to position"""
 act.MoveToPos;Idzie do miejsca;;"This is about the worker, as in ""worker is moving to position"""
 act.MoveToSafety;Idzie w bezpieczne miejsce;;
 act.MoveToWorkSpot;Idzie do miejsca pracy;;
 act.None;Nic nie robi;;
-act.Noop;Nudzi si?;;
-act.OperateDevice;Operuje urz?dzenie;;
+act.Noop;Nudzi się;;
+act.OperateDevice;Operuje urządzenie;;
 act.Panic;Panikuje;;
-act.Pet;G?aszcze zwierzaka;;
-act.PlaceUnconstructed;Zamawia budow?;;
+act.Pet;Głaszcze zwierzaka;;
+act.PlaceUnconstructed;Zamawia budowę;;
 act.Process;Procesuje;;
-act.ProcessStoredMat;Procesuje materia?;;
-act.ProvideTempGrid;Zapewnia tymczasowe po??czenie;;
-act.Recharge;?aduje baterie;;
-act.RefillPetBowl;Nape?nia misk? dla zwierzaka;;
+act.ProcessStoredMat;Procesuje materiał;;
+act.ProvideTempGrid;Zapewnia tymczasowe Połączenie;;
+act.Recharge;Ładuje baterie;;
+act.RefillPetBowl;Napełnia miskę zwierzaka;;
 act.Relocate;Przenosi objekt;;
 act.Repair;Naprawia szkody;;
 act.ReplaceTile;Wymienia objekt;;
-act.RescueInSpace;Ratuje istot? z kosmosu;;
+act.RescueInSpace;Ratuje istotę z kosmosu;;
 act.researching;Wykonuje badania;;
-act.Ride;Je?dzi;;
+act.Ride;Jeździ;;
 act.Roam;Spraceruje;;
-act.Sleep;Idzie spa?;;
-act.Socialize;Sp?dza czas towarzysko;;
-act.StartFire;Rozpal ogie?;;
+act.Sleep;Idzie spać;;
+act.Socialize;Spędza czas towarzysko;;
+act.StartFire;Rozpala ogień;;
 act.StoreItem;Przechowuje przedmiot;;
-act.StoreMat;Holuje materia?y do magazynu;;
-act.StoreRawMaterials;Przechowuje materia?y;;
+act.StoreMat;Holuje materiały do magazynu;;
+act.StoreRawMaterials;Przechowuje materiały;;
 act.Uninstall;Odinstalowywuje obiekt;;
 act.UseFoodConsumptionSpot;Je;;
 act.UseShower;Bierze prysznic;;
 act.UseToilet;Korzysta z toalety;;
-act.Vent;Venting;;Verb, when someone is expressing anger, etc
-act.Wait;Waiting;;
-act.WaitForMaintenance;Receiving maintenance;;
-act.WaitForRecharge;Recharging;;
-act.Workout;Workout;;
-action.extract_nutrients;Extract nutrients;;
+act.Vent;Daje upust emocjom;;Verb, when someone is expressing anger, etc
+act.Wait;Czeka;;
+act.WaitForMaintenance;Jest konserwowany;;
+act.WaitForRecharge;Ładuje się;;
+act.Workout;Ćwiczy;;
+action.extract_nutrients;Wydobywa środki odżywcze;;
 action.process;Process;;
 action.required;Action Required;;
 action.store;Haul to Storage Unit;;
