@@ -490,16 +490,16 @@ codex.m.colonists.mindcontrol.desc,"有機生命体の入植者（人間とペ�
 codex.m.colonists.mood,入植者の気分,,
 codex.m.colonists.mood.desc,"ロボットたちとは異なり、有機生命体である彼らは感情を持ち、気分が良かったり悪かったりすることがあります。生命体を選択して情報パネルの""気分""の項目で内容を調べると、気分が良かったり悪かったりする正確な理由が見つかります。その生命体が必要とするものを提供することで、大抵の場合は気分が悪化することを避けることができます。<br><br>気分に影響する場合もあるため、その対策として欲求を検証することもできます。",,
 codex.m.colonists.stasiswakeups,冷凍睡眠から目を覚ます,,
-codex.m.colonists.stasiswakeups.desc,"コールドスリープには何百人もの眠っている入植者（人間とペット）が入っています。ごくまれにポッドの誤作動が発生してしまうと、中の誰かが覚醒してしまいます。<br><br>冷凍睡眠から目覚めるの頻度はコールドスリープの安定度に依存します。コールドスリープの安定度が低いほど、ポッドの誤動作が頻繁に発生します。<br><br>コールドスリープを選択して情報パネルを調べることで、安定度を確認できます。<br><br>安定度の項目からコールドスリープを""高性能モード""に切り替えると、覚醒する頻度を制御して必要に応じて手動で覚醒させられるようになります。",,
+codex.m.colonists.stasiswakeups.desc,"コールドスリープには何百人もの眠っている入植者（人間やペット）が入っています。ごくまれにポッドの誤作動が発生してしまうと、中の誰かが覚醒してしまいます。<br><br>冷凍睡眠から目覚めるの頻度はコールドスリープの安定度に依存します。コールドスリープの安定度が低いほど、ポッドの誤動作が頻繁に発生します。<br><br>コールドスリープを選択して情報パネルを調べることで、安定度を確認できます。<br><br>安定度の項目からコールドスリープを""高性能モード""に切り替えると、覚醒する頻度を制御して必要に応じて手動で覚醒させられるようになります。",,
 codex.m.combat,武器と戦闘,,
 codex.m.combat.breachcapsules,突入カプセル,,
 codex.m.combat.breachcapsules.desc,"突入カプセルは主に襲撃者の集団が使用してきます。カプセルは船の真下から取り付いてドリルで穿孔してきます。その後、襲撃者がドリルの穴から乗り込んできます。襲撃者は略奪品を突入カプセルに持ち帰り、脱出するためにカプセルを切り離すかもしれません。すべての襲撃者を倒すと突入カプセルはあなたのものになります。解体して貴重な材料を手に入れ、盗品を取り戻すことができます。",,
 codex.m.combat.controllingunits,戦闘部隊の制御,,
 codex.m.combat.controllingunits.desc,"管理下の作業ユニット(ロボットとドローン)に直接指示して、特定の場所へ移動させる事ができます。ユニットを選択し、{0}を押したままにして""直接指示""モードに切り替えます。次に、{1}を使用して、ユニットを強制的に選択した位置に移動させます。<br><br>また、管理下の作業ユニットを""警戒体制""モードに切り替えて元に戻すこともできます。""警戒体制""中は、ユニットは敵に近づきすぎたり攻撃されたりしない限り、日常的な作業を実行します。 - 接敵時はユニットは戦闘モードになります。<br><br>管理されていない作業ユニット(人間とペット)は戦闘を制御できません。",,
 codex.m.combat.explosives,爆発物と爆弾,,
-codex.m.combat.explosives.desc,"C42のような爆発物を自作することができ、それらを戦略的な場所に配置し、信管を作動させることができます。敵対的な存在が近くにいる場合、信管の作動している爆発物は起爆します。<br><br>襲撃者たちは時々時限装置付きの爆薬を設置します。カウントダウンは止めることができず、時間になると爆弾が爆発します。十分な時間があれば、爆発物を別の位置に移しましょう。",,
+codex.m.combat.explosives.desc,"C42のような爆発物を自作することができます。それらを効果的な場所に設置し、信管を作動させておくことができます。そして、信管が作動している爆発物に敵対的な存在が近づくと起爆します。<br><br>襲撃者たちは、時限爆弾を設置することがあります。カウントダウンは止めることができず、そのうち爆発します。十分な残り時間があれば別の場所にに移動してしまいましょう。",,
 codex.m.combat.raids,襲撃,,
-codex.m.combat.raids.desc,"時折、いくつかの勢力に襲撃されるかもしれません。襲撃が起こると、コロニーは戦闘状態に入ります。戦闘オーバーレイを使用して状況を分析できます。<br><br>入植者に武器を提供し、""放水銃""や""指向性タレット""などの防衛設備を建造し、襲撃から身を守るようにしてください。",,
+codex.m.combat.raids.desc,"時折、いくつかの勢力に襲撃されるかもしれません。すると、コロニーは戦闘状態に入ります。戦闘オーバーレイを使用して状況を分析できます。<br><br>入植者に武器を提供し、""放水銃""や""指向性タレット""などの防衛設備を建造し、襲撃から身を守るようにしてください。",,
 codex.m.combat.theft,盗み,,
 codex.m.combat.theft.desc,襲撃者たちは有用なアイテムの方へと向かうことがあり、それらを突入カプセルに持ち帰ります。状況によっては、彼らはあなたのシャトルを盗んでしまいます。,,
 codex.m.economy,経済と交易,,
@@ -1137,7 +1137,7 @@ expedition.call.back.sent.too.far,探査中のシャトルにメッセージを�
 expedition.choose,{0}は{1}についての指示を待っています。,,
 expedition.crew,探査を行うクルー,,
 expedition.found.object,探査中に何らかの物体を発見,,
-expedition.launch.aborted,"""{0}""の探査が中断されました。シャトルに乗れなかったクルーがいるようです。",,
+expedition.launch.aborted,"""{0}""の探査が中断されました。シャトルに全てのクルーが揃いませんでした。",2023-04-19,
 expedition.mining.target,目標,,
 expedition.missing.crew,"探査に向かうクルーの""{0}""がシャトル""{1}""にたどり着けませんでした。どうしますか？",,
 expedition.mode.AllowAll,すべて採取,,
@@ -2045,8 +2045,8 @@ no.shuttles.desc,探査にクルーを送り込むには少なくともシャト
 no.socialize.partner,誰とも交際していない,,
 no.target,目標なし,,
 no.task,作業なし,,
-no.task.reason.could.not.fly,この<b>作業ユニットは飛行できない</b>ため、宇宙空間での作業を<b>{0}個</b>スキップしました。,,
-no.task.reason.job.priority0,<b>この種類の作業に対する優先度が指定されていないため</b>、<b>{0}</b>のタスクはスキップされました。,,
+no.task.reason.could.not.fly,この<b>作業ユニットは飛行できない</b>ため、宇宙空間での作業を<b>{0}個</b>スキップしました。,,"{0} will be count of tasks, a number (1 or bigger)"
+no.task.reason.job.priority0,<b>{0}</b>のタスクはスキップされました。この種類の作業の<b>優先度がゼロになっています。</b>,2023-04-19,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
 no.task.reason.last.eval,作業ユニットはすべてのタスクを<b>{0}</b>（ゲーム時間）ほど前に評価しました。,,
 no.task.reason.no.skill,<b>{0}個</b>のタスクで、<b>必要なスキルが不足</b>しています。,,
 no.task.reason.reluctant,"<b>作業ユニットが拒否したため</b>、<b>{0}個</b>のタスクがスキップされました（遠すぎるか、飽きてしまったか、ついさっき失敗したばかりなど）。",2022-12-04,"Last update added ""too tired"" as one of the reasons"
@@ -3684,7 +3684,7 @@ video.vsync,垂直同期,,
 video.vsync.every2,2フレームごと,,
 video.vsync.every3,3フレームごと,,
 video.vsync.every4,4フレームごと,,
-video.vsync.off,オフ,,
+video.vsync.off,オフ（非推奨！）,2023-04-14,
 video.vsync.on,オン,,
 video.vsync.tip,"ヒント：垂直同期を""2フレームごと""に設定すると、FPSがモニタのリフレッシュレートの半分（通常は30）に制限されます。これはノートパソコンなどのバッテリー消費や発熱を減らすのに役立つかもしれません。",,
 vmouse.acceleration,ゲームパッドのポインター加速度: {0:0.##},,
@@ -4117,4 +4117,70 @@ codex.m.defenses,防衛,,
 mining.difficulty.value,採集難易度: {0},,"{0} will become a numeric value, like 12.34"
 scan.found.faction,スキャンにより、<b>{1}</b>は<b>{0}</b>の勢力圏であることが判明しました。,,{0} will be faction name {1} will be planet name
 scan.target.faction,勢力,,
-space.port,宇宙港,,
+faction.standing.tip,<b>{0}</b>からの評価: <b>{1}</b>,,"{0} - faction name (i.e. pirates), {1} - standing value, could be number, or a word like good, bad, etc"
+space.object.Port,宇宙港,,
+space.object.info.Port,この惑星の領有勢力の拠点です。勢力との接触と交易ができます。,,
+sell.ship.section,船体のセクションを売却,,
+sell.ship.section.hint,船をセクションとして切り離し、造船所で売却することができます。,,
+shipyard.section.offer,<b>{0}</b>は、このセクションの購入金額として<b>{1}</b>を提示しています。,,"{0} will be a merchant name or a space port, {1} will be the sum"
+time.sensitive.operation,この操作にはゲームスピードの制限があります。ゲームスピードを変えずに、もう一度お試しください。,,
+merchant.type.MerchantSpacePortGood,宇宙港の交易所,,
+merchant.type.MerchantSpacePortEvil,あやしげな宇宙港の交易所,,
+space.object.Resource,資源,,
+space.object.info.Resource,これは、採掘可能な資源の鉱床です。,,
+space.object.Anomaly,アノマリー,,
+space.object.info.Anomaly,レーダーがこのエリアで不審な反応パターンを検知しました。注意してください。,,
+expedition.already.in.progress,<b>{0}</b>での探査はすでに進行中です。,,"{0} is the object type, like Anomaly"
+rebuild.graphics.cache,グラフィック キャッシュを再構築,,
+rebuild.graphics.cache.tip,"ゲーム内の一部の画像が表示されなかったり異常な見え方をする場合、グラフィックキャッシュを再構築すると解決できるかもしれません。このボタンを押すと、次のフォルダが削除されます： <br><br><b>{0}</b>",,
+evt.exp.crash.site.survivors.title,何かが墜落した痕跡を発見,,
+evt.exp.crash.site.survivors.choice,探査チームが墜落現場を発見し、生存者がいるようです。私たちの船に連れ帰りますか？,,
+evt.exp.crash.site.survivors.good.desc,探査チームが墜落現場から<b>生存者{0}名</b>を連れ帰った。,,{0} is a number
+evt.exp.crash.site.survivors.ambush.desc,探査チームが墜落現場から生存者になりすました<b>{0}人の襲撃者</b>を連れ帰ってしまった。,,{0} is a number
+evt.exp.crash.site.survivors.good.title,墜落現場で生存者を救助した,,
+evt.exp.crash.site.survivors.ambush.title,墜落現場は襲撃者たちの罠だった,,
+verb.rescue,救援,,
+verb.leave,離脱,,
+verb.respond,応答,,
+evt.exp.raider.extortion.title,探査隊が待ち伏せにより襲撃された！,,
+evt.exp.raider.extortion.choice,"<b>{0}</b>が待ち伏せにより襲撃され、<b>{1}</b>の身代金が要求されています。ただちに支払えばシャトルを解放するようです。",,"{0} is shuttle name, {1} is some money amount"
+verb.pay.ransom,身代金を払う,,
+verb.refuse,拒否する,,
+evt.exp.raider.extortion.paid.desc,"我々は身代金は支払い、襲撃者たちはシャトルを解放した。誰も傷つかずに済んだようだ。",,
+evt.exp.raider.extortion.fight.won.desc,我々は身代金の支払いを拒否した。戦闘が発生し、我々のクルーが勝ったようだ！,,
+evt.exp.raider.extortion.fight.lost.desc,我々は身代金の支払いを拒否した。戦闘が発生し、我々はシャトルとクルーを失った。,,
+evt.exp.raider.extortion.resolved.title,待ち伏せされた探査チームのレポート,,
+verb.collect,収集,,As in gather or pickup
+vsync.off.warning,<b>垂直同期を無効にするのは非推奨です！</b><br>無効にした場合、GPUとCPUの余計な負荷がかかり、シミュレーション処理のリソースを通常より多く消費する可能性があります。10倍は処理が重くなります！,,
+vsync.off.autofix,"以前に、垂直同期を無効にしていたようですね。今回のアップデートで、自動的に有効化されました。ビデオ設定で再度無効にすることができますが、CPUとGPUのリソースを通常より多く消費し、シミュレーション速度が低下する可能性があります。",,
+noun.recommended,推奨,,
+objects.devices.cargocopter,輸送機,,
+objects.devices.cargocopter.desc,惑星への重機の設置や、資源収集場所からの輸送を目的とする全自動の無人機だ。,,
+menu.copters,艦載機,,
+menu.copters.desc,大気圏内用の全自動の無人機だ,,
+obj.copters.cargocopterflying,輸送機,,
+obj.copters.cargocopterflying.desc,惑星への重機の設置や、資源収集場所からの輸送を目的とする全自動の無人機だ。,,
+copter.mission.stage.deploy.miner,設置中 {0},,"{0} is the resource miner device name, like Autodrill Rig"
+copter.mission.stage.fly.to.ship,帰還中,,
+copter.mission.stage.fly.to,{0}に航行中,,"{0} is the name of the target, like Silicon Deposit, or a device name"
+copter.mission.stage.collect.resource,収集中 {0},,{0} is material type 
+copter.mission.stage.land.on.ship,着艦中,,
+copter.mission.stage.leave.ship,発進中,,
+copter.mission.stage.start,艦載機の割り当て待ち,,
+copter.mission.stage.random.park,着陸中,,
+copter.missions,艦載機任務,,header for a list of missions that copters can do
+ongoing.missions,進行中の任務,,
+overlay.tip.Copters,艦載機の任務,,
+available.copters,待機中の艦載機,,Will be displayed along with the count on the UI element
+ongoing.copter.mission.tip,艦載機が進行中の任務です,,
+noun.target,目標,,
+expedition.type.mining,資源収集,,
+expedition.type.exploration,探査,,
+space.object.CargoCopter,輸送機,,
+space.object.info.CargoCopter,この輸送機は任務中です。,,
+no.task.reason.no.skill.one,<b>{0}</b>のスキルが不足しています。 現在値: <b>{1}</b> 必要: <b>{2}</b>,,{0} - skill name. {1} and {2} - a number (skill level). 
+no.task.reason.job.priority0.one,<b>{0}</b>の作業優先度が<b>ゼロ</b>になっています。,,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
+no.task.reason.job.priority.none,<b>{0}</b>の作業は、<b>この種類の作業は対応不能のため</b>スキップされました。,,
+no.task.reason.job.priority.none.one,<b>{0}</b>の作業は対応不能。,,{0} is job type - like construction or hauling
+no.task.reason.total.one,<b>1</b>個の保留タスクがあります：{0}。,,{0} is task description
+brain.stat.JobPriorityNone,割り当て不能,,
