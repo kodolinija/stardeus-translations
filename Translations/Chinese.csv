@@ -4266,11 +4266,11 @@ sig.transaction.failed.title,信号：请求未完成,,
 sig.transaction.fulfilled,你已经完成了请求。,,
 sig.transaction.failed,你未能完成请求。,,
 sig.transaction.rejected,你拒绝了请求。,,
-sig.ask.obj.clear.reward.0,"联系人联系你，解释说他们不小心将他们最后的<b>{0}</b>当作反重力靴的燃料使用了。作为回报，他们承诺提供更多的<b>{0}</b>并给予<b>{1}</b>的报酬。",,"{0} is a material type, like Uranium, {1} is a $100000 or some reward item name."
+sig.ask.obj.clear.reward.0,"联系人伸出手，解释说他们不小心用了他们最后的 <b>{0}</b> 作为他们反重力靴的燃料。作为你帮助提供更多燃料的回报，他们承诺<b>{1}</b>。",,"{0} is a material type, like Uranium, {1} is a $100000 or some reward item name."
 sig.ask.obj.clear.reward.1,联系人在传送过程中出了问题，需要<b>{0}</b>。他们暗示你不想错过<b>{1}</b>的奖励。,,
 sig.ask.obj.clear.reward.2,一个声音抱怨说一种外星生物在他睡觉时吃掉了他们全部的<b>{0}</b>。为了补充他们的库存，他们保证你的贡献会得到<b>{1}</b>的补偿。,,
 sig.ask.obj.clear.reward.3,通信器传达他们的紧急情况，解释说一个流氓AI机器人偷走了他们的<b>{0}</b>。作为换取帮助获得更多的回报，他们保证给予<b>{1}</b>。,,
-sig.ask.obj.clear.reward.4,"联系人告诉你一个奇怪的故事，讲述他们的宿舍里出现了一个虫洞并吞下了他们的<b>{0}</b>。作为回报，他们承诺提供更多的<b>{0}</b>并给予<b>{1}</b>的报酬。",,
+sig.ask.obj.clear.reward.4,"对方告诉您一个离奇的故事，说在他们的住处出现了一个虫洞，吞掉了他们的<b>{0}</b>。为了感谢您帮助他们获取更多补充，他们承诺<b>{1}</b>。",,
 sig.ask.obj.clear.reward.5,联系人紧急联系你，解释说一次突如其来的太阳耀斑摧毁了他们关键的<b>{0}</b>供应。他们迫切需要你的帮助，承诺<b>{1}</b>的回报。,,
 sig.ask.obj.clear.reward.6,一个人颤抖着声音承认他们在一次太空海盗袭击中失去了他们全部的<b>{0}</b>库存。时间紧迫，他们承诺如果你能帮助他们，将给予<b>{1}</b>的奖励。,,
 sig.ask.obj.clear.reward.7,这个人以狂热的口吻分享说，一种神秘的外星病毒污染了他们全部的<b>{0}</b>库存。他们向你保证，你对补充他们的库存的贡献将得到<b>{1}</b>的补偿。,,
