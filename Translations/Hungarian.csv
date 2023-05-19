@@ -3835,3 +3835,77 @@ unreachable.mat,Elérhetetlen Nyersanyag,,
 nav.fail.flying.cnt,A <b>Repülő munkás</b> nem tudta elérni: <b>{0}</b>,,
 nav.fail.grounded.cnt,A <b>földi munkás</b> nem tudta elérni: <b>{0}</b>,,
 nav.fail.bio.cnt,A <b>biológiai élőlény</b> nem tudta elérni: <b>{0}</b>,,
+disable.story.events.btn,Történeti események [{0}],,"{0} will be X/Y, i.e. 80/80. If some event is disabled it will be 79/80"
+disable.story.events.tip,Az összes történetesemény engedélyezve van,,
+disable.story.events.tip.disabled,Letiltott történet-események: {0},,"{0} will be replaced with a comma separated list of event names, i.e. (Asteroid, Meteoroid Shower)"
+placement.tip.spacing.gap,Legalább {0} csempével távol kell lennie az azonos kategóriájú objektumoktól,,{0} is a number
+disable.all.mods,Modok letiltása,,
+enable.all.mods,Modok engedélyezése,,
+evt.spawn.derelict.ship.title,A radar elhagyott hajót talált ,,
+evt.spawn.derelict.ship.desc,A passzív radarletapogatás egy elhagyott hajóra emlékeztető jelet talált. A koordinátákat rögzítettük a csillagtérképen.,,
+space.object.info.ShipDerelict,Egy elhagyatott űrhajó,,
+space.object.approach,Megközelít,,
+space.object.approach.fail.expedition.running,"Nem közelíthető meg az objektum, amíg egy expedíció folyamatban van. Kérlek, előbb hívd vissza az expedíciót, és próbáld újra.",,
+move.section,Szakasz mozgatása,,Action verb. Button on a thruster that allows moving the ship part in space
+move.section.distance,Mozgatás mértéke,,"Noun. Used in combination with ""Move Section"" button to define how far to move"
+move.section.angle,Mozgatás szöge,,
+data.recalculated.retry.later,"Az adatok újraszámítása folyamatban van. Szünteld a szimulációt, és próbáld meg újra.",,
+abandon,Elhagy,,"Verb, used on things or parts of ship we want to leave behind when flying away"
+objects.devices.precisionthruster,Manőverezési vezérlő,2023-05-16,
+objects.devices.precisionthruster.desc,"Nagy pontosságú mikromotor rövid hatótávolsággal, egyirányú manőverekhez. Ideális hajórészek áthelyezésére és elhagyott hajók rögzítésére.",2023-05-16,
+research.localmaneuvering,Lokális manőverezés,,"Research name that unlocks ""Maneuvering Controller"" technology"
+approaching.target,{0} megközelítése,,"{0} is the object name or type. I.e. ""Approaching Derelict Ship"""
+space.object.ShipDerelict,Elhagyatott hajó,,
+objects.devices.systemscanner,Rendszer Letapogató,,
+objects.devices.systemscanner.desc,A Radar továbbfejlesztett változata. Képes letapogatni a jelenlegi csillagrendszeren belüli objektumokat.,,
+research.systemscanning,Rendszer Letapogatása,,
+ship.in.no.build.zone,Hajó az Építési zónán kívül,,A reason why ship can't fly (when it has parts of it inside the no build zone)
+link.display,Kapcsolatok kijelzése,,
+link.display.connectors,Csatlakozók,,
+link.display.all,Mind,,
+link.display.auto,Autom.,,
+evt.derelict.approached.title,Elhagyatott hajó megközelítése,,
+evt.derelict.approached.desc,"Megérkeztünk egy elhagyatott hajóhoz. Előfordulhat, hogy van valami hasznos, amit megmenthetünk belőle.",,
+research.furnitureluxury,Luxus Bútorok,,
+research.furniturewooden,Fa bútorok,,
+quest.step.approach.derelict.ship,<b>Elhagyatott hajó</b> megközelítése,,
+quest.step.approach.derelict.ship.tip,"Nyisd meg a <b>Csillagtérképet</b>, és hajtsd végre a <b>Megközelítés</b> műveletet az elhagyott hajón.",,
+quest.ApproachDerelictShip,Elhagyatott hajó megközelítése,,
+quest.ApproachDerelictShip.desc,"A közelben egy <b>Elhagyott hajó</b> található, amit megközelíthetünk és egyes elemeket megmenthetünk a roncsokból. Eközben akár nyomokat is találhatunk arról, hogy mi történt a hajóval.",,
+combat.state.AskForLift,Kimentés,,During combat a unit may ask another unit to carry it to a different location
+combat.state.LiftUnit,Egység kimentése,,Carrying a unit to a different location during combat
+research.machinelearning,Mesterséges Tanulás,,
+situation.DerelictsApproached,Elhagyatott hajó megközelítve,,Label next to number of derelict ships that were approached
+starving,Éhezik,,When worker is extremely hungry
+ate.favorite.food,Kendvenc ételét fogyasztotta,,
+ate.raw.food,Nyers kaját evett,,
+merchant.ripoff,Kereskedő felára: <b>{0}</b>,,"{0} will be a percentage. Price markup means that if it's 10%, you're overpaying from market price by extra 10%"
+merchant.may.sell,Eladható (nem fog venni),,"Displayed before a list, example: ""May sell (won't buy): Food, Weapons, Armor"""
+merchant.will.buy,Vásárolható (nem fog eladni),,"Displayed before a list, example: ""Will buy (won't sell): Food, Weapons, Armor"""
+merchant.will.buy.may.sell,Vásárolható / eladható,,"Displayed before a list, example: ""Will buy / may sell: Food, Weapons, Armor"""
+objects.devices.freezer,Fagyasztó,,
+objects.devices.freezer.desc,Nagy kapacitású tároló egység élelmiszerek és nyersanyagok tárolására,,
+research.freezer,Fagyasztó,,
+objects.devices.quantumshipcomputer,Quantum Fedélzeti Számítógép,,
+objects.devices.quantumshipcomputer.desc,A Fedélzeti Számítógép fejlettebb változata.,,
+research.selfreplication.desc,Lehetővé teszi 4 Fedélzeti Számítógép használatát,,
+research.highavailability.desc,Lehetővé teszi 16 Fedélzeti Számítógép használatát,,
+research.highavailability,Magas rendelkezésre állás,,
+research.quantumcloud,Quantum Felhő,,
+research.quantumcloud.desc,Lehetővé teszi 64 Fedélzeti Számítógép használatát,,
+research.shipcomputer.desc,Lehetővé teszi 2 Fedélzeti Számítógép használatát,,
+research.shipcomputer,Fedélzeti Számítógép,,
+cpu.cap.reached,Egy Fedélzeti Számítógép lecsatlakozott a hálózatról. Jelenlegi limit: <b>{0}</b>. A limit kutatással növelhető.,,
+search.tab.tooltip,Ebben a nézetben a {0} segítségével bármely objektum kereshető a <b>Gyorskereső</b> segítségével.,,"{0} will be the binding, like ""TAB"""
+scanner.offline,Letapogató Offline,,"Scanner is a radar-like device that can scan space for various objects. It can be offline for various reasons - disconnected, unconfigured, etc."
+scan.target.resource,Erőforrás,,
+scan.target.derelict.ship,Elhagyatott hajó,,
+scan.target.anomaly,Anomália,,
+scan.target.none,Nincs,,
+scan.in.progress,Letapogatás folyamatban,,
+scan.target,Letapogatás célja: {0},,"Verb. It says what the scanner is currently targeting. Example: ""Scan target: Derelict Ship"""
+scan.stats,Letapogatás célja: <b>{0}</b><br>Letapogatás erőssége: <b>{1}</b>,,
+scan.not.found,{0} nem található,,i.e. Uranium not found
+scan.found.on.planet,<b>{0}</b> felvedezve itt: <b>{1}</b>,,i.e. Found Uranium on Mars
+scan.found,Felfedezve: {0},,i.e. Found Uranium
+confirm.expedition.to.faction.territory,"<b>{0}</b> a <b>{1}</b> frakcióhoz tartozik. Egy expedíció indítása ronthatja a kapcsolati viszonyokat aa frakcióval szemben, és azonnali következményekkel járhat. Expedíció nem javasolt.",,
