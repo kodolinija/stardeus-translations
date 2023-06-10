@@ -3455,6 +3455,25 @@ shuttle.has.pending.task.desc,Cette navette ne peut pas être utilisée car elle
 shuttle.lost.info,Cette navette est perdue et irrécupérable. Vous devez retirer la plate-forme d'atterrissage.,,
 shuttle.storage.full,"La navette ""{0}"" interrompt l'exploitation minière en cours, le stockage est plein",,
 
+sig.ask.money.unclear.reward.object.0,"Une transmission déconcertante laisse l'équipage intrigué, laissant entrevoir un objet de grande valeur. L'expéditeur demande avec désinvolture à <b>{0}</b> de poursuivre.",,
+sig.ask.money.unclear.reward.object.1,"Un inventeur reclus envoie un message depuis un laboratoire caché, demandant <b>{0}</b> pour le financement du projet. Ils laissent entendre qu'ils ont développé un équipement de pointe au potentiel immense, mais refusent de divulguer les détails tant qu'ils n'ont pas reçu l'argent.",,
+sig.ask.money.unclear.reward.object.2,"Un chasseur de trésor envoie une transmission demandant <b>{0}</b> pour financer sa prochaine expédition. Il promet de partager un artefact unique en son genre qu'il déterre mais ne révéleront rien sur sa nature ou ses capacités.",,
+sig.ask.money.unclear.reward.object.3,"Un message provenant d'un marché noir, proposant <b>{0}</b> pour un mystérieux appareil. L'expéditeur reste vague sur le but de l'appareil mais affirme qu'il sera inestimable pour la mission du vaisseau spatial.",,
+sig.ask.money.unclear.reward.object.4,"Un ingénieur bloqué vous contacte, suppliant <b>{0}</b> pour réparer son transport. En retour, ils offrent une technologie unique aux capacités incalculables mais refusent de développer jusqu'à ce que les fonds soient transférés.",,
+sig.ask.money.unclear.reward.object.5,"Un signal d'une usine délabrée sur la planète demande <b>{0}</b> pour redémarrer la production. Ils laissent entendre qu'ils ont les plans d'une machine puissante, mais ne fourniront aucun détail tant que l'argent n'aura pas été livré.",,
+sig.ask.money.unclear.reward.object.6,"Une transmission cryptée est interceptée depuis une colonie perdue depuis longtemps sur la planète, demandant <b>{0}</b>. Le message ne fournit aucune information sur qui l'a envoyé ou pourquoi ils ont besoin des fonds ou s'il y aura quelque chose en échange.",,
+sig.ask.money.unclear.reward.object.7,"Une demande anonyme de <b>{0}</b> est reçue d'une source cachée sur la planète. L'expéditeur ne donne aucune indication sur qui il est ou pourquoi il a besoin de l'argent, enveloppant la demande d'un air de mystère.",,
+sig.ask.money.unclear.reward.object.8,"Un signal de détresse brouillé atteint le vaisseau, contenant une demande de <b>{0}</b>. Le message ne contient aucun détail sur l'expéditeur ou sa situation, ce qui vous laisse spéculer sur le but de la demande.",,
+sig.ask.money.unclear.reward.object.9,"Une transmission vocale grésille à travers les communications, demandant de toute urgence de <b>{0}</b>. L'expéditeur reste insaisissable, n'offrant aucune explication sur le besoin ou sur les avantages potentiels pouvant découler de la fourniture des fonds.",,
+sig.ask.money.unclear.reward.object.10,"Un message bref et énigmatique arrive, demandant simplement <b>{0}</b>. Ils ont la voix d'une bonne personne.",,
+sig.ask.money.unclear.reward.object.11,"Une transmission intrigante d'un artisan qualifié décrit un bel objet fabriqué à la main avec le potentiel de débloquer des pouvoirs incalculables. Au fur et à mesure que le message se déroule, l'artisan mentionne qu'il se séparerait avec plaisir de cette pièce incroyable, demandant seulement <b>{0}</b> pour couvrir ses dépenses.",,
+sig.ask.money.unclear.reward.object.12,"Un message captivant raconte la légende d'un appareil perdu depuis longtemps, dont on dit qu'il a la capacité de changer le cours de l'histoire. Alors que l'histoire tire à sa fin, l'expéditeur note avec désinvolture qu'il pourrait être en mesure de localiser cet artefact insaisissable, mais qu'il aurait besoin d'une modeste somme de <b>{0}</b> pour l'effort.",,
+sig.ask.money.unclear.reward.object.13,"Une transmission d'un explorateur vous régale d'histoires sur une ancienne relique censée détenir la clé de richesses incalculables. Au fil de l'histoire, l'explorateur mentionne avec désinvolture qu'il pourrait essayer de récupérer la relique, ne demandant que <b>{0}</b> pour financer l'expédition.",,
+sig.ask.money.unclear.reward.object.14,"Un message crypté taquine l'existence d'un objet unique avec un potentiel incalculable. L'expéditeur demande nonchalamment <b>{0}</b> d'en révéler davantage.",,
+sig.ask.money.unclear.reward.object.15,"Une transmission fait allusion à un artefact mystérieux, entouré de secret. L'expéditeur suggère que <b>{0}</b> pourrait le mettre à portée.",,
+sig.ask.money.unclear.reward.object.16,"Une communication énigmatique fait allusion à une découverte remarquable, sans donner de détails. Un petit investissement de <b>{0}</b> est demandé en passant.",,
+sig.ask.money.unclear.reward.object.17,"Un message voilé suggère que vous pourriez avoir accès à quelque chose d'extraordinaire, sans fournir de détails. L'expéditeur demande seulement <b>{0}</b>.",,
+
 sig.extortion.0,Le contact prévient que le fait de ne pas fournir <b>{0}</b> peut entraîner des conséquences que vous regretterez.,,
 sig.extortion.1,La voix menace qu'un refus de donner <b>{0}</b> pourrait avoir des conséquences désastreuses.,,
 sig.extortion.2,Une voix rauque avertit qu'un refus à leur demande de <b>{0}</b> pourrait entraîner des regrets et du désespoir.,,
@@ -3464,6 +3483,53 @@ sig.extortion.5,Le ton menaçant du contact insiste pour recevoir immédiatement
 sig.extortion.6,"Une voix remplit de rage exigent <b>{0}</b>.En arrière-plan, le son indubitable d'une unité d'artillerie lourde en cours de préparation ne laisse aucun doute sur le fait qu'ils sont sérieux.",,
 sig.extortion.7,"Le contact vous crie de fournir <b>{0}</b> immédiatement. Le bruit menaçant d'un canon à énergie qui se charge vous fait frissonner, avertissant des conséquences désastreuses du non-respect.",,
 sig.extortion.8,"Une voix vous crie dessus exigeant <b>{0}</b>. Vous pouvez entendre des bruits de colère dans le fond. On dirait qu'une capsule est chargée et prête à lancer un raid.",,
+
+
+sig.extortion.refused.0,"Enragés par votre refus, les pirates promettent que vous regretterez votre décision et qu'ils reviendront pour se venger.",,
+sig.extortion.refused.1,La voix vous avertit que votre défi ne fera que rendre leurs représailles d'autant plus impitoyables.,,
+sig.extortion.refused.2,"Les pillards, furieux de votre refus, menacent de vous faire payer votre insolence.",,
+sig.extortion.refused.3,"Le contact vous assure que votre résistance aura des conséquences désastreuses, et ils n'oublieront pas votre défi.",,
+sig.extortion.refused.4,"Les pirates déclarent de façon inquiétante que votre refus ne restera pas impuni et qu'ils viendront vous chercher quand vous vous y attendrez le moins.",,
+
+
+
+
+sig.transaction.failed,Vous n'avez pas répondu à la demande.,,
+sig.transaction.failed.lack.items,Vous n'avez pas les éléments demandés.,,
+sig.transaction.failed.title,Signal : Demande non satisfaite,,
+sig.transaction.fulfilled,Vous avez satisfait à la demande.,,
+sig.transaction.fulfilled.title,Signal: Demande satisfaite,,
+sig.transaction.received,Vous avez reçu: {0},,
+sig.transaction.rejected,Vous avez refusé la requête.,,
+sig.transaction.request,Ils demandent: {0},,
+
+
+sig.transaction.successful.0,"Le communicateur reconnaissant vous remercie d'un ton enjoué, suggérant que vos prouesses décisionnelles ont dû être forgées dans les feux de l'action les plus difficiles.",,
+sig.transaction.successful.1,"Après la transaction réussie, le vendeur vous félicite pour sa décision, avec un ton d'admiration et de respect sincères.",,
+sig.transaction.successful.2,"La voix dégage de la chaleur et de l'enthousiasme alors qu'ils vous remercient pour la transaction, laissant une impression positive.",,
+sig.transaction.successful.3,"Suite à la transaction, le vendeur maintient une attitude cordiale et courtoise, exprimant sa reconnaissance pour votre confiance.",,
+sig.transaction.successful.4,"La gratitude est évidente dans leur voix alors qu'ils expriment leurs remerciements et vous souhaitent bonne chance pour votre voyage.",,
+sig.transaction.successful.5,"Une fois la transaction finalisée, le signal disparaît soudainement, vous laissant méditer sur les conséquences de leur décision.",,
+sig.transaction.successful.6,"Le contact offre une reconnaissance polie et humble de la transaction, affichant un air de professionnalisme tout au long de l'échange.",,
+sig.transaction.successful.7,"Un sentiment de camaraderie est transmis par la voix lorsqu'ils expriment leur gratitude, vous donnant l'impression d'avoir formé une connexion précieuse.",,
+sig.transaction.successful.8,"La voix reste énigmatique même après la transaction, offrant des mots énigmatiques de gratitude qui vous laissent curieux et intrigué.",,
+sig.transaction.successful.9,"La gratitude du contact est mêlée d'une touche de surprise, comme s'il ne s'attendait pas à ce que la transaction se concrétise, ce qui vous laisse à la fois accompli et légèrement mal à l'aise.",,
+sig.transaction.successful.10,"Une fois la transaction terminée, le ton du vendeur passe à une attitude plus détendue et amicale, remerciant l'équipage avec un véritable sentiment d'appréciation.",,
+sig.transaction.successful.11,"La voix respire la confiance et la satisfaction lorsqu'ils expriment leur gratitude, vous laissant un sentiment de réconfort quant à leur décision.",,
+sig.transaction.successful.12,"Après la transaction, le contact reconnaissant exprime sa gratitude avec une plaisanterie légère, déclarant que votre intuition impressionnante pourrait sûrement les guider à travers des labyrinthes les plus tortueux.",,
+sig.transaction.successful.13,"Suite à la transaction, le vendeur offre un simple et sincère « merci », sa voix résonnant d'un sentiment d'authenticité rassure l'équipage.",,
+sig.transaction.successful.14,"Une fois la transaction conclue, la gratitude du contact est discrète mais sincère, vous laissant spéculer sur l'importance de sa décision.",,
+sig.transaction.successful.15,"Après la transaction, la voix adopte un ton de révérence, vous remerciant de votre confiance et laissant entendre qu'ils ont joué un rôle dans quelque chose de bien plus grand qu'eux-mêmes.",,
+sig.transaction.successful.16,"L'individu reconnaissant vous remercie et rit, ajoutant que le moment est parfait, car ils étaient sur le point de "fermer boutique" et de se tourner vers un nouveau passe-temps : la vannerie sous-marine.",,
+sig.transaction.successful.17,"Avec un ton plein d'esprit, l'étranger reconnaissant exprime sa gratitude, en plaisantant que vos compétences en matière de prise de décision sont si tranchante qu'elles pourraient donner du fil à retordre à la meilleure lame.",,
+
+
+
+
+
+sig.transaction.will.receive,Vous recevrez: {0},,
+
+
 
 silence,Silence,,
 silence.periods.none,Rien,,
