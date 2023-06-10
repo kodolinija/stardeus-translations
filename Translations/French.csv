@@ -3455,6 +3455,7 @@ shuttle.has.pending.task.desc,Cette navette ne peut pas être utilisée car elle
 shuttle.lost.info,Cette navette est perdue et irrécupérable. Vous devez retirer la plate-forme d'atterrissage.,,
 shuttle.storage.full,"La navette ""{0}"" interrompt l'exploitation minière en cours, le stockage est plein",,
 
+
 sig.ask.money.unclear.reward.object.0,"Une transmission déconcertante laisse l'équipage intrigué, laissant entrevoir un objet de grande valeur. L'expéditeur demande avec désinvolture à <b>{0}</b> de poursuivre.",,
 sig.ask.money.unclear.reward.object.1,"Un inventeur reclus envoie un message depuis un laboratoire caché, demandant <b>{0}</b> pour le financement du projet. Ils laissent entendre qu'ils ont développé un équipement de pointe au potentiel immense, mais refusent de divulguer les détails tant qu'ils n'ont pas reçu l'argent.",,
 sig.ask.money.unclear.reward.object.2,"Un chasseur de trésor envoie une transmission demandant <b>{0}</b> pour financer sa prochaine expédition. Il promet de partager un artefact unique en son genre qu'il déterre mais ne révéleront rien sur sa nature ou ses capacités.",,
@@ -3474,6 +3475,7 @@ sig.ask.money.unclear.reward.object.15,"Une transmission fait allusion à un art
 sig.ask.money.unclear.reward.object.16,"Une communication énigmatique fait allusion à une découverte remarquable, sans donner de détails. Un petit investissement de <b>{0}</b> est demandé en passant.",,
 sig.ask.money.unclear.reward.object.17,"Un message voilé suggère que vous pourriez avoir accès à quelque chose d'extraordinaire, sans fournir de détails. L'expéditeur demande seulement <b>{0}</b>.",,
 
+
 sig.extortion.0,Le contact prévient que le fait de ne pas fournir <b>{0}</b> peut entraîner des conséquences que vous regretterez.,,
 sig.extortion.1,La voix menace qu'un refus de donner <b>{0}</b> pourrait avoir des conséquences désastreuses.,,
 sig.extortion.2,Une voix rauque avertit qu'un refus à leur demande de <b>{0}</b> pourrait entraîner des regrets et du désespoir.,,
@@ -3490,8 +3492,6 @@ sig.extortion.refused.1,La voix vous avertit que votre défi ne fera que rendre 
 sig.extortion.refused.2,"Les pillards, furieux de votre refus, menacent de vous faire payer votre insolence.",,
 sig.extortion.refused.3,"Le contact vous assure que votre résistance aura des conséquences désastreuses, et ils n'oublieront pas votre défi.",,
 sig.extortion.refused.4,"Les pirates déclarent de façon inquiétante que votre refus ne restera pas impuni et qu'ils viendront vous chercher quand vous vous y attendrez le moins.",,
-
-
 
 
 sig.transaction.failed,Vous n'avez pas répondu à la demande.,,
