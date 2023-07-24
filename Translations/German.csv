@@ -4147,7 +4147,7 @@ evt.exp.raider.extortion.choice,"Räuber haben <b>{0}</b> überfallen und forder
 verb.pay.ransom,"Lösegeld zahlen",,
 verb.refuse,"Verweigern",,
 evt.exp.raider.extortion.paid.desc,"Wir zahlten das Lösegeld und die Räuber ließen das Shuttle los, niemand kam zu Schaden.",,
-evt.exp.raider.extortion.fight.won.desc,"Wir haben das Lösegeld nicht bezahlt. Es gab einen Kampf und unsere Crew hat gewonnen!",,
+evt.exp.raider.extortion.fight.won.desc,"Wir haben das Lösegeld nicht bezahlt. Es gab einen Kampf und unsere Crew hat gewonnen.",,
 evt.exp.raider.extortion.fight.lost.desc,"Wir haben das Lösegeld nicht bezahlt. Es gab einen Kampf und wir verloren das Shuttle und unsere Crew.",,
 evt.exp.raider.extortion.resolved.title,"Expeditions-Hinterhalt beendet",,
 verb.collect,"Sammeln",,As in gather or pickup
