@@ -2468,14 +2468,14 @@ objects.furniture.vase01,Vase,,
 objects.furniture.vase01.desc,"Ein modisches metallenes Gefäß, in das sich kleine Pflanzen setzen lassen.",,
 objects.furniture.wardrobesteel,Stahlgarderobe,,
 objects.furniture.wardrobesteel.desc,"Ein Ort, um Kleidungsstücke abzulegen.",,
-off,Aus,,"In combination with »off« could be used to describe several things: 
-1. State of device (turned on or turned off) 
+off,Aus,,"In combination with »off« could be used to describe several things:
+1. State of device (turned on or turned off)
 2. State of equipment: equipped (on) or unequipped (off). As in »the hat is on«, »the space suit is off«"
 offline,Offline,,
 offline.workers,"Abgeschaltete Arbeiter",,
 ok,OK,,
-on,An,,"In combination with »on« could be used to describe several things: 
-1. State of device (turned on or turned off) 
+on,An,,"In combination with »on« could be used to describe several things:
+1. State of device (turned on or turned off)
 2. State of equipment: equipped (on) or unequipped (off). As in »the hat is on«, »the space suit is off«"
 on.expedition,"Auf Expedition",,
 on.fire,Brennt!,,
@@ -4005,7 +4005,7 @@ height,Höhe,,noun
 width,Breite,,noun
 color.hue,Farbton,,color property (H in HSL)
 color.saturation,Sättigung,,color property (S in HSL)
-color.luminosity,Leuchtkraft,,color property (L in HSL) 
+color.luminosity,Leuchtkraft,,color property (L in HSL)
 steam.connection.unavailable,"Schritte zur Fehlersuche:<br> - Überprüfe deine Internetverbindung und Firewall-Einstellungen<br> - Stelle sicher, dass Steam läuft<br> - Steam neu starten<br> - Starte den Rechner neu<br> - Mache eine Pause und geh spazieren",,
 combat.ongoing,Kampfhandlungen,,
 bot.cpu.limit,Bots verbrauchen CPU,,
@@ -4163,7 +4163,7 @@ obj.copters.cargocopterflying.desc,"Ein vollautomatisches unbemanntes Luftfahrze
 copter.mission.stage.deploy.miner,"Deploying {0}",,{0} is the resource miner device name, like Autodrill Rig
 copter.mission.stage.fly.to.ship,"Rückkehr zum Schiff",,
 copter.mission.stage.fly.to,"Flug nach {0}",,{0} is the name of the target, like Silicon Deposit, or a device name
-copter.mission.stage.collect.resource,"Sammeln von {0}",,{0} is material type 
+copter.mission.stage.collect.resource,"Sammeln von {0}",,{0} is material type
 copter.mission.stage.land.on.ship,"Landung auf dem Schiff",,
 copter.mission.stage.leave.ship,"Verlassen des Schiffes",,
 copter.mission.stage.start,"Warten auf verfügbaren Kopter",,
@@ -4178,7 +4178,7 @@ expedition.type.mining,"Ressourcensammlung",,
 expedition.type.exploration,"Erkundung",,
 space.object.CargoCopter,"Frachtkopter",,
 space.object.info.CargoCopter,"Dieser Frachtkopter ist auf einer Mission.",,
-no.task.reason.no.skill.one,"Nicht genügend <b>{0}</b>-Kenntnisse. Aktuell: <b>{1}</b>. Erforderlich: <b>{2}</b>.",,{0} - skill name. {1} and {2} - a number (skill level). 
+no.task.reason.no.skill.one,"Nicht genügend <b>{0}</b>-Kenntnisse. Aktuell: <b>{1}</b>. Erforderlich: <b>{2}</b>.",,{0} - skill name. {1} and {2} - a number (skill level).
 no.task.reason.job.priority0.one,"Die Arbeiter-Priorität für <b>{0}</b> ist auf <b>0</b> gesetzt.",,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
 no.task.reason.job.priority.none,"<b>{0}</b> Aufgaben wurden übersprungen, da der Mitarbeiter <b>Jobs dieses Typs nicht ausführen kann</b>.",,
 no.task.reason.job.priority.none.one,"Der Arbeiter kann keine <b>{0}</b>-Jobs ausführen.",,{0} is job type - like construction or hauling
@@ -4245,7 +4245,7 @@ sig.transaction.failed.no.retry.3,"Die Frustration der Person ist spürbar und s
 sig.transaction.failed.no.retry.4,"Die Verärgerung des Gesprächspartners ist offensichtlich, als er sich knapp von dir verabschiedet, die Verbindung abbricht und verschwindet.",,
 sig.transaction.failed.no.retry.5,"Die Person spottet unhöflich und sarkastisch und bemerkt, dass du eine einmalige Gelegenheit verpasst hast, bevor sie die Verbindung trennt.",,
 sig.transaction.failed.no.retry.6,"Die Verärgerung des Kontakts kocht über, und er beendet verärgert das Gespräch und macht deutlich, dass er für zukünftige Gespräche nicht zur Verfügung steht.",,
-sig.transaction.failed.no.retry.7,"Der Ton der Person wird eisig und sie beendet das Gespräch mit einem abweisenden "Auf Wiedersehen", was ein anhaltendes Gefühl des Unbehagens hinterlässt.",,
+sig.transaction.failed.no.retry.7,"Der Ton der Person wird eisig und sie beendet das Gespräch mit einem abweisenden ""Auf Wiedersehen"", was ein anhaltendes Gefühl des Unbehagens hinterlässt.",,
 sig.transaction.failed.no.retry.8,"Der Kommunikator murmelt etwas vor sich hin und unterbricht ohne Vorwarnung die Verbindung, seine Frustration ist offensichtlich.",,
 sig.transaction.failed.no.retry.9,"Die Stimme der Person ist voller Verachtung, als sie das Gespräch abrupt beendet und keine Chance mehr lässt, es noch einmal zu überdenken.",,
 sig.transaction.failed.no.retry.10,"Der Kontakt seufzt und drückt seine Enttäuschung aus, bevor er die Verbindung abbricht und deutlich macht, dass er weitermacht.",,
