@@ -4229,7 +4229,7 @@ sig.transaction.successful.15,"Nach der Transaktion schlägt die Stimme einen eh
 sig.transaction.successful.16,"Die Person bedankt sich, lacht und fügt hinzu, dass der Zeitpunkt perfekt sei, da er gerade dabei sei, den Laden zu schließen und sich einem neuen Hobby zuzuwenden, dem Korbflechten unter Wasser.",,
 sig.transaction.successful.17,"Mit einem witzigen Ton drückt der anerkennende Fremde seine Dankbarkeit aus und scherzt, dass deine Entscheidungskompetenz so scharf sei, dass du der besten Klinge Konkurrenz machen könntest.",,
 sig.transaction.failed.can.retry.0,"Die Person grinst höhnisch, bringt ihre Verachtung für deine Entscheidung zum Ausdruck, fügt aber widerwillig hinzu, dass sie warten würden, wenn du dich entscheidest, zurückzukehren.",,
-
+sig.transaction.failed.can.retry.1,"Die enttäuschte Person seufzt und erwähnt knapp, dass sie in der Nähe sein wird, wenn du deine Meinung änderst.",,
 sig.transaction.failed.can.retry.2,"Der Kontakt kichert und erklärt beiläufig, dass er warten wird, wenn du es dir noch einmal überlegst.",,
 sig.transaction.failed.can.retry.3,"Die Person teilt dir ruhig mit, dass sie dir zur Verfügung steht, wenn du dich dazu entschließt, die Angelegenheit noch einmal zu prüfen.",,
 sig.transaction.failed.can.retry.4,"Der Kommunikator fleht dich eindringlich an, es sich noch einmal zu überlegen, und betont, dass er warten werde.",,
