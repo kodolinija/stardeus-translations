@@ -4217,12 +4217,12 @@ sig.transaction.successful.3,"Nach der Transaktion pflegt der Verkäufer ein her
 sig.transaction.successful.4,"Die Dankbarkeit ist in ihrer Stimme deutlich zu hören, wenn sie sich bedanken und dir viel Glück auf deiner Reise wünschen.",,
 sig.transaction.successful.5,"Sobald die Transaktion abgeschlossen ist, verschwindet das Signal plötzlich und du musst über die Konsequenzen deiner Entscheidung nachdenken.",,
 sig.transaction.successful.6,"Der Kontakt nimmt die Transaktion höflich und bescheiden zur Kenntnis und vermittelt während des gesamten Austauschs einen Hauch von Professionalität.",,
-sig.transaction.successful.7,
-sig.transaction.successful.8,
+sig.transaction.successful.7,"Die Stimme vermittelt ein Gefühl der Kameradschaft, als sie ihre Dankbarkeit zum Ausdruck bringt, und gibt Ihnen das Gefühl, eine wertvolle Verbindung aufgebaut zu haben.",,
+sig.transaction.successful.8,"Die Stimme bleibt auch nach der Transaktion rätselhaft und bietet kryptische Dankesworte, die dich neugierig und fasziniert macht.",,
 sig.transaction.successful.9,"Die Dankbarkeit des Kontakts ist mit einem Hauch von Überraschung verbunden, als ob er nicht damit gerechnet hätte, dass die Transaktion zustande kommt, was bei die ein Gefühl von Erfolg und ein wenig Unbehagen hinterlässt.",,
 sig.transaction.successful.10,"Nach Abschluss der Transaktion wird der Ton des Verkäufers entspannter und freundlicher und er bedankt sich mit aufrichtiger Wertschätzung.",,
 sig.transaction.successful.11,"Die Stimme strahlt Zuversicht und Zufriedenheit aus, wenn sie ihre Dankbarkeit zum Ausdruck bringt, und vermittelt dir ein Gefühl der Sicherheit über deine Entscheidung.",,
-sig.transaction.successful.12,
+sig.transaction.successful.12,"Nach der Transaktion drückt der anerkennende Kontakt seine Dankbarkeit mit einem unbeschwerten Witz aus und erklärt, dass Ihre beeindruckende Intuition Sie sicherlich selbst durch die verwinkeltesten Situationen führen könnte.",,
 sig.transaction.successful.13,"Nach der Transaktion drückt der Kontakt anerkennend seine Dankbarkeit mit einem unbeschwerten Witz aus und erklärt, dass deine beeindruckende Intuition dich sicherlich auch durch die verwinkeltesten Situationen führen könnte.",,
 sig.transaction.successful.14,"Sobald die Transaktion abgeschlossen ist, ist die Dankbarkeit des Kontakts gedämpft, aber aufrichtig, sodass du über die Bedeutung seiner Entscheidung nur spekulieren kannst.",,
 sig.transaction.successful.15,"Nach der Transaktion schlägt die Stimme einen ehrfurchtsvollen Ton an und dankt dir für dein Vertrauen.",,
@@ -4315,15 +4315,15 @@ hold.button.for.more.info,"Halte {0} gedrückt, um weitere Informationen zu erha
 ui.auto.pack,"Benutzeroberfläche automatisch komprimieren",,
 ui.auto.pack.tip,"Wenn die automatische Komprimierung aktiviert ist, werden einige UI-Listenelemente möglicherweise gruppiert, um die Listenlänge zu reduzieren. Möglicherweise musst du das Spiel neu starten, um die Änderungen an dieser Einstellung zu übernehmen.",,
 situation.BlackHoleJumps,"Schwarze-Loch-Sprünge",,
-sys.locked.by.research,"Suche nach <b>{0}</b>, um diese Funktionalität freizuschalten.",,{0} is technology name
+sys.locked.by.research,"Suche nach <b>{0}</b>, um diese Funktionalität freizuschalten.",,"{0} is technology name"
 mining.auto.unlocked,"Du kannst jetzt die für die Automatisierung des Bergbaubetriebs erforderliche Ausrüstung bauen. <b>{0}</b>-Overlay ist aktiviert.",,
-verb.mine,"abbauen",,as in mine the iron ore deposit
-compatible.items,"Kompatible Gegenstände",,Items could be anything, fuel, clothing, equipment, devices
-compatible.item,"Kompatibler Gegenstand",,singular version of compatible.items
-details.unknown,"Details unbekannt",,displayed in the list when there is no details about some event
+verb.mine,"abbauen",,"as in mine the iron ore deposit"
+compatible.items,"Kompatible Gegenstände",,"Items could be anything, fuel, clothing, equipment, devices"
+compatible.item,"Kompatibler Gegenstand",,"singular version of compatible.items"
+details.unknown,"Details unbekannt",,"displayed in the list when there is no details about some event"
 obj.upgrades.shuttledrillupgrade,"Shuttle-Bohrer-Erweiterung",,
-obj.upgrades.shuttledrillupgrade.desc;Fügt den Bergbauexpeditionen eine zusätzliche Bergbaurate hinzu. Stapelbar.",,
-mining.power,"Bergbaurate",,Will be next to a numeric value that shows the device mining power
+obj.upgrades.shuttledrillupgrade.desc,"Fügt den Bergbauexpeditionen eine zusätzliche Bergbaurate hinzu. Stapelbar.",,
+mining.power,"Bergbaurate",,"Will be next to a numeric value that shows the device mining power"
 exp.require.all.crew.info,"Wenn diese Option aktiviert ist, wird die Expedition nicht gestartet, wenn eines der Besatzungsmitglieder das Shuttle nicht erreicht.",,
 exp.require.all.crew,"Erfordert die gesamte Besatzung",,
 obj.upgrades.thrusterupgrade,"Triebwerks-Erweiterung",,
@@ -4338,11 +4338,11 @@ modifier.BeingsCount_Human.desc,"Passt die Startanzahl der überlebenden Kolonis
 modifier.BeingsCount_Robot.desc,"Passt die Startanzahl der Bauroboter an.",,
 deconstruct.order.haul,"Automatischer Transport dekonstruierter Materialien",,
 deconstruct.order.haul.tip,"Wenn diese Option aktiviert ist, werden beim Zerlegen eines Objekts automatisch Aufgaben mit niedriger Priorität für den Transport der Rohstoffe erstellt.",,
-compatible.engine.types;"Nur die folgenden Triebwerkstypen kÖnnen <b>{0}</b> ausfÜhren: {1}",,{0} will be something like Intergalactic Flight, {1} will be the list of engines names like Thrusters and Fusion Drives
-ship.capable.planet,"Orbitalflug",,Like Intergalactic or Intersystem or Interplanetary but this is close to the planet - flight between planet moons and around the planet
+compatible.engine.types,"Nur die folgenden Triebwerkstypen kÖnnen <b>{0}</b> ausfÜhren: {1}",,"{0} will be something like Intergalactic Flight, {1} will be the list of engines names like Thrusters and Fusion Drives"
+ship.capable.planet,"Orbitalflug",,"Like Intergalactic or Intersystem or Interplanetary but this is close to the planet - flight between planet moons and around the planet"
 ship.forward.direction.tip,"Deine Motoren sollten entgegengesetzt zu ihrer Vorwärtsrichtung ausgerichtet sein.",,
 stasis.prevent.wake.ups,"Störungen vorbeugen",,
-stasis.prevent.wake.ups.tip,"Verbrauche zusätzlichen Strom, um Fehlfunktionen der Kapsel zu verhindern, die zum Aufwachen der Kolonisten führen. Die volle Wirkung wird erreicht, wenn die Kryostabilität mindestens <b>{0}</b> beträgt.",,{0} will be a percentage number like 90%
+stasis.prevent.wake.ups.tip,"Verbrauche zusätzlichen Strom, um Fehlfunktionen der Kapsel zu verhindern, die zum Aufwachen der Kolonisten führen. Die volle Wirkung wird erreicht, wenn die Kryostabilität mindestens <b>{0}</b> beträgt.",,"{0} will be a percentage number like 90%"
 label.use.as.room.name,"Als Raumnamen verwenden",,
 label.always.show,"immer anzeigen",,
 tool.connect,"verbinden",,
@@ -4355,13 +4355,13 @@ objects.devices.gpumodulemini.desc,"Eine effiziente dedizierte Grafikverarbeitun
 fuel.burn.rate,"Kraftstoffverbrauchsrate",,
 fuel.burn.rate.h,"{0:0.###}/h",,
 fuel.burn.rate.tip,"Brenngeschwindigkeit: {0:0.###}/h",,
-currency.mine.rate.h,"{0}/h",,h is for hours; {0} will be currency amount, like $100"
+currency.mine.rate.h,"{0}/h",,"h is for hours; {0} will be currency amount, like $100"
 currency.mine.gpu.tip,"Aktuelle GPU-Kapazität: <b>{0}Thz</b>. Fügen Sie weitere GPU-Module hinzu, um die Mining-Rate zu erhöhen.",,
 gpu.module.builtin,"Integriertes GPU-Modul",,
 research.advancedgpu,"Erweiterte GPU",,
-missing.mods.warning,"{0} Fehlende Mods!",,{0} is the number of mods
+missing.mods.warning,"{0} Fehlende Mods!",,{0} is the number of mods"
 missing.mods.load.warning,"Diese Sicherungsdatei hängt von fehlenden, defekten oder veralteten Mods ab und kann möglicherweise nicht richtig geladen werden. Möglicherweise kannst du in Steam Betas zu einem älteren Zweig wechseln, um diese Sicherungsdatei mit allen Mods weiter abzuspielen. Hier wurde ein Backup erstellt:<br><br><b>{0}</b><br><br>Liste der nicht verfügbaren Mods:{1}",,
-link.display.teleporters,"Teleporter",,plural noun
+link.display.teleporters,"Teleporter",,"plural noun"
 object.in.safe.area,"Objekt im sicheren Bereich",,
 try.auto.connect,"Versuche es mit automatischen Verbinden",,
 try.auto.connect.tip,"Dadurch wird versucht, das Stromnetz nach getrennten oder nicht erreichbaren Geräten zu durchsuchen und diese nach Möglichkeit automatisch zu verbinden. Wenn bei einem Versuch nicht alles automatisch verbunden wurde, kannst du diese Aktion mehrmals versuchen. <b>Warnung: Bei sehr großen Rastern kann es eine Weile dauern.</b>",,
@@ -4370,7 +4370,7 @@ auto.connect.progress,"Automatisch verbundene <b>{0}</b>-Geräte. Warten.",,
 restrict.clock.on.disasters,"Begrenze die Taktgeschwindigkeit bei Katastrophen",,
 noun.structure,"Struktur",,
 noun.device,"Gerät",,
-noun.worker."Arbeiter",,
+noun.worker,"Arbeiter",,
 noun.enemy,"Feind",,
 noun.colonist,"olonist",,
 noun.material,"Material",,
@@ -4390,28 +4390,28 @@ teleporter.ready,"Teleporter bereit",,
 focus.on.items.after.trade,"Konzentriere dich auf die erhaltenen Gegenstände nach dem Handel",,
 toggle.log,"Protokoll umschalten",,
 evt.micro.meteors.ended,"Mikrometeorschauer beendet",,
-joined.mutiny,"hat sich der Meuterei angeschlossen",,"Will be prefixed by human name, i.e. ""John: Joined the mutiny"""
+joined.mutiny,"hat sich der Meuterei angeschlossen",,"Will be prefixed by human name, i.e. 'John: Joined the mutiny'"
 breakdown.ended,"Nervenzusammenbruch beendet",,
-took.damage.from,"Hat {0} {1} Schaden von {2} erlitten",,"{0} amount, {1} type, {2} source. Will look like ""took 12 Heat damage from Mike"""
-took.damage,"hat {0} {1} Schaden erlitten",,{0} amount, {1} type
+took.damage.from,"Hat {0} {1} Schaden von {2} erlitten",,"{0} amount, {1} type, {2} source. Will look like 'took 12 Heat damage from Mike'"
+took.damage,"hat {0} {1} Schaden erlitten",,"{0} amount, {1} type"
 structure.floors.oxymaticfloor.desc,"Eine elegante Alternative zur bodenbasierten Sauerstoffpumpe mit besserer Sauerstoffproduktionsrate.",,
 structure.floors.oxymaticfloor,"O2-Boden",,
 structure.floors.heatmaticfloor.desc,"Eine elegante Alternative zur Bodenheizung mit erhöhter Heizrate.",,
 structure.floors.heatmaticfloor,"Heiz-Boden",,
-research.atmospherecontroladvanced,"Erweiterte Atmosphärenkontrolle",
+research.atmospherecontroladvanced,"Erweiterte Atmosphärenkontrolle",,
 research.heatingadvanced,"Erweiterte Heizung",,
-mood.short,"Stimmung: {0}",,Displayed as short text on the side, 'Mood' should be abbreviated to max 4-5 characters or will be unreadable
-can.sell.for,"Kann {0} für {1} verkaufen",,Ex.: Can sell 12 for $123
-can.buy.for,"Kann {0} für {1} kaufen",,Ex.: Can buy 12 for $123
+mood.short,"Stimmung: {0}",,"Displayed as short text on the side, 'Mood' should be abbreviated to max 4-5 characters or will be unreadable"
+can.sell.for,"Kann {0} für {1} verkaufen",,"Ex.: Can sell 12 for $123"
+can.buy.for,"Kann {0} für {1} kaufen",,"Ex.: Can buy 12 for $123"
 structure.floors.coolmaticfloor,"Kühl-Boden",,
 structure.floors.coolmaticfloor.desc,"Eine elegante, bodenstehende Kühlkörperalternative mit erhöhter Kühlrate.",,
 research.coolingadvanced,"Fortschrittliche Kühlung",,
-all,"Alle",,example use is to set what the filter is showing when it is showing everything
-filter,"Filter",,short text for a button that toggles a filter
-selected,"Ausgewählt",,filter label for items that are selected
-not.selected,"Nicht ausgewählt",,filter label for items that are not selected
+all,"Alle",,"example use is to set what the filter is showing when it is showing everything"
+filter,"Filter",,"short text for a button that toggles a filter"
+selected,"Ausgewählt",,"filter label for items that are selected"
+not.selected,"Nicht ausgewählt",,"filter label for items that are not selected"
 asimov.override.installed,"Asimovs Gesetze der Robotik außer Kraft setzen",,
-tier.locked.tip,"Erforsche <b>{0}</b> weitere <b>Stufe {1}</b>-Technologien, um <b>Stufe {2}</b> freizuschalten",,variables ar numbers
+tier.locked.tip,"Erforsche <b>{0}</b> weitere <b>Stufe {1}</b>-Technologien, um <b>Stufe {2}</b> freizuschalten",,"variables ar numbers"
 research.blocked,"Forschung blockiert",,
 objects.devices.datoidloader,"Datoid-Lader",,
 objects.devices.datoidloader.desc,"Ein spezieller Speicher, der <b>Datoids</b> enthält, die für Forschungszwecke verwendet werden können. Muss neben dem Schiffscomputer liegen.",,
@@ -4426,9 +4426,9 @@ bookmark,"Lesezeichen",,
 obj.eggs.egg01_hatched,"Außerirdische Eierschale",,
 obj.eggs.egg01_hatched.desc,"Überreste eines außerirdischen Eies.",,
 obj.materials.eggshell,"Außerirdische Eierschale",,
-obj.materials.eggshell.desc,"Überreste eines außerirdischen Eies.",
-failed.to.find.safe.path,"Es konnte kein sicherer Pfad zu {0} gefunden werden",,{0} is object name, like Shuttle
-failed.path.safety.at,"{0} kann nicht durchlaufen werden: <b>{1}</b>",,"{0} is location coordinate, {1} is reason like ""too hot"""
+obj.materials.eggshell.desc,"Überreste eines außerirdischen Eies.",,
+failed.to.find.safe.path,"Es konnte kein sicherer Pfad zu {0} gefunden werden",,"{0} is object name, like Shuttle"
+failed.path.safety.at,"{0} kann nicht durchlaufen werden: <b>{1}</b>",,"{0} is location coordinate, {1} is reason like 'too hot'"
 menu.datoids,"Datoids",,
 menu.datoids.desc,"<b>Datoids</b> sind kleine Dateneinheiten, die für Forschungszwecke verwendet werden können.",,
 obj.datoids.datoidalien,"Alien Datoid",,
@@ -4462,10 +4462,10 @@ engine.move.section.too.small,"Der Abschnitt, den du verschieben möchtest, ist 
 verb.move,"bewegen",,
 location.nearby,"Nahe",,
 noun.datoid,"Datoid",,
-quest.reward.material,"<b>{0}</b>:  <b>x{1}</b>",,"Example: Basic Datoid: x10"
+quest.reward.material,"<b>{0}</b>:  <b>x{1}</b>",,"Example: Basic Datoid:  x10"
 display.nebula,"Weltraumnebel anzeigen",,
 display.nebula.tip,"Das Deaktivieren des Weltraumnebels kann die GPU-Leistung auf weniger leistungsstarker Hardware verbessern",,
-objects.devices.oxygenpumpmini."Mini-Sauerstoffpumpe",,
+objects.devices.oxygenpumpmini,"Mini-Sauerstoffpumpe",,
 objects.devices.oxygenpumpmini.desc,"Eine kompakte Sauerstoffpumpe, perfekt für einzelne Quartiere oder kleinere Bereiche.",,
 research.computing.cpu,"CPU",,
 research.computing.cpuimproved,"Verbesserte CPU",,
@@ -4511,7 +4511,7 @@ research.energy.reactorefficiency,"Reaktoreffizienz",,
 research.energy.reactorimproved,"Verbesserter Reaktor",,
 research.energy.reactornuclear,"Kernreaktor",,
 research.energy.solar,"Solarmodule",,
-research.energy.solarefficient,"Effiziente Solarmodule",
+research.energy.solarefficient,"Effiziente Solarmodule",,
 research.energy.solarimproved,"Verbesserte Solarmodule",,
 research.energy.storageimproved,"Verbesserte Energiespeicherung",,
 research.energy.storagenuclear,"Kernenergiespeicher",,
@@ -4522,10 +4522,10 @@ research.habitation.root,"Wohnen",,
 research.habitation.storagecold,"Kühlhaus",,
 research.habitation.storagecoldimproved,"Verbesserte Kühllagerung",,
 research.habitation.storagekitchen,"Küchenaufbewahrung",,
-research.habitation.storagekitchenimproved,"Verbesserte Aufbewahrung in der Küche",
+research.habitation.storagekitchenimproved,"Verbesserte Aufbewahrung in der Küche",,
 research.lifesupport.coolingadvanced,"Fortschrittliche Kühlung",,
 research.lifesupport.coolingimproved,"Verbesserte Kühlung",,
-research.lifesupport.foodproduction."Lebensmittelproduktion",,
+research.lifesupport.foodproduction,"Lebensmittelproduktion",,
 research.lifesupport.foodproductionimproved,"Verbesserte Nahrungsmittelproduktion",,
 research.lifesupport.geneticengineering,"Gentechnik",,
 research.lifesupport.heatingimproved,"Verbesserte Heizung",,
@@ -4569,6 +4569,26 @@ research.spacetravel.shuttlestorage,"Erweiterung des Shuttle-Lagers",,
 research.spacetravel.teleportation,"Kurzstreckenteleportation",,
 research.spacetravel.thrusterupgrade,"Triebwerkseffizienz",,
 ship.not.in.one.piece.tip,"Mit dem Overlay <b>{0}</b> kannst du unerwünschte Strukturen entfernen. Verfallene Schiffe müssen befestigt, abgebaut oder aufgegeben werden, bevor dein Schiff das aktuelle Gebiet verlassen kann.",,
-quest.EstablishResearch",,Etablierte Forschung",,
+quest.EstablishResearch,"Etablierte Forschung",,
 quest.EstablishResearch.desc,"Forschung verbraucht <b>Datoids</b>, die in einem <b>Daten-Ernter</b> erstellt und in einem <b>Datoid-Lader</b> gespeichert werden.",,
 compatible.storage,"Kompatibler Speicher",,
+amb.color.black,"Pech-Schwarz",,
+obj.materials.leadplate,"Bleiplatte",,
+obj.materials.lead,"Blei",,
+obj.materials.crawlergoo,"Crawler Glibber",,
+obj.materials.crawlergoo.desc,"Ein blasser phosphoreszierender Rückstand, der pulsiert, als hätte er ein Eigenleben. Könnte für die Forschung nützlich sein.",,
+obj.materials.lead.desc,"Ein mattgraues Erzmineral mit kubischen oder oktaedrischen Kristallstrukturen, das häufig in sedimentären Gesteinen vorkommt.",,
+obj.materials.leadplate.desc,"Eine dicke, schwere Platte aus Blei.",,
+research.production.root,"Produktion",,
+obj.materials.biofuel,"Bio-Kraftstoff",,
+obj.materials.biofuel.desc,"Bio-Kraftstoff, auch als 'Kraftstoff aus Pups' bekannt, wandelt Abfall bzw. Exkremente (Mist), in erneuerbare Energie um.",,
+evt.damaged.structure.collapsed,"Eine Beschädigte Struktur ist zusammengebrochen!",,
+evt.damaged.structure.collapsed.desc,"Beschädigte Struktur {0} brach bei {1} zusammen.",,"{0} is floor or wall, {1} is location coordinate"
+evt.damaged.device.exploded,"Beschädigtes Gerät ist explodiert!",,
+evt.damaged.device.exploded.desc,"Beschädigtes Gerät {0} explodierte bei {1}.",,"{0} is device, {1} is location coordinate"
+evt.damaged.device.fire,"Beschädigtes Gerät brennt!",,
+evt.damaged.device.fire.desc,"Das brennende, beschädigte Gerät {0} löste ein Feuer bei {1} aus",,
+last.meal,"Letzte Mahlzeit",,
+breakdown.BreakdownFoodPoisoning,"Lebensmittelvergiftung",,
+breakdown.BreakdownFoodPoisoning.desc,"{0} leidet an einer Lebensmittelvergiftung!",,
+act.BreakdownFoodPoisoning,"Leidet an einer Lebensmittelvergiftung.",,
