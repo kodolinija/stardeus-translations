@@ -1939,8 +1939,8 @@ modifier.NoReload.desc,"Der Kein-Laden-nach-dem-Tod-Modus ist die Art und Weise,
 modifier.NoTutorialQuests,"Anfängermission überspringen",,
 modifier.NoTutorialQuests.desc,"Ist dies ausgewählt, werden einige Anfängermissionen übersprungen.",2022-10-08,"Removed comment about locking research nodes, it doesn’t do that anymore"
 modifier.ResourceMul,"Ressourcenmultiplikator [{0:0.##x}]",,
-modifier.ResourceMul.desc,"Ändert die Menge der Anfangsressourcen, die beim Start eines neuen Spiels verfügbar sind. Beeinflusst auch die Menge der auf Planeten verfügbaren Ressourcen.",,
-modifier.ShipSize,"Schiffsgröße [{0:0.##} ×]",,
+modifier.ResourceMul.desc,"Ändert die Menge der Anfangsressourcen, die beim Start eines neuen Spiels verfügbar sind. Beeinflusst auch die Menge der auf Planeten verfügbaren Ressourcen.",2023-05-10,
+modifier.ShipSize,"Schiffsgröße [{0:0.##} ×]",, 
 modifier.ShipSize.desc,"Passt die relative Größe des generierten Schiffes an. Eine geringe Größe kann mehr Generierungsversuche erfordern. Der Start in einem kleinen Schiff wird schwieriger sein als in einem großen.",,
 modifiers,Modifikatoren,,"A label for options that modify the gameplay. You select the modifiers you want to start your game with in »new game« menu. Modifiers will be options like »Difficulty level«, »Disable combat«, etc."
 month,Monat,,
@@ -2379,7 +2379,7 @@ objects.devices.refinery.desc,"Zur Verarbeitung von Rohöl und anderen flüssige
 objects.devices.repairstation,Reparaturstation,,
 objects.devices.repairstation.desc,"Führt die Wartung von Robotern und Drohnen durch und repariert alle Schäden.",,
 objects.devices.researchstation,Forschungsstation,,
-objects.devices.researchstation.desc,"Menschen mit der Fähigkeit <b>Wissenschaft</b> können die Forschungsstation nutzen, um Forschung zu betreiben.",,
+objects.devices.researchstation.desc,"Menschen mit der Fähigkeit <b>Wissenschaft</b> können die Forschungsstation nutzen, um Forschung zu betreiben.",2023-07-10,
 objects.devices.securitycontrols,Sicherheitssystemsteuerung,,
 objects.devices.securitycontrols.desc,"Verwalte alle deine sicherheitsrelevanten Geräte bequem von einem Ort aus. Muss sich im gleichen Netz wie die Sicherheitsgeräte und der Schiffscomputer befinden, um zu funktionieren.",,
 objects.devices.shipcomputer,Schiffscomputer,,
@@ -3739,7 +3739,7 @@ willing.to.trade,"Möchte handeln",,
 winch.confirm,"Durch die Benutzung der Winde wird versucht, zwei Bereiche zusammenzuführen. Dieser Vorgang ist gefährlich und irreversibel. Bitte bestätige, dass du bereit bist, fortzufahren.",,
 winch.error.sections,"Mit dem Einsatz der Winde konnte nicht fortgefahren werden. Prüfe, ob der Windenhaken und der Windenanker auf zwei verschiedenen Bereichen liegen. Kleine Gebiete im Weltraum werden nicht als Bereiche angesehen. Konsultiere das Bereichsoverlay für mehr Details.",,
 winch.forbidden,"Der Einsatz der Winde ist derzeit verboten. Um ihn beginnen zu können, dürfen keine Brände oder Kämpfe stattfinden oder sich fliegende Objekte (Meteoriten, Asteroiden, Schiffe) in der Nähe befinden.",,
-winch.obstacle,"Einsatz der Winde wegen eines Hindernisses abgebrochen. Du kannst das Hindernis entfernen und es erneut versuchen. Abgeschlossene Schritte: {0}",,
+winch.obstacle,"Einsatz der Winde wurde nach <b>{0}</b> Schritten wegen eines Hindernisses abgebrochen. Du kannst das Hindernis entfernen und es erneut versuchen.",2023-05-21,
 worker.assigned,"Arbeiter zugewiesen",,
 worker.cpu.info.desc,"Du musst zusätzliche CPU-Module bauen, um mehr Arbeiter steuern zu können. Wenn du neue Arbeiter hinzufügst, während nicht genug CPU-Kapazität vorhanden ist, wird dies zum Herunterfahren von Arbeitern führen.",,
 worker.cpu.info.title,"Nicht genügend CPU-Kapazität",,
@@ -3847,15 +3847,15 @@ enable.all.mods,"Alle Modifikatoren aktivieren",,
 evt.spawn.derelict.ship.title,"Radar hat verlassenes Schiff entdeckt",,
 evt.spawn.derelict.ship.desc,"Passives Radar hat eine Signatur, die einem verlassenen Schiff ähnelt, gemeldet. Der Sternenkarte wurde ein Marker hinzugefügt.",,
 space.object.info.ShipDerelict,"Ein verlassenes Raumschiff.",,
-space.object.approach,Anfliegen,,
+space.object.approach,"Anfliegen",,
 space.object.approach.fail.expedition.running,"Das Objekt kann nicht angeflogen werden, solange eine Expedition stattfindet. Rufe die Expedition zurück und versuche es erneut.",,
 move.section,"Bereich bewegen",,"Action verb. Button on a thruster that allows moving the ship part in space"
-move.section.distance,Bewegungsentfernung,,"Noun. Used in combination with ""Move Section"" button to define how far to move"
-move.section.angle,Bewegungswinkel,,
+move.section.distance,"Bewegungsentfernung",,"Noun. Used in combination with ""Move Section"" button to define how far to move"
+move.section.angle,"Bewegungswinkel",,
 data.recalculated.retry.later,"Neuberechnung der Daten. Pausiere das Spiel und versuche es erneut.",,
 abandon,Zurücklassen,,"Verb, used on things or parts of ship we want to leave behind when flying away"
-objects.devices.precisionthruster,Präzisionsschubdüse,,
-objects.devices.precisionthruster.desc,"Eine fortgeschrittene Schubdüse, die das Manövrieren von Schiffsbereichen mit hoher Präzision erlaubt.",,
+objects.devices.precisionthruster,"Präzisionsschubdüse",2023-05-16,
+objects.devices.precisionthruster.desc,"Eine fortgeschrittene Schubdüse, die das Manövrieren von Schiffsbereichen mit hoher Präzision erlaubt.",2023-05-16,
 research.localmaneuvering,Gebietsmaneuvrierung,,"Research name that unlocks ""precision thruster"" technology"
 approaching.target,"Fliege {0} an",,"{0} is the object name or type. I.e. ""Approaching Derelict Ship"""
 space.object.ShipDerelict,"verlassenes Schiff",,
@@ -4077,7 +4077,7 @@ range,Reichweite,,"Noun. as in ""reachable distance"". range of a gun, or a ligh
 ignore.combat,Ignoriere Kampf,,
 pixel.art,Pixel-Kunst,,
 pixel.art.low.budget,Low-Budget-Pixelgrafik,,
-modifier.ExplosionBias,"Explosionswahrscheinlichkeit: {0}",,how likely explosions can occur. {0} will be from -100% to +100%
+modifier.ExplosionBias,"Explosionswahrscheinlichkeit: {0}",,"how likely explosions can occur. {0} will be from -100% to +100%"
 modifier.ExplosionBias.desc,"Passt die Wahrscheinlichkeit von Explosionen an, die durch Kettenreaktionen (Schäden, Kurzschlüsse, Konstruktionsfehler) verursacht werden.",,
 space.object.PlanetPOI,"Interessanter Punkt",,
 space.object.info.PlanetPOI,"Dieses Gebiet enthält etwas, das es zu erforschen lohnt. Du kannst hier eine Expedition starten.",,
@@ -4092,7 +4092,7 @@ orders,Aufträge,,"noun, as in current orders"
 min.mine.rate,Mindestrate,,
 min.mine.rate.tip,"Die Expedition wird automatisch beendet, wenn die Abbaurate unter diesen Wert fällt.",,
 objects.devices.autodrillrig,Autodrill Rig,,
-objects.devices.autodrillrig.desc,"Das Autodrill Rig ist ein KI-gesteuertes Bergbausystem, das für den präzisen Abbau von Ressourcen und die nahtlose Integration in automatisierte Abläufe entwickelt wurde.",,
+objects.devices.autodrillrig.desc,"Das Autodrill Rig ist ein KI-gesteuertes Bergbausystem, das für den präzisen Abbau von Ressourcen und die nahtlose Integration in automatisierte Abläufe entwickelt wurde.",2023-07-06,"Added note about no possibility to retrieve"
 research.miningautomation,Bergbau-Automatisierung,,
 quick.search.tip.starmap,"Gib den Namen des Raumobjekts ein, das du finden möchtest.",,
 quick.search.tip.research,"Gib den Namen des Forschungszweigs oder des Geräts ein, das du finden möchtest.",,
@@ -4114,15 +4114,15 @@ codex.m.defenses.quantumbarrier,"Quantenbarriere",,
 codex.m.defenses.tractorbeam,"Traktorstrahl",,
 codex.m.defenses.tractorbeam.desc,"Traktorstrahlen können die Flugbahn von sich langsam bewegenden Projektilen wie Asteroiden, Meteoroiden und verschiedenen Pods und Kapseln beeinflussen.<br><br>Du musst ein <b>Traktorstrahlziel</b> bauen und anschließen, um Traktorstrahl zu verwenden.<br><br>Mehrere Traktorstrahlen können dasselbe Projektil auf dasselbe oder ein anderes Ziel lenken. Die Kraft jedes Traktorstrahls summiert sich, um den Einfluss auf die Flugbahn eines Projektils zu erhöhen.<br><br>Du musst das Projektil und das Ziel manuell in der Konfigurationsoberfläche jedes Traktorstrahls auswählen, um mit der Führung des Projektils zu beginnen. Verwende <b>Konfiguration kopieren</b>, um das Projektil und das Ziel auf andere Traktorstrahlen zu kopieren.",,
 codex.m.defenses,"Verteidigungen",,
-mining.difficulty.value,"Bergbauschwierigkeit: {0}",,{0} will become a numeric value, like 12.34
-scan.found.faction,"Der Scan hat die Präsenz der Fraktion <b>{0}</b> auf <b>{1}</b> erkannt.",,{0} will be faction name {1} will be planet name
+mining.difficulty.value,"Bergbauschwierigkeit: {0}",,"{0} will become a numeric value, like 12.34"
+scan.found.faction,"Der Scan hat die Präsenz der Fraktion <b>{0}</b> auf <b>{1}</b> erkannt.",,"{0} will be faction name {1} will be planet name"
 scan.target.faction,"Fraktion",,
-faction.standing.tip,"Dein Ansehen bei der <b>{0}</b>-Fraktion: <b>{1}</b>",,{0} - faction name (i.e. pirates), {1} - standing value, could be number, or a word like good, bad, etc
+faction.standing.tip,"Dein Ansehen bei der Fraktion <b>{0}</b> ist <b>{1}</b>.",,"{0} - faction name (i.e. pirates), {1} - standing value, could be number, or a word like good, bad, etc"
 space.object.Port,"Weltraumhafen",,
 space.object.info.Port,"Ein Knotenpunkt, an dem du mit der Fraktion, der dieser Planet gehört, handeln und interagieren kannst.",,
 sell.ship.section,"Schiffsabschnitt verkaufen",,
 sell.ship.section.hint,"Du kannst dein Schiff in Abschnitte aufteilen und die Abschnitte in der Werft verkaufen.",,
-shipyard.section.offer,"<b>{0}</b> bietet an, <b>{1}</b> für diesen Schiffsabschnitt zu zahlen.",,{0} will be a merchant name or a space port, {1} will be the sum
+shipyard.section.offer,"<b>{0}</b> bietet an, <b>{1}</b> für diesen Schiffsabschnitt zu zahlen.",,"{0} will be a merchant name or a space port, {1} will be the sum"
 time.sensitive.operation,"Dies ist ein zeitkritischer Vorgang. Bitte versuche es erneut und ändere nicht die Taktrate.",,
 merchant.type.MerchantSpacePortGood,"Weltraumhafen-Shop",,
 merchant.type.MerchantSpacePortEvil,"Zwielichtiger Weltraumhafen-Shop",,
@@ -4130,12 +4130,12 @@ space.object.Resource,"Ressource",,
 space.object.info.Resource,"Hierbei handelt es  sich um eine abbaubare Rohstofflagerstätte.",,
 space.object.Anomaly,"Anomalie",,
 space.object.info.Anomaly,"Radargeräte entdecken in diesem Gebiet seltsame Aktivitätsmuster. Vorsicht ist geboten.",,
-expedition.already.in.progress,"Die Expedition zu diesem <b>{0}</b> ist bereits im Gange.",,{0} is the object type, like Anomaly
+expedition.already.in.progress,"Die Expedition zu diesem <b>{0}</b> ist bereits im Gange.",,"{0} is the object type, like Anomaly"
 rebuild.graphics.cache,"Grafikcache neu erstellen",,
 rebuild.graphics.cache.tip,"Wenn einige Symbole und Icons fehlen oder falsch angezeigt werden, kann ein Neuaufbau des Grafikcaches hilfreich sein. Durch Drücken dieser Schaltfläche wird der folgende Ordner gelöscht:<br><br><b>{0}</b>",,
 evt.exp.crash.site.survivors.title,"Eine Absturzstelle gefunden",,
 evt.exp.crash.site.survivors.choice,"Expedition hat eine Absturzstelle entdeckt, an der es offenbar einige Überlebende gibt. Sollen wir sie zu unserem Schiff bringen?",,
-evt.exp.crash.site.survivors.good.desc,"Die Expedition brachte <b>{0} Überlebende</b> von einer Absturzstelle zurück.",,{0} is a number
+evt.exp.crash.site.survivors.good.desc,"Die Expedition brachte <b>{0} Überlebende</b> von einer Absturzstelle zurück.",,"{0} is a number"
 evt.exp.crash.site.survivors.ambush.desc,"Die Expedition brachte <b>{0} Plünderer</b> zurück, die sich als Überlebende einer Absturzstelle ausgaben.",,{0} is a number
 evt.exp.crash.site.survivors.good.title,"Überlebende von einer Absturzstelle gerettet",,
 evt.exp.crash.site.survivors.ambush.title,"An der Absturzstelle von Räubern überfallen",,
@@ -4143,7 +4143,7 @@ verb.rescue,"Rettung",,
 verb.leave,"Verlassen",,
 verb.respond,"Antworten",,
 evt.exp.raider.extortion.title,"Expedition in einen Hinterhalt geraten!",,
-evt.exp.raider.extortion.choice,"Räuber haben <b>{0}</b> überfallen und fordern ein Lösegeld von <b>{1}</b>. Wenn wir jetzt bezahlen, lassen sie das Shuttle los.",,{0} is shuttle name, {1} is some money amount
+evt.exp.raider.extortion.choice,"Räuber haben <b>{0}</b> überfallen und fordern ein Lösegeld von <b>{1}</b>. Wenn wir jetzt bezahlen, lassen sie das Shuttle los.",,"{0} is shuttle name, {1} is some money amount"
 verb.pay.ransom,"Lösegeld zahlen",,
 verb.refuse,"Verweigern",,
 evt.exp.raider.extortion.paid.desc,"Wir zahlten das Lösegeld und die Räuber ließen das Shuttle los, niemand kam zu Schaden.",,
@@ -4155,31 +4155,31 @@ vsync.off.warning,"<b>Das Deaktivieren von VSync wird nicht empfohlen!</b><br>Di
 vsync.off.autofix,"Es sieht so aus, als ob Sie VSync zuvor deaktiviert hatten. Das Spiel hat es mit diesem Update automatisch aktiviert. Du kannst es in den Videoeinstellungen wieder deaktivieren, aber es verschwendet Ihre CPU- und GPU-Ressourcen und verringert die Simulationsgeschwindigkeit.",,
 noun.recommended,"Empfohlen",,
 objects.devices.cargocopter,"Frachtkopter",,
-objects.devices.cargocopter.desc;Ein vollautomatisches unbemanntes Luftfahrzeug, das für den Einsatz schwerer Ausrüstung auf Planeten und den Transport von Rohstoffen aus Erzvorkommen entwickelt wurde.",,
+objects.devices.cargocopter.desc,"Ein vollautomatisches unbemanntes Luftfahrzeug, das für den Einsatz schwerer Ausrüstung auf Planeten und den Transport von Rohstoffen aus Erzvorkommen entwickelt wurde.",,
 menu.copters,"Kopter",,
 menu.copters.desc,"Automatisierte unbemannte Luftfahrzeuge",,
 obj.copters.cargocopterflying,"Frachtkopter",,
 obj.copters.cargocopterflying.desc,"Ein vollautomatisches unbemanntes Luftfahrzeug, dass für den Einsatz schwerer Ausrüstung auf Planeten und den Transport von Rohstoffen aus Erzvorkommen entwickelt wurde.",,
-copter.mission.stage.deploy.miner,"Deploying {0}",,{0} is the resource miner device name, like Autodrill Rig
+copter.mission.stage.deploy.miner,"Bereitstellung von {0}",,"{0} is the resource miner device name, like Autodrill Rig"
 copter.mission.stage.fly.to.ship,"Rückkehr zum Schiff",,
-copter.mission.stage.fly.to,"Flug nach {0}",,{0} is the name of the target, like Silicon Deposit, or a device name
-copter.mission.stage.collect.resource,"Sammeln von {0}",,{0} is material type
+copter.mission.stage.fly.to,"Flug nach {0}",,"{0} is the name of the target, like Silicon Deposit, or a device name"
+copter.mission.stage.collect.resource,"Sammeln von {0}",,"{0} is material type"
 copter.mission.stage.land.on.ship,"Landung auf dem Schiff",,
 copter.mission.stage.leave.ship,"Verlassen des Schiffes",,
 copter.mission.stage.start,"Warten auf verfügbaren Kopter",,
 copter.mission.stage.random.park,"Versuche zu landen",,
-copter.missions,"Kopter-Missionen",,header for a list of missions that copters can do
+copter.missions,"Kopter-Missionen",,"header for a list of missions that copters can do"
 ongoing.missions,"laufende Missionen",,
 overlay.tip.Copters,"Kopter-Missionen",,
-available.copters,"Verfügbare Kopter",,Will be displayed along with the count on the UI element
+available.copters,"Verfügbare Kopter",,"Will be displayed along with the count on the UI element"
 ongoing.copter.mission.tip,"Laufende Kopter-Mission",,
 noun.target,"Ziel",,
 expedition.type.mining,"Ressourcensammlung",,
 expedition.type.exploration,"Erkundung",,
 space.object.CargoCopter,"Frachtkopter",,
 space.object.info.CargoCopter,"Dieser Frachtkopter ist auf einer Mission.",,
-no.task.reason.no.skill.one,"Nicht genügend <b>{0}</b>-Kenntnisse. Aktuell: <b>{1}</b>. Erforderlich: <b>{2}</b>.",,{0} - skill name. {1} and {2} - a number (skill level).
-no.task.reason.job.priority0.one,"Die Arbeiter-Priorität für <b>{0}</b> ist auf <b>0</b> gesetzt.",,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
+no.task.reason.no.skill.one,"Nicht genügend <b>{0}</b>-Kenntnisse. Aktuell: <b>{1}</b>. Erforderlich: <b>{2}</b>.",,"{0} - skill name. {1} and {2} - a number (skill level)."
+no.task.reason.job.priority0.one,"Die Arbeiter-Priorität für <b>{0}</b> ist auf <b>0</b> gesetzt.",,"Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number)."
 no.task.reason.job.priority.none,"<b>{0}</b> Aufgaben wurden übersprungen, da der Mitarbeiter <b>Jobs dieses Typs nicht ausführen kann</b>.",,
 no.task.reason.job.priority.none.one,"Der Arbeiter kann keine <b>{0}</b>-Jobs ausführen.",,{0} is job type - like construction or hauling
 no.task.reason.total.one,"Es gibt <b>1</b> ausstehende Aufgaben: {0}",,{0} is task description
@@ -4188,12 +4188,12 @@ objects.devices.xenodetector,"Xenodetector",,
 objects.devices.xenodetector.desc,"Dieses fortschrittliche Gerät ist darauf ausgelegt, unbekannte biologische Lebensformen innerhalb eines bestimmten Bereichs automatisch zu erkennen und zu identifizieren. Es nutzt modernste Sensortechnologie für eine effiziente Bioerkennung und Echtzeitwarnungen.",,
 research.xenodetection,"Xenodetection",,
 alien.lifeform.detected,"Außerirdische Lebensform entdeckt",,
-next.scan.in,"Nächster Scan in {0}",,{0} time like 27m
+next.scan.in,"Nächster Scan in {0}",,"{0} time like 27m"
 space.object.Signal,"Signal",,
 space.object.info.Signal,"Aus diesem Bereich geht eine Kurzstreckenübertragung ein.",,
 verb.accept,"Akzeptieren",,
 sig.ask.money.unclear.reward.object.0,"Eine verblüffende Übertragung fasziniert die Crew und deutet auf ein Objekt von großem Wert hin. Der Absender fordert <b>{0}</b> beiläufig auf, fortzufahren.",,
-sig.ask.money.unclear.reward.object.1,"Ein zurückgezogen lebender Erfinder sendet eine Nachricht aus einem versteckten Labor und bittet <b>{0}</b> um Projektfinanzierung. Er deutet darauf hin, dass er ein fortschrittliches Gerät mit enormen Potenzial entwickelt hat, verweigert jedoch die Offenlegung von Einzelheiten, bis er das Geld erhalten hat.",,{0} is something like $10000 Starcreds
+sig.ask.money.unclear.reward.object.1,"Ein zurückgezogen lebender Erfinder sendet eine Nachricht aus einem versteckten Labor und bittet <b>{0}</b> um Projektfinanzierung. Er deutet darauf hin, dass er ein fortschrittliches Gerät mit enormen Potenzial entwickelt hat, verweigert jedoch die Offenlegung von Einzelheiten, bis er das Geld erhalten hat.",,"{0} is something like $10000 Starcreds"
 sig.ask.money.unclear.reward.object.2,"Ein Schatzsucher sendet eine Übertragung mit der Bitte um <b>{0}</b>, um seine nächste Expedition zu finanzieren. Er verspricht, ein einzigartiges Artefakt, dass er ausgegraben hat, mit anderen zu teilen, verrät jedoch nichts über seine Natur oder Fähigkeiten.",,
 sig.ask.money.unclear.reward.object.3,"Eine Nachricht von einem unterirdischen Schwarzmarkt taucht auf, in der <b>{0}</b> für ein mysteriöses Gerät angeboten wird. Der Absender bleibt unklar, was den Zweck des Geräts angeht, behauptet jedoch, dass es für die Mission des Raumschiffs von unschätzbarem Wert sein wird.",,
 sig.ask.money.unclear.reward.object.4,"Ein gestrandeter Ingenieur kontaktiert dich und bittet <b>{0}</b>, seinen Transporter zu reparieren. Im Gegenzug bietet er ein einzigartiges Stück Technologie mit ungeahnten Fähigkeiten an, weigert sich jedoch, näher darauf einzugehen, bis die Mittel überwiesen sind.",,
@@ -4236,7 +4236,7 @@ sig.transaction.failed.can.retry.4,"Der Kommunikator fleht dich eindringlich an,
 sig.transaction.failed.can.retry.5,"Die Person beklagt den Misserfolg, versichert dir aber, dass sie warten wird, wenn du es noch einmal versuchst.",,
 sig.transaction.failed.can.retry.6,"Die Person spottet unhöflich und bemerkt sarkastisch, dass sie in der Nähe sein wird, wenn du endlich zur Besinnung kommst.",,
 sig.transaction.failed.can.retry.7,"Die Verärgerung des Kontakts ist offensichtlich, aber er erklärt nachdrücklich, dass er abwarten wird, wenn du dich dazu entschließt, es dir noch einmal zu überlegen.",,
-sig.transaction.failed.can.retry.8,
+sig.transaction.failed.can.retry.8,"Der Kommunikator zuckt gleichgültig mit den Schultern und teilt Ihnen mit, dass sie immer noch da sein werden, wenn Sie Ihre Meinung ändern.",,
 sig.transaction.failed.can.retry.9,"Der Ton der Person ist hart und konfrontativ und bellt, dass er warten wird, bis du "zu Verstand" kommst.",,
 sig.transaction.failed.no.retry.0,"Der Kontakt bleibt gelassen und respektvoll, drückt seine Dankbarkeit für die Gelegenheit aus, die Angelegenheit zu besprechen, und verabschiedet sich von dir, bevor er die Verbindung trennt.",,
 sig.transaction.failed.no.retry.1,"Die enttäuschte Person seufzt, beendet abrupt die Übertragung und lässt keinen Raum für weitere Diskussionen.",,
@@ -4245,7 +4245,7 @@ sig.transaction.failed.no.retry.3,"Die Frustration der Person ist spürbar und s
 sig.transaction.failed.no.retry.4,"Die Verärgerung des Gesprächspartners ist offensichtlich, als er sich knapp von dir verabschiedet, die Verbindung abbricht und verschwindet.",,
 sig.transaction.failed.no.retry.5,"Die Person spottet unhöflich und sarkastisch und bemerkt, dass du eine einmalige Gelegenheit verpasst hast, bevor sie die Verbindung trennt.",,
 sig.transaction.failed.no.retry.6,"Die Verärgerung des Kontakts kocht über, und er beendet verärgert das Gespräch und macht deutlich, dass er für zukünftige Gespräche nicht zur Verfügung steht.",,
-sig.transaction.failed.no.retry.7,"Der Ton der Person wird eisig und sie beendet das Gespräch mit einem abweisenden ""Auf Wiedersehen"", was ein anhaltendes Gefühl des Unbehagens hinterlässt.",,
+sig.transaction.failed.no.retry.7,"Der Ton der Person wird eisig und sie beendet das Gespräch mit einem abweisenden 'Auf Wiedersehen', was ein anhaltendes Gefühl des Unbehagens hinterlässt.",,
 sig.transaction.failed.no.retry.8,"Der Kommunikator murmelt etwas vor sich hin und unterbricht ohne Vorwarnung die Verbindung, seine Frustration ist offensichtlich.",,
 sig.transaction.failed.no.retry.9,"Die Stimme der Person ist voller Verachtung, als sie das Gespräch abrupt beendet und keine Chance mehr lässt, es noch einmal zu überdenken.",,
 sig.transaction.failed.no.retry.10,"Der Kontakt seufzt und drückt seine Enttäuschung aus, bevor er die Verbindung abbricht und deutlich macht, dass er weitermacht.",,
@@ -4266,7 +4266,7 @@ sig.transaction.failed.title,"Signal: Anfrage nicht erfüllt",,
 sig.transaction.fulfilled,"du hast die Anfrage erfüllt.",,
 sig.transaction.failed,"du hast die Anfrage nicht erfüllt.",,
 sig.transaction.rejected,"du hast die Anfrage abgelehnt.",,
-sig.ask.obj.clear.reward.0,"Der Kontakt meldet sich und erklärt, dass sie versehentlich ihr letztes <b>{0}</b> als Treibstoff für ihre Anti-Schwerkraft-Stiefel verwendet haben. Als Gegenleistung für deine Hilfe, mehr bereitzustellen, versprechen sie <b>{1}</b>.",,{0} is a material type, like Uranium, {1} is a $100000 or some reward item name.
+sig.ask.obj.clear.reward.0,"Der Kontakt meldet sich und erklärt, dass sie versehentlich ihr letztes <b>{0}</b> als Treibstoff für ihre Anti-Schwerkraft-Stiefel verwendet haben. Als Gegenleistung für deine Hilfe, mehr bereitzustellen, versprechen sie <b>{1}</b>.",,"{0} is a material type, like Uranium, {1} is a $100000 or some reward item name."
 sig.ask.obj.clear.reward.1,"Der Kontakt benötigt <b>{0}</b> nach einem Teleportationsunfall. Er weist darauf hin, dass du dir die Belohnung <b>{1}</b> nicht entgehen lassen sollten.",,
 sig.ask.obj.clear.reward.2,"Eine Stimme beschwert sich darüber, dass eine außerirdische Kreatur ihren gesamten Vorrat an <b>{0}</b> verbraucht hat, während sie geschlafen haben. Um ihren Vorrat aufzufüllen, versichern sie dir, dass dein Beitrag mit <b>{1}</b> vergütet wird.",,
 sig.ask.obj.clear.reward.3,"Der Kommunikator bringt ihre Dringlichkeit zum Ausdruck und erklärt, dass ein betrügerischer KI-Bot ihr <b>{0}</b> gestohlen hat. Als Gegenleistung für deine Hilfe, mehr zu erhalten, garantieren sie <b>{1}</b>.",,
@@ -4311,7 +4311,7 @@ sig.extortion.refused.3,"Der Kontakt versichert dir, dass dein Widerstand schlim
 sig.extortion.refused.4,"Die Piraten behaupten bedrohlich, dass deine Weigerung nicht ungestraft bleiben wird und dass sie dich holen werden, wenn du es am wenigsten erwartest.",,
 show.roof,"äußeren Rumpf anzeigen",,
 show.roof.tip,"Wenn ein Bereich keine Außenhülle hat, bedeutet das, dass er nicht vollständig umschlossen ist. Irgendwo fehlt ein Boden- oder Wandstück. Es kann nicht garantiert werden, dass Bereiche mit einer Außenhülle vollständig luftdicht oder isoliert sind. Überprüfe daher die Luftdichtheit und die Isolierungsübersicht noch einmal, um mögliche Lecks zu finden.",,
-hold.button.for.more.info,"Halte {0} gedrückt, um weitere Informationen zu erhalten",,{0} is going to be an image with a key, like CTRL
+hold.button.for.more.info,"Halte {0} gedrückt, um weitere Informationen zu erhalten",,"{0} is going to be an image with a key, like CTRL"
 ui.auto.pack,"Benutzeroberfläche automatisch komprimieren",,
 ui.auto.pack.tip,"Wenn die automatische Komprimierung aktiviert ist, werden einige UI-Listenelemente möglicherweise gruppiert, um die Listenlänge zu reduzieren. Möglicherweise musst du das Spiel neu starten, um die Änderungen an dieser Einstellung zu übernehmen.",,
 situation.BlackHoleJumps,"Schwarze-Loch-Sprünge",,
@@ -4435,7 +4435,7 @@ obj.datoids.datoidalien,"Alien Datoid",,
 obj.datoids.datoidalien.desc,"Ein seltener <b>Datoid</b> außerirdischen Ursprungs.",,
 obj.datoids.datoidbasic,"Grundlegendes Datoid",,
 obj.datoids.datoidbasic.desc,"<b>Datoids</b> sind kleine Dateneinheiten, die für Forschungszwecke verwendet werden können. Sie müssen in einem <b>Datoid-Lader</b> gespeichert werden, um nutzbar zu sein.",,
-obj.datoids.datoidbiotic",Biotischer Datoid",,
+obj.datoids.datoidbiotic,"Biotischer Datoid",,
 obj.datoids.datoidbiotic.desc,"Ein <b>Datoid</b>, das aus lebenden Organismen gewonnen wird.",,
 obj.datoids.datoidenergy,"Energie Datoid",,
 obj.datoids.datoidenergy.desc,"Dieser <b>Datoid</b> ist für die Nutzung fortschrittlicher Energieproduktion unerlässlich.",,
@@ -4462,7 +4462,7 @@ engine.move.section.too.small,"Der Abschnitt, den du verschieben möchtest, ist 
 verb.move,"bewegen",,
 location.nearby,"Nahe",,
 noun.datoid,"Datoid",,
-quest.reward.material,"<b>{0}</b>: <b>x{1}</b>",,Example: Basic Datoid: x10
+quest.reward.material,"<b>{0}</b>:  <b>x{1}</b>",,"Example: Basic Datoid: x10"
 display.nebula,"Weltraumnebel anzeigen",,
 display.nebula.tip,"Das Deaktivieren des Weltraumnebels kann die GPU-Leistung auf weniger leistungsstarker Hardware verbessern",,
 objects.devices.oxygenpumpmini."Mini-Sauerstoffpumpe",,
