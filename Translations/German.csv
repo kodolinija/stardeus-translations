@@ -4592,3 +4592,13 @@ last.meal,"Letzte Mahlzeit",,
 breakdown.BreakdownFoodPoisoning,"Lebensmittelvergiftung",,
 breakdown.BreakdownFoodPoisoning.desc,"{0} leidet an einer Lebensmittelvergiftung!",,
 act.BreakdownFoodPoisoning,"Leidet an einer Lebensmittelvergiftung.",,
+research.ready.to.unlock,"Forschung abgeschlossen.",,"{0} is a number, it says that X research items are ready to unlock right now"							
+research.ready.bookmarked,"Markierte Forschung abgeschlossen",,"{0} is a number, it says that X bookmarked research items are ready to unlock right now"					
+research.ready.to.unlock.tip,"<b>{0}</b> Forschungen sind fertig zum Freischalten.",,"{0} is number"						
+research.ready.bookmarked.tip,"<b>{0}</b> markierte und <b>{1}</b> allgemeine Forschugen sind fertig zum Freischalten.",,"variables are numbers"						
+research.lacks.resource,"Forschung <b>{0}</b> angehalten: {1}		{0} is resource name {1} is number							
+bookmark.add,"Markierung hinzufügen",,
+bookmark.remove,"Markierung entfernen",,
+required.material,"Benötigt: {0}",,
+research.prerequisites.missing,"<b>{0}</b> vorher nötige Forschungen",,									
+research.tier.locked,"Forschungsstufe <b>{0}</b> ist gesperrt",,								
