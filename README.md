@@ -106,6 +106,7 @@ If you feel lost at any point, please join the <a href="https://discord.com/invi
 * [K-Win](https://github.com/K-Win)
 * Innos
 * [Weidengeist](https://github.com/weidengeist/)
+* [MonkyBone](https://github.com/MonkyBone/)
 
 ### French
 
