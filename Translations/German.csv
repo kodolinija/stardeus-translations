@@ -4574,8 +4574,8 @@ quest.EstablishResearch.desc,"Forschung verbraucht <b>Datoids</b>, die in einem 
 compatible.storage,"Kompatibler Speicher",,
 amb.color.black,"Pech-Schwarz",,
 obj.materials.leadplate,Bleiplatte,,
-obj.materials.lead,"Blei,,
-obj.materials.crawlergoo,"Krabbler Schleim",,
+obj.materials.lead,Blei,,
+obj.materials.crawlergoo,Krabbler Schleim,,
 obj.materials.crawlergoo.desc,"Ein blasser phosphoreszierender Rückstand, der pulsiert, als hätte er ein Eigenleben. Könnte für die Forschung nützlich sein.",,
 obj.materials.lead.desc,"Ein mattgraues Erzmineral mit kubischen oder oktaedrischen Kristallstrukturen, das häufig in sedimentären Gesteinen vorkommt.",,
 obj.materials.leadplate.desc,"Eine dicke, schwere Platte aus Blei.",,
@@ -4616,7 +4616,7 @@ elysium.now.available,Du kannst jetzt dein <b>{0}</b> in <b>{1}</b> umwandeln,,"
 unlock.effect.robot.cap,Max aktive Roboter: <b>{0}</b>,,
 unlock.effect.robot.cap.desc,Ermöglicht bis zu <b>{0}</b> aktive Roboterarbeiter,,
 unlock.effect.robot.cap.notification,Du kannst jetzt bis zu <b>{0}</b> aktive Roboterarbeiter haben,,
-unlock.effect.construction.speed,Baugeschwindigkeit,, {0} is something like x4
+unlock.effect.construction.speed,Baugeschwindigkeit {0},, {0} is something like x4
 unlock.effect.construction.speed.desc,Die Ausführungsgeschwindigkeit von Bau-/Dekonstruktions-/Reparaturaufgaben beträgt <b>{0}</b>,,
 unlock.effect.construction.speed.unlocked,Die Ausführungsgeschwindigkeit von Bau-/Dekonstruktions-/Reparaturaufgaben beträgt jetzt <b>{0}</b>,,
 modifier.achievement.block.warning,Wenn du diesen Modifikator änderst, werden Erfolge für diesen Speicherstand deaktiviert. Bitte bestätige, ob du damit einverstanden sind.,,
