@@ -107,6 +107,7 @@ If you feel lost at any point, please join the <a href="https://discord.com/invi
 * Innos
 * [Weidengeist](https://github.com/weidengeist/)
 * [MonkyBone](https://github.com/MonkyBone/)
+* Neil-Rivas
 
 ### French
 
