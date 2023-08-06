@@ -4657,10 +4657,8 @@ difficulty.Beginner,Anfänger,,
 difficulty.Intermediate,Mittlere,,
 difficulty.Advanced,Fortgeschrittene,,
 tutorial.of.type,{0} Übung,,{0} will be Beginner or Intermedia or Advanced translation
-
 end.tutorial,"Übung beenden",,label on a button that ends the tutorial
 verb.back,"Zurück",,
-
 tutorial.completed	Tutorial Completed		
 tutorial.completed.info	This tutorial is now completed. You can keep playing this game as long as you like.		
 tut.basic.controls.name	UI and Controls		
@@ -4730,7 +4728,6 @@ tut.basic.controls.step.context.menu.1	Invoking the Context Menu
 tut.basic.controls.step.context.menu.1.desc	In addition to the Info Panel, each object has a context menu that you can invoke with <b>{0}</b> while the cursor is above an object. Try invoking a context menu for the highlighted device.		
 tut.basic.controls.step.context.menu.2	Context Menu		
 tut.basic.controls.step.context.menu.2.desc	The Context Menu contains the subset of the most common actions from the Info Panel.		
-
 tut.basic.controls.tools,"Werkzeuge",,		
 tut.basic.controls.tools.desc,"Viele Aktionen im Spiel erfordern die Verwendung eines Werkzeugs, und es stehen verschiedene Werkzeuge zur Verfügung. Du kannst auf sie zugreifen, indem du das <b>Radialmenü</b>, die <b>Aktionsleiste</b>, die <b>Schnellsuche</b> und die <b>Tastenkürzel</b> verwendest.<br><br>Lass uns zuerst das Radialmenü erkunden. Drücke <b>{0}</b>, um es zu öffnen.",,	
 tool.menu.type,"Werkzeugsmenü Typ",,
