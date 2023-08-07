@@ -4657,3 +4657,82 @@ difficulty.Beginner,Anfänger,,
 difficulty.Intermediate,Mittlere,,
 difficulty.Advanced,Fortgeschrittene,,
 tutorial.of.type,{0} Übung,,{0} will be Beginner or Intermedia or Advanced translation
+end.tutorial,"Übung beenden",,label on a button that ends the tutorial
+verb.back,"Zurück",,
+tutorial.completed	Tutorial Completed		
+tutorial.completed.info	This tutorial is now completed. You can keep playing this game as long as you like.		
+tut.basic.controls.name	UI and Controls		
+tut.basic.controls.desc	Learn the basic concepts of Stardeus UI.		
+tut.basic.controls.step.intro	Welcome to Stardeus!		
+tut.basic.controls.step.intro.desc	This tutorial will show you how to control the game and navigate the UI.<br><br>Click and drag this window to move it around.<br><br>You can adjust the UI scale in <b>Settings > Video</b>.		
+tut.basic.controls.step.cam	Camera Controls		
+tut.basic.controls.step.cam.desc	To move the camera around, use {0}.<br><br>Zoom in and out with {1}.<br><br>Edge Pan can be toggled in <b>Settings > Input</b>.		
+tut.basic.controls.step.overlays.visual	Visual Overlays		
+tutorial.click.next.when.ready	Click <b>{0}</b> when you are ready.		
+tut.basic.controls.step.overlay.electricity	This overlay shows device connections and assists in addressing issues with the power grid. It provides data on electricity production and consumption, any deficit, battery conditions, and also lists devices that are disconnected or switched off, among other useful details.		
+tut.basic.controls.step.overlay.atmoo2	This visual overlay shows oxygen levels, making it useful for detecting leaks and areas unfit for living.		
+tut.basic.controls.step.overlay.atmotemp	This visual overlay displays temperature levels and helps to quickly identify any hot zones that could appear if industrial equipment is running in enclosed space without cooling or ventilation.		
+tut.basic.controls.step.overlay.atmoo2res	Airtightness measures how well something keeps oxygen contained within an area. This visual overlay helps spot open vents and damaged walls since they're not as airtight.		
+tut.basic.controls.step.overlay.atmotempres	Insulation represents the resistance to temperature exchange with the environment. Even if walls are fully airtight and don't let oxygen through, they can't fully block heat transfer. Heat will slowly move to surrounding areas, which is why maintaining comfortable temperatures takes more work than just keeping an area full of oxygen.		
+tut.basic.controls.step.overlay.aesthetics	Aesthetics reflects the beauty or plainness of the environment. Colonists will enjoy spending time in more visually appealing surroundings.		
+tut.basic.controls.step.overlay.plan	Along with a set of planning tools that include mirroring, circles, and lines, this overlay helps in designing the perfect ship. In scenarios where your ship is destroyed, the overlay will contain the original design, so you can choose to restore it to former glory or wipe everything out and make it your own.		
+tut.basic.controls.step.overlay.path	This overlay clarifies where and how your colonists and robots can move. Even when there appears to be a passable gap, the path might still be blocked. Remember, beings cannot move through diagonal passageways.		
+tut.basic.controls.step.overlay.areas	This overlay shows enclosed areas, room names (available once you unlock the Signs and Labeling research), and lists the devices in each room. It also reveals areas exposed to space and lets you toggle the outer hull display.<br><br>Incoming spacecraft can't land in enclosed areas, so ensure there are enough landing zones open to space. A landing area smaller than roughly 100 tiles might lead to issues.<br><br>Another important point: certain devices and all spacecraft need to be in areas open to space. If a device meant for outdoor use is enclosed, it won't work. Enclosing a shuttle may damage the hull when it tries to take off or land.		
+tut.basic.controls.step.overlay.islands	This overlay reveals separate ship sections, also known as "islands." Usually, having more than one means the ship won't fly, though tiny sections with less than roughly 30 tiles are ignored. You can use <b>Winch</b> or <b>Maneuvering Controller</b> to pull these sections together.<br><br>The overlay also lets you abandon any unwanted ship sections, including derelict ships you might come across during your adventure. You'll need to attach, disassemble, or abandon a derelict ship before flying away.<br><br>When near a space port, you can use this overlay to sell a section. This makes it possible to temporarily attach a derelict ship to your own, tow it to the nearest space port, detach it, and then sell it.		
+tut.basic.controls.step.feedback	If you run into problems, find a bug, or have an idea to share, you can send your feedback directly from within the game.		
+tut.basic.controls.step.overlays.information.desc	These buttons toggle panels and lists with various information about resources, economy, tasks, stats, and more.		
+tut.basic.controls.step.overlays.information	Information Overlays		
+tut.basic.controls.step.overlay.resources	This panel contains details about your owned resources. You can also find a complete list of available resource types and device blueprints.		
+tut.basic.controls.step.overlay.wallet	Wallet view displays your cash reserves and gives access to the stock market.		
+tut.basic.controls.step.overlay.quests	Here you'll find the list of available quests. The active quest is always displayed in the event panel in the top-right.		
+tut.basic.controls.step.overlay.goals	The game tracks your current progress, and under certain conditions may give you some suggestions. Those suggestions also appear in the event panel in the top-right. These suggestions are completely optional and can be ignored if you wish to follow your own strategy.		
+tut.basic.controls.step.overlay.beings	This view lists all beings present on your ship. That includes your robotic workers, human colonists, pets, and any other creatures that may appear.		
+tut.basic.controls.step.overlay.tasks	Here you can see the active tasks and who is working on what. The number of active tasks is limited by the amount of Memory resource, that can be increased by building Memory Modules. The limits will be visible here.		
+tut.basic.controls.step.overlay.eventlog	This opens an Event Log, which is a journal that holds the story about your ship. When something significant happens, an automatic entry will appear in this log. You can also add custom manual entries here any time.		
+tut.basic.controls.step.overlay.region			
+tut.basic.controls.step.overlays.special.desc	This is the place where you will find special views, such as the Research Tree and the Starmap.		
+tut.basic.controls.step.overlays.special	Special Views		
+tut.basic.controls.step.overlay.research	This is where you unlock new technologies.		
+tut.basic.controls.step.overlay.starmap	If your ship has engines and is in one piece, it can fly around. Space exploration will be essential for finding the resources you'll very much need.		
+tut.basic.controls.step.overlay.codex	The Codex contains the <b>Operations Manual</b>, tips, and various lists of data, such as the types of different materials that exist in the Stardeus universe, all the blueprints you can unlock in the Research Tree, known Factions, and more.		
+tut.basic.controls.step.overlay.search	This button opens the search input, allowing you to quickly find a blueprint you want to build, a being by name, a codex entry, and much more. It's an extremely powerful tool that should not be overlooked, especially if you're looking for an efficient alternative to the Radial Menu.		
+tut.basic.controls.step.overlays.controls.desc	These buttons toggle the panels that allow you to manage various onboard systems.		
+tut.basic.controls.step.overlays.controls	System Controls		
+tut.basic.controls.step.overlay.security	This shows the lists of active threats and allows controlling certain security-focused devices in one convenient place. Want to raise all your force fields with one click? Security Controls have got you covered.		
+tut.basic.controls.step.overlay.combat	The combat view is useful for tracking the ongoing combat details. It lists the factions and all the fighters.		
+tut.basic.controls.step.overlay.shipnav	Here you can see if your ship is in operational condition and troubleshoot the reasons when it's not. It lists all the engines and contains a pre-flight checklist, allowing you to change your ship's forward direction as well.<br><br>The forward direction determines how the starfield behind the ship moves when flying. For example, if your engines are facing left, the forward direction should be set to right, and so on.		
+tut.basic.controls.step.overlay.expedition	This view shows all known resource locations and lets you manage the shuttle expeditions. If a shuttle ever gets lost, you can track down its location here.		
+tut.basic.controls.step.overlay.copters	Once you unlock <b>Mining Automation</b>, you will be able to build <b>Cargo Copters</b>. This view lets you manage ongoing copter missions.		
+tut.basic.controls.step.overlay.tint	Once you have an <b>Auto Painter</b> loaded with color pigments, use the tools provided by this view to paint your ship floors and walls the way you like.		
+tut.basic.controls.step.overlay.terraform	When you find a terraformable planet, it will be registered in this view, along with the terraforming status. Once a planet gets fully terraformed, you can use this panel to begin the colonization procedure.		
+tut.basic.controls.step.events	Active Events		
+tut.basic.controls.step.events.desc	This list contains the most important events that are currently happening. Some of the items in the list are groups that can be expanded on click.		
+tut.basic.controls.step.log	Event Log		
+tut.basic.controls.step.log.desc	This tiny box contains a detailed timestamped flow of events ranging from Asteroid impacts to Bob taking 3 physical damage from stubbing a toe on a mini heater.<br><br>You can clear this event list or toggle its visibility any time.		
+tut.step.select.entity	Select {0}		{0} is some device or object name
+tut.step.select.entity.desc	Click the highlighted {0} to select it.		{0} is device or being or object
+tut.step.select.entity.expired	Click the highlighted object to select it. (This step has expired)		
+tut.msg.target.ui.not.found	The required UI element is not visible. Use the <b>{0}</b> button and repeat the action from the previous step.		
+tut.msg.target.ui.udb	Click the highligted UI element		
+tut.msg.target.ui.udb.desc	Find the UI element labeled <b>{0}</b> and click it to continue.		
+tut.msg.target.udb.no.title.desc	Find the highlighted UI element and click it to continue.		
+tut.ui.click.and.drag	Click and drag this UI block to move it around.		
+tut.basic.controls.step.dev.manage	Device Management		
+tut.basic.controls.step.dev.manage.desc	The Info Panel exposes various data points and controls for the selected object. Let's take a look at the electricity connections of this device.		
+tut.basic.controls.step.dev.select	Selecting Objects		
+tut.basic.controls.step.dev.manage.submenu	Component Controls		
+tut.basic.controls.step.dev.manage.submenu.desc	You are now looking at the Electricity component controls of the selected device. If you select another device with the same component, the submenu should remain open. Each object has various components that reveal their data and controls in this manner.		
+tut.basic.controls.step.deselect	Deselecting Objects		
+tut.basic.controls.step.deselect.desc	When something is selected, use <b>{0}</b> above an empty floor or space to deselect it. It will also close any open overlays or active UI panels. Try it now.		
+tut.basic.controls.step.context.menu.1	Invoking the Context Menu		
+tut.basic.controls.step.context.menu.1.desc	In addition to the Info Panel, each object has a context menu that you can invoke with <b>{0}</b> while the cursor is above an object. Try invoking a context menu for the highlighted device.		
+tut.basic.controls.step.context.menu.2	Context Menu		
+tut.basic.controls.step.context.menu.2.desc	The Context Menu contains the subset of the most common actions from the Info Panel.		
+tut.basic.controls.tools,"Werkzeuge",,		
+tut.basic.controls.tools.desc,"Viele Aktionen im Spiel erfordern die Verwendung eines Werkzeugs, und es stehen verschiedene Werkzeuge zur Verfügung. Du kannst auf sie zugreifen, indem du das <b>Radialmenü</b>, die <b>Aktionsleiste</b>, die <b>Schnellsuche</b> und die <b>Tastenkürzel</b> verwendest.<br><br>Lass uns zuerst das Radialmenü erkunden. Drücke <b>{0}</b>, um es zu öffnen.",,	
+tool.menu.type,"Werkzeugsmenü Typ",,
+tool.menu.type.radial,"Radial Menü",,
+tool.menu.type.grid,"Raster Menü",,
+hotbar.add.tip,"Klicke auf {0}, während du {1} gedrückt hältst, um diesen Gegenstand zur Aktionsleiste hinzuzufügen.",,
+hotbar.ctrl.tip,"Klicke auf {0}, während du {1} gedrückt hältst, um diesen Gegenstand zu entfernen.<br>Klicke auf {0} und halte es gedrückt, dann ziehe den Gegenstand nach links oder rechts, um die Reihenfolge zu ändern.",,
+search.placeholder,"Suchbegriff eingeben...",,
