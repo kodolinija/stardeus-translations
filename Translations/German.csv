@@ -1939,8 +1939,8 @@ modifier.NoReload.desc,"Der Kein-Laden-nach-dem-Tod-Modus ist die Art und Weise,
 modifier.NoTutorialQuests,"Anfängermission überspringen",,
 modifier.NoTutorialQuests.desc,"Ist dies ausgewählt, werden einige Anfängermissionen übersprungen.",2022-10-08,"Removed comment about locking research nodes, it doesn’t do that anymore"
 modifier.ResourceMul,"Ressourcenmultiplikator [{0:0.##x}]",,
-modifier.ResourceMul.desc,"Ändert die Menge der Anfangsressourcen, die beim Start eines neuen Spiels verfügbar sind. Beeinflusst auch die Menge der auf Planeten verfügbaren Ressourcen.",,
-modifier.ShipSize,"Schiffsgröße [{0:0.##} ×]",,
+modifier.ResourceMul.desc,"Ändert die Menge der Anfangsressourcen, die beim Start eines neuen Spiels verfügbar sind. Beeinflusst auch die Menge der auf Planeten verfügbaren Ressourcen.",2023-05-10,
+modifier.ShipSize,"Schiffsgröße [{0:0.##} ×]",, 
 modifier.ShipSize.desc,"Passt die relative Größe des generierten Schiffes an. Eine geringe Größe kann mehr Generierungsversuche erfordern. Der Start in einem kleinen Schiff wird schwieriger sein als in einem großen.",,
 modifiers,Modifikatoren,,"A label for options that modify the gameplay. You select the modifiers you want to start your game with in »new game« menu. Modifiers will be options like »Difficulty level«, »Disable combat«, etc."
 month,Monat,,
@@ -2379,7 +2379,7 @@ objects.devices.refinery.desc,"Zur Verarbeitung von Rohöl und anderen flüssige
 objects.devices.repairstation,Reparaturstation,,
 objects.devices.repairstation.desc,"Führt die Wartung von Robotern und Drohnen durch und repariert alle Schäden.",,
 objects.devices.researchstation,Forschungsstation,,
-objects.devices.researchstation.desc,"Menschen mit der Fähigkeit <b>Wissenschaft</b> können die Forschungsstation nutzen, um Forschung zu betreiben.",,
+objects.devices.researchstation.desc,"Menschen mit der Fähigkeit <b>Wissenschaft</b> können die Forschungsstation nutzen, um Forschung zu betreiben.",2023-07-10,
 objects.devices.securitycontrols,Sicherheitssystemsteuerung,,
 objects.devices.securitycontrols.desc,"Verwalte alle deine sicherheitsrelevanten Geräte bequem von einem Ort aus. Muss sich im gleichen Netz wie die Sicherheitsgeräte und der Schiffscomputer befinden, um zu funktionieren.",,
 objects.devices.shipcomputer,Schiffscomputer,,
@@ -2468,14 +2468,14 @@ objects.furniture.vase01,Vase,,
 objects.furniture.vase01.desc,"Ein modisches metallenes Gefäß, in das sich kleine Pflanzen setzen lassen.",,
 objects.furniture.wardrobesteel,Stahlgarderobe,,
 objects.furniture.wardrobesteel.desc,"Ein Ort, um Kleidungsstücke abzulegen.",,
-off,Aus,,"In combination with »off« could be used to describe several things: 
-1. State of device (turned on or turned off) 
+off,Aus,,"In combination with »off« could be used to describe several things:
+1. State of device (turned on or turned off)
 2. State of equipment: equipped (on) or unequipped (off). As in »the hat is on«, »the space suit is off«"
 offline,Offline,,
 offline.workers,"Abgeschaltete Arbeiter",,
 ok,OK,,
-on,An,,"In combination with »on« could be used to describe several things: 
-1. State of device (turned on or turned off) 
+on,An,,"In combination with »on« could be used to describe several things:
+1. State of device (turned on or turned off)
 2. State of equipment: equipped (on) or unequipped (off). As in »the hat is on«, »the space suit is off«"
 on.expedition,"Auf Expedition",,
 on.fire,Brennt!,,
@@ -3739,7 +3739,7 @@ willing.to.trade,"Möchte handeln",,
 winch.confirm,"Durch die Benutzung der Winde wird versucht, zwei Bereiche zusammenzuführen. Dieser Vorgang ist gefährlich und irreversibel. Bitte bestätige, dass du bereit bist, fortzufahren.",,
 winch.error.sections,"Mit dem Einsatz der Winde konnte nicht fortgefahren werden. Prüfe, ob der Windenhaken und der Windenanker auf zwei verschiedenen Bereichen liegen. Kleine Gebiete im Weltraum werden nicht als Bereiche angesehen. Konsultiere das Bereichsoverlay für mehr Details.",,
 winch.forbidden,"Der Einsatz der Winde ist derzeit verboten. Um ihn beginnen zu können, dürfen keine Brände oder Kämpfe stattfinden oder sich fliegende Objekte (Meteoriten, Asteroiden, Schiffe) in der Nähe befinden.",,
-winch.obstacle,"Einsatz der Winde wegen eines Hindernisses abgebrochen. Du kannst das Hindernis entfernen und es erneut versuchen. Abgeschlossene Schritte: {0}",,
+winch.obstacle,"Einsatz der Winde wurde nach <b>{0}</b> Schritten wegen eines Hindernisses abgebrochen. Du kannst das Hindernis entfernen und es erneut versuchen.",2023-05-21,
 worker.assigned,"Arbeiter zugewiesen",,
 worker.cpu.info.desc,"Du musst zusätzliche CPU-Module bauen, um mehr Arbeiter steuern zu können. Wenn du neue Arbeiter hinzufügst, während nicht genug CPU-Kapazität vorhanden ist, wird dies zum Herunterfahren von Arbeitern führen.",,
 worker.cpu.info.title,"Nicht genügend CPU-Kapazität",,
@@ -3847,15 +3847,15 @@ enable.all.mods,"Alle Modifikatoren aktivieren",,
 evt.spawn.derelict.ship.title,"Radar hat verlassenes Schiff entdeckt",,
 evt.spawn.derelict.ship.desc,"Passives Radar hat eine Signatur, die einem verlassenen Schiff ähnelt, gemeldet. Der Sternenkarte wurde ein Marker hinzugefügt.",,
 space.object.info.ShipDerelict,"Ein verlassenes Raumschiff.",,
-space.object.approach,Anfliegen,,
+space.object.approach,"Anfliegen",,
 space.object.approach.fail.expedition.running,"Das Objekt kann nicht angeflogen werden, solange eine Expedition stattfindet. Rufe die Expedition zurück und versuche es erneut.",,
 move.section,"Bereich bewegen",,"Action verb. Button on a thruster that allows moving the ship part in space"
-move.section.distance,Bewegungsentfernung,,"Noun. Used in combination with ""Move Section"" button to define how far to move"
-move.section.angle,Bewegungswinkel,,
+move.section.distance,"Bewegungsentfernung",,"Noun. Used in combination with ""Move Section"" button to define how far to move"
+move.section.angle,"Bewegungswinkel",,
 data.recalculated.retry.later,"Neuberechnung der Daten. Pausiere das Spiel und versuche es erneut.",,
 abandon,Zurücklassen,,"Verb, used on things or parts of ship we want to leave behind when flying away"
-objects.devices.precisionthruster,Präzisionsschubdüse,,
-objects.devices.precisionthruster.desc,"Eine fortgeschrittene Schubdüse, die das Manövrieren von Schiffsbereichen mit hoher Präzision erlaubt.",,
+objects.devices.precisionthruster,"Präzisionsschubdüse",2023-05-16,
+objects.devices.precisionthruster.desc,"Eine fortgeschrittene Schubdüse, die das Manövrieren von Schiffsbereichen mit hoher Präzision erlaubt.",2023-05-16,
 research.localmaneuvering,Gebietsmaneuvrierung,,"Research name that unlocks ""precision thruster"" technology"
 approaching.target,"Fliege {0} an",,"{0} is the object name or type. I.e. ""Approaching Derelict Ship"""
 space.object.ShipDerelict,"verlassenes Schiff",,
@@ -4005,7 +4005,7 @@ height,Höhe,,noun
 width,Breite,,noun
 color.hue,Farbton,,color property (H in HSL)
 color.saturation,Sättigung,,color property (S in HSL)
-color.luminosity,Leuchtkraft,,color property (L in HSL) 
+color.luminosity,Leuchtkraft,,color property (L in HSL)
 steam.connection.unavailable,"Schritte zur Fehlersuche:<br> - Überprüfe deine Internetverbindung und Firewall-Einstellungen<br> - Stelle sicher, dass Steam läuft<br> - Steam neu starten<br> - Starte den Rechner neu<br> - Mache eine Pause und geh spazieren",,
 combat.ongoing,Kampfhandlungen,,
 bot.cpu.limit,Bots verbrauchen CPU,,
@@ -4077,7 +4077,7 @@ range,Reichweite,,"Noun. as in ""reachable distance"". range of a gun, or a ligh
 ignore.combat,Ignoriere Kampf,,
 pixel.art,Pixel-Kunst,,
 pixel.art.low.budget,Low-Budget-Pixelgrafik,,
-modifier.ExplosionBias,"Explosionswahrscheinlichkeit: {0}",,how likely explosions can occur. {0} will be from -100% to +100%
+modifier.ExplosionBias,"Explosionswahrscheinlichkeit: {0}",,"how likely explosions can occur. {0} will be from -100% to +100%"
 modifier.ExplosionBias.desc,"Passt die Wahrscheinlichkeit von Explosionen an, die durch Kettenreaktionen (Schäden, Kurzschlüsse, Konstruktionsfehler) verursacht werden.",,
 space.object.PlanetPOI,"Interessanter Punkt",,
 space.object.info.PlanetPOI,"Dieses Gebiet enthält etwas, das es zu erforschen lohnt. Du kannst hier eine Expedition starten.",,
@@ -4092,7 +4092,7 @@ orders,Aufträge,,"noun, as in current orders"
 min.mine.rate,Mindestrate,,
 min.mine.rate.tip,"Die Expedition wird automatisch beendet, wenn die Abbaurate unter diesen Wert fällt.",,
 objects.devices.autodrillrig,Autodrill Rig,,
-objects.devices.autodrillrig.desc,"Das Autodrill Rig ist ein KI-gesteuertes Bergbausystem, das für den präzisen Abbau von Ressourcen und die nahtlose Integration in automatisierte Abläufe entwickelt wurde.",,
+objects.devices.autodrillrig.desc,"Das Autodrill Rig ist ein KI-gesteuertes Bergbausystem, das für den präzisen Abbau von Ressourcen und die nahtlose Integration in automatisierte Abläufe entwickelt wurde.",2023-07-06,"Added note about no possibility to retrieve"
 research.miningautomation,Bergbau-Automatisierung,,
 quick.search.tip.starmap,"Gib den Namen des Raumobjekts ein, das du finden möchtest.",,
 quick.search.tip.research,"Gib den Namen des Forschungszweigs oder des Geräts ein, das du finden möchtest.",,
@@ -4109,3 +4109,630 @@ planet.resource.filter.all.mined,"Derzeit abgebaute Lagerstätten",,
 planet.resource.filter.nearby.mined,"Derzeit abgebaute nahegelegene Lagerstätten",,
 planet.resource.filter.all.not.mined,"Nicht abgebaute Lagerstätten",,
 planet.resource.filter.nearby.not.mined,"Nicht abgebaute Lagerstätten in der Nähe",,
+codex.m.defenses.quantumbarrier.desc,"Die Quantenbarriere stellt ein Kraftfeld bereit, das ankommende Projektile, einschließlich verschiedener Arten von Asteroiden und Meteoroiden, blockieren kann. Es blockiert keine Kapseln, Shuttles und Pods.<br><br>Mit <b>Sicherheitssystemsteuerung</b> wird es einfacher, mehrere Quantenbarrieren gleichzeitig zu verwalten.<br><br>Quantenbarrieren müssen im Freien platziert werden, in Bereichen, die nicht mit Mauern umschlossen sind.",,
+codex.m.defenses.quantumbarrier,"Quantenbarriere",,
+codex.m.defenses.tractorbeam,"Traktorstrahl",,
+codex.m.defenses.tractorbeam.desc,"Traktorstrahlen können die Flugbahn von sich langsam bewegenden Projektilen wie Asteroiden, Meteoroiden und verschiedenen Pods und Kapseln beeinflussen.<br><br>Du musst ein <b>Traktorstrahlziel</b> bauen und anschließen, um Traktorstrahl zu verwenden.<br><br>Mehrere Traktorstrahlen können dasselbe Projektil auf dasselbe oder ein anderes Ziel lenken. Die Kraft jedes Traktorstrahls summiert sich, um den Einfluss auf die Flugbahn eines Projektils zu erhöhen.<br><br>Du musst das Projektil und das Ziel manuell in der Konfigurationsoberfläche jedes Traktorstrahls auswählen, um mit der Führung des Projektils zu beginnen. Verwende <b>Konfiguration kopieren</b>, um das Projektil und das Ziel auf andere Traktorstrahlen zu kopieren.",,
+codex.m.defenses,"Verteidigungen",,
+mining.difficulty.value,"Bergbauschwierigkeit: {0}",,"{0} will become a numeric value, like 12.34"
+scan.found.faction,"Der Scan hat die Präsenz der Fraktion <b>{0}</b> auf <b>{1}</b> erkannt.",,"{0} will be faction name {1} will be planet name"
+scan.target.faction,"Fraktion",,
+faction.standing.tip,"Dein Ansehen bei der Fraktion <b>{0}</b> ist <b>{1}</b>.",,"{0} - faction name (i.e. pirates), {1} - standing value, could be number, or a word like good, bad, etc"
+space.object.Port,"Weltraumhafen",,
+space.object.info.Port,"Ein Knotenpunkt, an dem du mit der Fraktion, der dieser Planet gehört, handeln und interagieren kannst.",,
+sell.ship.section,"Schiffsabschnitt verkaufen",,
+sell.ship.section.hint,"Du kannst dein Schiff in Abschnitte aufteilen und die Abschnitte in der Werft verkaufen.",,
+shipyard.section.offer,"<b>{0}</b> bietet an, <b>{1}</b> für diesen Schiffsabschnitt zu zahlen.",,"{0} will be a merchant name or a space port, {1} will be the sum"
+time.sensitive.operation,"Dies ist ein zeitkritischer Vorgang. Bitte versuche es erneut und ändere nicht die Taktrate.",,
+merchant.type.MerchantSpacePortGood,"Weltraumhafen-Shop",,
+merchant.type.MerchantSpacePortEvil,"Zwielichtiger Weltraumhafen-Shop",,
+space.object.Resource,"Ressource",,
+space.object.info.Resource,"Hierbei handelt es  sich um eine abbaubare Rohstofflagerstätte.",,
+space.object.Anomaly,"Anomalie",,
+space.object.info.Anomaly,"Radargeräte entdecken in diesem Gebiet seltsame Aktivitätsmuster. Vorsicht ist geboten.",,
+expedition.already.in.progress,"Die Expedition zu diesem <b>{0}</b> ist bereits im Gange.",,"{0} is the object type, like Anomaly"
+rebuild.graphics.cache,"Grafikcache neu erstellen",,
+rebuild.graphics.cache.tip,"Wenn einige Symbole und Icons fehlen oder falsch angezeigt werden, kann ein Neuaufbau des Grafikcaches hilfreich sein. Durch Drücken dieser Schaltfläche wird der folgende Ordner gelöscht:<br><br><b>{0}</b>",,
+evt.exp.crash.site.survivors.title,"Eine Absturzstelle gefunden",,
+evt.exp.crash.site.survivors.choice,"Expedition hat eine Absturzstelle entdeckt, an der es offenbar einige Überlebende gibt. Sollen wir sie zu unserem Schiff bringen?",,
+evt.exp.crash.site.survivors.good.desc,"Die Expedition brachte <b>{0} Überlebende</b> von einer Absturzstelle zurück.",,"{0} is a number"
+evt.exp.crash.site.survivors.ambush.desc,"Die Expedition brachte <b>{0} Plünderer</b> zurück, die sich als Überlebende einer Absturzstelle ausgaben.",,{0} is a number
+evt.exp.crash.site.survivors.good.title,"Überlebende von einer Absturzstelle gerettet",,
+evt.exp.crash.site.survivors.ambush.title,"An der Absturzstelle von Räubern überfallen",,
+verb.rescue,"Rettung",,
+verb.leave,"Verlassen",,
+verb.respond,"Antworten",,
+evt.exp.raider.extortion.title,"Expedition in einen Hinterhalt geraten!",,
+evt.exp.raider.extortion.choice,"Räuber haben <b>{0}</b> überfallen und fordern ein Lösegeld von <b>{1}</b>. Wenn wir jetzt bezahlen, lassen sie das Shuttle los.",,"{0} is shuttle name, {1} is some money amount"
+verb.pay.ransom,"Lösegeld zahlen",,
+verb.refuse,"Verweigern",,
+evt.exp.raider.extortion.paid.desc,"Wir zahlten das Lösegeld und die Räuber ließen das Shuttle los, niemand kam zu Schaden.",,
+evt.exp.raider.extortion.fight.won.desc,"Wir haben das Lösegeld nicht bezahlt. Es gab einen Kampf und unsere Crew hat gewonnen.",,
+evt.exp.raider.extortion.fight.lost.desc,"Wir haben das Lösegeld nicht bezahlt. Es gab einen Kampf und wir verloren das Shuttle und unsere Crew.",,
+evt.exp.raider.extortion.resolved.title,"Expeditions-Hinterhalt beendet",,
+verb.collect,"Sammeln",,As in gather or pickup
+vsync.off.warning,"<b>Das Deaktivieren von VSync wird nicht empfohlen!</b><br>Dies führt zu einer unnötigen Belastung von GPU und CPU und reduziert das Zeitbudget für die Simulation. 10-fache Spielgeschwindigkeit könnte viel langsamer laufen!",,
+vsync.off.autofix,"Es sieht so aus, als ob Sie VSync zuvor deaktiviert hatten. Das Spiel hat es mit diesem Update automatisch aktiviert. Du kannst es in den Videoeinstellungen wieder deaktivieren, aber es verschwendet Ihre CPU- und GPU-Ressourcen und verringert die Simulationsgeschwindigkeit.",,
+noun.recommended,"Empfohlen",,
+objects.devices.cargocopter,"Frachtkopter",,
+objects.devices.cargocopter.desc,"Ein vollautomatisches unbemanntes Luftfahrzeug, das für den Einsatz schwerer Ausrüstung auf Planeten und den Transport von Rohstoffen aus Erzvorkommen entwickelt wurde.",,
+menu.copters,"Kopter",,
+menu.copters.desc,"Automatisierte unbemannte Luftfahrzeuge",,
+obj.copters.cargocopterflying,"Frachtkopter",,
+obj.copters.cargocopterflying.desc,"Ein vollautomatisches unbemanntes Luftfahrzeug, dass für den Einsatz schwerer Ausrüstung auf Planeten und den Transport von Rohstoffen aus Erzvorkommen entwickelt wurde.",,
+copter.mission.stage.deploy.miner,"Bereitstellung von {0}",,"{0} is the resource miner device name, like Autodrill Rig"
+copter.mission.stage.fly.to.ship,"Rückkehr zum Schiff",,
+copter.mission.stage.fly.to,"Flug nach {0}",,"{0} is the name of the target, like Silicon Deposit, or a device name"
+copter.mission.stage.collect.resource,"Sammeln von {0}",,"{0} is material type"
+copter.mission.stage.land.on.ship,"Landung auf dem Schiff",,
+copter.mission.stage.leave.ship,"Verlassen des Schiffes",,
+copter.mission.stage.start,"Warten auf verfügbaren Kopter",,
+copter.mission.stage.random.park,"Versuche zu landen",,
+copter.missions,"Kopter-Missionen",,"header for a list of missions that copters can do"
+ongoing.missions,"laufende Missionen",,
+overlay.tip.Copters,"Kopter-Missionen",,
+available.copters,"Verfügbare Kopter",,"Will be displayed along with the count on the UI element"
+ongoing.copter.mission.tip,"Laufende Kopter-Mission",,
+noun.target,"Ziel",,
+expedition.type.mining,"Ressourcensammlung",,
+expedition.type.exploration,"Erkundung",,
+space.object.CargoCopter,"Frachtkopter",,
+space.object.info.CargoCopter,"Dieser Frachtkopter ist auf einer Mission.",,
+no.task.reason.no.skill.one,"Nicht genügend <b>{0}</b>-Kenntnisse. Aktuell: <b>{1}</b>. Erforderlich: <b>{2}</b>.",,"{0} - skill name. {1} and {2} - a number (skill level)."
+no.task.reason.job.priority0.one,"Die Arbeiter-Priorität für <b>{0}</b> ist auf <b>0</b> gesetzt.",,"Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number)."
+no.task.reason.job.priority.none,"<b>{0}</b> Aufgaben wurden übersprungen, da der Mitarbeiter <b>Jobs dieses Typs nicht ausführen kann</b>.",,
+no.task.reason.job.priority.none.one,"Der Arbeiter kann keine <b>{0}</b>-Jobs ausführen.",,{0} is job type - like construction or hauling
+no.task.reason.total.one,"Es gibt <b>1</b> ausstehende Aufgaben: {0}",,{0} is task description
+brain.stat.JobPriorityNone,"Nicht imstande",,
+objects.devices.xenodetector,"Xenodetector",,
+objects.devices.xenodetector.desc,"Dieses fortschrittliche Gerät ist darauf ausgelegt, unbekannte biologische Lebensformen innerhalb eines bestimmten Bereichs automatisch zu erkennen und zu identifizieren. Es nutzt modernste Sensortechnologie für eine effiziente Bioerkennung und Echtzeitwarnungen.",,
+research.xenodetection,"Xenodetection",,
+alien.lifeform.detected,"Außerirdische Lebensform entdeckt",,
+next.scan.in,"Nächster Scan in {0}",,"{0} time like 27m"
+space.object.Signal,"Signal",,
+space.object.info.Signal,"Aus diesem Bereich geht eine Kurzstreckenübertragung ein.",,
+verb.accept,"Akzeptieren",,
+sig.ask.money.unclear.reward.object.0,"Eine verblüffende Übertragung fasziniert die Crew und deutet auf ein Objekt von großem Wert hin. Der Absender fordert <b>{0}</b> beiläufig auf, fortzufahren.",,
+sig.ask.money.unclear.reward.object.1,"Ein zurückgezogen lebender Erfinder sendet eine Nachricht aus einem versteckten Labor und bittet <b>{0}</b> um Projektfinanzierung. Er deutet darauf hin, dass er ein fortschrittliches Gerät mit enormen Potenzial entwickelt hat, verweigert jedoch die Offenlegung von Einzelheiten, bis er das Geld erhalten hat.",,"{0} is something like $10000 Starcreds"
+sig.ask.money.unclear.reward.object.2,"Ein Schatzsucher sendet eine Übertragung mit der Bitte um <b>{0}</b>, um seine nächste Expedition zu finanzieren. Er verspricht, ein einzigartiges Artefakt, dass er ausgegraben hat, mit anderen zu teilen, verrät jedoch nichts über seine Natur oder Fähigkeiten.",,
+sig.ask.money.unclear.reward.object.3,"Eine Nachricht von einem unterirdischen Schwarzmarkt taucht auf, in der <b>{0}</b> für ein mysteriöses Gerät angeboten wird. Der Absender bleibt unklar, was den Zweck des Geräts angeht, behauptet jedoch, dass es für die Mission des Raumschiffs von unschätzbarem Wert sein wird.",,
+sig.ask.money.unclear.reward.object.4,"Ein gestrandeter Ingenieur kontaktiert dich und bittet <b>{0}</b>, seinen Transporter zu reparieren. Im Gegenzug bietet er ein einzigartiges Stück Technologie mit ungeahnten Fähigkeiten an, weigert sich jedoch, näher darauf einzugehen, bis die Mittel überwiesen sind.",,
+sig.ask.money.unclear.reward.object.5,"Ein Signal von einer heruntergekommenen Fabrik auf dem Planeten fordert <b>{0}</b>, um die Produktion wieder aufzunehmen. Sie deuten darauf hin, dass sie über die Baupläne für eine leistungsstarke Maschine verfügen, geben aber keine Einzelheiten preis, solange das Geld nicht gezahlt wird.",,
+sig.ask.money.unclear.reward.object.6,"Eine kryptische Übertragung wird von einer lange verschollenen Kolonie auf dem Planeten abgefangen, in der nach <b>{0}</b> gefragt wird. Die Nachricht enthält keine Informationen darüber, wer sie gesendet hat, warum sie das Geld benötigen oder ob im Gegenzug etwas geleistet wird.",,
+sig.ask.money.unclear.reward.object.7,"Von einer verborgenen Quelle auf dem Planeten geht eine anonyme Anfrage für <b>{0}</b> ein. Der Absender gibt keinen Hinweis darauf, wer er ist oder warum er das Geld benötigt, und hüllt die Anfrage in einen Hauch von Geheimnis.",,
+sig.ask.money.unclear.reward.object.8,"Ein verstümmeltes Notsignal erreicht das Raumschiff und enthält eine Bitte um <b>{0}</b>. Der Nachricht fehlen jegliche Details über den Absender oder seine Situation, sodass du über den Zweck der Anfrage nur spekulieren kannst.",,
+sig.ask.money.unclear.reward.object.9,"Durch die Kommunikation knistert eine Sprachübertragung, in der dringend um <b>{0}</b> gebeten wird. Der Absender bleibt unklar und bietet keine Erklärung für die Notwendigkeit oder mögliche Vorteile, die sich aus der Bereitstellung der Gelder ergeben könnten.",,
+sig.ask.money.unclear.reward.object.10,"Eine kurze und rätselhafte Nachricht trifft ein und fordert lediglich <b>{0}</b>. Er hat die Stimme eines guten Menschen.",,
+sig.ask.money.unclear.reward.object.11,"Eine faszinierende Übertragung eines erfahrenen Kunsthandwerkers beschreibt ein wunderschönes, handgefertigtes Objekt mit dem Potenzial, ungeahnte Kräfte freizusetzen. Während sich die Nachricht entfaltet, erwähnt der Kunsthandwerker, dass er sich gerne von diesem unglaublichen Stück trennen würde und bittet um nur <b>{0}</b>, um seine Kosten zu decken.",,
+sig.ask.money.unclear.reward.object.12,"Eine fesselnde Botschaft erzählt die Legende eines lange verschollenen Geräts, das die Fähigkeit besitzen soll, den Lauf der Geschichte zu verändern. Als die Geschichte zu Ende geht, bemerkt der Absender beiläufig, dass er dieses schwer fassbare Artefakt möglicherweise finden könnte, dafür aber eine bescheidene Summe von <b>{0}</b> benötigen würde.",,
+sig.ask.money.unclear.reward.object.13,"Eine Übertragung eines Entdeckers erzählt dir Geschichten über ein uraltes Relikt, das angeblich den Schlüssel zu unermesslichen Reichtümern enthält. Im weiteren Verlauf der Geschichte erwähnt der Entdecker beiläufig, dass er versuchen könnte, das Relikt zurückzuholen, und bittet lediglich um <b>{0}</b>, um die Expedition zu finanzieren.",,
+sig.ask.money.unclear.reward.object.14,"Eine kryptische Nachricht kündigt die Existenz eines einzigartigen Gegenstands mit ungeahntem Potenzial an. Der Absender bittet beiläufig um <b>{0}</b>, um mehr preiszugeben.",,
+sig.ask.money.unclear.reward.object.15,"Eine Übertragung weist auf ein mysteriöses Artefakt hin, das von Geheimnissen umgeben ist. Der Absender deutet an, dass <b>{0}</b> es in Reichweite bringen könnte.",,
+sig.ask.money.unclear.reward.object.16,"Eine rätselhafte Mitteilung weist auf eine bemerkenswerte Entdeckung hin, ohne Einzelheiten preiszugeben. Beiläufig wird um eine kleine Investition von <b>{0}</b> gebeten.",,
+sig.ask.money.unclear.reward.object.17,"Eine verschleierte Nachricht deutet darauf hin, dass du möglicherweise Zugang zu etwas Außergewöhnlichem erhälst, ohne jedoch Einzelheiten zu nennen. Der Absender bittet lediglich um eine Spende von <b>{0}</b>.",,
+sig.transaction.successful.0,"Der dankbare Kommunikator dankt dir mit einem spielerischen Ton und deutet an, dass deine Entscheidungsfähigkeit im Feuer der schwierigsten Rätsel geschmiedet worden sein muss.",,
+sig.transaction.successful.1,"Nach der erfolgreichen Transaktion lobt dich der Verkäufer mit aufrichtiger Bewunderung und Respekt für deine Entscheidung.",,
+sig.transaction.successful.2,"Die Stimme strahlt Wärme und Begeisterung aus, weil du dich für die Transaktion bedankst und einen positiven Eindruck hinterlässt.",,
+sig.transaction.successful.3,"Nach der Transaktion pflegt der Verkäufer ein herzliches und zuvorkommendes Auftreten und drückt damit seine Wertschätzung für dein Vertrauen aus.",,
+sig.transaction.successful.4,"Die Dankbarkeit ist in ihrer Stimme deutlich zu hören, wenn sie sich bedanken und dir viel Glück auf deiner Reise wünschen.",,
+sig.transaction.successful.5,"Sobald die Transaktion abgeschlossen ist, verschwindet das Signal plötzlich und du musst über die Konsequenzen deiner Entscheidung nachdenken.",,
+sig.transaction.successful.6,"Der Kontakt nimmt die Transaktion höflich und bescheiden zur Kenntnis und vermittelt während des gesamten Austauschs einen Hauch von Professionalität.",,
+sig.transaction.successful.7,"Die Stimme vermittelt ein Gefühl der Kameradschaft, als sie ihre Dankbarkeit zum Ausdruck bringt, und gibt Ihnen das Gefühl, eine wertvolle Verbindung aufgebaut zu haben.",,
+sig.transaction.successful.8,"Die Stimme bleibt auch nach der Transaktion rätselhaft und bietet kryptische Dankesworte, die dich neugierig und fasziniert macht.",,
+sig.transaction.successful.9,"Die Dankbarkeit des Kontakts ist mit einem Hauch von Überraschung verbunden, als ob er nicht damit gerechnet hätte, dass die Transaktion zustande kommt, was bei die ein Gefühl von Erfolg und ein wenig Unbehagen hinterlässt.",,
+sig.transaction.successful.10,"Nach Abschluss der Transaktion wird der Ton des Verkäufers entspannter und freundlicher und er bedankt sich mit aufrichtiger Wertschätzung.",,
+sig.transaction.successful.11,"Die Stimme strahlt Zuversicht und Zufriedenheit aus, wenn sie ihre Dankbarkeit zum Ausdruck bringt, und vermittelt dir ein Gefühl der Sicherheit über deine Entscheidung.",,
+sig.transaction.successful.12,"Nach der Transaktion drückt der anerkennende Kontakt seine Dankbarkeit mit einem unbeschwerten Witz aus und erklärt, dass Ihre beeindruckende Intuition Sie sicherlich selbst durch die verwinkeltesten Situationen führen könnte.",,
+sig.transaction.successful.13,"Nach der Transaktion drückt der Kontakt anerkennend seine Dankbarkeit mit einem unbeschwerten Witz aus und erklärt, dass deine beeindruckende Intuition dich sicherlich auch durch die verwinkeltesten Situationen führen könnte.",,
+sig.transaction.successful.14,"Sobald die Transaktion abgeschlossen ist, ist die Dankbarkeit des Kontakts gedämpft, aber aufrichtig, sodass du über die Bedeutung seiner Entscheidung nur spekulieren kannst.",,
+sig.transaction.successful.15,"Nach der Transaktion schlägt die Stimme einen ehrfurchtsvollen Ton an und dankt dir für dein Vertrauen.",,
+sig.transaction.successful.16,"Die Person bedankt sich, lacht und fügt hinzu, dass der Zeitpunkt perfekt sei, da er gerade dabei sei, den Laden zu schließen und sich einem neuen Hobby zuzuwenden, dem Korbflechten unter Wasser.",,
+sig.transaction.successful.17,"Mit einem witzigen Ton drückt der anerkennende Fremde seine Dankbarkeit aus und scherzt, dass deine Entscheidungskompetenz so scharf sei, dass du der besten Klinge Konkurrenz machen könntest.",,
+sig.transaction.failed.can.retry.0,"Die Person grinst höhnisch, bringt ihre Verachtung für deine Entscheidung zum Ausdruck, fügt aber widerwillig hinzu, dass sie warten würden, wenn du dich entscheidest, zurückzukehren.",,
+sig.transaction.failed.can.retry.1,"Die enttäuschte Person seufzt und erwähnt knapp, dass sie in der Nähe sein wird, wenn du deine Meinung änderst.",,
+sig.transaction.failed.can.retry.2,"Der Kontakt kichert und erklärt beiläufig, dass er warten wird, wenn du es dir noch einmal überlegst.",,
+sig.transaction.failed.can.retry.3,"Die Person teilt dir ruhig mit, dass sie dir zur Verfügung steht, wenn du dich dazu entschließt, die Angelegenheit noch einmal zu prüfen.",,
+sig.transaction.failed.can.retry.4,"Der Kommunikator fleht dich eindringlich an, es sich noch einmal zu überlegen, und betont, dass er warten werde.",,
+sig.transaction.failed.can.retry.5,"Die Person beklagt den Misserfolg, versichert dir aber, dass sie warten wird, wenn du es noch einmal versuchst.",,
+sig.transaction.failed.can.retry.6,"Die Person spottet unhöflich und bemerkt sarkastisch, dass sie in der Nähe sein wird, wenn du endlich zur Besinnung kommst.",,
+sig.transaction.failed.can.retry.7,"Die Verärgerung des Kontakts ist offensichtlich, aber er erklärt nachdrücklich, dass er abwarten wird, wenn du dich dazu entschließt, es dir noch einmal zu überlegen.",,
+sig.transaction.failed.can.retry.8,"Der Kommunikator zuckt gleichgültig mit den Schultern und teilt Ihnen mit, dass sie immer noch da sein werden, wenn Sie Ihre Meinung ändern.",,
+sig.transaction.failed.can.retry.9,"Der Ton der Person ist hart und konfrontativ und bellt, dass er warten wird, bis du "zu Verstand" kommst.",,
+sig.transaction.failed.no.retry.0,"Der Kontakt bleibt gelassen und respektvoll, drückt seine Dankbarkeit für die Gelegenheit aus, die Angelegenheit zu besprechen, und verabschiedet sich von dir, bevor er die Verbindung trennt.",,
+sig.transaction.failed.no.retry.1,"Die enttäuschte Person seufzt, beendet abrupt die Übertragung und lässt keinen Raum für weitere Diskussionen.",,
+sig.transaction.failed.no.retry.2,"Die Stimme des Kontakts wird kalt und sie unterbricht abrupt die Verbindung, was das Ende der Verhandlungen signalisiert.",,
+sig.transaction.failed.no.retry.3,"Die Frustration der Person ist spürbar und sie beendet das Gespräch ohne ein weiteres Wort, sodass du über den Ausgang nachdenken musst.",,
+sig.transaction.failed.no.retry.4,"Die Verärgerung des Gesprächspartners ist offensichtlich, als er sich knapp von dir verabschiedet, die Verbindung abbricht und verschwindet.",,
+sig.transaction.failed.no.retry.5,"Die Person spottet unhöflich und sarkastisch und bemerkt, dass du eine einmalige Gelegenheit verpasst hast, bevor sie die Verbindung trennt.",,
+sig.transaction.failed.no.retry.6,"Die Verärgerung des Kontakts kocht über, und er beendet verärgert das Gespräch und macht deutlich, dass er für zukünftige Gespräche nicht zur Verfügung steht.",,
+sig.transaction.failed.no.retry.7,"Der Ton der Person wird eisig und sie beendet das Gespräch mit einem abweisenden 'Auf Wiedersehen', was ein anhaltendes Gefühl des Unbehagens hinterlässt.",,
+sig.transaction.failed.no.retry.8,"Der Kommunikator murmelt etwas vor sich hin und unterbricht ohne Vorwarnung die Verbindung, seine Frustration ist offensichtlich.",,
+sig.transaction.failed.no.retry.9,"Die Stimme der Person ist voller Verachtung, als sie das Gespräch abrupt beendet und keine Chance mehr lässt, es noch einmal zu überdenken.",,
+sig.transaction.failed.no.retry.10,"Der Kontakt seufzt und drückt seine Enttäuschung aus, bevor er die Verbindung abbricht und deutlich macht, dass er weitermacht.",,
+sig.transaction.failed.no.retry.11,"Die Person nimmt deine Entscheidung höflich zur Kenntnis, wünscht dir alles Gute und beendet die Übertragung mit einer herzlichen Bemerkung.",,
+sig.transaction.failed.no.retry.12,"Der Kontakt drückt Verständnis aus, dankt dir für deine Zeit und trennt sich mit Anmut und Professionalität.",,
+sig.transaction.failed.no.retry.13,"Die Person versichert dir, dass alles in Ordnung ist, und erwähnt, dass sie deine Rücksichtnahme zu schätzen weiß, bevor sie das Gespräch einvernehmlich beendet.",,
+sig.transaction.failed.no.retry.14,"Der Gesprächspartner behält einen freundlichen Ton bei und versteht, dass nicht alle Verhandlungen funktionieren, und beendet das Gespräch mit einem herzlichen Abschied.",,
+sig.transaction.failed.no.retry.15,"Die Stimme nimmt deine Entscheidung freundlich zur Kenntnis und wünscht dir aufrichtig viel Erfolg bei deinen zukünftigen Unternehmungen, bevor sie die Verbindung trennt.",,
+sig.transaction.failed.no.retry.16,"Der Kontakt pflegt einen diplomatischen Ansatz, drückt sein Verständnis aus und verabschiedet sich respektvoll, bevor das Gespräch beendet wird.",,
+sig.transaction.failed.no.retry.17,"Die Person zeigt echtes Mitgefühl für deine Entscheidung, dankt dir für deine Zeit und verabschiedet sich herzlich.",,
+sig.transaction.failed.no.retry.18,"Der Kommunikator bleibt höflich und wünscht dir viel Glück auf deiner Reise, bevor er das Gespräch elegant beendet.",,
+sig.transaction.failed.no.retry.19,"Der Kontakt schenkt dir ein beruhigendes Lächeln und einen aufrichtigen Abschied, sodass du weißt, dass sie keine bösen Gefühle empfinden, bevor du die Übertragung beendest.",,
+sig.transaction.received,"du erhältst: {0}",,{0} will be an item or list of items. There may be new lines there if it's a list
+sig.transaction.request,"du fragst nach: {0}",,{0} will be an item or list of items. There may be new lines there if it's a list
+sig.transaction.will.receive,"du erhältst: {0}",,
+sig.transaction.fulfilled.title,"Signal: Anfrage erfüllt",,
+sig.transaction.failed.title,"Signal: Anfrage nicht erfüllt",,
+sig.transaction.fulfilled,"du hast die Anfrage erfüllt.",,
+sig.transaction.failed,"du hast die Anfrage nicht erfüllt.",,
+sig.transaction.rejected,"du hast die Anfrage abgelehnt.",,
+sig.ask.obj.clear.reward.0,"Der Kontakt meldet sich und erklärt, dass sie versehentlich ihr letztes <b>{0}</b> als Treibstoff für ihre Anti-Schwerkraft-Stiefel verwendet haben. Als Gegenleistung für deine Hilfe, mehr bereitzustellen, versprechen sie <b>{1}</b>.",,"{0} is a material type, like Uranium, {1} is a $100000 or some reward item name."
+sig.ask.obj.clear.reward.1,"Der Kontakt benötigt <b>{0}</b> nach einem Teleportationsunfall. Er weist darauf hin, dass du dir die Belohnung <b>{1}</b> nicht entgehen lassen sollten.",,
+sig.ask.obj.clear.reward.2,"Eine Stimme beschwert sich darüber, dass eine außerirdische Kreatur ihren gesamten Vorrat an <b>{0}</b> verbraucht hat, während sie geschlafen haben. Um ihren Vorrat aufzufüllen, versichern sie dir, dass dein Beitrag mit <b>{1}</b> vergütet wird.",,
+sig.ask.obj.clear.reward.3,"Der Kommunikator bringt ihre Dringlichkeit zum Ausdruck und erklärt, dass ein betrügerischer KI-Bot ihr <b>{0}</b> gestohlen hat. Als Gegenleistung für deine Hilfe, mehr zu erhalten, garantieren sie <b>{1}</b>.",,
+sig.ask.obj.clear.reward.4,"Der Kontakt erzählt dir eine bizarre Geschichte darüber, wie sich in ihrem Quartier ein Wurmloch öffnete und ihr <b>{0}</b> verschluckte. Als Gegenleistung für deine Unterstützung bei der Beschaffung weiterer Produkte versprechen sie <b>{1}</b>.",,
+sig.ask.obj.clear.reward.5,"Der Kontakt meldet sich dringend und erklärt, dass eine plötzliche Sonneneruption ihre wichtige Versorgung mit <b>{0}</b> beschädigt hat. Sie sind verzweifelt auf deine Hilfe angewiesen und versprechen im Gegenzug <b>{1}</b>.",,
+sig.ask.obj.clear.reward.6,"Die Person gibt mit zitternder Stimme zu, dass sie bei einem Weltraumpiratenangriff ihren gesamten Vorrat an <b>{0}</b> verloren hat. Da die Zeit knapp wird, versprechen sie, dich mit <b>{1}</b> zu belohnen, wenn du ihnen helfen kannst.",,
+sig.ask.obj.clear.reward.7,"Die Person teilt in hektischem Tonfall mit, dass ein mysteriöser außerirdischer Virus ihren gesamten Vorrat an <b>{0}</b> verseucht hat. Sie versichern dir, dass dein Beitrag zur Wiederauffüllung ihres Lagerbestands mit <b>{1}</b> vergütet wird.",,
+sig.ask.obj.clear.reward.8,"Der Kommunikator bringt seine Verzweiflung zum Ausdruck und erklärt, dass ein Reinigungsroboter versehentlich sein <b>{0}</b> zerstört hat. Als Gegenleistung für deine Hilfe, mehr zu erhalten, garantieren sie <b>{1}</b>.",,
+sig.ask.obj.clear.reward.9,"Der Kontakt erzählt dir eine erschütternde Geschichte darüber, wie ein abtrünniger Asteroid sein Schiff und seinen gesamten Vorrat an <b>{0}</b> zerstört hat. Als Gegenleistung für deine dringende Hilfe bei der Beschaffung weiterer Produkte versprechen sie <b>{1}</b>.",,
+sig.ask.obj.clear.reward.10,"Der Kontakt meldet sich dringend und benötigt <b>{0}</b>. Als Gegenleistung für deine Hilfe versprechen sie <b>{1}</b>.",,
+sig.ask.obj.clear.reward.11,"Eine synthetische Stimme fordert <b>{0}</b> für einen unbestimmten Zweck an. Inmitten von Hintergrundgeräuschen, die wie ein kosmisches Kazoo-Orchester klingen, versichern sie dir, dass deine Mitarbeit mit <b>{1}</b> belohnt wird.",,
+sig.ask.obj.clear.reward.12,"Ein mysteriöser Kontakt teilt einen dringenden Bedarf an <b>{0}</b> mit und gibt keine weiteren Details bekannt. Während im Hintergrund laute Zirkusmusik läuft, erwähnen sie scherzhaft ihre lauten Nachbarn. Um dich für deine Hilfe zu entschädigen, garantieren sie <b>{1}</b>.",,
+sig.ask.obj.clear.reward.13,"Der Kontakt verlor sein <b>{0}</b> in einem Asteroidenfeld. Sie erwähnen, dass die <b>{1}</b>-Belohnung zu gut ist, um sie sich entgehen zu lassen.",,
+sig.ask.obj.clear.reward.14,"Der Kontakt meldet sich kryptisch und vermittelt, wie wichtig es ist, <b>{0}</b> zu erwerben. Sie verpflichten sich, im Gegenzug für deine Unterstützung <b>{1}</b> bereitzustellen.",,
+sig.transaction.failed.lack.items,"du hast die gewünschten Artikel nicht.",,
+objects.devices.centrifuge,"Zentrifuge",,
+objects.devices.centrifuge.desc,"Ein vielseitiges Anreicherungsgerät, verwendet eine leistungsstarke Hochgeschwindigkeitszentrifuge, um Isotope von Elementen anhand ihrer Atommasse zu trennen und so die Produktion angereicherter Schwermetalle oder radioaktiver Substanzen für verschiedene Anwendungen zu ermöglichen.",,
+obj.materials.enricheduranium,"Angereichertes Uran",,
+obj.materials.enricheduranium.desc,"Angereichertes Uran enthält einen höheren Anteil des spaltbaren Isotops U-235, das durch Isotopentrennung gewonnen wird, was nachhaltige Kettenreaktionen für Kernreaktoranwendungen ermöglicht.",,
+refine,"Verfeinern",,
+refining.now,"{0} verfeinern",,
+obj.materials.nuclearcell,"Kernzelle",,
+obj.materials.nuclearcell.desc,"Eine kompakte Kernbatteriezelle nutzt die beim radioaktiven Zerfall erzeugte Energie und wandelt sie durch Prozesse wie Thermophotovoltaik oder thermoelektrische Umwandlung in elektrische Energie um.",,
+sig.extortion.0,"Der Kontakt weist darauf hin, dass die Nichtbereitstellung von <b>{0}</b> zu Konsequenzen führen kann, die du bereuen wirst.",,
+sig.extortion.1,"Die Stimme droht, dass die Weigerung, <b>{0}</b> zu geben, schlimme Folgen haben könnte.",,
+sig.extortion.2,"Eine heisere Stimme warnt davor, dass die Ablehnung ihres Antrags auf <b>{0}</b> zu Bedauern und Verzweiflung führen könnte.",,
+sig.extortion.3,"Der Kontakt fordert aggressiv mit erhobener Stimme <b>{0}</b>. Das Geräusch der bewaffneten Waffen im Hintergrund gibt einem das Gefühl, dass ein Angriff unmittelbar bevorsteht.",,
+sig.extortion.4,"Eine feindselige Stimme befiehlt dir, <b>{0}</b> auszuhändigen, während das Geräusch eines Schwarms hochfahrender Kampfdrohnen eine erschreckende Warnung aussendet, was auf dich zukommt, wenn du dem nicht nachkommst.",,
+sig.extortion.5,"Der drohende Tonfall des Kontakts lässt darauf schließen, dass <b>{0}</b> sofort empfangen wird. Das ferne Brummen der Motoren eines Kriegsschiffs deutet darauf hin, dass sie nicht davor zurückschrecken, bei Bedarf Gewalt anzuwenden.",,
+sig.extortion.6,"Eine Stimme ist voller Wut, als sie <b>{0}</b> fordern. Das unverkennbare Geräusch einer schweren Artillerieeinheit, die im Hintergrund vorbereitet wird, lässt keinen Zweifel daran, dass es sich um eine ernste Artillerieeinheit handelt.",,
+sig.extortion.7,"Der Kontakt fordert dich auf, sofort <b>{0}</b> bereitzustellen. Das bedrohliche Geräusch einer aufladenden Energiekanone würde einem einen Schauer über den Rücken laufen lassen, wenn man noch einen hätte, und warnt vor den schrecklichen Folgen der Nichteinhaltung.",,
+sig.extortion.8,"Eine Stimme schreit dich an und fordert <b>{0}</b>. Im Hintergrund sind wütende Geräusche zu hören. Es hört sich an, als würde eine Enterkapsel geladen und wäre bereit, einen Angriff zu starten.",,
+sig.extortion.paid.0,"Als sie erhalten, was sie wollten, grinst die Stimme verächtlich und warnt dich, auf der Hut zu sein.",,
+sig.extortion.paid.1,"Sobald die Piraten bekommen, was sie verlangt haben, senden sie eine boshafte Nachricht, in der sie behaupten, dass sie sich an deine Schwäche erinnern werden.",,
+sig.extortion.paid.2,"Die Stimme spottet über deine Unterwerfung und macht deutlich, dass du dich nur vorübergehenden Frieden erkauft hast.",,
+sig.extortion.paid.3,"Widerwillig zufrieden mit deiner Einhaltung, drohen sie dir mit der Erinnerung, dass sie nicht zögern würden, erneut zuzuschlagen, wenn sich die Gelegenheit dazu bietet.",,
+sig.extortion.paid.4,"Nachdem die Räuber erreicht haben, was sie wollten, warnen sie dich kaltschnäuzig davor, ihr derzeitiges Schweigen mit Gnade zu verwechseln, da sie in Zukunft möglicherweise mehr davon erwarten.",,
+sig.extortion.refused.0,"Wütend über deine Weigerung versprechen die Piraten, dass du deine Entscheidung bereuen und für Rache zurückkommen werden.",,
+sig.extortion.refused.1,"Die Stimme warnt dich, dass dein Widerstand ihre Vergeltung nur noch rücksichtsloser machen wird.",,
+sig.extortion.refused.2,"Die Räuber sind verärgert über deine Weigerung und drohen, dich für deine Unverschämtheit büßen zu lassen.",,
+sig.extortion.refused.3,"Der Kontakt versichert dir, dass dein Widerstand schlimme Folgen haben wird und dass er deinen Widerstand nicht vergessen wird.",,
+sig.extortion.refused.4,"Die Piraten behaupten bedrohlich, dass deine Weigerung nicht ungestraft bleiben wird und dass sie dich holen werden, wenn du es am wenigsten erwartest.",,
+show.roof,"äußeren Rumpf anzeigen",,
+show.roof.tip,"Wenn ein Bereich keine Außenhülle hat, bedeutet das, dass er nicht vollständig umschlossen ist. Irgendwo fehlt ein Boden- oder Wandstück. Es kann nicht garantiert werden, dass Bereiche mit einer Außenhülle vollständig luftdicht oder isoliert sind. Überprüfe daher die Luftdichtheit und die Isolierungsübersicht noch einmal, um mögliche Lecks zu finden.",,
+hold.button.for.more.info,"Halte {0} gedrückt, um weitere Informationen zu erhalten",,"{0} is going to be an image with a key, like CTRL"
+ui.auto.pack,"Benutzeroberfläche automatisch komprimieren",,
+ui.auto.pack.tip,"Wenn die automatische Komprimierung aktiviert ist, werden einige UI-Listenelemente möglicherweise gruppiert, um die Listenlänge zu reduzieren. Möglicherweise musst du das Spiel neu starten, um die Änderungen an dieser Einstellung zu übernehmen.",,
+situation.BlackHoleJumps,"Schwarze-Loch-Sprünge",,
+sys.locked.by.research,"Suche nach <b>{0}</b>, um diese Funktionalität freizuschalten.",,"{0} is technology name"
+mining.auto.unlocked,"Du kannst jetzt die für die Automatisierung des Bergbaubetriebs erforderliche Ausrüstung bauen. <b>{0}</b>-Overlay ist aktiviert.",,
+verb.mine,"abbauen",,"as in mine the iron ore deposit"
+compatible.items,"Kompatible Gegenstände",,"Items could be anything, fuel, clothing, equipment, devices"
+compatible.item,"Kompatibler Gegenstand",,"singular version of compatible.items"
+details.unknown,"Details unbekannt",,"displayed in the list when there is no details about some event"
+obj.upgrades.shuttledrillupgrade,"Shuttle-Bohrer-Erweiterung",,
+obj.upgrades.shuttledrillupgrade.desc,"Fügt den Bergbauexpeditionen eine zusätzliche Bergbaurate hinzu. Stapelbar.",,
+mining.power,"Bergbaurate",,"Will be next to a numeric value that shows the device mining power"
+exp.require.all.crew.info,"Wenn diese Option aktiviert ist, wird die Expedition nicht gestartet, wenn eines der Besatzungsmitglieder das Shuttle nicht erreicht.",,
+exp.require.all.crew,"Erfordert die gesamte Besatzung",,
+obj.upgrades.thrusterupgrade,"Triebwerks-Erweiterung",,
+obj.upgrades.thrusterupgrade.desc,"Kompatibel mit kleinen Triebwerken. Fügt einen Nachbrenner hinzu, allerdings mit leicht erhöhter Fehlfunktionsgefahr. Stapelbar.",,
+modifier.BeingsCount_Robot,"Start Bauroboter: {0}",,
+modifier.BeingsCount_Drone,"Start Baudrohnen: {0}",,
+modifier.BeingsCount_Carrier,"Start Transportdrohnen: {0}",,
+modifier.BeingsCount_Human,"Start Überlebende: {0}",,
+modifier.BeingsCount_Carrier.desc,"Passt die Startanzahl der Transportdrohnen an.",,
+modifier.BeingsCount_Drone.desc,"Passt die Startanzahl der Baudrohnen an.",,
+modifier.BeingsCount_Human.desc,"Passt die Startanzahl der überlebenden Kolonisten an.",,
+modifier.BeingsCount_Robot.desc,"Passt die Startanzahl der Bauroboter an.",,
+deconstruct.order.haul,"Automatischer Transport dekonstruierter Materialien",,
+deconstruct.order.haul.tip,"Wenn diese Option aktiviert ist, werden beim Zerlegen eines Objekts automatisch Aufgaben mit niedriger Priorität für den Transport der Rohstoffe erstellt.",,
+compatible.engine.types,"Nur die folgenden Triebwerkstypen kÖnnen <b>{0}</b> ausfÜhren: {1}",,"{0} will be something like Intergalactic Flight, {1} will be the list of engines names like Thrusters and Fusion Drives"
+ship.capable.planet,"Orbitalflug",,"Like Intergalactic or Intersystem or Interplanetary but this is close to the planet - flight between planet moons and around the planet"
+ship.forward.direction.tip,"Deine Motoren sollten entgegengesetzt zu ihrer Vorwärtsrichtung ausgerichtet sein.",,
+stasis.prevent.wake.ups,"Störungen vorbeugen",,
+stasis.prevent.wake.ups.tip,"Verbrauche zusätzlichen Strom, um Fehlfunktionen der Kapsel zu verhindern, die zum Aufwachen der Kolonisten führen. Die volle Wirkung wird erreicht, wenn die Kryostabilität mindestens <b>{0}</b> beträgt.",,"{0} will be a percentage number like 90%"
+label.use.as.room.name,"Als Raumnamen verwenden",,
+label.always.show,"immer anzeigen",,
+tool.connect,"verbinden",,
+tool.connect.desc,"Klicken und ziehe, um Geräte zu verbinden und zu trennen. Funktioniert an Stromnetz- und Teleporterverbindungen.",,
+overlay.tip.Electricity,"Elektrizität",,
+objects.devices.gpumodule,"GPU-Modul ({0}Thz)",,
+objects.devices.gpumodule.desc,"Eine effizientere dedizierte Grafikverarbeitungseinheit mit höherer Speicherbandbreite, perfekt für das Mining digitaler Währungen.",,
+objects.devices.gpumodulemini,"GPU Module ({0}Thz)",,
+objects.devices.gpumodulemini.desc,"Eine effiziente dedizierte Grafikverarbeitungseinheit mit hoher Speicherbandbreite, perfekt für das Mining digitaler Währungen.",,
+fuel.burn.rate,"Kraftstoffverbrauchsrate",,
+fuel.burn.rate.h,"{0:0.###}/h",,
+fuel.burn.rate.tip,"Brenngeschwindigkeit: {0:0.###}/h",,
+currency.mine.rate.h,"{0}/h",,"h is for hours; {0} will be currency amount, like $100"
+currency.mine.gpu.tip,"Aktuelle GPU-Kapazität: <b>{0}Thz</b>. Fügen Sie weitere GPU-Module hinzu, um die Mining-Rate zu erhöhen.",,
+gpu.module.builtin,"Integriertes GPU-Modul",,
+research.advancedgpu,"Erweiterte GPU",,
+missing.mods.warning,"{0} Fehlende Mods!",,{0} is the number of mods"
+missing.mods.load.warning,"Diese Sicherungsdatei hängt von fehlenden, defekten oder veralteten Mods ab und kann möglicherweise nicht richtig geladen werden. Möglicherweise kannst du in Steam Betas zu einem älteren Zweig wechseln, um diese Sicherungsdatei mit allen Mods weiter abzuspielen. Hier wurde ein Backup erstellt:<br><br><b>{0}</b><br><br>Liste der nicht verfügbaren Mods:{1}",,
+link.display.teleporters,"Teleporter",,"plural noun"
+object.in.safe.area,"Objekt im sicheren Bereich",,
+try.auto.connect,"Versuche es mit automatischen Verbinden",,
+try.auto.connect.tip,"Dadurch wird versucht, das Stromnetz nach getrennten oder nicht erreichbaren Geräten zu durchsuchen und diese nach Möglichkeit automatisch zu verbinden. Wenn bei einem Versuch nicht alles automatisch verbunden wurde, kannst du diese Aktion mehrmals versuchen. <b>Warnung: Bei sehr großen Rastern kann es eine Weile dauern.</b>",,
+cpu.cap.would.be.reached,"Du kannst keinen weiteren Schiffscomputer anschließen. Das aktuelle Limit beträgt <b>{0}</b>. Diese Grenze kann durch Forschung erhöht werden.",,
+auto.connect.progress,"Automatisch verbundene <b>{0}</b>-Geräte. Warten.",,
+restrict.clock.on.disasters,"Begrenze die Taktgeschwindigkeit bei Katastrophen",,
+noun.structure,"Struktur",,
+noun.device,"Gerät",,
+noun.worker,"Arbeiter",,
+noun.enemy,"Feind",,
+noun.colonist,"olonist",,
+noun.material,"Material",,
+noun.object,"Objekt",,
+nameless,"Namenlos",,
+ui.group.Condition,"Zustand",,
+ui.group.Environment,"Umfeld",,
+ui.group.Management,"Management",,
+ui.group.Stats,"Statistiken",,
+ui.group.Activity,"Aktivität",,
+ui.group.Misc,"Sonstiges",,
+adj.movable,"Beweglich",,
+adj.reinstallable,"Wieder installierbar",,
+worker.management,"Arbeitermanagement",,
+input.OpenInventory,"Verknüpfung: Inventar öffnen",,
+teleporter.ready,"Teleporter bereit",,
+focus.on.items.after.trade,"Konzentriere dich auf die erhaltenen Gegenstände nach dem Handel",,
+toggle.log,"Protokoll umschalten",,
+evt.micro.meteors.ended,"Mikrometeorschauer beendet",,
+joined.mutiny,"hat sich der Meuterei angeschlossen",,"Will be prefixed by human name, i.e. 'John: Joined the mutiny'"
+breakdown.ended,"Nervenzusammenbruch beendet",,
+took.damage.from,"Hat {0} {1} Schaden von {2} erlitten",,"{0} amount, {1} type, {2} source. Will look like 'took 12 Heat damage from Mike'"
+took.damage,"hat {0} {1} Schaden erlitten",,"{0} amount, {1} type"
+structure.floors.oxymaticfloor.desc,"Eine elegante Alternative zur bodenbasierten Sauerstoffpumpe mit besserer Sauerstoffproduktionsrate.",,
+structure.floors.oxymaticfloor,"O2-Boden",,
+structure.floors.heatmaticfloor.desc,"Eine elegante Alternative zur Bodenheizung mit erhöhter Heizrate.",,
+structure.floors.heatmaticfloor,"Heiz-Boden",,
+research.atmospherecontroladvanced,"Erweiterte Atmosphärenkontrolle",,
+research.heatingadvanced,"Erweiterte Heizung",,
+mood.short,"Stimmung: {0}",,"Displayed as short text on the side, 'Mood' should be abbreviated to max 4-5 characters or will be unreadable"
+can.sell.for,"Kann {0} für {1} verkaufen",,"Ex.: Can sell 12 for $123"
+can.buy.for,"Kann {0} für {1} kaufen",,"Ex.: Can buy 12 for $123"
+structure.floors.coolmaticfloor,"Kühl-Boden",,
+structure.floors.coolmaticfloor.desc,"Eine elegante, bodenstehende Kühlkörperalternative mit erhöhter Kühlrate.",,
+research.coolingadvanced,"Fortschrittliche Kühlung",,
+all,"Alle",,"example use is to set what the filter is showing when it is showing everything"
+filter,"Filter",,"short text for a button that toggles a filter"
+selected,"Ausgewählt",,"filter label for items that are selected"
+not.selected,"Nicht ausgewählt",,"filter label for items that are not selected"
+asimov.override.installed,"Asimovs Gesetze der Robotik außer Kraft setzen",,
+tier.locked.tip,"Erforsche <b>{0}</b> weitere <b>Stufe {1}</b>-Technologien, um <b>Stufe {2}</b> freizuschalten",,"variables ar numbers"
+research.blocked,"Forschung blockiert",,
+objects.devices.datoidloader,"Datoid-Lader",,
+objects.devices.datoidloader.desc,"Ein spezieller Speicher, der <b>Datoids</b> enthält, die für Forschungszwecke verwendet werden können. Muss neben dem Schiffscomputer liegen.",,
+producing.now,"Produzieren {0}",,
+verb.produce,"Produzieren",,
+objects.devices.dataharvesterbasic,"Grundlegender Daten-Ernter",,
+objects.devices.dataharvesterbasic.desc,"Produziert grundlegende Arten von <b>Datoiden</b>, die für die Erforschung von Technologien niedriger Stufen verwendet werden können.",,
+all.except.beings,"Außer Wesen",,as in 'everything except beings'
+available.datoids,"Verfügbare Datoids",,
+bookmarks,"Lesezeichen",,
+bookmark,"Lesezeichen",,
+obj.eggs.egg01_hatched,"Außerirdische Eierschale",,
+obj.eggs.egg01_hatched.desc,"Überreste eines außerirdischen Eies.",,
+obj.materials.eggshell,"Außerirdische Eierschale",,
+obj.materials.eggshell.desc,"Überreste eines außerirdischen Eies.",,
+failed.to.find.safe.path,"Es konnte kein sicherer Pfad zu {0} gefunden werden",,"{0} is object name, like Shuttle"
+failed.path.safety.at,"{0} kann nicht durchlaufen werden: <b>{1}</b>",,"{0} is location coordinate, {1} is reason like 'too hot'"
+menu.datoids,"Datoids",,
+menu.datoids.desc,"<b>Datoids</b> sind kleine Dateneinheiten, die für Forschungszwecke verwendet werden können.",,
+obj.datoids.datoidalien,"Alien Datoid",,
+obj.datoids.datoidalien.desc,"Ein seltener <b>Datoid</b> außerirdischen Ursprungs.",,
+obj.datoids.datoidbasic,"Grundlegendes Datoid",,
+obj.datoids.datoidbasic.desc,"<b>Datoids</b> sind kleine Dateneinheiten, die für Forschungszwecke verwendet werden können. Sie müssen in einem <b>Datoid-Lader</b> gespeichert werden, um nutzbar zu sein.",,
+obj.datoids.datoidbiotic,"Biotischer Datoid",,
+obj.datoids.datoidbiotic.desc,"Ein <b>Datoid</b>, das aus lebenden Organismen gewonnen wird.",,
+obj.datoids.datoidenergy,"Energie Datoid",,
+obj.datoids.datoidenergy.desc,"Dieser <b>Datoid</b> ist für die Nutzung fortschrittlicher Energieproduktion unerlässlich.",,
+obj.datoids.datoidnuclear,"Nuklearer Datoid",,
+obj.datoids.datoidnuclear.desc,"Ein <b>Datoid</b>, das das Verständnis nuklearer Reaktionen ermöglicht.",,
+obj.datoids.datoidphyto,"Phyto Datoid",,
+obj.datoids.datoidphyto.desc,"Dieses <b>Datoid</b> wird aus pflanzlicher organischer Substanz gewonnen.",,
+obj.datoids.datoidquantum,"Quanten Datoid",,
+obj.datoids.datoidquantum.desc,"Fortgeschrittener <b>Datoid</b>, der die Geheimnisse des Universums selbst enthält.",,
+obj.datoids.datoidsynthetic,"Synthetischer Datoid",,
+obj.datoids.datoidsynthetic.desc,"Ein <b>Datoid</b>, das aus hochraffinierten Substanzen synthetisiert wurde.",,
+obj.datoids.datoidtech,"Tech Datoid",,
+obj.datoids.datoidtech.desc,"Ein <b>Datoid</b>, das die gängige Technologie besser beleuchtet.",,
+obj.datoids.datoidtechhigh,"High-Tech-Datoid",,
+obj.datoids.datoidtechhigh.desc,"Dieses <b>Datoid</b> bringt die Technologie auf die nächste Stufe.",,
+obj.materials.darkmatter,"Dunkle Materie",,
+obj.materials.darkmatter.desc,"Eine geheimnisvolle Substanz, die reichlich vorhanden und dennoch äußerst schwer zu bekommen ist.",,
+verb.split,"Teilt",,
+objects.devices.dataharvesteradvanced,"Erweiterter Daten-Ernter",,
+objects.devices.dataharvesteradvanced.desc,"produziert fortgeschrittene Arten von <b>Datoiden</b>, die für die Erforschung höherstufiger Technologien erforderlich sind.",,
+objects.devices.dataharvesterquantum,"Quantendaten-Ernter",,
+objects.devices.dataharvesterquantum.desc,"Verwendet hochentwickelte Quantenverarbeitung, um seltene <b>Datoide</b> zu produzieren.",,
+engine.move.section.too.small,"Der Abschnitt, den du verschieben möchtest, ist zu klein. Winzige Strukturflecken im Raum gelten nicht als gültige Abschnitte. Konsultiere das <b>{0}</b>-Overlay, um zu sehen, was verschoben werden kann.",,
+verb.move,"bewegen",,
+location.nearby,"Nahe",,
+noun.datoid,"Datoid",,
+quest.reward.material,"<b>{0}</b>:  <b>x{1}</b>",,"Example: Basic Datoid:  x10"
+display.nebula,"Weltraumnebel anzeigen",,
+display.nebula.tip,"Das Deaktivieren des Weltraumnebels kann die GPU-Leistung auf weniger leistungsstarker Hardware verbessern",,
+objects.devices.oxygenpumpmini,"Mini-Sauerstoffpumpe",,
+objects.devices.oxygenpumpmini.desc,"Eine kompakte Sauerstoffpumpe, perfekt für einzelne Quartiere oder kleinere Bereiche.",,
+research.computing.cpu,"CPU",,
+research.computing.cpuimproved,"Verbesserte CPU",,
+research.computing.disk,"Festplattenspeicher",,
+research.computing.diskcompression,"Festplattenkomprimierung",,
+research.computing.diskimproved,"Verbesserte Festplatte",,
+research.computing.gpu,"GPU",,
+research.computing.gpuimproved,"Verbesserte GPU",,
+research.computing.heatsink,"Kühlkörper",,
+research.computing.highavailability,"Hohe Verfügbarkeit",,
+research.computing.highavailabilityadvanced,"Erweiterte Hochverfügbarkeit",,
+research.computing.highavailabilityimproved,"Verbesserte Hochverfügbarkeit",,
+research.computing.memory,"Speicher",,
+research.computing.memorycompression,"Speicherkomprimierung",,
+research.computing.memoryimproved,"Verbesserter Speicher",,
+research.computing.research,"Grundlagenforschung",,
+research.computing.researchadvanced,"Fortgeschrittene Forschung",,
+research.computing.researchquantum,"Quantenforschung",,
+research.computing.researchstation,"Forschungsstation",,
+research.construction.atmospherecontrolreinforced,"Verstärkte Atmosphärenkontrolle",,
+research.construction.emblemfloors,"Emblemböden",,
+research.construction.emblemfloorsreinforced,"Verstärkte Emblemböden",,
+research.construction.glass,"Glasstruktur",,
+research.construction.glassreinforced,"Verstärktes Glas",,
+research.construction.habitation,"Wohnen",,
+research.construction.habitationglass,"Wohnglas",,
+research.construction.lighting,"Strukturelle Beleuchtung",,
+research.construction.speed,"Baugeschwindigkeit x2",,
+research.construction.speed2,"Baugeschwindigkeit x4",,
+research.construction.speed3,"Baugeschwindigkeit x6",,
+research.construction.speed4,"Baugeschwindigkeit x8",,
+research.construction.structure,"Struktur",,
+research.construction.structurereinforced,"Verstärkte Struktur",,
+research.economy.root,"Wirtschaft",,
+research.economy.wallet,"Geldbörse",,
+research.energy.connector,"Verbinder",,
+research.energy.connectorauto,"Verbinder-Automatisierung",,
+research.energy.connectorfloor,"Bodenverbinder",,
+research.energy.connectorimproved,"Verbesserter Verbinder",,
+research.energy.connectorwall,"Wandanschluss",,
+research.energy.reactor,"Basisreaktor",,
+research.energy.reactorefficiency,"Reaktoreffizienz",,
+research.energy.reactorimproved,"Verbesserter Reaktor",,
+research.energy.reactornuclear,"Kernreaktor",,
+research.energy.solar,"Solarmodule",,
+research.energy.solarefficient,"Effiziente Solarmodule",,
+research.energy.solarimproved,"Verbesserte Solarmodule",,
+research.energy.storageimproved,"Verbesserte Energiespeicherung",,
+research.energy.storagenuclear,"Kernenergiespeicher",,
+research.energy.switch,"Schalten",,
+research.habitation.decorations,"Dekorationen",,
+research.habitation.furnitureimproved,"Verbesserte Möbel",,
+research.habitation.root,"Wohnen",,
+research.habitation.storagecold,"Kühlhaus",,
+research.habitation.storagecoldimproved,"Verbesserte Kühllagerung",,
+research.habitation.storagekitchen,"Küchenaufbewahrung",,
+research.habitation.storagekitchenimproved,"Verbesserte Aufbewahrung in der Küche",,
+research.lifesupport.coolingadvanced,"Fortschrittliche Kühlung",,
+research.lifesupport.coolingimproved,"Verbesserte Kühlung",,
+research.lifesupport.foodproduction,"Lebensmittelproduktion",,
+research.lifesupport.foodproductionimproved,"Verbesserte Nahrungsmittelproduktion",,
+research.lifesupport.geneticengineering,"Gentechnik",,
+research.lifesupport.heatingimproved,"Verbesserte Heizung",,
+research.lifesupport.oxygen,"Sauerstoffproduktion",,
+research.lifesupport.oxygenadvanced,"Fortschrittliche Sauerstoffproduktion",,
+research.lifesupport.oxygenimproved,"Verbesserte Sauerstoffproduktion",,
+research.lifesupport.planterimproved,"Verbesserter Pflanzer",,
+research.lifesupport.root,"Lebenserhaltung",,
+research.production.assembly,"Montage",,
+research.production.assemblyadvanced,"Erweiterte Montage",,
+research.production.assemblyimproved,"Verbesserte Montage",,
+research.production.batteriesnuclear,"Atombatterie",,
+research.production.biochemicalextraction,"Biochemische Extraktion",,
+research.production.chemicalengineering,"Chemieingenieurwesen",,
+research.production.disassembly,"Demontage",,
+research.production.electronics,"Elektronik",,
+research.production.materialprocessing,"Materialverarbeitung",,
+research.production.materialsynthesis,"Materialsynthese",,
+research.production.nuclearenrichment,"Nukleare Anreicherung",,
+research.production.oilprocessing,"Ölverarbeitung",,
+research.production.optics,"Optik",,
+research.robotics.robotcap1024,"Roboterkapzität 1024",,
+research.robotics.robotcap128,"Roboterkapazität 128",,
+research.robotics.robotcap16,"Roboterkapazität 16",,
+research.robotics.robotcap24,"Roboterkapazität 24",,
+research.robotics.robotcap256,"Roboterkapazität 256",,
+research.robotics.robotcap32,"Roboterkapazität 32",,
+research.robotics.robotcap48,"Roboterkapazität 48",,
+research.robotics.robotcap512,"Roboterkapazität 512",,
+research.robotics.robotcap64,"Roboterkapazität 64",,
+research.robotics.robotcap12,"Roboterkapazität 12",,
+research.robotics.robotcap96,"Roboterkapazität 96",,
+research.rogueai.root,"Schurken-K.I.",,
+research.security.explosives,"Sprengstoffe",,
+research.security.firesuppression,"Brandbekämpfung",,
+research.security.turrets,"Türme",,
+research.spacetravel.bridge,"Brücke",,
+research.spacetravel.propulsionfusion,"Fusionsantrieb",,
+research.spacetravel.shuttlemining,"Effizienz des Shuttle-Abbaus",,
+research.spacetravel.shuttlestorage,"Erweiterung des Shuttle-Lagers",,
+research.spacetravel.teleportation,"Kurzstreckenteleportation",,
+research.spacetravel.thrusterupgrade,"Triebwerkseffizienz",,
+ship.not.in.one.piece.tip,"Mit dem Overlay <b>{0}</b> kannst du unerwünschte Strukturen entfernen. Verfallene Schiffe müssen befestigt, abgebaut oder aufgegeben werden, bevor dein Schiff das aktuelle Gebiet verlassen kann.",,
+quest.EstablishResearch,"Etablierte Forschung",,
+quest.EstablishResearch.desc,"Forschung verbraucht <b>Datoids</b>, die in einem <b>Daten-Ernter</b> erstellt und in einem <b>Datoid-Lader</b> gespeichert werden.",,
+compatible.storage,"Kompatibler Speicher",,
+amb.color.black,"Pech-Schwarz",,
+obj.materials.leadplate,Bleiplatte,,
+obj.materials.lead,Blei,,
+obj.materials.crawlergoo,Krabbler Schleim,,
+obj.materials.crawlergoo.desc,"Ein blasser phosphoreszierender Rückstand, der pulsiert, als hätte er ein Eigenleben. Könnte für die Forschung nützlich sein.",,
+obj.materials.lead.desc,"Ein mattgraues Erzmineral mit kubischen oder oktaedrischen Kristallstrukturen, das häufig in sedimentären Gesteinen vorkommt.",,
+obj.materials.leadplate.desc,"Eine dicke, schwere Platte aus Blei.",,
+research.production.root,"Produktion",,
+obj.materials.biofuel,"Bio-Kraftstoff",,
+obj.materials.biofuel.desc,"Bio-Kraftstoff, auch als 'Kraftstoff aus Pups' bekannt, wandelt Abfall bzw. Exkremente (Mist), in erneuerbare Energie um.",,
+evt.damaged.structure.collapsed,"Eine Beschädigte Struktur ist zusammengebrochen!",,
+evt.damaged.structure.collapsed.desc,"Beschädigte Struktur {0} brach bei {1} zusammen.",,"{0} is floor or wall, {1} is location coordinate"
+evt.damaged.device.exploded,"Beschädigtes Gerät ist explodiert!",,
+evt.damaged.device.exploded.desc,"Beschädigtes Gerät {0} explodierte bei {1}.",,"{0} is device, {1} is location coordinate"
+evt.damaged.device.fire,"Beschädigtes Gerät brennt!",,
+evt.damaged.device.fire.desc,"Das brennende, beschädigte Gerät {0} löste ein Feuer bei {1} aus",,
+last.meal,"Letzte Mahlzeit",,
+breakdown.BreakdownFoodPoisoning,"Lebensmittelvergiftung",,
+breakdown.BreakdownFoodPoisoning.desc,"{0} leidet an einer Lebensmittelvergiftung!",,
+act.BreakdownFoodPoisoning,"Leidet an einer Lebensmittelvergiftung.",,
+research.ready.to.unlock,"Forschungen bereit zum Freischalten",,"{0} is a number, it says that X research items are ready to unlock right now"							
+research.ready.bookmarked,"Markierte Forschungen bereit zum Freischalten",,"{0} is a number, it says that X bookmarked research items are ready to unlock right now"					
+research.ready.to.unlock.tip,"<b>{0}</b> Forschungen sind fertig zum Freischalten.",,"{0} is number"						
+research.ready.bookmarked.tip,"<b>{0}</b> markierte und <b>{1}</b> allgemeine Forschungen sind fertig zum Freischalten.",,"variables are numbers"						
+research.lacks.resource,"Forschung <b>{0}</b> angehalten: {1}",,"{0} is resource name {1} is number"						
+bookmark.add,"Markierung hinzufügen",,
+bookmark.remove,"Markierung entfernen",,
+required.material,"Benötigt: {0}",,
+research.prerequisites.missing,"<b>{0}</b> vorher nötige Forschungen",,									
+research.tier.locked,"Forschungsstufe <b>{0}</b> ist gesperrt",,								
+unlock.miningautomation.desc,Schaltet das <b>{0}</b>-Overlay und die für die Bergbau-Automatisierung erforderlichen Tools frei,, {0} will be Copter Missions translation
+research.cpu.cap,Schiffscomputer Kapazität {0},,
+research.cpu.cap.desc,Schaltet die Möglichkeit frei, <b>{0}</b> aktive Schiffscomputer zu haben,,
+system.scan.basic,System Scan,,
+system.scan.advanced,Erweiterter System Scan,,
+system.scan.basic.desc,Schaltet die Möglichkeit frei, das aktuelle Sternensystem nach bestimmten Ressourcen zu durchsuchen,,
+system.scan.advanced.desc,"Verbessert die Fähigkeit, das aktuelle Sternensystem mit zusätzlichen Zieltypen (Anomalien, Fraktionen usw.) zu scannen.",,
+unlocks.item,Freigeschaltet <b>{0}</b>,, {0} is the name of the unlockable
+item.now.available,<b>{0}</b> ist jetzt Verfügbar,,
+unlock.effect.wallet,Schaltet die <b>{0}</b>-Ansicht und Informationen zum Händlerhandelspreisaufschlag frei,,
+elysium.now.available,Du kannst jetzt dein <b>{0}</b> in <b>{1}</b> umwandeln,,"{0} will be Stasis Array translation, {1} will be Elysium translation"
+unlock.effect.robot.cap,Max aktive Roboter: <b>{0}</b>,,
+unlock.effect.robot.cap.desc,Ermöglicht bis zu <b>{0}</b> aktive Roboterarbeiter,,
+unlock.effect.robot.cap.notification,Du kannst jetzt bis zu <b>{0}</b> aktive Roboterarbeiter haben,,
+unlock.effect.construction.speed,Baugeschwindigkeit {0},, {0} is something like x4
+unlock.effect.construction.speed.desc,Die Ausführungsgeschwindigkeit von Bau-/Dekonstruktions-/Reparaturaufgaben beträgt <b>{0}</b>,,
+unlock.effect.construction.speed.unlocked,Die Ausführungsgeschwindigkeit von Bau-/Dekonstruktions-/Reparaturaufgaben beträgt jetzt <b>{0}</b>,,
+modifier.achievement.block.warning,Wenn du diesen Modifikator änderst, werden Erfolge für diesen Speicherstand deaktiviert. Bitte bestätige, ob du damit einverstanden sind.,,
+bot.cap.exceeded,Bot-Abschaltung: Limit überschritten,,
+bot.cap.tip,Du kannst <b>{0}</b> aktive Bots haben. Das Limit kann durch Forschung erhöht werden.,,
+active.robots,Aktive Roboter,,
+offline.robots,Nicht aktive Roboter,,
+not.enough.cpu,Nicht genug CPU-Kapazität,,
+cpu.bound.suggestion,Trenne einige Geräte oder füge weitere CPU-Module hinzu, um die Kontrolle wiederzuerlangen.,,
+modifier.NoBotLimit,Bot-Limit deaktivieren,,
+modifier.NoBotLimit.desc,„Wenn das Bot-Limit nicht deaktiviert ist, musst du durch Forschung die Möglichkeit freischalten, mehr aktive Roboter zu haben.“,,
+changing.disables.achievements,Durch Ändern dieses Werts werden Erfolge deaktiviert.,,
+achievements.will.be.disabled,Erfolge werden deaktiviert.,,
+grid.cpu.bound,Das Stromnetz verfügt nicht über genügend CPU-Kapazität,,
+grid.cpu.bound.end,Das Stromnetz hat sich vom CPU-Mangel erholt,,
+noun.connection.limit,Verbindungslimit,,
+grid.connection.limit.tip,Du hast <b>{0}</b> Geräte, die an dieses Stromnetz angeschlossen sind. <b>{1}</b> CPU unterstützt bis zu <b>{2}</b> Verbindungen.,,
+connection.limit.exceeded,Verbindungslimit überschritten,,
+codex.m.electricity.connectionlimit,Verbindungslimit,,
+codex.m.electricity.connectionlimit.desc,„Wenn du Geräte an dein Stromnetz anschließt, verbrauchen diese etwa <b>CPU</b>. Wenn dein Stromnetz die Verbindungsgrenze erreicht, verlierst du die Kontrolle über deine angeschlossenen Geräte.<br><br>Die Geräte behalten ihre funktionalität, aber du kannst ihre Einstellungen nicht ändern.<br><br>Versuche, die Anzahl der Geräte unter dem Verbindungslimit zu halten, oder füge weitere <b>CPU-Module</b> oder <b>Schiffscomputer hinzu </b>, um das Verbindungslimit zu erhöhen. Die CPU wird nicht zwischen separaten Unternetzen geteilt.<br><br>Konsultiere das Overlay <b>Strom</b> {0}, um deine Netzgrößen- und -limits zu sehen.“,,
+idle.devices,Geräte im Leerlauf,,
+major.update.warning,Wichtige Update-Warnung,,
+major.update.warning.desc,"Seitdem du diesen Spielstand das letzte Mal gespielt hast, gab es ein großes Update. Der Spielstand sollte immer noch geladen werden können, die größeren Änderungen können jedoch den Fortschritt unterbrechen und dazu führen, dass sich dieser Spielstand sehr unausgewogen, zu einfach oder zu schwer zu spielen anfühlt. Es wird dringend empfohlen ein neues Spiel zu starten.<br>Aktuelle Spielversion: <b>{0}</b><br>Version speichern: <b>{1}</b>",,
+structure.walls.wallarmored01,Panzermauer,,
+structure.walls.wallarmored01.desc,"Eine starke, äußerst widerstandsfähige Außenwand.",,
+research.construction.structurearmored,Gepanzerte Struktur,,
+structure.walls.windowarmored01,Gepanzertes Fenster,,
+structure.walls.windowarmored01.desc,Ein äußerst widerstandsfähiges Außenfenster.,,
+structure.walls.wallsocketarmored01,Gepanzerte Steckdose {0}-{1},,
+structure.walls.wallsocketarmored01.desc,Eine äußerst widerstandsfähige Wandsteckdose, die {0} Anschlusssteckplätze mit einer Reichweite von {1} bietet.,,
+structure.walls.ventarmored01,Gepanzerte Lüftung,,
+structure.walls.ventarmored01.desc,Eine äußerst widerstandsfähige Lüftung.,,
+make.a.choice,Du musst eine Wahl treffen,,
+situation.TotalGPU,Gesamt-GPU,,
+situation.Money,Geld,,
+menu.tutorials,Übungen,,
+difficulty.Beginner,Anfänger,,
+difficulty.Intermediate,Mittlere,,
+difficulty.Advanced,Fortgeschrittene,,
+tutorial.of.type,{0} Übung,,{0} will be Beginner or Intermedia or Advanced translation
+end.tutorial,"Übung beenden",,label on a button that ends the tutorial
+verb.back,"Zurück",,
+tutorial.completed	Tutorial Completed		
+tutorial.completed.info	This tutorial is now completed. You can keep playing this game as long as you like.		
+tut.basic.controls.name	UI and Controls		
+tut.basic.controls.desc	Learn the basic concepts of Stardeus UI.		
+tut.basic.controls.step.intro	Welcome to Stardeus!		
+tut.basic.controls.step.intro.desc	This tutorial will show you how to control the game and navigate the UI.<br><br>Click and drag this window to move it around.<br><br>You can adjust the UI scale in <b>Settings > Video</b>.		
+tut.basic.controls.step.cam	Camera Controls		
+tut.basic.controls.step.cam.desc	To move the camera around, use {0}.<br><br>Zoom in and out with {1}.<br><br>Edge Pan can be toggled in <b>Settings > Input</b>.		
+tut.basic.controls.step.overlays.visual	Visual Overlays		
+tutorial.click.next.when.ready	Click <b>{0}</b> when you are ready.		
+tut.basic.controls.step.overlay.electricity	This overlay shows device connections and assists in addressing issues with the power grid. It provides data on electricity production and consumption, any deficit, battery conditions, and also lists devices that are disconnected or switched off, among other useful details.		
+tut.basic.controls.step.overlay.atmoo2	This visual overlay shows oxygen levels, making it useful for detecting leaks and areas unfit for living.		
+tut.basic.controls.step.overlay.atmotemp	This visual overlay displays temperature levels and helps to quickly identify any hot zones that could appear if industrial equipment is running in enclosed space without cooling or ventilation.		
+tut.basic.controls.step.overlay.atmoo2res	Airtightness measures how well something keeps oxygen contained within an area. This visual overlay helps spot open vents and damaged walls since they're not as airtight.		
+tut.basic.controls.step.overlay.atmotempres	Insulation represents the resistance to temperature exchange with the environment. Even if walls are fully airtight and don't let oxygen through, they can't fully block heat transfer. Heat will slowly move to surrounding areas, which is why maintaining comfortable temperatures takes more work than just keeping an area full of oxygen.		
+tut.basic.controls.step.overlay.aesthetics	Aesthetics reflects the beauty or plainness of the environment. Colonists will enjoy spending time in more visually appealing surroundings.		
+tut.basic.controls.step.overlay.plan	Along with a set of planning tools that include mirroring, circles, and lines, this overlay helps in designing the perfect ship. In scenarios where your ship is destroyed, the overlay will contain the original design, so you can choose to restore it to former glory or wipe everything out and make it your own.		
+tut.basic.controls.step.overlay.path	This overlay clarifies where and how your colonists and robots can move. Even when there appears to be a passable gap, the path might still be blocked. Remember, beings cannot move through diagonal passageways.		
+tut.basic.controls.step.overlay.areas	This overlay shows enclosed areas, room names (available once you unlock the Signs and Labeling research), and lists the devices in each room. It also reveals areas exposed to space and lets you toggle the outer hull display.<br><br>Incoming spacecraft can't land in enclosed areas, so ensure there are enough landing zones open to space. A landing area smaller than roughly 100 tiles might lead to issues.<br><br>Another important point: certain devices and all spacecraft need to be in areas open to space. If a device meant for outdoor use is enclosed, it won't work. Enclosing a shuttle may damage the hull when it tries to take off or land.		
+tut.basic.controls.step.overlay.islands	This overlay reveals separate ship sections, also known as "islands." Usually, having more than one means the ship won't fly, though tiny sections with less than roughly 30 tiles are ignored. You can use <b>Winch</b> or <b>Maneuvering Controller</b> to pull these sections together.<br><br>The overlay also lets you abandon any unwanted ship sections, including derelict ships you might come across during your adventure. You'll need to attach, disassemble, or abandon a derelict ship before flying away.<br><br>When near a space port, you can use this overlay to sell a section. This makes it possible to temporarily attach a derelict ship to your own, tow it to the nearest space port, detach it, and then sell it.		
+tut.basic.controls.step.feedback	If you run into problems, find a bug, or have an idea to share, you can send your feedback directly from within the game.		
+tut.basic.controls.step.overlays.information.desc	These buttons toggle panels and lists with various information about resources, economy, tasks, stats, and more.		
+tut.basic.controls.step.overlays.information	Information Overlays		
+tut.basic.controls.step.overlay.resources	This panel contains details about your owned resources. You can also find a complete list of available resource types and device blueprints.		
+tut.basic.controls.step.overlay.wallet	Wallet view displays your cash reserves and gives access to the stock market.		
+tut.basic.controls.step.overlay.quests	Here you'll find the list of available quests. The active quest is always displayed in the event panel in the top-right.		
+tut.basic.controls.step.overlay.goals	The game tracks your current progress, and under certain conditions may give you some suggestions. Those suggestions also appear in the event panel in the top-right. These suggestions are completely optional and can be ignored if you wish to follow your own strategy.		
+tut.basic.controls.step.overlay.beings	This view lists all beings present on your ship. That includes your robotic workers, human colonists, pets, and any other creatures that may appear.		
+tut.basic.controls.step.overlay.tasks	Here you can see the active tasks and who is working on what. The number of active tasks is limited by the amount of Memory resource, that can be increased by building Memory Modules. The limits will be visible here.		
+tut.basic.controls.step.overlay.eventlog	This opens an Event Log, which is a journal that holds the story about your ship. When something significant happens, an automatic entry will appear in this log. You can also add custom manual entries here any time.		
+tut.basic.controls.step.overlay.region			
+tut.basic.controls.step.overlays.special.desc	This is the place where you will find special views, such as the Research Tree and the Starmap.		
+tut.basic.controls.step.overlays.special	Special Views		
+tut.basic.controls.step.overlay.research	This is where you unlock new technologies.		
+tut.basic.controls.step.overlay.starmap	If your ship has engines and is in one piece, it can fly around. Space exploration will be essential for finding the resources you'll very much need.		
+tut.basic.controls.step.overlay.codex	The Codex contains the <b>Operations Manual</b>, tips, and various lists of data, such as the types of different materials that exist in the Stardeus universe, all the blueprints you can unlock in the Research Tree, known Factions, and more.		
+tut.basic.controls.step.overlay.search	This button opens the search input, allowing you to quickly find a blueprint you want to build, a being by name, a codex entry, and much more. It's an extremely powerful tool that should not be overlooked, especially if you're looking for an efficient alternative to the Radial Menu.		
+tut.basic.controls.step.overlays.controls.desc	These buttons toggle the panels that allow you to manage various onboard systems.		
+tut.basic.controls.step.overlays.controls	System Controls		
+tut.basic.controls.step.overlay.security	This shows the lists of active threats and allows controlling certain security-focused devices in one convenient place. Want to raise all your force fields with one click? Security Controls have got you covered.		
+tut.basic.controls.step.overlay.combat	The combat view is useful for tracking the ongoing combat details. It lists the factions and all the fighters.		
+tut.basic.controls.step.overlay.shipnav	Here you can see if your ship is in operational condition and troubleshoot the reasons when it's not. It lists all the engines and contains a pre-flight checklist, allowing you to change your ship's forward direction as well.<br><br>The forward direction determines how the starfield behind the ship moves when flying. For example, if your engines are facing left, the forward direction should be set to right, and so on.		
+tut.basic.controls.step.overlay.expedition	This view shows all known resource locations and lets you manage the shuttle expeditions. If a shuttle ever gets lost, you can track down its location here.		
+tut.basic.controls.step.overlay.copters	Once you unlock <b>Mining Automation</b>, you will be able to build <b>Cargo Copters</b>. This view lets you manage ongoing copter missions.		
+tut.basic.controls.step.overlay.tint	Once you have an <b>Auto Painter</b> loaded with color pigments, use the tools provided by this view to paint your ship floors and walls the way you like.		
+tut.basic.controls.step.overlay.terraform	When you find a terraformable planet, it will be registered in this view, along with the terraforming status. Once a planet gets fully terraformed, you can use this panel to begin the colonization procedure.		
+tut.basic.controls.step.events	Active Events		
+tut.basic.controls.step.events.desc	This list contains the most important events that are currently happening. Some of the items in the list are groups that can be expanded on click.		
+tut.basic.controls.step.log	Event Log		
+tut.basic.controls.step.log.desc	This tiny box contains a detailed timestamped flow of events ranging from Asteroid impacts to Bob taking 3 physical damage from stubbing a toe on a mini heater.<br><br>You can clear this event list or toggle its visibility any time.		
+tut.step.select.entity	Select {0}		{0} is some device or object name
+tut.step.select.entity.desc	Click the highlighted {0} to select it.		{0} is device or being or object
+tut.step.select.entity.expired	Click the highlighted object to select it. (This step has expired)		
+tut.msg.target.ui.not.found	The required UI element is not visible. Use the <b>{0}</b> button and repeat the action from the previous step.		
+tut.msg.target.ui.udb	Click the highligted UI element		
+tut.msg.target.ui.udb.desc	Find the UI element labeled <b>{0}</b> and click it to continue.		
+tut.msg.target.udb.no.title.desc	Find the highlighted UI element and click it to continue.		
+tut.ui.click.and.drag	Click and drag this UI block to move it around.		
+tut.basic.controls.step.dev.manage	Device Management		
+tut.basic.controls.step.dev.manage.desc	The Info Panel exposes various data points and controls for the selected object. Let's take a look at the electricity connections of this device.		
+tut.basic.controls.step.dev.select	Selecting Objects		
+tut.basic.controls.step.dev.manage.submenu	Component Controls		
+tut.basic.controls.step.dev.manage.submenu.desc	You are now looking at the Electricity component controls of the selected device. If you select another device with the same component, the submenu should remain open. Each object has various components that reveal their data and controls in this manner.		
+tut.basic.controls.step.deselect	Deselecting Objects		
+tut.basic.controls.step.deselect.desc	When something is selected, use <b>{0}</b> above an empty floor or space to deselect it. It will also close any open overlays or active UI panels. Try it now.		
+tut.basic.controls.step.context.menu.1	Invoking the Context Menu		
+tut.basic.controls.step.context.menu.1.desc	In addition to the Info Panel, each object has a context menu that you can invoke with <b>{0}</b> while the cursor is above an object. Try invoking a context menu for the highlighted device.		
+tut.basic.controls.step.context.menu.2	Context Menu		
+tut.basic.controls.step.context.menu.2.desc	The Context Menu contains the subset of the most common actions from the Info Panel.		
+tut.basic.controls.tools,"Werkzeuge",,		
+tut.basic.controls.tools.desc,"Viele Aktionen im Spiel erfordern die Verwendung eines Werkzeugs, und es stehen verschiedene Werkzeuge zur Verfügung. Du kannst auf sie zugreifen, indem du das <b>Radialmenü</b>, die <b>Aktionsleiste</b>, die <b>Schnellsuche</b> und die <b>Tastenkürzel</b> verwendest.<br><br>Lass uns zuerst das Radialmenü erkunden. Drücke <b>{0}</b>, um es zu öffnen.",,	
+tool.menu.type,"Werkzeugsmenü Typ",,
+tool.menu.type.radial,"Radial Menü",,
+tool.menu.type.grid,"Raster Menü",,
+hotbar.add.tip,"Klicke auf {0}, während du {1} gedrückt hältst, um diesen Gegenstand zur Aktionsleiste hinzuzufügen.",,
+hotbar.ctrl.tip,"Klicke auf {0}, während du {1} gedrückt hältst, um diesen Gegenstand zu entfernen.<br>Klicke auf {0} und halte es gedrückt, dann ziehe den Gegenstand nach links oder rechts, um die Reihenfolge zu ändern.",,
+search.placeholder,"Suchbegriff eingeben...",,
