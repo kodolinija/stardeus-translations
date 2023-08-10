@@ -2343,7 +2343,7 @@ obj.plants.rubbertree.desc,Uma árvore alta que produz uma resina muito cobiçad
 obj.plants.wheat,Trigo,,
 obj.plants.wheat.desc,Uma planta comum usada em muitos produtos.,,
 obj.shuttles.shuttleflying,Nave em voo,,
-obj.shuttles.shuttleflying.desc,"Ela precisa voar atá lá, né!".,,
+obj.shuttles.shuttleflying.desc,"Ela precisa voar atá lá, né!",,
 obj.upgrades.asimovoverrideupgrade,Protocolo V0M1S4,,caso não tenha ficado claro é asimov escrito ao contrario usando caracteres em vez de letras pois não é algo oficial
 obj.upgrades.asimovoverrideupgrade.desc,Protocolo alienígena que permite anular o Protocolo 4S1M0V.,,
 obj.upgrades.autoconnectupgrade,Conexões automáticas,,
