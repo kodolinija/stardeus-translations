@@ -4398,12 +4398,63 @@ turn.on,Allumer,,
 turret.charge.bar,Charge de la tourelle: {0}/{1},,
 turret.settings,Paramètres de la tourelle,,
 
-tut.basic.controls.name,UI et commandes,,
 tut.basic.controls.desc,Apprenez les concepts de base de Stardeus.,,
+
+
+tut.basic.controls.name,UI et commandes,,
+
+
 tut.basic.controls.step.cam,Commandes de la caméra,,
+
+tut.basic.controls.step.dev.manage,Gestion des appareils,,
+
+tut.basic.controls.step.dev.manage.submenu,Commandes de composant,,
+tut.basic.controls.step.dev.manage.submenu.desc,"Vous regardez maintenant les commandes du composant Electricité du périphérique sélectionné. Si vous sélectionnez un autre appareil avec le même composant, le sous-menu doit rester ouvert. Chaque objet possède divers composants qui révèlent leurs données et leurs contrôles de cette manière.",,
+
+
+tut.basic.controls.step.dev.select,Sélection d'objets,,
+
+
+tut.basic.controls.step.events,Événements actifs,,
+tut.basic.controls.step.events.desc,Cette liste contient les événements les plus importants en cours. Certains éléments de la liste sont des groupes qui peuvent être développés en cliquant dessus.,,
+
+tut.basic.controls.step.grid.menu.1,Types de menus d'outils,,
+tut.basic.controls.step.grid.menu.1.desc,"Il s'agit du <b>menu Grille</b>. Il existe un <b>menu radial</b> alternatif qui peut être plus pratique lorsque vous jouez avec une manette. Vous pouvez modifier le type de menu d'outils dans <b>Paramètres > Saisie > Type de menu d'outils</b>.<br><br>Ce didacticiel utilise le menu d'outils <b>Grille</b>.",,
+tut.basic.controls.step.grid.menu.2,Menu Grille: Outils,,
+tut.basic.controls.step.grid.menu.2.desc,"Le côté gauche du <b>menu Grille</b> répertorie tous les outils disponibles. Certains outils peuvent avoir un sous-menu. L'outil actif aura une icône jaune.",,
+
 
 tut.basic.controls.step.intro,Bienvenue sur Stardeus !,,
 tut.basic.controls.step.intro.desc,Ce tutoriel va vous montrer comment contrôler le jeu et naviguer dans l'interface utilisateur.<br><br>Cliquez et faites glisser cette fenêtre pour la déplacer.<br><br>Vous pouvez régler l'échelle de l'interface utilisateur dans <b>Paramètres > Vidéo</b>.,,
+
+tut.basic.controls.step.log,Journal des événements,,
+tut.basic.controls.step.log.desc,"Cette petite boîte contient un flux détaillé et horodaté d'événements allant des impacts d'astéroïdes à Bob subissant 3 dégâts physiques en se cognant un orteil sur un mini radiateur. <br><br>Vous pouvez effacer cette liste d'événements ou modifier sa visibilité à tout moment.",,
+
+
+tut.basic.controls.step.overlay.research,"C'est là que vous débloquez de nouvelles technologies.",,
+
+
+tut.basic.controls.step.overlays.controls,Commandes du système,,
+tut.basic.controls.step.overlays.controls.desc,Ces boutons permettent de basculer entre les panneaux vous permettant de gérer divers systèmes embarqués.,,
+
+
+tut.basic.controls.step.overlays.information,Surcouches d'information,,
+
+
+tut.basic.controls.step.overlays.special,Vues spéciales,,
+
+
+tut.basic.controls.step.overlays.visual,Surcouches Visuelle,,
+
+
+tut.basic.controls.tools,Outils,,
+tut.basic.controls.tools.desc,"De nombreuses actions dans le jeu nécessitent l'utilisation d'un outil, et plusieurs outils sont à votre disposition. Vous pouvez y accéder par différents moyens, y compris le <b>menu outils</b>, la <b>barre de raccourcis</b>, la <b>recherche rapide</b> et les <b>touches de raccourci</b>.<br><br>Explorons d'abord le menu Outils. Appuyez sur <b>{0}</b> pour l'ouvrir.",,
+
+
+tut.skip.group,Passer le groupe: {0},,
+
+
+tut.ui.click.and.drag,Cliquez sur ce bloc d'interface utilisateur et faites-le glisser pour le déplacer.,,
 
 
 tutorial.build_connector,"Réacteur de matière est construit, mais nous devons le relier à notre grille. Créez un <nobr><b>Connecteur</b></nobr>. Trouvez-le dans le menu du bas.<br><br>{0}",,
@@ -4421,6 +4472,7 @@ tutorial.charge_station_link,Reliez maintenant la <nobr><b>station de recharge</
 tutorial.charge_station_place,Trouvez maintenant un bon endroit dans la portée de votre connecteur et cliquez sur <b>{0}</b> pour commander la construction.,,
 tutorial.charge_station_wait,Utilisez <b>{0}</b> à tout moment pour revenir au mode <nobr><b>Selection Libre</b></nobr>. En attente de chantier.,,
 tutorial.charge_station.controller,Vos travailleurs ont aussi besoin d'énergie. Construisez une <nobr><b>station de recharge</b></nobr>. Vous pouvez le trouver dans le menu.,,
+tutorial.click.next.when.ready,Cliquez sur <b>{0}</b> quand vous êtes prêt,,
 tutorial.close_panel,"Au fur et à mesure que vous recherchez de nouvelles technologies, le <nobr><b>Stockage de Recherche</b></nobr> se remplira. Finalement, vous devrez ajouter de nouveaux modules de mémoire et de disque pour continuer vos recherches. Appuyez maintenant sur <b>{0}</b> pour fermer l'arbre de recherche.",,
 tutorial.close.overlay,Fermez la surcouche pour continuer. Vous pouvez utiliser {0} pour le faire.,,
 tutorial.completed,Tutoriel terminé,,
@@ -4558,7 +4610,7 @@ vent.closed,L'aération est fermée,,
 vent.open,L'aération est ouverte,,
 venting,Aération,,
 verb.accept,Accepter,,
-verb.back,Retourner(back),,
+verb.back,Retour,,
 verb.collect,Collecter,,
 verb.leave,Laisser,,
 verb.mine,Miner,,
