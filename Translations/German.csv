@@ -4628,7 +4628,7 @@ offline.robots,"Nicht aktive Roboter",,
 not.enough.cpu,"Nicht genug CPU-Kapazität",,
 cpu.bound.suggestion,"Trenne einige Geräte oder füge weitere CPU-Module hinzu, um die Kontrolle wiederzuerlangen.",,
 modifier.NoBotLimit,"Bot-Limit deaktivieren",,
-modifier.NoBotLimit.desc,„Wenn das Bot-Limit nicht deaktiviert ist, musst du durch Forschung die Möglichkeit freischalten, mehr aktive Roboter zu haben.“,,
+modifier.NoBotLimit.desc,"Wenn das Bot-Limit nicht deaktiviert ist, musst du durch Forschung die Möglichkeit freischalten, mehr aktive Roboter zu haben.",,
 changing.disables.achievements,"Durch Ändern dieses Werts werden Erfolge deaktiviert.",,
 achievements.will.be.disabled,"Erfolge werden deaktiviert.",,
 grid.cpu.bound,"Das Stromnetz verfügt nicht über genügend CPU-Kapazität",,
@@ -4657,8 +4657,8 @@ menu.tutorials,"Übungen",,
 difficulty.Beginner,"Anfänger",,
 difficulty.Intermediate,"Mittlere",,
 difficulty.Advanced,"Fortgeschrittene",,
-tutorial.of.type,"{0} Übung",,{0} will be Beginner or Intermedia or Advanced translation
-end.tutorial,"Übung beenden",,label on a button that ends the tutorial
+tutorial.of.type,"{0} Übung",,"{0} will be Beginner or Intermedia or Advanced translation"
+end.tutorial,"Übung beenden",,"label on a button that ends the tutorial"
 verb.back,"Zurück",,
 tut.basic.controls.tools,"Werkzeuge",,		
 tut.basic.controls.tools.desc,"Viele Aktionen im Spiel erfordern die Verwendung eines Werkzeugs, und es stehen verschiedene Werkzeuge zur Verfügung. Du kannst auf sie zugreifen, indem du das <b>Radialmenü</b>, die <b>Aktionsleiste</b>, die <b>Schnellsuche</b> und die <b>Tastenkürzel</b> verwendest.<br><br>Lass uns zuerst das Radialmenü erkunden. Drücke <b>{0}</b>, um es zu öffnen.",,	
@@ -4668,3 +4668,15 @@ tool.menu.type.grid,"Raster Menü",,
 hotbar.add.tip,"Klicke auf {0}, während du {1} gedrückt hältst, um diesen Gegenstand zur Aktionsleiste hinzuzufügen.",,
 hotbar.ctrl.tip,"Klicke auf {0}, während du {1} gedrückt hältst, um diesen Gegenstand zu entfernen.<br>Klicke auf {0} und halte es gedrückt, dann ziehe den Gegenstand nach links oder rechts, um die Reihenfolge zu ändern.",,
 search.placeholder,"Suchbegriff eingeben...",,
+adjective.recent,"Neueste",,
+datoid.available.vs.owned.tip,"Datoids müssen sich innerhalb eines {0} befinden, um zur Verwendung verfügbar zu sein.",,"{0} is the translation of Datoid Loader"
+def.unlock.tip,"Erforsche {0} zum Freischalten.",,
+tut.basic.controls.step.overlay.skip.tip,"Du kannst diesen Teil überspringen. Halte {0} gedrückt, während Du mit der Maus über die Overlay-Schaltfläche fährst, um die Tutorial-Nachricht jederzeit anzuzeigen.",,
+tut.skip.group,"Überspringe Gruppe: {0}",,"{0} is the group name"
+tut.basic.controls.step.grid.menu.1,"Werkzeugmenü Typen",,		
+tut.basic.controls.step.grid.menu.1.desc,"Dies ist das <b>Rastermenü</b>. Es gibt ein alternatives <b>Radialmenü</b>, das beim Spielen mit einem Gamepad möglicherweise praktischer ist. Du kannst den Werkzeugmenütyp unter <b>Einstellungen > Eingabe > Werkzeugmenütyp</b> ändern.<br><br>Dieses Tutorial verwendet das Werkzeugmenü <b>Raster</b>.",,
+tut.basic.controls.step.grid.menu.2,"Rastermenü: Werkzeuge",,
+tut.basic.controls.step.grid.menu.2.desc,"Auf der linken Seite des <b>Rastermenüs</b> werden alle verfügbaren Werkzeuge aufgelistet. Einige Werkzeuge verfügen möglicherweise über ein Untermenü. Das aktive Werkzeug hat eine gelbe Symbolfarbe.",,
+getting.food.in.dangerous.loc,"Versuche Essen von einem unsicheren Ort zu bekommen: {0}",,"{0} is a coordinate"
+failed.to.find.path.to.safety,"Konnte keinen Weg zu einem sicheren Ort finden: {0}",,"{0} is a coordinate"
+toggle.button.size,"Größe der Schaltfläche umschalten",,
