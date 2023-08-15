@@ -4410,9 +4410,9 @@ tut.basic.controls.step.cam,Commandes de la caméra,,
 
 
 tut.basic.controls.step.context.menu.1,Appel du menu contextuel,,
-tut.basic.controls.step.context.menu.1.desc,Lorsque le curseur se trouve au-dessus d'un objet, cliquer sur <b>{0}</b> ouvrira le <b>menu contextuel</b>. Essayez de l'ouvrir pour l'appareil en surbrillance.,,
+tut.basic.controls.step.context.menu.1.desc,"Lorsque le curseur se trouve au-dessus d'un objet, cliquer sur <b>{0}</b> ouvrira le <b>menu contextuel</b>. Essayez de l'ouvrir pour l'appareil en surbrillance.",2023-08-14,
 tut.basic.controls.step.context.menu.2,Menu contextuel,,
-tut.basic.controls.step.context.menu.2.desc,Le <b>menu contextuel</b> contient le sous-ensemble des actions les plus courantes du panneau d'informations.,,
+tut.basic.controls.step.context.menu.2.desc,Le <b>menu contextuel</b> contient le sous-ensemble des actions les plus courantes du panneau d'informations.,2023-08-14,
 
 
 tut.basic.controls.step.deselect,Désélectionner les objets,,
@@ -4487,7 +4487,7 @@ tut.step.expired,Cette étape a expiré,,
 
 
 tut.step.place.tile,Construire: {0},,
-tut.step.place.tile.desc,Order building the {0} at the highlighted location.,,
+tut.step.place.tile.desc,Commandez la construction du {0} à l'emplacement en surbrillance.,,
 tut.step.place.tile.with.rot.desc,Utilisez {0} pour commander la construction d'un {1} à l'emplacement en surbrillance.<br><br> Faites-le pivoter avec {2} avant de le placer.,,
 
 
