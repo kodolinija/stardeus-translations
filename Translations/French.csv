@@ -469,6 +469,7 @@ charge.time.left,Charge complète dans,,
 charging,Chargement,,
 chart,Graphique,,
 chasing.target,À la poursuite de {0},,
+choice.or,{0} ou {1},,
 choose.color,Choisir la couleur,,
 clean.biowaste,Propreté des biodéchets,,
 clean.dust,Nettoyer la poussière,,
@@ -661,7 +662,7 @@ codex.m.ui.events.desc,"Le panneau d'événements est la partie inférieure de l
 codex.m.ui.hotbar,Barre de raccourcis,,
 codex.m.ui.hotbar.desc,"La barre de raccourcis est la rangée inférieure d'icônes contenant des raccourcis vers des outils ou des plans.Il est préchargé avec le contenu du menu radial, mais vous pouvez choisir de le personnaliser à votre guise.<br><br>Lorsque vous utilisez le menu radial, maintenez {0} tout en activant l'élément de menu pour l'ajouter à la barre de raccourcis.<br><br>Pour supprimer des éléments de la barre de raccourcis, maintenez la touche {0} enfoncée et cliquez sur l'élément dans la barre de raccourcis.<br><br>Vous pouvez trier les éléments de la barre de raccourcis en les faisant glisser.<br><br>Vous pouvez verrouiller/déverrouiller la barre de raccourcis ou masquer ce bouton d'information dans le menu des paramètres de jeu actuels.",,
 codex.m.ui.infopanel,Panneau d'informations,,
-codex.m.ui.infopanel.desc,"Le panneau d'informations est l'élément le plus important de l'interface utilisateur, car il expose les données et les contrôles internes de tout objet sélectionné. Il est fortement recommandé d'explorer le panneau d'informations pour chaque appareil, personnes et matériel.Il vous aidera à comprendre son état et vous indiquera comment le gérer ou le configurer.<br><br>Chaque objet a un ensemble de composants. Lorsqu'un objet est sélectionné, chaque composant de cet objet expose ses données et ses contrôles au panneau d'informations.<br><br>Lorsque plusieurs objets sont sélectionnés, le panneau d'informations affiche une liste de tous les objets sélectionnés et une liste interactive des actions courantes au-dessus d'eux.Reportez-vous à la section ""Actions courantes"" du manuel pour plus de détails.<br><br>Le panneau d'informations comporte des onglets Objet et Environnement. L'onglet Objet a été décrit ci-dessus. L'onglet Environnement affiche les détails environnementaux de l'emplacement sélectionné - température, niveau d'oxygène, etc.",,
+codex.m.ui.infopanel.desc,"Le <b>panneau d'informations</b> expose les données internes et les contrôles pour tout objet sélectionné. Il est fortement recommandé d'explorer le panneau pour chaque appareil, personnes et matériel. Il vous aidera à comprendre son état et vous indiquera comment le gérer ou le configurer.<br><br>Chaque objet a un ensemble de composants. Lorsqu'un objet est sélectionné, chaque composant de cet objet expose ses données et ses contrôles au panneau d'informations.<br><br>Lorsque plusieurs objets sont sélectionnés, le panneau affiche une liste de tous les objets sélectionnés et une liste interactive des actions courantes au-dessus d'eux. Reportez-vous à la section "Actions courantes" du manuel pour plus de détails.<br><br>Le panneau d'informations comporte des onglets Objet et Environnement.",2023-08-14,
 codex.m.ui.overlays,Surcouche,,
 codex.m.ui.overlays.desc,"Les surcouches exposent sur l'interface utilisateur, pour divers systèmes internes et groupes de données, tels que le réseau électrique, l'inventaire, l'arbre de recherche, la carte stellaire, etc.<br><br>Les boutons de surcouche se trouvent en haut à gauche de l'interface utilisateur. Survolez chaque bouton pour voir une info-bulle avec le nom de la surcouche.La première ligne peut être basculée à l'aide des touches F1-F10.<br><br>Il est fortement recommandé d'explorer chaque surcouche et de voir quelles fonctionnalités elle expose. Chaque surcouche est utile à un moment donné.<br><br>Certaines surcouches nécessitent des recherches ou certaines conditions préalables pour être activées.",,
 codex.m.ui.quicksearch,Recherche rapide,,
@@ -4241,6 +4242,7 @@ tint.sys.unlocked,La surcouche <b>Peinture</b> est maintenant disponible !,,
 tip,Conseil,,
 tip.long.press,Cliquez et maintenez pour activer ce type de bouton,,
 toggle,Suivant(Basc),,
+toggle.button.size,Changer la taille des boutons,,
 toggle.layout,Basculer la disposition,,
 toggle.log,Activer/désactiver le journal,,
 toilet,Toilette,,
@@ -4406,7 +4408,18 @@ tut.basic.controls.name,UI et commandes,,
 
 tut.basic.controls.step.cam,Commandes de la caméra,,
 
+
+tut.basic.controls.step.context.menu.1,Appel du menu contextuel,,
+tut.basic.controls.step.context.menu.1.desc,Lorsque le curseur se trouve au-dessus d'un objet, cliquer sur <b>{0}</b> ouvrira le <b>menu contextuel</b>. Essayez de l'ouvrir pour l'appareil en surbrillance.,,
+tut.basic.controls.step.context.menu.2,Menu contextuel,,
+tut.basic.controls.step.context.menu.2.desc,Le <b>menu contextuel</b> contient le sous-ensemble des actions les plus courantes du panneau d'informations.,,
+
+
+tut.basic.controls.step.deselect,Désélectionner les objets,,
+tut.basic.controls.step.deselect.desc,"Lorsqu'un élément est sélectionné, utilisez <b>{0}</b> au-dessus d'un étage ou d'un espace vide pour le désélectionner. Il fermera également toutes les surcouches ouvertes ou les panneaux d'interface utilisateur actifs. Essayez-le dès maintenant.",,
+
 tut.basic.controls.step.dev.manage,Gestion des appareils,,
+tut.basic.controls.step.dev.manage.desc,Le panneau d'informations présente divers points de données et contrôles pour l'objet sélectionné. Voyons les connexions électriques de cet appareil.,,
 
 tut.basic.controls.step.dev.manage.submenu,Commandes de composant,,
 tut.basic.controls.step.dev.manage.submenu.desc,"Vous regardez maintenant les commandes du composant Electricité du périphérique sélectionné. Si vous sélectionnez un autre appareil avec le même composant, le sous-menu doit rester ouvert. Chaque objet possède divers composants qui révèlent leurs données et leurs contrôles de cette manière.",,
@@ -4444,14 +4457,43 @@ tut.basic.controls.step.overlays.information,Surcouches d'information,,
 tut.basic.controls.step.overlays.special,Vues spéciales,,
 
 
+
+tut.basic.controls.step.tool.build.1,Nous allons examiner de plus près l'outil <b>{0}</b>. Cliquez dessus pour activer le sous-menu de l'outil.,,
+tut.basic.controls.step.tool.build.2,Il s'agit du sous-menu de l'outil. Il contient des onglets pour les groupes d'objets que vous pouvez construire.,,
+tut.basic.controls.step.tool.build.3,"Construisons quelque chose. Cliquez sur l'onglet {0}, puis sur {1} pour commencer à le construire.",,
+
+
+tut.basic.controls.step.tools.skip.tip,Vous pouvez ignorer cette partie Passez la souris sur n'importe quel bouton d'outil pour voir le message du tutoriel.,,
+
+
 tut.basic.controls.step.overlays.visual,Surcouches Visuelle,,
 
 
 tut.basic.controls.tools,Outils,,
-tut.basic.controls.tools.desc,"De nombreuses actions dans le jeu nécessitent l'utilisation d'un outil, et plusieurs outils sont à votre disposition. Vous pouvez y accéder par différents moyens, y compris le <b>menu outils</b>, la <b>barre de raccourcis</b>, la <b>recherche rapide</b> et les <b>touches de raccourci</b>.<br><br>Explorons d'abord le menu Outils. Appuyez sur <b>{0}</b> pour l'ouvrir.",,
+tut.basic.controls.tools.desc,"De nombreuses actions dans le jeu nécessitent l'utilisation d'un outil, et plusieurs outils sont à votre disposition. Vous pouvez y accéder par différents moyens, y compris le <b>menu outils</b>, la <b>barre de raccourcis</b>, la <b>recherche rapide</b> et les <b>touches de raccourci</b>.<br><br>Appuyez sur <b>{0}</b> pour ouvrir le <b>menu outils</b>.",,
+
+
+tut.msg.target.udb.no.title.desc,Trouvez l'élément de l'interface utilisateur en surbrillance et cliquez dessus pour continuer.,,
+tut.msg.target.ui.not.found,L'élément d'interface utilisateur requis n'est pas visible. Utilisez le bouton <b>{0}</b> et répétez l'action de l'étape précédente.,,
+tut.msg.target.ui.udb,Cliquez sur l'élément de l'interface utilisateur mis en surbrillance,,
+tut.msg.target.ui.udb.desc,Recherchez l'élément d'interface utilisateur intitulé <b>{0}</b> et cliquez dessus pour continuer.,,
+
 
 
 tut.skip.group,Passer le groupe: {0},,
+
+
+tut.step.expired,Cette étape a expiré,,
+
+
+tut.step.place.tile,Construire: {0},,
+tut.step.place.tile.desc,Order building the {0} at the highlighted location.,,
+tut.step.place.tile.with.rot.desc,Utilisez {0} pour commander la construction d'un {1} à l'emplacement en surbrillance.<br><br> Faites-le pivoter avec {2} avant de le placer.,,
+
+
+tut.step.select.entity,Sélectionnez {0},,
+tut.step.select.entity.desc,Cliquez sur le {0} en surbrillance pour le sélectionner.,,
+tut.step.select.entity.expired,Cliquez sur l'objet en surbrillance pour le sélectionner. (Cette étape a expiré),,
 
 
 tut.ui.click.and.drag,Cliquez sur ce bloc d'interface utilisateur et faites-le glisser pour le déplacer.,,
