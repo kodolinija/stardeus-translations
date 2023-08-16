@@ -4751,7 +4751,7 @@ tut.basic.controls.step.tool.build.2,Esse é o submenu da ferramenta. Ele conté
 tut.basic.controls.step.tool.build.3,"Vamos construir alguma coisa. Clique na aba {0}, depois clique na {1} para começar a construção.",,
 tut.step.place.tile.with.rot.desc,Use {0} para criar a Ordem de construção de uma {1} no local destacado.<br><br>Gire com {2} antes de colocá-lo.,,
 tut.step.place.tile.desc,Ordene a construção da {0} no local destacado.,,
-tut.step.place.tile,"Construa um(a)" {0},,
+tut.step.place.tile,Construa um {0},,
 tut.step.expired,Esta etapa expirou,,
 tut.basic.controls.step.tools.build.4,Os Trabalhadores vão começar a executar a Ordem de construção em breve. Certifique-se que o tempo não está parado.<br><br><b>{1}</b> irá retornar para o Menu de construção.<br><br>{0} irá sair do Modo de construção.,,
 tut.basic.controls.step.connect.1,Agora vamos ver o que a ferramenta <b>{0}</b> pode fazer. Clique em <b>{1}</b> para abrir o <b>Menu de Ferramentas</b> e ativá-lo.,,
