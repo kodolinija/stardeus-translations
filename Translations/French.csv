@@ -1631,7 +1631,7 @@ help.money.desc,"Vous pouvez gagner de l'argent en vendant ce que vous posséder
 hidden.achievement,Succès caché,,
 hide,Cacher,,
 hint,Indice,,
-hint.ad_cancel,"Vous avez annulé manuellement plusieurs tâches. Il existe un moyen plus efficace de le faire. Utilisez le menu radial pour trouver l'outil <nobr><b>Annuler les tâches</b></nobr>, puis cliquez sur la tâche ou faites glisser un rectangle sur plusieurs tâches que vous souhaitez annuler.",2022-10-08,
+hint.ad_cancel,"Vous avez annulé manuellement plusieurs tâches. Il existe un moyen plus efficace de le faire. Utilisez le menu Outil pour trouver l'outil <nobr><b>Annuler les tâches</b></nobr>, puis cliquez sur la tâche ou faites glisser un rectangle sur plusieurs tâches que vous souhaitez annuler.",2023-08-16,
 hint.autoclear_debris,Construire des appareils sur des débris et des matériaux créera automatiquement des tâches de transport. Vous devez construire une <nobr><b>Unité de stockage</b></nobr> pour que le transport ait lieu. La construction n'aura pas lieu tant que les débris ne seront pas nettoyés.,,
 hint.cleaning_auto,Vous pouvez ajuster la <nobr><b>quantité de nettoyage automatique</b></nobr> pour créer automatiquement une tâche de nettoyage plus tôt. Vous pouvez également utiliser l'outil <nobr><b>Copier la configuration</b></nobr> pour copier rapidement ce paramètre sur plusieurs appareils.,,
 hint.close_events_clock,"Envisagez de suspendre le temps lors de l'examen ou de la gestion des notifications d'événements, sinon de nouvelles notifications peuvent réorganiser la liste et réinitialiser la pagination.",,
@@ -1661,7 +1661,7 @@ hold.to.select.multiple,Maintenez <b>{0}</b> pour en sélectionner plusieurs,,
 hostile,Hostile,,
 hotbar.add.tip,Appuyez sur {0} tout en maintenant {1} pour ajouter cet élément à la barre d'accès rapide.,2023-08-16,
 hotbar.ctrl.tip,Appuyez sur {0} tout en maintenant {1} pour supprimer cet élément.<br>Maintenez {0} puis faites glisser l'élément vers la gauche ou vers la droite pour le réorganiser.,2023-08-16,
-hotbar.help.desc,"Lorsque vous utilisez le menu radial, maintenez {0} tout en activant l'élément de menu pour l'ajouter à la barre de raccourcis.<br><br>Pour supprimer des éléments de la barre de raccourcis, maintenez la touche {0} enfoncée et cliquez sur l'élément dans la barre.<br><br>Vous pouvez trier les éléments de la barre de raccourcis en les faisant glisser avec votre souris.<br><br>Vous pouvez verrouiller/déverrouiller la barre de raccourcis ou masquer ce bouton d'information dans le menu des paramètres du jeu.",,
+hotbar.help.desc,"Lorsque vous utilisez le menu Outil, maintenez {0} tout en activant l'élément de menu pour l'ajouter à la barre de raccourcis.<br><br>Pour supprimer des éléments de la barre de raccourcis, maintenez la touche {0} enfoncée et cliquez sur l'élément dans la barre.<br><br>Vous pouvez trier les éléments de la barre de raccourcis en les faisant glisser avec votre souris.<br><br>Vous pouvez verrouiller/déverrouiller la barre de raccourcis ou masquer ce bouton d'information dans le menu des paramètres du jeu.",2023-08-16,
 hotbar.help.title,Comment utiliser la barre de raccourcis,,
 hotbar.help.tooltip,Barre de raccourcis,,
 hotbar.info.no.submenus,Vous ne pouvez pas ajouter de sous-menus à la barre de raccourcis. Veuillez sélectionner un outil ou un plan à la place.,,
@@ -4402,7 +4402,7 @@ turret.charge.bar,Charge de la tourelle: {0}/{1},,
 turret.settings,Paramètres de la tourelle,,
 
 
-tut.basic.controls.desc,Apprenez les concepts de base de Stardeus.,,
+tut.basic.controls.desc,Ce tutoriel vous donnera un aperçu de l'interface utilisateur dans Stardeus et vous apprendra à utiliser les outils les plus importants.,2023-08-16,
 
 
 tut.basic.controls.group.examining.objects,Examiner les objets,,
@@ -4420,20 +4420,20 @@ tut.basic.controls.step.cam,Commandes de la caméra,,
 
 
 tut.basic.controls.step.context.menu.1,Appel du menu contextuel,,
-tut.basic.controls.step.context.menu.1.desc,"Lorsque le curseur se trouve au-dessus d'un objet, cliquer sur <b>{0}</b> ouvrira le <b>menu contextuel</b>. Essayez de l'ouvrir pour l'appareil en surbrillance.",2023-08-14,
+tut.basic.controls.step.context.menu.1.desc,"Lorsque le curseur se trouve au-dessus d'un objet, cliquer sur <b>{0}</b> ouvrira le <b>menu contextuel</b>. Essayez de l'ouvrir pour l'appareil en surbrillance.",2023-08-16,
 tut.basic.controls.step.context.menu.2,Menu contextuel,,
 tut.basic.controls.step.context.menu.2.desc,Le <b>menu contextuel</b> contient le sous-ensemble des actions les plus courantes du panneau d'informations.,2023-08-14,
 
-tut.basic.controls.step.context.menu.3.desc,"Cliquez sur {0} pour fermer le menu contextuel, puis cliquez à nouveau sur {0} pour désélectionner <b>{1}</b>.",,
+tut.basic.controls.step.context.menu.3.desc,"Utilisez {0} pour fermer le menu contextuel, puis à nouveau {0} pour désélectionner <b>{1}</b>.",2023-08-16,
 
 tut.basic.controls.step.deselect,Désélectionner les objets,,
 tut.basic.controls.step.deselect.desc,"Lorsqu'un élément est sélectionné, utilisez <b>{0}</b> au-dessus d'un étage ou d'un espace vide pour le désélectionner. Il fermera également toutes les surcouches ouvertes ou les panneaux d'interface utilisateur actifs. Essayez-le dès maintenant.",,
 
 tut.basic.controls.step.dev.manage,Gestion des appareils,,
-tut.basic.controls.step.dev.manage.desc,Le panneau d'informations présente divers points de données et contrôles pour l'objet sélectionné. Voyons les connexions électriques de cet appareil.,,
+tut.basic.controls.step.dev.manage.desc,Le <b>panneau d'informations</b> présente divers points de données et contrôles pour l'objet sélectionné. Voyons les connexions électriques de cet appareil.,2023-08-16,
 
 tut.basic.controls.step.dev.manage.submenu,Commandes de composant,,
-tut.basic.controls.step.dev.manage.submenu.desc,"Vous regardez maintenant les commandes du composant Electricité du périphérique sélectionné. Si vous sélectionnez un autre appareil avec le même composant, le sous-menu doit rester ouvert. Chaque objet possède divers composants qui révèlent leurs données et leurs contrôles de cette manière.",,
+tut.basic.controls.step.dev.manage.submenu.desc,"Vous regardez maintenant les commandes du composant <b>Electricité</b> du périphérique sélectionné. Si vous sélectionnez un autre appareil avec le même composant, le sous-menu doit rester ouvert. Chaque objet possède divers composants qui révèlent leurs données et leurs contrôles.",2023-08-16,
 
 
 tut.basic.controls.step.dev.select,Sélection d'objets,,
@@ -4445,7 +4445,7 @@ tut.basic.controls.step.events.desc,Cette liste contient les événements les pl
 tut.basic.controls.step.grid.menu.1,Types de menus d'outils,,
 tut.basic.controls.step.grid.menu.1.desc,"Il s'agit du <b>menu Grille</b>. Il existe un <b>menu radial</b> alternatif qui peut être plus pratique lorsque vous jouez avec une manette. Vous pouvez modifier le type de menu d'outils dans <b>Paramètres > Saisie > Type de menu d'outils</b>.<br><br>Ce didacticiel utilise le menu d'outils <b>Grille</b>.",,
 tut.basic.controls.step.grid.menu.2,Outils,2023-08-16,
-tut.basic.controls.step.grid.menu.2.desc,"Le côté gauche du <b>menu Grille</b> répertorie tous les outils disponibles. Certains outils peuvent avoir un sous-menu. L'outil actif aura une icône jaune.",,
+tut.basic.controls.step.grid.menu.2.desc,"Le côté gauche du <b>menu Outil</b> répertorie tous les outils disponibles. Certains outils peuvent avoir un sous-menu, tandis que d'autres s'activeront au clic. L'outil actif aura une icône jaune.",2023-08-16,
 
 
 tut.basic.controls.step.intro,Bienvenue sur Stardeus !,,
@@ -4458,7 +4458,7 @@ tut.basic.controls.step.log.desc,"Cette petite boîte contient un flux détaill�
 tut.basic.controls.step.overlay.research,"C'est là que vous débloquez de nouvelles technologies.",,
 
 
-tut.basic.controls.step.overlay.wallet,La vue portefeuille affiche vos réserves de trésorerie et donne accès à la bourse.,,
+tut.basic.controls.step.overlay.wallet,La vue portefeuille affiche vos réserves de trésorerie et donne accès à la <b>bourse</b>.,2023-08-16,
 
 
 tut.basic.controls.step.overlays.controls,Commandes du système,,
@@ -4469,14 +4469,14 @@ tut.basic.controls.step.overlays.information,Surcouches d'information,,
 
 
 tut.basic.controls.step.overlays.special,Vues spéciales,,
-tut.basic.controls.step.overlays.special.desc,"C'est là que vous trouverez des vues spéciales, telles que l'arbre de recherche et la carte des étoiles.",,
+tut.basic.controls.step.overlays.special.desc,"C'est là que vous trouverez des vues spéciales, telles que <b>l'arbre de recherche</b> et la <b>carte des étoiles</b>.",2023-08-16,
 
 
 
 tut.basic.controls.step.repair.1,Les systèmes signalent une fuite d'oxygène. Utilisons le calque visuel <b>{0}</b> pour le trouver.,,
 tut.basic.controls.step.repair.2,Voilà la fuite. Vous pouvez voir de l'oxygène sortir à travers un <b>{0}</b> endommagé vers la zone adjacente qui n'est pas censée contenir d'oxygène.,,
-tut.basic.controls.step.repair.3,Cliquez sur <b>{0}</b> pour ouvrir le <b>menu Outils</b> et activer l'outil <b>{1}</b>. Nous allons ensuite créer quelques tâches de réparation.,,
-tut.basic.controls.step.repair.4,Cliquez sur {0} et tracez un rectangle autour de la zone endommagée pour ordonner des réparations.,,
+tut.basic.controls.step.repair.3,Utilisez <b>{0}</b> pour ouvrir le <b>menu Outil</b> et activer l'outil <b>{1}</b>. Nous allons ensuite créer quelques tâches de réparation.,2023-08-16,
+tut.basic.controls.step.repair.4,Appuyez sur {0} et faites glisser un rectangle autour de la zone endommagée pour commander des réparations.,2023-08-16,
 
 
 tut.basic.controls.step.tool.build.1,Nous allons examiner de plus près l'outil <b>{0}</b>. Cliquez dessus pour activer le sous-menu de l'outil.,,
@@ -4509,12 +4509,27 @@ tut.research.desc,Apprenez les concepts de la recherche.,,
 
 tut.research.end,C'est tout ! Voici un résumé de ce que nous avons appris:<br><br> - La recherche utilise <b>Datoïdes</b>.<br> - Les datoïdes sont produits par des <b>récolteurs de données</b>.<br> - Les datoïdes doivent être stockés dans des <b>chargeurs de données</b> pour être disponibles.<br> - Vous devez disposer de suffisamment d'espace <b>Disque</b> et de Datoïdes du bon type pour débloquer un nœud de recherche.,,
 tut.research.intro.desc,Ce tutoriel vous apprendra tout ce que vous devez savoir sur la <b>Recherche</b> dans Stardeus.,,
-tut.research.name,Recherche,,
+tut.research.name,La recherche,,
 
 tut.research.open.tree,Ouvrez: <b>{0}</b>. Vous pouvez utiliser le raccourci: {1}.,,
+
+
+
+
+tut.research.tree.info,Panneau d'informations sur l'arbre de recherche,,
+tut.research.tree.info.datoids,Cette section répertorie les <b>Datoïdes</b> qui peuvent être utilisés. Survolez ou cliquez sur les éléments pour plus d'informations sur chaque type de Datoïde.<br><br>Les datoïdes ne deviennent disponibles qu'après avoir été stockés dans un <b>{0}</b>. Nous allons bientôt en construire un.,,
+tut.research.tree.info.desc,Ce panneau contient une vue d'ensemble des ressources disponibles et des actions utiles.,,
+tut.research.tree.info.disk,Cette barre de progression indique l'utilisation du <b>disque</b>.<br><br>Le bouton <b>{0}</b> ouvre une liste de nœuds de recherche déverrouillés qui peuvent être déchargés si vous avez un besoin urgent de plus d'espace disque. Les recherches déchargées devront être à nouveau déverrouillées.,,
+
+tut.research.tree.info.management,La section de gestion contient des commandes supplémentaires qui pourraient vous être utiles.<br><br>Vous pouvez maintenant fermer le <b>{0}</b> avec {1}.,,
+
+
+
 tut.research.tree.nav,L'arbre de recherche: Le déplacement,,
 tut.research.tree.nav.desc,Il s'agit de l'<nobr><b>arbre de recherche</b></nobr>. Voici comment naviguer:<br><br> - Pour se déplacer: {0} ou faites glisser la souris en maintenant {1} enfoncé.<br> - Pour changer de zoom: {2},,
 tut.research.tree.nav.gamepad,Il s'agit de l'<nobr><b>arbre de recherche</b></nobr>. Voici comment naviguer:<br><br> - Pour se déplacer: {0}.<br> - Pour changer de zoom: {1}.,,
+
+
 
 tut.research.tree.node,L'arbre de recherche: Les noeuds,,
 
