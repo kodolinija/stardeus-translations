@@ -2654,7 +2654,7 @@ objects.devices.autodrillrig,Foreuse automatique,,
 objects.devices.autodrillrig.desc,La foreuse automatique est un système de forage guidé par l'IA conçu pour une extraction précise des ressources et une intégration transparente avec des opérations automatisées. Ne peut pas être récupéré après le déploiement.,2023-07-06,
 objects.devices.autokitchen,Cuisine automatique,,
 objects.devices.autokitchen.desc,Imprime des aliments pour vos colons.,,
-objects.devices.autopainter,Auto Peintre,,
+objects.devices.autopainter,AutoPainter,,
 objects.devices.autopainter.desc,Distribue des nanobots transportant des particules de pigment qui peuvent changer la couleur de la plupart des surfaces.,,
 objects.devices.battery,Batterie ({0}kW),,
 objects.devices.battery.desc,Une batterie ordinaire pour stocker l'énergie. Peut produire jusqu'à {0} kW.,,
@@ -4473,15 +4473,33 @@ tut.basic.controls.step.overlay.atmotempres,"L'isolation représente la résista
 
 tut.basic.controls.step.overlay.beings,"Cette vue liste tous les êtres présents sur votre vaisseau. Cela inclut vos travailleurs robotiques, vos colons humains, vos animaux de compagnie et toute autre créature qui pourrait apparaître.",,
 
+tut.basic.controls.step.overlay.codex,"Le Codex contient le <b>Manuel d'Opérations</b>, des conseils et diverses listes de données, telles que les types de différents matériaux qui existent dans l'univers Stardeus, tous les plans que vous pouvez débloquer dans l'Arbre de Recherche, les Factions connues, et plus.",,
+tut.basic.controls.step.overlay.combat,La vue de combat est utile pour suivre les détails des combats en cours. Elle liste les factions et tous les combattants.,,
+tut.basic.controls.step.overlay.copters,"Une fois que vous aurez déverrouillé l'<b>automatisation minière</b>, vous pourrez construire des <b>hélicoptères cargo</b>. Cette vue vous permet de gérer les missions d'hélicoptère en cours.",,
+
 tut.basic.controls.step.overlay.electricity,"Ce calque affiche les connexions des appareils et aide à résoudre les problèmes liés au réseau électrique. Il fournit des données sur la production et la consommation d'électricité, tout déficit, l'état des batteries, et répertorie également les appareils déconnectés ou éteints, et autres détails utiles.",,
+tut.basic.controls.step.overlay.eventlog,"Le journal des événements est un journal qui contient l'histoire de votre vaisseau. Lorsqu'un événement important se produit, une entrée automatique apparaît dans ce journal. Vous pouvez également ajouter ici des entrées manuelles personnalisées à tout moment.",2023-08-16,
+tut.basic.controls.step.overlay.expedition,"Cette vue affiche tous les emplacements de ressources connus et vous permet de gérer les expéditions de la navette. Si jamais une navette se perd, vous pouvez retrouver sa position ici.",,
 
 tut.basic.controls.step.overlay.goals,"Le jeu suit vos progrès actuels et, sous certaines conditions, peut vous donner quelques suggestions. Ces suggestions s'affichent également dans le panneau des événements en haut à droite. Ces suggestions sont complètement optionnelles et peuvent être ignorées si vous souhaitez suivre votre propre stratégie.",,
+
+tut.basic.controls.step.overlay.islands,"Ce calque révèle des sections de navire séparées. Les sections sont des îlots de structure individuels. Habituellement, en avoir plus d'un signifie que le vaisseau ne volera pas, bien que de minuscules sections avec moins de 30 tuiles environ soient ignorées. Vous pouvez utiliser le <b>treuil</b> ou un <b>contrôleur de manœuvre</b> pour rassembler ces sections.<br><br>Le calque vous permet également d'abandonner toutes les sections de navires indésirables, y compris les vaisseaux abandonnés que vous pourriez rencontrer pendant votre aventure. Vous devrez attacher, désassembler ou abandonner un vaisseau abandonné avant de vous envoler.<br><br>À proximité d'un port spatial, vous pouvez utiliser ce calque pour vendre une section. Cela permet d'attacher temporairement un vaisseau abandonné au vôtre, de le remorquer jusqu'au port spatial le plus proche, de le détacher, puis de le vendre.",2023-08-16,
+
+tut.basic.controls.step.overlay.path,"Ce calque clarifie où et comment vos colons et robots peuvent se déplacer. Même lorsqu'il semble y avoir un écart praticable, le chemin peut toujours être bloqué. Rappelez-vous que les êtres ne peuvent pas se déplacer dans des passages en diagonale.",,
+tut.basic.controls.step.overlay.plan,"En plus d'un ensemble d'outils de planification qui incluent la mise en miroir, les cercles et les lignes, ce calque aide à concevoir le vaisseau parfait. Dans les scénarios où votre vaisseau est détruit, le calque contiendra le design d'origine, vous pouvez donc choisir de lui redonner sa gloire d'antan ou de tout effacer et de vous l'approprier.",,
 
 tut.basic.controls.step.overlay.quests,Ici vous trouverez la liste des quêtes disponibles. La quête active est toujours affichée dans le panneau des événements en haut à droite.,,
 
 tut.basic.controls.step.overlay.research,"C'est là que vous débloquez de nouvelles technologies.",,
 
 tut.basic.controls.step.overlay.resources,Ce panneau contient des détails sur les ressources que vous possédez. Vous pouvez également trouver une liste complète des types de ressources disponibles et des plans d'appareils.,,
+
+tut.basic.controls.step.overlay.shipnav,"Ici, vous pouvez voir si votre vaisseau est en état de fonctionnement et dépanner les raisons quand ce n'est pas le cas. Il répertorie tous les moteurs et contient une liste de contrôle avant le vol, vous permettant également de modifier la direction vers l'avant de votre vaisseau.<br><br>La direction vers l'avant détermine comment le champ d'étoiles derrière le vaisseau se déplace en vol. Par exemple, si vos moteurs sont orientés vers la gauche, la direction vers l'avant doit être réglée sur la droite, et ainsi de suite.",,
+tut.basic.controls.step.overlay.skip.tip,Vous pouvez ignorer cette partie Maintenez {0} lorsque vous passez la souris sur le bouton calque pour voir le message du tutoriel à tout moment.,,
+tut.basic.controls.step.overlay.starmap,"Si votre vaisseau a des moteurs et est en un seul morceau, il peut voler. L'exploration spatiale sera essentielle pour trouver les ressources dont vous aurez besoin.",2023-08-16,
+
+tut.basic.controls.step.overlay.tasks,"Ici, vous pouvez voir les tâches actives et qui travaille sur quoi. Le nombre de tâches actives est limité par la quantité de ressource <b>Mémoire</b>, qui peut être augmentée en construisant des <b>Modules de mémoire</b>. Les limites seront visibles ici.",2023-08-16,
+tut.basic.controls.step.overlay.tint,"Une fois que vous avez un <b>Auto Painter</b> chargé de pigments de couleur, utilisez les outils fournis par cette vue pour peindre les sols et les murs de votre vaisseau comme vous le souhaitez.",,
 
 tut.basic.controls.step.overlay.wallet,La vue portefeuille affiche vos réserves de trésorerie et donne accès à la <b>bourse</b>.,2023-08-16,
 
@@ -4507,13 +4525,20 @@ tut.basic.controls.step.repair.4,Appuyez sur {0} et faites glisser un rectangle 
 tut.basic.controls.step.tool.build.1,Nous allons examiner de plus près l'outil <b>{0}</b>. Cliquez dessus pour activer le sous-menu de l'outil.,,
 tut.basic.controls.step.tool.build.2,Il s'agit du sous-menu de l'outil. Il contient des onglets pour les groupes d'objets que vous pouvez construire.,,
 tut.basic.controls.step.tool.build.3,"Construisons quelque chose. Cliquez sur l'onglet {0}, puis sur {1} pour commencer à le construire.",,
-tut.basic.controls.step.tools.build.4,Les travailleurs commenceront à exécuter l'ordre de construction sous peu. Assurez-vous que le temps n'est pas arrêté.<br><br><b>{1}</b> reviendra au menu de construction.<br><br>{0} quittera le mode de construction.,,
+tut.basic.controls.step.tool.build.4,Les travailleurs commenceront à exécuter l'ordre de construction sous peu. Assurez-vous que le temps n'est pas arrêté.<br><br><b>{1}</b> reviendra au menu de construction.<br><br>{0} quittera le mode de construction.,,
 
 
+tut.basic.controls.step.tools.connect,Cet outil vous permet de connecter/déconnecter des appareils électriques et de lier/dissocier des téléporteurs en cliquant et en faisant glisser une ligne entre eux.,,
+
+
+tut.basic.controls.step.tools.place_tiles,Cet outil contiendra les plans déverrouillés de divers objets que vous pourrez ordonner à vos travailleurs de construire. Il comporte un sous-menu avec des catégories et une liste d'éléments <b>Récent</b>.,,
 tut.basic.controls.step.tools.plan,Cet outil propose plusieurs méthodes pour dessiner dans le calque visuel <b>Planification</b>.,,
+
+tut.basic.controls.step.tools.remove_tiles,"Cet outil ordonne la déconstruction de murs, de sols ou d'appareils. Cliquez sur un seul objet ou cliquez et faites glisser sur une zone pour créer un ordre.",,
+
 tut.basic.controls.step.tools.repair,"Cet outil met en évidence la structure et les appareils endommagés, vous permettant d'ordonner des réparations. Cliquez sur un seul appareil ou cliquez et faites glisser pour sélectionner une plus grande zone à réparer.",,
 tut.basic.controls.step.tools.skip.tip,Vous pouvez ignorer cette partie Passez la souris sur n'importe quel bouton d'outil pour voir le message du tutoriel.,,
-
+tut.basic.controls.step.tools.store,"Cet outil ordonne le transport des tas de matériaux non stockés vers un stockage compatible, si disponible. Cliquez sur un seul tas ou cliquez et faites glisser pour sélectionner plusieurs tas à transporter.",,
 
 tut.basic.controls.tools,Outils,,
 tut.basic.controls.tools.desc,"De nombreuses actions dans le jeu nécessitent l'utilisation d'un outil, et plusieurs outils sont à votre disposition. Vous pouvez y accéder par différents moyens, y compris le <b>menu outils</b>, la <b>barre de raccourcis</b>, la <b>recherche rapide</b> et les <b>touches de raccourci</b>.<br><br>Appuyez sur <b>{0}</b> pour ouvrir le <b>menu outils</b>.",,
