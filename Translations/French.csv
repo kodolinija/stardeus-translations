@@ -631,7 +631,7 @@ codex.m.resources.crafting,Fabriquer (produire) des ressources,,
 codex.m.resources.crafting.desc,"La production se fait à l'aide de divers machines qui auront des commandes dans le panneau d'informations (le nom de l'élément de l'interface utilisateur variera en fonction du type de machine).La fabrication nécessitera toujours des matériaux et de l'électricité pour créer un produit. Consultez les entrées du Codex pour les divers matériaux et ressources afin de voir comment ils peuvent être produits ou acquis.<br><br>Vous pouvez obtenir une partie des ressources et des matériaux par d'autres moyens: expéditions minières, commerce avec les marchands, déconstruction d'objets.<br><br>Certaines machine pouvent produire (ou fabriquer) des matériaux ou des ressources: cuisine automatique, cafetière, assembleur, métier à tisser.",,
 codex.m.resources.deconstruction,Déconstruire pour les ressources,,
 codex.m.resources.deconstruction.desc,"Chaque appareil et structure contient des ressources qui peuvent être récupérées.Sélectionnez l'objet et explorez l'élément de construction dans le panneau d'informations pour voir le contenu.<br><br>Déconstruire les appareils inutilisés, et en particulier les sols et les murs, est une solution valable et souvent nécessaire, surtout si vous vous retrouvez dans un vaisseau détruit ou en manque de carburant.<br><br>Parfois, vous voudrez peut-être réduire la taille de votre vaisseau si vous vous êtes agrandi trop rapidement. Un vaisseau plus léger voyagera plus vite et aura besoin de moins d'électricité pour son entretien.",,
-codex.m.resources.inventory,"surcouche ""d'inventaire""",,
+codex.m.resources.inventory,"claque ""d'inventaire""",,
 codex.m.resources.inventory.desc,"Utilisez le calque  ""d'inventaire"" ({0}) pour voir un rapport en temps réel sur le nombre et le type de ressources ou d'éléments dont vous disposez.Il n'inclut pas les ressources à l'intérieur de vos réacteurs ou verrouillées dans vos appareils et votre structure (voir ""Déconstruire pour les ressources"").<br><br>Utilisez le bouton ""Rechercher"" près d'une ressource pour parcourir les emplacements où cette ressource ou cet élément est présent.",,
 codex.m.resources.miningplanets,Miner les planètes,,
 codex.m.resources.miningplanets.desc,"La meilleure façon d'acquérir des ressources est de visiter des planètes et d'organiser des expéditions minières. Établissez des capacités de vol spatial, utilisez la carte stellaire pour trouver des planètes proches, volez vers elles, puis utilisez le calque  ""d'expédition"" ({0}) pour lancer une expédition.",,
@@ -662,15 +662,15 @@ codex.m.ui.events.desc,"Le panneau d'événements est la partie inférieure de l
 codex.m.ui.hotbar,Barre de raccourcis,,
 codex.m.ui.hotbar.desc,"La barre d'accès rapide, située en bas, fournit des raccourcis vers les outils et les plans. Par défaut, lors d'une nouvelle partie, elle est préchargé avec des outils du menu Outils, mais vous êtes libre de l'adapter à vos besoins.<br><br> - Pour ajouter un élément: dans le menu Outils, maintenez {0} enfoncé et sélectionnez l'élément de menu souhaité.<br> - Pour supprimer un élément: maintenez {0} enfoncée et cliquez sur l'élément dans la barre d'accès rapide.<br> - Pour réorganiser les éléments : cliquez sur n'importe quel élément et faites-le glisser.<br> - Pour éviter toute modification accidentelle, vous pouvez verrouiller la barre de raccourcis via le menu Paramètres du jeu actuels.",2023-08-16,
 codex.m.ui.infopanel,Panneau d'informations,,
-codex.m.ui.infopanel.desc,"Le <b>panneau d'informations</b> expose les données internes et les contrôles pour tout objet sélectionné. Il est fortement recommandé d'explorer le panneau pour chaque appareil, personnes et matériel. Il vous aidera à comprendre son état et vous indiquera comment le gérer ou le configurer.<br><br>Chaque objet a un ensemble de composants. Lorsqu'un objet est sélectionné, chaque composant de cet objet expose ses données et ses contrôles au panneau d'informations.<br><br>Lorsque plusieurs objets sont sélectionnés, le panneau affiche une liste de tous les objets sélectionnés et une liste interactive des actions courantes au-dessus d'eux. Reportez-vous à la section "Actions courantes" du manuel pour plus de détails.<br><br>Le panneau d'informations comporte des onglets Objet et Environnement.",2023-08-14,
-codex.m.ui.overlays,Surcouche,,
-codex.m.ui.overlays.desc,"Les surcouches exposent sur l'interface utilisateur, pour divers systèmes internes et groupes de données, tels que le réseau électrique, l'inventaire, l'arbre de recherche, la carte stellaire, etc.<br><br>Les boutons de surcouche se trouvent en haut à gauche de l'interface utilisateur. Survolez chaque bouton pour voir une info-bulle avec le nom de le calque .La première ligne peut être basculée à l'aide des touches F1-F10.<br><br>Il est fortement recommandé d'explorer chaque surcouche et de voir quelles fonctionnalités elle expose. Chaque surcouche est utile à un moment donné.<br><br>Certaines surcouches nécessitent des recherches ou certaines conditions préalables pour être activées.",,
+codex.m.ui.infopanel.desc,"Le <b>panneau d'informations</b> expose les données internes et les contrôles pour tout objet sélectionné. Il est fortement recommandé d'explorer le panneau pour chaque appareil, personnes et matériel. Il vous aidera à comprendre son état et vous indiquera comment le gérer ou le configurer.<br><br>Chaque objet a un ensemble de composants. Lorsqu'un objet est sélectionné, chaque composant de cet objet expose ses données et ses contrôles au panneau d'informations.<br><br>Lorsque plusieurs objets sont sélectionnés, le panneau affiche une liste de tous les objets sélectionnés et une liste interactive des actions courantes au-dessus d'eux. Reportez-vous à la section ""Actions courantes"" du manuel pour plus de détails.<br><br>Le panneau d'informations comporte des onglets Objet et Environnement.",2023-08-14,
+codex.m.ui.overlays,Claque,,
+codex.m.ui.overlays.desc,"Les claques exposent sur l'interface utilisateur, pour divers systèmes internes et groupes de données, tels que le réseau électrique, l'inventaire, l'arbre de recherche, la carte stellaire, etc.<br><br>Les boutons de claque se trouvent en haut à gauche de l'interface utilisateur. Survolez chaque bouton pour voir une info-bulle avec le nom de le calque .La première ligne peut être basculée à l'aide des touches F1-F10.<br><br>Il est fortement recommandé d'explorer chaque claque et de voir quelles fonctionnalités elle expose. Chaque claque est utile à un moment donné.<br><br>Certaines claques nécessitent des recherches ou certaines conditions préalables pour être activées.",,
 codex.m.ui.quicksearch,Recherche rapide,,
 codex.m.ui.quicksearch.desc,La recherche rapide est un widget d'interface utilisateur extrêmement puissant. Ouvrez-la avec {0} et commencez à taper le nom d'un plan que vous souhaitez construire (doit être déverrouillé dans Recherche). Fonctionne également pour trouver vos ouvriers ou colons par leur nom.,,
 codex.m.ui.radialmenu,Menu Outil: Circulaire,2023-08-16,
 codex.m.ui.radialmenu.desc,"Le menu radial est le menu circulaire qui peut être appelé en cliquant sur {0}.<br><br>Cliquer sur {1} entrera dans un sous-menu ou invoquera l'action sélectionnée.<br><br>Cliquez sur {0} pour quitter le sous-menu (un niveau vers le haut) et enfin quitter le menu.<br><br>Double-cliquez sur {1} pour quitter le menu immédiatement, même si vous êtes au plus profond de l'arborescence des sous-menus.<br><br>Les outils et plans fréquemment utilisés peuvent être placés dans la barre de raccourcis (rangée du bas).<br><br>La recherche rapide ({2}) ou l'utilisation de ""Créer une copie"" est presque toujours un moyen plus rapide de créer.",,
 codex.m.ui.research,Arbre de Recherches,,
-codex.m.ui.research.desc,"Il est recommandé de rechercher l'<b>informatique</b> dès le début, afin de ne pas manquer de <b>disque</b> afin de pouvoir créer plus de modules.<br><br>Vous pouvez décharger des noeuds de recherche pour récupérer de l'espace disque, mais cela supprimera également tous les plans déverrouillés par ce noeud de recherche. Vous devrez à nouveau rechercher des technologies déchargées.<br><br>Vous devez avoir suffisamment de ressources pour démarrer et faire avancer une recherche.<br><br>Construisez des <b>modules de disque</b> et des <b>modules de mémoire</b> pour augmenter votre disque et votre mémoire.<br><br>Vous pouvez réduire la limite de consommation d'électricité de chaque appareil de recherche individuel (ordinateur du vaisseau, station de recherche).<br><br>La surcouche de ""l'arbre de recherche"" peut également être ouverte en utilisant le raccourci {0}.",2022-07-05,
+codex.m.ui.research.desc,"Il est recommandé de rechercher l'<b>informatique</b> dès le début, afin de ne pas manquer de <b>disque</b> afin de pouvoir créer plus de modules.<br><br>Vous pouvez décharger des noeuds de recherche pour récupérer de l'espace disque, mais cela supprimera également tous les plans déverrouillés par ce noeud de recherche. Vous devrez à nouveau rechercher des technologies déchargées.<br><br>Vous devez avoir suffisamment de ressources pour démarrer et faire avancer une recherche.<br><br>Construisez des <b>modules de disque</b> et des <b>modules de mémoire</b> pour augmenter votre disque et votre mémoire.<br><br>Vous pouvez réduire la limite de consommation d'électricité de chaque appareil de recherche individuel (ordinateur du vaisseau, station de recherche).<br><br>Le claque de ""l'arbre de recherche"" peut également être ouverte en utilisant le raccourci {0}.",2022-07-05,
 codex.m.ui.starmap,Carte stellaire,,
 codex.m.ui.starmap.desc,"La carte stellaire montrera les objets spatiaux à proximité, y compris d'autres vaisseaux.<br><br>Vous pouvez modifier les portées de la carte stellaire pour voir les planètes, les systèmes stellaires ou les galaxies. Voir la section Couches Carte stellaire pour plus d'informations.<br><br>Vous pouvez ouvrir la carte stellaire à l'aide du raccourci {0}.",,
 codex.m.ui.timecontrols,Contrôles du temps,,
@@ -1083,11 +1083,11 @@ energy.tool.need.research,Vous devez rechercher <b>Énergie</b> et construire de
 energy.turned.off,Désactivé [{0}],2022-06-14,
 engine,Moteur,,
 engine.min.push.tip,Un plus gros vaisseau nécessite plus de moteurs pour le déplacer. Vous devrez en ajouter plus.,,
-engine.move.section.too.small,La section que vous tentez de déplacer est trop petite. De minuscules parcelles de structure dans l'espace ne sont pas considérées comme des sections valides. Consultez la surcouches <b>{0}</b> pour voir ce qui peut être déplacé.,,
+engine.move.section.too.small,La section que vous tentez de déplacer est trop petite. De minuscules parcelles de structure dans l'espace ne sont pas considérées comme des sections valides. Consultez le claque <b>{0}</b> pour voir ce qui peut être déplacé.,,
 engine.power,Puissance moteur,,
-engine.power.tip,La puissance du moteur n'inclut pas les moteurs qui ne sont pas pertinents dans l'actuelle surcouche de la Carte Stellaire.,,
+engine.power.tip,La puissance du moteur n'inclut pas les moteurs qui ne sont pas pertinents dans l'actuel claque de la Carte Stellaire.,,
 engine.push,Poussée moteur,2022-01-08,
-engine.wrong.layer.tip,Ce moteur ne fonctionne pas dans l'actuelle surcouche de la Carte Stellaire.,,
+engine.wrong.layer.tip,Ce moteur ne fonctionne pas dans l'actuel claque de la Carte Stellaire.,,
 engines.too.weak,"Moteurs trop faibles",,
 enter.amount,Entrer quantité,,
 enter.galaxy,Entrer,,for the size in the screen
@@ -1163,7 +1163,7 @@ evt.damaged.structure.collapsed,La structure endommagée s'est effondrée,,
 evt.damaged.structure.collapsed.desc,{0} endommagé s'est effondré à {1},,
 evt.death.desc,{0} {1} est décédé à l'âge de {2}. Cause du décès: {3},,
 evt.death.title,{0} est décédé,,
-evt.derelict.approached.desc,Nous avons approché un navire abandonné. Il y a peut-être quelque chose d'utile que nous pouvons récupérer.,,
+evt.derelict.approached.desc,Nous avons approché un vaisseau abandonné. Il y a peut-être quelque chose d'utile que nous pouvons récupérer.,,
 evt.derelict.approached.title,En approche vers un vaisseau abandonné,,
 evt.drone.batt.electrocuted.desc,{0} un dysfonctionnement de la batterie a choqué les êtres suivants qui se trouvaient à proximité: {1},,
 evt.drone.batt.electrocuted.title,{0} êtres électrocutés,,
@@ -1377,7 +1377,7 @@ feedback.failed,Le téléchargement des commentaires a échoué pour la raison s
 feedback.failed.screenshot,"Merci pour votre avis ! Le ticket de commentaires {0} a été créé avec succès, mais la capture d'écran n'a pas pu être associée à la raison suivante: {1}.",,
 feedback.hint,"S'il s'agit d'un bug, décrivez le problème avec autant de détails que possible, y compris les étapes pour reproduire le problème.",,
 feedback.other,Autre,,
-feedback.other.tip,Avez-vous construit un <b>magnifique navire</b> et souhaitez-vous le partager avec tout le monde sur Discord ? Vous avez quelque chose à dire au développeur ? Vous voulez partager votre sauvegarde avant qu'une pluie de météorites ne vous anéantisse ? Utilisez cette catégorie si <b>aucun autre type ne convient</b>.,,
+feedback.other.tip,Avez-vous construit un <b>magnifique vaisseau</b> et souhaitez-vous le partager avec tout le monde sur Discord ? Vous avez quelque chose à dire au développeur ? Vous voulez partager votre sauvegarde avant qu'une pluie de météorites ne vous anéantisse ? Utilisez cette catégorie si <b>aucun autre type ne convient</b>.,,
 feedback.performance,Performance,,
 feedback.performance.tip,"Pour signaler des situations où le jeu ne fonctionne pas correctement, <b>FPS est trop bas</b> ou il y a des <b>chutes d'images</b> constantes.",2022-12-22,
 feedback.post.to.discord.hint,"Si sélectionné, votre capture d'écran et votre fichier de sauvegarde seront partagés publiquement sur Stardeus Discord avec votre nom d'utilisateur ({0}). Ceci est utile, afin que les autres joueurs puissent voir ce qui est déjà signalé, ce qui réduit les doublons. De plus, si vous êtes sur Stardeus Discord avec un surnom correspondant, vous pourriez recevoir très bientôt une réponse du développeur.",,
@@ -1530,7 +1530,7 @@ goal.AddEnergyBudget.desc,"Nous sommes actuellement capables de produire {0}. La
 goal.AddMoreCPU,Ajouter plus de puissance CPU,,
 goal.AddMoreCPU.desc,"Notre réseau électrique devient trop gros pour la capacité actuelle du CPU. Nous devrions construire et connecter plus de <b>Modules CPU</b>.",2023-07-27,
 goal.ApproachDerelict,Approchez-vous du vaisseau abandonné,,
-goal.ApproachDerelict.desc,"Nous sommes proches d'un <b>navire vaisseau</b>. Lorsque vous êtes prêt, lancez l'<b>approche</b> dans la carte stellaire.",,
+goal.ApproachDerelict.desc,"Nous sommes proches d'un <b>vaisseau abandonné</b>. Lorsque vous êtes prêt, lancez l'<b>approche</b> dans la carte stellaire.",,
 goal.BuildDiskModule,Construire un module de disque,,
 goal.BuildDiskModule.desc,Votre stockage de recherche s'épuise. Je suggère de construire un ou plusieurs Modules de disque. Vous devrez faire des recherches en informatique pour acquérir les plans.,,
 goal.BuildHeater,Construire un radiateur,,
@@ -1553,7 +1553,7 @@ goal.ConnectIslands.desc,"Nous devrions construire des ponts pour relier les sec
 goal.DisassembleBreachCapsule,Démonter la capsule d'abordage,,
 goal.DisassembleBreachCapsule.desc,"Vous semblez avoir une Breach Capsule abandonnée attachée à votre vaisseau. Il est fortement recommandé de récupérer la capsule, car elle contient des matériaux précieux. Sélectionnez la capsule et choisissez l'action ""Désassembler"" dans le panneau d'informations ou le menu contextuel. Ou utilisez simplement l'outil Déconstruire.",,
 goal.EnsureShipCPUVentilation,Assurer la ventilation de l'ordinateur de bord,,
-goal.EnsureShipCPUVentilation.desc,"L'ordinateur de bord produit des quantités excessives de chaleur au fil du temps. Il n'est pas recommandé d'entourer l'ordinateur de bord de murs. Vous pouvez remplacer certains sols par un cadre de structure percé de trous pour assurer la ventilation, ou simplement déconstruire certains murs. Consultez surcouche des ""pièces"" pour plus de détails sur les zones fermées.",,
+goal.EnsureShipCPUVentilation.desc,"L'ordinateur de bord produit des quantités excessives de chaleur au fil du temps. Il n'est pas recommandé d'entourer l'ordinateur de bord de murs. Vous pouvez remplacer certains sols par un cadre de structure percé de trous pour assurer la ventilation, ou simplement déconstruire certains murs. Consultez le claque des ""pièces"" pour plus de détails sur les zones fermées.",,
 goal.ExploreCodex,Explorer le manuel des opérations,,
 goal.ExploreCodex.desc,"Ouvrez le <b><nobr>Codex</nobr></b> et explorez le <b><nobr>manuel des opérations</nobr></b>. Familiarisez-vous avec certains concepts, puis marquez-les comme appris.<br><br>Le Codex contient des données utiles, y compris la liste de tous les matériaux, plans avec leurs coûts de production et les résultats de traitement.",2022-06-13,
 goal.GetMoreResource,Obtenez plus {0},,
@@ -2116,7 +2116,7 @@ menu.security.desc,Armes et systèmes de défense,,
 menu.settings,Paramètres,,
 menu.settings.audio,Audio,,
 menu.settings.audio.desc,Modifier les paramètres audio,,
-menu.settings.current_game,Paramètres de jeu actuels,,
+menu.settings.current_game,Paramètres de la partie,,
 menu.settings.desc,Paramètres globaux,,
 menu.settings.gameplay,Réglage du jeu,,
 menu.settings.input,Configuration des touches,,
@@ -2167,7 +2167,7 @@ meteor.incoming,Météore entrant,,
 meteor.shower.avoided,Bonne nouvelle à tous. Nous avons évité une pluie de météorites !,,
 min.mine.rate,Taux minimum,,
 min.mine.rate.tip,L'expédition se terminera automatiquement lorsque le taux d'extraction tombera en dessous de ce seuil,,
-mining.auto.unlocked,Vous pouvez maintenant construire l'équipement requis pour automatiser les opérations minières. La surcouche <b>{0}</b> est activée.,,
+mining.auto.unlocked,Vous pouvez maintenant construire l'équipement requis pour automatiser les opérations minières. Le claque <b>{0}</b> est activée.,,
 mining.currency,Mining {0},,
 mining.difficulty,Difficulté de minage,,
 mining.difficulty.info,L'extraction de ressource d'un gisement augmente la difficulté du minage. Une difficulté plus élevée réduira la production minière. L'équipement minier avancé peut augmenter la production de ressources d'un gisement.,,
@@ -2378,7 +2378,7 @@ not.customizable.in.demo.storygen,"Dans la démo, vous n'obtenez qu'un conteur a
 not.docked,Non amarré,,
 not.enclosed,Zone non clôturée,,
 not.enough.cpu,CPU insuffisant,,
-not.enough.engine.power,La configuration actuelle du moteur peut fournir <b>{0}</b> de poussée. Notre vaisseau a besoin d'au moins <b>{1}</b> pour pouvoir se déplacer. Ajoutez plus de moteurs ou réduisez la taille du navire. (Taille actuelle: <b>{2}</b>),,
+not.enough.engine.power,La configuration actuelle du moteur peut fournir <b>{0}</b> de poussée. Notre vaisseau a besoin d'au moins <b>{1}</b> pour pouvoir se déplacer. Ajoutez plus de moteurs ou réduisez la taille du vaisseau. (Taille actuelle: <b>{2}</b>),,
 not.enough.ram,Pas assez de mémoire,,
 not.enough.ram.info,"Mémoire requise: {0} EB, disponible: {1} EB. Vérifiez le réseau énergétique ou construisez plus de modules de mémoire (débloqués par la recherche informatique).",,
 not.enough.storage,Pas assez d'espace disque,,
@@ -2619,7 +2619,7 @@ obj.upgrades.asimovoverrideupgrade.desc,Technologie d'intelligence artificielle 
 obj.upgrades.autoconnectupgrade,Connexion automatique,,
 obj.upgrades.autoconnectupgrade.desc,"Une fois installée dans votre ordinateur de bord, cette amélioration connectera automatiquement les appareils nouvellement construits ou réparés à votre réseau électrique.",,
 obj.upgrades.autopilotupgrade,Pilote automatique,,
-obj.upgrades.autopilotupgrade.desc,Cette amélioration permet à l'ordinateur du navire de manipuler directement les commandes du pont sans nécessiter de pilote humain.,,
+obj.upgrades.autopilotupgrade.desc,Cette amélioration permet à l'ordinateur de bord de manipuler directement les commandes du pont sans nécessiter de pilote humain.,,
 obj.upgrades.diskcompressionupgrade,Compression de disque,,
 obj.upgrades.diskcompressionupgrade.desc,"Cette amélioration permet l'ajout d'un algorithme avancé de compression en temps réel à faible surcharge. Cette puce ajoutera 50 % d'espace disque supplémentaire à tout appareil compatible avec un stockage sur disque. L'amélioration est cumulable.,",,
 obj.upgrades.memorycompressionupgrade,Compression mémoire,,
@@ -2637,7 +2637,7 @@ obj.upgrades.starcredsminingupgrade.desc,Permet de miner des Starcreds depuis l'
 obj.upgrades.thrusterupgrade,Amélioration du propulseur,,
 obj.upgrades.thrusterupgrade.desc,Compatible avec les petits propulseurs. Ajoute une post-combustion au prix d'un risque de dysfonctionnement légèrement accru. Empilable.,,
 object.in.unsafe.area,Objet en zone non sécurisée,,
-object.in.unsafe.area.desc,"Cet objet est destiné à être utilisé par des êtres vivants, mais il est situé dans un environnement dangereux qui peut ne pas être accessible sans une combinaison spatiale.<br><br>Utilisez les surcouches de ""pièces"", de ""température"" et ""d'oxygène"" pour résoudre le problème.",,
+object.in.unsafe.area.desc,"Cet objet est destiné à être utilisé par des êtres vivants, mais il est situé dans un environnement dangereux qui peut ne pas être accessible sans une combinaison spatiale.<br><br>Utilisez les claques de ""pièces"", de ""température"" et ""d'oxygène"" pour résoudre le problème.",,
 object.no.longer.available,L'objet a été détruit,,
 objects,Objets,,
 objects.cosmetics.emblem1x1,Petit emblème,,
@@ -2703,7 +2703,7 @@ objects.devices.dataharvesterquantum.desc,Utilise un traitement quantique hautem
 objects.devices.datoidloader,Chargeur de Datoïde,,
 objects.devices.datoidloader.desc,Un stockage spécialisé contenant des <b>Datoïdes</b> pouvant être utilisés pour la Recherche. Doit être adjacent à l'ordinateur du vaisseau.,,
 objects.devices.directionalturret,Tourelle directionnelle,,
-objects.devices.directionalturret.desc,"Une arme à énergie directionnelle de base. Tire automatiquement lorsqu'il est aligné avec une menace (météoroïde, capsule de brèche entrante ou une unité ennemie). Destiné à être monté à l'extérieur du navire. Utilisez à l'intérieur à vos risques et périls. ",2022-11-15,
+objects.devices.directionalturret.desc,"Une arme à énergie directionnelle de base. Tire automatiquement lorsqu'il est aligné avec une menace (météoroïde, capsule de brèche entrante ou une unité ennemie). Destiné à être monté à l'extérieur du vaisseau. Utilisez à l'intérieur à vos risques et périls. ",2022-11-15,
 objects.devices.disassembler,Désassembleur,,
 objects.devices.disassembler.desc,"Traite les machines cassées (robots, drones, bots, etc.) pour récupérer les matières premières",,
 objects.devices.diskmodule,Module de disque ({0}ZB),,
@@ -2911,7 +2911,7 @@ on.fire,Sur le feu!,,
 ongoing.copter.mission.tip,Hélicoptère en cours de mission ,,
 ongoing.missions,Missions en cours,,
 ongoing.trade,Commerce en cours,,
-open,Ouvrir 2,,
+open,Ouvrir,,
 open.capsule,Ouvrir la capsule,,
 open.changelog,Ouvrir le journal des modifications,,
 open.codex,Ouvrir le codex,,
@@ -3178,7 +3178,7 @@ quest.step.research.tip,Déverrouillez {0} dans l'<b>arbre de recherche</b>. Vou
 quest.step.set.dest.type,Définir la destination: <b>{0}</b>,,
 quest.step.set.dest.type.tip,"Ouvrez la <b>carte stellaire</b>, cliquez sur <b>{0}</b> et choisissez l'option: <b>{1}</b>.",,
 quest.step.set.ship.forward.direction,Définir la direction vers l'avant,,
-quest.step.set.ship.forward.direction.tip,"Ouvrez le calque  <b>{0}</b> et sélectionnez la <b>direction avant</b> du navire. Il devrait être à l'opposé de l'endroit où vos moteurs sont orientés, mais vous pouvez déplacer les moteurs et choisir la direction que vous souhaitez.",,
+quest.step.set.ship.forward.direction.tip,"Ouvrez le calque  <b>{0}</b> et sélectionnez la <b>direction avant</b> du vaisseau. Il devrait être à l'opposé de l'endroit où vos moteurs sont orientés, mais vous pouvez déplacer les moteurs et choisir la direction que vous souhaitez.",,
 quest.step.set.starmap.scope,Définir la portée de la carte stellaire: <b>{0}</b>,,
 quest.step.set.starmap.scope.tip,Utilisez l'interface utilisateur <b>carte stellaire</b> pour modifier l'étendue actuelle en <b>{0}</b>.,,
 quest.step.start.expedition,Lancer une expédition,,
@@ -3330,7 +3330,7 @@ research.cryogenics,Cryogénie,,
 research.diskcompression,Compression de disque,,
 research.drone,Drone,,
 research.economy,Économie,,
-research.economy.desc,"Déverrouille la fonctionnalité de surcouche ""Économie""",,
+research.economy.desc,"Déverrouille la fonctionnalité ""Économie""",,
 research.economy.root,Économie,,
 research.economy.wallet,Portefeuille,,
 research.elysium,Elysium,,
@@ -3675,7 +3675,7 @@ ship.capable.intergalactic,Vol intergalactique,,
 ship.capable.interplanetary,Vol interplanétaire,,
 ship.capable.intersystem,Vol intersystème,,
 ship.capable.planet,Vol planétaire,,
-ship.computer.cap.unlock,Vous pouvez maintenant avoir jusqu'à <b>{0}</b> ordinateurs de navire dans votre réseau.,,
+ship.computer.cap.unlock,Vous pouvez maintenant avoir jusqu'à <b>{0}</b> ordinateurs de bord sur votre réseau.,,
 ship.computer.destroyed,<size=200%>L'ordinateur de bord a été détruit</size>,,
 ship.cpu.deconstruct.damaged,Abandon de la déconstruction. L'ordinateur de bord endommagé ne peut pas être démonté en toute sécurité. Réparez les dégâts en premier.,,
 ship.decelerating,Vaisseau en décélération,,
@@ -3715,7 +3715,7 @@ show.hints,Afficher les conseils,2023-03-14,
 show.player.log.dir,Ouvrir le répertoire Player.log,,
 show.research.tree,Ouvrir Recherche,,
 show.roof,Afficher la coque extérieure,,
-show.roof.tip,"Si une zone n'a pas de coque extérieure, cela signifie qu'elle n'est pas entièrement fermée - il manque un sol ou un mur quelque part. Les zones qui ont une coque extérieure ne sont pas garanties d'être entièrement étanches ou isolées, vérifiez à nouveau les surcouches d'<b>étanchéité à l'air</b> et d'<b>isolation</b> pour trouver des fuites potentielles.",,
+show.roof.tip,"Si une zone n'a pas de coque extérieure, cela signifie qu'elle n'est pas entièrement fermée - il manque un sol ou un mur quelque part. Les zones qui ont une coque extérieure ne sont pas garanties d'être entièrement étanches ou isolées, vérifiez à nouveau les claques d'<b>étanchéité à l'air</b> et d'<b>isolation</b> pour trouver des fuites potentielles.",,
 shower,Douche,,
 shower.dirty,La douche est bouchée,,
 shutdown,Fermer,,
@@ -4238,7 +4238,7 @@ time.stopped,Le temps s'est arrêté,,
 time.till.impact,Temps jusqu'à l'impact,,
 times.evaluated,Temps évalués,,
 tint.sys.locked,Recherchez <b>Peinture</b> pour débloquer cette fonctionnalité.,,
-tint.sys.unlocked,La surcouche <b>Peinture</b> est maintenant disponible !,,
+tint.sys.unlocked,Le claque <b>Peinture</b> est maintenant disponible !,,
 tip,Conseil,,
 tip.long.press,Cliquez et maintenez pour activer ce type de bouton,,
 toggle,Suivant(Basc),,
@@ -4286,7 +4286,7 @@ tool.free_select.desc,Faites glisser avec la souris pour sélectionner plusieurs
 tool.manage_ads,Gérer les tâches,,
 tool.manage_ads.desc,"Modifier les priorités des tâches, les annuler",,
 tool.menu.recent.desc,Contient une liste des plans récemment utilisés.,,
-tool.menu.type,Type de menu Outil,,
+tool.menu.type,Type de menu Outils,,
 tool.menu.type.grid,Menu grille,,
 tool.menu.type.radial,Menu circulaire,,
 tool.place_tiles,Construire,,
@@ -4408,24 +4408,19 @@ tut.basic.controls.end,"Ce tutoriel est maintenant terminé. Si vous avez trouv�
 
 tut.basic.controls.group.examining.objects,Examiner les objets,,
 
-
 tut.basic.controls.name,UI et commandes,,
-
 
 tut.basic.controls.quick.search.1,Utilisez <b>{0}</b> lorsque vous savez ce que vous recherchez. C'est le moyen le plus rapide de trouver n'importe quoi.<br><br>Appuyez sur {1} pour activer <b>{0}</b>.,,
 tut.basic.controls.quick.search.2,"Maintenant, commencez à saisir un nom d'un plan et appuyez sur {0} ou cliquez sur le résultat pour l'activer lorsqu'il sera disponible.<br><br>Pour cet exemple, supposons que vous souhaitiez créer un <b>{1}</b>. Tapez ""{2}"", puis appuyez sur {0}.",,
 tut.basic.controls.quick.search.3,"<b>{0}</b> est extrêmement puissant. En plus des plans, cela peut trouver des travailleurs, des entrées de codex et des éléments dans les vues spéciales telles que <b>{1}</b> ou <b>{2}</b>.",,
-
 
 tut.basic.controls.relocate.1,Un autre aspect important de l'organisation de votre vaisseau est le déplacement des objets.,,
 tut.basic.controls.relocate.2,Utilisez le bouton <b>{0}</b> dans le <b>panneau d'informations</b> pour commencer le déplacement.,,
 tut.basic.controls.relocate.3,Déplacez l'appareil dans la zone en surbrillance.<br><br> Le cercle clignotant marque le <b>point de travail</b>. Il ne doit pas être obstrué. Vous devrez faire pivoter l'appareil.<br><br>Utilisez {0} pour faire pivoter l'appareil.<br><br>Appuyez sur {1} au-dessus de la zone en surbrillance pour ordonner la relocalisation.,2023-08-16,
 tut.basic.controls.relocate.4,"La relocalisation est maintenant en attente.<br><br>Vous pouvez déplacer des êtres, des piles de matériaux et d'autres objets de cette manière.",,
 
-
 tut.basic.controls.step.cam,Commandes de la caméra,,
 tut.basic.controls.step.cam.desc,"Pour déplacer la caméra, utilisez {0}.<br><br>Zoom avant et arrière avec {1}.<br><br>Edge Pan can be toggled in <b>Settings > Input</b>.",,
-
 
 tut.basic.controls.step.connect.1,Voyons maintenant ce que l'outil <b>{0}</b> peut faire. Utilisez <b>{1}</b> pour ouvrir le <b>Menu Outils</b> et l'activer.,2023-08-16,
 tut.basic.controls.step.connect.2,"Il y a un <b>{0}</b> déconnecté. Connectons-le à un <b>{1}</b> à proximité.<br><br>Appuyez sur {2} au-dessus de {1}, puis faites glisser une ligne vers {0} et relâchez {2} pour vous connecter.",,
@@ -4436,48 +4431,38 @@ tut.basic.controls.step.context.menu.1,Appel du menu contextuel,,
 tut.basic.controls.step.context.menu.1.desc,"Lorsque le curseur se trouve au-dessus d'un objet, cliquer sur <b>{0}</b> ouvrira le <b>menu contextuel</b>. Essayez de l'ouvrir pour l'appareil en surbrillance.",2023-08-16,
 tut.basic.controls.step.context.menu.2,Menu contextuel,,
 tut.basic.controls.step.context.menu.2.desc,Le <b>menu contextuel</b> contient le sous-ensemble des actions les plus courantes du panneau d'informations.,2023-08-14,
-
 tut.basic.controls.step.context.menu.3.desc,"Utilisez {0} pour fermer le menu contextuel, puis à nouveau {0} pour désélectionner <b>{1}</b>.",2023-08-16,
-
 
 tut.basic.controls.step.deconstruct.1,Nous allons maintenant supprimer une structure. Utilisez {0} pour ouvrir le <b>Menu Outils</b> et activer l'outil <b>{1}</b>.,,
 tut.basic.controls.step.deconstruct.2,Appuyez sur {0} et faites glisser un rectangle autour de la zone en surbrillance pour ordonner la déconstruction du sol.,2023-08-16,
 tut.basic.controls.step.deconstruct.3,"La déconstruction va bientôt commencer.<br><br>De nombreuses actions, y compris <b>Réparer</b> et <b>Déconstruire</b> peuvent être ordonnées via le <b>Panneau d'informations</b> ou le <b>Menu contextuel</b> > de l'objet sélectionné.",,
 
-
 tut.basic.controls.step.deselect,Désélectionner les objets,,
-tut.basic.controls.step.deselect.desc,"Lorsqu'un élément est sélectionné, utilisez <b>{0}</b> au-dessus d'un étage ou d'un espace vide pour le désélectionner. Il fermera également toutes les surcouches ouvertes ou les panneaux d'interface utilisateur actifs. Essayez-le dès maintenant.",,
-
+tut.basic.controls.step.deselect.desc,"Lorsqu'un élément est sélectionné, utilisez <b>{0}</b> au-dessus d'un étage ou d'un espace vide pour le désélectionner. Il fermera également toutes les claques ouvertes ou les panneaux d'interface utilisateur actifs. Essayez-le dès maintenant.",,
 
 tut.basic.controls.step.dev.manage,Gestion des appareils,,
 tut.basic.controls.step.dev.manage.desc,Le <b>panneau d'informations</b> présente divers points de données et contrôles pour l'objet sélectionné. Voyons les connexions électriques de cet appareil.,2023-08-16,
 
 tut.basic.controls.step.dev.manage.submenu,Commandes de composant,,
-tut.basic.controls.step.dev.manage.submenu.desc,"Vous regardez maintenant les commandes du composant <b>Electricité</b> du périphérique sélectionné. Si vous sélectionnez un autre appareil avec le même composant, le sous-menu doit rester ouvert. Chaque objet possède divers composants qui révèlent leurs données et leurs contrôles.",2023-08-16,
+tut.basic.controls.step.dev.manage.submenu.desc,"Vous regardez maintenant les commandes du composant <b>Noeud d'énergie</b> du périphérique sélectionné. Si vous sélectionnez un autre appareil avec le même composant, le sous-menu doit rester ouvert. Chaque objet possède divers composants qui révèlent leurs données et leurs contrôles.",2023-08-16,
 
 tut.basic.controls.step.dev.select,Sélection d'objets,,
-
 
 tut.basic.controls.step.events,Événements actifs,,
 tut.basic.controls.step.events.desc,Cette liste contient les événements les plus importants en cours. Certains éléments de la liste sont des groupes qui peuvent être développés en cliquant dessus.,,
 
-
 tut.basic.controls.step.feedback,"Si vous rencontrez des problèmes, découvrez un bug ou avez une suggestion, vous pouvez envoyer vos commentaires directement depuis le jeu.",2023-08-16,
 
-
-tut.basic.controls.step.grid.menu.1,Types de menus d'outils,,
-tut.basic.controls.step.grid.menu.1.desc,"Il s'agit du <b>menu Grille</b>. Il existe un <b>menu radial</b> alternatif qui peut être plus pratique lorsque vous jouez avec une manette. Vous pouvez modifier le type de menu d'outils dans <b>Paramètres > Saisie > Type de menu d'outils</b>.<br><br>Ce didacticiel utilise le menu d'outils <b>Grille</b>.",,
+tut.basic.controls.step.grid.menu.1,Types de menu outils,,
+tut.basic.controls.step.grid.menu.1.desc,"Il s'agit du <b>menu grille</b>. Il existe un <b>menu radial</b> alternatif qui peut être plus pratique lorsque vous jouez avec une manette. Vous pouvez modifier le type de menu d'outils dans <b>Paramètres > Configuration des touches > Type de menu outils</b>.<br><br>Ce tutoriel utilise le menu d'outils <b>Grille</b>.",,
 tut.basic.controls.step.grid.menu.2,Outils,2023-08-16,
 tut.basic.controls.step.grid.menu.2.desc,"Le côté gauche du <b>menu Outil</b> répertorie tous les outils disponibles. Certains outils peuvent avoir un sous-menu, tandis que d'autres s'activeront au clic. L'outil actif aura une icône jaune.",2023-08-16,
-
 
 tut.basic.controls.step.intro,Bienvenue sur Stardeus !,,
 tut.basic.controls.step.intro.desc,Ce tutoriel va vous montrer comment contrôler le jeu et naviguer dans l'interface utilisateur.<br><br>Cliquez et faites glisser cette fenêtre pour la déplacer.<br><br>Vous pouvez régler l'échelle de l'interface utilisateur dans <b>Paramètres > Vidéo</b>.,,
 
-
 tut.basic.controls.step.log,Journal des événements,,
 tut.basic.controls.step.log.desc,"Cette petite boîte contient un flux détaillé et horodaté d'événements allant des impacts d'astéroïdes à Bob subissant 3 dégâts physiques en se cognant un orteil sur un mini radiateur. <br><br>Vous pouvez effacer cette liste d'événements ou modifier sa visibilité à tout moment.",,
-
 
 tut.basic.controls.step.overlay.aesthetics,L'esthétique reflète la beauté ou la pureté de l'environnement. Les colons apprécieront de passer du temps dans un environnement visuellement plus attrayant.,,
 
@@ -4490,7 +4475,7 @@ tut.basic.controls.step.overlay.atmotempres,"L'isolation représente la résista
 
 tut.basic.controls.step.overlay.beings,"Cette vue liste tous les êtres présents sur votre vaisseau. Cela inclut vos travailleurs robotiques, vos colons humains, vos animaux de compagnie et toute autre créature qui pourrait apparaître.",,
 
-tut.basic.controls.step.overlay.codex,"Le Codex contient le <b>Manuel d'Opérations</b>, des conseils et diverses listes de données, telles que les types de différents matériaux qui existent dans l'univers Stardeus, tous les plans que vous pouvez débloquer dans l'Arbre de Recherche, les Factions connues, et plus.",,
+tut.basic.controls.step.overlay.codex,"Le Codex contient le <b>manuel d'opérations</b>, des conseils et diverses listes de données, telles que les types de différents matériaux qui existent dans l'univers Stardeus, tous les plans que vous pouvez débloquer dans l'Arbre de Recherche, les Factions connues, et plus.",,
 tut.basic.controls.step.overlay.combat,La vue de combat est utile pour suivre les détails des combats en cours. Elle liste les factions et tous les combattants.,,
 tut.basic.controls.step.overlay.copters,"Une fois que vous aurez déverrouillé l'<b>automatisation minière</b>, vous pourrez construire des <b>hélicoptères cargo</b>. Cette vue vous permet de gérer les missions d'hélicoptère en cours.",,
 
@@ -4500,7 +4485,7 @@ tut.basic.controls.step.overlay.expedition,"Cette vue affiche tous les emplaceme
 
 tut.basic.controls.step.overlay.goals,"Le jeu suit vos progrès actuels et, sous certaines conditions, peut vous donner quelques suggestions. Ces suggestions s'affichent également dans le panneau des événements en haut à droite. Ces suggestions sont complètement optionnelles et peuvent être ignorées si vous souhaitez suivre votre propre stratégie.",,
 
-tut.basic.controls.step.overlay.islands,"Ce calque révèle des sections de navire séparées. Les sections sont des îlots de structure individuels. Habituellement, en avoir plus d'un signifie que le vaisseau ne volera pas, bien que de minuscules sections avec moins de 30 tuiles environ soient ignorées. Vous pouvez utiliser le <b>treuil</b> ou un <b>contrôleur de manoeuvre</b> pour rassembler ces sections.<br><br>Le calque vous permet également d'abandonner toutes les sections de navires indésirables, y compris les vaisseaux abandonnés que vous pourriez rencontrer pendant votre aventure. Vous devrez attacher, désassembler ou abandonner un vaisseau abandonné avant de vous envoler.<br><br>À proximité d'un port spatial, vous pouvez utiliser ce calque pour vendre une section. Cela permet d'attacher temporairement un vaisseau abandonné au vôtre, de le remorquer jusqu'au port spatial le plus proche, de le détacher, puis de le vendre.",2023-08-16,
+tut.basic.controls.step.overlay.islands,"Ce calque révèle des sections du vaisseau séparées. Les sections sont des îlots de structure individuels. Habituellement, en avoir plus d'un signifie que le vaisseau ne volera pas, bien que de minuscules sections avec moins de 30 tuiles environ soient ignorées. Vous pouvez utiliser le <b>treuil</b> ou un <b>contrôleur de manoeuvre</b> pour rassembler ces sections.<br><br>Le calque vous permet également d'abandonner toutes les sections du vaisseau indésirables, y compris les vaisseaux abandonnés que vous pourriez rencontrer pendant votre aventure. Vous devrez attacher, désassembler ou abandonner un vaisseau abandonné avant de vous envoler.<br><br>À proximité d'un port spatial, vous pouvez utiliser ce calque pour vendre une section. Cela permet d'attacher temporairement un vaisseau abandonné au vôtre, de le remorquer jusqu'au port spatial le plus proche, de le détacher, puis de le vendre.",2023-08-16,
 
 tut.basic.controls.step.overlay.path,"Ce calque clarifie où et comment vos colons et robots peuvent se déplacer. Même lorsqu'il semble y avoir un écart praticable, le chemin peut toujours être bloqué. Rappelez-vous que les êtres ne peuvent pas se déplacer dans des passages en diagonale.",,
 tut.basic.controls.step.overlay.plan,"En plus d'un ensemble d'outils de planification qui incluent la mise en miroir, les cercles et les lignes, ce calque aide à concevoir le vaisseau parfait. Dans les scénarios où votre vaisseau est détruit, le calque contiendra le design d'origine, vous pouvez donc choisir de lui redonner sa gloire d'antan ou de tout effacer et de vous l'approprier.",,
@@ -4508,7 +4493,6 @@ tut.basic.controls.step.overlay.plan,"En plus d'un ensemble d'outils de planific
 tut.basic.controls.step.overlay.quests,Ici vous trouverez la liste des quêtes disponibles. La quête active est toujours affichée dans le panneau des événements en haut à droite.,,
 
 tut.basic.controls.step.overlay.research,"C'est là que vous débloquez de nouvelles technologies.",,
-
 tut.basic.controls.step.overlay.resources,Ce panneau contient des détails sur les ressources que vous possédez. Vous pouvez également trouver une liste complète des types de ressources disponibles et des plans d'appareils.,,
 
 tut.basic.controls.step.overlay.search,"Ce bouton ouvre l'invite de recherche, vous permettant de trouver rapidement un plan que vous souhaitez construire, un être par son nom, une entrée de codex, et bien plus encore.",2023-08-16,
@@ -4517,9 +4501,9 @@ tut.basic.controls.step.overlay.shipnav,"Ici, vous pouvez voir si votre vaisseau
 tut.basic.controls.step.overlay.skip.tip,Vous pouvez ignorer cette partie Maintenez {0} lorsque vous passez la souris sur le bouton calque pour voir le message du tutoriel à tout moment.,,
 tut.basic.controls.step.overlay.starmap,"Si votre vaisseau a des moteurs et est en un seul morceau, il peut voler. L'exploration spatiale sera essentielle pour trouver les ressources dont vous aurez besoin.",2023-08-16,
 
-tut.basic.controls.step.overlay.tasks,"Ici, vous pouvez voir les tâches actives et qui travaille sur quoi. Le nombre de tâches actives est limité par la quantité de ressource <b>Mémoire</b>, qui peut être augmentée en construisant des <b>Modules de mémoire</b>. Les limites seront visibles ici.",2023-08-16,
+tut.basic.controls.step.overlay.tasks,"Ici, vous pouvez voir les tâches actives et qui travaille sur quoi. Le nombre de tâches actives est limité par la quantité de ressource <b>mémoire</b>, qui peut être augmentée en construisant des <b>modules de mémoire</b>. Les limites seront visibles ici.",2023-08-16,
 tut.basic.controls.step.overlay.terraform,"Lorsque vous trouvez une planète terraformable, elle sera enregistrée dans cette vue, ainsi que le statut de terraformation. Une fois qu'une planète est entièrement terraformée, vous pouvez utiliser ce panneau pour commencer la procédure de colonisation.",,
-tut.basic.controls.step.overlay.tint,"Une fois que vous avez un <b>Auto Painter</b> chargé de pigments de couleur, utilisez les outils fournis par cette vue pour peindre les sols et les murs de votre vaisseau comme vous le souhaitez.",,
+tut.basic.controls.step.overlay.tint,"Une fois que vous avez un <b>auto painter</b> chargé de pigments de couleur, utilisez les outils fournis par cette vue pour peindre les sols et les murs de votre vaisseau comme vous le souhaitez.",,
 
 tut.basic.controls.step.overlay.wallet,La vue portefeuille affiche vos réserves de trésorerie et donne accès à la <b>bourse</b>.,2023-08-16,
 
@@ -4535,32 +4519,25 @@ tut.basic.controls.step.overlays.special.desc,"C'est là que vous trouverez des 
 
 tut.basic.controls.step.overlays.visual,Les calques Visuel,,
 
-
 tut.basic.controls.step.repair.1,Les systèmes signalent une fuite d'oxygène. Utilisons le calque visuel <b>{0}</b> pour le trouver.,,
 tut.basic.controls.step.repair.2,Voilà la fuite. Vous pouvez voir de l'oxygène sortir à travers un <b>{0}</b> endommagé vers la zone adjacente qui n'est pas censée contenir d'oxygène.,,
 tut.basic.controls.step.repair.3,Utilisez <b>{0}</b> pour ouvrir le <b>menu Outil</b> et activer l'outil <b>{1}</b>. Nous allons ensuite créer quelques tâches de réparation.,2023-08-16,
 tut.basic.controls.step.repair.4,Appuyez sur {0} et faites glisser un rectangle autour de la zone endommagée pour commander des réparations.,2023-08-16,
-
 
 tut.basic.controls.step.tool.build.1,Nous allons examiner de plus près l'outil <b>{0}</b>. Cliquez dessus pour activer le sous-menu de l'outil.,,
 tut.basic.controls.step.tool.build.2,Il s'agit du sous-menu de l'outil. Il contient des onglets pour les groupes d'objets que vous pouvez construire.,,
 tut.basic.controls.step.tool.build.3,"Construisons quelque chose. Cliquez sur l'onglet {0}, puis sur {1} pour commencer à le construire.",,
 tut.basic.controls.step.tool.build.4,Les travailleurs commenceront à exécuter l'ordre de construction sous peu. Assurez-vous que le temps n'est pas arrêté.<br><br><b>{1}</b> reviendra au menu de construction.<br><br>{0} quittera le mode de construction.,,
 
-
 tut.basic.controls.step.tools.ads_cancel,"Cet outil annule les ordres actifs. Cliquez sur un objet avec une tâche en attente ou cliquez et faites glisser sur une zone pour annuler les ordres dans cette zone. Les objets avec des commandes actives auront des icônes, et les survoler affichera des info-bulles d'information.",,
 tut.basic.controls.step.tools.ads_priority,"Cet outil ajuste la priorité des tâches en attente. L'augmentation de la priorité tentera également d'affecter la tâche au travailleur disponible le plus proche. Cliquez sur un objet avec une tâche en attente, ou faites glisser sur une zone, pour augmenter ou diminuer la priorité des tâches dans cette zone.",,
 tut.basic.controls.step.tools.ads_retry,"Cet outil tente une nouvelle tentative immédiate des tâches ayant échoué. Cliquez sur un objet avec une tâche ayant échoué ou faites glisser sur une zone pour réessayer instantanément toutes les tâches ayant échoué dans cette région. Notez que les tâches ayant échoué seront réessayées automatiquement après un certain délai, même sans intervention manuelle.",,
-
-
 tut.basic.controls.step.tools.connect,Cet outil vous permet de connecter/déconnecter des appareils électriques et de lier/dissocier des téléporteurs en cliquant et en faisant glisser une ligne entre eux.,,
 tut.basic.controls.step.tools.copy_config,"Cet outil vous permet de copier-coller des paramètres entre des appareils compatibles. Cliquez sur l'un pour copier sa configuration, puis sélectionnez-en un autre ou faites-le glisser sur une zone pour appliquer les paramètres copiés aux appareils du même type.",,
-
 
 tut.basic.controls.step.tools.place_tiles,Cet outil contiendra les plans déverrouillés de divers objets que vous pourrez ordonner à vos travailleurs de construire. Il comporte un sous-menu avec des catégories et une liste d'éléments <b>Récent</b>.,,
 tut.basic.controls.step.tools.plan,Cet outil propose plusieurs méthodes pour dessiner dans le calque visuel <b>Planification</b>.,,
 tut.basic.controls.step.tools.process,"Cet outil ordonne le traitement des tas de matériaux sélectionnés ou des êtres morts, à condition qu'un processeur compatible soit disponible. Cliquez sur un seul objet ou cliquez et faites glisser pour sélectionner plusieurs objets à traiter.",,
-
 
 tut.basic.controls.step.tools.remove_tiles,"Cet outil ordonne la déconstruction de murs, de sols ou d'appareils. Cliquez sur un seul objet ou cliquez et faites glisser sur une zone pour créer un ordre.",,
 tut.basic.controls.step.tools.repair,"Cet outil met en évidence la structure et les appareils endommagés, vous permettant d'ordonner des réparations. Cliquez sur un seul appareil ou cliquez et faites glisser pour sélectionner une plus grande zone à réparer.",,
@@ -4573,6 +4550,8 @@ tut.basic.controls.tools.desc,"De nombreuses actions dans le jeu nécessitent l'
 
 tut.configure,Configurer {0},,
 tut.configure.crafter.product,Commencez à produire: <b>{0}</b>,,
+
+
 tut.connect.device,Connecter {0},,
 tut.connect.device.constrained.desc,Appuyez sur {0} et faites glisser une ligne entre <b>{1}</b> et <b>{2}</b> en surbrillance pour créer une nouvelle connexion.,,
 tut.connect.device.freestyle.desc,Utilisez l'outil <b>{0}</b> pour connecter le <b>{1}</b> en surbrillance au connecteur disponible le plus proche.,,
@@ -4586,28 +4565,23 @@ tut.msg.target.ui.not.found,L'élément d'interface utilisateur requis n'est pas
 tut.msg.target.ui.udb,Cliquez sur l'élément de l'interface utilisateur mis en surbrillance,,
 tut.msg.target.ui.udb.desc,Recherchez l'élément d'interface utilisateur intitulé <b>{0}</b> et cliquez dessus pour continuer.,,
 
+
 tut.obj.no.longer.available,L'objet n'est plus disponible !,,
 tut.obj.not.found,L'objet est introuvable !,,
 
-tut.research.after.first.unlock,<b>{0}</b> est maintenant déverrouillé. Vous pourrez construire tous les plans répertoriés dans ce noeud de recherche.,,
 
-tut.research.datoid.load.ready,"Les <b>datoïdes</b> sont maintenant chargés et quelques noeuds de recherche peuvent être débloqués.<br><br>Chaque fois qu'une recherche peut être débloquée, vous verrez une notification à ce sujet dans le <b>{0}</b> sur la droite.<br><br>Cliquez sur la notification pour ouvrir <b>{1}</b>. Il se concentrera automatiquement sur le premier noeud à débloquer.",,
+tut.research.after.first.unlock,<b>{0}</b> est maintenant déverrouillé. Vous pourrez construire tous les plans répertoriés dans ce noeud de recherche.,,
+tut.research.datoid.load.ready,"Les <b>datoïdes</b> sont maintenant chargés et quelques noeuds de recherche peuvent être débloqués.<br><br>Chaque fois qu'une recherche peut être dévérrouillés, vous verrez une notification à ce sujet dans le <b>{0}</b> sur la droite.<br><br>Cliquez sur la notification pour ouvrir <b>{1}</b>. Il se concentrera automatiquement sur le premier noeud à débloquer.",,
 tut.research.datoid.load.wait,Chargement des Datoïdes,,
-tut.research.datoid.load.wait.desc,"En attente du chargement des <b>Datoïdes</b> dans le <b>{0}</b>.<br><br>Les ouvriers le feront automatiquement, mais vous pouvez utiliser l'outil <b>{1}</b> pour commander immédiatement le transport.",,
+tut.research.datoid.load.wait.desc,"En attente du chargement des <b>datoïdes</b> dans le <b>{0}</b>.<br><br>Les ouvriers le feront automatiquement, mais vous pouvez utiliser l'outil <b>{1}</b> pour commander immédiatement le transport.",,
 tut.research.datoids.howto,Comment produire des Datoïdes,,
 tut.research.datoids.howto.1,"Nous venons de consommer la plupart de nos <b>datoïdes</b>, nous devrons donc en produire davantage.<br><br>Cliquez sur l'élément <b>{0}</b> de l'interface utilisateur pour savoir comment produire il.",,
 tut.research.datoids.howto.2,La fenêtre du codex nous indique que <b>{0}</b> est conçu dans un <b>{1}</b> - nous devrons en créer un.<br><br>Utilisez {2} ou {3} pour fermer le <b>{4}</b>.,,
-
 tut.research.desc,Apprenez les concepts de la recherche.,,
-
-tut.research.end,C'est tout ! Voici un résumé de ce que nous avons appris:<br><br> - La recherche utilise <b>Datoïdes</b>.<br> - Les datoïdes sont produits par des <b>collecteur de données</b>.<br> - Les datoïdes doivent être stockés dans des <b>chargeurs de données</b> pour être disponibles.<br> - Vous devez disposer de suffisamment d'espace <b>Disque</b> et de Datoïdes du bon type pour débloquer un noeud de recherche.,,
-
+tut.research.end,C'est tout ! Voici un résumé de ce que nous avons appris:<br><br> - La recherche utilise des <b>datoïdes</b>.<br> - Les datoïdes sont produits par des <b>collecteurs de données</b>.<br> - Les datoïdes doivent être stockés dans des <b>chargeurs de données</b> pour être disponibles.<br> - Vous devez disposer de suffisamment d'espace <b>disque</b> et de datoïdes du bon type pour dévérrouiller un noeud de recherche.,,
 tut.research.intro.desc,Ce tutoriel vous apprendra tout ce que vous devez savoir sur la <b>recherche</b> dans Stardeus.,,
-
 tut.research.name,La recherche,,
-
 tut.research.open.tree,Ouvrez l'<b>{0}</b>. Vous pouvez utiliser le raccourci clavier {1}.,,
-
 tut.research.tree.find.element,Concentrez-vous sur le noeud de recherche <b>{0}</b> en surbrillance.<br><br>Vous pouvez utiliser la recherche {1} pour y accéder directement.,,
 tut.research.tree.find.element.gamepad,Concentrez-vous sur le noeud de recherche <b>{0}</b> en surbrillance.,,
 tut.research.tree.group,Interface de l'arbre de recherche,,
@@ -4616,26 +4590,26 @@ tut.research.tree.info.datoids,Cette section répertorie les <b>datoïdes</b> qu
 tut.research.tree.info.desc,Ce panneau contient une vue d'ensemble des ressources disponibles et des actions utiles.,,
 tut.research.tree.info.disk,Cette barre de progression indique l'utilisation du <b>disque</b>.<br><br>Le bouton <b>{0}</b> ouvre une liste de noeuds de recherche déverrouillés qui peuvent être déchargés si vous avez un besoin urgent de plus d'espace disque. Les recherches déchargées devront être à nouveau déverrouillées.,,
 tut.research.tree.info.management,La section de gestion contient des commandes supplémentaires qui pourraient vous être utiles.<br><br>Vous pouvez maintenant fermer le <b>{0}</b> avec {1}.,,
-
 tut.research.tree.nav,L'arbre de recherche: Le déplacement,,
 tut.research.tree.nav.desc,Il s'agit de l'<nobr><b>arbre de recherche</b></nobr>. Voici comment naviguer:<br><br> - Pour se déplacer: {0} ou faites glisser la souris en maintenant {1} enfoncé.<br> - Pour changer de zoom: {2},,
 tut.research.tree.nav.gamepad,Il s'agit de l'<nobr><b>arbre de recherche</b></nobr>. Voici comment naviguer:<br><br> - Pour se déplacer: {0}.<br> - Pour changer de zoom: {1}.,,
-
 tut.research.tree.node,L'arbre de recherche: Les noeuds,,
 tut.research.tree.node.bookmark,Il s'agit du bouton <b>Favoris</b>. Cliquez dessus pour ajouter un noeud de recherche verrouillé à vos favoris pour un accès rapide.,,
 tut.research.tree.node.cost.datoids,"La recherche est débloquée en consommant des matériaux spéciaux appelés <b>Datoïdes</b>.<br>Vous trouverez ici les types et les quantités de datoïdes nécessaires.<br><br>Survolez les icônes pour en savoir plus sur chaque type de datoïde, y compris comment les acquérir.",,
 tut.research.tree.node.cost.disk,Il s'agit de l'espace <b>Disque</b> nécessaire pour le stockage permanent afin de conserver les résultats de la recherche.<br><br>Construisez ou mettez à niveau des <b>modules de disque</b> pour augmenter le stockage disponible.,,
 tut.research.tree.node.cost.tier,Il s'agit du <b>Niveau</b> du noeud de recherche. Vous devez débloquer un certain nombre de noeuds du niveau actuel pour débloquer le niveau suivant.,,
-tut.research.tree.node.unlock,"C'est le bouton pour <b>Débloquer</b> une recherche. Si vous avez les ressources nécessaires, cela débloquera le noeud de recherche en un seul clic.<br><br>Si le noeud de recherche ne peut pas être débloquée, le survol de ce bouton vous indiquera pourquoi.",,
-
+tut.research.tree.node.unlock,"C'est le bouton pour <b>débloquer</b> une recherche. Si vous avez les ressources nécessaires, cela débloquera le noeud de recherche en un seul clic.<br><br>Si le noeud de recherche ne peut pas être débloquée, le survol de ce bouton vous indiquera pourquoi.",,
 tut.research.unlock.tech,Débloquer <b>{0}</b>,,
 tut.research.unlock.tech.desc,Débloquez le noeud de recherche en surbrillance pour continuer.,,
 tut.research.unstored.datoid,"Il semble que nous ayons des <b>Datoïdes</b> qui traînent, mais ils ne sont pas encore disponibles pour la recherche.<br><br>Nous devrons créer un <b>{0}</b> et laissez nos travailleurs y charger les Datoïdes.",,
 tut.research.unlocked.tech,<b>{0}</b> déverrouillé !,,
 
+
 tut.skip.group,Passer le groupe: {0},,
 
+
 tut.start.building.def,"Utilisez {0} pour ouvrir le <b>menu Outils</b>, trouvez le <b>{1}</b>, puis cliquez sur l'icône pour commencer à le créer.",,
+
 
 tut.step.expired,Cette étape a expiré,,
 
@@ -4647,11 +4621,14 @@ tut.step.select.entity,Sélectionnez {0},,
 tut.step.select.entity.desc,Cliquez sur le <b>{0}</b> en surbrillance pour le sélectionner.,,
 tut.step.select.entity.expired,Cliquez sur l'objet en surbrillance pour le sélectionner. (Cette étape a expiré),,
 
+
 tut.switch.tool.no.shortcut,Utilisez {0} pour ouvrir le <b>Menu Outils</b> et activer l'outil <b>{1}</b>.,,
 tut.switch.tool.title,Activer l'outil: {0},,
 tut.switch.tool.with.shortcut,Utilisez {0} pour ouvrir le <b>Menu Outils</b> et activer l'outil <b>{1}</b>.<br><br>Vous pouvez aussi activer l'outil <b>{1}</b> avec {2}.,,
 
-tut.ui.click.and.drag,Cliquez sur cette interface et faites-la glisser pour la déplacer.,,
+
+tut.ui.click.and.drag,Cliquez sur cette fenêtre et faites-la glisser pour la déplacer.,,
+
 
 tut.waiting.for.construction,En attente de construction: <b>{0}</b>.,,
 
@@ -4676,24 +4653,24 @@ tutorial.close.overlay,Fermez le calque  pour continuer. Vous pouvez utiliser {0
 tutorial.completed,Tutoriel terminé,,
 tutorial.completed.info,Ce tutoriel est maintenant terminé. Vous pouvez continuer à jouer à ce jeu tant que vous le souhaitez.,,
 tutorial.connector.link.1,Créons maintenant un réseau électrique. Il distribuera <b>l'énergie</b> et fournira <nobr><b>des connexions de données</b></nobr>.<br><br>Vous ne pouvez contrôler que l'équipement connecté au réseau de l'ordinateur de bord .<br><br>Sélectionnez l'outil <b>Se connecter</b>: {0} {1},2022-07-01,
-tutorial.connector.link.2,"Avec l'outil ""Connecter"" sélectionné, cliquez et faites glisser une ligne entre <nobr><b>l'Odinateur de bord</b></nobr> et le <b>Connecteur</b>.",2022-02-28,
+tutorial.connector.link.2,"Avec l'outil ""Connecter"" sélectionné, cliquez et faites glisser une ligne entre <nobr><b>l'ordinateur de bord</b></nobr> et le <b>Connecteur</b>.",2022-02-28,
 tutorial.connector.link.3,"Maintenant, cliquez et faites glisser une ligne pour créer une connexion entre le <b>Connecteur</b> et le <b>Réacteur à Matière</b>.",2022-02-28,
 tutorial.connector.link.4,"Maintenant, cliquez sur <b>{0}</b> pour quitter le mode de connexion, puis activez le calque  <nobr><b>Réseau électrique</b></nobr> dans le menu en haut à droite.",2022-02-28,
 tutorial.deconstruct_mass.1,"Il existe un moyen plus efficace de commander une déconstruction en masse.<br><br>Utilisez {0} pour ouvrir le <b><nobr>menu radial</nobr></b>, puis sélectionnez le <nobr><b> {1} Outil de déconstruction</b></nobr>.",2022-03-31,
 tutorial.deconstruct_mass.2,"Avec l'outil <b>Déconstruction</b> sélectionné, faites glisser un rectangle <b>3x3</b> sur une zone pour ordonner la déconstruction de masse.",,
-tutorial.deconstruct_mass.limit,La déconstruction en masse est actuellement limitée à 25 tuiles pour la durée du didacticiel. La création d'un grand nombre de tâches pour les travailleurs n'est pas recommandée pour le moment.,,
+tutorial.deconstruct_mass.limit,La déconstruction en masse est actuellement limitée à 25 tuiles pour la durée du tutoriel. La création d'un grand nombre de tâches pour les travailleurs n'est pas recommandée pour le moment.,,
 tutorial.deconstruct_single,"Nous aurons besoin de matières premières pour la construction et la production d'électricité.<br><br>Utilisez <b>{0}</b> pour sélectionner une seule dalle de mur ou de sol, puis cliquez sur <b>{1}</b> pour ouvrir un menu contextuel et choisissez <nobr><b>Déconstruire</b></nobr>.",2022-06-21,
 tutorial.deconstruct.obj,La déconstruction d'objets est actuellement désactivée.,,
 tutorial.direct_orders.1,"Nous avons vu les bases, mais il reste encore beaucoup à apprendre. Il n'y a pas de temps pour tout vous montrer, mais vous pouvez découvrir les choses en explorant l'interface et tous les menus.<br><br>Vous devrez lire attentivement si vous souhaitez maîtriser toutes les subtilités de l'exécution des opérations.<br><br>Je vais vous laisser apprendre à donner des ordres directs à nos travailleurs.Sélectionnez n'importe quel travailleur et recherchez le bouton <b><nobr>Contrôle direct</nobr></b> dans la section <b><nobr>Travailleur</nobr></b> de l'interface.",,
 tutorial.direct_orders.2,"Ordonnez maintenant au travailleur contrôlé de se déplacer vers une position de votre choix.Il y aura une indication sous le curseur de la souris.Assurez-vous que le travailleur est sélectionné et n'oubliez pas de relâcher le contrôle direct par la suite, sinon le travailleur attendra plus d'instructions.",2022-10-28,
-tutorial.end,"Le cours accéléré est maintenant terminé. Merci pour vôtre patience. Pour en savoir plus, je vous recommande vivement d'explorer le <b>Manuel des opérations</b> dans le Codex.<br><br>Je ferai occasionnellement des suggestions lorsque certaines actions seront raisonnables. Gardez un oeil sur la liste des événements.<br><br>Je vous donne les autorisations complètes. Bonne chance.",2022-08-18,
+tutorial.end,"Le cours accéléré est maintenant terminé. Merci pour vôtre patience. Pour en savoir plus, je vous recommande vivement d'explorer le <b>manuel des opérations</b> dans le Codex.<br><br>Je ferai occasionnellement des suggestions lorsque certaines actions seront raisonnables. Gardez un oeil sur la liste des événements.<br><br>Je vous donne les autorisations complètes. Bonne chance.",2022-08-18,
 tutorial.energy_grid,"Vous pouvez utiliser le calque  <nobr><b>réseau électrique</b></nobr> pour trouver les appareils déconnectés, voir le flux d'énergie et la quantité de production et de consommation. Désactivez le calque  du ""réseau électrique"" pour continuer. <b>{0}</b> fermera le calque  si rien d'autre n'est sélectionné.",,
-tutorial.events,"Sous les commandes de surcouche, vous trouverez une liste des notifications d'événements en cours. Je vous enverrai une notification de test lorsque vous serez prêt.",,
+tutorial.events,"Sous les commandes de claque, vous trouverez une liste des notifications d'événements en cours. Je vous enverrai une notification de test lorsque vous serez prêt.",,
 tutorial.events.1,Fermez la notification pour continuer.,,
 tutorial.events.2,"Lorsqu'un événement est déclenché par un objet, cliquer sur l'icône permet de se concentrer sur l'objet. Je vais maintenant générer un événement de batterie. Cliquez sur l'icône d'événement pour vous concentrer sur la batterie.",,
 tutorial.guidelines,"Pour vous faciliter la tâche, je vais rendre des directives visuelles. Suivez ces directives si vous ne savez pas quoi faire. Vous pouvez cliquer et faire glisser cette boîte de dialogue pour la déplacer. Le cours devrait durer environ 15 minutes. Commençons!",,
-tutorial.info,"Les objets sélectionnés auront un contour vert et le panneau d'informations apparaîtra en haut à gauche.<br><br>Utilisez <b>{0}</b> pour sélectionner l'<nobr><b>Ordinateur de bord</b> </nobr>.<br><br>Si vous ne le trouvez pas, utilisez <b>{1}</b> pour faire la mise au point de la caméra sur l'ordinateur. Appuyez sur <b>{1}</b> lorsque l'ordinateur est sélectionné, la caméra se concentrera sur l'ensemble du vaisseau.",2022-02-28,
-tutorial.log.end.desc,"J'ai terminé avec succès le cours accéléré ShipOS. Le plus important à retenir est que je dois me connecter à tous les appareils électriques avant de pouvoir les utiliser. Il y avait aussi quelque chose à propos de sauver les survivants humains, ils auront besoin d'oxygène et d'une température plus chaude. Je ferais mieux de vérifier les surcouches et de rechercher la technologie nécessaire.",,
+tutorial.info,"Les objets sélectionnés auront un contour vert et le panneau d'informations apparaîtra en haut à gauche.<br><br>Utilisez <b>{0}</b> pour sélectionner l'<nobr><b>ordinateur de bord</b> </nobr>.<br><br>Si vous ne le trouvez pas, utilisez <b>{1}</b> pour faire la mise au point de la caméra sur l'ordinateur. Appuyez sur <b>{1}</b> lorsque l'ordinateur est sélectionné, la caméra se concentrera sur l'ensemble du vaisseau.",2022-02-28,
+tutorial.log.end.desc,"J'ai terminé avec succès le cours accéléré ShipOS. Le plus important à retenir est que je dois me connecter à tous les appareils électriques avant de pouvoir les utiliser. Il y avait aussi quelque chose à propos de sauver les survivants humains, ils auront besoin d'oxygène et d'une température plus chaude. Je ferais mieux de vérifier les claques et de rechercher la technologie nécessaire.",,
 tutorial.log.end.title,Cours accéléré terminé,,
 tutorial.log.skip.desc,"Le cours accéléré était ennuyeux, je l'ai sauté. Il n'y a pas de meilleure façon d'apprendre des choses qu'en faisant simplement.",,
 tutorial.log.skip.title,Cours accéléré ignoré,,
@@ -4701,16 +4678,16 @@ tutorial.log.start.desc,"J'ai accepté la proposition de suivre le cours accél�
 tutorial.log.start.title,Cours accéléré commencé,,
 tutorial.no.expected.build,Vous n'êtes pas censé commander une nouvelle tâche de construction pour le moment.,,
 tutorial.of.type,{0} Tutoriel (test),,
-tutorial.overlays,"Sous les commandes de temps, vous trouverez des boutons pour basculer entre les surcouches qui affichent des informations utiles sur l'état du vaisseau. Activez et désactivez certaines surcouches dès maintenant. Vous pouvez également utiliser les touches {0}.",,
-tutorial.overlays.2,Vous devez cliquer deux fois sur la même icône de surcouche pour l'activer et la désactiver. Faites ceci pour reconnaître.,,
-tutorial.overlays.controller,"Sous les commandes de temps, vous trouverez des boutons pour basculer entre les surcouches qui affichent des informations sur l'état du vaisseau. Activez et désactivez certaines surcouches dès maintenant.<br><br>Vous pouvez utiliser {0} pour naviguer rapidement dans l'interface utilisateur.",,
+tutorial.overlays,"Sous les commandes de temps, vous trouverez des boutons pour basculer entre les claques qui affichent des informations utiles sur l'état du vaisseau. Activez et désactivez certains claques dès maintenant. Vous pouvez également utiliser les touches {0}.",,
+tutorial.overlays.2,Vous devez cliquer deux fois sur la même icône de claque pour l'activer et la désactiver. Faites ceci pour reconnaître.,,
+tutorial.overlays.controller,"Sous les commandes de temps, vous trouverez des boutons pour basculer entre les claques qui affichent des informations sur l'état du vaisseau. Activez et désactivez certaines claques dès maintenant.<br><br>Vous pouvez utiliser {0} pour naviguer rapidement dans l'interface utilisateur.",,
 tutorial.reactor_configure,"Pour commencer à produire de l'électricité, le réacteur doit être configuré pour brûler un certain type de matière première. Sélectionnez le réacteur et cliquez sur l'icône d'avertissement indiquant <nobr><b>Carburant non configuré</b></nobr>. Sélectionnez ensuite le type de carburant. Je suggère la plaque d'acier, car elle brûle assez efficacement et est facile à obtenir.",,
 tutorial.reactor_wait_fill,"En attente de travailleur pour alimenter le réacteur. Il devrait y avoir beaucoup de matières premières autour des zones détruites, mais vous pouvez toujours déconstruire les restes du vaisseau pour en obtenir plus.",,
 tutorial.reactor_wait_fill_done,Le réacteur a été alimenté et il produit maintenant de l'électricité.,,
 tutorial.relocate_bed.1,"J'ai détecté un <nobr><b>{0}</b></nobr> endommagé que nous pouvons réparer et déplacer dans notre zone de survie. <br><br>Réparez l'objet, puis sélectionnez-le et utilisez <b><nobr>{1}</nobr></b>.<br><br>Vous devez être en mode <b><nobr>Sélection libre</nobr></b> ({2}) pour sélectionner l'objet.",,
 tutorial.relocate_bed.2,Trouvez maintenant un nouvel emplacement pour l'objet et cliquez sur {0} pour commander le déplacement.,,
 tutorial.relocate_bed.3,La déplacement est maintenant en cours.,,
-tutorial.repair_mass.limit,La réparation de masse est actuellement limitée à 25 tuiles pour la durée du didacticiel. La création d'un grand nombre de tâches pour les travailleurs n'est pas recommandée pour le moment.,,
+tutorial.repair_mass.limit,La réparation de masse est actuellement limitée à 25 tuiles pour la durée du tutoriel. La création d'un grand nombre de tâches pour les travailleurs n'est pas recommandée pour le moment.,,
 tutorial.repair_single,"Il est important de réparer tout dommage dans les zones que nous utiliserons. Vous ne pourrez pas utiliser d'appareils endommagés ou construire des objets sur des sols endommagés. De plus, les structures endommagées perdront de l'oxygène.<br><br>Utilisez l'outil {1} <b>Réparer</b> dans le {0} menu pour commander des réparations.<br><br>Quand {1} <b>Réparer</b> l'outil est actif, les objets endommagés seront <b><color=#cc0000ff>surlignés</color></b>. Si vous ne trouvez aucun objet endommagé à proximité, effectuez un zoom arrière et regardez autour de vous.",,
 tutorial.research,La plupart de nos banques de données ont été détruites lors de l'accident. Nous devrons récupérer les plans perdus.<br><br>Cliquez sur le bouton du calque <b>Recherche</b> pour ouvrir l'<nobr><b>Arbre de recherche</b></nobr> (raccourci {0}),2022-02-28,
 tutorial.research_start,"Il s'agit de l'<nobr><b>Arbre de recherche</b></nobr>. Vous pouvez effectuer un déplacement et un zoom comme sur la vue principale.<br><br>Chaque technologie a ses propres besoin en <b>énergie</b>, <b>mémoire</b> et <b>stockage</b>. Cliquez sur les icônes à l'intérieur d'une zone de recherche pour voir des descriptions détaillées des plans qui seraient déverrouillés.<br><br>Démarrez la recherche <b>Énergie</b> pour continuer. Vous devrez peut-être effectuer un zoom arrière ou un déplacement vers le bas pour le trouver.",2022-01-07,
@@ -4723,7 +4700,7 @@ tutorial.select_floor,"S'il y a plusieurs objets au même emplacement, cliquez p
 tutorial.test_event,Supprimer cette notification,2023-01-06,
 tutorial.test_event.2,Cliquez sur l'icône,,
 tutorial.test_event.info,"En cliquant sur l'icône d'informations, vous obtiendrez généralement des détails supplémentaires sur l'événement. Fermez la notification pour continuer.",,
-tutorial.time_speed,Vous pouvez basculer le flux temporel à l'aide de <b>{0}</b> et basculer entre différentes vitesses avec <b>{1}</b>.<br><br>Essayez de modifier la vitesse temporelle.,2022-06-06,
+tutorial.time_speed,Vous pouvez basculer entre pause et une vitesse à l'aide de <b>{0}</b> et basculer entre différentes vitesses avec <b>{1}</b>.<br><br>Essayez de modifier la vitesse du temps.,2022-06-06,
 tutorial.unexpected.build,Vous essayez de créer un mauvais appareil !<br>Attendu: {0}<br>Actuel: {1},,
 ugly.surroundings,Environnement moche,,
 ui.animate,Animer l'interface utilisateur,,
@@ -4763,7 +4740,7 @@ unity.data.privacy.fetch.fail,Échec de la récupération de l'URL de confidenti
 unknown,Inconnue,,
 unlink,Séparer,,
 unload,Décharger,,
-unlock,Débloquer,,
+unlock,Dévérrouillé,,
 unlock.effect.wallet,"Déverrouille <b>{0}</b>, la vue et les informations sur la majoration des prix marchands",,
 unlock.effect.construction.speed,Vitesse de construction {0},,
 unlock.effect.construction.speed.desc,La vitesse d'exécution des tâches de construction/déconstruction/réparation deviendra <b>{0}</b>,,
