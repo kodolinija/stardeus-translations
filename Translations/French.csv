@@ -378,10 +378,10 @@ bomb.controls,Contrôles des explosifs,,
 bomb.detonate.now,Faire exploser maintenant,,
 bomb.disarm,Désarmer l'explosif,,
 bomb.unarmed,Explosif: Non armé,,
-bookmark,Marque page,,
-bookmarks,Marque pages,,
-bookmark.add,Ajouter un marque-page,,
-bookmark.remove,Supprimer le marque-page,,
+bookmark,Favori,,
+bookmarks,Favoris,,
+bookmark.add,Ajouter un favori,,
+bookmark.remove,Supprimer un favori,,
 booting.neural.network,Démarrage du réseau neuronal !,,
 bored,Ennuyé,,
 bot.cap.exceeded,Arrêt du robot: limite dépassée,,
@@ -947,7 +947,7 @@ disable.merchant.beacon,Désactiver la balise marchande,,
 disable.story.events.btn,Événements d'histoire [{0}],,
 disable.story.events.tip,Tous les événements de l'histoire sont activés,,
 disable.story.events.tip.disabled,Événements d'histoire désactivés : {0},,
-disabled.in.tutorial,Désactivé dans le didacticiel,,
+disabled.in.tutorial,Désactivé dans le tutoriel,,
 disassemble,Démonter,,
 disassembling.bar,Démontage: {0}/{1},,
 discharge.time.left,Temps de champ de force,,
@@ -1132,7 +1132,7 @@ ev.vented.into.space.desc,"<b>{0}</b> se trouvait dans une zone sous pression pr
 evaluator,Évaluateur,,
 event.birthday,{0} a maintenant {1} ans !,,
 event.content.hint,Entrée de journal,,
-event.log.disabled.in.tutorial,Vérifiez le journal des événements une fois le didacticiel terminé,,
+event.log.disabled.in.tutorial,Vérifiez le journal des événements une fois le tutoriel terminé,,
 event.panel.clear.tutorial.info,"Cela effacerait les notifications, mais cette fonction est désactivée pendant le tutoriel",,
 event.sound.0,Tous les sons d'événement,,
 event.sound.1,Alertes critiques uniquement,,
@@ -1255,7 +1255,7 @@ exit.planet,Quitter la planète,,
 exit.save,Sauvegarder en quittant.,,
 exit.save.desc,Voulez-vous sauvegarder votre partie ?,,
 exit.system,Quitter le système,,
-exit.to.main.menu,Revenir au menu principal.,,
+exit.to.main.menu,Retour au menu principal,,
 exit.universe,Quitter l'univers,,
 exp.cancel.stage,Annuler {0},,
 exp.crew.name,{0} [Exploitation minière: {1:0.0}],,
@@ -1906,7 +1906,7 @@ loading.save,<size=200%>{0}</size><br>Démarrage du réseau neuronal,,
 location,Position,,
 location.nearby,À proximité,,
 lock,Fermer à clé,,
-locked,Fermé à clé,,
+locked,Débloquer,,
 log.export.date,Date actuelle: {0},,
 log.export.header,Journal de l'histoire de Stardeus,,
 log.export.save_name,Nom du vaisseau: {0},,
@@ -2436,8 +2436,8 @@ obj.copters.cargocopterflying,Hélicoptère de cargo,,
 obj.copters.cargocopterflying.desc,Un véhicule aérien sans pilote entièrement automatisé conçu pour déployer de l'équipement lourd sur des planètes et transporter des matières premières à partir de gisements de minerai.,,
 obj.datoids.datoidalien,Datoïde extraterrestre,,
 obj.datoids.datoidalien.desc,Un <b>Datoïde</b> rare d'origine extraterrestre.,,
-obj.datoids.datoidbasic,Datoïde de base,,
-obj.datoids.datoidbasic.desc,Les <b>dataids</b> sont de petites unités de données qui peuvent être utilisées pour la recherche. Ils doivent être stockés dans un <b>Chargeur Datoïde</b> pour devenir utilisables.,,
+obj.datoids.datoidbasic,Datoïde basique,,
+obj.datoids.datoidbasic.desc,Les <b>Datoïdes</b> sont de petites unités de données qui peuvent être utilisées pour la recherche.<br>Ils doivent être stockés dans un <b>Chargeur Datoïde</b> pour devenir utilisables.,,
 obj.datoids.datoidbiotic,Datoïde biotique,,
 obj.datoids.datoidbiotic.desc,Un <b>Datoïde</b> extrait d'organismes vivants.,,
 obj.datoids.datoidenergy,Datoïde énergétique,,
@@ -2696,9 +2696,9 @@ objects.devices.craftingstation,Station d'artisanat,,
 objects.devices.craftingstation.desc,Une station de fabrication semi-automatisée nécessitant un opérateur humain.,,
 objects.devices.dataharvesteradvanced,Collecteur de données avancé,,
 objects.devices.dataharvesteradvanced.desc,Produit des types avancés de <b>Datoïdes</b> qui sont nécessaires pour la recherche de technologies de niveau supérieur.,,
-objects.devices.dataharvesterbasic,Collecteur de données de base,,
+objects.devices.dataharvesterbasic,Collecteur de données basique,,
 objects.devices.dataharvesterbasic.desc,Produit des types de base de <b>Datoïdes</b> pouvant être utilisés pour la recherche de technologies de bas niveau.,,
-objects.devices.dataharvesterquantum,Collecteur de données quantiques,,
+objects.devices.dataharvesterquantum,Collecteur de données quantique,,
 objects.devices.dataharvesterquantum.desc,Utilise un traitement quantique hautement avancé pour produire des <b>Datoïdes</b> rares.,,
 objects.devices.datoidloader,Chargeur de Datoïde,,
 objects.devices.datoidloader.desc,Un stockage spécialisé contenant des <b>Datoïdes</b> pouvant être utilisés pour la Recherche. Doit être adjacent à l'ordinateur du vaisseau.,,
@@ -2911,7 +2911,7 @@ on.fire,Sur le feu!,,
 ongoing.copter.mission.tip,Hélicoptère en cours de mission ,,
 ongoing.missions,Missions en cours,,
 ongoing.trade,Commerce en cours,,
-open,Ouvrir,,
+open,Ouvrir 2,,
 open.capsule,Ouvrir la capsule,,
 open.changelog,Ouvrir le journal des modifications,,
 open.codex,Ouvrir le codex,,
@@ -3581,7 +3581,7 @@ save.and.exit.os,Enregistrer et quitter le jeu,,
 save.color,Sauver la couleur,,
 save.deleted,Sauter,,
 save.disabled,Passer le tutoriel,,
-save.disabled.tutorial,Voulez-vous ignorer le didacticiel ? Il est fortement recommandé de le parcourir si vous n'êtes pas familier avec le jeu.,,
+save.disabled.tutorial,Voulez-vous ignorer le tutoriel Il est fortement recommandé de le parcourir si vous n'êtes pas familier avec le jeu.,,
 save.error,Enregistrer l'erreur,,
 save.failed,Échec de la sauvegarde,,
 save.failed.info,Développeur averti. Raison de l'échec: {0},,
@@ -3904,7 +3904,7 @@ skills.info,Les compétences déterminent le type de tâches sur lesquelles ils 
 skip,Sauter,,
 skip.reason,Raison de l'omission: {0},,
 skip.tutorial,Passer le tutoriel,,
-skip.tutorial.confirm,Voulez-vous ignorer le didacticiel ? Il est fortement recommandé de le parcourir si vous n'êtes pas familier avec le jeu.,,
+skip.tutorial.confirm,Voulez-vous ignorer le tutoriel Il est fortement recommandé de le parcourir si vous n'êtes pas familier avec le jeu.,,
 sleep.interrupted,Le sommeil a été interrompu,,
 sleeping,En train de dormir,,
 sleeping.slots,Dormir,,
@@ -4000,7 +4000,7 @@ starmap.blackhole.warping,Se déformer à travers un trou noir<br><size=200%>{0}
 starmap.changing.scope,Portée de la carte stellaire<br><size=200%>{0}</size>,,
 starmap.enter.dest.not.null,"Opération impossible, nous avons une destination active. Nous devons terminer ou annuler notre voyage actuel pour modifier la portée dans la carte stellaire.",,
 start.mining,Commencer à miner,,
-start.tutorial,Démarrer le tutorial,,
+start.tutorial,Démarrer le tutoriel,,
 starting.expedition,"Départ de l'expédition vers {0}. La navette sera lancée lorsque les membres d'équipage l'embarqueront. Vous pouvez suivre la progression de l'expédition dans le calque  ""Expéditions"" dans le menu en haut à droite.",,
 starving,Affamé,,
 stasis.elysium,L'Elysium,,
@@ -4412,6 +4412,11 @@ tut.basic.controls.group.examining.objects,Examiner les objets,,
 tut.basic.controls.name,UI et commandes,,
 
 
+tut.basic.controls.quick.search.1,Utilisez <b>{0}</b> lorsque vous savez ce que vous recherchez. C'est le moyen le plus rapide de trouver n'importe quoi.<br><br>Appuyez sur {1} pour activer <b>{0}</b>.,,
+tut.basic.controls.quick.search.2,"Maintenant, commencez à saisir un nom d'un plan et appuyez sur {0} ou cliquez sur le résultat pour l'activer lorsqu'il sera disponible.<br><br>Pour cet exemple, supposons que vous souhaitiez créer un <b>{1}</b>. Tapez ""{2}"", puis appuyez sur {0}.",,
+tut.basic.controls.quick.search.3,"<b>{0}</b> est extrêmement puissant. En plus des plans, cela peut trouver des travailleurs, des entrées de codex et des éléments dans les vues spéciales telles que <b>{1}</b> ou <b>{2}</b>.",,
+
+
 tut.basic.controls.relocate.1,Un autre aspect important de l'organisation de votre vaisseau est le déplacement des objets.,,
 tut.basic.controls.relocate.2,Utilisez le bouton <b>{0}</b> dans le <b>panneau d'informations</b> pour commencer le déplacement.,,
 tut.basic.controls.relocate.3,Déplacez l'appareil dans la zone en surbrillance.<br><br> Le cercle clignotant marque le <b>point de travail</b>. Il ne doit pas être obstrué. Vous devrez faire pivoter l'appareil.<br><br>Utilisez {0} pour faire pivoter l'appareil.<br><br>Appuyez sur {1} au-dessus de la zone en surbrillance pour ordonner la relocalisation.,2023-08-16,
@@ -4419,6 +4424,13 @@ tut.basic.controls.relocate.4,"La relocalisation est maintenant en attente.<br><
 
 
 tut.basic.controls.step.cam,Commandes de la caméra,,
+tut.basic.controls.step.cam.desc,"Pour déplacer la caméra, utilisez {0}.<br><br>Zoom avant et arrière avec {1}.<br><br>Edge Pan can be toggled in <b>Settings > Input</b>.",,
+
+
+tut.basic.controls.step.connect.1,Voyons maintenant ce que l'outil <b>{0}</b> peut faire. Utilisez <b>{1}</b> pour ouvrir le <b>Menu Outils</b> et l'activer.,2023-08-16,
+tut.basic.controls.step.connect.2,"Il y a un <b>{0}</b> déconnecté. Connectons-le à un <b>{1}</b> à proximité.<br><br>Appuyez sur {2} au-dessus de {1}, puis faites glisser une ligne vers {0} et relâchez {2} pour vous connecter.",,
+tut.basic.controls.step.connect.3,La même action déconnectera deux appareils connectés.<br><br>Utilisez {0} pour tracer une ligne entre <b>{1}</b> et <b>{2}</b> pour rompre la connexion.,2023-08-16,
+tut.basic.controls.step.connect.4,"L'outil <b>{0}</b> peut également associer et dissocier des <b>téléporteurs</b>.<br><br>Les liens de téléportation sont à sens unique, vous devez donc relier le téléporteur <b>A</b> à <b>B</b> et <b>B</b> à <b>A </b> pour qu'ils mènent l'un à l'autre. Créez un lien bidirectionnel entre les téléporteurs en surbrillance pour continuer.",2023-08-16,
 
 tut.basic.controls.step.context.menu.1,Appel du menu contextuel,,
 tut.basic.controls.step.context.menu.1.desc,"Lorsque le curseur se trouve au-dessus d'un objet, cliquer sur <b>{0}</b> ouvrira le <b>menu contextuel</b>. Essayez de l'ouvrir pour l'appareil en surbrillance.",2023-08-16,
@@ -4426,6 +4438,11 @@ tut.basic.controls.step.context.menu.2,Menu contextuel,,
 tut.basic.controls.step.context.menu.2.desc,Le <b>menu contextuel</b> contient le sous-ensemble des actions les plus courantes du panneau d'informations.,2023-08-14,
 
 tut.basic.controls.step.context.menu.3.desc,"Utilisez {0} pour fermer le menu contextuel, puis à nouveau {0} pour désélectionner <b>{1}</b>.",2023-08-16,
+
+
+tut.basic.controls.step.deconstruct.1,Nous allons maintenant supprimer une structure. Utilisez {0} pour ouvrir le <b>Menu Outils</b> et activer l'outil <b>{1}</b>.,,
+tut.basic.controls.step.deconstruct.2,Appuyez sur {0} et faites glisser un rectangle autour de la zone en surbrillance pour ordonner la déconstruction du sol.,2023-08-16,
+tut.basic.controls.step.deconstruct.3,"La déconstruction va bientôt commencer.<br><br>De nombreuses actions, y compris <b>Réparer</b> et <b>Déconstruire</b> peuvent être ordonnées via le <b>Panneau d'informations</b> ou le <b>Menu contextuel</b> > de l'objet sélectionné.",,
 
 
 tut.basic.controls.step.deselect,Désélectionner les objets,,
@@ -4494,11 +4511,14 @@ tut.basic.controls.step.overlay.research,"C'est là que vous débloquez de nouve
 
 tut.basic.controls.step.overlay.resources,Ce panneau contient des détails sur les ressources que vous possédez. Vous pouvez également trouver une liste complète des types de ressources disponibles et des plans d'appareils.,,
 
+tut.basic.controls.step.overlay.search,"Ce bouton ouvre l'invite de recherche, vous permettant de trouver rapidement un plan que vous souhaitez construire, un être par son nom, une entrée de codex, et bien plus encore.",2023-08-16,
+tut.basic.controls.step.overlay.security,Cela affiche la liste des menaces actives et permet de contrôler certains appareils axés sur la sécurité en un seul endroit pratique. Vous voulez augmenter tous vos champs de force en un seul clic ? Les contrôles de sécurité vous protègent.,,
 tut.basic.controls.step.overlay.shipnav,"Ici, vous pouvez voir si votre vaisseau est en état de fonctionnement et dépanner les raisons quand ce n'est pas le cas. Il répertorie tous les moteurs et contient une liste de contrôle avant le vol, vous permettant également de modifier la direction vers l'avant de votre vaisseau.<br><br>La direction vers l'avant détermine comment le champ d'étoiles derrière le vaisseau se déplace en vol. Par exemple, si vos moteurs sont orientés vers la gauche, la direction vers l'avant doit être réglée sur la droite, et ainsi de suite.",,
 tut.basic.controls.step.overlay.skip.tip,Vous pouvez ignorer cette partie Maintenez {0} lorsque vous passez la souris sur le bouton calque pour voir le message du tutoriel à tout moment.,,
 tut.basic.controls.step.overlay.starmap,"Si votre vaisseau a des moteurs et est en un seul morceau, il peut voler. L'exploration spatiale sera essentielle pour trouver les ressources dont vous aurez besoin.",2023-08-16,
 
 tut.basic.controls.step.overlay.tasks,"Ici, vous pouvez voir les tâches actives et qui travaille sur quoi. Le nombre de tâches actives est limité par la quantité de ressource <b>Mémoire</b>, qui peut être augmentée en construisant des <b>Modules de mémoire</b>. Les limites seront visibles ici.",2023-08-16,
+tut.basic.controls.step.overlay.terraform,"Lorsque vous trouvez une planète terraformable, elle sera enregistrée dans cette vue, ainsi que le statut de terraformation. Une fois qu'une planète est entièrement terraformée, vous pouvez utiliser ce panneau pour commencer la procédure de colonisation.",,
 tut.basic.controls.step.overlay.tint,"Une fois que vous avez un <b>Auto Painter</b> chargé de pigments de couleur, utilisez les outils fournis par cette vue pour peindre les sols et les murs de votre vaisseau comme vous le souhaitez.",,
 
 tut.basic.controls.step.overlay.wallet,La vue portefeuille affiche vos réserves de trésorerie et donne accès à la <b>bourse</b>.,2023-08-16,
@@ -4528,14 +4548,21 @@ tut.basic.controls.step.tool.build.3,"Construisons quelque chose. Cliquez sur l'
 tut.basic.controls.step.tool.build.4,Les travailleurs commenceront à exécuter l'ordre de construction sous peu. Assurez-vous que le temps n'est pas arrêté.<br><br><b>{1}</b> reviendra au menu de construction.<br><br>{0} quittera le mode de construction.,,
 
 
+tut.basic.controls.step.tools.ads_cancel,"Cet outil annule les ordres actifs. Cliquez sur un objet avec une tâche en attente ou cliquez et faites glisser sur une zone pour annuler les ordres dans cette zone. Les objets avec des commandes actives auront des icônes, et les survoler affichera des info-bulles d'information.",,
+tut.basic.controls.step.tools.ads_priority,"Cet outil ajuste la priorité des tâches en attente. L'augmentation de la priorité tentera également d'affecter la tâche au travailleur disponible le plus proche. Cliquez sur un objet avec une tâche en attente, ou faites glisser sur une zone, pour augmenter ou diminuer la priorité des tâches dans cette zone.",,
+tut.basic.controls.step.tools.ads_retry,"Cet outil tente une nouvelle tentative immédiate des tâches ayant échoué. Cliquez sur un objet avec une tâche ayant échoué ou faites glisser sur une zone pour réessayer instantanément toutes les tâches ayant échoué dans cette région. Notez que les tâches ayant échoué seront réessayées automatiquement après un certain délai, même sans intervention manuelle.",,
+
+
 tut.basic.controls.step.tools.connect,Cet outil vous permet de connecter/déconnecter des appareils électriques et de lier/dissocier des téléporteurs en cliquant et en faisant glisser une ligne entre eux.,,
+tut.basic.controls.step.tools.copy_config,"Cet outil vous permet de copier-coller des paramètres entre des appareils compatibles. Cliquez sur l'un pour copier sa configuration, puis sélectionnez-en un autre ou faites-le glisser sur une zone pour appliquer les paramètres copiés aux appareils du même type.",,
 
 
 tut.basic.controls.step.tools.place_tiles,Cet outil contiendra les plans déverrouillés de divers objets que vous pourrez ordonner à vos travailleurs de construire. Il comporte un sous-menu avec des catégories et une liste d'éléments <b>Récent</b>.,,
 tut.basic.controls.step.tools.plan,Cet outil propose plusieurs méthodes pour dessiner dans le calque visuel <b>Planification</b>.,,
+tut.basic.controls.step.tools.process,"Cet outil ordonne le traitement des tas de matériaux sélectionnés ou des êtres morts, à condition qu'un processeur compatible soit disponible. Cliquez sur un seul objet ou cliquez et faites glisser pour sélectionner plusieurs objets à traiter.",,
+
 
 tut.basic.controls.step.tools.remove_tiles,"Cet outil ordonne la déconstruction de murs, de sols ou d'appareils. Cliquez sur un seul objet ou cliquez et faites glisser sur une zone pour créer un ordre.",,
-
 tut.basic.controls.step.tools.repair,"Cet outil met en évidence la structure et les appareils endommagés, vous permettant d'ordonner des réparations. Cliquez sur un seul appareil ou cliquez et faites glisser pour sélectionner une plus grande zone à réparer.",,
 tut.basic.controls.step.tools.skip.tip,Vous pouvez ignorer cette partie Passez la souris sur n'importe quel bouton d'outil pour voir le message du tutoriel.,,
 tut.basic.controls.step.tools.store,"Cet outil ordonne le transport des tas de matériaux non stockés vers un stockage compatible, si disponible. Cliquez sur un seul tas ou cliquez et faites glisser pour sélectionner plusieurs tas à transporter.",,
@@ -4544,23 +4571,50 @@ tut.basic.controls.tools,Outils,,
 tut.basic.controls.tools.desc,"De nombreuses actions dans le jeu nécessitent l'utilisation d'un outil, et plusieurs outils sont à votre disposition. Vous pouvez y accéder par différents moyens, y compris le <b>menu outils</b>, la <b>barre de raccourcis</b>, la <b>recherche rapide</b> et les <b>touches de raccourci</b>.<br><br>Appuyez sur <b>{0}</b> pour ouvrir le <b>menu outils</b>.",,
 
 
+tut.configure,Configurer {0},,
+tut.configure.crafter.product,Commencez à produire: <b>{0}</b>,,
+tut.connect.device,Connecter {0},,
+tut.connect.device.constrained.desc,Appuyez sur {0} et faites glisser une ligne entre <b>{1}</b> et <b>{2}</b> en surbrillance pour créer une nouvelle connexion.,,
+tut.connect.device.freestyle.desc,Utilisez l'outil <b>{0}</b> pour connecter le <b>{1}</b> en surbrillance au connecteur disponible le plus proche.,,
+
+
+tut.exit.tool,Utilisez {0} pour revenir au mode <b>Sélection libre</b>.,,
+
+
 tut.msg.target.udb.no.title.desc,Trouvez l'élément de l'interface utilisateur en surbrillance et cliquez dessus pour continuer.,,
 tut.msg.target.ui.not.found,L'élément d'interface utilisateur requis n'est pas visible. Utilisez le bouton <b>{0}</b> et répétez l'action de l'étape précédente.,,
 tut.msg.target.ui.udb,Cliquez sur l'élément de l'interface utilisateur mis en surbrillance,,
 tut.msg.target.ui.udb.desc,Recherchez l'élément d'interface utilisateur intitulé <b>{0}</b> et cliquez dessus pour continuer.,,
 
+tut.obj.no.longer.available,L'objet n'est plus disponible !,,
+tut.obj.not.found,L'objet est introuvable !,,
+
+tut.research.after.first.unlock,<b>{0}</b> est maintenant déverrouillé. Vous pourrez construire tous les plans répertoriés dans ce nœud de recherche.,,
+
+tut.research.datoid.load.ready,"Les <b>datoïdes</b> sont maintenant chargés et quelques nœuds de recherche peuvent être débloqués.<br><br>Chaque fois qu'une recherche peut être débloquée, vous verrez une notification à ce sujet dans le <b>{0}</b> sur la droite.<br><br>Cliquez sur la notification pour ouvrir <b>{1}</b>. Il se concentrera automatiquement sur le premier nœud à débloquer.",,
+tut.research.datoid.load.wait,Chargement des Datoïdes,,
+tut.research.datoid.load.wait.desc,"En attente du chargement des <b>Datoïdes</b> dans le <b>{0}</b>.<br><br>Les ouvriers le feront automatiquement, mais vous pouvez utiliser l'outil <b>{1}</b> pour commander immédiatement le transport.",,
+tut.research.datoids.howto,Comment produire des Datoïdes,,
+tut.research.datoids.howto.1,"Nous venons de consommer la plupart de nos <b>datoïdes</b>, nous devrons donc en produire davantage.<br><br>Cliquez sur l'élément <b>{0}</b> de l'interface utilisateur pour savoir comment produire il.",,
+tut.research.datoids.howto.2,La fenêtre contextuelle du codex nous indique que <b>{0}</b> est conçu dans un <b>{1}</b> - nous devrons en créer un.<br><br>Utilisez {2} ou {3} pour fermer le <b>{4}</b>.,,
 
 tut.research.desc,Apprenez les concepts de la recherche.,,
-tut.research.end,C'est tout ! Voici un résumé de ce que nous avons appris:<br><br> - La recherche utilise <b>Datoïdes</b>.<br> - Les datoïdes sont produits par des <b>récolteurs de données</b>.<br> - Les datoïdes doivent être stockés dans des <b>chargeurs de données</b> pour être disponibles.<br> - Vous devez disposer de suffisamment d'espace <b>Disque</b> et de Datoïdes du bon type pour débloquer un nœud de recherche.,,
+
+tut.research.end,C'est tout ! Voici un résumé de ce que nous avons appris:<br><br> - La recherche utilise <b>Datoïdes</b>.<br> - Les datoïdes sont produits par des <b>collecteur de données</b>.<br> - Les datoïdes doivent être stockés dans des <b>chargeurs de données</b> pour être disponibles.<br> - Vous devez disposer de suffisamment d'espace <b>Disque</b> et de Datoïdes du bon type pour débloquer un nœud de recherche.,,
+
 tut.research.intro.desc,Ce tutoriel vous apprendra tout ce que vous devez savoir sur la <b>Recherche</b> dans Stardeus.,,
+
 tut.research.name,La recherche,,
-tut.research.open.tree,Ouvrez: <b>{0}</b>. Vous pouvez utiliser le raccourci: {1}.,,
+
+tut.research.open.tree,Ouvrez l'<b>{0}</b>. Vous pouvez utiliser le raccourci clavier {1}.,,
+
 tut.research.tree.find.element,Concentrez-vous sur le nœud de recherche <b>{0}</b> en surbrillance.<br><br>Vous pouvez utiliser la recherche {1} pour y accéder directement.,,
 tut.research.tree.find.element.gamepad,Concentrez-vous sur le nœud de recherche <b>{0}</b> en surbrillance.,,
+tut.research.tree.group,Interface de l'arbre de recherche,,
 tut.research.tree.info,Panneau d'informations sur l'arbre de recherche,,
-tut.research.tree.info.datoids,Cette section répertorie les <b>Datoïdes</b> qui peuvent être utilisés. Survolez ou cliquez sur les éléments pour plus d'informations sur chaque type de Datoïde.<br><br>Les datoïdes ne deviennent disponibles qu'après avoir été stockés dans un <b>{0}</b>. Nous allons bientôt en construire un.,,
+tut.research.tree.info.datoids,Cette section répertorie les <b>datoïdes</b> qui peuvent être utilisés.Survolez ou cliquez sur les éléments pour plus d'informations sur chaque type de Datoïde.<br><br>Les datoïdes ne deviennent disponibles qu'après avoir été stockés dans un <b>{0}</b>. Nous allons bientôt en construire un.,,
 tut.research.tree.info.desc,Ce panneau contient une vue d'ensemble des ressources disponibles et des actions utiles.,,
-tut.research.tree.info.disk,Cette barre de progression indique l'utilisation du <b>disque</b>.<br><br>Le bouton <b>{0}</b> ouvre une liste de nœuds de recherche déverrouillés qui peuvent être déchargés si vous avez un besoin urgent de plus d'espace disque. Les recherches déchargées devront être à nouveau déverrouillées.,,
+tut.research.tree.info.disk,Cette barre de progression indique l'utilisation du <b>disque</b>.<br><br>Le bouton <b>{0}</b> ouvre une liste de nœuds de recherche déverrouillés qui peuvent être déchargés si vous avez un besoin urgent de plus d'espace disque.<br><br>Les recherches déchargées devront être à nouveau déverrouillées.,,
 tut.research.tree.info.management,La section de gestion contient des commandes supplémentaires qui pourraient vous être utiles.<br><br>Vous pouvez maintenant fermer le <b>{0}</b> avec {1}.,,
 
 tut.research.tree.nav,L'arbre de recherche: Le déplacement,,
@@ -4569,28 +4623,37 @@ tut.research.tree.nav.gamepad,Il s'agit de l'<nobr><b>arbre de recherche</b></no
 
 tut.research.tree.node,L'arbre de recherche: Les noeuds,,
 tut.research.tree.node.bookmark,Il s'agit du bouton <b>Favoris</b>. Cliquez dessus pour ajouter un nœud de recherche verrouillé à vos favoris pour un accès rapide.,,
-tut.research.tree.node.cost.datoids,"La recherche est déverrouillée en consommant des matériaux spéciaux appelés <b>Datoïdes</b>. Vous trouverez ici les types et les quantités de datoïdes nécessaires. Survolez les icônes pour en savoir plus sur chaque type de datoïde, y compris comment l'acquérir.",,
-tut.research.tree.node.cost.disk,Il s'agit de l'espace <b>disque</b> nécessaire pour le stockage permanent afin de conserver les résultats de la recherche.<br><br>Construisez ou mettez à niveau des <b>modules de disque</b> pour augmenter le stockage disponible.,,
-tut.research.tree.node.cost.tier,Cela montre le <b>Niveau</b> du nœud de recherche. Vous devez débloquer un certain nombre de nœuds du niveau actuel pour déverrouiller le niveau suivant.,,
+tut.research.tree.node.cost.datoids,"La recherche est débloquée en consommant des matériaux spéciaux appelés <b>Datoïdes</b>.<br>Vous trouverez ici les types et les quantités de datoïdes nécessaires.<br><br>Survolez les icônes pour en savoir plus sur chaque type de datoïde, y compris comment les acquérir.",,
+tut.research.tree.node.cost.disk,Il s'agit de l'espace <b>Disque</b> nécessaire pour le stockage permanent afin de conserver les résultats de la recherche.<br><br>Construisez ou mettez à niveau des <b>modules de disque</b> pour augmenter le stockage disponible.,,
+tut.research.tree.node.cost.tier,Il s'agit du <b>Niveau</b> du nœud de recherche. Vous devez débloquer un certain nombre de nœuds du niveau actuel pour débloquer le niveau suivant.,,
 tut.research.tree.node.unlock,"C'est le bouton <b>Débloquer</b>. Si vous avez les ressources nécessaires, cela débloquera le nœud de recherche en un seul clic.<br><br>Si le nœud de recherche ne peut pas être débloquée, le survol de ce bouton vous indiquera pourquoi.",,
 
+tut.research.unlock.tech,Débloquer <b>{0}</b>,,
+tut.research.unlock.tech.desc,Débloquez le nœud de recherche en surbrillance pour continuer.,,
+tut.research.unstored.datoid,"Il semble que nous ayons des <b>Datoïdes</b> qui traînent, mais ils ne sont pas encore disponibles pour la recherche.<br><br>Nous devrons créer un <b>{0}</b> et laissez nos travailleurs y charger les Datoïdes.",,
+tut.research.unlocked.tech,<b>{0}</b> déverrouillé !,,
 
 tut.skip.group,Passer le groupe: {0},,
 
+tut.start.building.def,"Utilisez {0} pour ouvrir le <b>menu Outils</b>, trouvez le <b>{1}</b>, puis cliquez sur l'icône pour commencer à le créer.",,
 
 tut.step.expired,Cette étape a expiré,,
 
 tut.step.place.tile,Construire: {0},,
 tut.step.place.tile.desc,Commandez la construction du {0} à l'emplacement en surbrillance.,,
-tut.step.place.tile.with.rot.desc,Utilisez {0} pour commander la construction d'un {1} à l'emplacement en surbrillance.<br><br> Faites-le pivoter avec {2} avant de le placer.,,
+tut.step.place.tile.with.rot.desc,Utilisez {0} pour ordonner la construction d'un {1} à l'emplacement en surbrillance.<br><br> Faites-le pivoter avec {2} avant de le placer.,,
 
 tut.step.select.entity,Sélectionnez {0},,
 tut.step.select.entity.desc,Cliquez sur le <b>{0}</b> en surbrillance pour le sélectionner.,,
 tut.step.select.entity.expired,Cliquez sur l'objet en surbrillance pour le sélectionner. (Cette étape a expiré),,
 
+tut.switch.tool.no.shortcut,Utilisez {0} pour ouvrir le <b>Menu Outils</b> et activer l'outil <b>{1}</b>.,,
+tut.switch.tool.title,Activer l'outil: {0},,
+tut.switch.tool.with.shortcut,Utilisez {0} pour ouvrir le <b>Menu Outils</b> et activer l'outil <b>{1}</b>.<br><br>Vous pouvez aussi activer l'outil <b>{1}</b> avec {2}.,,
 
-tut.ui.click.and.drag,Cliquez sur ce bloc d'interface utilisateur et faites-le glisser pour le déplacer.,,
+tut.ui.click.and.drag,Cliquez sur cette interface et faites-la glisser pour la déplacer.,,
 
+tut.waiting.for.construction,En attente de construction: <b>{0}</b>.,,
 
 tutorial.build_connector,"Réacteur de matière est construit, mais nous devons le relier à notre grille. Créez un <nobr><b>Connecteur</b></nobr>. Trouvez-le dans le menu du bas.<br><br>{0}",,
 tutorial.build_connector_place,"Placez le connecteur là où sa portée atteindra le réacteur à matière, la batterie et l'ordinateur de bord. Vous pouvez voir la plage du connecteur lorsque vous effectuez un zoom arrière.",,
@@ -4649,7 +4712,7 @@ tutorial.relocate_bed.2,Trouvez maintenant un nouvel emplacement pour l'objet et
 tutorial.relocate_bed.3,La déplacement est maintenant en cours.,,
 tutorial.repair_mass.limit,La réparation de masse est actuellement limitée à 25 tuiles pour la durée du didacticiel. La création d'un grand nombre de tâches pour les travailleurs n'est pas recommandée pour le moment.,,
 tutorial.repair_single,"Il est important de réparer tout dommage dans les zones que nous utiliserons. Vous ne pourrez pas utiliser d'appareils endommagés ou construire des objets sur des sols endommagés. De plus, les structures endommagées perdront de l'oxygène.<br><br>Utilisez l'outil {1} <b>Réparer</b> dans le {0} menu pour commander des réparations.<br><br>Quand {1} <b>Réparer</b> l'outil est actif, les objets endommagés seront <b><color=#cc0000ff>surlignés</color></b>. Si vous ne trouvez aucun objet endommagé à proximité, effectuez un zoom arrière et regardez autour de vous.",,
-tutorial.research,La plupart de nos banques de données ont été détruites lors de l'accident. Nous devrons récupérer les plans perdus.<br><br>Cliquez sur le bouton de surcouche <b>Recherche</b> pour ouvrir l'<nobr><b>Arbre de recherche</b></nobr> (raccourci {0}),2022-02-28,
+tutorial.research,La plupart de nos banques de données ont été détruites lors de l'accident. Nous devrons récupérer les plans perdus.<br><br>Cliquez sur le bouton du calque <b>Recherche</b> pour ouvrir l'<nobr><b>Arbre de recherche</b></nobr> (raccourci {0}),2022-02-28,
 tutorial.research_start,"Il s'agit de l'<nobr><b>Arbre de recherche</b></nobr>. Vous pouvez effectuer un déplacement et un zoom comme sur la vue principale.<br><br>Chaque technologie a ses propres besoin en <b>énergie</b>, <b>mémoire</b> et <b>stockage</b>. Cliquez sur les icônes à l'intérieur d'une zone de recherche pour voir des descriptions détaillées des plans qui seraient déverrouillés.<br><br>Démarrez la recherche <b>Énergie</b> pour continuer. Vous devrez peut-être effectuer un zoom arrière ou un déplacement vers le bas pour le trouver.",2022-01-07,
 tutorial.research_wait,Attendons la fin de la recherche <b>Énergie</b>. Accélerez le temps pour aller plus vite. La recherche n'avancera pas lorsque le temps est sur pause.,,
 tutorial.research.energy,Vous ne pouvez commencer la recherche d'énergie que pendant le tutoriel,,
@@ -4700,7 +4763,7 @@ unity.data.privacy.fetch.fail,Échec de la récupération de l'URL de confidenti
 unknown,Inconnue,,
 unlink,Séparer,,
 unload,Décharger,,
-unlock,Ouvrir,,
+unlock,Ouvrir 1,,
 unlock.effect.wallet,"Déverrouille <b>{0}</b>, la vue et les informations sur la majoration des prix marchands",,
 unlock.effect.construction.speed,Vitesse de construction {0},,
 unlock.effect.construction.speed.desc,La vitesse d'exécution des tâches de construction/déconstruction/réparation deviendra <b>{0}</b>,,
@@ -4817,7 +4880,7 @@ wanted.amount,Montant recherché,,
 warn.device.idle,"Avertissements ""Appareil inactif"" ",,
 warn.unsafe.area,"Avertissements ""Objet dans une zone non sécurisée"" ",,
 warning,Avertissement,,
-warning.time.stopped,Avertissement: temps de pause,,
+warning.time.stopped,Avertissement: temps en pause,,
 warning.time.stopped.help,"Lorsque vous connectez de nouveaux appareils au réseau, un certain temps doit s'écouler pour que les connexions s'établissent. Pendant la pause, l'ordinateur de bord ne détectera pas les modules de mémoire et de disque nouvellement connectés.",,
 was.petted,A été caressé,,
 water,Eau,,
