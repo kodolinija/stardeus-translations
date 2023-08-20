@@ -4563,6 +4563,19 @@ tut.connect.device.freestyle.desc,Utilisez l'outil <b>{0}</b> pour connecter le 
 tut.el.desc,Apprenez comment fonctionne l'électricité dans Stardeus.,,
 tut.el.end,Vous devriez désormais être prêt à relever tous les défis liés à l'électricité.,,
 tut.el.intro,"L'électricité joue un rôle important dans Stardeus. Il alimente non seulement les appareils, mais permet également leur gestion.<br><br>Ce tutoriel vous guidera dans la configuration, la gestion et le dépannage des réseaux électriques.",,
+tut.el.no.grid,"Dans Stardeus, votre conscience réside dans l'<b>ordinateur de bord</b>. Cela vous permet de commander des travailleurs robotiques et de contrôler des appareils reliés au même réseau électrique que l'<b>ordinateur de bord</b>.",,
+tut.el.overlay.1,"Il s'agit du calque <b>{0}</b>.Nous allons bientôt l'explorer en profondeur.<br><br>Pour le moment, la partie la plus importante est l'élément d'interface utilisateur <b>{1}</b>. Il nous indique que l'<b>ordinateur de bord</b> n'a rien de connecté.",,
+tut.el.overlay.2,Le texte <b>{0}</b> nous indique qu'il y a <b>1</b> appareil connecté au réseau et que le réseau peut gérer <b>{1}</b> connexions. Le seul appareil connecté est l'<b>ordinateur de bord</b> lui-même.<br><br>Construisons quelques appareils et connectons-les à l'<b>ordinateur du navire</b> pour étendre ce réseau électrique.<br><br>Fermez la superposition <b>{2}</b> pour continuer.,,
+tut.el.refuel.1,Les lumières ont déclenché un <b>déficit d'électricité</b> puisque nous n'avons pas ajouté de combustible au <b>réacteur à matière</b>.,,
+tut.el.refuel.2,"Le <b>réacteur à matière</b> peut transformer presque n'importe quel matériau en électricité. Nous avons une abondance de <b>{0}</b>, un matériau à haut rendement énergétique. Utilisons-le comme source d'alimentation.<br><br>Cliquez sur le bouton <b>{1}</b> pour continuer.",,
+tut.el.refuel.title,Configuration du réacteur à matière,,
+tut.el.small.grid.1,"L'<b>ordinateur de bord</b> n'est pas lié à cet appareil, vous ne pouvez donc pas encore le contrôler.<br><br>Vous verrez l'élément <b>{0}</b> dans le <b>Panneau d'informations</b> de ces appareils.",,
+tut.el.small.grid.2,Les appareils ne peuvent pas être connectés les uns aux autres directement. Nous devons les connecter via un <b>connecteur</b>.<br><br>Désélectionnez le <b>réacteur à matière</b> avec {0} pour entrer dans le mode <b>sélection Libre</b>.,,
+tut.el.small.grid.3,"Vous devrez d'abord connecter le <b>connecteur</b> à l'<b>ordinateur de bord</b>.<br><br>Tenter de connecter le <b>réacteur à matière</b> à un <b>connecteur</b> non lié échouera, car vous ne contrôlez pas encore le <b>connecteur</b>.",,
+tut.el.small.grid.4,Il existe maintenant un lien entre l'<b>ordinateur de bord</b> et le <b>connecteur</b>. Cela vous permet d'étendre votre réseau aux appareils que le <b>connecteur</b> lié peut atteindre.,,
+tut.el.small.grid.5,"Il y a quelques <b>lampes de sol</b> déconnectées à proximité. Il fait un peu sombre par ici, alors connectons-les tous les deux pour avoir un peu de lumière.<br><br>Nous pouvons utiliser la fonctionnalité <b>connexion automatique</b> intégrée aux commandes du <b>connecteur</b>.",,
+tut.el.small.grid.6,Les deux <b>lampes de sol</b> sont maintenant connectées. Attendons qu'ils s'illuminent.,,
+tut.el.small.grid.title,Création d'une grille,,
 tut.el.title,L'électricité,,
 
 
@@ -4578,7 +4591,8 @@ tut.msg.target.ui.udb.desc,Recherchez l'élément d'interface utilisateur intitu
 
 tut.obj.no.longer.available,L'objet n'est plus disponible !,,
 tut.obj.not.found,L'objet est introuvable !,,
-
+tut.open.overlay.to.continue,Ouvrir le calque <b>{0}</b> pour continuer.,,
+tut.overlay.title,Calque: <b>{0}</b>,,
 
 tut.research.after.first.unlock,<b>{0}</b> est maintenant déverrouillé. Vous pourrez construire tous les plans répertoriés dans ce noeud de recherche.,,
 tut.research.datoid.load.ready,"Les <b>datoïdes</b> sont maintenant chargés et quelques noeuds de recherche peuvent être débloqués.<br><br>Chaque fois qu'une recherche peut être dévérrouillés, vous verrez une notification à ce sujet dans l'encadré <b>évenement</b> sur la droite.<br><br>Cliquez sur la notification pour ouvrir l'<b>arbre de recherche</b>. Il se concentrera automatiquement sur le premier noeud à débloquer.",,
