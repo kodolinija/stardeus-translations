@@ -3275,6 +3275,7 @@ research.blackholes,Trous noirs,,
 research.blocked,Recherche bloquée,,
 research.cancel,Suspendre la recherche,,
 research.cant.do.parallel,Ressources insuffisantes pour la <b>recherche parallèle</b>:<br>{0},,
+research.cannot.unload.unlock.effects,Impossible de décharger ce nœud de recherche en raison de ses effets de déblocage irréversibles.,,
 research.carrier,Transporteur,,
 research.cleaningbot,Robot de nettoyage,,
 research.cloning,Clonage,,
@@ -4560,12 +4561,35 @@ tut.connect.device.constrained.desc,Appuyez sur {0} et faites glisser une ligne 
 tut.connect.device.freestyle.desc,Utilisez l'outil <b>{0}</b> pour connecter le <b>{1}</b> en surbrillance au connecteur disponible le plus proche.,,
 
 
+tut.el.bots.maintain.title,Maintenance des robots,,
+tut.el.bots.maintain.1,Tous ces travaux ont vidé la batterie de notre <b>drone de construction</b>. Donnons-lui un moyen de se recharger.,,
+tut.el.bots.maintain.2,Les robots doivent également effectuer un auto-entretien périodique. Il est préférable d'avoir au moins une <b>station de réparation</b> disponible à tout moment.,,
+tut.el.bots.maintain.3,"Attendez la construction des nouveaux appareils, puis connectez-les au réseau électrique.",,
+
 tut.el.desc,Apprenez comment fonctionne l'électricité dans Stardeus.,,
 tut.el.end,Vous devriez désormais être prêt à relever tous les défis liés à l'électricité.,,
+
+tut.el.grid.merge.title,Fusionner des grilles,,
+tut.el.grid.merge.1,"Tant que l'<b>ordinateur de bord</b> n'est pas connecté, nous ne pourrons pas ajuster les connexions ni configurer les appareils de cette grille. En construisant une chaîne de <b>connecteurs</b>, nous pouvons fusionner les deux grilles et prendre le contrôle de cette zone.<br><br>Fermez le calque <b>{0}</b> pour continuer.",,
+tut.el.grid.merge.2,"Tout d'abord, nous allons construire un pont menant à l'<b>ordinateur de bord</b>. Cela fournira la base pour placer les <b>connecteurs</b>.",,
+tut.el.grid.merge.3,Ordonnez la construction du sol dans la zone en surbrillance.<br><br>Cliquez et faites glisser un rectangle pour créer un ordre en une seule action.,,
+tut.el.grid.merge.4,"Pendant que le drone est occupé à construire le pont, nous pouvons ordonner la construction d'un nouveau <b>connecteur</b>.<br><br>Je vais vous montrer le moyen le plus rapide de le faire.",,
+tut.el.grid.merge.5.title,Le moyen le plus rapide de construire un <b>connecteur</b>,,
+tut.el.grid.merge.5_1,1. Maintenez la touche {0} enfoncée tout en étant au-dessus du connecteur.,,
+tut.el.grid.merge.5_2,2. Faites glisser la souris vers le point de construction.,,
+tut.el.grid.merge.5_3,3. Relâchez {0} pour obtenir la liste des plans des connecteurs.,,
+tut.el.grid.merge.5_4,4. Choisissez le type de connecteur que vous voulez construire.,,
+tut.el.grid.merge.6,Attendons que le nouveau <b>connecteur</b> soit construit. Il sera automatiquement lié au connecteur à partir duquel vous avez fait glisser une ligne.,,
+tut.el.grid.merge.7,Ouvrez le calque <b>{0}</b> et observez comment les deux grilles sont fusionnées en une seule après avoir créé le lien entre les connecteurs mis en évidence.<br><br>Créez un lien entre les connecteurs en surbrillance pour continuer.,,
+
 tut.el.intro,"L'électricité joue un rôle important dans Stardeus. Il alimente non seulement les appareils, mais permet également leur gestion.<br><br>Ce tutoriel vous guidera dans la configuration, la gestion et le dépannage des réseaux électriques.",,
+
 tut.el.no.grid,"Dans Stardeus, votre conscience réside dans l'<b>ordinateur de bord</b>. Cela vous permet de commander des travailleurs robotiques et de contrôler des appareils reliés au même réseau électrique que l'<b>ordinateur de bord</b>.",,
 tut.el.overlay.1,"Il s'agit du calque <b>{0}</b>. Nous allons bientôt l'explorer en profondeur.<br><br>Pour le moment, la partie la plus importante est l'élément intitulé <b>{1}</b>. Il nous indique que l'<b>ordinateur de bord</b> n'a rien de connecté.",,
 tut.el.overlay.2,Le texte <b>{0}</b> nous indique qu'il y a <b>1</b> appareil connecté au réseau et que le réseau peut gérer <b>{1}</b> connexions. Le seul appareil connecté est l'<b>ordinateur de bord</b> lui-même.<br><br>Construisons quelques appareils et connectons-les à l'<b>ordinateur du navire</b> pour étendre ce réseau électrique.<br><br>Fermez la superposition <b>{2}</b> pour continuer.,,
+tut.el.overlay.3,"Laissons-lui un peu de temps pour que le réacteur reçoive du combustible et que le déficit d'électricité soit résolu.<br><br>Pendant ce temps, nous allons examiner le tableau d'électricité.<br><br>Augmentez la <b>Vitesse du temps</b> et ouvrez le calque <b>{0}</b>.",,
+tut.el.overlay.4,"L'<b>ordinateur de bord</b> fait désormais partie d'un réseau électrique. Cette interface affiche un graphique qui affiche la production, la consommation, les niveaux de batterie et les déficits d'électricité.<br><br>En survolant le graphique, vous pouvez obtenir un aperçu de l'état passé et présent du réseau électrique. Observez comment le déficit disparaît lorsque le réacteur commence à produire de l'électricité.<br><br>Si le graphique n'est pas visible, activez-le en cliquant sur le bouton <b>{0}</b>.",,
+tut.el.overlay.5,Remarquez qu'un réseau électrique inconnu est répertorié sur le calque <b>{0}</b>.<br><br>Cliquez sur l'interface pour focaliser la caméra sur ce réseau.,,
 tut.el.refuel.1,Les lumières ont déclenché un <b>déficit d'électricité</b> puisque nous n'avons pas ajouté de combustible au <b>réacteur à matière</b>.,,
 tut.el.refuel.2,"Le <b>réacteur à matière</b> peut transformer presque n'importe quel matériau en électricité. Nous avons une abondance de <b>{0}</b>, un matériau à haut rendement énergétique. Utilisons-le comme source d'alimentation.<br><br>Cliquez sur le bouton <b>{1}</b> pour continuer.",,
 tut.el.refuel.title,Configuration du réacteur à matière,,
@@ -4577,7 +4601,6 @@ tut.el.small.grid.5,"Il y a quelques <b>lampes de sol</b> déconnectées à prox
 tut.el.small.grid.6,Les deux <b>lampes de sol</b> sont maintenant connectées. Attendons qu'ils s'illuminent.,,
 tut.el.small.grid.title,Création d'une grille,,
 tut.el.title,L'électricité,,
-
 
 
 tut.exit.tool,Utilisez {0} pour revenir au mode <b>Sélection libre</b>.,,
@@ -4595,6 +4618,7 @@ tut.open.overlay.to.continue,Ouvrir le calque <b>{0}</b> pour continuer.,,
 tut.overlay.title,Calque: <b>{0}</b>,,
 
 tut.research.after.first.unlock,<b>{0}</b> est maintenant déverrouillé. Vous pourrez construire tous les plans répertoriés dans ce noeud de recherche.,,
+
 tut.research.datoid.load.ready,"Les <b>datoïdes</b> sont maintenant chargés et quelques noeuds de recherche peuvent être débloqués.<br><br>Chaque fois qu'une recherche peut être dévérrouillés, vous verrez une notification à ce sujet dans l'encadré <b>Évenement</b> sur la droite.<br><br>Cliquez sur la notification pour ouvrir l'<b>arbre de recherche</b>. Il se concentrera automatiquement sur le premier noeud à débloquer.",,
 tut.research.datoid.load.wait,Chargement des datoïdes,,
 tut.research.datoid.load.wait.desc,"En attente du chargement des <b>datoïdes</b> dans le <b>chargeur de datoïde</b>.<br><br>Les ouvriers le feront automatiquement, mais vous pouvez utiliser l'outil <b>{0}</b> pour commander immédiatement le transport.",,
@@ -4610,12 +4634,15 @@ tut.research.disk.3.hint,Astuce : le résultat de la recherche doit indiquer <b
 tut.research.disk.4,Voyons ce dont nous avons besoin pour débloquer <b>{0}</b>. Passez la souris sur le bouton <b>{1}</b>.,,
 tut.research.disk.5,"Une fois que nous aurons produit suffisamment de <b>datoïde basic</b>, nous ne serons toujours pas en mesure de les débloquer car nous n'avons pas l'<b>espace disque</b> requis pour stocker le résultat de la recherche.<br><br>Nous devrons construire un <b>module de disque</b>.<br><br>Utilisez {0} ou {1} pour fermer l'<b>arbre de recherche</b>.",,
 
-
 tut.research.end,C'est tout ! Voici un résumé de ce que nous avons appris:<br><br> - La recherche utilise des <b>datoïdes</b>.<br> - Les datoïdes sont produits par des <b>collecteurs de données</b>.<br> - Les datoïdes doivent être stockés dans des <b>chargeurs de données</b> pour être disponibles.<br> - Vous devez disposer de suffisamment d'espace <b>disque</b> et de datoïdes du bon type pour dévérrouiller un noeud de recherche.,,
+
 tut.research.intro.desc,Ce tutoriel vous apprendra tout ce que vous devez savoir sur la <b>recherche</b> dans Stardeus.,,
+
 tut.research.name,La recherche,,
+
 tut.research.open.tree,Ouvrez l'<b>arbre de recherche</b>. Vous pouvez utiliser le raccourci clavier {0}.,,
 tut.research.outro,"Nous avons maintenant suffisamment d'<b>espace disque</b> pour débloquer: <b>{0}</b>, mais nous devons encore attendre que les <b>datoïdes basique</b> soient produits.<br><br>Vous pouvez créer plusieurs <b>récolteur de données</b> pour produire plus de datoïdes, faites juste attention à ne pas évoluer trop rapidement, ou vous risquez de manquer de ressources.<br><br>Débloquer une recherche plus avancée nécessitera de nouveaux types de datoïde qui seront plus difficiles à produire et nécessiteront de nouveaux dispositifs et matériaux.",,
+
 tut.research.tree.find.element,Concentrez-vous sur le noeud de recherche <b>{0}</b> en surbrillance.<br><br>Vous pouvez utiliser la recherche {1} pour y accéder directement.,,
 tut.research.tree.find.element.gamepad,Concentrez-vous sur le noeud de recherche <b>{0}</b> en surbrillance.,,
 tut.research.tree.group,Interface de l'arbre de recherche,,
@@ -4623,18 +4650,20 @@ tut.research.tree.info,Panneau d'informations sur l'arbre de recherche,,
 tut.research.tree.info.datoids,Cette section répertorie les <b>datoïdes</b> qui peuvent être utilisés.Survolez ou cliquez sur les éléments pour plus d'informations sur chaque type de datoïde.<br><br>Les datoïdes ne sont disponibles qu'après avoir été stockés dans un <b>chargeur de datoïde</b>. Nous allons bientôt en construire un.,,
 tut.research.tree.info.desc,Ce panneau contient une vue d'ensemble des ressources disponibles et des actions utiles.,,
 tut.research.tree.info.disk,Cette barre de progression indique l'utilisation du <b>disque</b>.<br><br>Le bouton <b>{0}</b> ouvre une liste de noeuds de recherche déverrouillés qui peuvent être déchargés si vous avez un besoin urgent de plus d'espace disque. Les recherches déchargées devront être à nouveau déverrouillées.,,
-tut.research.tree.info.management,La section gestion contient des commandes supplémentaires qui pourraient vous être utiles.<br><br>Vous pouvez maintenant fermer l'<b>arbre de recherche</b> avec {0}.,,
+tut.research.tree.info.management,"Dans la section de gestion, vous trouverez des outils utiles tels que les <b>favoris</b> mentionnés précédemment et une fonction de <b>recherche</b>.<br><br>Vous pouvez maintenant fermer l'<b>arbre de recherche</b> avec {0}.",,
 tut.research.tree.nav,L'arbre de recherche: Le déplacement,,
 tut.research.tree.nav.desc,Il s'agit de l'<nobr><b>arbre de recherche</b></nobr>. Voici comment naviguer:<br><br> - Pour se déplacer: {0} ou faites glisser la souris en maintenant {1} enfoncé.<br> - Pour changer de zoom: {2},,
 tut.research.tree.nav.gamepad,Il s'agit de l'<nobr><b>arbre de recherche</b></nobr>. Voici comment naviguer:<br><br> - Pour se déplacer: {0}.<br> - Pour changer de zoom: {1}.,,
 tut.research.tree.node,L'arbre de recherche: Les noeuds,,
 tut.research.tree.node.bookmark,Il s'agit du bouton <b>favoris</b>. Cliquez dessus pour ajouter un noeud de recherche verrouillé à vos favoris pour un accès rapide.,,
+tut.research.tree.node.bookmarks,Ce bouton affiche une liste de toutes les recherches mises en favori.<br><br>Vous recevrez une notification lorsque l'un des noeuds de recherche mis en favori devient disponible pour être débloqué.,,
 tut.research.tree.node.cost.datoids,"La recherche est débloquée en consommant des matériaux spéciaux appelés <b>datoïdes</b>.<br>Vous trouverez ici les types et les quantités de datoïdes nécessaires.<br><br>Survolez les icônes pour en savoir plus sur chaque type de datoïde, y compris comment les acquérir.",,
 tut.research.tree.node.cost.disk,Il s'agit de l'espace <b>disque</b> nécessaire pour le stockage permanent afin de conserver les résultats de la recherche.<br><br>Construisez ou mettez à niveau des <b>modules de disque</b> pour augmenter le stockage disponible.,,
 tut.research.tree.node.cost.tier,Il s'agit du <b>niveau</b> du noeud de recherche. Vous devez débloquer un certain nombre de noeuds du niveau actuel pour débloquer le niveau suivant.,,
 tut.research.tree.node.unlock,"C'est le bouton pour <b>débloquer</b> une recherche. Si vous avez les ressources nécessaires, cela débloquera le noeud de recherche en un seul clic.<br><br>Si le noeud de recherche ne peut pas être débloquée, le survol de ce bouton vous indiquera pourquoi.",,
 tut.research.tree.node.unlockables,Objets à débloquer,,
 tut.research.tree.node.unlockables.desc,Chaque noeud de recherche a une liste d'objets à débloquer. Passez la souris sur l'élément pour voir son nom et sa description dans l'infobulle.,,
+
 tut.research.unlock.tech,Débloquer <b>{0}</b>,,
 tut.research.unlock.tech.desc,Débloquez le noeud de recherche en surbrillance pour continuer.,,
 tut.research.unstored.datoid,"Nous avons déjà des <b>datoïdes</b>, mais ils ne sont pas encore disponibles pour la recherche.<br><br>Nous devrons créer un <b>chargeur de datoïde</b> et laissez nos travailleurs y charger les Datoïdes.",2023-08-18,
