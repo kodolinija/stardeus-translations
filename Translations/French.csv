@@ -4711,13 +4711,25 @@ tut.ui.click.and.drag,Cliquez sur cette fenêtre et faites-la glisser pour la d�
 
 tut.waiting.for.construction,En attente de construction: <b>{0}</b>.,,
 
-
-tut.winch.desc,"Ce tutoriel vous apprendra à utiliser {0}, {1} et {2} pour déplacer des sections du vaisseau sur la carte.",,
+tut.winch.desc,"Ce tutoriel vous apprendra à utiliser le {0}, l'{1} et le {2} pour déplacer des sections du vaisseau sur la carte.",,
+tut.winch.end,"Vous savez maintenant tout sur le déplacement des <b>sections</b> d'un navire. Voici un résumé:<br><br> - Utilisez le <b>crochet de treuil</b> et l'<b>ancre de treuil</b> pour <b>ramener</b> une section plus petite vers une plus grande.<br> - Une petite partie du sol n'est pas considérée comme une section et ne peut pas être ramener.<br> - Les appareils fixés dans l'espace peuvent empêcher une section de se déplacer complètement. Si cela se produit, <b>déplacez les obstacles</b> et réessayez.<br> - Vous pouvez construire un <b>pont temporaire</b> pour ramener une section trop éloignée.<br> - Vous pouvez déplacer une section pour collecter des <b>ressources</b> dispersées dans l'espace.<br> - Utilisez les <b>contrôleurs de manœuvre</b> pour piloter une section ou l'ensemble du vaisseau avec une grande précision. Cela peut vous aider à éviter les <b>impacts d’astéroïdes</b>.",,
 tut.winch.intro,"Vous vous retrouverez parfois dans une situation où vous avez deux ou plusieurs <b>sections</b> (morceaux) du vaisseau déconnectées.<br><br>Vous pouvez joindre les sections en construisant un pont entre elles, ou vous pouvez déplacer les sections à la place.<br><br>Ce tutoriel vous montrera comment utiliser des appareils spécialisés pour déplacer des sections de vaisseau.",,
+tut.winch.patch.1,Il y a une petite parcelle de sol avec une <b>ancre de treuillage</b> à proximité. Essayons de la ramener.,,
+tut.winch.patch.2,L'opération de treuil a échoué car le morceau est trop petit pour être considéré comme une <b>Section</b> valide.<br><br>La superposition <b>{0}</b> vous donnera une liste de sections valides ainsi que leurs tailles.<br><br>La meilleure façon de se débarrasser de ce petit morceau est de le déconstruire.,,
+tut.winch.step1_1,Commençons par tirer une <b>section</b> portant le numéro <b>1</b> vers la section avec un <b>Ordinateur de bord</b>. Nous utiliserons un <b>treuil</b> et une <b>ancre</b>.,,
+tut.winch.step1_2,Le <b>treuil</b> possède un bouton <b>Ramener</b> dans la section <b>Gestion</b> du <b>Panneau d'informations</b>. Il contiendra une liste des <b>ancres</b> disponibles que nous pourrions utiliser. Ouvrons cette liste.,,
+tut.winch.step1_3,Cliquer sur le bouton <b>Ramener</b> à côté de l'<b>ancre</b> sélectionnée lancera le processus. Ramener l'ancre intitulée <b>{0}</b> dès maintenant.,,
+tut.winch.step1_4,"Les deux sections sont désormais combinées en une seule. Cependant, vous découvrirez bientôt que les choses ne se passent pas toujours aussi bien.",,
+tut.winch.step2_1,Essayons maintenant de treuiller la section marquée du numéro <b>2</b> juste au-dessus de nous.,,
+tut.winch.step2_2,L'opération du treuillage a été interrompue car un <b>collecteur de particules</b> gênait. Nous pouvons déplacer l'obstacle et réessayer.,,
+tut.winch.step2_3,Utilisez {0} pour ordonner de déplacer le <b>collecteur de particules</b> vers la zone en surbrillance.<br><br>Faites pivoter l'appareil avec {1} pour vous assurer que le lieu de travail (cercle) est au sol.,,
+tut.winch.step2_4,Le <b>collecteur de particules</b> ne devrait plus empêcher la section de se déplacer. Réessayons la procédure de treuillage.,,
+tut.winch.step3_1,"Jusqu'à présent, nous n'avons treuillé que des sections plus petites, mais voyons ce qui se passe lorsque nous essayons de treuiller la section numérotée <b>3</b>. C’est actuellement la plus grande section de la carte.",,
+tut.winch.step3_2,"Cette fois, la section avec l'<b>ordinateur de bords</b> s'est déplacée vers la section dans laquelle nous étions en train de ramener.<br><br>La plus petite section se déplacera toujours vers la plus grande, tandis que la plus grande section restera immobile.",,
+tut.winch.step4_1,Il existe des façons créatives d’utiliser la mécanique du treuil. Ramenons la section portant le numéro <b>4</b> pour ramasser les matériaux dispersés dans l'espace.,,
+tut.winch.step4.title,Treuillage créatif,,
 tut.winch.success,Treuillage réussi,,
-tut.winch.title,Déplacement des sections du vaisseau,,
-
-
+tut.winch.title,Déplacement des sections,,
 
 
 tutorial.build_connector,"Réacteur de matière est construit, mais nous devons le relier à notre grille. Créez un <nobr><b>Connecteur</b></nobr>. Trouvez-le dans le menu du bas.<br><br>{0}",,
