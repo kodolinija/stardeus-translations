@@ -1592,6 +1592,8 @@ grid.paused.desc,"Si vous connectez quelque chose pendant que le temps est suspe
 grid.show,Afficher la grille,,
 grid.show.bounds,Afficher les limites de la grille,,
 grid.updating,Mise à jour...,,
+grids.managed,Réseaux gérés,,
+grids.unmanaged,Réseaux non gérés,,
 growing,Croissance,,
 growing.what,En croissance: {0},,
 had.a.fun.ride,A eu un tour amusant,,
@@ -4559,7 +4561,7 @@ tut.configure.crafter.product,Commencez à produire: <b>{0}</b>,,
 
 
 tut.connect.device,Connecter {0},,
-tut.connect.device.constrained.desc,Appuyez sur {0} et faites glisser une ligne entre <b>{1}</b> et <b>{2}</b> en surbrillance pour créer une nouvelle connexion.,,
+tut.connect.device.constrained.desc,"Appuyez sur {0} au-dessus du <b>{2}</b>, puis faites glisser une ligne vers le <b>{1}</b> et relâchez {0} pour créer une nouvelle connexion.",2023-08-23,
 tut.connect.device.freestyle.desc,Utilisez l'outil <b>{0}</b> pour connecter le <b>{1}</b> en surbrillance au connecteur disponible le plus proche.,,
 
 tut.deselect.objects,Désélectionnez tous les objets avec {0} pour continuer.,,
@@ -4567,7 +4569,7 @@ tut.deselect.objects,Désélectionnez tous les objets avec {0} pour continuer.,,
 tut.el.bots.maintain.title,Maintenance des robots,,
 tut.el.bots.maintain.1,Tous ces travaux ont vidé la batterie de notre <b>drone de construction</b>. Donnons-lui un moyen de se recharger.,,
 tut.el.bots.maintain.2,Les robots doivent également effectuer un auto-entretien périodique. Il est préférable d'avoir au moins une <b>station de réparation</b> disponible à tout moment.,,
-tut.el.bots.maintain.3,"Attendez la construction des nouveaux appareils, puis connectez-les au réseau électrique.",,
+tut.el.bots.maintain.3,"Connectez maintenant les nouveaux appareils au réseau électrique.<br><br>Conseil : Vous pouvez utiliser {0} pour sélectionner plusieurs appareils en faisant glisser, puis maintenir {1} et appuyer sur {0} au-dessus d'un <b>Connecteur</b> pour connecter les appareils sélectionnés.",2023-08-26,
 
 tut.el.deficit.title,Dépannage du réseau électrique,,
 tut.el.deficit.1,"Il est temps d'apprendre à dépanner le réseau électrique. J'ai créé une situation où il y a un déficit important d'électricité.<br><br>Le réseau électrique aura peut-être besoin d'un moment pour simuler. Le jeu ne doit pas être mise en pause pour le moment.",,
@@ -4578,7 +4580,7 @@ tut.el.deficit.3,Le déficit électrique sera créé par l'un des <b>Consommateu
 tut.el.deficit.4,"La liste des consommateurs affiche en premier les appareils présentant un déficit. Vous verrez que le <b>{0}</b> présente un déficit, car sa consommation électrique est marquée en <color={1}>rouge</color>.<br><br>Vous pouvez éteindre cet appareil ou le reconfigurer pour récupérer un matériau moins énergivore afin de résoudre ce déficit.<br><br>Résoudre le déficit pour continuer.",,
 
 tut.el.desc,Apprenez comment fonctionne l'électricité dans Stardeus.,,
-tut.el.end,Vous devriez désormais être prêt à relever tous les défis liés à l'électricité.,,
+tut.el.end,"Vous savez maintenant comment fonctionne l'électricité dans Stardeus. Voici un résumé:<br><br> - Vous ne pouvez gérer les appareils que s'ils sont connectés au réseau de l'<b>ordinateur de bord</b>.<br> – Utilisez des <b>connecteurs</b> pour connecter des appareils à un réseau.<br> – Mettre des <b>connecteurs</b> en série pour atteindre des appareils ou des réseaux distants.<br> - Cliquez et faites glisser une ligne depuis un <b>connecteur</b>, puis déposez-la sur un sol vide pour y créer un nouveau connecteur.<br> - La connexion de deux grilles les fusionnera en une seule.<br> – Le calque <b>{0}</b> peut vous aider à résoudre les problèmes de <b>déficit d'électricité</b> et d'autres problèmes.",2023-08-23,
 
 tut.el.grid.merge.title,Fusionner des grilles,,
 tut.el.grid.merge.1,"Tant que l'<b>ordinateur de bord</b> n'est pas connecté, nous ne pourrons pas ajuster les connexions ni configurer les appareils de cette grille. En construisant une chaîne de <b>connecteurs</b>, nous pouvons fusionner les deux grilles et prendre le contrôle de cette zone.<br><br>Fermez le calque <b>{0}</b> pour continuer.",,
@@ -4596,11 +4598,11 @@ tut.el.grid.merge.7,Ouvrez le calque <b>{0}</b> et observez comment les deux gri
 tut.el.intro,"L'électricité joue un rôle important dans Stardeus. Il alimente non seulement les appareils, mais permet également leur gestion.<br><br>Ce tutoriel vous guidera dans la configuration, la gestion et le dépannage des réseaux électriques.",,
 
 tut.el.no.grid,"Dans Stardeus, votre conscience réside dans l'<b>ordinateur de bord</b>. Cela vous permet de commander des travailleurs robotiques et de contrôler des appareils reliés au même réseau électrique que l'<b>ordinateur de bord</b>.",,
-tut.el.overlay.1,"Il s'agit du calque <b>{0}</b>. Nous allons bientôt l'explorer en profondeur.<br><br>Pour le moment, la partie la plus importante est l'élément intitulé <b>{1}</b>. Il nous indique que l'<b>ordinateur de bord</b> n'a rien de connecté.",,
-tut.el.overlay.2,"Le texte <b>{0}</b> nous indique qu'il y a <b>1</b> appareil connecté au réseau et que le réseau peut gérer <b>{1}</b> connexions. Le seul appareil connecté est l'<b>ordinateur de bord</b> lui-même.<br><br>La limite de connexion <b>{1}</b> peut être augmentée en construisant de nouveaux <b>modules CPU</b>, mais nous ne devrions pas nous en soucier pour le moment.<br><br>Construisons quelques appareils et connectons-les à l'<b>ordinateur de bord</b> pour étendre ce réseau électrique.<br><br>Fermez le calque <b>{2}</b> pour continuer.",2023-08-22,
+tut.el.overlay.1,"Il s'agit du calque <b>{0}</b>. Nous l'explorerons en détail bientôt.<br><br>À l'heure actuelle, il nous indique que nous n'avons aucun <b>réseau géré</b>, ce qui signifie que l'<b>ordinateur de bord</b> n'est connecté à rien.<br><br>Construisons et connectons quelques appareils.<br><br>Fermons le calque pour continuer.",2023-08-23,
+
 tut.el.overlay.3,"Laissons-lui un peu de temps pour que le réacteur reçoive du combustible et que le déficit d'électricité soit résolu.<br><br>Pendant ce temps, nous allons examiner le tableau d'électricité.<br><br>Augmentez la <b>Vitesse du temps</b> et ouvrez le calque <b>{0}</b>.",,
 tut.el.overlay.4,"L'<b>ordinateur de bord</b> fait désormais partie d'un réseau électrique. Cette interface affiche un graphique qui affiche la production, la consommation, les niveaux de batterie et les déficits d'électricité.<br><br>En survolant le graphique, vous pouvez obtenir un aperçu de l'état passé et présent du réseau électrique. Observez comment le déficit disparaît lorsque le réacteur commence à produire de l'électricité.<br><br>Si le graphique n'est pas visible, activez-le en cliquant sur le bouton <b>{0}</b>.",,
-tut.el.overlay.5,Remarquez qu'un réseau électrique inconnu est répertorié sur le calque <b>{0}</b>.<br><br>Cliquez sur l'interface pour focaliser la caméra sur ce réseau.,,
+tut.el.overlay.5,Notez qu'un réseau électrique inconnu est répertorié dans la section <b>Réseaux non gérés</b> du calque <b>{0}</b>.<br><br>Cliquez sur l'interface pour centrer la caméra sur ce réseau.,2023-08-23,
 tut.el.refuel.1,Les lumières ont déclenché un <b>déficit d'électricité</b> puisque nous n'avons pas ajouté de combustible au <b>réacteur à matière</b>.,,
 tut.el.refuel.2,"Le <b>réacteur à matière</b> peut transformer presque n'importe quel matériau en électricité. Nous avons une abondance de <b>{0}</b>, un matériau à haut rendement énergétique. Utilisons-le comme source d'alimentation.<br><br>Cliquez sur le bouton <b>{1}</b> pour continuer.",,
 tut.el.refuel.title,Configuration du réacteur à matière,,
