@@ -958,6 +958,7 @@ disconnect.all,Tout déconnecter,,
 disk.compression,Compression de disque: {0},,
 display.nebula,Afficher la nébuleuse,,
 display.nebula.tip,La désactivation de la nébuleuse peut améliorer les performances du GPU sur du matériel moins puissant,,
+distance.to,Distance: {0},,
 do.not.show.again,Ne plus afficher,,
 dock,Quai,,
 dockable,Ancrable,,
@@ -4709,6 +4710,15 @@ tut.ui.click.and.drag,Cliquez sur cette fenêtre et faites-la glisser pour la d�
 
 
 tut.waiting.for.construction,En attente de construction: <b>{0}</b>.,,
+
+
+tut.winch.desc,"Ce tutoriel vous apprendra à utiliser {0}, {1} et {2} pour déplacer des sections du vaisseau sur la carte.",,
+tut.winch.intro,"Vous vous retrouverez parfois dans une situation où vous avez deux ou plusieurs <b>sections</b> (morceaux) du vaisseau déconnectées.<br><br>Vous pouvez joindre les sections en construisant un pont entre elles, ou vous pouvez déplacer les sections à la place.<br><br>Ce tutoriel vous montrera comment utiliser des appareils spécialisés pour déplacer des sections de vaisseau.",,
+tut.winch.success,Treuillage réussi,,
+tut.winch.title,Déplacement des sections du vaisseau,,
+
+
+
 
 tutorial.build_connector,"Réacteur de matière est construit, mais nous devons le relier à notre grille. Créez un <nobr><b>Connecteur</b></nobr>. Trouvez-le dans le menu du bas.<br><br>{0}",,
 tutorial.build_connector_place,"Placez le connecteur là où sa portée atteindra le réacteur à matière, la batterie et l'ordinateur de bord. Vous pouvez voir la plage du connecteur lorsque vous effectuez un zoom arrière.",,
