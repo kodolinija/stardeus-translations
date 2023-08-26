@@ -439,7 +439,7 @@ clear.history,Limpar Histórico,,
 click.input.to.rebind,Ativar nova entrada (aguardando por 5 segundos),,"A label displayed when a change in keyboard or controller bindings is being initiated. You want to rebind a shortcut to a different key, or change the controller stick that handles camera pan, you click on existing binding and this message is displayed while the game waits for you to press a button or move a stick, etc. It doesn't say ""Press a button"" because it may not always be a button (gamepad stick is a small joystick, etc)"
 click.to.bind,Clique para Vincular,,
 clipboard.is.empty,A Área de Transferência está vazia,,
-clone,Clonar,,
+clone,Clone,,
 clone.desc,"Um clone é um Ser que cresceu em laboratório, em vez de nascer de maneira convencional. Os clones parecem e agem como adultos, independentemente da idade.",,
 cloning.bar,Clonando: {0},,"A label for the progress bar of a cloning device. {0} is what the device is currently cloning. I.e. ""Cloning: Human"""
 close,Fechar,,
