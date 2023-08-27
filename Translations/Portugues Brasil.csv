@@ -2273,7 +2273,7 @@ obj.materials.petroleum.desc,"Um produto do petróleo bruto, usado para fabricar
 obj.materials.plantfiber,Fibra Vegetal,,
 obj.materials.plantfiber.desc,Um material extraído de plantas. Usado na produção de alimentos além de outras coisas.,,
 obj.materials.plastic,Plástico,,
-obj.materials.plastic.desc,Um material sintético usado em eletrônicos e pequenos aparelhos.,,
+obj.materials.plastic.desc,Um material sintético usado em eletrônicos e pequenos aparelhos,,
 obj.materials.protein,Proteína,,
 obj.materials.protein.desc,Nutriente extraído da carne de organismos vivos (ou falecidos). Parte essencial de refeições mais elaboradas.,,
 obj.materials.quartz,Quartzo,,
