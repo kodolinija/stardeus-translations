@@ -3826,7 +3826,7 @@ sig.transaction.successful.12,"Après la transaction, le contact reconnaissant e
 sig.transaction.successful.13,"Suite à la transaction, le vendeur offre un simple et sincère « merci », sa voix résonnant d'un sentiment d'authenticité rassure l'équipage.",,
 sig.transaction.successful.14,"Une fois la transaction conclue, la gratitude du contact est discrète mais sincère, vous laissant spéculer sur l'importance de sa décision.",,
 sig.transaction.successful.15,"Après la transaction, la voix adopte un ton de révérence, vous remerciant de votre confiance et laissant entendre qu'ils ont joué un rôle dans quelque chose de bien plus grand qu'eux-mêmes.",,
-sig.transaction.successful.16,"L'individu reconnaissant vous remercie et rit, ajoutant que le moment est parfait, car ils étaient sur le point de "fermer boutique" et de se tourner vers un nouveau passe-temps : la vannerie sous-marine.",,
+sig.transaction.successful.16,"L'individu reconnaissant vous remercie et rit, ajoutant que le moment est parfait, car ils étaient sur le point de ""fermer boutique"" et de se tourner vers un nouveau passe-temps : la vannerie sous-marine.",,
 sig.transaction.successful.17,"Avec un ton plein d'esprit, l'étranger reconnaissant exprime sa gratitude, en plaisantant que vos compétences en matière de prise de décision sont si tranchante qu'elles pourraient donner du fil à retordre à la meilleure lame.",,
 sig.transaction.will.receive,Vous recevrez: {0},,
 silence,Silence,,
