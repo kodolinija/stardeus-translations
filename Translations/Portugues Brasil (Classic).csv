@@ -1062,7 +1062,7 @@ evt.stasis.pod.crawlers.desc,Uma Cápsula Criogênica libertou Crawlers - criatu
 evt.stasis.pod.crawlers.title,Crawlers saíram de uma Cápsula Criogênica.,,
 evt.stasis.pod.desc,"Tem uma Cápsula Criogênica em rota de colisão com o nossa Nave! O conteúdo pode ser perigoso, tome cuidado!",,
 evt.stasis.pod.friendly.crew.desc,A Cápsula Criogênica libertou alguns Seres amigáveis. Eles se tornarão parte de nossa colônia. Certifique-se de que eles se sintam bem-vindos!,,
-evt.stasis.pod.friendly.crew.title,Seres amigáveis saíram das Cápsula Criogênica.,,
+evt.stasis.pod.friendly.crew.title,Seres amigáveis saíram da Cápsula Criogênica.,,
 evt.stasis.pod.merchant.desc,Cápsula Criogênica pertence a um Comerciante autônomo que está oferecendo uma negociação.,,
 evt.stasis.pod.merchant.title,Negociando com Cápsula Criogênica,,
 evt.stasis.pod.raid.desc,Estamos sendo invadidos pela Facção {0}.,,
