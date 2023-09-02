@@ -458,7 +458,7 @@ codex.m.basebuilding,Basenbau,,
 codex.m.basebuilding.buildacopy,"Kopien bestehender Objekte erstellen",,
 codex.m.basebuilding.buildacopy.desc,"Wenn du eine Kopie von etwas erstellen möchtest, das du bereits besitzt, markiere das Objekt und wähle den Menüpunkt 'Kopie erstellen' in der Infotafel oder im Kontextmenü. Du kannst auch die Tastenkombination {0} verwenden, während das Objekt ausgewählt ist.<br><br>Um eine Kopie eines Energieanschlusses zu erstellen, ziehe eine Verbindung und lege sie auf einem leeren Bodenfeld ab (konfigurierbar, kann ausgeschaltet werden).<br><br>Wenn du auf diese Weise keine Kopie erstellen kannst, überprüfe, ob die passende Blaupause freigeschaltet ist.",,
 codex.m.basebuilding.devicewear,Geräteabnutzung,,
-codex.m.basebuilding.devicewear.desc,"<b>Geräteverschleiß</b> gibt die Höhe des Schadens an, den ein Gerät erlitten hat. Du kannst den Schaden beheben, aber du kannst den Verschleiß nicht verringern. Sobald der Verschleiß 100 % erreicht, ist das Gerät nicht mehr reparabel.<br><br>Du kannst ein abgenutztes Gerät ersetzen, indem du den Bau einer Kopie desselben Geräts an seinem Standort bestellst.<br><br>Durch Interaktionen mit dem Gerät können geringfügige Abnutzungserscheinungen entstehen.<br><br>Ein Gerät mit 100 % Abnutzung wird bei der Verwendung <b>Altersschäden</b> erleiden und irgendwann kaputt gehen.,2023-08-29,",,
+codex.m.basebuilding.devicewear.desc,"<b>Geräteverschleiß</b> gibt die Höhe des Schadens an, den ein Gerät erlitten hat. Du kannst den Schaden beheben, aber du kannst den Verschleiß nicht verringern. Sobald der Verschleiß 100 % erreicht, ist das Gerät nicht mehr reparabel.<br><br>Du kannst ein abgenutztes Gerät ersetzen, indem du den Bau einer Kopie desselben Geräts an seinem Standort bestellst.<br><br>Durch Interaktionen mit dem Gerät können geringfügige Abnutzungserscheinungen entstehen.<br><br>Ein Gerät mit 100 % Abnutzung wird bei der Verwendung <b>Altersschäden</b> erleiden und irgendwann kaputt gehen.",2023-08-29,
 codex.m.basebuilding.relocatingobjects,"Objekte verlagern",,
 codex.m.basebuilding.relocatingobjects.desc,"Es kommt häufig vor, dass du ein Gerät an einen anderen Ort verschieben möchtest. Wähle hierfür das Gerät aus und wähle den Menüpunkt ""Verschieben"" im Infobereich oder im Kontextmenü. Oder verwende die Tastenkombination {0}, während das Gerät ausgewählt ist.<br><br>Du kannst das Gerät über sich selbst verschieben. Dass ist nützlich, wenn du die Rotation ändern möchtest.<br><br>Das Verschieben eines Geräts kann eine Überprüfung der Konstruktionsfähigkeiten erfordern. Komplexe Geräte wie der Schiffscomputer oder die Stasiskammer können nur von hochqualifizierten Arbeitern verschoben werden.<br><br>Wenn du mehrere Objekte auswählst, kannst du sie alle gleichzeitig verlagern.",,
 codex.m.basebuilding.teleporters,Teleporters,,
@@ -490,7 +490,7 @@ codex.m.colonists.mindcontrol.desc,"Es gibt Möglichkeiten, deine biologischen K
 codex.m.colonists.mood,"Stimmung des Kolonisten",,
 codex.m.colonists.mood.desc,"Im Gegensatz zu Drohnen haben biologische Kolonisten Gefühle und können in guter oder schlechter Stimmung sein. Wenn du einen Kolonisten auswählst und den Inhalt des Abschnitts <b>Stimmung</b> in der Infotafel untersuchst, findest du die genauen Gründe, warum die Stimmung steigt oder sinkt. Die meisten Gründe können verhindert werden, indem man den Kolonisten das gibt, was sie brauchen.<br><br>Du kannst auch die Bedürfnisse untersuchen, da sie oft mit der Stimmung verbunden sind.",,
 codex.m.colonists.stasiswakeups,"Aufwachen aus der Stasis",,
-codex.m.colonists.stasiswakeups.desc,"Das Stasis-Array enthält Hunderte ruhender Kolonisten, darunter Menschen und Haustiere. Gelegentlich kommt es zu einer <b>Stasisfeld Fehlfunktion</b>, die jemanden vorzeitig aufweckt.<br><br>Die Häufigkeit dieser unerwarteten Aufweckvorgänge wird von der <b>Kryostabilität</b> des Feldes beeinflusst: Je niedriger die Stabilität, desto häufiger treten Fehlfunktionen auf.<br><br>Überprüfe die Kryostabilität, indem du das Stasisfeld auswählst und seine Details im Infofenster anzeigen lässt.<br><br>Indem du das Stasisfeld auf <b>Erweiterte Lebenserhaltung</br> umstellst, kannst du Fehlfunktionen des Feldes verhindern und bei Bedarf manuelle Weckvorgänge einleiten.",29.08.2023,
+codex.m.colonists.stasiswakeups.desc,"Das Stasis-Array enthält Hunderte ruhender Kolonisten, darunter Menschen und Haustiere. Gelegentlich kommt es zu einer <b>Stasisfeld Fehlfunktion</b>, die jemanden vorzeitig aufweckt.<br><br>Die Häufigkeit dieser unerwarteten Aufweckvorgänge wird von der <b>Kryostabilität</b> des Feldes beeinflusst: Je niedriger die Stabilität, desto häufiger treten Fehlfunktionen auf.<br><br>Überprüfe die Kryostabilität, indem du das Stasisfeld auswählst und seine Details im Infofenster anzeigen lässt.<br><br>Indem du das Stasisfeld auf <b>Erweiterte Lebenserhaltung</br> umstellst, kannst du Fehlfunktionen des Feldes verhindern und bei Bedarf manuelle Weckvorgänge einleiten.",2023-08-29,
 codex.m.combat,"Waffen und Kampf",,
 codex.m.combat.breachcapsules,Enterkapseln,,
 codex.m.combat.breachcapsules.desc,"Enterkapseln werden meist von Überfallkommandos eingesetzt. Die Kapsel wird von unten an deinem Schiff befestigt und bohrt sich durch die Außenwand. Die Räuber entern dann durch das Bohrloch dein Schiff. Sie können ihre Beute in die Enterkapsel legen und diese abkoppeln, um zu entkommen. Wenn du alle Räuber getötet hast, gehört die Enterkapsel dir. Du kannst sie zerlegen, um einige wertvolle Materialien zu erhalten und deine gestohlenen Waren zurückzubekommen.",,
@@ -499,7 +499,7 @@ codex.m.combat.controllingunits.desc,"Du kannst den Arbeitern (Roboter und Drohn
 codex.m.combat.explosives,"Sprengstoff und Bomben",,
 codex.m.combat.explosives.desc,"Du kannst Sprengstoffe wie C42 selbst herstellen, sie dann an strategisch wichtigen Stellen platzieren und scharfmachen. Aktivierte Sprengsätze explodieren, wenn sich ein feindliches Wesen in der Nähe befindet.<br><br>Räuber lassen manchmal Sprengsätze mit einem Zeitzünder fallen. Der Zeitzünder kann nicht gestoppt werden und wenn er endet, geht die Bombe in die Luft. Wenn genug Zeit bleibt, sollte man versuchen, den Sprengstoff an eine andere Stelle zu transportieren.",,
 codex.m.combat.raids,Überfälle,,
-codex.m.combat.raids.desc,"Von Zeit zu Zeit könnten Piraten deine Kolonie überfallen. Wenn ein solches Ereignis eintritt, wechselt deine Kolonie in den Kampfzustand. Benutze das <b>{0}</b>-Übersicht, um die Situation einzuschätzen.<br><br>Rüste deine Kolonie gegen diese Überfälle, indem du sie mit Waffen ausrüstest und Verteidigungsmaßnahmen installierst.",29.08.2023,
+codex.m.combat.raids.desc,"Von Zeit zu Zeit könnten Piraten deine Kolonie überfallen. Wenn ein solches Ereignis eintritt, wechselt deine Kolonie in den Kampfzustand. Benutze das <b>{0}</b>-Übersicht, um die Situation einzuschätzen.<br><br>Rüste deine Kolonie gegen diese Überfälle, indem du sie mit Waffen ausrüstest und Verteidigungsmaßnahmen installierst.",2023-08-29,
 codex.m.combat.theft,Diebstahl,,
 codex.m.combat.theft.desc,"Räuber werden sich manchmal deine Wertsachen schnappen und sie zu ihrem Fluchtfahrzeug bringen. In einigen Situationen können sie eines deiner Schiffe stehlen.",,
 codex.m.economy,"Wirtschaft und Handel",,
@@ -521,30 +521,30 @@ codex.m.electricity.damagedconnectors.desc,"Wenn der Verbinder stark beschädigt
 codex.m.electricity.gridredundancy,"Hohe Verfügbarkeit und Redundanz",,
 codex.m.electricity.gridredundancy.desc,"Um Unterbrechungen des Stromnetzes zu vermeiden, empfiehlt es sich, dein Netz mit zusätzlicher Redundanz zu planen. Dies ist besonders wichtig für kritische Teile deiner Infrastruktur, wie Reaktoren, Batterien, Schiffscomputer, Stasisfeld, Sauerstoffpumpen, Heizungen, Türen und Luftschleusen.<br><br>Um die Redundanz zu erhöhen, baue mehr Verbinder und verbinde wichtige Geräte über mehr als einen Verbinder.<br><br>Hochverfügbarkeit bedeutet, dass, selbst wenn ein Teil deines Netzes zerstört wird, es keinen oder nur einen minimalen Verbindungsverlust für wichtige Teile deiner Infrastruktur gibt.",,
 codex.m.electricity.handlingdeficit,"Umgang mit Stromlücken",,
-codex.m.electricity.handlingdeficit.desc,"Wenn deine Geräte versuchen, mehr Strom zu verbrauchen, als du produzierst, entsteht ein Stromdefizit. In dieser Situation werden die Geräte mit der niedrigsten Verbrauchspriorität zuerst nicht mehr funktionieren. Du wirst über den Strommangel in der Ereignistafel benachrichtigt und kannst dies an flackernden Lichtern erkennen.<br><br>Es gibt mehrere Möglichkeiten, mit dem Defizit umzugehen. Verwende die Übersicht <b>Stromnetz</b>, um die Situation zu untersuchen. Überprüfe die Liste der Verbraucher – manchmal kann ein einzelnes Gerät mehr Strom verbrauchen als alle anderen Geräte zusammen. Als vorübergehende Lösung kannst du nicht lebenswichtige Geräte mit hohem Stromverbrauch abschalten.<br><br>Langfristig musst du mehr Reaktoren und Solarpaneele bauen, um die Leistung zu erhöhen. Versuche, immer zusätzliche Produktionskapazitäten zu haben.<br><br>Baue Batterien und halte sie als Notreserve voll aufgeladen.",,
+codex.m.electricity.handlingdeficit.desc,"Wenn deine Geräte versuchen, mehr Strom zu verbrauchen, als du produzierst, entsteht ein <b>Stromdefizit</b>. In dieser Situation werden die Geräte mit der niedrigsten Verbrauchspriorität zuerst nicht mehr funktionieren. Du wirst über den Strommangel in der Ereignistafel benachrichtigt und kannst dies an flackernden Lichtern erkennen.<br><br>Es gibt mehrere Möglichkeiten, mit dem Defizit umzugehen:<br> - Benutze <b>Stromnetzdetails</b> in der <b>{0}</b>-Übersicht um die Situation zu untersuchen. Überprüfe die Liste der <b>Verbraucher</b> – manchmal kann ein einzelnes Gerät mehr Strom verbrauchen als alle anderen Geräte zusammen.<br> - Als vorübergehende Lösung kannst du nicht lebenswichtige Geräte mit hohem Stromverbrauch abschalten.<br> - Langfristig musst du mehr <b>Reaktoren</b> und <b>Solarpaneele</b> bauen, um die Leistung zu erhöhen. Versuche, immer zusätzliche Produktionskapazitäten zu haben.<br> - Baue <b>Batterien</b> und halte sie als Notreserve voll aufgeladen.",,
 codex.m.electricity.managingunreachabledevices,"Verwaltung von Geräten außerhalb des Stromnetzes",,
-codex.m.electricity.managingunreachabledevices.desc,"Geräte, die sich nicht im selben Netz wie der <b>Schiffscomputer</b> befinden, sind unkontrollierbar. Du kannst jedoch einen Roboterarbeiter anweisen, eine temporäre Verbindung einzurichten. Sobald die Verbindung hergestellt ist, ist das Gerät voll funktionsfähig. Dieser Arbeiter wird auch eine kleine Menge <b>Strom</b> und <b>CPU</b> bereitstellen.<br><br>Um eine temporäre Verbindung herzustellen, wähle ein nicht erreichbares Gerät aus und Klicke dann auf die Schaltfläche <b>Verwalten</b> neben der Warnung „Knoten ist nicht erreichbar“ im Infobereich oder im Kontextmenü. Wenn ein Arbeiter eine temporäre Verbindung herstellt, erscheint eine Benachrichtigung im Ereignisfenster.<br><br>Um die temporäre Verbindung zu beenden, wähle den verbundenen Arbeiter aus und klicke im Infofenster auf <b>Herstellung temporärer Verbindung löschen</b>.",29.08.2023,
+codex.m.electricity.managingunreachabledevices.desc,"Geräte, die sich nicht im selben Netz wie der <b>Schiffscomputer</b> befinden, sind unkontrollierbar. Du kannst jedoch einen Roboterarbeiter anweisen, eine temporäre Verbindung einzurichten. Sobald die Verbindung hergestellt ist, ist das Gerät voll funktionsfähig. Dieser Arbeiter wird auch eine kleine Menge <b>Strom</b> und <b>CPU</b> bereitstellen.<br><br>Um eine temporäre Verbindung herzustellen, wähle ein nicht erreichbares Gerät aus und Klicke dann auf die Schaltfläche <b>Verwalten</b> neben der Warnung „Knoten ist nicht erreichbar“ im Infobereich oder im Kontextmenü. Wenn ein Arbeiter eine temporäre Verbindung herstellt, erscheint eine Benachrichtigung im Ereignisfenster.<br><br>Um die temporäre Verbindung zu beenden, wähle den verbundenen Arbeiter aus und klicke im Infofenster auf <b>Herstellung temporärer Verbindung löschen</b>.",2023-08-29,
 codex.m.electricity.multiplegrids,"Mehrere Stromnetze",,
 codex.m.electricity.multiplegrids.desc,"Es ist möglich, mehr als ein Stromnetz zu haben. Du kannst aber nur dann Geräte steuern und Verbindungen bearbeiten, wenn der Schiffscomputer mit dem Netz verbunden ist.<br><br>In den meisten Fällen solltest du versuchen, mehrere Stromnetze zu einem einzigen zusammenzuschließen. In Fällen, in denen du einen Teil des Netzes schnell abtrennen willst, kannst du einen Schalter bauen und die elektrischen Verbindungen durch ihn leiten.",,
 codex.m.electricity.productionpriority,Stromerzeugungspriorität,,
 codex.m.electricity.productionpriority.desc,,,
 codex.m.environment,Umgebung,,
 codex.m.environment.airtightness,Luftdichtheit,,
-codex.m.environment.airtightness.desc,"Luftdichtheit gibt die Fähigkeit einer Struktur an, den <b>Sauerstofffluss</b> zu verhindern. Bei 100 % ist eine Struktur vollständig versiegelt. Normalerweise sind <b>Wände</b> zu 100 % luftdicht, sofern sie nicht beschädigt sind. Geschlossene <b>Türen</b> sorgen für 100 % Luftdichtheit. Angetriebene <b>Luftschleusen</b> sind auch im geöffneten Zustand vollständig luftdicht.<br><br>Intakte <b>Böden</b> weisen eine Luftdichtheit von 5 % auf und ermöglichen den Sauerstoffaustausch innerhalb des Bereichs. Wenn die Luftdichtheit des Bodens unter 2,5 % fällt, ist er dem offenen Raum ausgesetzt, wodurch Sauerstoff entweicht.<br><br>Überprüfe die Überlagerung <b>{0}</b> oder drücke {1} und bewege den Mauszeiger über die Bereiche, die du auf Luftdichtheit überprüfen möchtest.",29.08.2023,
+codex.m.environment.airtightness.desc,"Luftdichtheit gibt die Fähigkeit einer Struktur an, den <b>Sauerstofffluss</b> zu verhindern. Bei 100 % ist eine Struktur vollständig versiegelt. Normalerweise sind <b>Wände</b> zu 100 % luftdicht, sofern sie nicht beschädigt sind. Geschlossene <b>Türen</b> sorgen für 100 % Luftdichtheit. Angetriebene <b>Luftschleusen</b> sind auch im geöffneten Zustand vollständig luftdicht.<br><br>Intakte <b>Böden</b> weisen eine Luftdichtheit von 5 % auf und ermöglichen den Sauerstoffaustausch innerhalb des Bereichs. Wenn die Luftdichtheit des Bodens unter 2,5 % fällt, ist er dem offenen Raum ausgesetzt, wodurch Sauerstoff entweicht.<br><br>Überprüfe die Überlagerung <b>{0}</b> oder drücke {1} und bewege den Mauszeiger über die Bereiche, die du auf Luftdichtheit überprüfen möchtest.",2023-08-29,
 codex.m.environment.enclosedareas,"Geschlossene Bereiche",,
-codex.m.environment.enclosedareas.desc,"Ein Raum gilt als <b>abgeschlossen</b>, wenn er über abgeschlossene <b>Wände</b> und <b>Böden</b> verfügt. Wenn der Bereich entweder durch ein fehlendes Wandstück oder durch ein Loch im Boden dem offenen <b>Weltraum</b> ausgesetzt ist, kann er nicht richtig mit Sauerstoff versorgt und beheizt werden.<br><br>Welche Bereiche als abgeschlossen gelten, siehst du in der Raumübersicht <b>{0}</b>.",,
+codex.m.environment.enclosedareas.desc,"Ein Raum gilt als <b>abgeschlossen</b>, wenn er über abgeschlossene <b>Wände</b> und <b>Böden</b> verfügt. Wenn der Bereich entweder durch ein fehlendes Wandstück oder durch ein Loch im Boden dem offenen <b>Weltraum</b> ausgesetzt ist, kann er nicht richtig mit Sauerstoff versorgt und beheizt werden.<br><br>Manche Geräte benötigen ein <b>offenes</b> Areal um zu funktionieren. Wenn ein solches Gerät eingeschlossen wird, wird im Ereignisfenster eine Warnung angezeigt.<br><br>Welche Bereiche als abgeschlossen gelten, siehst du in der Raumübersicht <b>{0}</b>.",,
 codex.m.environment.fire,Feuer,,
 codex.m.environment.fire.desc,"Wenn große Hitze mit Sauerstoff kombiniert wird, können einige Objekte in Brand geraten.<br><br>Du kannst Flüssigkeitskanonen bauen und sie mit Wasser laden, um Brände automatisch zu bekämpfen.<br><br>Wähle ein beliebiges Objekt oder Lebewesen aus und überprüfe seine Wohlfühltemperatur sowie die Wahrscheinlichkeit, dass es Feuer fängt, in der Infotafel.<br><br>Das Ausschalten aller in der Nähe befindlichen Sauerstoffpumpen (einschließlich der im Stasisfeld eingebauten), das Schließen von Lüftungsschächten und der Rückbau von Böden sind bei der Brandbekämpfung hilfreich.<br><br>Behalte die Wärmeanzeige <b>{0}</b> im Auge, um Brände zu verhindern.",,
 codex.m.environment.heat,Temperatur,2023-08-29,
-codex.m.environment.heat.desc,"Jede Fliese hat ihre eigene Atmosphäre. <b>Der Temperaturaustausch</b> findet ständig zwischen allen benachbarten Kacheln statt, abhängig von ihrem <b>Isolierungsniveau</b>.<br><br>Wenn ein Bereich dem offenen Raum ausgesetzt ist, sinkt die Temperatur auf <b>Absoluter Nullpunkt</b> (0 K oder -273 °C oder -460 °F).<br><br>Hohe Temperaturen in Verbindung mit Sauerstoff können zu Bränden führen.<br><br>Überprüfe <b>{0}</b> und <b>{1}</b>-Übersicht oder drücke {2} und bewege den Mauszeiger über Bereiche, um Temperaturmesswerte und Isolationsniveaus anzuzeigen.“,2023-08-29,
-codex.m.environment.hullintegrity,Hüllenintegrität,,
-codex.m.environment.hullintegrity.desc,"<b>Rumpfintegrität</b> bezieht sich auf den Zustand von Strukturelementen wie <b>Böden</b>, <b>Wänden</b>, <b>Lüftungsöffnungen</b> und <b>Türen</b>. Es beeinflusst direkt die Werte für <b>Luftdichtheit</b> und <b>Isolierung</b>, basierend auf dem aktuellen Zustand einer Struktur.<br><br><b>Beschädigte</b> Strukturen haben eine verringerte Rumpfintegrität, was zu beeinträchtigter Luftdichtheit und Isolierung führt. Bei <b>Türen</b> und <b>Lüftungsöffnungen</b> wirkt sich ihr offener oder geschlossener Zustand auf die Rumpfintegrität aus.<br><br>Bestimmte Strukturtypen wie <b>Rahmen</b> können nicht zur Schaffung eines luftdichten und isolierten Raums verwendet werden.<br><br>Wähle ein beliebiges Boden- oder Wandstück aus und überprüfe die Rumpfintegritätsdaten im Infofenster für weitere Details.",2023-08-29,
+codex.m.environment.heat.desc,"Jede Bodenfliese hat ihre eigene Atmosphäre. <b>Der Temperaturaustausch</b> findet ständig zwischen allen benachbarten Kacheln statt, abhängig von ihrem <b>Isolierungsniveau</b>.<br><br>Wenn ein Bereich dem offenen Raum ausgesetzt ist, sinkt die Temperatur auf <b>absoluten Nullpunkt</b> (0 K oder -273 °C oder -460 °F).<br><br>Hohe Temperaturen in Verbindung mit Sauerstoff können zu Bränden führen.<br><br>Überprüfe <b>{0}</b> und <b>{1}</b>-Übersicht oder drücke {2} und bewege den Mauszeiger über Bereiche, um Temperaturmesswerte und Isolationsniveaus anzuzeigen.",2023-08-29,
+codex.m.environment.hullintegrity,Rumpfintegrität,,
+codex.m.environment.hullintegrity.desc,"<b>Rumpfintegrität</b> bezieht sich auf den Zustand von Strukturelementen wie <b>Böden</b>, <b>Wänden</b>, <b>Lüftungsöffnungen</b> und <b>Türen</b>. Es beeinflusst direkt die Werte für <b>Luftdichtheit</b> und <b>Isolierung</b>, basierend auf dem aktuellen Zustand einer Struktur.<br><br><b>Beschädigte</b> Strukturen haben eine verringerte Rumpfintegrität, was zu beeinträchtigter Luftdichtheit und Isolierung führt. Bei <b>Türen</b> und <b>Lüftungsschächten</b> wirkt sich ihr offener oder geschlossener Zustand auf die Rumpfintegrität aus.<br><br>Bestimmte Strukturtypen wie <b>Rahmen</b> können nicht zur Schaffung eines luftdichten und isolierten Raums verwendet werden.<br><br>Wähle ein beliebiges Boden- oder Wandstück aus und überprüfe die Rumpfintegritätsdaten im Infofenster für weitere Details.",2023-08-29,
 codex.m.environment.insulation,Isolierung,,
-codex.m.environment.insulation.desc,"Isolierung ähnelt der <b>Luftdichtheit</b>, reguliert jedoch anstelle von Sauerstoff den <b>Temperatur</b>-Austausch. Während Wände in der Regel völlig luftdicht sind, sind sie nicht zu 100 % isoliert. Bereiche werden langsam abkühlen, wenn du keine aktiven <b>Wärmeerzeuger</b> baust.<br><br>Um den Temperaturverlust zu reduzieren, baue zusätzliche Schichten von <b>Wänden</b> an der Außenseite deines Schiffes oder baue Bereiche rund um deine Hauptwohnräume, die als Isolationspuffer dienen.<br><br>Überprüfe die Überlagerung <b>{0}</b> oder drücke {1} und bewege den Mauszeiger über Bereiche, um die Isolierung zu überprüfen.",29.08.2023,
+codex.m.environment.insulation.desc,"Isolierung ähnelt der <b>Luftdichtheit</b>, reguliert jedoch anstelle von Sauerstoff den <b>Temperatur</b>-Austausch. Während Wände in der Regel völlig luftdicht sind, sind sie nicht zu 100 % isoliert. Bereiche werden langsam abkühlen, wenn du keine aktiven <b>Wärmeerzeuger</b> baust.<br><br>Um den Temperaturverlust zu reduzieren, baue zusätzliche Schichten von <b>Wänden</b> an der Außenseite deines Schiffes oder baue Bereiche rund um deine Hauptwohnräume, die als Isolationspuffer dienen.<br><br>Überprüfe die Überlagerung <b>{0}</b> oder drücke {1} und bewege den Mauszeiger über Bereiche, um die Isolierung zu überprüfen.",2023-08-29,
 codex.m.environment.islands,"Bereiche (Inseln)",,
-codex.m.environment.islands.desc,"Ein <b>Abschnitt</b> ist ein völlig getrennter Teil von deinem Schiff. Ein Schiff muss aus einem Stück bestehen, um <b>flugbereit</b> zu sein.<br><br>Du kannst zwei Abschnitte mit <b>Böden</b> oder Rahmen verbinden, um sie zu einem größeren Abschnitt zusammenzuführen. <br><br><b>Kleine Bodenflecken</b> im offenen Raum gelten nicht als einzelner Abschnitt.<br><br>Alternativ kannst du <b>Windenhaken</b> und <b>Windenanker</b> verwenden oder <b>Manövriersteuerungen</b> zum Bewegen von Schiffsabschnitten.<br><br>Abschnitte können auch <b>dekonstruiert</b> werden, um Materialien zurückzugewinnen, <b>Verlassen</b> oder <b>Verkauft</b> am <b>Weltraumhafen</b>.<br><br>Überprüfe das <b>{0}</b>-Übersicht für weitere Details.",29.08.2023,
+codex.m.environment.islands.desc,"Ein <b>Abschnitt</b> ist ein völlig getrennter Teil von deinem Schiff. Ein Schiff muss aus einem Stück bestehen, um <b>flugbereit</b> zu sein.<br><br>Du kannst zwei Abschnitte mit <b>Böden</b> oder Rahmen verbinden, um sie zu einem größeren Abschnitt zusammenzuführen. <br><br><b>Kleine Bodenflecken</b> im offenen Raum gelten nicht als einzelner Abschnitt.<br><br>Alternativ kannst du <b>Windenhaken</b> und <b>Windenanker</b> verwenden oder <b>Manövriersteuerungen</b> zum Bewegen von Schiffsabschnitten.<br><br>Abschnitte können auch <b>dekonstruiert</b> werden, um Materialien zurückzugewinnen, <b>Verlassen</b> oder <b>Verkauft</b> am <b>Weltraumhafen</b>.<br><br>Überprüfe das <b>{0}</b>-Übersicht für weitere Details.",2023-08-29,
 codex.m.environment.oxygen,Sauerstoff,,
-codex.m.environment.oxygen.desc,"Sauerstoff ist ein Gas, das für die Erhaltung des Lebens der meisten biologischen Lebewesen unerlässlich ist. Zwischen allen benachbarten Fliesen findet je nach <b>Luftdichtheit</b> ständig ein Sauerstoffaustausch statt. Wenn ein Bereich dem <b>Weltraum</b> ausgesetzt ist, tritt Sauerstoff aus. Extreme Hitze vermischt mit Sauerstoff führt zu einem Brand.<br><br><br>Überprüfe die Überlagerungen <b>{0}</b> und <b>{1}</b> oder drücke {2} und bewege den Mauszeiger über Bereiche, um den Sauerstoffgehalt und die Luftdichtheit zu überprüfen.",29.08.2023,
+codex.m.environment.oxygen.desc,"Sauerstoff ist ein Gas, das für die Erhaltung des Lebens der meisten biologischen Lebewesen unerlässlich ist. Zwischen allen benachbarten Fliesen findet je nach <b>Luftdichtheit</b> ständig ein Sauerstoffaustausch statt. Wenn ein Bereich dem <b>Weltraum</b> ausgesetzt ist, tritt Sauerstoff aus. Extreme Hitze vermischt mit Sauerstoff führt zu einem Brand.<br><br><br>Überprüfe die Überlagerungen <b>{0}</b> und <b>{1}</b> oder drücke {2} und bewege den Mauszeiger über Bereiche, um den Sauerstoffgehalt und die Luftdichtheit zu überprüfen.",2023-08-29,
 codex.m.inputcontrols,"Tastenbelegung und Steuerung",,
 codex.m.inputcontrols.gamepad,"Gamepad und Controller",,
 codex.m.inputcontrols.gamepad.desc,"Du kannst die meisten Gamepads oder Controller für die Eingabe verwenden. Die Steam-Deck-Steuerung sollte ebenfalls funktionieren.<br><br>Du kannst jederzeit nahtlos zwischen Tastatur/Maus und Controller wechseln, ohne das Spiel neu starten zu müssen.<br><br>Wenn ein Controller angeschlossen ist, öffne im Pausenmenü »Einstellungen« → »Tastenbelegung«, um die Steuerung zu sehen und neu zuzuordnen.",,
@@ -565,9 +565,9 @@ codex.m.resources.crafting.desc,"Das Herstellen oder Produzieren erfolgt mit Hil
 codex.m.resources.deconstruction,"Dekonstruktion für Ressourcen",,"[Weidengeist: Using »Dekonstruktion« here to keep the wording consistent with the action verb.]"
 codex.m.resources.deconstruction.desc,"Jedes einzelne Gerät und jede Struktur enthält Ressourcen, die wiedergewonnen werden können. Wähle hierzu das Objekt aus und untersuche das Bauelement in der Infotafel, um den Inhalt zu sehen.<br><br>Der Rückbau (Dekonstruktion) unbenutzter Geräte und insbesondere von Böden und Wänden ist eine sinnvolle und oft notwendige Taktik, vor allem, wenn du dich in einem völlig zerstörten Schiff oder mit Treibstoffmangel wiederfindest.<br><br>Manchmal solltest du dein Schiff verkleinern, wenn du zu schnell expandierst. Ein leichteres Schiff reist schneller und benötigt weniger Strom für den Unterhalt.",,
 codex.m.resources.inventory,Inventar,,"[Weidengeist: Omitting the article »Das« to be consistent with the other codex entries.]"
-codex.m.resources.inventory.desc,Verwende die <b>{0}</b>-Übersicht für eine Live-Übersicht deiner verfügbaren Ressourcen und Artikel.<br><br>Klicke auf die Schaltfläche <b>Suchen</b> neben einer Ressource, um durch die Lagerorte zu blättern.,29.08.2023,
+codex.m.resources.inventory.desc,"Verwende die <b>{0}</b>-Übersicht für eine Live-Übersicht deiner verfügbaren Ressourcen und Artikel.<br><br>Klicke auf die Schaltfläche <b>Suchen</b> neben einer Ressource, um durch die Lagerorte zu blättern.",2023-08-29,
 codex.m.resources.miningplanets,"Bergbau auf Planeten",,
-codex.m.resources.miningplanets.desc,"Der beste Weg, an Ressourcen zu gelangen, besteht darin, Planeten zu besuchen und <b>Bergbauexpeditionen</b> durchzuführen. Richte <b>Raumfahrt</b> ein, verwende die <b>{0}</b>-Übersicht, um nahegelegene <b>Planeten</b> zu lokalisieren, fliege zu ihnen und verwende dann <b>{1}</b> Übersicht, um eine Expedition zu starten.",29.08.2023,
+codex.m.resources.miningplanets.desc,"Der beste Weg, an Ressourcen zu gelangen, besteht darin, Planeten zu besuchen und <b>Bergbauexpeditionen</b> durchzuführen. Richte <b>Raumfahrt</b> ein, verwende die <b>{0}</b>-Übersicht, um nahegelegene <b>Planeten</b> zu lokalisieren, fliege zu ihnen und verwende dann <b>{1}</b> Übersicht, um eine Expedition zu starten.",2023-08-29,
 codex.m.resources.processing,"Verarbeitung von Ressourcen",,
 codex.m.resources.processing.desc,"Einige Ressourcen können zu veredelten Ressourcen verarbeitet werden, die wiederum später als Ausgangsmaterial zur Fertigung oder für andere Zwecke verwendet werden können. Für gewöhnlich ist dies bei Rohmaterialien wie Erzen oder Rohöl erforderlich.<br><br>Die Verarbeitung erfordert eine passende Anlage (z. B. einen Ofen für Erze). Schlage in den Kodexeinträgen die verschiedenen Rohstoffe nach, um herauszufinden, welche Art Verarbeitungsanlage kompatibel ist.<br><br>Du kannst tote Lebewesen in einem Nährstoffextraktor und tote Roboter und Drohnen in einem Zerleger verarbeiten.<br><br>Einige Rohstoffe ergeben bei der Verarbeitung mehrere oder unterschiedliche Materialien. Die Verarbeitung von Gestein in einem Mahlwerk kann eine Reihe verschiedener Materialien ergeben. Weitere Informationen findest du in den Kodexeinträgen der einzelnen Materialien.",,
 codex.m.resources.trade,"Handeln mit Ressourcen",,
@@ -575,8 +575,8 @@ codex.m.resources.trade.desc,"Du kannst die meisten Ressourcen und Materialien k
 codex.m.spacetravel,"Reisen im Weltraum",,
 codex.m.spacetravel.enginetypes,Antriebstypen,,
 codex.m.spacetravel.enginetypes.desc,"Verschiedene <b>Antriebe</b> haben unterschiedliche Zwecke. <b>Triebwerke</b> funktionieren nur für Kurzstreckenflüge von Planet zu Planet in einem Sternensystem. Ein <b>Fusionsantrieb</b> kann zwischen <b>Sternsystemen</b> in derselben Galaxie fliegen. Um sich zwischen entfernten <b>Galaxien</b> zu bewegen, ist ein <b>SAL-Antrieb</b> erforderlich.<br><br>Der <b>Void Zerreißer</b> ist zwar nicht gerade ein Motor, aber er kann es schaffen dein Schiff durch <b>Schwarze Löcher</b> springen zu lassen, die sich im Zentrum jeder Galaxie befinden.<br><br><b>Manövriersteuerungen</b> können nur zum Bewegen von Schiffsabschnitten auf der lokalen Karte verwendet werden. <br><br>Schau dir die <b>{0}</b>-Übersicht an, um herauszufinden, welche Triebwerke verfügbar sind und über welche Flugfähigkeiten du verfügst.",2023-08-29,
-codex.m.spacetravel.starmap,Sternenkarte,,
-codex.m.spacetravel.starmap.desc,„Das <b>{0}</b> hat mehrere Ebenen. Sie beginnen in der Ebene <b>System</b>, die das Sternensystem anzeigt, in dem du dich befindest.<br><br>Fliege außerhalb des <b>Äußerer Rand</b> der aktuellen Sternenkartenansicht, um zu einer höheren Ebene zu gelangen.<br><br>Wenn sich dein Schiff in der Nähe eines Weltraumobjekts befindet, das eine tiefere Ebene hat, gibt es eine Option zum <b>Eintreten</b> Das Objekt wird in der Sternenkartenschnittstelle verfügbar.<br><br>Um in jeder Sternenkartenebene reisen zu können, sind verschiedene Triebwerkstypen erforderlich. Weitere Informationen findest du im manuellen Eintrag <b>Triebwerkstypen</b>.",,
+codex.m.spacetravel.starmap,Sternenkarte,2023-08-29,
+codex.m.spacetravel.starmap.desc,"Das <b>{0}</b> hat mehrere Ebenen. Sie beginnen in der Ebene <b>System</b>, die das Sternensystem anzeigt, in dem du dich befindest.<br><br>Fliege außerhalb des <b>Äußerer Rand</b> der aktuellen Sternenkartenansicht, um zu einer höheren Ebene zu gelangen.<br><br>Wenn sich dein Schiff in der Nähe eines Weltraumobjekts befindet, das eine tiefere Ebene hat, gibt es eine Option zum <b>Eintreten</b> Das Objekt wird in der Sternenkartenschnittstelle verfügbar.<br><br>Um in jeder Sternenkartenebene reisen zu können, sind verschiedene Triebwerkstypen erforderlich. Weitere Informationen findest du im manuellen Eintrag <b>Triebwerkstypen</b>.",2023-08-29,
 codex.m.storyevents,"Geschichtliche Ereignisse",,
 codex.m.ui,Benutzeroberfläche,,
 codex.m.ui.basics,Benutzeroberflächengrundlagen,,
@@ -592,9 +592,9 @@ codex.m.ui.hotbar.desc,"Die Schnellleiste unten bietet schnelle Verknüpfungen z
 codex.m.ui.infopanel,Infotafel,,
 codex.m.ui.infopanel.desc,"Die <b>Infotafel</b> stellt die internen Daten und Steuerelemente für jedes ausgewählte Objekt bereit. Es wird dringend empfohlen, das Infotafel für jedes Gerät, Wesen und Material zu erkunden. Es hilft dir, den Status des Objekts zu verstehen und zeigt dir, wie du es verwalten oder konfigurieren kannst.<br><br>Jedes Objekt verfügt über eine Reihe von Komponenten. Wenn ein Objekt ausgewählt wird, stellt jede Komponente dieses Objekts ihre Daten und Steuerelemente der Infotafel zur Verfügung.<br><br>Wenn mehrere Objekte ausgewählt werden, zeigt die Infotafel eine Liste aller ausgewählten Objekte und eine interaktive Liste von gemeinsamen Aktionen über sie. Weitere Einzelheiten findest du im Abschnitt <b>Allgemeine Aktionen</b> des <b>Kodex > Betriebshandbuch</b>.",2023-08-14,
 codex.m.ui.overlays,Overlays,,
-codex.m.ui.overlays.desc,"Übersichten stellen die Benutzeroberfläche für die Interaktion mit verschiedenen internen Systemen und Datengruppen bereit, z. B. <b>{0}</b>, <b>{1}</b>, <b>{2}</b>, <b>{3}</b> usw.<br><br>Übersicht-Schaltflächen befinden sich oben links in der Benutzeroberfläche.<br><br>Einige Übersichten werden mit <b>Recherche</b> freigeschaltet oder erfordern bestimmte Geräte.",29.08.2023,
+codex.m.ui.overlays.desc,"Übersichten stellen die Benutzeroberfläche für die Interaktion mit verschiedenen internen Systemen und Datengruppen bereit, z. B. <b>{0}</b>, <b>{1}</b>, <b>{2}</b>, <b>{3}</b> usw.<br><br>Übersicht-Schaltflächen befinden sich oben links in der Benutzeroberfläche.<br><br>Einige Übersichten werden mit <b>Recherche</b> freigeschaltet oder erfordern bestimmte Geräte.",2023-08-29,
 codex.m.ui.quicksearch,Schnellsuche,,
-codex.m.ui.quicksearch.desc,Mit der <b>Schnellsuche</b> kannst du verschiedene Aktionen ausführen und Informationen finden. Öffne sie mit {0} und beginne mit der Eingabe einer Abfrage. Du kannst:<br> - zu einem <b>Werkzeug</b> wechseln.<br> - <b>Ein Gerät bauen</b>.<br> - Ein <b>Wesen</b> finden.<br> – Finde einen <b>Forschungsknoten</b> oder einen <b>Bauplan</b> im <b>Forschungsbaum</b>.<br> – Finde Objekte in der <b>Sternenkarte</ b>.<br> – <b>Kodex</b>-Einträge finden.<br> – Zu einer <b>Koordinate</b> springen (z.B.: <b>120 234</b>),2023-08 -29,
+codex.m.ui.quicksearch.desc,Mit der <b>Schnellsuche</b> kannst du verschiedene Aktionen ausführen und Informationen finden. Öffne sie mit {0} und beginne mit der Eingabe einer Abfrage. Du kannst:<br> - zu einem <b>Werkzeug</b> wechseln.<br> - <b>Baue</b> ein Gerät.<br> - Ein <b>Wesen</b> finden.<br> – Finde einen <b>Forschungsknoten</b> oder einen <b>Bauplan</b> im <b>Forschungsbaum</b>.<br> – Finde Objekte in der <b>Sternenkarte</b>.<br> – <b>Kodex</b>-Einträge finden.<br> – Zu einer <b>Koordinate</b> springen (z.B.: <b>120 234</b>),2023-08-29,
 codex.m.ui.radialmenu,Radialmenü,2023-08-16,
 codex.m.ui.radialmenu.desc,"Das Radialmenü ist das kreisförmige Menü, das durch {0} aufgerufen werden kann.<br><br>Über {1} wird entweder ein Untermenü geöffnet oder die gewählte Aktion ausgeführt.<br><br>{0} verlässt Untermenüs (eine Ebene nach oben) und schließlich das Radialmenü selbst.<br><br>Ein {1}-Doppelklick verlässt das Radialmenü sofort, auch wenn du tief im Untermenübaum steckst.<br><br>Häufig benutzte Werkzeuge und Blaupausen können in der Schnellleiste (unterste Zeile) abgelegt werden.<br><br>Es geht fast immer schneller, durch das Nutzen der Schnellsuche ({2}) oder via ""Kopie bauen"" zu bauen.",,
 codex.m.ui.timecontrols,Zeitsteuerung,,
@@ -603,7 +603,7 @@ codex.m.ui.uiscaling,Nutzeroberflächenskalierung,,
 codex.m.ui.uiscaling.desc,"Sollten für deinen Bildschirm Texte zu klein oder Knöpfe zu groß/klein sein, kannst du die Nutzeroberflächenskalierung im Pausenmenü unter »Einstellungen« → »Video« anpassen.<br><br>Unter Umständen musst du die automatische Nutzeroberflächenskalierung ausschalten, damit der Nutzeroberflächenskalierungsregler aktiviert wird.",,
 codex.m.whattodo,"Was soll ich tun?",,
 codex.m.whattodo.suggestions,Vorschläge,,
-codex.m.whattodo.suggestions.desc,"Die KI verfolgt kontinuierlich dein Spielverhalten und schlägt bestimmte Aktionen vor, die sie zu diesem Zeitpunkt für sinnvoll hält.<br><br>Du kannst alle aktuellen und früheren Vorschläge im <b>{0}</b>-Übersicht überprüfen.<br><br>Obwohl du dir dessen bewusst sein solltest, dass was vorgeschlagen wird, du dich dafür entscheiden kannst, den Vorschlag vollständig zu ignorieren und die Dinge auf deine Weise zu erledigen.",29.08.2023,
+codex.m.whattodo.suggestions.desc,"Die KI verfolgt kontinuierlich dein Spielverhalten und schlägt bestimmte Aktionen vor, die sie zu diesem Zeitpunkt für sinnvoll hält.<br><br>Du kannst alle aktuellen und früheren Vorschläge im <b>{0}</b>-Übersicht überprüfen.<br><br>Obwohl du dir dessen bewusst sein solltest, dass was vorgeschlagen wird, du dich dafür entscheiden kannst, den Vorschlag vollständig zu ignorieren und die Dinge auf deine Weise zu erledigen.",2023-08-29,
 codex.m.workers,"Arbeiter (Roboter, Drohnen)",,
 codex.m.workers.abilitytofly,Flugfähigkeit,,
 codex.m.workers.abilitytofly.desc,"Einige Arbeiter, wie Drohnen, können sich im Weltraum umherbewegen, wohingegen andere einen Boden benötigen, um sich zu bewegen.<br><br>Bestimmte Aufgaben – für gewöhnlich die, die die Konstruktion von Geräten im Weltraum beinhalten – erfordern Flugfähigkeit.<br><br>Bist du unsicher, ob ein Arbeiter fliegen kann, prüfe seine Navigationsdaten in der Infotafel. Arbeiter, die fliegen können, haben in ihrem Navigationsuntermenü die Angabe <b>Flugfähig</b>.",,
@@ -611,7 +611,7 @@ codex.m.workers.controlling,Direktsteuerung,,
 codex.m.workers.managedandunmanaged,"Kontrollierte und nicht kontrollierte Arbeiter",,
 codex.m.workers.managedandunmanaged.desc,"Von dir kontrollierte Arbeiter – die robotischen Lebensformen, die zu deiner Fraktion gehören – können direkt gesteuert werden.<br><br>Nicht kontrollierte Arbeiter gehören zwar ebenfalls zu deiner Fraktion, doch da sie biologische Lebensformen sind, kannst du ihre Handlungen nicht steuern. Um dies dennoch tun zu können, würde der Kolonist ein Hirnimplantat, das dir erlaubt, dich mit seinem Gehirn zu verbinden und seine Gedanken zu übernehmen, benötigen. Dies ist allerdings reine Theorie, denn selbst wenn derartige Hirnimplantate existierten, würden Asimovs Gesetze der Robotik deren Installation verbieten, da sie die Menschen verletzen würde.",,
 codex.m.workers.needs,Bedürfnisse,,
-codex.m.workers.needs.desc,"Bedürfnisse sind die primären Faktoren, die das Handeln von Lebewesen beeinflussen. Während Roboterarbeiter deutlich weniger Bedürfnisse haben als Menschen und Haustiere, haben die Bedürfnisse biologischer Lebewesen großen Einfluss auf ihre Stimmung. Wenn diese Bedürfnisse nicht erfüllt werden, verschlechtert sich ihre Stimmung.<br><br>Du kannst die Bedürfnisse ausgewählter Lebewesen im Infofenster einsehen.<br><br>Es ist wichtig, genügend Einrichtungen und Ressourcen bereitzustellen, um die Bedürfnisse aller zu erfüllen. Allerdings könnte es für menschliche Kolonisten eine Herausforderung sein, dies zu erreichen.",29.08.2023,
+codex.m.workers.needs.desc,"Bedürfnisse sind die primären Faktoren, die das Handeln von Lebewesen beeinflussen. Während Roboterarbeiter deutlich weniger Bedürfnisse haben als Menschen und Haustiere, haben die Bedürfnisse biologischer Lebewesen großen Einfluss auf ihre Stimmung. Wenn diese Bedürfnisse nicht erfüllt werden, verschlechtert sich ihre Stimmung.<br><br>Du kannst die Bedürfnisse ausgewählter Lebewesen im Infofenster einsehen.<br><br>Es ist wichtig, genügend Einrichtungen und Ressourcen bereitzustellen, um die Bedürfnisse aller zu erfüllen. Allerdings könnte es für menschliche Kolonisten eine Herausforderung sein, dies zu erreichen.",2023-08-29,
 codex.m.workers.priorities,"Aufgabentypen und Prioritäten",,
 codex.m.workers.priorities.desc,"Jeder robotische Arbeiter und jeder biologische Kolonist hat einen Satz von Aufgabentypen mit Prioritäten. Aufgabentypen bestimmen, was der Arbeiter zu tun in der Lage ist, während Prioritäten anzeigen, wie gewillt der Arbeiter ist, eine Aufgabe dieses Types auszuführen. 1 ist die niedrigste Priorität, 9 die höchste und eine Priorität von 0 schließt den Arbeiter von der Verrichtung einer Aufgabe des entsprechenden Typs aus.<br><br>Der Infotafel kannst du entnehmen, welche Aufgabentypen ein Arbeiter ausführen kann.<br><br>Aufgabenprioritäten kannst du bei von dir kontrollierten Arbeitern (Roboter und Drohnen) festlegen.<br><br>Es ist ebenso möglich, Aufgabenprioritäten individuell festzulegen oder einen Arbeiter zu zwingen, eine bestimmte Aufgabe auszuführen.<br><br>Sei beim Anpassen von Prioritäten deiner Arbeiter vorsichtig! Standardwerte sind vernünftig gesetzt und es ist durchaus möglich, in eine Situation zu geraten, in der einige Aufgaben wegen falschen Prioritätenmanagements niemals durchgeführt werden.",,
 codex.m.workers.production,"Neue Arbeiter rekrutieren",,
@@ -2277,9 +2277,9 @@ objects.devices.converter.desc,"Ändert die Molekularstruktur bestimmter Materia
 objects.devices.cookingstation,Kochstation,,
 objects.devices.cookingstation.desc,"Manuell betriebene Miniküche mit Herd.",,
 objects.devices.cpumodule,"CPU-Modul ({0} THz)",2022-03-31,
-objects.devices.cpumodule.desc,"Das CPU-Modul trägt zur Rechenleistung deines neuronalen Netzwerks bei, sodass du mehr Geräte anschließen und steuern kannst.",28.07.2023,
+objects.devices.cpumodule.desc,"Das CPU-Modul trägt zur Rechenleistung deines neuronalen Netzwerks bei, sodass du mehr Geräte anschließen und steuern kannst.",2023-07-28,
 objects.devices.cpumodulemini,"CPU-Modul ({0} THz)",2022-03-31,
-objects.devices.cpumodulemini.desc,"Das CPU-Modul trägt zur Rechenleistung deines neuronalen Netzwerks bei, sodass du mehr Geräte anschließen und steuern kannst.",28.07.2023,
+objects.devices.cpumodulemini.desc,"Das CPU-Modul trägt zur Rechenleistung deines neuronalen Netzwerks bei, sodass du mehr Geräte anschließen und steuern kannst.",2023-07-28,
 objects.devices.craftingstation,Handwerkstisch,,
 objects.devices.craftingstation.desc,"Ein halbautomatischer Handwerkstisch, die einen menschlichen Bediener erfordert.",,
 objects.devices.directionalturret,"Gerichteter Geschützturm",,
@@ -2685,7 +2685,7 @@ quest.step.produce.many,"Produziere <b>{0} {1}</b>",,
 quest.step.produce.one,"Produziere einmal <b>{0}</b>",,
 quest.step.produce.tip,"Wege, <b>{0}</b> zu produzieren:{1}",,
 quest.step.research,"Erforsche <b>{0}</b>",,"This line will ask the player to research a technology. I.e. »Research <b>Biotech</b>«"
-quest.step.research.tip,Schalte {0} im <b>Forschungsbaum</b> frei. Du kannst die Schaltfläche <b>Suchen</b> verwenden, um es zu finden.,2023-08-08, "{0} will be chain of research items, i.e. »Biotech → Vegetarian Food«"
+quest.step.research.tip,"Schalte {0} im <b>Forschungsbaum</b> frei. Du kannst die Schaltfläche <b>Suchen</b> verwenden, um es zu finden.",2023-08-08,"{0} will be chain of research items, i.e. »Biotech → Vegetarian Food«"
 quest.step.set.ship.forward.direction,"Setze den Kurs des Schiffes",,
 quest.step.set.ship.forward.direction.tip,"Öffne das <b>{0}</b>overlay und wähle die <b>Schiffsflugrichtung</b>. Es sollte die deinen Triebwerken entgegengerichtete Richtung sein, aber du kannst die Triebwerke auch umsetzen und jede beliebige Richtung wählen.",,
 quest.step.terraform,"Terraformiere <b>{0}</b>",,
@@ -3966,7 +3966,7 @@ not.enough.engine.power,"Die derzeitige Triebwerkskonfiguration liefert einen Sc
 engines.too.weak,"Triebwerke zu schwach",,
 difficulty.peaceful,Friedlich,,
 goal.AddMoreCPU,"Füge mehr CPU-Leistung hinzu",,
-goal.AddMoreCPU.desc,Unser Stromnetz wird für die aktuelle CPU-Kapazität zu groß. Wir sollten mehr <b>CPU-Module</b> bauen und verbinden.,27.07.2023,
+goal.AddMoreCPU.desc,Unser Stromnetz wird für die aktuelle CPU-Kapazität zu groß. Wir sollten mehr <b>CPU-Module</b> bauen und verbinden.,2023-07-27,
 no.label,Keine Bezeichnung,,"For labeling devices, shown when there is no label assigned to an object"
 set.label,Bezeichnung festlegen,,Title for action to set the label
 label,Bezeichnung,,"As in ""tag"", ""name"". Noun."
@@ -4090,15 +4090,15 @@ codex.m.defenses.quantumbarrier,"Quantenbarriere",,
 codex.m.defenses.tractorbeam,"Traktorstrahl",,
 codex.m.defenses.tractorbeam.desc,"Traktorstrahlen können die Flugbahn von sich langsam bewegenden Projektilen wie Asteroiden, Meteoroiden und verschiedenen Pods und Kapseln beeinflussen.<br><br>Du musst ein <b>Traktorstrahlziel</b> bauen und anschließen, um Traktorstrahl zu verwenden.<br><br>Mehrere Traktorstrahlen können dasselbe Projektil auf dasselbe oder ein anderes Ziel lenken. Die Kraft jedes Traktorstrahls summiert sich, um den Einfluss auf die Flugbahn eines Projektils zu erhöhen.<br><br>Du musst das Projektil und das Ziel manuell in der Konfigurationsoberfläche jedes Traktorstrahls auswählen, um mit der Führung des Projektils zu beginnen. Verwende <b>Konfiguration kopieren</b>, um das Projektil und das Ziel auf andere Traktorstrahlen zu kopieren.",,
 codex.m.defenses,"Verteidigungen",,
-mining.difficulty.value,Bergbauschwierigkeit: {0},, "{0} will become a numeric value, like 12.34"
+mining.difficulty.value,"Bergbauschwierigkeit: {0}",,"{0} will become a numeric value, like 12.34"
 scan.found.faction,"Der Scan hat die Präsenz der Fraktion <b>{0}</b> auf <b>{1}</b> erkannt.",,"{0} will be faction name {1} will be planet name"
 scan.target.faction,"Fraktion",,
-faction.standing.tip,Dein Ansehen bei der Fraktion <b>{0}</b> ist <b>{1}</b>.,, "{0} - faction name (i.e. pirates), {1} - standing value, could be number, or a word like good, bad, etc"
+faction.standing.tip,"Dein Ansehen bei der Fraktion <b>{0}</b> ist: <b>{1}</b>",,"{0} - faction name (i.e. pirates), {1} - standing value, could be number, or a word like good, bad, etc"
 space.object.Port,"Weltraumhafen",,
 space.object.info.Port,"Ein Knotenpunkt, an dem du mit der Fraktion, der dieser Planet gehört, handeln und interagieren kannst.",,
 sell.ship.section,"Schiffsabschnitt verkaufen",,
 sell.ship.section.hint,"Du kannst dein Schiff in Abschnitte aufteilen und die Abschnitte in der Werft verkaufen.",,
-shipyard.section.offer,<b>{0}</b> bietet an, <b>{1}</b> für diesen Schiffsabschnitt zu zahlen.,, "{0} will be a merchant name or a space port, {1} will be the sum"
+shipyard.section.offer,"<b>{0}</b> bieten <b>{1}</b> für diesen Schiffsabschnitt.",,"{0} will be a merchant name or a space port, {1} will be the sum"
 time.sensitive.operation,"Dies ist ein zeitkritischer Vorgang. Bitte versuche es erneut und ändere nicht die Taktrate.",,
 merchant.type.MerchantSpacePortGood,"Weltraumhafen-Shop",,
 merchant.type.MerchantSpacePortEvil,"Zwielichtiger Weltraumhafen-Shop",,
@@ -4106,7 +4106,7 @@ space.object.Resource,"Ressource",,
 space.object.info.Resource,"Hierbei handelt es  sich um eine abbaubare Rohstofflagerstätte.",,
 space.object.Anomaly,"Anomalie",,
 space.object.info.Anomaly,"Radargeräte entdecken in diesem Gebiet seltsame Aktivitätsmuster. Vorsicht ist geboten.",,
-expedition.already.in.progress,Die Expedition zu diesem <b>{0}</b> ist bereits im Gange.,, "{0} is the object type, like Anomaly"
+expedition.already.in.progress,"Die Expedition zu dieser <b>{0}</b> ist bereits im Gange.",,"{0} is the object type, like Anomaly"
 rebuild.graphics.cache,"Grafikcache neu erstellen",,
 rebuild.graphics.cache.tip,"Wenn einige Symbole und Icons fehlen oder falsch angezeigt werden, kann ein Neuaufbau des Grafikcaches hilfreich sein. Durch Drücken dieser Schaltfläche wird der folgende Ordner gelöscht:<br><br><b>{0}</b>",,
 evt.exp.crash.site.survivors.title,"Eine Absturzstelle gefunden",,
@@ -4119,7 +4119,7 @@ verb.rescue,"Rettung",,
 verb.leave,"Verlassen",,
 verb.respond,"Antworten",,
 evt.exp.raider.extortion.title,"Expedition in einen Hinterhalt geraten!",,
-evt.exp.raider.extortion.choice,"Räuber haben <b>{0}</b> überfallen und fordern ein Lösegeld von <b>{1}</b>. Wenn wir jetzt bezahlen, lassen sie das Shuttle los.",, "{0} is shuttle name, {1} is some money amount"
+evt.exp.raider.extortion.choice,"Räuber haben <b>{0}</b> überfallen und fordern ein Lösegeld von <b>{1}</b>. Wenn wir jetzt bezahlen, lassen sie das Shuttle abfliegen.",,"{0} is shuttle name, {1} is some money amount"
 verb.pay.ransom,"Lösegeld zahlen",,
 verb.refuse,"Verweigern",,
 evt.exp.raider.extortion.paid.desc,"Wir zahlten das Lösegeld und die Räuber ließen das Shuttle los, niemand kam zu Schaden.",,
@@ -4136,9 +4136,9 @@ menu.copters,"Kopter",,
 menu.copters.desc,"Automatisierte unbemannte Luftfahrzeuge",,
 obj.copters.cargocopterflying,"Frachtkopter",,
 obj.copters.cargocopterflying.desc,"Ein vollautomatisches unbemanntes Luftfahrzeug, dass für den Einsatz schwerer Ausrüstung auf Planeten und den Transport von Rohstoffen aus Erzvorkommen entwickelt wurde.",,
-copter.mission.stage.deploy.miner,Bereitstellung von {0},, "{0} is the resource miner device name, like Autodrill Rig"
+copter.mission.stage.deploy.miner,Entsenden von {0},,"{0} is the resource miner device name, like Autodrill Rig"
 copter.mission.stage.fly.to.ship,Rückkehr zum Schiff,,
-copter.mission.stage.fly.to,Flug nach {0},, "{0} is the name of the target, like Silicon Deposit, or a device name"
+copter.mission.stage.fly.to,Flug nach {0},,"{0} is the name of the target, like Silicon Deposit, or a device name"
 copter.mission.stage.collect.resource,Sammeln von {0},, "{0} is material type"
 copter.mission.stage.land.on.ship,Landung auf dem Schiff,,
 copter.mission.stage.leave.ship,Verlassen des Schiffes,,
@@ -4242,7 +4242,7 @@ sig.transaction.failed.title,"Signal: Anfrage nicht erfüllt",,
 sig.transaction.fulfilled,"du hast die Anfrage erfüllt.",,
 sig.transaction.failed,"du hast die Anfrage nicht erfüllt.",,
 sig.transaction.rejected,"du hast die Anfrage abgelehnt.",,
-sig.ask.obj.clear.reward.0,"Der Kontakt meldet sich und erklärt, dass sie versehentlich ihr letztes <b>{0}</b> als Treibstoff für ihre Anti-Schwerkraft-Stiefel verwendet haben. Als Gegenleistung für deine Hilfe, mehr bereitzustellen, versprechen sie <b>{1}</b>.",, "{0} is a material type, like Uranium, {1} is a $100000 or some reward item name."
+sig.ask.obj.clear.reward.0,"Der Kontakt meldet sich und erklärt, dass sie versehentlich ihr letztes <b>{0}</b> als Treibstoff für ihre Anti-Schwerkraft-Stiefel verwendet haben. Als Gegenleistung für deine Hilfe, mehr bereitzustellen, versprechen sie <b>{1}</b>.",,"{0} is a material type, like Uranium, {1} is a $100000 or some reward item name."
 sig.ask.obj.clear.reward.1,"Der Kontakt benötigt <b>{0}</b> nach einem Teleportationsunfall. Er weist darauf hin, dass du dir die Belohnung <b>{1}</b> nicht entgehen lassen sollten.",,
 sig.ask.obj.clear.reward.2,"Eine Stimme beschwert sich darüber, dass eine außerirdische Kreatur ihren gesamten Vorrat an <b>{0}</b> verbraucht hat, während sie geschlafen haben. Um ihren Vorrat aufzufüllen, versichern sie dir, dass dein Beitrag mit <b>{1}</b> vergütet wird.",,
 sig.ask.obj.clear.reward.3,"Der Kommunikator bringt ihre Dringlichkeit zum Ausdruck und erklärt, dass ein betrügerischer KI-Bot ihr <b>{0}</b> gestohlen hat. Als Gegenleistung für deine Hilfe, mehr zu erhalten, garantieren sie <b>{1}</b>.",,
@@ -4287,14 +4287,14 @@ sig.extortion.refused.3,"Der Kontakt versichert dir, dass dein Widerstand schlim
 sig.extortion.refused.4,"Die Piraten behaupten bedrohlich, dass deine Weigerung nicht ungestraft bleiben wird und dass sie dich holen werden, wenn du es am wenigsten erwartest.",,
 show.roof,"äußeren Rumpf anzeigen",,
 show.roof.tip,"Wenn ein Bereich keine Außenhülle hat, bedeutet das, dass er nicht vollständig umschlossen ist. Irgendwo fehlt ein Boden- oder Wandstück. Es kann nicht garantiert werden, dass Bereiche mit einer Außenhülle vollständig luftdicht oder isoliert sind. Überprüfe daher die Luftdichtheit und die Isolierungsübersicht noch einmal, um mögliche Lecks zu finden.",,
-hold.button.for.more.info,Halte {0} gedrückt, um weitere Informationen zu erhalten,, "{0} is going to be an image with a key, like CTRL"
+hold.button.for.more.info,"Halte {0} gedrückt, um weitere Informationen zu erhalten",,"{0} is going to be an image with a key, like CTRL"
 ui.auto.pack,"Benutzeroberfläche automatisch komprimieren",,
 ui.auto.pack.tip,"Wenn die automatische Komprimierung aktiviert ist, werden einige UI-Listenelemente möglicherweise gruppiert, um die Listenlänge zu reduzieren. Möglicherweise musst du das Spiel neu starten, um die Änderungen an dieser Einstellung zu übernehmen.",,
 situation.BlackHoleJumps,"Schwarze-Loch-Sprünge",,
 sys.locked.by.research,"Suche nach <b>{0}</b>, um diese Funktionalität freizuschalten.",,"{0} is technology name"
 mining.auto.unlocked,"Du kannst jetzt die für die Automatisierung des Bergbaubetriebs erforderliche Ausrüstung bauen. <b>{0}</b>-Overlay ist aktiviert.",,
 verb.mine,"abbauen",,"as in mine the iron ore deposit"
-compatible.items,Kompatible Gegenstände,, "Items could be anything, fuel, clothing, equipment, devices"
+compatible.items,Kompatible Gegenstände,,"Items could be anything, fuel, clothing, equipment, devices"
 compatible.item,Kompatibler Gegenstand,, "singular version of compatible.items"
 details.unknown,"Details unbekannt",,"displayed in the list when there is no details about some event"
 obj.upgrades.shuttledrillupgrade,"Shuttle-Bohrer-Erweiterung",,
@@ -4314,7 +4314,7 @@ modifier.BeingsCount_Human.desc,"Passt die Startanzahl der überlebenden Kolonis
 modifier.BeingsCount_Robot.desc,"Passt die Startanzahl der Bauroboter an.",,
 deconstruct.order.haul,"Automatischer Transport dekonstruierter Materialien",,
 deconstruct.order.haul.tip,"Wenn diese Option aktiviert ist, werden beim Zerlegen eines Objekts automatisch Aufgaben mit niedriger Priorität für den Transport der Rohstoffe erstellt.",,
-compatible.engine.types,Nur die folgenden Triebwerkstypen kÖnnen <b>{0}</b> ausfÜhren: {1},, "{0} will be something like Intergalactic Flight, {1} will be the list of engines names like Thrusters and Fusion Drives"
+compatible.engine.types,Nur die folgenden Triebwerkstypen können <b>{0}</b> ausführen: {1},,"{0} will be something like Intergalactic Flight, {1} will be the list of engines names like Thrusters and Fusion Drives"
 ship.capable.planet,"Orbitalflug",,"Like Intergalactic or Intersystem or Interplanetary but this is close to the planet - flight between planet moons and around the planet"
 ship.forward.direction.tip,"Deine Motoren sollten entgegengesetzt zu ihrer Vorwärtsrichtung ausgerichtet sein.",,
 stasis.prevent.wake.ups,"Störungen vorbeugen",,
@@ -4331,7 +4331,7 @@ objects.devices.gpumodulemini.desc,"Eine effiziente dedizierte Grafikverarbeitun
 fuel.burn.rate,"Kraftstoffverbrauchsrate",,
 fuel.burn.rate.h,"{0:0.###}/h",,
 fuel.burn.rate.tip,"Brenngeschwindigkeit: {0:0.###}/h",,
-currency.mine.rate.h, {0}/h,, "h is for hours; {0} will be currency amount, like $100"
+currency.mine.rate.h,{0}/Stunde,,"h is for hours; {0} will be currency amount, like $100"
 currency.mine.gpu.tip,"Aktuelle GPU-Kapazität: <b>{0}Thz</b>. Fügen Sie weitere GPU-Module hinzu, um die Mining-Rate zu erhöhen.",,
 gpu.module.builtin,"Integriertes GPU-Modul",,
 research.advancedgpu,"Erweiterte GPU",,
@@ -4368,15 +4368,15 @@ toggle.log,"Protokoll umschalten",,
 evt.micro.meteors.ended,"Mikrometeorschauer beendet",,
 joined.mutiny,"hat sich der Meuterei angeschlossen",,"Will be prefixed by human name, i.e. 'John: Joined the mutiny'"
 breakdown.ended,"Nervenzusammenbruch beendet",,
-took.damage.from,Hat {0} {1} Schaden von {2} erlitten,, "{0} amount, {1} type, {2} source. Will look like 'took 12 Heat damage from Mike'"
-took.damage,Hat {0} {1} Schaden erlitten,, "{0} amount, {1} type"
+took.damage.from,Hat {0} {1} Schaden von {2} erlitten,,"{0} amount, {1} type, {2} source. Will look like 'took 12 Heat damage from Mike'"
+took.damage,Hat {0} {1} Schaden erlitten,,"{0} amount, {1} type"
 structure.floors.oxymaticfloor.desc,"Eine elegante Alternative zur bodenbasierten Sauerstoffpumpe mit besserer Sauerstoffproduktionsrate.",,
 structure.floors.oxymaticfloor,"O2-Boden",,
 structure.floors.heatmaticfloor.desc,"Eine elegante Alternative zur Bodenheizung mit erhöhter Heizrate.",,
 structure.floors.heatmaticfloor,"Heiz-Boden",,
 research.atmospherecontroladvanced,"Erweiterte Atmosphärenkontrolle",,
 research.heatingadvanced,"Erweiterte Heizung",,
-mood.short,Stimmung: {0},, "Displayed as short text on the side, 'Mood' should be abbreviated to max 4-5 characters or will be unreadable"
+mood.short,"Stimmung: {0}",,"Displayed as short text on the side, 'Mood' should be abbreviated to max 4-5 characters or will be unreadable"
 can.sell.for,"Kann {0} für {1} verkaufen",,"Ex.: Can sell 12 for $123"
 can.buy.for,"Kann {0} für {1} kaufen",,"Ex.: Can buy 12 for $123"
 structure.floors.coolmaticfloor,"Kühl-Boden",,
@@ -4403,7 +4403,7 @@ obj.eggs.egg01_hatched,"Außerirdische Eierschale",,
 obj.eggs.egg01_hatched.desc,"Überreste eines außerirdischen Eies.",,
 obj.materials.eggshell,"Außerirdische Eierschale",,
 obj.materials.eggshell.desc,"Überreste eines außerirdischen Eies.",,
-failed.to.find.safe.path,Es konnte kein sicherer Pfad zu {0} gefunden werden,, "{0} is object name, like Shuttle"
+failed.to.find.safe.path,"Es konnte kein sicherer Pfad zu {0} gefunden werden",,"{0} is object name, like Shuttle"
 failed.path.safety.at,"{0} kann nicht durchlaufen werden: <b>{1}</b>",,"{0} is location coordinate, {1} is reason like 'too hot'"
 menu.datoids,"Datoids",,
 menu.datoids.desc,"<b>Datoids</b> sind kleine Dateneinheiten, die für Forschungszwecke verwendet werden können.",,
@@ -4555,11 +4555,11 @@ obj.materials.crawlergoo,Krabbler Schleim,,
 obj.materials.crawlergoo.desc,"Ein blasser phosphoreszierender Rückstand, der pulsiert, als hätte er ein Eigenleben. Könnte für die Forschung nützlich sein.",,
 obj.materials.lead.desc,"Ein mattgraues Erzmineral mit kubischen oder oktaedrischen Kristallstrukturen, das häufig in sedimentären Gesteinen vorkommt.",,
 obj.materials.leadplate.desc,"Eine dicke, schwere Platte aus Blei.",,
-research.production.root,Produktion,,
+research.production.root,"Produktion",,
 obj.materials.biofuel,"Bio-Kraftstoff",,
 obj.materials.biofuel.desc,"Bio-Kraftstoff, auch als 'Kraftstoff aus Pups' bekannt, wandelt Abfall bzw. Exkremente (Mist), in erneuerbare Energie um.",,
 evt.damaged.structure.collapsed,"Eine Beschädigte Struktur ist zusammengebrochen!",,
-evt.damaged.structure.collapsed.desc,Beschädigte Struktur {0} brach bei {1} zusammen.,, "{0} is floor or wall, {1} is location coordinate"
+evt.damaged.structure.collapsed.desc,"Beschädigte Struktur {0} brach bei {1} zusammen.",,"{0} is floor or wall, {1} is location coordinate"
 evt.damaged.device.exploded,"Beschädigtes Gerät ist explodiert!",,
 evt.damaged.device.exploded.desc,"Beschädigtes Gerät {0} explodierte bei {1}.",,"{0} is device, {1} is location coordinate"
 evt.damaged.device.fire,"Beschädigtes Gerät brennt!",,
@@ -4580,10 +4580,10 @@ research.prerequisites.missing,"<b>{0}</b> vorher nötige Forschungen",,
 research.tier.locked,"Forschungsstufe <b>{0}</b> ist gesperrt",,								
 unlock.miningautomation.desc,Schaltet das <b>{0}</b>-Overlay und die für die Bergbau-Automatisierung erforderlichen Tools frei,,{0} will be Copter Missions translation
 research.cpu.cap,Schiffscomputer Kapazität {0},,
-research.cpu.cap.desc,Schaltet die Möglichkeit frei, <b>{0}</b> aktive Schiffscomputer zu haben,,
+research.cpu.cap.desc,Schaltet die Möglichkeit frei <b>{0}</b> aktive Schiffscomputer zu haben,,
 system.scan.basic,System Scan,,
 system.scan.advanced,Erweiterter System Scan,,
-system.scan.basic.desc,Schaltet die Möglichkeit frei, das aktuelle Sternensystem nach bestimmten Ressourcen zu durchsuchen,,
+system.scan.basic.desc,"Schaltet die Möglichkeit frei, das aktuelle Sternensystem nach bestimmten Ressourcen zu durchsuchen",,
 system.scan.advanced.desc,"Verbessert die Fähigkeit, das aktuelle Sternensystem mit zusätzlichen Zieltypen (Anomalien, Fraktionen usw.) zu scannen.",,
 unlocks.item,Freigeschaltet <b>{0}</b>,, {0} is the name of the unlockable
 item.now.available,<b>{0}</b> ist jetzt Verfügbar,,
@@ -4595,24 +4595,24 @@ unlock.effect.robot.cap.notification,Du kannst jetzt bis zu <b>{0}</b> aktive Ro
 unlock.effect.construction.speed,Baugeschwindigkeit {0},, {0} is something like x4
 unlock.effect.construction.speed.desc,"Die Ausführungsgeschwindigkeit von Bau-/Dekonstruktions-/Reparaturaufgaben beträgt <b>{0}</b>",,
 unlock.effect.construction.speed.unlocked,"Die Ausführungsgeschwindigkeit von Bau-/Dekonstruktions-/Reparaturaufgaben beträgt jetzt <b>{0}</b>",,
-modifier.achievement.block.warning,Wenn du diesen Modifikator änderst, werden Erfolge für diesen Speicherstand deaktiviert. Bitte bestätige, ob du damit einverstanden sind.,,
+modifier.achievement.block.warning,"Wenn du diesen Modifikator änderst, werden Erfolge für diesen Speicherstand deaktiviert. Bitte bestätige, dass du damit einverstanden sind.",,
 bot.cap.exceeded,Bot-Abschaltung: Limit überschritten,,
 bot.cap.tip,Du kannst <b>{0}</b> aktive Bots haben. Das Limit kann durch Forschung erhöht werden.,,
 active.robots,Aktive Roboter,,
 offline.robots,Nicht aktive Roboter,,
 not.enough.cpu,Nicht genug CPU-Kapazität,,
-cpu.bound.suggestion,Trenne einige Geräte oder füge weitere CPU-Module hinzu, um die Kontrolle wiederzuerlangen.,,
+cpu.bound.suggestion,"Trenne einige Geräte oder füge weitere CPU-Module hinzu, um die Kontrolle wiederzuerlangen.",,
 modifier.NoBotLimit,Bot-Limit deaktivieren,,
-modifier.NoBotLimit.desc,„Wenn das Bot-Limit nicht deaktiviert ist, musst du durch Forschung die Möglichkeit freischalten, mehr aktive Roboter zu haben.“,,
+modifier.NoBotLimit.desc,"Wenn das Bot-Limit nicht deaktiviert ist, musst du durch Forschung die Möglichkeit freischalten, mehr aktive Roboter zu haben.",,
 changing.disables.achievements,Durch Ändern dieses Werts werden Erfolge deaktiviert.,,
 achievements.will.be.disabled,Erfolge werden deaktiviert.,,
 grid.cpu.bound,Das Stromnetz verfügt nicht über genügend CPU-Kapazität,,
 grid.cpu.bound.end,Das Stromnetz hat sich vom CPU-Mangel erholt,,
 noun.connection.limit,Verbindungslimit,,
-grid.connection.limit.tip,Du hast <b>{0}</b> Geräte, die an dieses Stromnetz angeschlossen sind. <b>{1}</b> CPU unterstützt bis zu <b>{2}</b> Verbindungen.,,
+grid.connection.limit.tip,"Du hast <b>{0}</b> Geräte, die an dieses Stromnetz angeschlossen sind. <b>{1}</b> CPU unterstützt bis zu <b>{2}</b> Verbindungen.",,
 connection.limit.exceeded,Verbindungslimit überschritten,,
 codex.m.electricity.connectionlimit,Verbindungslimit,,
-codex.m.electricity.connectionlimit.desc,"Wenn du Geräte an dein Stromnetz anschließt, verbrauchen diese etwas <b>CPU</b>. Wenn dein Stromnetz die Verbindungsgrenze erreicht, verlierst du die Kontrolle über die angeschlossenen Geräte.<br><br>Die Geräte funktionieren normal, aber du kannst ihre Einstellungen nicht ändern.<br><br>Versuchen, die Anzahl der Geräte unter deinem Verbindungslimit zu halten, oder füge weitere <b>CPU-Module</b> oder <b>Schiffscomputer</b> hinzu, um das Verbindungslimit zu erhöhen. Die CPU wird nicht zwischen separaten Untergittern geteilt.<br><br>Konsultiere die <b>{0}</b>-Übersicht, um deine Gittergröße und dein Limit anzuzeigen.",2023-29.08.,
+codex.m.electricity.connectionlimit.desc,"Wenn du Geräte an dein Stromnetz anschließt, verbrauchen diese etwas <b>CPU</b>. Wenn dein Stromnetz die Verbindungsgrenze erreicht, verlierst du die Kontrolle über die angeschlossenen Geräte.<br><br>Die Geräte funktionieren normal, aber du kannst ihre Einstellungen nicht ändern.<br><br>Versuchen, die Anzahl der Geräte unter deinem Verbindungslimit zu halten, oder füge weitere <b>CPU-Module</b> oder <b>Schiffscomputer</b> hinzu, um das Verbindungslimit zu erhöhen. Die CPU wird nicht zwischen separaten Untergittern geteilt.<br><br>Konsultiere die <b>{0}</b>-Übersicht, um deine Gittergröße und dein Limit anzuzeigen.",2023-08-29,
 idle.devices,Geräte im Leerlauf,,
 major.update.warning,Wichtige Update-Warnung,,
 major.update.warning.desc,"Seitdem du diesen Spielstand das letzte Mal gespielt hast, gab es ein großes Update. Der Spielstand sollte immer noch geladen werden können, die größeren Änderungen können jedoch den Fortschritt unterbrechen und dazu führen, dass sich dieser Spielstand sehr unausgewogen, zu einfach oder zu schwer zu spielen anfühlt. Es wird dringend empfohlen ein neues Spiel zu starten.<br>Aktuelle Spielversion: <b>{0}</b><br>Version speichern: <b>{1}</b>",,
@@ -4622,7 +4622,7 @@ research.construction.structurearmored,Gepanzerte Struktur,,
 structure.walls.windowarmored01,Gepanzertes Fenster,,
 structure.walls.windowarmored01.desc,Ein äußerst widerstandsfähiges Außenfenster.,,
 structure.walls.wallsocketarmored01,Gepanzerte Steckdose {0}-{1},,
-structure.walls.wallsocketarmored01.desc,Eine äußerst widerstandsfähige Wandsteckdose, die {0} Anschlusssteckplätze mit einer Reichweite von {1} bietet.,,
+structure.walls.wallsocketarmored01.desc,"Eine äußerst widerstandsfähige Wandsteckdose, die {0} Anschlusssteckplätze mit einer Reichweite von {1} bietet.",,
 structure.walls.ventarmored01,Gepanzerte Lüftung,,
 structure.walls.ventarmored01.desc,Eine äußerst widerstandsfähige Lüftung.,,
 make.a.choice,Du musst eine Wahl treffen,,
@@ -4648,12 +4648,12 @@ datoid.available.vs.owned.tip,"Datoids müssen sich innerhalb eines {0} befinden
 def.unlock.tip,"Erforsche {0} zum Freischalten.",,
 tut.basic.controls.step.overlay.skip.tip,"Du kannst diesen Teil überspringen. Halte {0} gedrückt, während Du mit der Maus über die Übersichtschaltfläche fährst, um die Einführungsnachricht jederzeit anzuzeigen.",,
 tut.skip.group,"Überspringe Gruppe: {0}",,"{0} is the group name"
-tut.basic.controls.step.grid.menu.1,"Werkzeugmenü Typen",,		
+tut.basic.controls.step.grid.menu.1,"Werkzeugmenütypen",,		
 tut.basic.controls.step.grid.menu.1.desc,"Dies ist das <b>Rastermenü</b>. Es gibt ein alternatives <b>Radialmenü</b>, das beim Spielen mit einem Gamepad möglicherweise praktischer ist. Du kannst den Werkzeugmenütyp unter <b>Einstellungen > Eingabe > Werkzeugmenütyp</b> ändern.<br><br>Dieses Tutorial verwendet das Werkzeugmenü <b>Raster</b>.",,
-tut.basic.controls.step.grid.menu.2,"Rastermenü: Werkzeuge",,
-tut.basic.controls.step.grid.menu.2.desc,"Auf der linken Seite des <b>Rastermenüs</b> werden alle verfügbaren Werkzeuge aufgelistet. Einige Werkzeuge verfügen möglicherweise über ein Untermenü. Das aktive Werkzeug hat eine gelbe Symbolfarbe.",,
-getting.food.in.dangerous.loc,"Versuche Essen von einem unsicheren Ort zu bekommen: {0}",,"{0} is a coordinate"
-failed.to.find.path.to.safety,"Konnte keinen Weg zu einem sicheren Ort finden: {0}",,"{0} is a coordinate"
+tut.basic.controls.step.grid.menu.2,Werkzeuge,2023-08-16,
+tut.basic.controls.step.grid.menu.2.desc,"Auf der linken Seite des <b>Werkzeugmenüs</b> werden alle verfügbaren Werkzeuge aufgelistet. Einige Tools verfügen möglicherweise über ein Untermenü, während andere per Klick aktiviert werden. Das aktive Werkzeug hat einen gelben Symbolton.",2023-08-16,
+getting.food.in.dangerous.loc,"Versuche Essen von einem unsicheren Ort zu beschaffen: {0}",,"{0} is a coordinate"
+failed.to.find.path.to.safety,Es konnte kein Pfad zum sicheren Standort von {0} gefunden werden.,,{0} is a coordinate
 toggle.button.size,"Größe der Schaltfläche umschalten",,
 codex.m.research.datoids.desc,Datoide stellen die Informationen dar, die zur Erschließung neuer Technologien im <b>{0}</b> verwendet werden.<br><br>Datoide werden durch die Verarbeitung meist allgemeiner Ressourcen in <b>Datoid Erntern</b> erzeugt. Es gibt verschiedene Arten von Datoid-Erntern, die unterschiedliche Arten von Datoiden erzeugen können.<br><br>Datoide müssen in <b>Datoid Ladern</b> gespeichert werden, um für Forschungszwecke verwendet werden zu können.<br><br>Datoide können nicht gekauft oder verkauft werden.,,
 codex.m.research.datoids,Datoiden,,
@@ -4670,3 +4670,10 @@ grids.unmanaged,Nicht verwaltete Netze,,
 distance.to,Entfernung: {0},,
 ad.rej.would.get.stuck,Würde stecken bleiben,,
 click.to.continue.setup,Klicke, um mit der Einrichtung fortzufahren,,
+research.speedupgrade,Geschwindigkeitsverbesserung,,
+quest.step.enter.starmap.layer,Fliege <b>{0}</b> an,,"{0} will be ""System"", ""Galaxy"", etc"
+quest.step.enter.starmap.layer.desc,"Öffne die <b>Sternenkarte</b>, dann klicke neben <b>{0}</b> und wähle die Option anfliegen.",, "{0} will be ""System"", ""Galaxy"", etc"
+quest.step.exit.starmap.layer,Verlasse <b>{0}</b>,, "{0} will be ""System"", ""Galaxy"", etc"
+quest.step.exit.starmap.layer.desc,Fliege außerhalb des äußeren Ringes auf der <b>Sternenkarten</b> um <b>{0}</b> zu verlassen.,, "{0} will be ""System"", ""Galaxy"", etc"
+starmap.leaving,Verlasse {0},, "{0} will be ""System"", ""Galaxy"", etc"
+starmap.entering,Fliege {0} an,, "{0} will be ""System"", ""Galaxy"", etc"
