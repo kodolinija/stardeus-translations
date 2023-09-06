@@ -4403,6 +4403,10 @@ turret.charge.bar,Charge de la tourelle: {0}/{1},,
 turret.settings,Paramètres de la tourelle,,
 
 
+tut.adv.controls.desc,Learn the advanced ways of manipulating the game. This tutorial will cover multiple Quality of Life features that make daily operations much easier.,,
+tut.adv.controls.title,Contrôles avancés,,
+
+
 tut.basic.controls.desc,Ce tutoriel vous donnera un aperçu de l'interface utilisateur dans Stardeus et vous apprendra à utiliser les outils les plus importants.,2023-08-16,
 
 tut.basic.controls.end,"Ce tutoriel est maintenant terminé. Si vous avez trouvé les informations écrasantes, rappelez-vous que vous pouvez toujours revoir et passer à l'étape souhaitée, ou simplement plonger et apprendre pendant que vous jouez.<br><br>Nous vous recommandons vivement d'explorer le <b>Codex</b>. Il contient des réponses sur la manière dont les choses fonctionnent.<br><br>La plupart des informations de ce tutoriel, ainsi que le <b>Codex</b>, sont intégrés directement dans le jeu, souvent désignés par ""{0}"" dans les infobulles. Utilisez-la à votre avantage.",2023-08-18,
