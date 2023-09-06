@@ -3947,7 +3947,7 @@ quest.step.set.dest.type.tip,"Öffne die <b>Sternenkarte</b>, klicke auf <b>{0}<
 quest.step.reach.so.type,"Erreiche <b>{0}</b>",,"{0} will be Planet, Space Ship, Black Hole, etc"
 quest.step.reach.so.type.tip,"<b>{0}</b> wird angeflogen. Warte, bis dein Schiff dort eintrifft. Falls es sich nicht bewegt, prüfe die Flugbereitschaft deines Schiffs, die Energieverfügbarkeit, ob das Ziel gesetzt ist und ob <b>{1}</b> über einen menschlichen Piloten verfügt.",,"{0} will be Planet, Space Ship, etc, {1} will be device name (""Bridge Controls"")"
 quest.step.start.expedition,"Starte eine Expedition",,
-quest.step.start.expedition.tip,"Öffne die <b>Sternenkarte</b>, klicke in die Nähe eines Planeten und wähle die Option <b>{0}</b>.",,"{0} will be another translation (""Launch Expedition"")"
+quest.step.start.expedition.tip,"Öffne die <b>Sternenkarte</b>, klicke dann auf den nahegelegenen Planeten und wähle die Option: <b>{0}</b>. Nachdem die Expedition einige Arbeiten ausgeführt hat, öffne die <b>Expeditionssteuerung</b>, indem du im Ereignisfenster auf den Expeditionsnamen klickst, <b>Rufe die Expedition zurück</b> und warte darauf, dass das <b>Shuttle</b> zurückkehrt.",2023-09-02,"{0} will be another translation (""Launch Expedition"")"
 quest.ExplorePlanet,"Erforsche einen nahegelegenen Planeten",,
 quest.ExplorePlanet.desc,"Es ist an der Zeit, die Flugfähigkeit deines Schiffs auf die Probe zu stellen. In der Nähe gibt es einen Planeten. Lass uns versuchen, ihn zu erreichen, indem wir ein <b>Schiff</b> auf eine Expedition dorthin entsenden.",,
 quest.step.set.starmap.scope,"Setze die Sternenkartenansicht auf <b>{0}</b>",,"{0} will be ""System"", ""Galaxy"", etc"
@@ -4102,7 +4102,7 @@ shipyard.section.offer,"<b>{0}</b> bieten <b>{1}</b> für diesen Schiffsabschnit
 time.sensitive.operation,"Dies ist ein zeitkritischer Vorgang. Bitte versuche es erneut und ändere nicht die Taktrate.",,
 merchant.type.MerchantSpacePortGood,"Weltraumhafen-Shop",,
 merchant.type.MerchantSpacePortEvil,"Zwielichtiger Weltraumhafen-Shop",,
-space.object.Resource,"Ressource",,
+space.object.Resource,"Ressourcendepot",2023-09-02,
 space.object.info.Resource,"Hierbei handelt es  sich um eine abbaubare Rohstofflagerstätte.",,
 space.object.Anomaly,"Anomalie",,
 space.object.info.Anomaly,"Radargeräte entdecken in diesem Gebiet seltsame Aktivitätsmuster. Vorsicht ist geboten.",,
@@ -4677,3 +4677,19 @@ quest.step.exit.starmap.layer,Verlasse <b>{0}</b>,, "{0} will be ""System"", ""G
 quest.step.exit.starmap.layer.desc,Fliege außerhalb des äußeren Ringes auf der <b>Sternenkarten</b> um <b>{0}</b> zu verlassen.,, "{0} will be ""System"", ""Galaxy"", etc"
 starmap.leaving,Verlasse {0},, "{0} will be ""System"", ""Galaxy"", etc"
 starmap.entering,Fliege {0} an,, "{0} will be ""System"", ""Galaxy"", etc"
+tut.adv.controls.title,Fortgeschrittene Befehle,,
+tut.adv.controls.desc,"Lerne die fortgeschrittenen Möglichkeiten zur Manipulation des Spiels kennen. In dieser Einführung werden mehrere Quality of Life-Funktionen behandelt, die den täglichen Betrieb erheblich erleichtern.",,
+ship.nav.flight.capability,Flugfähigkeit,,
+ship.nav.no.local.maneuver,Manövrieren nicht möglich,,
+ship.nav.no.local.maneuver.tip,"Du musst <b>Manövriersteuerungen</b> bauen und verbinden, um <b>Lokales Manövrieren</b> durchzuführen.",,
+verb.configure,Konfiguriere,,
+tut.adv.controls.intro,"Diese Einführung zeigt dir, wie du einige Aktionen effizienter ausführen kannst.",,
+tut.adv.controls.mass.select.title,Auswählen mehrerer Objekte,,
+tut.adv.controls.mass.select.1,"Du kannst <b>alle sichtbaren Objekte desselben Typs auswählen</b>, indem du auf ein Objekt doppelklickst.<br><br>Stelle die Kamera auf die hervorgehobenen <b>Materiereaktoren</b> und doppelklicke dann einen um alle fünf auszuwählen.",,
+tut.adv.controls.mass.connect.title,Verbinde mehrere Geräte,,
+tut.adv.controls.mass.connect.1,"Du kannst <b>alle ausgewählten Geräte</b> mit einem Klick verbinden, indem du {0} gedrückt hältst und {1} über einem nahegelegenen <b>Anschluss</b> drückst.<br><br>Verbinde alle ausgewählten Reaktoren mit dem markierten Anschluss, um fortzufahren.",,
+mass.connect.tip.enodes,"Drücke {0} über einem <b>Anschluss</b>, um das/die ausgewählte(n) Gerät(e) zu verbinden oder zu trennen.",,
+mass.connect.tip.conn,"Drücke {0} über einem <b>Gerät</b>, um die Verbindung mit den ausgewählten Anschlüssen herzustellen oder zu entfernen.",,
+mass.connect.tip.teleporters,"Drücke {0} über einem aktiven <b>Teleporter</b>, um die Verknüpfung mit dem/den ausgewählten Teleporter(n) zu erstellen oder zu entfernen.",,
+tut.adv.controls.mass.configure.1,"Du kannst das <b>Info-Panel</b> oder das <b>Kontextmenü</b> verwenden, um alle ausgewählten Reaktoren mit nur zwei Klicks so zu konfigurieren, dass sie denselben Brennstofftyp verbrennen.",,
+tut.adv.controls.mass.configure.title,Konfigurieren mehrerer Geräte,,
