@@ -4402,8 +4402,39 @@ turn.on,Allumer,,
 turret.charge.bar,Charge de la tourelle: {0}/{1},,
 turret.settings,Paramètres de la tourelle,,
 
+tut.adv.controls.build.modes.1,Nous allons maintenant explorer différents <b>modes de construction</b>.<br><br>Utilisez {0} pour sélectionner n'importe quel <b>sol</b>, puis appuyez sur {1} ou cliquez sur <b>{2}</b> dans le <b>panneau d'informations</b> ou le <b>menu contextuel</b> pour commencer à créer une copie.,,
+tut.adv.controls.build.modes.1.build.unbound,Nous allons maintenant construire quelques étages en utilisant différents <b>modes de construction</b>.<br><br>Utilisez {0} pour sélectionner n'importe quel <b>sol</b>, puis cliquez sur <b>{1}</b> dans le <b>Panneau d'informations</b> ou le <b>Menu contextuel</b> pour commencer à créer une copie.,,
+tut.adv.controls.build.modes.2,,,
+tut.adv.controls.build.modes.3,,,
+tut.adv.controls.build.modes.4,,,
+tut.adv.controls.build.modes.5,,,
+tut.adv.controls.build.modes.6,,,
+tut.adv.controls.build.modes.7,,,
+tut.adv.controls.build.modes.title,Modes de construction,,
+tut.adv.controls.copy.config.1,Il y a un tas de <b>panneaux solaires</b> sur le côté gauche de la plateforme. Ils sont sales car l'option <b>{0}</b> est désactivée sur tous.<br><br>Sélectionnons un panneau solaire et reconfigurons-le.,,
+tut.adv.controls.copy.config.2,Activez l'option <b>{0}</b>.,,
+tut.adv.controls.copy.config.3,Utilisez maintenant le bouton <b>{0}</b> pour copier la configuration du panneau sélectionné.,,
+tut.adv.controls.copy.config.4,Appuyez sur {0}, puis faites glisser un rectangle autour de tous les <b>panneaux solaires</b> et relâchez {0} pour coller la configuration que vous venez de copier.,,
+tut.adv.controls.copy.config.5,Désormais, tous les <b>Panneaux solaires</b> auront les mêmes options de nettoyage. Vous pouvez utiliser cette méthode pour copier-coller la configuration de nombreux autres appareils.,,
+tut.adv.controls.copy.config.title,Copie de la configuration d'un appareils,,
+tut.adv.controls.connect.1,Nous avons une <b>Station de réparation</b> déconnectée. Il existe plusieurs façons de le connecter rapidement au réseau:<br><br>1. Sélectionnez la <b>station de réparation</b>, puis maintenez {0} et appuyez sur {1} au-dessus d'un <b>connecteur</b>.<br><br>2. Sélectionnez un <b>connecteur</b>, puis maintenez {0} et appuyez sur {1} au-dessus de la <b>station de réparation</b>.<br><br>3. Appuyez sur {1} au-dessus d'un <b>connecteur</b>, puis faites glisser le curseur au-dessus de la <b>station de réparation</b> et relâchez {1}.<br><br>Connectez la <b>station de réparation</b> pour continuer.,,
+tut.adv.controls.connect.title,Connecter rapidement un appareil,,
+tut.adv.controls.desc,Apprenez les méthodes avancées de manipulation du jeu. Ce tutoriel couvrira plusieurs fonctionnalités de qualité de vie qui facilitent grandement les opérations quotidiennes.,,
+tut.adv.controls.intro,Ce tutoriel vous montrera comment effectuer certaines actions avec plus d'efficacité.,,
 
-tut.adv.controls.desc,Learn the advanced ways of manipulating the game. This tutorial will cover multiple Quality of Life features that make daily operations much easier.,,
+tut.adv.controls.mass.configure.1,Vous pouvez utiliser le <b>Panneau d'information</b> ou le <b>Menu contextuel</b> pour configurer tous les réacteurs sélectionnés afin qu'ils brûlent le même type de combustible en seulement deux clics.,,
+tut.adv.controls.mass.configure.title,Configuration de plusieurs appareils,,
+
+tut.adv.controls.mass.connect.1,Vous pouvez <b>connecter tous les appareils sélectionnés</b> en un seul clic en maintenant {0} enfoncé et en appuyant sur {1} au-dessus d'un <b>connecteur</b> à proximité.<br><br>Connectez tous les réacteurs sélectionnés au connecteur en surbrillance pour continuer.,,
+tut.adv.controls.mass.connect.title,Connexion de plusieurs appareils,,
+
+tut.adv.controls.mass.select.1,"Vous pouvez <b>sélectionner tous les objets visibles du même type</b> en <b>double-cliquant</b> sur un objet.<br><br>Concentrez la caméra au-dessus des <b>Réacteurs à matière</b> en surbrillance, puis double-cliquez sur l'un d'eux pour sélectionner les cinq.",,
+
+
+tut.adv.controls.mass.select.title,Sélection de plusieurs objets,,
+
+
+tut.adv.controls.outro,C'est la fin de ce tutoriel. Vous trouverez d'autres trucs et astuces dans le <b>Codex</b> > <b>Conseils</b>.,,
 tut.adv.controls.title,Contrôles avancés,,
 
 
@@ -4561,9 +4592,13 @@ tut.basic.controls.vis.ov.1_keyboard,Vous pouvez utiliser les touches {0} pour 
 tut.build.floor.in.area,Construisez un <b>sol</b> dans la zone en surbrillance.,,
 tut.build.not.expected,Vous n'êtes pas censé créer un <b>{0}</b> pour le moment.,,
 
+tut.completed.date,Terminé le {0},,
+tut.completed.never,Non terminé,,
+tut.completed.outdated.tip,Vous avez terminé une ancienne version de ce tutoriel sur {0}. Il est recommandé de le suivre à nouveau.,,
+tut.not.completed.warning,Vous avez terminé {0} tutoriels sur {1}.,,
+
 tut.configure,Configurer {0},,
 tut.configure.crafter.product,Commencez à produire: <b>{0}</b>,,
-
 
 tut.connect.device,Connecter {0},,
 tut.connect.device.constrained.desc,"Appuyez sur {0} au-dessus du <b>{2}</b>, puis faites glisser une ligne vers le <b>{1}</b> et relâchez {0} pour créer une nouvelle connexion.",2023-08-23,
