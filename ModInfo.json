@@ -1,6 +1,6 @@
 {
     "Id" : "Translations",
-    "Name" : "Stardeus Translations",
+    "Name" : "Community Translations",
     "Description" : "Community contributed Stardeus translations",
     "ModVersion" : "1.0.0",
     "IsCoreTranslation" : true,

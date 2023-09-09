@@ -7,3 +7,6 @@
 /.nova/Configuration.json
 /.nova/Artwork
 /.vs/Stardeus
+/Translations/English.csv
+/.vscode/
+/_tools/
