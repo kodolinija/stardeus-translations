@@ -4688,6 +4688,23 @@ tut.obj.not.found,L'objet est introuvable !,,
 tut.open.overlay.to.continue,Ouvrir le calque <b>{0}</b> pour continuer.,,
 tut.overlay.title,Calque: <b>{0}</b>,,
 
+
+
+tut.prod.codex.1,"Si vous ne savez pas comment produire du <b>{0}</b>, examinez l'entrée <b>{0}</b> dans <b>Codex</b> > <b>Matériaux</b>.<br><br>Vous pouvez également survoler n'importe quel élément de l'interface utilisateur avec <b>{0}</b> dans la liste des matériaux et maintenir <b>{1}</b> pour voir une <b>Entrée du Codex</b> dans l'info-bulle.",,
+tut.prod.codex.2,L'<b>entrée du Codex</b> indique que <b>{0}</b> est produit par la fusion de <b>{1}</b> dans un <b>{2}</b>.<br><br>Nous allons configurer un <b>{2}</b> pour produire <b>{0}</b>.,,
+tut.prod.codex.title,Rechercher des entrées du Codex,,
+tut.prod.desc,Ce tutoriel vous montrera comment créer des pipelines de production de ressources et acquérir les matériaux dont vous avez besoin.,,
+tut.prod.enriched.uranium.1,Nous aurons bientôt tous les ingrédients nécessaires à la production de <b>{0}</b>. Configurons le <b>{1}</b> pour le produire.,,
+tut.prod.ident.1,Il s'agit du <b>réacteur nucléaire</b> que nous essayons de construire. Il affiche une icône de déficit matériel. Passez la souris sur le réacteur pour obtenir une info-bulle contenant des détails.,,
+tut.prod.ident.2,"Chaque fois qu'un déficit est déclenché, une notification <b>{0}</b> s'affichera dans le <b>Panneau d'événements</b>. Cliquez sur la notification pour voir la liste des appareils présentant un déficit.",,
+tut.prod.ident.3,"Pour construire le <b>réacteur nucléaire</b>, nous avons besoin des matériaux suivants: {0}<br><b>{1}</b> est le premier élément de la liste qui bloque la tâche de construction.<br><br>Une fois que nous aurons produit suffisamment de <b>{1}</b>, le prochain élément manquant dans la liste déclenchera un nouveau déficit.<br><br>Il est plus facile de gérer un déficit à la fois, alors concentrons-nous sur la production de <b>{1}</b>.",,
+tut.prod.ident.title,Identification du déficit matériel,,
+tut.prod.intro,"Le but de ce tutoriel est de terminer la construction du <b>Réacteur Nucléaire</b>. Nous ne disposons pas des matériaux nécessaires à la construction, mais nous disposons de tous les ingrédients et des installations nécessaires pour les produire.",,
+tut.prod.outro,"Vous savez maintenant comment établir des pipelines de production. Voici un récapitulatif:<br><br>1. Identifiez les ressources qui vous manquent.<br><br>2. Examinez les entrées du <b>Codex</b> des matériaux manquants pour connaître leurs ingrédients et les dispositifs nécessaires à leur production. Si le <b>Codex</b> ne mentionne pas comment produire le matériau, celui-ci ne peut être acquis que par le biais d'expéditions minières, de commerce ou de moyens spéciaux.<br><br>3. Si les ingrédients manquent, répétez les étapes ci-dessus.<br><br>4. Débloquez l'équipement requis via la <b>recherche</b>, puis construisez-le.<br><br>5. Récupérez les ingrédients.<br><br>6. Configurez l'équipement pour produire les matériaux requis.<br><br>7. Répétez le processus jusqu’à ce que tous les matériaux requis soient acquis.<br><br>Terminez la construction du <b>réacteur nucléaire</b> pour terminer ce tutoriel. Vous disposez de toutes les matières premières et appareils requis sur votre vaisseau.",,
+tut.prod.title,Production des ressources,,
+tut.prod.what.to.produce,Identifier ce qu'il faut produire ensuite,,
+
+
 tut.research.after.first.unlock,<b>{0}</b> est maintenant déverrouillé. Vous pourrez construire tous les plans répertoriés dans ce noeud de recherche.,,
 
 tut.research.datoid.load.ready,"Les <b>datoïdes</b> sont maintenant chargés et quelques noeuds de recherche peuvent être débloqués.<br><br>Chaque fois qu'une recherche peut être dévérrouillés, vous verrez une notification à ce sujet dans l'encadré <b>Évenement</b> sur la droite.<br><br>Cliquez sur la notification pour ouvrir l'<b>arbre de recherche</b>. Il se concentrera automatiquement sur le premier noeud à débloquer.",,
