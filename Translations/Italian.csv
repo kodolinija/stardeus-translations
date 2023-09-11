@@ -1098,7 +1098,7 @@ evt.teleporter.clone.desc,Si è verificato un malfunzionamento del teletrasporto
 evt.teleporter.clone.title,Teleporter ha prodotto un clone,,
 evt.wakeup.desc,Un colono si è svegliato dal criosonno a causa di un malfunzionamento del pod Stasis Array. Breve profilo:<br><br>{0},,
 evt.wakeup.title,{0} si svegliò,,
-execute,Eseguire				 ,,
+execute,Eseguire,,
 exit.galaxy,Esci dalla galassia,,
 exit.planet,Esci dal pianeta,,
 exit.save,Salva ed esci,,
@@ -1140,7 +1140,7 @@ expedition.found.object,La spedizione ha trovato un oggetto,,
 expedition.launch.aborted,"La spedizione ""{0}"" fu interrotta perché tutti i membri dell'equipaggio non salirono a bordo della navetta",2023-04-19,
 expedition.mining.target,Bersaglio,,
 expedition.missing.crew,"Il membro dell'equipaggio della spedizione ""{0}"" non riuscì a raggiungere la navetta ""{1}"". Che fare?",,
-expedition.mode.AllowAll,Mine All,,
+expedition.mode.AllowAll,Tutte le miniere selezionate,,
 expedition.mode.AllowSelected,Miniera selezionata,,
 expedition.mode.ForbidAll,Proibisci tutto,,
 expedition.mode.ForbidSelected,Proibisci selezionato,,
@@ -1294,7 +1294,7 @@ game.presskit,Cartella stampa,,
 game.reddit,Reddit,,
 game.save,Salva gioco,,
 game.save.desc,Salva i tuoi progressi attuali,,
-game.save.prompt,<b>{0}</b><br>Immettere il nome di salvataggio:,,
+game.save.prompt,<b>{0}</b><br>Inserisci il nome di salvataggio:,,
 game.scenario,Scenario,,
 game.scenario.tip,"""Wrecked"" è lo scenario principale che contiene un tutorial. Gioca almeno una volta prima di provare altri scenari.",,
 game.seed,Seme di gioco,,
@@ -2244,6 +2244,8 @@ obj.upgrades.diskcompressionupgrade,Aggiornamento della compressione del disco,,
 obj.upgrades.diskcompressionupgrade.desc,L'avanzato algoritmo di compressione a basso overhead in tempo reale fornito da questo chip aggiungerà il 50% di spazio extra su disco a qualsiasi dispositivo compatibile con storage su disco. L'aggiornamento è impilabile.,,
 obj.upgrades.memorycompressionupgrade,Aggiornamento della compressione della memoria,,
 obj.upgrades.memorycompressionupgrade.desc,L'algoritmo di compressione estremamente veloce integrato in questo chip aumenterà la capacità del modulo di memoria del 50%. L'aggiornamento è impilabile.,,
+,,,
+,,,
 obj.upgrades.processorefficiencyupgrade,Aggiornamento dell'efficienza del processore,,
 obj.upgrades.processorefficiencyupgrade.desc,"Fa funzionare gli impianti di lavorazione (forni, estrattori di nutrienti, smerigliatrici, ecc.) il 33% più velocemente. Stack di aggiornamenti multipli.",,
 obj.upgrades.reactorefficiencyupgrade,Aggiornamento dell'efficienza del reattore,,
@@ -2379,7 +2381,7 @@ objects.devices.refinery.desc,Per la lavorazione di petrolio greggio e altre mat
 objects.devices.repairstation,Stazione di riparazione,,
 objects.devices.repairstation.desc,Esegue la manutenzione di robot e droni e ripara eventuali danni.,,
 objects.devices.researchstation,Stazione di ricerca,,
-objects.devices.researchstation.desc,Gli umani con l'abilità Scienza possono utilizzare la Stazione di Ricerca per produrre alcuni tipi di <b>Datoid</b>.,,
+objects.devices.researchstation.desc,Gli umani con l'abilità Scienza possono utilizzare la Stazione di Ricerca per produrre alcuni tipi di <b>Datoid</b>.,2023-07-10,
 objects.devices.securitycontrols,Controlli di sicurezza,,
 objects.devices.securitycontrols.desc,Gestisce tutti i dispositivi relativi alla sicurezza da un'unica comoda posizione. Deve essere sulla stessa griglia dei dispositivi di sicurezza e del computer di bordo per funzionare.,,
 objects.devices.shipcomputer,Computer di spedizione,,
@@ -2473,8 +2475,8 @@ off,Off,,"In combination with ""off"" could be used to describe several things:
 2. State of equipment: equipped (on) or unequipped (off). As in ""the hat is on"", ""the space suit is off"""
 offline,Off-line,,
 offline.workers,Lavoratori offline,,
-ok,Ok,,										
-on,On,,"In combination with ""off"" could be used to describe several things: 
+ok,Ok,,
+on,On,,"In combination with ""off"" could be used to describe several things:
 1. State of device (turned on or turned off) 
 2. State of equipment: equipped (on) or unequipped (off). As in ""the hat is on"", ""the space suit is off"""
 on.expedition,In spedizione,,
@@ -2487,7 +2489,7 @@ open.codex,Apri il Codex,,
 open.dir,Apri la cartella,,
 open.emblems.folder,Apri la cartella Emblemi,,
 open.energy.overlay,Mostra elettricità,,
-open.floor.vent,Ventilazione a pavimento aperto							 ,,
+open.floor.vent,Ventilazione a pavimento aperto,,
 open.in.steam.workshop,Apri in Steam Workshop,,
 open.log.dir,Cartella log,,
 open.research,Apri ricerca,,
@@ -2614,7 +2616,7 @@ processing.output,Output di elaborazione:,,
 processing.priority,Priorità di elaborazione,,
 processing.priority.help,Controlla la priorità dell'elaborazione automatica. Una priorità più elevata farà sì che i lavoratori trasportino gli articoli lavorabili a questo processore con maggiore entusiasmo.,,
 processing.type,Trattamento {0},,
-processing.x.in.y,{0} in {1},,"Example: ""Quartz in Furnace"""
+processing.x.in.y,{0} nella {1},,"Example: ""Quartz in Furnace"""
 processor.queue,Coda di elaborazione,,
 processor.settings,Impostazioni del processore,,
 processor.unavailable,Processore non disponibile,,
@@ -4669,6 +4671,9 @@ tut.basic.controls.step.intro.desc,Questo tutorial ti mostrerà come controllare
 tut.basic.controls.step.cam,Controlli della fotocamera,,
 tut.basic.controls.step.cam.desc,"Per spostare la videocamera, usa {0}.<br><br>Ingrandisci e rimpicciolisci con {1}.<br><br>La panoramica sui bordi può essere attivata o disattivata in <b>Impostazioni > Input</b>.",,
 tut.basic.controls.step.overlays.visual,Overlay visive,,
+tut.basic.controls.vis.ov.1,"Sotto i controlli del tempo, si trovano i pulsanti per attivare le sovrapposizioni che mostrano informazioni utili sullo stato della nave. {0}<br><br>Esamineremo ora ogni sovrapposizione. <b>Potete saltare la parte successiva</b> ed esplorare da soli le indicazioni dei pulsanti in un secondo momento.",,{0} is a sentence about keyboard shortcuts
+tut.basic.controls.vis.ov.1_keyboard,Si possono usare i tasti {0} per alternarli.,,
+tut.basic.controls.vis.ov.1_gamepad,È possibile utilizzare {0} per navigare rapidamente nell'interfaccia utente.,,																		 
 tutorial.click.next.when.ready,Fai clic su <b>{0}</b> quando sei pronto.,,
 tut.basic.controls.step.overlay.electricity,"Questa sovrapposizione mostra le connessioni dei dispositivi e aiuta a risolvere i problemi con la rete elettrica. Fornisce dati sulla produzione e il consumo di elettricità, eventuali deficit, condizioni della batteria ed elenca anche i dispositivi disconnessi o spenti, tra gli altri dettagli utili.",,
 tut.basic.controls.step.overlay.atmoo2,"Questa sovrapposizione visiva mostra i livelli di ossigeno, rendendola utile per rilevare perdite e aree inadatte alla vita.",,
@@ -4724,11 +4729,12 @@ tut.basic.controls.step.dev.select,Selezione di oggetti,,
 tut.basic.controls.step.dev.manage.submenu,Controlli dei componenti,,
 tut.basic.controls.step.dev.manage.submenu.desc,"Ora stai osservando i controlli dei componenti Elettricità del dispositivo selezionato. Se selezioni un altro dispositivo con lo stesso componente, il sottomenu dovrebbe rimanere aperto. Ogni oggetto ha vari componenti che rivelano i propri dati e controlli in questo modo.",,
 tut.basic.controls.step.deselect,Deselezione di oggetti,,
-tut.basic.controls.step.deselect.desc,"Quando qualcosa è selezionato, usa <b>{0}</b> sopra un piano o uno spazio vuoto per deselezionarlo. Chiuderà anche tutti gli overlay aperti o i pannelli dell'interfaccia utente attivi. Provalo ora.",,
+tut.basic.controls.step.deselect.desc,"Quando qualcosa è selezionato, usa <b>{0}</b> sopra un piano o uno spazio vuoto per deselezionarlo. Chiuderà anche tutti gli overlay aperti o i pannelli dell'interfaccia utente attivi. Provalo ora.",,												  
 tut.basic.controls.step.context.menu.1,Richiamo del menu contestuale,,
-tut.basic.controls.step.context.menu.1.desc,"Oltre al pannello informazioni, ogni oggetto ha un menu contestuale che puoi richiamare con <b>{0}</b> mentre il cursore si trova sopra un oggetto. Prova a richiamare un menu contestuale per il dispositivo evidenziato.",,
+tut.basic.controls.step.context.menu.1.desc,"Oltre al pannello informazioni, ogni oggetto ha un menu contestuale che puoi richiamare con <b>{0}</b> mentre il cursore si trova sopra un oggetto. Prova a richiamare un menu contestuale per il dispositivo evidenziato.",,																											 
 tut.basic.controls.step.context.menu.2,Menù contestuale,,
 tut.basic.controls.step.context.menu.2.desc,Il menu contestuale contiene il sottoinsieme delle azioni più comuni del pannello informazioni.,,
+tut.basic.controls.step.context.menu.3.desc,"Usate {0} per chiudere il menu contestuale, quindi {0} ancora una volta per deselezionare il <b>{1}</b>.",2023-08-18,{0} is a key binding												 																																																		  
 tut.basic.controls.tools,Utensili,,
 tut.basic.controls.tools.desc,"Molte azioni nel gioco richiedono l'utilizzo di uno strumento e ci sono diversi strumenti disponibili a tua disposizione. Puoi accedervi in vari modi, tra cui il <b>Menu radiale</b>, <b>Hotbar</b>, <b>Ricerca rapida</b> e <b>Tasti di scelta rapida</b>. <br><br>Esploriamo prima il menu radiale. Premi <b>{0}</b> per aprirlo.",,
 tool.menu.type,Tipo di menu degli strumenti,,
@@ -4736,4 +4742,233 @@ tool.menu.type.radial,Menù radiale,,
 tool.menu.type.grid,Menù griglia,,
 hotbar.add.tip,Fai clic su {0} mentre tieni premuto {1} per aggiungere questo elemento alla Hotbar.,,
 hotbar.ctrl.tip,"Fai clic su {0} mentre tieni premuto {1} per rimuovere questo elemento.<br>Fai clic e tieni premuto su {0}, quindi trascina l'elemento verso sinistra o verso destra per riordinare.",,
-search.placeholder,Digita qui per cercare,,								
+search.placeholder,Digita qui per cercare,,
+adjective.recent,Recente,,
+datoid.available.vs.owned.tip,I Datoidi devono trovarsi all'interno di un <b>Caricatore di Datoidi</b> per poter essere utilizzati. ,,
+def.unlock.tip,Research {0} to unlock. ,,{0} è il nome della tecnologia. questo messaggio viene visualizzato nel tooltip di un elemento bloccato.
+tut.basic.controls.step.overlay.skip.tip,È possibile saltare questa parte. Tieni premuto {0} quando passi il pulsante di overlay per vedere il messaggio del tutorial in qualsiasi momento.,,{0} is a key binding
+tut.skip.group,Salta il gruppo: {0},,{0} is the group name
+tut.basic.controls.step.grid.menu.1,Tipi di menu degli strumenti,,
+tut.basic.controls.step.grid.menu.1.desc,Questo è il menu <b>Griglia</b>. Esiste un <b>Menu radiale</b> alternativo che può essere più comodo quando si gioca con un gamepad. È possibile cambiare il tipo di menu degli strumenti in <b>Impostazioni > Input > Tipo di menu degli strumenti</b>.<br><br>Questo tutorial utilizza il menu degli strumenti <b>Griglia</b>.,,
+tut.basic.controls.step.grid.menu.2,Strumenti,2023-08-16,
+tut.basic.controls.step.grid.menu.2.desc,"Il lato sinistro del <b>menu strumenti</b> elenca tutti gli strumenti disponibili. Alcuni strumenti possono avere un sottomenu, mentre altri si attivano al clic. Lo strumento attivo avrà un'icona di colore giallo. ",2023-08-16,
+getting.food.in.dangerous.loc,Cercare di procurarsi il cibo da un luogo non sicuro: {0},,{0} is a coordinate
+failed.to.find.path.to.safety,Impossibile trovare un percorso verso la posizione sicura da {0},,{0} is a coordinate
+tut.basic.controls.step.tools.place_tiles,Questo strumento contiene le cianografie sbloccate di vari oggetti che potete ordinare ai vostri lavoratori di costruire. Ha un sottomenu con categorie e un elenco di oggetti <b>recenti</b>.,,
+tut.basic.controls.step.tools.connect,Questo strumento consente di collegare / scollegare dispositivi elettrici e collegare / scollegare i teletrasporti facendo clic e trascinando una linea tra di loro.,,
+tut.basic.controls.step.tools.repair,"Questo strumento evidenzia la struttura e i dispositivi danneggiati, consentendo di ordinare riparazioni. Fare clic su un singolo dispositivo o fare clic e trascinare per selezionare un'area più ampia per le riparazioni.",,
+tut.basic.controls.step.tools.store,"Questo strumento ordina il trasporto di pile di materiale non immagazzinato in uno stoccaggio compatibile, se disponibile. Fai clic su una singola pila o fai clic e trascina per selezionare più pile per il trasporto.",,
+tut.basic.controls.step.tools.process,"Questo strumento ordina l'elaborazione di pile di materiale selezionato o esseri morti, a condizione che sia disponibile un processore compatibile. Fare clic su un singolo oggetto o fare clic e trascinare per selezionare più oggetti per l'elaborazione.",,
+tut.basic.controls.step.tools.remove_tiles,"Questo strumento ordina la decostruzione di pareti, pavimenti o dispositivi. Fai clic su un singolo oggetto o fai clic e trascina su un'area per creare un ordine.",,
+tut.basic.controls.step.tools.ads_cancel,Questo strumento annulla gli ordini attivi. Fai clic su un oggetto con un'attività in sospeso o fai clic e trascina su un'area per annullare gli ordini all'interno di quella zona. ,,
+tut.basic.controls.step.tools.ads_retry,"Questo strumento tenta di riprovare immediatamente le attività non riuscite. Fare clic su un oggetto con un'attività non riuscita o trascinare su un'area per ritentare immediatamente tutte le attività non riuscite in quella regione. Si noti che le attività non riuscite verranno ritentate automaticamente dopo un ritardo, anche senza intervento manuale.",,
+tut.basic.controls.step.tools.manage_ads,"Questo strumento consente di riprovare, annullare e regolare la priorità delle attività in sospeso. L'aumento della priorità tenterà anche di assegnare l'attività al lavoratore disponibile più vicino. Fare clic su un oggetto con un'attività in sospeso o trascinare su un'area per applicare l'azione selezionata in tale area.",,
+tut.basic.controls.step.tools.copy_config,"Questo strumento consente di copiare e incollare le impostazioni tra dispositivi compatibili. Fare clic su uno per copiarne la configurazione, quindi selezionarne un altro o trascinare su un'area per applicare le impostazioni copiate ai dispositivi dello stesso tipo.",,
+tut.basic.controls.step.tools.plan,Questo strumento offre diversi metodi per disegnare nella sovrapposizione visiva <b>Planning</b>.,,
+tut.basic.controls.step.tools.skip.tip,Puoi saltare questa parte. Passare il mouse su qualsiasi pulsante dello strumento per visualizzare il messaggio dell'esercitazione.,,
+toggle.button.size,Modificare le dimensioni dei pulsanti,2023-08-16,
+tut.basic.controls.step.tool.build.1,Daremo uno sguardo più approfondito allo strumento <b>{0}</b>. Fare clic per attivare il sottomenu degli strumenti.,,{0} is the tool name
+tut.basic.controls.step.tool.build.2,Questo è il sottomenu degli strumenti. Contiene schede per gruppi di oggetti che è possibile creare.,,
+tut.basic.controls.step.tool.build.3,"Costruiamo qualcosa. Fai clic sulla scheda {0}, quindi fai clic su {1} per iniziare a costruirlo.",,{0} is the tab label {1} is the device name
+tut.step.place.tile.with.rot.desc,Utilizzare {0} per ordinare la creazione di un {1} nella posizione evidenziata.<br><br>Ruotarlo con {2} prima di posizionarlo.,,{0} and {2} is key binding. {1} is device name
+tut.step.place.tile.desc,Ordina di creare il {0} nella posizione evidenziata.,,{0} is an device name
+tut.step.place.tile,Creare un {0},,{0} is an device name
+tut.step.expired,Questo passaggio è scaduto,,
+tut.basic.controls.step.tool.build.4,I lavoratori inizieranno a eseguire l'ordine di compilazione a breve.<br><br><b>{1}</b> tornerà al menu di compilazione.<br><br>{0} uscirà dalla modalità di compilazione.,,{0} and {1} are key bindings
+tut.basic.controls.step.connect.1,Ora vediamo cosa può fare lo strumento <b>{0}</b>. Usa <b>{1}</b> per aprire il menu <b>Tool Menu</b> e attivarlo.,2023-08-16,{0} is tool name. {1} is key binding
+tut.basic.controls.step.connect.2,"C'è un <b>{0}</b> disconnesso. Colleghiamolo a un <b>{1}</b>.<br><br>Premi {2} sopra la {1}, quindi trascina una linea per {0} e rilascia {2} per connetterti.",,{0} is device name. {1} is connector device name. {2} is key binding
+tut.basic.controls.step.connect.3,La stessa azione disconnetterà due dispositivi collegati.<br><br>Usa {0} per trascinare una linea tra <b>{1}</b> e <b>{2}</b> per interrompere la connessione.,2023-08-16,{0} is key binding {1} and {2} are device names
+tut.basic.controls.step.connect.4,"Lo strumento <b>{0}</b> può anche collegare e scollegare <b>Teletrasporti</b>.<br><br>Teletrasporto I collegamenti sono unidirezionali, quindi devi collegare il teletrasporto <b>A</b> a <b>B</b> e <b>B</b> a <b>A</b> per farli condurre l'uno all'altro. Create un collegamento bidirezionale tra i teletrasporti evidenziati per continuare.",2023-08-16,{0} is tool name
+tut.basic.controls.step.connect.5,"<b>Suggerimento:</b> in modalità Selezione libera, premere {0} sopra un <b>Connettore</b> o un <b>Teletrasporto</b> e iniziare a trascinare una linea per passare allo strumento <b>{1}</b>.",,{0} is key binding. {1} is tool name
+tut.connecting.teleporters,Connessione dei teletrasporti,,
+choice.or,{0} o {1},,{0} and {1} will be some arbitrary things like shortcut keys or two item names
+tut.basic.controls.step.repair.1,I sistemi segnalano una perdita di ossigeno. Usiamo la sovrapposizione visiva <b>{0}</b> per trovarlo.,,{0} is Oxygen translation
+tut.basic.controls.step.repair.2,Ecco la perdita. Puoi vedere l'ossigeno che scorre attraverso un <b>{0}< / b> danneggiato verso l'area adiacente che non dovrebbe avere ossigeno.,,{0} is a translation for Window structure
+tut.basic.controls.step.repair.3,Utilizzare <b>{0}</b> per aprire il menu <b>Tool</b> e attivare lo strumento <b>{1}</b>. Creeremo quindi un paio di attività di riparazione.,2023-08-16,{0} is key binding {1} is tool name
+tut.basic.controls.step.repair.4,Premere {0} e trascinare un rettangolo attorno all'area danneggiata per ordinare le riparazioni.,2023-08-16,{0} is key binding
+tut.basic.controls.group.examining.objects,Esame degli oggetti,,
+tut.basic.controls.step.deconstruct.1,Ora rimuoveremo alcune strutture. Utilizzare {0} per aprire il menu <b>Tool</b> e attivare lo strumento <b>{1}</b>.,,{0} is key binding
+tut.basic.controls.step.deconstruct.2,Premere {0} e trascinare un rettangolo attorno all'area evidenziata per ordinare la decostruzione delle piastrelle del pavimento.,2023-08-16,
+tut.basic.controls.step.deconstruct.3,"La decostruzione inizierà a breve.<br><br>Molte azioni, tra cui <b>Repair</b> e <b>Deconstruct</b> possono essere ordinate tramite il pannello <b>Info</b> o <b>Menu contestuale</b> dell'oggetto selezionato.",,
+tut.basic.controls.relocate.1,Un altro aspetto importante dell'organizzazione della tua nave è il trasferimento degli oggetti.,,
+tut.basic.controls.relocate.2,Utilizzare il pulsante <b>{0}</b> nel pannello <b>Info</b> per avviare il processo di trasferimento.,,{0} is key binding
+tut.basic.controls.relocate.3,Spostare il dispositivo nell'area evidenziata.<br><br>Il cerchio pulsante contrassegna il punto <b>Work Spot</b>. Non deve essere ostacolato. Dovrai ruotare il dispositivo.<br><br>Usa {0} per ruotare il dispositivo.<br><br>Premi {1} sopra l'area evidenziata per ordinare la ricollocazione.,2023-08-16,{0} is key binding
+tut.basic.controls.relocate.4,"Il trasferimento è ora in sospeso.<br><br>Puoi spostare esseri, pile di materiali e altri oggetti in questo modo.",,
+tut.basic.controls.quick.search.1,Usa <b>Ricerca rapida</b> quando sai cosa stai cercando. È il modo più veloce per trovare qualsiasi cosa.<br><br>Premere {0} per attivare <b>Ricerca rapida</b>.,2023-08-18,{0} is key binding
+tut.basic.controls.quick.search.2,"Ora inizia a digitare un nome di blueprint e premi {0} o fai clic sul risultato per attivarlo quando diventa disponibile.<br><br>Per questo esempio, supponiamo che tu voglia creare un <b>{1}</b>. Digitare ""{2}"", quindi premere {0}.",,{0} is key binding. {1} is device name. {2} will be first few characters of device name
+tut.basic.controls.quick.search.3,"Il <b>Quick Search</b> è estremamente potente. Oltre ai progetti, può trovare lavoratori, voci del codice e oggetti all'interno delle viste speciali come <b>Research Tree</b> o <b>Starmap</b>.",,
+tut.basic.controls.end,"Questo tutorial è ora completo. Se hai trovato le informazioni travolgenti, ricorda che puoi sempre rivisitare e saltare al passaggio desiderato, o semplicemente immergerti e imparare mentre giochi.<br><br>Consigliamo vivamente di esplorare il <b>Codex< / b>. Contiene risposte su come funzionano le cose.<br><br>Molte delle informazioni di questo tutorial, così come il <b>Codex</b>, sono incorporate direttamente nel gioco, spesso indicate con ""{0}"" nei tooltip. Usalo a tuo vantaggio.",2023-08-18,{0} is something like: hold CTRL for more info
+tut.research.name,Ricerca,,
+tut.research.desc,Impara i concetti della Ricerca.,,
+tool.menu.recent.desc,Contiene un elenco di blueprint utilizzati di recente.,,
+tut.research.intro.desc,Questo tutorial ti insegnerà tutto ciò che devi sapere su <b>Research</b> in Stardeus.,,
+tut.research.end,Questo è tutto! Ecco un riassunto di ciò che abbiamo imparato:<br><br> - La ricerca utilizza <b>Datoids</b>.<br> - I datoidi devono essere memorizzati in <b>Data Loaders</b> per diventare disponibili.<br> - Devi avere abbastanza <b>Spazio su disco</b> e <b>Datoids</b> del tipo giusto per sbloccare una ricerca node.<br> - I datoidi sono prodotti da <b>Data Harvesters</b>.<br> - Crea e collega nuovi moduli <b>Disk Modules</b> per aggiungere più <b>Disk Space</b>.,,
+tut.research.open.tree,Aprire l'albero <b>Ricerca</b>. Scorciatoia: {0},,{0} is key binding
+tut.research.tree.nav,Albero di ricerca: muoversi,,
+tut.research.tree.nav.desc,Questo è l'albero <nobr><b>Research Tree</b></nobr>. Ecco come navigare:<br><br> - Per spostarsi: {0} o trascinare il mouse tenendo premuto {1}.<br> - Per cambiare zoom: {2},,{0}{1}{2} is key binding
+tut.research.tree.nav.gamepad,Questo è l'albero <nobr><b>Research Tree</b></nobr>. Ecco come navigarlo:<br><br> - Per muoversi: {0}.<br> - Per cambiare zoom: {1}.,,{0}{1} is key binding
+verb.scroll,Scorrere,,As in Mouse Scroll
+tut.research.tree.find.element,Concentrati sul nodo di ricerca <b>{0}</b> evidenziato.<br><br>È possibile utilizzare {1} ricerca per passare direttamente ad esso.,,{0} is tech name. {1} is key binding
+tut.research.tree.find.element.gamepad,Focus sul nodo di ricerca evidenziato <b>{0}</b>.,,{0} is tech name.
+tut.research.tree.node,Albero di ricerca: Nodo,,
+tut.research.tree.node.cost.datoids,"La ricerca viene sbloccata consumando materiali speciali chiamati <b>Datoids</b>. Troverai i tipi e le quantità di Datoid necessari elencati qui. Passa il mouse sulle icone per saperne di più su ogni tipo di Datoid, incluso come acquisirlo.",,
+tut.research.tree.node.cost.tier,Questo mostra il nodo di ricerca <b>Tier</b>. È necessario sbloccare un certo numero di nodi dal livello corrente per sbloccare il livello successivo.,,
+tut.research.tree.node.cost.disk,Questa è la quantità di <b>Disk</b> necessaria per l'archiviazione permanente per mantenere memorizzati i risultati della ricerca.<br><br>Crea o aggiorna <b>Disk Modules</b> per aumentare lo spazio di archiviazione disponibile.,,
+tut.research.tree.node.bookmark,Questo è il pulsante <b>Bookmark</b>. Fare clic per aggiungere qualsiasi nodo di ricerca bloccato ai segnalibri per un accesso rapido.,,
+tut.research.tree.node.bookmarks,Questo pulsante visualizza un elenco di tutte le ricerche con segnalibri.<br><br>Riceverai una notifica quando uno dei nodi di ricerca con segnalibro diventa disponibile per lo sblocco.,,
+tut.research.tree.node.unlock,"Questo è il pulsante <b>Unlock</b>. Se hai le risorse necessarie, sbloccherà il nodo di ricerca con un solo clic.<br><br>Se il nodo di ricerca non può essere sbloccato, passando con il mouse questo pulsante ti dirà perché.",,
+tut.research.tree.info,Pannello informativo dell'albero di ricerca,,
+tut.research.tree.info.desc,Questo pannello contiene una panoramica delle risorse disponibili e delle azioni utili.,,
+tut.research.tree.info.disk,Questa barra di avanzamento mostra <b>Disk</b> usage.<br><br>Il pulsante <b>{0}</b> apre un elenco di nodi di ricerca sbloccati che possono essere scaricati se si ha urgente bisogno di più spazio su disco. La ricerca scaricata dovrà essere sbloccata di nuovo.,,{0} is key binding
+tut.research.tree.info.datoids,In questa sezione sono elencati i <b>Datoidi</b> disponibili per l'uso. Passare il puntatore del mouse o fare clic sugli elementi per ulteriori informazioni su ciascun tipo di Datoid.<br><br>I datoidi diventano disponibili solo dopo essere stati memorizzati in un caricatore <b>datoid</b>. Ne costruiremo uno presto.,,
+tut.research.tree.info.management,"All'interno della sezione di gestione, troverai strumenti utili come la già citata funzione <b>Bookmarks</b> e una funzione <b>Search</b>. Ciò consente di individuare i nodi in base al loro nome o ai nomi degli elementi che sbloccano.<br><br>Ora puoi chiudere l'albero <b>Ricerca</b> con {0}.",,{0} is key binding
+tut.research.unstored.datoid,"Abbiamo già alcuni <b>Datoids</b>, ma non sono ancora disponibili per la ricerca.<br><br>Dovremo costruire un caricatore <b>Datoid</b> e lasciare che i nostri lavoratori vi carichino questi Datoid.",2023-08-18,
+tut.obj.not.found,L'oggetto non è stato trovato!,,
+tut.obj.no.longer.available,L'oggetto non è più disponibile!,,
+tut.start.building.def,"Usa {0} per aprire il menu <b>Tool</b>, trova il <b>{1}</b>, quindi fai clic sull'icona per iniziare a costruirlo.",,{0} is key binding. {1} is device name
+tut.waiting.for.construction,In attesa di costruzione di <b>{0}</b>.,,{0} is device name
+tut.research.datoid.load.wait,Caricamento dei datoidi,,
+tut.research.datoid.unstored,Datoidi scaricati,,
+tut.research.datoid.load.wait.desc,"Aspettando che <b>Datoids</b> venga caricato nel caricatore <b>Datoid</b>.<br><br>Gli operai lo faranno automaticamente, ma è possibile utilizzare lo strumento <b>{0}</b> per ordinare immediatamente il trasporto.",,{0} is tool name
+tut.research.datoid.load.ready,"I <b>Datoids</b> sono ora caricati e ci sono un paio di nodi di ricerca che possono essere sbloccati.<br><br>Ogni volta che una ricerca può essere sbloccata, vedrai una notifica su di essa nel <b>Event Panel</b> sulla destra.<br><br>Fai clic sulla notifica per aprire <b>Research Tree</b>. Si concentrerà automaticamente sul primo nodo sbloccabile.",,
+tut.research.unlock.tech,Sblocca <b>{0}</b>,,{0} is tech name
+tut.research.unlock.tech.desc,Sblocca il nodo di ricerca evidenziato per continuare.,,
+tut.research.tree.group,Interfaccia utente dell'albero di ricerca,,
+tut.research.after.first.unlock,<b>{0}</b> è ora sbloccato. Sarai in grado di creare tutti i progetti elencati in questo nodo di ricerca.,,{0} is tech name
+tut.research.unlocked.tech,<b>{0}</b> sbloccato,,{0} is tech name
+tut.research.datoids.howto.1,"Abbiamo appena consumato la maggior parte dei nostri <b>Datoids</b>, quindi dovremo produrne di più.<br><br>Fai clic sull'elemento dell'interfaccia utente <b>{0}</b> per scoprire come produrlo.",,{0} is a translation for Basic Datoid
+tut.research.datoids.howto.2,Il popup del codice ci dice che <b>{0}</b> è realizzato in <b>{1}</b> - dovremo costruirne uno.<br><br>Usa {2} o {3} per chiudere l'albero <b>Research Tree</b>.,,{0} is a translation for Basic Datoid {1} is translation for Basic Data Harvester/ {2}[3} are bindings
+tut.research.datoids.howto,Come produrre Datoids,,
+tut.switch.tool.no.shortcut,Utilizzare {0} per aprire il menu <b>Tool</b> e attivare lo strumento <b>{1}</b>.,,{0} is key binding. {1} is tool name
+tut.switch.tool.with.shortcut,Utilizzare {0} per aprire il menu <b>Tool</b> e attivare lo strumento <b>{1}</b>.<br><br>È inoltre possibile attivare lo strumento <b>{1}</b> con {2}.,,{0} is key binding. {1} is tool name {2} is binding
+tut.switch.tool.title,Strumento di attivazione: {0},,{0} is tool name
+tut.connect.device,Connettiti {0},,{0} is device name
+tut.connect.device.freestyle.desc,Utilizzare lo strumento <b>{0}</b> per collegare il <b>{1}</b> evidenziato al connettore disponibile più vicino.,,{0} is tool name. {1} is device name
+tut.connect.device.constrained.desc,"Premi {0} sopra <b>{2}</b>, quindi trascina una riga su <b>{1}</b> e rilascia {0} per creare una nuova connessione.",2023-08-23,{0} is key binding. {1} and {2} is device name
+tut.configure,Configurare {0},,{0} is device name
+tut.exit.tool,Utilizzare {0} per tornare alla modalità <b>Free Select</b>.,,{0} is key binding
+tut.configure.crafter.product,Inizia a produrre <b>{0}</b>,,{0} is product name
+tut.research.tree.node.unlockables,Oggetti sbloccabili,,
+tut.research.tree.node.unlockables.desc,Ogni nodo di ricerca ha un elenco di elementi sbloccabili. Passare il puntatore del mouse sull'elemento per visualizzarne il nome e la descrizione nella descrizione comando.,,
+tut.build.not.expected,Non ci si aspetta che tu costruisca un <b>{0}</b> in questo momento.,,{0} is device name
+tut.research.disk.1,"Mentre il <b>{0}</b> produce nuovi Datoidi, pianifichiamo la nostra prossima mossa.",,{0} s device name
+tut.research.disk.2,Vogliamo costruire un <b>{0}</b>. Troviamo il nodo di ricerca che sblocca questo progetto. Puoi aprire la ricerca con {1}.,,{0} is device name {1} is key binding
+tut.research.disk.2.gamepad,Vogliamo costruire un <b>{0}</b>. Troviamo il nodo di ricerca <b>{1}</b>. Puoi usare il pulsante <b>{2}</b> in alto a destra per farlo.,,{0} is device name {1} is key binding. {2} is translation for Search
+tut.research.disk.3,Inizia a digitare il nome di <b>{0}</b> nel campo di ricerca e premi {1} o fai clic sul risultato quando diventa disponibile.,,{0} is device name. {1} is key binding
+tut.research.disk.4,Scopriamo di cosa abbiamo bisogno per sbloccare <b>{0}< / b>. Passa il mouse sul pulsante <b>{1}</b>.,,{0} is device name. {1} is button label
+tut.research.disk.5,"Una volta che produciamo abbastanza <b>Basic Datoids</b>, non saremo ancora in grado di sbloccarlo perché non abbiamo il <b>Spazio su disco</b> necessario per memorizzare il risultato della ricerca.<br><br>Dovremo costruire un modulo <b>Disk Module</b>.<br><br>Use {0} o {1} per chiudere il <b> Albero di ricerca</b>.",,{0} and {1} are key bindings
+tut.research.disk.3.hint,Suggerimento: il risultato della ricerca dovrebbe essere <b>{0}</b>.,,{0} is a tech name
+tut.research.outro,"Ora abbiamo abbastanza <b>Spazio su disco</b> per sbloccare <b>{0}</b>, ma dobbiamo ancora aspettare che <b>Basic Datoids</b> venga prodotto.<br><br>Puoi costruire più <b>Data Harvesters</b> per produrre più Datoid,  fai solo attenzione a non scalare troppo rapidamente, o potresti esaurire le risorse.<br><br>Sbloccare ricerche più avanzate richiederà nuovi tipi di Datoidi che saranno più difficili da produrre e richiederanno nuovi dispositivi e materiali.",,{0} is a tech name
+available.material,Numero Disponibile: {0},,
+tut.el.title,Elettricità,,
+tut.el.desc,Scopri come funziona l'elettricità in Stardeus.,,
+tut.el.intro,"L'elettricità gioca un ruolo importante in Stardeus. Non solo alimenta i dispositivi, ma ne consente anche la gestione.<br><br>Questo tutorial ti guiderà attraverso la configurazione, la gestione e la risoluzione dei problemi delle reti elettriche.",,
+tut.el.end,"Ora sapete come funziona l'elettricità in Stardeus. Ecco un riassunto:<br><br> - È possibile gestire i dispositivi solo se sono collegati al <b>Ship Computer</b> grid.<br> - Utilizzare <b>Connettori</b> per collegare i dispositivi a una griglia.<br> - Daisy-chain <b>Connettori</b> per raggiungere dispositivi o griglie distanti.<br> - Clicca e trascina una linea da un <b>Connettore</b>, quindi lasciarlo cadere su un pavimento vuoto per costruire un nuovo connettore lì.<br> - Il collegamento di due griglie le unirà in una.<br> - L'overlay <b>{0}</b> può aiutarti a risolvere <b>Deficit elettrico</b> e altri problemi.",2023-08-23,
+tutorial.header,Tutorial: {0},,{0} is the name of tutorial the player is playing
+tut.el.no.grid,"In Stardeus, la tua coscienza risiede nel computer <b>ship</b>. Ciò consente di comandare lavoratori robotici e controllare dispositivi collegati alla stessa rete elettrica del computer <b>Ship</b>.",,
+tut.open.overlay.to.continue,Apri la sovrapposizione <b>{0}</b> per continuare.,,
+tut.el.overlay.1,"Questa è la sovrapposizione <b>{0}</b>. Lo esploreremo in profondità presto.<br><br>In questo momento ci dice che non abbiamo <b>Managed Grids</b>, il che significa che il <b>Ship Computer</b> non è collegato a nulla.<br><br>Costruiamo e colleghiamo un paio di dispositivi.<br><br>Chiudi l'overlay per continuare.",2023-08-23,
+tut.overlay.title,<b>{0}</b> Sovrapposizione,,
+tut.el.small.grid.1,"Il <b>Ship Computer</b> non è collegato a questo dispositivo, quindi non è ancora possibile controllarlo.<br><br>Vedrai la voce <b>{0}</b> nel pannello <b>Info</b> di tali dispositivi.",,
+tut.el.small.grid.2,I dispositivi non possono essere collegati direttamente tra loro. Dobbiamo collegarli tramite un <b>Connettore</b>.<br><br>Deselezionare il <b>Matter Reactor</b> con {0} per entrare nella modalità <b>Free Select</b>.,,
+tut.el.small.grid.3,"Dovrai prima collegare il <b>Connettore</b> al <b>Ship Computer</b> prima.<br><br>Il tentativo di collegare il <b>Matter Reactor</b> a un <b>Connettore</b> non collegato, poiché non si controlla ancora il <b>Connettore</b>.",,
+tut.el.small.grid.4,Ora c'è un collegamento tra il <b>Ship Computer</b> e il <b>Connettore</b>. Ciò consente di estendere la griglia ai dispositivi che il <b>Connettore</b> collegato può raggiungere. ,,
+tut.el.small.grid.title,Creazione di una griglia,,
+tut.el.small.grid.5,"Ci sono un paio di <b > luci da pavimento< / >b scollegati nelle vicinanze. È un po 'buio qui intorno, quindi colleghiamoli entrambi per ottenere un po 'di luce.<br><br>Possiamo usare la funzione <b>Auto Connect</b> integrata nei controlli <b>Connector</b>.",,
+tut.el.small.grid.6,Entrambi i <b>Floor Lights</b> sono ora collegati. Aspettiamo che si illuminino.,,
+tut.el.refuel.1,Le luci hanno innescato un <b>Electricity Deficit</b> poiché non abbiamo aggiunto alcun combustibile al reattore <b>Matter</b>.,,
+tut.el.refuel.2,"Il reattore <b>Matter</b> può trasformare quasi tutti i materiali in elettricità. Abbiamo un'abbondanza di <b>{0}</b>, un materiale ad alta produzione di energia. Usiamolo come fonte di carburante.<br><br>Fai clic sul pulsante <b>{1}</b> per continuare.",,
+tut.el.overlay.3,Diamo un po' di tempo affinché il reattore riceva combustibile e che il deficit di elettricità sia risolto.<br><br>Nel frattempo esamineremo il grafico elettrico.<br><br>Aumenta la <b>Time Speed</b> e apriamo la sovrapposizione <b>{0}</b>.,,
+tut.el.overlay.4,"Il <b>Ship Computer</b> è ora parte di una rete elettrica. Questa interfaccia mostra un grafico che mostra la produzione, il consumo, i livelli delle batterie e i deficit.<br><br>Passando il mouse sopra il grafico, è possibile ottenere informazioni sullo stato passato e presente della rete elettrica. Osserva come il deficit scompare quando il reattore inizia a generare energia.<br><br>Se il grafico non è visibile, attivarlo facendo clic sul pulsante <b>{0}</b>.",,
+tut.el.overlay.5,Si noti che è presente una rete elettrica sconosciuta elencata nella sezione <b>Reti non gestite</b> dell'overlay <b>{0}</b>.<br><br>Fare clic sull'elemento dell'interfaccia utente per mettere a fuoco la telecamera su tale griglia.,2023-08-23,
+tut.el.refuel.title,Configurazione del reattore Matter,,
+research.cannot.unload.unlock.effects,Impossibile scaricare questo nodo di ricerca a causa dei suoi effetti di sblocco irreversibili.,,
+tut.el.grid.merge.title,Unione di griglie,,
+tut.el.grid.merge.1,"Fino a quando il <b>Ship Computer</b> non sarà connesso, non saremo in grado di regolare alcuna connessione o configurare dispositivi in questa griglia. Costruendo una catena di <b>Connettori</b>, possiamo unire le due griglie e ottenere il controllo su quest'area.<br><br>Chiudere l'overlay <b>{0}</b> per continuare.",,
+tut.el.grid.merge.2,"Per prima cosa, costruiremo un ponte che porta al <b>Ship Computer</b>. Ciò fornirà la base per il posizionamento dei <b>Connettori</b>.",,
+tut.el.grid.merge.3,Ordina di costruire il pavimento nell'area evidenziata.<br><br>Fai clic e trascina un rettangolo per creare un ordine con una singola azione.,,
+tut.el.grid.merge.4,"Mentre il drone è impegnato nella costruzione del ponte, possiamo ordinare un nuovo <b>Connettore</b>.<br><br>I ti mostrerò il modo più rapido per farlo.",,
+tut.el.grid.merge.5_1,1. Tenere premuto {0} mentre si passa il mouse sul connettore.,,
+tut.el.grid.merge.5_2,2. Trascinare una linea verso il punto evidenziato.,2023-08-29,
+tut.el.grid.merge.5_3,3. Rilasciare {0} per ottenere un elenco di progetti di connettore.,,
+tut.el.grid.merge.5_4,4. Scegliere il tipo di connettore che si desidera creare.,,
+tut.el.grid.merge.6,Aspettiamo che venga costruito il nuovo <b>Connettore</b>. Verrà automaticamente collegato al connettore da cui hai trascinato una linea.,,
+tut.el.grid.merge.7,Aprire la sovrapposizione <b>{0}</b> e osservare come due griglie vengono unite in una dopo aver creato un collegamento tra i connettori evidenziati.<br><br>Create un collegamento tra i connettori evidenziati per continuare.,,
+tut.el.grid.merge.5.title,Il modo più veloce per creare un <b>Connettore</b>,,
+tut.el.bots.maintain.title,Manutenzione dei robot,,
+tut.el.bots.maintain.1,Tutto questo lavoro ha scaricato la batteria del nostro drone <b>Construction</b>. Diamogli un modo per ricaricarsi.,,
+tut.el.bots.maintain.2,I lavoratori robotici devono anche eseguire l'automanutenzione periodica. È meglio avere almeno una <b>Repair Station</b> sempre disponibile.,,
+tut.el.bots.maintain.3,"Ora collega i nuovi dispositivi alla rete elettrica.<br><br>Tip: puoi utilizzare {0} per trascinare e selezionare più dispositivi, quindi tenere premuto {1} e premere {0} sopra un <b>Connettore</b> per collegare i dispositivi selezionati.",2023-08-26,
+click.to.continue.setup,Fare clic per continuare la configurazione,,
+tut.el.deficit.1,È tempo di imparare come risolvere i problemi della rete elettrica. Ho creato una situazione che innescherà un deficit di elettricità.<br><br>La rete elettrica potrebbe aver bisogno di un momento per simulare. L'orologio non dovrebbe essere messo in pausa in questo momento.,,
+tut.el.deficit.1_2,"Quando si verifica un deficit, riceverai sempre una notifica.<br><br>Fai clic sulla notifica del deficit per aprire la sovrapposizione <b>{0}</b>.",,
+tut.el.deficit.2,I valori di consumo e produzione della rete elettrica con deficit saranno visualizzati in <color={0}>red</color>.<br><br>Fare clic sul pulsante <b>{1}</b> per avviare la risoluzione dei problemi.,,"{0} is the color code, do not move it away from <color={0}>"
+tut.el.deficit.2_2,Questa è la visualizzazione dei dettagli della rete elettrica. Può aiutarti a identificare e risolvere vari problemi.,,
+tut.el.deficit.3,Il deficit di elettricità sarà creato da uno dei <b>Consumatori</b>. Possiamo ottenere l'elenco di tutti i consumatori collegati a questa rete facendo clic sul pulsante <b>Consumatori</b> nella sezione <b>Management</b> della visualizzazione dei dettagli della griglia.,,
+tut.el.deficit.4,"L'elenco dei consumatori mostra prima i dispositivi con deficit. Vedrai che il <b>{0}</b> ha un deficit, perché il suo consumo energetico è contrassegnato in <color={1}>red</color>.<br><br>Puoi spegnere questo dispositivo o riconfigurarlo per raccogliere un materiale più economico per risolvere questo deficit.<br><br>Risolvi il deficit per continuare.",,
+tut.el.deficit.title,Risoluzione dei problemi relativi alla griglia,,
+ad.rej.would.get.stuck,Rimarrebbe bloccato,,
+tut.deselect.objects,Deselezionate tutti gli oggetti selezionati con {0} continuare.,,
+grids.managed,Griglie gestite,,
+grids.unmanaged,Griglie non gestite,,
+distance.to,Distanza: {0},,
+tut.winch.title,Spostamento di sezioni navali,,
+tut.winch.desc,"Questo tutorial ti insegnerà come utilizzare {0}, {1} e {2} per spostare le sezioni della nave sulla mappa.",,{0}{1}{2} are device names
+tut.winch.intro,"A volte ti troverai in una situazione in cui hai due o più <b>Sezioni</b> (pezzi) disconnessi della nave.<br><br>Puoi unire le sezioni costruendo un ponte tra di loro, oppure puoi invece spostare le sezioni.<br><br>Questo tutorial ti mostrerà come utilizzare dispositivi specializzati per spostare le sezioni della nave.",,
+tut.winch.end,"Ora sai tutto sullo spostamento della nave <b>Sezioni< / b> in giro. Ecco un riassunto:<br><br> - Usa <b>Winch Hook</b> e <b>Winch Anchor</b> a <b>Reel In</b> una sezione più piccola verso una più grande.<br> - Una piccola zona di pavimento non è considerata una sezione e non può essere avvolta in.<br> - I dispositivi collegati nello spazio possono impedire a una sezione di spostare tutto la strada. Se ciò accade, <b>Riposiziona ostacoli</b> e riprova.<br> - Puoi costruire un ponte di estensione <b>temporaneo</b> per avvolgere una sezione troppo lontana.<br> - Puoi spostare una sezione per raccogliere <b>Risorse</b> sparse nello spazio.<br> - Utilizzare <b>Maneuvering Controllers</b> per guidare una sezione o l'intera nave con alta precisione. Può aiutarti a evitare impatti di <b>asteroidi< / b>.",,
+tut.winch.step1_1,Iniziamo tirando un <b>Section</b> con numero <b>1</b> scritto su di esso verso la sezione con un <b>Ship Computer</b>. Useremo un gancio <b> verricello< / b> e un < > ancora del verricello< / b >.,,
+tut.winch.step1_2,Il <b>Winch Hook</b> ha un pulsante <b>Reel In</b> nella sezione <b>Management</b> del pannello <b>Info</b>. Conterrà un elenco di ancore <b>Winch Anchors</b> disponibili che potremmo avvolgere. Apriamo quella lista.,,
+tut.winch.step1_3,Facendo clic sul pulsante <b>Reel In</b> accanto al <b>Winch Anchor</b> selezionato inizierà il processo. Bobina nell'ancora etichettata <b>{0}< / b> in questo momento.,,
+tut.winch.step1_4,"Ora le due sezioni sono combinate in una sola. Tuttavia, scoprirai presto che le cose non vanno sempre così lisce.",,
+tut.winch.success,Verricello di successo,,
+tut.winch.step2_1,Proviamo ora a strizzare l'argano la sezione contrassegnata con il numero <b>2</b> appena sopra di noi.,,
+tut.winch.step2_2,L'operazione del verricello è stata interrotta perché un <b>Particle Collector</b> è di mezzo. Possiamo spostare l'ostacolo e riprovare.,,
+tut.winch.step2_4,Il <b>Particle Collector</b> non dovrebbe più impedire lo spostamento della sezione. Riproviamo la procedura del verricello.,,
+tut.winch.patch.1,C'è una piccola zona di pavimento con un <b>Winch Anchor< / b> nell'angolo in basso a destra dello schermo. Proviamo a riavvolgerlo.,,
+tut.winch.patch.2,L'operazione del verricello non è riuscita perché la patch è troppo piccola per essere considerata una <b>Section</b>.<br><br>La sovrapposizione <b>{0}</b> fornirà un elenco di sezioni valide insieme alle relative dimensioni.<br><br>Il modo migliore per sbarazzarsi di quel piccolo pezzo di pavimento è decostruirlo.,,
+tut.winch.step3_1,"Finora, abbiamo solo argano sezioni più piccole. Vediamo cosa succede quando proviamo a arginare la sezione contrassegnata con il numero <b>3</b>, che è più grande di qualsiasi sezione che abbiamo argano prima.",,
+tut.winch.step3_2,"Questa volta la sezione con il <b>Ship Computer</b> si è spostata verso la sezione in cui stavamo annaspando.<br><br>La sezione più piccola si sposterà sempre verso quella più grande, mentre la sezione più grande rimarrà ferma.",,
+tut.winch.step4_1,Ci sono alcuni modi creativi per usare la meccanica del verricello. Inseriamo la sezione con il numero <b>4</b> per raccogliere i materiali sparsi nello spazio.,,
+tut.winch.step4.title,Verricello creativo,,
+tut.winch.step5.title,Verricello sezioni distanti,,
+tut.winch.step5_1,Che ne dici di una piccola sfida. C'è una sezione con il numero <b>5</b> in alto a sinistra dello schermo. È troppo lontano perché il nostro <b>Winch Hook</b> possa raggiungerlo.<br><br>Costruiremo un ponte temporaneo verso quella sezione e sposteremo il <b>Winch Hook</b> più vicino. ,,
+tut.winch.step5_2,"Per prima cosa, vediamo fino a che punto può arrivare un <b>Winch Hook</b>. Selezionate il gancio evidenziato.",,
+tut.winch.step5_2_2,Ora usa {0} per ridurre lo zoom fino a quando non vedi un grande <b>cerchio< / b> intorno al dispositivo selezionato. Questo cerchio mostra la portata del gancio.,,
+tut.winch.step5_3,Ora abbiamo un'idea della lunghezza richiesta del ponte di estensione. Costruiamolo.,,
+tut.build.floor.in.area,Costruisci un <b>Floor</b> nell'area evidenziata.,,
+tut.winch.step5_4,Ora ordina di costruire un gancio <b>Winch</b> alla fine del ponte.,,
+tut.winch.step5_5,Costruiamo anche un <ancoraggio > verricello</b> sul bordo della sezione che vogliamo avvolgere.,,
+tut.winch.step5_6,"Dovremo collegare la nuova griglia <b>Winch Hook</b> alla griglia <b>Ship Computer</b>, ma è troppo lontana. Potremmo costruire un ulteriore <b>Connettore</b> per raggiungere il gancio, tuttavia c'è un modo per fornire una connessione wireless <b>temporanea</b> attraverso uno dei tuoi lavoratori. È perfetto per situazioni come questa.<br><br>Aspettiamo prima che le attività di compilazione esistenti vengano completate.",,
+tut.winch.step5_7,Fai clic sul pulsante <b>{0}</b> accanto al testo <b>{1}</b> per ordinare una connessione temporanea.,,
+tut.winch.step5_8,Hai ordinato una connessione <b>temporanea</b> a questo dispositivo. Un lavoratore arriverà e lo stabilirà a breve.<br><br>La funzione <b>Reel In</b> sarà quindi disponibile.,,
+tut.winch.step5_9,Ora rimuoviamo il ponte temporaneo in modo da poter finire di arginare la sezione.<br><br>Passa allo strumento <b>{0}</b>.,,
+tut.winch.step5_10,Destrutturare l'area evidenziata per continuare.,,
+tut.step.relocate,Utilizzare {0} per ordinare lo spostamento del <b>{1}</b> selezionato nell'area evidenziata.<br><br>Ruotare il dispositivo con {1}.,,
+tut.step.relocate.workspot,Il punto di lavoro (cerchio) deve essere su un pavimento vuoto.,,
+tut.step.relocate.waiting,In attesa di trasferimento.,,
+tut.winch.step6_1,"L'ultima sezione in basso a destra sarà molto più facile da attaccare, poiché ha diversi controllori di manovra <b> < / b> pronti per l'azione.<br><br>I controllo><ri di manovra <b> possono spostare una sezione della nave o l'intera nave con alta precisione. Possono essere utilizzati per spostare <b>Derelict Ships</b> o schivare <b>Asteroids</b> in arrivo.",2022-08-26,
+tut.winch.step6_2,Dovremo stabilire una connessione <b>temporanea</b> alla rete remota prima di poter utilizzare i controllori di manovra <b>Maneuvering</b>. ,2022-08-26,
+tut.winch.step6_3,In attesa che venga stabilita una connessione temporanea.,2022-08-26,
+tut.winch.step6_4,"Ora usa l'interfaccia utente <b>Maneuvering Controller</b> per regolare <b>{0}</b> e <b>{1}</b>, quindi usa il pulsante <b>{2}</b> per eseguire il movimento.<br><br>Quando questo <b>Controllore di manovra</b> si scaricherà,  seleziona il prossimo ed esegui un'altra mossa.<br><br>Il tuo obiettivo è collegare questa sezione a quella con il <b>Ship Computer</b>.",,
+tut.el.connect.multi,Connessione di più dispositivi,,
+tut.el.temp.connect,Stabilire una connessione temporanea,,
+tut.el.temp.disconnect,Rimozione della connessione temporanea,,
+tut.el.temp.disconnect.desc,Non abbiamo più bisogno della connessione <b>temporanea</b> al gancio <b>argano</b>. Rilasciamo il lavoratore che lo sta fornendo.,,
+tut.el.temp.disconnect.2,Fare clic sul pulsante <b>{0}</b> per rilasciare il worker e disabilitare la connessione temporanea.,,
+codex.m.research.datoids.desc,I datoidi rappresentano le informazioni utilizzate per sbloccare nuove tecnologie nei <b>{0}</b>.<br><br>I datoidi sono prodotti elaborando risorse per lo più comuni in <b>Data Harvesters</b>. Esistono diversi tipi di raccoglitori di dati che possono produrre diversi tipi di Datoids.<br><br>I datoidi devono essere conservati in caricatori <b>Datoid</b> per diventare utilizzabili per la ricerca.<br><br>I datoidi non possono essere acquistati o venduti.,,
+codex.m.research.datoids,Datoidi,,
+codex.m.ui.toolmenu,Menu degli strumenti,,
+codex.m.ui.toolmenu.desc,Ci sono due gusti del menu <b>Tool Menu</b>. Il <b>Menu griglia</b> predefinito e un <b>Menu radiale</b> alternativo che potrebbe essere più comodo quando si gioca con un <b>Gamepad</b>.<br><br>È possibile modificare il tipo di menu degli strumenti in <b>Impostazioni > Input</b>.,,
+quests.list.current,Missioni attuali,,
+toggle.view,Attiva/disattiva la visualizzazione,,
+obj.upgrades.speedupgrade,Aggiornamento della velocità,,
+obj.upgrades.speedupgrade.desc,"Può essere installato sia nei dispositivi che nei lavoratori robotici. Se installati nei dispositivi, funzioneranno il 15% più velocemente. Una volta installati nei robot, si muoveranno il 15% più velocemente. Gli effetti di più aggiornamenti sono l'impilamento.",,
+obj.upgrades.energyefficiencyupgrade,Aggiornamento dell'efficienza energetica,,
+obj.upgrades.energyefficiencyupgrade.desc,"Può essere installato sia nei dispositivi che nei lavoratori robotici. Se installati nei dispositivi, utilizzeranno il 15% in meno di elettricità. Se installati nei robot, la loro batteria durerà il 15% in più. Gli effetti di più aggiornamenti sono l'impilamento.",,
+research.speedupgrade,Aggiornamento della velocità,,
+quest.step.enter.starmap.layer,Inserisci il <b>{0}</b>,,"{0} will be ""System"", ""Galaxy"", etc"
+quest.step.enter.starmap.layer.desc,"Apri <b>Starmap</b>, quindi fai clic sul vicino <b>{0}</b> e seleziona l'opzione per inserirlo. ",,"{0} will be ""System"", ""Galaxy"", etc"
+quest.step.exit.starmap.layer,Uscire dal <b>{0}</b>,,"{0} will be ""System"", ""Galaxy"", etc"
+quest.step.exit.starmap.layer.desc,Vola fuori dall'anello più esterno nella <b>Starmap</b> per uscire dal <b>{0}</b>.,,"{0} will be ""System"", ""Galaxy"", etc"
+starmap.leaving,Lasciare {0},,"{0} will be ""System"", ""Galaxy"", etc"
+starmap.entering,Inserimento {0},,"{0} will be ""System"", ""Galaxy"", etc"
