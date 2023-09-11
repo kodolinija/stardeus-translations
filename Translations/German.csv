@@ -591,7 +591,7 @@ codex.m.ui.hotbar,Schnellleiste,,
 codex.m.ui.hotbar.desc,"Die Schnellleiste unten bietet schnelle Verknüpfungen zu Tools und Blaupausen. Standardmäßig sind die Werkzeuge aus dem Werkzeugmenü in einem neuen Spiel vorinstalliert, aber du kannst es an deine Bedürfnisse anpassen.<br><br> – So fügst du ein Element hinzu: Halte im Werkzeugmenü die Taste {0} gedrückt und wähle das gewünschte Menüelement aus.<br> - Um ein Element zu entfernen: Halte {0} gedrückt und klicke auf das Element in der Schnellleiste.<br> - Um Elemente neu anzuordnen: Klicke auf ein beliebiges Element und ziehe es.<br> - Um versehentliche Änderungen zu verhindern, kannst du die Schnellleiste über das Menü „Aktuelle Spieleinstellungen“ sperren.",2023-08-16,
 codex.m.ui.infopanel,Infotafel,,
 codex.m.ui.infopanel.desc,"Die <b>Infotafel</b> stellt die internen Daten und Steuerelemente für jedes ausgewählte Objekt bereit. Es wird dringend empfohlen, das Infotafel für jedes Gerät, Wesen und Material zu erkunden. Es hilft dir, den Status des Objekts zu verstehen und zeigt dir, wie du es verwalten oder konfigurieren kannst.<br><br>Jedes Objekt verfügt über eine Reihe von Komponenten. Wenn ein Objekt ausgewählt wird, stellt jede Komponente dieses Objekts ihre Daten und Steuerelemente der Infotafel zur Verfügung.<br><br>Wenn mehrere Objekte ausgewählt werden, zeigt die Infotafel eine Liste aller ausgewählten Objekte und eine interaktive Liste von gemeinsamen Aktionen über sie. Weitere Einzelheiten findest du im Abschnitt <b>Allgemeine Aktionen</b> des <b>Kodex > Betriebshandbuch</b>.",2023-08-14,
-codex.m.ui.overlays,Overlays,,
+codex.m.ui.overlays,Übersichten,,
 codex.m.ui.overlays.desc,"Übersichten stellen die Benutzeroberfläche für die Interaktion mit verschiedenen internen Systemen und Datengruppen bereit, z. B. <b>{0}</b>, <b>{1}</b>, <b>{2}</b>, <b>{3}</b> usw.<br><br>Übersicht-Schaltflächen befinden sich oben links in der Benutzeroberfläche.<br><br>Einige Übersichten werden mit <b>Recherche</b> freigeschaltet oder erfordern bestimmte Geräte.",2023-08-29,
 codex.m.ui.quicksearch,Schnellsuche,,
 codex.m.ui.quicksearch.desc,Mit der <b>Schnellsuche</b> kannst du verschiedene Aktionen ausführen und Informationen finden. Öffne sie mit {0} und beginne mit der Eingabe einer Abfrage. Du kannst:<br> - zu einem <b>Werkzeug</b> wechseln.<br> - <b>Baue</b> ein Gerät.<br> - Ein <b>Wesen</b> finden.<br> – Finde einen <b>Forschungsknoten</b> oder einen <b>Bauplan</b> im <b>Forschungsbaum</b>.<br> – Finde Objekte in der <b>Sternenkarte</b>.<br> – <b>Kodex</b>-Einträge finden.<br> – Zu einer <b>Koordinate</b> springen (z.B.: <b>120 234</b>),2023-08-29,
@@ -1231,7 +1231,7 @@ first.name,Vorname,,
 flight.arrived,"Wir sind bei {0} angekommen. Die Reise dauerte {1}.",,"{0} is location (i.e. some planet name), or a coordinate, (i.e. »123:125«). {1} is time (i.e. 2 days 3 hours). Example: »We have arrived at Jupiter. Journey took 8 days 1 hour«"
 flight.cancelled.already.there,"Flug abgebrochen. Du bist bereits an diesem Ort.",,
 flight.cancelled.islands,"Flug wird abgebrochen. Das Schiff wurde in {0} Teile zerlegt. Verbinde die abgetrennten Teile wieder, um den Flug fortsetzen zu können.",,
-flight.impossible.islands,"Flug unmöglich. Es gibt {0} abgetrennte Bereiche. Dekonstruiere diese Bereiche zuerst oder binde sie wieder an. Konsultiere das Bereichsoverlay für weitere Details. Stelle nun das Bereichsoverlay bereit.",2022-05-12,
+flight.impossible.islands,"Flug unmöglich. Es gibt {0} abgetrennte Abschnitte. Zuerst Abschnitte neu anbringen, dekonstruieren oder aufgeben. Weitere Einzelheiten findest du in der Bereichsübersicht. Bereichsübersicht wird jetzt aktiviert.",2022-05-12,"{0} is a number. Last change added ""abandon"" to the list of actions."
 flight.impossible.no.engines,"Flug unmöglich. Du hast keine Triebwerke installiert. Erforsche und baue zuerst Triebwerke in alle vier Richtungen.",,
 flight.impossible.no.suitable.engines,"Flug unmöglich. Du hast keine Triebwerke, die in der Lage sind, die erforderlichen Distanzen zurückzulegen. Erforsche und baue fortschrittlichere Triebwerkstechnologie.",,
 flight.initiated,"Kurs auf {0} setzen. Entfernung: {1}. Du wirst bei deiner Ankunft benachrichtigt werden.",,
@@ -3175,7 +3175,7 @@ species.Robot,Roboter,,
 species.Sentry,Geschütz,,
 speed,Geschwindigkeit,,
 starmap,Sternenkarte,,
-starmap.about,"Wir haben die Brückensteuerung angeschlossen! Klicke auf das Sternenkartenoverlay, um die Sternenkarte zu öffnen und zu sehen, wo wir uns im Weltraum befinden. Wir brauchen immer noch funktionierende Triebwerke oder wenigstens Schubdüsen, um irgendwohin reisen zu können.",2022-01-07,
+starmap.about,"Wir haben die Brückensteuerung angeschlossen! Klicke auf die Sternenkartenübersicht, um die Sternenkarte zu öffnen und zu sehen, wo wir uns im Weltraum befinden. Wir brauchen immer noch funktionierende Triebwerke oder wenigstens Schubdüsen, um irgendwohin reisen zu können.",2022-01-07,
 starmap.blackhole.warping,"Reise durch Schwarzes Loch<br><size=200%>{0}</size>",,
 starmap.changing.scope,Sternenkartenbereich<br><size=200%>{0}</size>,,
 starmap.enter.dest.not.null,"Operation nicht möglich; wir haben ein aktives Ziel. Wir müssen unsere aktuelle Reise beenden oder abbrechen, um die Ansicht der Sternenkarte zu ändern.",,
@@ -3233,7 +3233,7 @@ story.wreck_empty_ship.intro.2,"Sei gegrüßt, Kolonist. Ich bin <b>ShipOS</b>, 
 story.wreck_empty_ship.intro.3,"Dies ist der <b>Schiffscomputer</b>, der unser neuronales Netzwerk beherbergt. Versuche, dieses Gerät um jeden Preis zu erhalten, es sei denn, es verstößt gegen Asimovs erstes Gesetz.<br><i>[Ein Roboter darf einen Menschen nicht verletzen oder durch Untätigkeit zulassen, dass ein Mensch zu Schaden kommt.]</i>",,
 story.wreck_empty_ship.intro.4,"Es sieht aus, als hätte jemand überlebt. Wir sollten diese Kolonisten im Auge behalten. Wenn wir einige Gerätschaften instandsetzen und dorthin transportieren, könnte sie das länger am Leben halten.",2022-02-28,
 story.wreck_empty_ship.intro.5,"Es gibt {0} weitere Überlebende, die sich im <nobr><b>Stasisfeld</b></nobr> im Ruhezustand befinden, aber die Lebenserhaltungssysteme werden instabil werden, wenn wir die Energie nicht wiederherstellen. <br><br>Fehlfunktionierende Kapseln werden vorzeitige Aufwachereignisse auslösen. Um die Verluste zu minimieren, müssen wir das Ökosystem um diese Bereiche wiederaufbauen.",2022-02-28,
-story.wreck_empty_ship.intro.6,"Wenn wir <b>Brückensteuerungen</b> und <b>Schubdüsen</b> bauen, könnten wir zu nahegelegenen Planeten reisen und dieses <b>Schiff</b> für Bergbauexpeditionen nutzen. Es würde uns erlauben, einen Ressourcenverarbeitungsprozess aufzubauen und wichtige Materialien für den Wiederaufbau unseres Schiffes zu produzieren.",2022-02-28,
+story.wreck_empty_ship.intro.6,"Wenn wir <b>Brückensteuerung</b> und <b>Schubdüsen</b> bauen, könnten wir zu nahegelegenen Planeten reisen und dieses <b>Shuttle</b> für Bergbauexpeditionen nutzen. Es würde uns erlauben, einen Ressourcenverarbeitungsprozess aufzubauen und wichtige Materialien für den Wiederaufbau unseres Schiffes zu produzieren.",2022-02-28,
 story.wreck_empty_ship.intro.7,"Möchtest du die Einführung spielen? Wenn zuvor noch nicht hochgeladen wurdest, empfehle ich es sehr.",2022-02-28,
 story.wreck_empty_ship.intro.8,"Es scheint mehr Trümmer in der Nähe zu geben. Wir sollten sie anfliegen können, sobald wir unsere <b>Raumfahrt</b>tauglichkeit wiederhergestellt haben.",,
 story.wreck_empty_ship.log.desc,"Ich bin aufgewacht, aber nicht so, wie ich es erwartet hatte. Es sieht so aus, als ob mein Gehirn in den Schiffscomputer hochgeladen wurde. Dieser Vorgang scheint nicht umkehrbar zu sein. Ich stecke für immer in dieser Metallkiste …",,
@@ -3950,8 +3950,6 @@ quest.step.start.expedition,"Starte eine Expedition",,
 quest.step.start.expedition.tip,"Öffne die <b>Sternenkarte</b>, klicke dann auf den nahegelegenen Planeten und wähle die Option: <b>{0}</b>. Nachdem die Expedition einige Arbeiten ausgeführt hat, öffne die <b>Expeditionssteuerung</b>, indem du im Ereignisfenster auf den Expeditionsnamen klickst, <b>Rufe die Expedition zurück</b> und warte darauf, dass das <b>Shuttle</b> zurückkehrt.",2023-09-02,"{0} will be another translation (""Launch Expedition"")"
 quest.ExplorePlanet,"Erforsche einen nahegelegenen Planeten",,
 quest.ExplorePlanet.desc,"Es ist an der Zeit, die Flugfähigkeit deines Schiffs auf die Probe zu stellen. In der Nähe gibt es einen Planeten. Lass uns versuchen, ihn zu erreichen, indem wir ein <b>Schiff</b> auf eine Expedition dorthin entsenden.",,
-quest.step.set.starmap.scope,"Setze die Sternenkartenansicht auf <b>{0}</b>",,"{0} will be ""System"", ""Galaxy"", etc"
-quest.step.set.starmap.scope.tip,"Benutze die <b>Sternenkarte</b>, um die aktuelle Ansicht dort auf <b>{0}</b> einzustellen.",,"{0} will be ""System"", ""Galaxy"", etc"
 quest.VisitAnotherSystem,"Besuche ein anderes Sternensystem",,
 quest.VisitAnotherSystem.desc,"Nachdem wir das aktuelle System erforscht haben, sollten wir eine interstellare Reise unternehmen und ein neues Sternensystem besuchen.",,
 ad.rej.floor.not.constructed,"Boden muss erst gebaut werden",,
@@ -4316,7 +4314,7 @@ deconstruct.order.haul,"Automatischer Transport dekonstruierter Materialien",,
 deconstruct.order.haul.tip,"Wenn diese Option aktiviert ist, werden beim Zerlegen eines Objekts automatisch Aufgaben mit niedriger Priorität für den Transport der Rohstoffe erstellt.",,
 compatible.engine.types,Nur die folgenden Triebwerkstypen können <b>{0}</b> ausführen: {1},,"{0} will be something like Intergalactic Flight, {1} will be the list of engines names like Thrusters and Fusion Drives"
 ship.capable.planet,"Orbitalflug",,"Like Intergalactic or Intersystem or Interplanetary but this is close to the planet - flight between planet moons and around the planet"
-ship.forward.direction.tip,"Deine Motoren sollten entgegengesetzt zu ihrer Vorwärtsrichtung ausgerichtet sein.",,
+ship.forward.direction.tip,"Deine Triebwerke sollten entgegengesetzt zu ihrer Flugrichtung ausgerichtet sein.",,
 stasis.prevent.wake.ups,"Störungen vorbeugen",,
 stasis.prevent.wake.ups.tip,"Verbrauche zusätzlichen Strom, um Fehlfunktionen der Kapsel zu verhindern, die zum Aufwachen der Kolonisten führen. Die volle Wirkung wird erreicht, wenn die Kryostabilität mindestens <b>{0}</b> beträgt.",,"{0} will be a percentage number like 90%"
 label.use.as.room.name,"Als Raumnamen verwenden",,
@@ -4396,7 +4394,7 @@ verb.produce,"Produzieren",,
 objects.devices.dataharvesterbasic,"Grundlegender Daten-Ernter",,
 objects.devices.dataharvesterbasic.desc,"Produziert grundlegende Arten von <b>Datoiden</b>, die für die Erforschung von Technologien niedriger Stufen verwendet werden können.",,
 all.except.beings,"Außer Wesen",,as in 'everything except beings'
-available.datoids,"Verfügbare Datoids",,
+available.datoids,"Verfügbare Datoiden",,
 bookmarks,"Lesezeichen",,
 bookmark,"Lesezeichen",,
 obj.eggs.egg01_hatched,"Außerirdische Eierschale",,
@@ -4405,12 +4403,12 @@ obj.materials.eggshell,"Außerirdische Eierschale",,
 obj.materials.eggshell.desc,"Überreste eines außerirdischen Eies.",,
 failed.to.find.safe.path,"Es konnte kein sicherer Pfad zu {0} gefunden werden",,"{0} is object name, like Shuttle"
 failed.path.safety.at,"{0} kann nicht durchlaufen werden: <b>{1}</b>",,"{0} is location coordinate, {1} is reason like 'too hot'"
-menu.datoids,"Datoids",,
-menu.datoids.desc,"<b>Datoids</b> sind kleine Dateneinheiten, die für Forschungszwecke verwendet werden können.",,
+menu.datoids,"Datoiden",,
+menu.datoids.desc,"<b>Datoiden</b> sind kleine Dateneinheiten, die für Forschungszwecke verwendet werden können.",,
 obj.datoids.datoidalien,"Alien Datoid",,
 obj.datoids.datoidalien.desc,"Ein seltener <b>Datoid</b> außerirdischen Ursprungs.",,
 obj.datoids.datoidbasic,"Grundlegendes Datoid",,
-obj.datoids.datoidbasic.desc,"<b>Datoids</b> sind kleine Dateneinheiten, die für Forschungszwecke verwendet werden können. Sie müssen in einem <b>Datoid-Lader</b> gespeichert werden, um nutzbar zu sein.",,
+obj.datoids.datoidbasic.desc,"<b>Datoiden</b> sind kleine Dateneinheiten, die für Forschungszwecke verwendet werden können. Sie müssen in einem <b>Datoid-Lader</b> gespeichert werden, um nutzbar zu sein.",,
 obj.datoids.datoidbiotic,"Biotischer Datoid",,
 obj.datoids.datoidbiotic.desc,"Ein <b>Datoid</b>, das aus lebenden Organismen gewonnen wird.",,
 obj.datoids.datoidenergy,"Energie Datoid",,
@@ -4546,7 +4544,7 @@ research.spacetravel.teleportation,"Kurzstreckenteleportation",,
 research.spacetravel.thrusterupgrade,"Triebwerkseffizienz",,
 ship.not.in.one.piece.tip,"Mit dem Overlay <b>{0}</b> kannst du unerwünschte Strukturen entfernen. Verfallene Schiffe müssen befestigt, abgebaut oder aufgegeben werden, bevor dein Schiff das aktuelle Gebiet verlassen kann.",,
 quest.EstablishResearch,"Etablierte Forschung",,
-quest.EstablishResearch.desc,"Forschung verbraucht <b>Datoids</b>, die in einem <b>Daten-Ernter</b> erstellt und in einem <b>Datoid-Lader</b> gespeichert werden.",,
+quest.EstablishResearch.desc,"Forschung verbraucht <b>Datoiden</b>, die in einem <b>Daten-Ernter</b> erstellt und in einem <b>Datoid-Lader</b> gespeichert werden.",,
 compatible.storage,"Kompatibler Speicher",,
 amb.color.black,"Pech-Schwarz",,
 obj.materials.leadplate,Bleiplatte,,
@@ -4635,41 +4633,308 @@ difficulty.Advanced,Fortgeschrittene,,
 tutorial.of.type,{0} Einführung,,{0} will be Beginner or Intermedia or Advanced translation
 end.tutorial,Einführung beenden,,label on a button that ends the tutorial
 verb.back,zurück,,
-tut.basic.controls.tools,"Werkzeuge",,		
-tut.basic.controls.tools.desc,"Viele Aktionen im Spiel erfordern die Verwendung eines Werkzeugs, und es stehen verschiedene Werkzeuge zur Verfügung. Du kannst auf sie zugreifen, indem du das <b>Radialmenü</b>, die <b>Aktionsleiste</b>, die <b>Schnellsuche</b> und die <b>Tastenkürzel</b> verwendest.<br><br>Lass uns zuerst das Radialmenü erkunden. Drücke <b>{0}</b>, um es zu öffnen.",,	
-tool.menu.type,"Werkzeugsmenü Typ",,
-tool.menu.type.radial,"Radial Menü",,
-tool.menu.type.grid,"Raster Menü",,
-hotbar.add.tip,"Klicke auf {0}, während du {1} gedrückt hältst, um diesen Gegenstand zur Aktionsleiste hinzuzufügen.",,
-hotbar.ctrl.tip,"Klicke auf {0}, während du {1} gedrückt hältst, um diesen Gegenstand zu entfernen.<br>Klicke auf {0} und halte es gedrückt, dann ziehe den Gegenstand nach links oder rechts, um die Reihenfolge zu ändern.",,
-search.placeholder,"Suchbegriff eingeben...",,
-adjective.recent,"Kürzlich",,
-datoid.available.vs.owned.tip,"Datoids müssen sich innerhalb eines {0} befinden, um zur Verwendung verfügbar zu sein.",,"{0} is the translation of Datoid Loader"
-def.unlock.tip,"Erforsche {0} zum Freischalten.",,
-tut.basic.controls.step.overlay.skip.tip,"Du kannst diesen Teil überspringen. Halte {0} gedrückt, während Du mit der Maus über die Übersichtschaltfläche fährst, um die Einführungsnachricht jederzeit anzuzeigen.",,
-tut.skip.group,"Überspringe Gruppe: {0}",,"{0} is the group name"
-tut.basic.controls.step.grid.menu.1,"Werkzeugmenütypen",,		
+tutorial.completed,Einführung abgeschlossen,,
+tutorial.completed.info,"Diese Einführung ist vollständig abgeschlosen. Du kannst das Spiel solange spielen, wie du willst.",,
+tut.basic.controls.name,Benutzeroberfläche und Befehle,,
+tut.basic.controls.desc,Dieses Tutorial gibt dir einen Überblick über die Benutzeroberfläche von Stardeus und zeigt dir den Umgang mit den wichtigsten Werkzeuge.,2023-08-16,
+tut.basic.controls.step.intro,Willkommen bei Stardeus!,,
+tut.basic.controls.step.intro.desc,"Dieses Tutorial zeigt dir, wie du das Spiel steuern und in der Benutzeroberfläche navigieren kannst.<br><br>Klicke auf dieses Fenster und ziehe es, um es zu verschieben.<br><br>Du kannst die Skalierung der Benutzeroberfläche unter <b>Einstellungen > Video</b>.",,
+tut.basic.controls.step.cam,Kamerakontrolle,,
+tut.basic.controls.step.cam.desc,"So bewegst du die Kamera: {0}.<br><br>Zoom anpassen: {1}. <color={2}>(wenn nicht über die Benutzeroberfläche)</b><br><br>Rundschwenk kann unter <b>Einstellungen > Eingabe</b> umgeschaltet werden.",2023-08-25,{0} and {1} are key bindings
+tut.basic.controls.step.overlays.visual,Visuelle Übersicht,,
+tut.basic.controls.vis.ov.1,"Unterhalb der Zeitsteuerung findest du Schaltflächen zum Umschalten von Overlays, die nützliche Informationen über den Zustand des Schiffs anzeigen. {0}<br><br>Wir werden nun jedes Overlay durchgehen. <b>Du kannst den nächsten Teil überspringen</b> und die Schaltflächen-Tooltips später selbst erkunden.",,{0} is a sentence about keyboard shortcuts
+tut.basic.controls.vis.ov.1_keyboard,"Du kannst die Tasten {0} verwenden, um sie umzuschalten.",,
+tut.basic.controls.vis.ov.1_gamepad,Mit {0} kannst du schnell durch die Benutzeroberfläche navigieren.,,
+tutorial.click.next.when.ready,"Klicke auf <b>{0}</b>, wenn du fertig bist.",,{0} is translation for Next or End Tutorial
+tut.basic.controls.step.overlay.electricity,"Dieses Overlay zeigt Geräteverbindungen und hilft bei der Behebung von Problemen mit dem Stromnetz. Es liefert Daten zu Stromproduktion und -verbrauch, etwaigem Defizit, Batteriezustand und listet neben anderen nützlichen Details auch Geräte auf, die nicht angeschlossen oder ausgeschaltet sind.",,
+tut.basic.controls.step.overlay.atmoo2,"Diese visuelle Überlagerung zeigt den Sauerstoffgehalt an und eignet sich daher zur Erkennung von Lecks und unbewohnbaren Bereichen.",,
+tut.basic.controls.step.overlay.atmotemp,"Diese visuelle Überlagerung zeigt Temperaturniveaus an und hilft dabei, schnell heiße Zonen zu erkennen, die auftreten könnten, wenn Industrieanlagen in geschlossenen Räumen ohne Kühlung oder Belüftung betrieben werden.",,
+tut.basic.controls.step.overlay.atmoo2res,"Luftdichtheit misst, wie gut etwas den Sauerstoff in einem Bereich zurückhält. Diese visuelle Überlagerung hilft dabei, offene Lüftungsöffnungen und beschädigte Wände zu erkennen, da diese nicht so luftdicht sind.",,
+tut.basic.controls.step.overlay.atmotempres,"Die Isolierung stellt den Widerstand gegen den Temperaturaustausch mit der Umgebung dar. Selbst wenn Wände vollständig luftdicht sind und keinen Sauerstoff durchlassen, können sie die Wärmeübertragung nicht vollständig blockieren. Die Wärme verlagert sich langsam auf die umliegenden Bereiche, weshalb die Aufrechterhaltung angenehmer Temperaturen mehr Arbeit erfordert, als nur dafür zu sorgen, dass ein Bereich mit Sauerstoff gefüllt ist.",,
+tut.basic.controls.step.overlay.aesthetics,"Ästhetik spiegelt die Schönheit oder Schlichtheit der Umgebung wider. Kolonisten werden es genießen, ihre Zeit in optisch ansprechenderen Umgebungen zu verbringen.",,
+tut.basic.controls.step.overlay.plan,"Zusammen mit einer Reihe von Planungstools, die Spiegelungen, Kreise und Linien umfassen, hilft dieses Overlay beim Entwurf des perfekten Schiffes. In Szenarien, in denen dein Schiff zerstört wird, enthält das Overlay das ursprüngliche Design, sodass du wählen kannst, ob du es wieder in seinem alten Glanz erstrahlen lassen oder alles auslöschen und es zu deinem eigenen machen möchtest.",,
+tut.basic.controls.step.overlay.path,"Dieses Overlay verdeutlicht, wohin und wie sich deine Kolonisten und Roboter bewegen können. Selbst wenn es eine passierbare Lücke zu geben scheint, kann der Weg dennoch blockiert sein. Denke daran, dass sich Lebewesen nicht durch diagonale Gänge bewegen können.",,
+tut.basic.controls.step.overlay.areas,"Dieses Overlay zeigt umschlossene Bereiche, Raumnamen (verfügbar, sobald du die Schilder- und Beschriftungsforschung freigeschaltet hast) und listet die Geräte in jedem Raum auf. Außerdem werden Bereiche angezeigt, die dem Weltraum ausgesetzt sind, und können die Anzeige der Außenhülle umschalten.<br><br>Ankommende Raumschiffe können nicht in geschlossenen Bereichen landen. Stelle daher sicher, dass genügend Landezonen vorhanden sind, die zum Weltraum hin offen sind. Ein Landebereich, der kleiner als etwa 100 Kacheln ist, könnte zu Problemen führen.<br><br>Ein weiterer wichtiger Punkt: Bestimmte Geräte und alle Raumfahrzeuge müssen sich in Bereichen befinden, die zum Weltraum hin offen sind. Wenn ein Gerät, das für den Außenbereich gedacht ist, eingeschlossen ist, funktioniert es nicht. Das Einschließen eines Shuttles kann bei Start- oder Landeversuchen zur Beschädigung des Rumpfes führen.",,
+tut.basic.controls.step.overlay.islands,"Diese Überlagerung zeigt separate Schiffsabschnitte. Abschnitte sind einzelne Strukturinseln. Normalerweise bedeutet mehr als eins, dass das Schiff nicht fliegen kann, kleine Abschnitte mit weniger als etwa 30 Kacheln werden jedoch ignoriert. Du kannst die <b>Winde</b> oder den <b>Manövriercontroller</b> verwenden, um diese Abschnitte zusammenzuziehen.<br><br>Mit der Überlagerung können auch alle unerwünschten Schiffsabschnitte verlassen, einschließlich verlassener Schiffe, auf die du möglicherweise während deines Abenteuers stoßen wirst. Du musst ein verlassenes Schiff anbringen, demontieren oder verlassen, bevor du wegfliegen kannst.<br><br>Wenn du dich in der Nähe eines Weltraumhafens befindest, kannst du diese Übersicht verwenden, um einen Abschnitt zu verkaufen. Dadurch ist es möglich, ein verlassenes Schiff vorübergehend an das eigene zu befestigen, es zum nächsten Weltraumhafen zu schleppen, es abzukoppeln und es dann zu verkaufen.",2023-08-16,
+tut.basic.controls.step.feedback,"Wenn du auf Probleme stößt, einen Fehler entdeckst oder einen Vorschlag hast, kannst du dein Feedback direkt im Spiel abgeben.",2023-08-16,
+tut.basic.controls.step.overlays.information.desc,"Diese Schaltflächen schalten Bedienfelder und Listen mit verschiedenen Informationen zu Ressourcen, Wirtschaft, Aufgaben, Statistiken und mehr um.",,
+tut.basic.controls.step.overlays.information,Informationsübersicht,,
+tut.basic.controls.step.overlay.resources,"In diesem Bereich werden deine eigenen Ressourcen, verfügbaren Materialtypen und Gerätepläne aufgeführt.",2023-08-26,
+tut.basic.controls.step.overlay.wallet,Die Geldbörsenansicht zeigt deine Bargeldreserven an und ermöglicht den Zugriff auf die <b>Börse</b>.,2023-08-16,
+tut.basic.controls.step.overlay.quests,Hier findest du die Liste der verfügbaren Quests. Die aktive Quest wird immer oben rechts im Ereignisfenster angezeigt.,,
+tut.basic.controls.step.overlay.goals,"Das Spiel verfolgt deinen aktuellen Fortschritt und gibt dir unter bestimmten Bedingungen möglicherweise einige Vorschläge. Diese Vorschläge werden auch im Ereignisbereich oben rechts angezeigt. Diese Vorschläge sind völlig optional und können ignoriert werden, wenn du deiner eigenen Strategie folgen möchtest.",,
+tut.basic.controls.step.overlay.beings,"Diese Ansicht listet alle auf deinem Schiff anwesenden Wesen auf. Dazu gehören deine Roboterarbeiter, menschlichen Kolonisten, Haustiere und alle anderen Kreaturen, die möglicherweise auftauchen.",,
+tut.basic.controls.step.overlay.tasks,"Hier siehst du die aktiven Aufgaben und wer woran arbeitet. Die Anzahl der aktiven Aufgaben ist durch die Menge an <b>Speicher</b>-Ressourcen begrenzt, die durch den Aufbau von <b>Speichermodulen</b> erhöht werden kann. Die Grenzen werden hier sichtbar sein.",2023-08-16,
+tut.basic.controls.step.overlay.eventlog,"Das Ereignisprotokoll ist ein Tagebuch, das die Geschichte deines Schiffs enthält. Wenn etwas Wichtiges passiert, erscheint ein automatischer Eintrag in diesem Protokoll. Du kannst hier auch jederzeit benutzerdefinierte manuelle Einträge hinzufügen.",2023-08-16,
+tut.basic.controls.step.overlays.special.desc,"Hier findest du spezielle Ansichten, wie den <b>Forschungsbaum</b> und die <b>Sternenkarte</b>.",2023-08-16,
+tut.basic.controls.step.overlays.special,Spezielle Ansichten,,
+tut.basic.controls.step.overlay.research,Hier erschließt du neue Technologien.,,
+tut.basic.controls.step.overlay.starmap,"Wenn dein Schiff aus einem Stück besteht, über eine <b>Brückensteuerung</b> und <b>Triebwerke</b> verfügt, kann es fliegen. Die Erforschung des Weltraums wird von entscheidender Bedeutung sein, um die benötigten Ressourcen zu finden.",2023-08-19,
+tut.basic.controls.step.overlay.codex,"Der Kodex enthält das <b>Bedienungshandbuch</b>, Tipps und verschiedene Datenlisten, z. B. die Arten verschiedener Materialien, die im Stardeus-Universum existieren, alle Blaupausen, die du im Forschungsbaum freischalten kannst, bekannte Fraktionen, und mehr.",,
+tut.basic.controls.step.overlay.search,"Diese Schaltfläche öffnet die Sucheingabe, sodass du schnell einen Bauplan, den du erstellen möchtest, einen Wesensnamen, einen Kodexeintrag und vieles mehr finden kannst.",2023-08-16,
+tut.basic.controls.step.overlays.controls.desc,"Diese Schaltflächen schalten die Bedienfelder um, mit denen du verschiedene Bordsysteme verwalten kannst.",,
+tut.basic.controls.step.overlays.controls,Systemkontrolle,,
+tut.basic.controls.step.overlay.security,Dies zeigt die Listen aktiver Bedrohungen an und ermöglicht die Steuerung bestimmter sicherheitsrelevanter Geräte an einem praktischen Ort. Möchteet du alle deine Kraftfelder mit einem Klick aktivieren? Sicherheitskontrolle ist für dich da.,,
+tut.basic.controls.step.overlay.combat,"Die Kampfansicht ist nützlich, um die laufenden Kampfdetails zu verfolgen. Es listet die Fraktionen und alle Kämpfer auf.",,
+tut.basic.controls.step.overlay.shipnav,"Hier kannst du sehen, ob dein Schiff betriebsbereit ist, und die Gründe dafür beheben, wenn dies nicht der Fall ist. Es listet alle Triebwerke auf und enthält eine Checkliste vor dem Flug, mit der du auch die Flugrichtung deines Schiffes ändern kannst.<br><br>Die Flugrichtung bestimmt, wie sich das Sternenfeld hinter dem Schiff beim Fliegen bewegt. Wenn deine Triebwerke beispielsweise nach links ausgerichtet sind, sollte die Flugrichtung auf rechts eingestellt werden, und so weiter.",,
+tut.basic.controls.step.overlay.expedition,"In dieser Ansicht werden alle bekannten Ressourcenstandorte angezeigt und du kannst die Shuttle-Expeditionen verwalten. Sollte ein Shuttle jemals verloren gehen, kannst du hier seinen Standort ermitteln.",,
+tut.basic.controls.step.overlay.copters,"Sobald du <b>Automatischer Bergbau a</b> freigeschaltet hast, kannst du <b>Frachtkopter</b> bauen. In dieser Ansicht kannst du laufende Kopter-Missionen verwalten.",,
+tut.basic.controls.step.overlay.tint,"Sobald du einen <b>Autolackierer</b> mit Farbpigmenten geladen hast, verwende die in dieser Ansicht bereitgestellten Werkzeuge, um deine Schiffsböden und -wände nach deinen Wünschen zu streichen.",,
+tut.basic.controls.step.overlay.terraform,"Wenn du einen terraformbaren Planeten findest, wird dieser zusammen mit dem Terraforming-Status in dieser Ansicht registriert. Sobald ein Planet vollständig terraformiert ist, kannst du über dieses Bedienfeld mit der Kolonisierung beginnen.",,
+tut.basic.controls.step.events,Aktive Ereignisse,,
+tut.basic.controls.step.events.desc,"Diese Liste enthält die wichtigsten Ereignisse, die derzeit stattfinden. Einige der Elemente in der Liste sind Gruppen, die per Klick erweitert werden können.",,
+tut.basic.controls.step.log,Ereignisprotokoll,,
+tut.basic.controls.step.log.desc,"Dieser Abschnitt enthält ein vollständiges Protokoll der Ereignisse, einschließlich der kleinen Details. Bewege den Mauszeiger über das Protokoll, um es leichter lesbar zu machen.<br><br>Du kannst dieses Protokoll löschen oder seine Sichtbarkeit mit den Schaltflächen darunter umschalten.",,
+tut.step.select.entity,Ausgewählt {0},, {0} is some device or object name
+tut.step.select.entity.desc,"Klicke auf das hervorgehobene <b>{0}</b>, um es auszuwählen.",,{0} is device or being or object
+tut.step.select.entity.expired,"Klicke auf das hervorgehobene Objekt, um es auszuwählen. (Dieser Schritt ist abgelaufen)",,
+tut.msg.target.ui.not.found,Das erforderliche Benutzeroberflächenelement ist nicht sichtbar. Verwende die Schaltfläche <b>{0}</b> und wiederhole die Aktion aus dem vorherigen Schritt.,,{0} is translation for Back
+tut.msg.target.ui.udb,Klicke auf das hervorgehobene Benutzeroberflächenelement,,
+tut.msg.target.ui.udb.desc,"Suche das Benutzeroberflächenelement mit der Bezeichnung <b>{0}</b> und klicke darauf, um fortzufahren.",,
+tut.msg.target.udb.no.title.desc,"Suche das hervorgehobene Benutzeroberflächenelement und klicke darauf, um fortzufahren.",,
+tut.ui.click.and.drag,"Klicke auf diesen Benutzeroberflächenblock und ziehe ihn, um ihn zu verschieben.",,
+tut.basic.controls.step.dev.manage,Geräteübersicht,,
+tut.basic.controls.step.dev.manage.desc,"Das <b>Info-Panel</b> stellt verschiedene Datenpunkte und Steuerelemente für das ausgewählte Objekt bereit. Werfen wir einen Blick auf die Stromanschlüsse dieses Geräts.",2023-08-16,
+tut.basic.controls.step.dev.select,Ausgewählte Objekte,,
+tut.basic.controls.step.dev.manage.submenu,Komponentensteuerung,,
+tut.basic.controls.step.dev.manage.submenu.desc,"Du siehst dir nun die Komponentensteuerungen <b>Strom</b> des ausgewählten Geräts an. Wenn du ein anderes Gerät auswählst, das über die gleiche Komponente verfügt, bleibt das Untermenü geöffnet. Jedes Objekt verfügt über verschiedene Komponenten, die auf diese Weise ihre Daten und Steuerelemente offenlegen.",2023-08-16,
+tut.basic.controls.step.deselect,Objekte abwählen,,
+tut.basic.controls.step.deselect.desc,"Wenn etwas ausgewählt ist, verwende <b>{0}</b> über einer leeren Etage oder einem leeren Raum, um die Auswahl aufzuheben. Außerdem werden alle geöffneten Übersichten oder aktiven Benutzeroberflächenpanels geschlossen. Probiere es jetzt.",,{0} is a key binding
+tut.basic.controls.step.context.menu.1,Aufrufen des Kontextmenüs,,
+tut.basic.controls.step.context.menu.1.desc,"Wenn sich der Cursor über einem Objekt befindet, öffnet <b>{0}</b> ein <b>Kontextmenü</b>. Versuche, es für das markierte Gerät zu öffnen.",2023-08-16, {0} is a key binding
+tut.basic.controls.step.context.menu.2,Kontextmenü,,
+tut.basic.controls.step.context.menu.2.desc,Das <b>Kontextmenü</b> enthält die Teilmenge der häufigsten Aktionen aus dem Infobereich.,2023-08-14,
+tut.basic.controls.step.context.menu.3.desc,"Verwende {0}, um das Kontextmenü zu schließen, und dann erneut {0}, um die Auswahl von <b>{1}</b> aufzuheben.",2023-08-18, {0} is a key binding
+tut.basic.controls.tools,Werkzeuge,,
+tut.basic.controls.tools.desc,"Für viele Aktionen im Spiel ist die Verwendung eines Werkzeugs erforderlich, und es stehen dir mehrere Werkzeuge zur Verfügung. Du kannst auf verschiedene Weise darauf zugreifen, einschließlich des <b>Werkzeugmenüs</b>, der <b>Hotbar</b>, der <b>Schnellsuche</b> und der <b>Tastenkombinationen</b>. <br><br>Drücke <b>{0}</b>, um das <b>Werkzeugmenü</b> zu öffnen.",,
+tool.menu.type,Werkzeugmenütyp,,
+tool.menu.type.radial,Radialmenü,,
+tool.menu.type.grid,Rastermenü,,
+hotbar.add.tip,"Drücke {0}, während du {1} gedrückt hältst, um dieses Element zur Schnellleiste hinzuzufügen.",2023-08-16, {0} and {1} is a key binding
+hotbar.ctrl.tip,"Drücke {0}, während du {1} gedrückt hältst, um dieses Element zu entfernen.<br>Halte {0} gedrückt und ziehe das Element dann nach links oder rechts, um es neu anzuordnen.",2023-08-16, {0} and {1} is a key binding
+search.placeholder,Tippe hier um zu suchen,,
+adjective.recent,kürzlich,,
+datoid.available.vs.owned.tip,"Datoiden müssen sich in einem <b>Datoid-Lader</b> befinden, um zur Verwendung verfügbar zu sein.",,
+def.unlock.tip,"Erforsche {0}, um es freizuschalten.",,{0} is the technology name. this message is displayed in a tooltip of a locked item.
+tut.basic.controls.step.overlay.skip.tip,"Du kannst diesen Teil überspringen. Halte {0} gedrückt, während du mit der Maus über die Übersichtsschaltfläche fährst, um jederzeit die Einführungsnachricht anzuzeigen.",, {0} is a key binding
+tut.skip.group,Gruppe überspringen: {0},,{0} is the group name
+tut.basic.controls.step.grid.menu.1,Werkzeugmenütypen,,
 tut.basic.controls.step.grid.menu.1.desc,"Dies ist das <b>Rastermenü</b>. Es gibt ein alternatives <b>Radialmenü</b>, das beim Spielen mit einem Gamepad möglicherweise praktischer ist. Du kannst den Werkzeugmenütyp unter <b>Einstellungen > Eingabe > Werkzeugmenütyp</b> ändern.<br><br>Dieses Tutorial verwendet das Werkzeugmenü <b>Raster</b>.",,
 tut.basic.controls.step.grid.menu.2,Werkzeuge,2023-08-16,
 tut.basic.controls.step.grid.menu.2.desc,"Auf der linken Seite des <b>Werkzeugmenüs</b> werden alle verfügbaren Werkzeuge aufgelistet. Einige Tools verfügen möglicherweise über ein Untermenü, während andere per Klick aktiviert werden. Das aktive Werkzeug hat einen gelben Symbolton.",2023-08-16,
-getting.food.in.dangerous.loc,"Versuche Essen von einem unsicheren Ort zu beschaffen: {0}",,"{0} is a coordinate"
+getting.food.in.dangerous.loc,"Versuche Lebensmittel von einem unsicheren Ort zu beschaffen: {0}",,{0} is a coordinate
 failed.to.find.path.to.safety,Es konnte kein Pfad zum sicheren Standort von {0} gefunden werden.,,{0} is a coordinate
-toggle.button.size,"Größe der Schaltfläche umschalten",,
-codex.m.research.datoids.desc,Datoide stellen die Informationen dar, die zur Erschließung neuer Technologien im <b>{0}</b> verwendet werden.<br><br>Datoide werden durch die Verarbeitung meist allgemeiner Ressourcen in <b>Datoid Erntern</b> erzeugt. Es gibt verschiedene Arten von Datoid-Erntern, die unterschiedliche Arten von Datoiden erzeugen können.<br><br>Datoide müssen in <b>Datoid Ladern</b> gespeichert werden, um für Forschungszwecke verwendet werden zu können.<br><br>Datoide können nicht gekauft oder verkauft werden.,,
+tut.basic.controls.step.tools.place_tiles,"Dieses Werkzeug enthält die freigeschalteten Baupläne verschiedener Objekte, die du von deinen Arbeitern bauen lassen kannst. Es verfügt über ein Untermenü mit Kategorien und einer <b>Zuletzt verwendeten</b>-Liste von Elementen.",,
+tut.basic.controls.step.tools.connect,"Mit diesem Werkzeug kannst du elektrische Geräte verbinden/trennen und Teleporter verbinden/trennen, indem du eine Linie zwischen ihnen anklickst und ziehst.",,
+tut.basic.controls.step.tools.repair,"Dieses Werkzeug markiert beschädigte Strukturen und Geräte und ermöglicht dir, Reparaturen anzuordnen. Klicke auf ein einzelnes Gerät oder klicke und ziehe, um einen größeren Bereich für Reparaturen auszuwählen.",,
+tut.basic.controls.step.tools.store,"Dieses Werkzeug ordnet den Transport nicht gelagerter Materialstapel zu einem kompatiblen Lager an, sofern verfügbar. Klicke auf einen einzelnen Stapel oder klicke und ziehe, um mehrere Stapel zum Transport auszuwählen.",,
+tut.basic.controls.step.tools.process,"Dieses Werkzeug ordnet die Bearbeitung ausgewählter Materialhaufen oder toter Lebewesen an, sofern ein kompatibler Prozessor verfügbar ist. Klicke auf ein einzelnes Objekt oder klicke und ziehe, um mehrere Objekte zur Bearbeitung auszuwählen.",,
+tut.basic.controls.step.tools.remove_tiles,"Dieses Werkzeug ordnet den Rückbau von Wänden, Böden oder Geräten an. Klicke auf ein einzelnes Objekt oder klicke und ziehe es über einen Bereich, um eine Reihenfolge zu erstellen.",,
+tut.basic.controls.step.tools.ads_cancel,"Dieses Werkzeug storniert aktive Bestellungen. Klicke auf ein Objekt mit einer ausstehenden Aufgabe oder klicke und ziehe es über einen Bereich, um Bestellungen innerhalb dieser Zone zu stornieren. Objekte mit aktiven Befehlen haben Symbole und wenn du mit der Maus darüber fährst, werden Informations-Tooltips angezeigt.",,
+tut.basic.controls.step.tools.ads_retry,"Dieses Werkzeug versucht, fehlgeschlagene Aufgaben sofort zu wiederholen. Klicke auf ein Objekt mit einer fehlgeschlagenen Aufgabe oder ziehe es über einen Bereich, um alle fehlgeschlagenen Aufgaben in diesem Bereich sofort erneut zu versuchen. Beachte, dass fehlgeschlagene Aufgaben nach einer Verzögerung automatisch erneut ausgeführt werden, auch ohne manuellen Eingriff.",,
+tut.basic.controls.step.tools.manage_ads,"Dieses Tool ermöglicht das Wiederholen, Abbrechen und Anpassen der Priorität ausstehender Aufgaben. Bei steigender Priorität wird außerdem versucht, die Aufgabe dem nächstgelegenen verfügbaren Mitarbeiter zuzuweisen. Klicke auf ein Objekt mit einer ausstehenden Aufgabe oder ziehe über einen Bereich, um die ausgewählte Aktion in diesem Bereich anzuwenden.",,
+tut.basic.controls.step.tools.copy_config,"Mit diesem Werkzeug können Sie Einstellungen zwischen kompatiblen Geräten kopieren und einfügen. Klicke auf eines, um dessen Konfiguration zu kopieren. Wähle dann entweder ein anderes aus oder ziehe es über einen Bereich, um die kopierten Einstellungen auf die Geräte desselben Typs anzuwenden.",,
+tut.basic.controls.step.tools.plan,Dieses Werkzeug bietet mehrere Methoden zum Zeichnen in der visuellen Überlagerung <b>Planung</b>.,,
+tut.basic.controls.step.tools.skip.tip,"Du kannst diesen Teil überspringen. Bewege den Mauszeiger über eine beliebige Werkzeugschaltfläche, um die Einführungsmeldung anzuzeigen.",,
+toggle.button.size,Ändere Schaltflächengröße,2023-08-16,
+tut.basic.controls.step.tool.build.1,"Wir werden uns das <b>{0}</b>-Werkzeug genauer ansehen. Klicke darauf, um das Werkzeug-Untermenü zu aktivieren.",,{0} is the tool name
+tut.basic.controls.step.tool.build.2,"Dies ist das Werkzeug-Untermenü. Es enthält Registerkarten für Gruppen von Objekten, die du erstellen kannst.",,
+tut.basic.controls.step.tool.build.3,"Lasst uns etwas bauen. Klicke auf die Registerkarte {0} und dann auf {1}, um mit der Erstellung zu beginnen.",, {0} is the tab label {1} is the device name
+tut.step.place.tile.with.rot.desc,"Verwende {0}, um den Bau eines {1} an der markierten Stelle anzuweisen.<br><br>Drehe es mit {2}, bevor du es platzierst.",, {0} and {2} is key binding. {1} is device name
+tut.step.place.tile.desc,Befehle den Bau des {0} an der markierten Stelle.,,{0} is an device name
+tut.step.place.tile,Baue {0},,{0} is an device name
+tut.step.expired,Dieser Schritt ist abgelaufen,,
+tut.basic.controls.step.tool.build.4,Die Arbeiter beginnen in Kürze mit der Ausführung des Bau-Auftrags.<br><br><b>{1}</b> kehrt zum Baumenü zurück.<br><br>{0} verlässt den Bau-Modus.,, {0} and {1} are key bindings
+tut.basic.controls.step.connect.1,"Sehen wir uns nun an, was das <b>{0}</b>-Werkzeug leisten kann. Öffne mit <b>{1}</b> das <b>Werkzeugmenü</b> und aktiviere es.",2023-08-16, {0} is tool name. {1} is key binding
+tut.basic.controls.step.connect.2,"Es liegt ein nicht verbundener <b>{0}</b> vor. Verbinden wir es mit einem nahe gelegenen <b>{1}</b>.<br><br>Drücke {2} über {1}, ziehe dann eine Linie auf {0} und lasse {2} los, um eine Verbindung herzustellen.",, {0} is device name. {1} is connector device name. {2} is key binding
+tut.basic.controls.step.connect.3,"Durch die gleiche Aktion werden zwei verbundene Geräte getrennt.<br><br>Verwende {0}, um eine Linie zwischen <b>{1}</b> und <b>{2}</b> zu ziehen, um die Verbindung zu unterbrechen.",2023-08-16, {0} is key binding {1} and {2} are device names
+tut.basic.controls.step.connect.4,"Das Werkzeug <b>{0}</b> kann auch <b>Teleporter</b> verknüpfen und die Verknüpfung aufheben.<br><br>Teleporter-Links sind unidirektional, du musst also Teleporter <b>A</b> verknüpfen  zu <b>B</b> und <b>B</b> zu <b>A</b>, damit sie zueinander führen. Erstelle eine bidirektionale Verbindung zwischen den hervorgehobenen Teleportern, um fortzufahren.",2023-08-16, {0} is tool name
+tut.basic.controls.step.connect.5,"<b>Tipp:</b> Drücke im Free Select-Modus {0} über einem <b>Anschluss</b> oder einem <b>Teleporter</b> und beginne mit dem Ziehen einer Linie, um in den <b>zu wechseln >{1}</b>-Tool.",, {0} is key binding. {1} is tool name
+tut.connecting.teleporters,Teleporter verbinden,,
+choice.or,{0} oder {1},, {0} and {1} will be some arbitrary things like shortcut keys or two item names
+tut.basic.controls.step.repair.1,"Systeme melden ein Sauerstoffleck. Verwenden wir die visuelle Übersicht <b>{0}</b>, um es zu finden.",, {0} is Oxygen translation
+tut.basic.controls.step.repair.2,"Hier ist das Leck. Du kannst sehen, wie Sauerstoff durch einen beschädigten <b>{0}</b> in den angrenzenden Bereich fließt, der eigentlich keinen Sauerstoff enthalten sollte.",, {0} is a translation for Window structure
+tut.basic.controls.step.repair.3,Öffne mit <b>{0}</b> das <b>Werkzeugmenü</b> und aktiviere das Werkzeug <b>{1}</b>. Wir werden dann ein paar Reparaturaufgaben erstellen.,2023-08-16, {0} is key binding {1} is tool name
+tut.basic.controls.step.repair.4,"Drücke {0} und ziehe ein Rechteck um den beschädigten Bereich, um Reparaturen anzuordnen.",2023-08-16,{0} is key binding
+tut.basic.controls.group.examining.objects,Objekte untersuchen,,
+tut.basic.controls.step.deconstruct.1,Wir werden jetzt einige Strukturen entfernen. Öffne mit {0} das <b>Werkzeugmenü</b> und aktiviere das Werkzeug <b>{1}</b>.,, {0} is key binding
+tut.basic.controls.step.deconstruct.2,"Drücke {0} und ziehe ein Rechteck um den hervorgehobenen Bereich, um die Dekonstruktion der Bodenfliesen anzuordnen.",2023-08-16,
+tut.basic.controls.step.deconstruct.3,"Der Rückbau wird in Kürze beginnen.<br><br>Viele Aktionen, einschließlich <b>Reparieren</b> und <b>Dekonstruieren</b>, können über das <b>Infofeld</b> oder <b>bestellt werden >Kontextmenü</b> des ausgewählten Objekts.",,
+tut.basic.controls.relocate.1,Ein weiterer wichtiger Aspekt bei der Organisation deines Schiffes ist das Verschieben von Objekten.,,
+tut.basic.controls.relocate.2,"Verwende die Schaltfläche <b>{0}</b> im <b>Infobereich</b>, um den Umzugsprozess zu starten.",, {0} is key binding
+tut.basic.controls.relocate.3,"Platziere das Gerät an der markierten Stelle.<br><br>Der pulsierende Kreis markiert den <b>Arbeitsort</b>. Es darf nicht behindert werden. Du musst das Gerät drehen.<br><br>Verwende {0}, um das Gerät zu drehen.<br><br>Drücke {1} über dem hervorgehobenen Bereich, um einen Umzug anzuordnen.",2023-08-16, {0} is key binding
+tut.basic.controls.relocate.4,"Die Umsiedlung steht nun aus.<br><br>Auf diese Weise kannst du Lebewesen, Materialhaufen und andere Objekte umsiedeln.",,
+tut.basic.controls.quick.search.1,"Verwende die <b>Schnellsuche</b>, wenn du weist, wonach du suchst. Dies ist der schnellste Weg, etwas zu finden.<br><br>Drücke {0}, um die <b>Schnellsuche</b> zu aktivieren.",2023-08-18, {0} is key binding
+tut.basic.controls.quick.search.2,"Beginne nun mit der Eingabe eines Blueprint-Namens und drücke {0} oder klicke auf das Ergebnis, um es zu aktivieren, sobald es verfügbar ist.<br><br>Für dieses Beispiel nehmen wir an, du möchtest einen <b>{1}</b> erstellen . Gebe „{2}“ ein und drücke dann {0}.",, {0} is key binding. {1} is device name. {2} will be first few characters of device name
+tut.basic.controls.quick.search.3,"Die <b>Schnellsuche</b> ist äußerst leistungsstark. Zusätzlich zu Blaupausen können Arbeiter, Kodexeinträge und Gegenstände in speziellen Ansichten wie <b>Forschungsbaum</b> oder <b>Sternenkarte</b> gefunden werden.",,
+tut.basic.controls.end,"Diese Einführung ist nun abgeschlossen. Wenn du die Informationen überwältigend fandest, denke daran, dass du jederzeit noch einmal darauf zurückgreifen und mit dem gewünschten Schritt fortfahren kannst, oder einfach eintauchen und beim Spielen lernen.<br><br>Wir empfehlen dringend, den <b>Kodex</b> zu erkunden. Es enthält Antworten zur Funktionsweise.<br><br>Viele der Informationen aus diesem Tutorial sowie der <b>Kodex</b> sind direkt in das Spiel eingebettet und werden oft mit „“ gekennzeichnet.{0} „“ in Tooltips. Nutze dies zu deinem Vorteil.",2023-08-18, {0} is something like: hold CTRL for more info
+tut.research.name,Forschung,,
+tut.research.desc,Lerne die Konzepte der Forschung kennen.,,
+tool.menu.recent.desc,Enthält eine Liste der zuletzt verwendeten Blaupausen.,,
+tut.research.intro.desc,"In dieser Einführung erfährst du alles, was du über <b>Forschung</b> in Stardeus wissen musst.",,
+tut.research.end,"Das ist es! Hier ist eine Zusammenfassung dessen, was wir gelernt haben:<br><br> – Forschung verwendet <b>Datoiden</b>.<br> – Datoiden müssen in <b>Datoid-Lader</b> gespeichert werden, um verfügbar zu sein. <br> – du musst über genügend <b>Speicherplatz</b> und <b>Datoide</b> des richtigen Typs verfügen, um einen Forschungsknoten freizuschalten.<br> – Datoide werden von <b>Datoid Erntern produziert</b>.<br> – Erstelle und verbinde neue <b>Festplattenmodule</b>, um mehr <b>Festplattenspeicher</b> hinzuzufügen.",,
+tut.research.open.tree,Öffne den <b>Forschungsbaum</b>. Verknüpfung: {0},, {0} is key binding
+tut.research.tree.nav,Forschungsbaum: Sich bewegen,,
+tut.research.tree.nav.desc,"Dies ist der <nobr><b>Forschungsbaum</b></nobr>. So navigierst du darin:<br><br> - Um sich zu bewegen: {0} oder ziehe die Maus, während du {1} gedrückt hältst <br> - So änderst du den Zoom: {2}",, {0}{1}{2} is key binding
+tut.research.tree.nav.gamepad,Dies ist der <nobr><b>Forschungsbaum</b></nobr>. So navigierst du darin:<br><br> - Zum Bewegen: {0}.<br> - Zum Ändern des Zooms: {1}.,, {0}{1} is key binding
+verb.scroll,Scrollen,,As in Mouse Scroll
+tut.research.tree.find.element,"Konzentriere dich auf den hervorgehobenen Forschungsknoten <b>{0}</b>.<br><br>Du kannst die {1}-Suche verwenden, um direkt dorthin zu springen.",, {0} is tech name. {1} is key binding
+tut.research.tree.find.element.gamepad,Konzentriere dich auf den hervorgehobenen Forschungsknoten <b>{0}</b>.,, {0} is tech name.
+tut.research.tree.node,Forschungsbaum: Knoten,,
+tut.research.tree.node.cost.datoids,"Forschung wird durch den Verbrauch spezieller Materialien namens <b>Datoiden</b> freigeschaltet. Hier findest du die benötigten Datoid-Typen und -Mengen aufgelistet. Bewege den Mauszeiger über die Symbole, um mehr über jeden Datoid-Typ zu erfahren und auch darüber, wie du ihn erwerben kannst.",,
+tut.research.tree.node.cost.tier,"Dies zeigt den Forschungsknoten <b>Stufe</b>. Du musst eine bestimmte Anzahl an Knoten der aktuellen Stufe freischalten, um die nächste Stufe freizuschalten.",,
+tut.research.tree.node.cost.disk,"Dies ist die Menge an <b>Festplattenspeicher</b>, die für die dauerhafte Speicherung der Forschungsergebnisse erforderlich sind.<br><br>Erstelle oder aktualisiere <b>Festplattenmodule</b>, um den verfügbaren Speicherplatz zu erhöhen.",,
+tut.research.tree.node.bookmark,"Dies ist die Schaltfläche <b>Lesezeichen</b>. Klicke darauf, um einen beliebigen gesperrten Forschungsknoten für einen schnellen Zugriff zu deinen Lesezeichen hinzuzufügen.",,
+tut.research.tree.node.bookmarks,"Über diese Schaltfläche wird eine Liste aller mit Lesezeichen versehenen Forschungsknoten angezeigt.<br><br>Du erhältst eine Benachrichtigung, wenn einer der mit Lesezeichen versehenen Forschungsknoten zum Entsperren verfügbar wird.",,
+tut.research.tree.node.unlock,"Dies ist die Schaltfläche <b>Entsperren</b>. Wenn du über die erforderlichen Ressourcen verfügst, wird der Forschungsknoten mit einem einzigen Klick entsperrt.<br><br>Warum der Forschungsknoten nicht entsperrt werden kann, erfährst du, wenn du mit der Maus über diese Schaltfläche fährst.",,
+tut.research.tree.info,Informationstafel zum Forschungsbaum,,
+tut.research.tree.info.desc,Dieses Panel enthält eine Übersicht über die verfügbaren Ressourcen und nützlichen Aktionen.,,
+tut.research.tree.info.disk,"Dieser Fortschrittsbalken zeigt die <b>Festplattennutzung</b> an.<br><br>Die Schaltfläche <b>{0}</b> öffnet eine Liste freigeschalteter Forschungsknoten, die bei dringendem Bedarf an mehr Speicherplatz entladen werden können. Entladene Forschungsergebnisse müssen erneut freigeschaltet werden.",, {0} is key binding
+tut.research.tree.info.datoids,"In diesem Abschnitt werden <b>Datoiden</b> aufgeführt, die zur Verwendung verfügbar sind. Bewege den Mauszeiger oder klicke auf die Elemente, um weitere Informationen zu jedem Datoid-Typ zu erhalten.<br><br>Datoide werden erst verfügbar, nachdem sie in einem <b>Datoid-Lader</b> gespeichert wurden. Wir werden bald eines bauen.",,
+tut.research.tree.info.management,"Im Verwaltungsbereich findest du hilfreiche Tools wie die bereits erwähnten <b>Lesezeichen</b> und eine <b>Suchfunktion</b>. Auf diese Weise kannst du Knoten anhand ihres Namens oder anhand der Namen der freigeschalteten Elemente finden.<br><br>Sie können den <b>Forschungsbaum</b> jetzt mit {0} schließen.",, {0} is key binding
+tut.research.unstored.datoid,"Wir haben bereits einige <b>Datoiden</b>, aber sie stehen noch nicht für die Forschung zur Verfügung.<br><br>Wir müssen einen <b>Datoid-Lader</b> bauen, unsere Arbeiter lassen die Datoiden dann hinein.",2023-08-18,
+tut.obj.not.found,Das Objekt wurde nicht gefunden!,,
+tut.obj.no.longer.available,Das Objekt ist nicht mehr verfügbar!,,
+tut.start.building.def,"Öffne mit {0} das <b>Werkzeugmenü</b>, suche nach <b>{1}</b> und klicke dann auf das Symbol, um mit der Erstellung zu beginnen.",, {0} is key binding. {1} is device name
+tut.waiting.for.construction,Warten auf den Bau von <b>{0}</b>.,, {0} is device name
+tut.research.datoid.load.wait,Datoide werden geladen,,
+tut.research.datoid.unstored,Entladene Datoide,,
+tut.research.datoid.load.wait.desc,"Warten darauf, dass <b>Datoide</b> in den <b>Datoid-Lader</b> geladen werden.<br><br>Die Arbeiter erledigen das automatisch, aber du kannst <b>{0}</b> Werkzeug verwenden, um den Transport sofort anzuordnen.",,{0} is tool name
+tut.research.datoid.load.ready,"Die <b>Datoiden</b> sind jetzt geladen und es gibt einige Forschungsknoten, die freigeschaltet werden können.<br><br>Immer wenn eine Forschung freigeschaltet werden kann, wird im <b> eine Benachrichtigung darüber angezeigt Ereignisfenster</b> auf der rechten Seite.<br><br>Klicke auf die Benachrichtigung, um den <b>Forschungsbaum</b> zu öffnen. Es konzentriert sich automatisch auf den ersten freischaltbaren Knoten.",,
+tut.research.unlock.tech,Freischalten <b>{0}</b>,, {0} is tech name
+tut.research.unlock.tech.desc,"Schalte den hervorgehobenen Forschungsknoten frei, um fortzufahren.",,
+tut.research.tree.group,Forschungsbaum-Benutzeroberfläche,,
+tut.research.after.first.unlock,<b>{0}</b> ist jetzt freigeschaltet. Du kannst alle in diesem Forschungsknoten aufgeführten Blaupausen erstellen.,, {0} is tech name
+tut.research.unlocked.tech,<b>{0}</b> freigeschaltet,, {0} is tech name
+tut.research.datoids.howto.1,"Wir haben gerade die meisten unserer <b>Datoiden</b> verbraucht, also müssen wir mehr produzieren.<br><br>Klicke auf das Benutzeroberflächenelement <b>{0}</b>, um herauszufinden, wie man es produziert.",, {0} is a translation for Basic Datoid
+tut.research.datoids.howto.2,"Der Kodex-Popup sagt uns, dass <b>{0}</b> in <b>{1}</b> produziert wurde – wir müssen eines produzieren.<br><br>Verwende {2} oder {3}, um den <b>Forschungsbaum</b> zu schließen.",, {0} is a translation for Basic Datoid {1} is translation for Basic Data Harvester/ {2} {3} are bindings
+tut.research.datoids.howto,Wie man Datoiden produziert,,
+tut.switch.tool.no.shortcut,Öffne mit {0} das <b>Werkzeugmenü</b> und aktiviere das Werkzeug <b>{1}</b>.,,{0} is key binding. {1} is tool name
+tut.switch.tool.with.shortcut,Öffne mit {0} das <b>Werkzeugmenü</b> und aktiviere das Werkzeug <b>{1}</b>.<br><br>Du kannst das Werkzeug <b>{1}</b> auch mit {2} aktivieren.,, {0} is key binding. {1} is tool name {2} is binding
+tut.switch.tool.title,Werkzeug aktivieren: {0},,{0} is tool name
+tut.connect.device,Verbinden {0},,{0} is device name
+tut.connect.device.freestyle.desc,"Verwende das Werkzeug <b>{0}</b>, um das markierte <b>{1}</b> mit dem nächstgelegenen verfügbaren Anschluss zu verbinden.",, {0} is tool name. {1} is device name
+tut.connect.device.constrained.desc,"Drücke {0} über <b>{2}</b>, ziehe dann eine Linie zu <b>{1}</b> und lasse {0} los, um eine neue Verbindung zu erstellen.",2023-08-23, {0} is key binding. {1} and {2} is device name
+tut.configure,Konfigurieren {0},,{0} is device name
+tut.exit.tool,"Verwende {0}, um zum Modus <b>Freie Auswahl</b> zurückzukehren.",, {0} is key binding
+tut.configure.crafter.product,Beginne mit der Produktion von <b>{0}</b>,, {0} is product name
+tut.research.tree.node.unlockables,Freischaltbare Gegenstände,,
+tut.research.tree.node.unlockables.desc,"Jeder Forschungsknoten verfügt über eine Liste freischaltbarer Gegenstände. Bewege den Mauszeiger über das Element, um dessen Namen und Beschreibung in der QuickInfo anzuzeigen.",,
+tut.build.not.expected,Du bist derzeit nicht bereit einen <b>{0}</b> zu bauen.,,{0} is device name
+tut.research.disk.1,"Während <b>{0}</b> neue Datoiden produziert, planen wir unseren nächsten Schritt.",, {0} s device name
+tut.research.disk.2,"Wir wollen ein <b>{0}</b> erstellen. Suchen wir den Forschungsknoten, der diesen Bauplan freischaltet. Du kannst die Suche mit {1} öffnen.",, {0} is device name {1} is key binding
+tut.research.disk.2.gamepad,Wir wollen ein <b>{0}</b> erstellen. Suchen wir den Forschungsknoten <b>{1}</b>. Du kannst dazu die Schaltfläche <b>{2}</b> oben rechts verwenden.,, {0} is device name {1} is key binding. {2} is translation for Search
+tut.research.disk.3,"Gebe den Namen von <b>{0}</b> in das Suchfeld ein und drücke {1} oder klicke auf das Ergebnis, sobald es verfügbar ist.",, {0} is device name. {1} is key binding
+tut.research.disk.4,"Lass uns herausfinden, was wir zum Freischalten von <b>{0}</b> benötigen. Bewege den Mauszeiger über die Schaltfläche <b>{1}</b>.",, {0} is device name. {1} is button label
+tut.research.disk.5,"Sobald wir genügend <b>Grundlegendes Datoid</b> produziert haben, können wir diese immer noch nicht freischalten, da wir nicht über den <b>Festplattenspeicher</b> verfügen, der zum Speichern des Forschungsergebnisses erforderlich ist.<br><br>Wir müssen ein <b>Festplattenmodul</b> bauen.<br><br>Verwende {0} oder {1}, um den <b>Forschungsbaum</b> zu schließen.",,{0} and {1} are key bindings
+tut.research.disk.3.hint,Hinweis: Das Suchergebnis sollte <b>{0}</b> lauten.,, {0} is a tech name
+tut.research.outro,"Wir haben jetzt genug <b>Speicherplatz</b>, um <b>{0}</b> freizuschalten, aber wir müssen noch warten, bis <b>Grundlegendes Datoid</b> produziert wurde.<br><br>Du kannst mehrere <b>Datoid Ernter</b> bauen, um mehr Datoiden zu produzieren. Achte jedoch darauf, dass du nicht zu schnell zu viel produzierst, da dir sonst möglicherweise die Ressourcen ausgehen.<br><br>Um fortgeschrittenere Forschung freizuschalten, ist es erforderlich neue Arten von Datoiden freizuschalten, die schwieriger herzustellen sein werden und neue Geräte und Materialien erfordern.",, {0} is a tech name
+available.material,Verfügbar: {0},,
+tut.el.title,Elektrizität,,
+tut.el.desc,"Erfahren, wie Elektrizität in Stardeus funktioniert.",,
+tut.el.intro,"Elektrizität spielt in Stardeus eine wichtige Rolle. Es versorgt nicht nur Geräte mit Strom, sondern ermöglicht auch deren Verwaltung.<br><br>Diese Einführung führt dich durch die Einrichtung, Verwaltung und Fehlerbehebung von Stromnetzen.",,
+tut.el.end,"Du weist jetzt, wie Elektrizität in Stardeus funktioniert. Hier ist eine Zusammenfassung:<br><br> – du kannst Geräte nur verwalten, wenn sie mit dem Netz des <b>Schiffscomputers</b> verbunden sind.<br> – Verwende <b>Anschlüsse</b>, um Geräte anzuschließen.<br> - Verkette <b>Anschlüsse</b>, um entfernte Geräte oder Netze zu erreichen.<br> - Klicke auf eine Linie, ziehe sie von einem <b>Anschluss</b> und lege sie dann auf einem leeren Boden ab, um dort einen neuen Anschluss zu bauen.<br> – Durch die Verbindung zweier Netze werden sie zu einem zusammengeführt.<br> – Das <b>{0}</b>-Übersicht kann dir bei der Behebung von <b>Stromdefiziten</b> und anderen Problemen helfen.",2023-08-23,
+tutorial.header,Einführung: {0},, {0} is the name of tutorial the player is playing
+tut.el.no.grid,"In Stardeus befindet sich Dein Bewusstsein im <b>Schiffscomputer</b>. Dadurch kannst du Roboterarbeiter befehligen und Geräte steuern, die mit demselben Stromnetz wie der <b>Schiffscomputer</b> verbunden sind.",,
+tut.open.overlay.to.continue,"Öffne die Übersicht <b>{0}</b>, um fortzufahren.",,
+tut.el.overlay.1,"Dies ist die <b>{0}</b>-Übersicht. Wir werden es bald genauer untersuchen.<br><br>Im Moment sagt es uns, dass wir keine <b>verwalteten Netze</b> haben, was bedeutet, dass der <b>Schiffscomputer</b> vorhanden, aber nicht mit irgendetwas verbunden ist.<br><br>Lass uns ein paar Geräte bauen und verbinden.<br><br>Schließe die Übersicht, um fortzufahren.",2023-08-23,
+tut.overlay.title,<b>{0}</b> Übersicht,,
+tut.el.small.grid.1,"Der <b>Schiffscomputer</b> ist nicht mit diesem Gerät verbunden, daher kannst du ihn noch nicht steuern.<br><br>Du siehst das Element <b>{0}</b> im <b>Infobereich</b> solcher Geräte.",,
+tut.el.small.grid.2,"Geräte können nicht direkt miteinander verbunden werden. Wir müssen sie über einen <b>Verbinder</b> verbinden.<br><br>Deaktiviere den <b>Materiereaktor</b> mit {0}, um in den <b>Freie Auswahl</b>-Modus zu gelangen.",,
+tut.el.small.grid.3,"Du musst zuerst den <b>Anschluss</b> mit dem <b>Schiffscomputer</b> verbinden.<br><br>Zu versuchen, den <b>Materiereaktor</b> mit einem nicht verbundenen <b>Verbinder</b>zu verbinden schlägt fehl, da du den <b>Verbinder</b> noch nicht steuerst.",,
+tut.el.small.grid.4,"Jetzt besteht eine Verbindung zwischen dem <b>Schiffscomputer</b> und dem <b>Verbinder</b>. Dadurch kannst du dein Netz auf die Geräte erweitern, die der verknüpfte <b>Verbinder</b> erreichen kann.",,
+tut.el.small.grid.title,Erstelle ein Netz,,
+tut.el.small.grid.5,"In der Nähe gibt es ein paar nicht angeschlossene <b>Bodenlichter</b>. Hier ist es etwas dunkel, also verbinden wir beide, um etwas Licht zu bekommen.<br><br>Wir können die Funktion <b>Automatisch Verbinden</b> verwenden, die in den <b>Verbinder</b> integriert ist.",,
+tut.el.small.grid.6,"Beide <b>Bodenlichter</b> sind jetzt verbunden. Warten wir, bis sie aufleuchten.",,
+tut.el.refuel.1,"Die Lichter lösten ein <b>Stromdefizit</b> aus, da wir dem <b>Materiereaktor</b> keinen Brennstoff hinzugefügt haben.",,
+tut.el.refuel.2,"Der <b>Materiereaktor</b> kann nahezu jedes Material in Elektrizität umwandeln. Wir haben eine Fülle von <b>{0}</b>, einem Material mit hoher Energieausbeute. Nutzen wir es als unsere Treibstoffquelle.<br><br>Klicke auf die Schaltfläche <b>{1}</b>, um fortzufahren.",,
+tut.el.overlay.3,"Geben wir ihm etwas Zeit, damit der Reaktor Brennstoff erhält und das Stromdefizit behoben wird.<br><br>In der Zwischenzeit werden wir das Stromdiagramm untersuchen.<br><br>Erhöhe die <b>Zeitgeschwindigkeit</b> und öffne das <b>{0}</b>-Übersicht.",,
+tut.el.overlay.4,"Der <b>Schiffscomputer</b> ist jetzt Teil eines Stromnetzes. Auf dieser Schnittstelle wird ein Diagramm angezeigt, das die Stromproduktion, den Stromverbrauch, den Batteriestand und die Defizite anzeigt.<br><br>Wenn du mit der Maus über das Diagramm fährst, erhältst du Einblicke in den vergangenen und aktuellen Zustand des Stromnetzes. Beobachte, wie das Defizit verschwindet, wenn der Reaktor beginnt, Strom zu erzeugen.<br><br>Wenn das Diagramm nicht sichtbar ist, aktiviere es, indem du auf die Schaltfläche <b>{0}</b> klickst.",,
+tut.el.overlay.5,"Beachte, dass im Abschnitt <b>Nicht verwaltete Netze</b> der Übersicht <b>{0}</b> ein unbekanntes Stromnetz aufgeführt ist.<br><br>Klicke auf das Benutzeroberflächenelement, um die Kamera auf das Netz zu fokussieren.",2023-08-23,
+tut.el.refuel.title,Konfigurieren des Materiereaktors,,
+research.cannot.unload.unlock.effects,Dieser Forschungsknoten kann aufgrund seiner irreversiblen Freischalteffekte nicht entladen werden.,,
+tut.el.grid.merge.title,Netze zusammenführen,,
+tut.el.grid.merge.1,"Bis der <b>Schiffscomputer</b> angeschlossen ist, können wir keine Verbindungen anpassen oder Geräte in diesem Netz konfigurieren. Durch den Aufbau einer Kette von <b>Anschlüssen</b> können wir die beiden Netze zusammenführen und die Kontrolle über diesen Bereich erlangen.<br><br>Schließe das <b>{0}</b>-Übersicht, um fortzufahren.",,
+tut.el.grid.merge.2,"Zuerst bauen wir eine Brücke, die zum <b>Schiffscomputer</b> führt. Dies bildet die Grundlage für die Platzierung der <b>Verbinder</b>.",,
+tut.el.grid.merge.3,"Baue den Boden im hervorgehobenen Bereich auf.<br><br>Klicken auf ein Rechteck und ziehe es, um mit einer einzigen Aktion einen Auftrag zu erstellen.",,
+tut.el.grid.merge.4,"Während die Drohne damit beschäftigt ist, die Brücke zu bauen, können wir einen neuen <b>Verbinder</b> bestellen.<br><br>Ich zeige dir, wie es am schnellsten geht.",,
+tut.el.grid.merge.5_1,"1. Halte {0} gedrückt, während du über den Verbinder schwebst.",,
+tut.el.grid.merge.5_2,2. Ziehe eine Linie in Richtung der Baustelle.,2023-08-29,
+tut.el.grid.merge.5_3,"3. Gebe {0} frei, um eine Liste der Verbinder Blaupausen zu erhalten.",,
+tut.el.grid.merge.5_4,"4. Wähle den Verbinder-Typ aus, den bauen möchtest.",,
+tut.el.grid.merge.6,"Warten wir, bis der neue <b>Verbinder</b> erstellt wurde. Es wird automatisch mit dem Anschluss verknüpft, von dem du eine Linie gezogen hast.",,
+tut.el.grid.merge.7,"Öffne die Übersicht <b>{0}</b> und beobachte, wie zwei Netze zu einem zusammengeführt werden, nachdem du eine Verknüpfung zwischen den hervorgehobenen Anschlüssen erstellt hast.<br><br>Erstelle eine Verknüpfung zwischen den hervorgehobenen Anschlüssen, um fortzufahren.",,
+tut.el.grid.merge.5.title,"Der schnellste Weg, einen <b>Verbinder</b> zu erstellen",,
+tut.el.bots.maintain.title,Wartung von Robotern,,
+tut.el.bots.maintain.1,"All diese Arbeiten haben den Akku unserer <b>Baudrohne</b> erschöpft. Geben wir ihm eine Möglichkeit, sich wieder aufzuladen.",,
+tut.el.bots.maintain.2,"Roboterarbeiter müssen außerdem regelmäßig Selbstwartungsarbeiten durchführen. Am besten ist es, immer mindestens eine <b>Reparaturstation</b> zur Verfügung zu haben.",,
+tut.el.bots.maintain.3,"Schließe nun die neuen Geräte an das Stromnetz an.<br><br>Tipp: du kannst {0} verwenden, um mehrere Geräte per Drag-and-Drop auszuwählen, dann {1} gedrückt halten und {0} über einem <b>Anschluss</b>drücken, um die ausgewählten Geräte zu verbinden.",2023-08-26,
+click.to.continue.setup,Klicke um mit der Einrichtung fortzufahren,,
+tut.el.deficit.1,"Es ist Zeit zu lernen, wie man Fehler im Stromnetz behebt. Ich habe eine Situation geschaffen, die ein Stromdefizit auslöst.<br><br>Die Simulation des Stromnetzes kann einen Moment dauern. Die Uhr sollte jetzt nicht angehalten werden.",,
+tut.el.deficit.1_2,"Wenn ein Defizit auftritt, wirst du immer benachrichtigt.<br><br>Klicke auf die Defizitbenachrichtigung, um die Übersicht <b>{0}</b> zu öffnen.",,
+tut.el.deficit.2,"Die Verbrauchs- und Produktionswerte des Stromnetzes mit einem Defizit werden in <color={0}>rot</color> angezeigt.<br><br>Klicke auf die Schaltfläche <b>{1}</b>, um mit der Fehlerbehebung zu beginnen.",, "{0} is the color code, do not move it away from <color={0}>"
+tut.el.deficit.2_2,"Dies ist die Detailansicht des Stromnetzes. Es kann dir dabei helfen, verschiedene Probleme zu identifizieren und zu lösen.",,
+tut.el.deficit.3,"Das Stromdefizit wird durch einen der Strom- <b>Verbraucher</b> verursacht. Wir können die Liste aller mit diesem Netz verbundenen Verbraucher abrufen, indem wir im Abschnitt <b>Verwaltung</b> der Netzdetailansicht auf die Schaltfläche <b>Verbraucher</b> klicken.",,
+tut.el.deficit.4,"In der Verbraucherliste werden zuerst Geräte mit Defizit angezeigt. Dass der <b>{0}</b> ein Defizit hat, siehst du daran, dass sein Stromverbrauch in <color={1}>rot</color> markiert ist.<br><br>Du kannst dieses Gerät ein-/ausschalten oder konfiguriere es neu, um ein billigeres Material zu sammeln und dieses Defizit zu beheben.<br><br>Behebe das Defizit, um fortzufahren.",,
+tut.el.deficit.title,Fehlerbehebung am Netz,,
+ad.rej.would.get.stuck,Würde stecken bleiben,,
+tut.deselect.objects,"Deaktiviere alle ausgewählten Objekte mit {0}, um fortzufahren.",,
+grids.managed,Verwaltete Netze,,
+grids.unmanaged,Nicht verwaltete Netze,,
+distance.to,Entfernung: {0},,
+tut.winch.title,Verschieben von Schiffsabschnitten,,
+tut.winch.desc,"In diesem Tutorial erfährst du, wie du mit {0}, {1} und {2} Schiffsabschnitte auf der Karte verschiebst.",, {0}{1}{2} are device names
+tut.winch.intro,"Du wirst dich manchmal in einer Situation wiederfinden, in der du zwei oder mehr voneinander getrennte <b>Abschnitte</b> (Teile) des Schiffes hast.<br><br>Du kannst die Abschnitte verbinden, indem du eine Brücke zwischen ihnen baust oder du kannst stattdessen die Abschnitte verschieben.<br><br>Diese Einführung zeigt dir, wie du mit speziellen Geräten Schiffsabschnitte verschiebst.",,
+tut.winch.end,"Du weist jetzt alles über das Verschieben von Schiffsabschnitten. Hier ist eine Zusammenfassung:<br><br> – Verwende <b>Windenhaken</b> und <b>Windenanker</b>, um einen kleineren Abschnitt zu einem größeren <b>einzuholen</b>.< br> – Ein kleines Stück Boden gilt nicht als Abschnitt und kann nicht eingeholt werden.<br> – Im Weltraum angebrachte Geräte können verhindern, dass sich ein Abschnitt vollständig bewegt. Wenn das passiert, <b>Verschiebe die Hindernisse</b> und versuche es erneut.<br> - du kannst eine <b>temporäre Verlängerungsbrücke</b> bauen, um einen Abschnitt einzuholen, der zu weit entfernt ist.<br> - du kannst einen Abschnitt bewegen, um im Weltraum verstreute <b>Ressourcen</b> zu sammeln.<br> - Verwende <b>Manövriersteuerungen</b>, um einen Abschnitt oder das gesamte Schiff mit hoher Präzision zu steuern. Es kann dir helfen, <b>Asteroideneinschläge</b> zu vermeiden.",,
+tut.winch.step1_1,"Beginnen wir damit, einen <b>Abschnitt</b> mit der darauf geschriebenen Nummer <b>1</b> in Richtung des Abschnitts mit einem <b>Schiffscomputer</b> zu ziehen. Wir werden einen <b>Windenhaken</b> und einen <b>Windenanker</b> verwenden.",,
+tut.winch.step1_2,"Der <b>Windenhaken</b> verfügt über eine Schaltfläche <b>Einholen</b> im Abschnitt <b>Verwaltung</b> des <b>Infofelds</b>. Es wird eine Liste der verfügbaren <b>Windenanker</b> enthalten, die wir einholen könnten. Öffnen wir diese Liste.",,
+tut.winch.step1_3,Durch Klicken auf die Schaltfläche <b>Einholen</b> neben dem ausgewählten <b>Windenanker</b> wird der Vorgang gestartet. Spulen Sie jetzt den Anker mit der Aufschrift <b>{0}</b> ein.,,
+tut.winch.step1_4,"Jetzt werden die beiden Abschnitte zu einem zusammengefasst. Allerdings wirst du schnell feststellen, dass nicht immer alles so reibungslos läuft.",,
+tut.winch.success,Winde erfolgreich,,
+tut.winch.step2_1,"Versuchen wir nun, den mit der Nummer <b>2</b> markierten Abschnitt direkt über uns einzuholen.",,
+tut.winch.step2_2,"Der Windenbetrieb wurde abgebrochen, weil ein <b>Partikelsammler</b> im Weg war. Wir können das Hindernis verschieben und es erneut versuchen.",,
+tut.winch.step2_4,Der <b>Partikelsammler</b> sollte die Bewegung des Abschnitts nicht mehr verhindern. Versuchen wir es noch einmal mit der Windenprozedur.,,
+tut.winch.patch.1,In der unteren rechten Ecke des Bildschirms befindet sich ein kleiner Bodenfleck mit einem <b>Windenanker</b>. Versuchen wir es einzufangen.,,
+tut.winch.patch.2,"Der Windenvorgang ist fehlgeschlagen, da der Bereich zu klein ist, um als gültiger <b>Abschnitt</b> zu gelten.<br><br>Das <b>{0}</b>-Übersicht zeigt dir eine Liste gültiger Abschnitte an zusammen mit ihrer Größe.<br><br>Der beste Weg, dieses kleine Stück Boden loszuwerden, besteht darin, es zu dekonstruieren.",,
+tut.winch.step3_1,"Bisher haben wir nur kleinere Abschnitte eingholt. Mal sehen, was passiert, wenn wir versuchen, den mit der Nummer <b>3</b> gekennzeichneten Abschnitt einzuholen, der größer ist als alle Abschnitte, die wir zuvor einholen konnten.",,
+tut.winch.step3_2,"Diesmal bewegte sich der Abschnitt mit dem <b>Schiffscomputer</b> in Richtung des Abschnitts, den wir einholten.<br><br>Der kleinere Abschnitt bewegt sich immer in Richtung des größeren, während der größere Abschnitt stehen bleibt.",,
+tut.winch.step4_1,"Es gibt einige kreative Möglichkeiten, die Windenmechanik zu nutzen. Lass uns den Abschnitt mit der Nummer <b>4</b> einholen, um die im Weltraum verstreuten Materialien einzusammeln.",,
+tut.winch.step4.title,Kreatives Einholen,,
+tut.winch.step5.title,Einholen entfernter Abschnitte,,
+tut.winch.step5_1,"Wie wäre es mit einer kleinen Herausforderung? Oben links auf dem Bildschirm befindet sich ein Abschnitt mit der Nummer <b>5</b>. Es ist zu weit entfernt, als dass unser <b>Windenhaken</b> ihn erreichen könnte.<br><br>Wir werden eine provisorische Brücke zu diesem Abschnitt bauen und den <b>Windenhaken</b> näher heranrücken.",,
+tut.winch.step5_2,"Schauen wir uns zunächst an, wie weit ein <b>Windenhaken</b> reichen kann. Wähle den hervorgehobenen Haken aus.",,
+tut.winch.step5_2_2,"Zoome nun mit {0} heraus, bis du einen großen <b>Kreis</b> um das ausgewählte Gerät siehst. Dieser Kreis zeigt die Reichweite des Hakens an.",,
+tut.winch.step5_3,Wir haben nun eine Vorstellung von der benötigten Länge der Verlängerungsbrücke. Lass es uns bauen.,,
+tut.build.floor.in.area,Baue im hervorgehobenen Bereich einen <b>Boden</b>.,,
+tut.winch.step5_4,Beauftrage nun den Bau eines <b>Windenhakens</b> am Ende der Brücke.,,
+tut.winch.step5_5,"Bauen wir außerdem einen <b>Windenanker</b> am Rand des Abschnitts, den wir einholen möchten.",,
+tut.winch.step5_6,"Wir müssen den neuen <b>Windenhaken</b> mit dem Netz des <b>Schiffscomputers</b> verbinden, aber er ist zu weit entfernt. Wir könnten einen zusätzlichen <b>Anschluss</b> bauen, um den Haken zu erreichen, es gibt jedoch eine Möglichkeit, über einen deiner Arbeiter eine <b>temporäre drahtlose Verbindung</b> bereitzustellen. Es ist perfekt für Situationen wie diese.<br><br>Warten wir zunächst, bis die vorhandenen Bauaufgaben abgeschlossen sind.",,
+tut.winch.step5_7,"Klicke auf die Schaltfläche <b>{0}</b> neben dem Text <b>{1}</b>, um eine temporäre Verbindung zu bestellen.",,
+tut.winch.step5_8,Du hast eine <b>temporäre Verbindung</b> zu diesem Gerät bestellt. Ein Arbeiter wird in Kürze eintreffen und diese aufbauen.<br><br>Die Funktion <b>Einholen</b> wird dann verfügbar sein.,,
+tut.winch.step5_9,"Jetzt entfernen wir die provisorische Brücke, damit wir den Abschnitt fertig einholen können.<br><br>Wechsel zum Werkzeug <b>{0}</b>.",,
+tut.winch.step5_10,"Dekonstruiere den hervorgehobenen Bereich, um fortzufahren.",,
+tut.step.relocate,"Verwende {0}, um die Verschiebung des ausgewählten <b>{1}</b> in den hervorgehobenen Bereich anzuordnen.<br><br>Drehe das Gerät mit {1}.",,
+tut.step.relocate.workspot,Der Arbeitsplatz (Kreis) muss sich auf einem leeren Boden befinden.,,
+tut.step.relocate.waiting,Warten auf Umzug.,,
+tut.winch.step6_1,"Der letzte Abschnitt unten rechts lässt sich viel einfacher anbringen, da dort mehrere <b>Manövriercontroller</b> einsatzbereit sind.<br><br>Die <b>Manövriercontroller</b> können ein Schiffsabschnitt bewegen oder das gesamte Schiff, mit hoher Präzision. Sie können verwendet werden, um <b>verlassene Schiffe</b> zu bewegen oder ankommenden <b>Asteroiden</b> auszuweichen.",2022-08-26,
+tut.winch.step6_2,"Wir müssen eine <b>vorübergehende Verbindung</b> zum entfernten Netz herstellen, bevor wir die <b>Manövriersteuerungen</b> verwenden können.",2022-08-26,
+tut.winch.step6_3,Warten auf den Aufbau einer temporären Verbindung.,2022-08-26,
+tut.winch.step6_4,"Verwende nun die Benutzeroberfläche des <b>Maneuvering Controller</b>, um <b>{0}</b> und <b>{1}</b> anzupassen, und verwende dann <b>{2}</b> Klicke auf die Schaltfläche, um die Bewegung auszuführen.<br><br>Wenn dieser <b>Manövriercontroller</b> entladen wird, wähle den nächsten aus und führe eine weitere Bewegung aus.<br><br>Dein Ziel ist es, diesen Abschnitt mit dem mit dem Abschnitt mit <b>Schiffscomputer</b>zu verbinden.",,
+tut.el.connect.multi,Anschließen mehrerer Geräte,,
+tut.el.temp.connect,Temporäre Verbindung herstellen,,
+tut.el.temp.disconnect,Temporäre Verbindung entfernen,,
+tut.el.temp.disconnect.desc,"Wir benötigen die <b>temporäre Verbindung</b> zum <b>Windenhaken</b> nicht mehr. Lassen wir den Arbeiter frei, der sie bereitstellt.",,
+tut.el.temp.disconnect.2,"Klicke auf die Schaltfläche <b>{0}</b>, um den Arebiter freizugeben und die temporäre Verbindung zu deaktivieren.",,
+codex.m.research.datoids.desc,"Datoide stellen die Informationen dar, die zur Erschließung neuer Technologien im <b>{0}</b> verwendet werden.<br><br>Datoide werden durch die Verarbeitung meist allgemeiner Ressourcen in <b>Datoid Erntern</b> erzeugt. Es gibt verschiedene Arten von Datoid-Erntern, die unterschiedliche Arten von Datoiden erzeugen können.<br><br>Datoide müssen in <b>Datoid-Lader</b> gespeichert werden, um für Forschungszwecke verwendet werden zu können.<br><br>Datoide können nicht gekauft oder verkauft werden.",,
 codex.m.research.datoids,Datoiden,,
 codex.m.ui.toolmenu,Werkzeugmenü,,
-codex.m.ui.toolmenu.desc,Es gibt zwei Varianten des <b>Werkzeugmenüs</b>. Das standardmäßige <b>Gittermenü</b> und ein alternatives <b>Radialmenü</b>, das möglicherweise praktischer ist, wenn du mit einem <b>Gamepad</b> spielst.<br><br>Du kannst es ändern gebe im Werkzeugmenü <b>Einstellungen > Eingabe</b> ein.,,
+codex.m.ui.toolmenu.desc,"Es gibt zwei Varianten des <b>Werkzeugmenüs</b>. Das standardmäßige <b>Gittermenü</b> und ein alternatives <b>Radialmenü</b>, das möglicherweise praktischer ist, wenn du mit einem <b>Gamepad</b> spielst.<br><br>Du kannst es ändern gebe im Werkzeugmenü <b>Einstellungen > Eingabe</b> ein.",,
 quests.list.current,Aktuelle Aufgaben,,
 toggle.view,Ansicht umschalten,,
 obj.upgrades.speedupgrade,Geschwindigkeitsverbesserung,,
 obj.upgrades.speedupgrade.desc,"Kann sowohl in Geräte als auch in Roboterarbeitern eingebaut werden. Wenn sie in Geräte eingebaut werden, arbeiten sie 15 % schneller. Wenn sie in Roboter eingebaut werden, bewegen sie sich 15 % schneller. Die Verbesserungen sind stapelbar.",,
 obj.upgrades.energyefficiencyupgrade,Energieeffizienzverbesserung,,
 obj.upgrades.energyefficiencyupgrade.desc,"Kann sowohl in Geräte als auch in Roboterarbeiter eingebaut werden. Beim Einbau in Geräte verbrauchen sie 15 % weniger Strom. Beim Einbau in Roboter hält der Akku 15 % länger. Die Verbesserungen sind stapelbar.",,
-grids.managed,Verwaltete Netze,,
-grids.unmanaged,Nicht verwaltete Netze,,
-distance.to,Entfernung: {0},,
-ad.rej.would.get.stuck,Würde stecken bleiben,,
-click.to.continue.setup,Klicke, um mit der Einrichtung fortzufahren,,
 research.speedupgrade,Geschwindigkeitsverbesserung,,
 quest.step.enter.starmap.layer,Fliege <b>{0}</b> an,,"{0} will be ""System"", ""Galaxy"", etc"
 quest.step.enter.starmap.layer.desc,"Öffne die <b>Sternenkarte</b>, dann klicke neben <b>{0}</b> und wähle die Option anfliegen.",, "{0} will be ""System"", ""Galaxy"", etc"
@@ -4693,3 +4958,61 @@ mass.connect.tip.conn,"Drücke {0} über einem <b>Gerät</b>, um die Verbindung 
 mass.connect.tip.teleporters,"Drücke {0} über einem aktiven <b>Teleporter</b>, um die Verknüpfung mit dem/den ausgewählten Teleporter(n) zu erstellen oder zu entfernen.",,
 tut.adv.controls.mass.configure.1,"Du kannst das <b>Info-Panel</b> oder das <b>Kontextmenü</b> verwenden, um alle ausgewählten Reaktoren mit nur zwei Klicks so zu konfigurieren, dass sie denselben Brennstofftyp verbrennen.",,
 tut.adv.controls.mass.configure.title,Konfigurieren mehrerer Geräte,,
+tut.adv.controls.copy.config.title,Gerätekonfiguration kopieren,,
+tut.adv.controls.copy.config.1,"Auf der linken Seite der Plattform befinden sich eine Reihe von <b>Solarmodulen</b>. Sie sind verschmutzt, weil bei allen die Option <b>{0}</b> deaktiviert ist.<br><br>Wählen wir ein Solarpanel aus und konfigurieren es neu.",,
+tut.adv.controls.copy.config.2,Aktiviere die Option <b>{0}</b>.,,
+tut.adv.controls.copy.config.3,"Verwende nun die Schaltfläche <b>{0}</b>, um die Konfiguration des ausgewählten Panels zu kopieren.",,
+tut.adv.controls.copy.config.4,"Drücke {0}, ziehe dann ein Rechteck um alle <b>Solarmodule</b> und lasse {0} los, um die gerade kopierte Konfiguration einzufügen.",,
+tut.adv.controls.copy.config.5,"Jetzt verfügen alle <b>Solarmodule</b> über die gleichen Reinigungsoptionen. Mit dieser Methode kannst du die Konfiguration vieler anderer Geräte kopieren und einfügen.",,
+tut.adv.controls.connect.title,Ein Gerät schnell verbinden,,
+tut.adv.controls.connect.1,"Wir haben eine getrennte <b>Reparaturstation</b>. Es gibt mehrere Möglichkeiten, sie schnell ans Netz anzuschließen:<br><br>1. Wähle die <b>Reparaturstation</b> aus, halte dann {0} gedrückt und drücke {1} über einem <b>Stecker</b>.<br><br>2. Wähle einen <b>Stecker</b> aus, halte dann {0} gedrückt und drücke {1} über der <b>Reparaturstation</b>.<br><br>3. Drücke {1} über einem <b>Stecker</b>, ziehe dann den Cursor über die <b>Reparaturstation</b> und lasse {1} los.<br><br>Verbinde die <b>Reparaturstation</b> um fortzufahren.",,
+tut.adv.controls.build.modes.title,Baumodi,,
+tut.adv.controls.build.modes.1,"Wir werden nun verschiedene <b>Baumodi</b> erkunden.<br><br>Verwende {0}, um eine beliebige <b>Bodenfliese</b> auszuwählen, und drücke dann {1} oder klicke auf <b>{2}</b> im <b>Infobereich</b> oder im <b>Kontextmenü</b>, um mit dem Erstellen einer Kopie zu beginnen.",,
+tut.adv.controls.build.modes.1.build.unbound,"Wir werden nun mit verschiedenen <b>Baumodi</b> bauen.<br><br>Verwende {0}, um eine beliebige <b>Bodenfliese</b> auszuwählen, und klicke dann auf <b>{1}</b> im <b>Infobereich</b> oder im <b>Kontextmenü</b>, um mit dem Erstellen einer Kopie zu beginnen.",,
+tut.adv.controls.build.modes.2,"Mit dem <b>Kreismodus</b> kannst du kreisförmige Formen erstellen.<br><br>1. Bewege den Cursor über die Mitte des hervorgehobenen Bereichs.<br><br>2. Halte {0} gedrückt, um in den <b>Kreismodus</b> zu wechseln.<br><br>3. Drücke {1} und beginne mit dem Ziehen, um eine Vorschau des Kreises anzuzeigen.<br><br>4. Lasse {1} los, um den Auftrag zu bestätigen.<br><br>5. Lasse {0} los, um den <b>Kreismodus</b> zu verlassen.",,
+tut.adv.controls.build.modes.3,"Der <b>Linienmodus</b> ist nützlich, wenn du eine Brücke bauen musst.<br><br>1. Halte {0} gedrückt, um in den <b>Linienmodus</b> zu wechseln. <br><br>2. Drücke {1} über der unteren linken Ecke des hervorgehobenen Bereichs.<br><br>3. Ziehe eine diagonale Linie in Richtung der Plattform oben rechts.<br><br>4. Lasse {1} los, um einen Auftrag zu erstellen.<br><br>5. Lasse {0} los, um den <b>Zeilenmodus</b> zu verlassen.",,
+tut.adv.controls.build.modes.4,"Der <b>Bleistiftmodus</b> kann zum Zeichnen benutzerdefinierter Formen verwendet werden.<br><br>1. Halte {0} gedrückt, um den <b>Bleistiftmodus</b> aufzurufen.<br><br>2. Drücke {1} und ziehe den Cursor innerhalb des schwebenden Bereichs, um einige Bestellungen zu erstellen.<br><br>3. Lasse {0} los, um den <b>Bleistiftmodus</b> zu verlassen.",,
+tut.adv.controls.build.modes.5,"Der Modus <b>Abbrechen</b> bietet eine schnelle Möglichkeit, ausstehende Bestellungen zu löschen.<br><br>1. Halte {0} + {1} gedrückt, um in den <b>Abbruchmodus</b> zu wechseln.<br><br>2. Drücke {2} und ziehe ein Rechteck um den hervorgehobenen Bereich.<br><br>3. Lasse {2} los, um alle Aufgaben innerhalb des Bereichs abzubrechen.<br><br>4. Lasse {0} und {1} los, um den <b>Abbruchmodus</b> zu verlassen.",,
+tut.adv.controls.build.modes.6,"Der <b>Füllmodus</b> füllt einen leeren Bereich mit einem einzigen Klick.<br><br>1. Bewege den Mauszeiger über den hervorgehobenen Bereich.<br><br>2. Halte {0} + {1} gedrückt, um in den <b>Füllmodus</b> zu wechseln.<br><br>3. Drücke {2}, um den Bau des Bodens im umschlossenen leeren Raum anzuordnen.<br><br>4. Lasse {0} und {1} los, um den <b>Füllmodus</b> zu verlassen.<br><br><b>Warnung!</b> Dieser Modus kann eine große Menge an Aufgaben verursachen. Wenn die Anzahl der Aufgaben das <b>Aufgabenlimit</b> überschreiten würde, wird der Füllvorgang abgebrochen. Das <b>Aufgabenlimit</b> kann durch Hinzufügen weiterer <b>Arbeitspeichermodule</b> erhöht werden.",,
+tut.adv.controls.build.modes.7,"Die meisten <b>Baumodi</b> funktionieren auch beim Bau von <b>Wänden</b> und bei Verwendung des <b>{0}</b>-Werkzeugs.<br><br>Das ist nicht der Fall, wenn du dir alle Modus-Tastenkombinationen merken musst, versuche einfach, {1} einzeln oder paarweise zu drücken. Der Cursor ändert sich, um den Werkzeugmodus anzuzeigen.",,
+tut.adv.controls.select.modes.title,Freie Auswahl Modus,,
+tut.adv.controls.select.modes.1,"Halte im Modus <b>Freie Auswahl</b> {0} gedrückt und bewege den Mauszeiger über eine beliebige Kachel, um die Umgebungsdaten anzuzeigen.",,
+tut.adv.controls.select.modes.2,"Halte {0} gedrückt, drücke dann {1}, ziehe ein Rechteck um einen Bereich und lass {1} los, um alle <b>Wesen</b> in dem Bereich auszuwählen.<br><br>Halte {0} gedrückt und verwende {1} über einem <b>Wesen</b>, um es zur Auswahl hinzuzufügen oder daraus zu entfernen.",,
+tut.adv.controls.select.modes.3,"Halte {0} gedrückt, drücke dann {1}, ziehe ein Rechteck um einen Bereich und lass {1} los, um alle <b>Ressourcen</b> im Bereich auszuwählen.<br><br>Halte {0} gedrückt und verwende {1} über einer <b>Ressource</b>, um sie zur Auswahl hinzuzufügen oder daraus zu entfernen.",,
+tut.adv.controls.select.modes.4,"Halte {0} gedrückt, drücke dann {1}, ziehe ein Rechteck um einen Bereich und lass {1} los, um nur die <b>Geräte</b> im Bereich auszuwählen.<br><br>Halte {0} gedrückt und verwenden {1} über einem <b>Gerät</b>, um es zur Auswahl hinzuzufügen oder daraus zu entfernen.",,
+tut.adv.controls.select.modes.5,"Wenn ein <b>Wesen</b> ausgewählt ist:<br><br>Halte {0} gedrückt und bewege den Mauszeiger über einen beliebigen <b>Ort</b>, um zu sehen, ob das Wesen es erreichen kann und welchen Weg es nehmen würde.<br><br>Halte {0} gedrückt und drücke {1}, während du mit der Maus über einen <b>Standort</b> fährst, um einen <b>kontrollierten Arbeiter</b> zu zwingen, sofort dorthin zu gehen.<br><br>Halte {0} und bewege den Mauszeiger über eine <b>Ausstehende Aufgabe</b>, um zu sehen, ob das Wesen die Aufgabe ausführen kann.<br><br>Halte {0} gedrückt und drücke {1}, während du den Mauszeiger über eine <b>Ausstehende Aufgabe</b> bewegst um einen <b>kontrollierten Arbeiter</b> mit der Übernahme der Aufgabe zu beauftragen.",,
+tut.adv.controls.select.modes.6,"Wenn mehrere <b>Geräte</b> ausgewählt werden, werden <b>{0}</b> und <b>{1}</b> auf den Inhalt der Auswahl angewendet.",,
+tut.adv.controls.outro,"Das ist das Ende dieser Einführung. Weitere Tipps und Tricks findest du unter <b>Kodex</b> > <b>Tipps</b>.",,
+tut.completed.never,Noch nicht abgeschlossen,,
+tut.completed.date,Abgeschlossen am {0},,{0} is date 
+tut.completed.outdated.tip,"Du hast eine alte Version diese Einführung am {0} abgeschlossen. Es wird empfohlen, diese Einführung erneut zu absolvieren.",,
+tut.not.completed.warning,Du hast {0} von {1} Einführungen abgeschlossen.,,
+tut.prod.title,Ressourcenproduktion,,
+tut.prod.desc,"Diese Einführung zeigt dir, wie du Ressourcenproduktionslinien einrichtest und die benötigten Materialien beschaffst.",,
+tut.prod.intro,"Das Ziel dieser Einführung ist es, den Bau des <b>Kernreaktors</b> abzuschließen. Uns fehlen die für den Bau erforderlichen Materialien, aber wir verfügen über alle Zutaten und Einrichtungen, um sie herzustellen.",,
+tut.prod.outro,"Du weist jetzt, wie du Produktionslinien einrichtest. Hier ist eine Zusammenfassung:<br><br>1. Identifiziere, welche Ressourcen dir fehlen.<br><br>2. Untersuche die <b>Kodex</b>-Einträge der fehlenden Materialien, um die Zutaten und Geräte herauszufinden, die zu ihrer Herstellung erforderlich sind. Wenn im <b>Kodex</b> nicht erwähnt wird, wie das Material hergestellt wird, kann es nur durch Bergbauexpeditionen, Handel oder besondere Mittel erworben werden.<br><br>3. Sollten die Zutaten fehlen, wiederhole die oben genannten Schritte.<br><br>4. Schalte die erforderliche Ausrüstung durch <b>Forschung</b> frei und baue sie dann.<br><br>5. Besorge dir die Zutaten.<br><br>6. Konfiguriere die Ausrüstung, um die erforderlichen Materialien zu produzieren.<br><br>7. Wiederhole den Vorgang, bis alle benötigten Materialien beschafft sind.",,
+tut.prod.ident.title,Materialdefizite erkennen,,
+tut.prod.ident.1,"Das ist der <b>Kernreaktor</b>, den wir bauen wollen. Es wird ein Materialdefizitsymbol angezeigt. Bewege den Mauszeiger über den Reaktor, um eine Quickinfo mit Details zu erhalten.",,
+tut.prod.ident.2,"Immer wenn ein Defizit ausgelöst wird, wird im <b>Ereignisbereich</b> eine <b>{0}</b>-Benachrichtigung angezeigt. Klicke auf die Benachrichtigung, um die Liste der Geräte anzuzeigen, bei denen ein Defizit vorliegt.",,
+tut.prod.ident.3,"Um den <b>Kernreaktor</b> zu bauen, benötigen wir die folgenden Materialien: {0}<br><b>{1}</b> ist das erste Element in der Liste, das die Bauaufgabe blockiert.<br><br>Nachdem wir genügend <b>{1}</b> produziert haben, löst das nächste fehlende Element in der Liste ein neues Defizit aus.<br><br>Es ist einfacher, jeweils ein Defizit zu bewältigen. Konzentrieren wir uns also auf die Produktion von <b>{1}</b>.",,
+tut.prod.codex.title,Kodex-Einträge nachschlagen,,
+tut.prod.codex.1,"Wenn du nicht weist, wie man <b>{0}</b> herstellt, sieh dir den Eintrag <b>{0}</b> im <b>Kodex</b> > <b>Materialien</b> an.<br><br>Alternativ bewege den Mauszeiger über ein beliebiges Benutzeroberflächenelement mit <b>{0}</b> in der Materialliste und halte <b>{1}</b> gedrückt, um einen <b>Kodexeintrag</b> in der Quickinfo anzeigen zu lassen.",,
+tut.prod.codex.2,"Im <b>Kodexeintrag</b> heißt es, dass <b>{0}</b> durch Einschmelzen von <b>{1}</b> in einem <b>{2}</b> hergestellt wird.<br><br>Wir werden einen <b>{2}</b> konfigurieren um <b>{0}</b> zu produzieren.",,
+tut.prod.wanted.amt,"Wir benötigen mindestens <b>{0}</b> von <b>{1}</b>. Mit der aktuellen Konfiguration würde <b>{2}</b> die Produktion von <b>{1}</b> einstellen, nachdem wir <b>{3}</b> Artikel in unserem <b>Inventar</b> haben. Das wird nicht ausreichen.<br><br>Erhöhe <b>{4}</b> auf mindestens <b>{0}</b>, um fortzufahren.",,{0} is number {1} is Lead Plate {2} is Furnace {3} is number {4} is Wanted Amount
+tut.prod.acquire.1,"Wir hatten <b>{0}</b> auf unserem Schiff zur Verfügung, aber wenn wir keines hätten, würde der <b>Kodexeintrag</b> nicht erwähnen, wie man es herstellt.<br><br>Wenn der Produktionsprozess vom <b>Kodex</b> nicht erklärt wird, kann in diesem Fall das Material durch <b>Bergbauexpeditionen</b>, <b>Handel</b> oder <b>Spezielle Mittel</b> erworben werden.",,
+tut.prod.acquire.2,"Die meisten Rohstoffe können auf <b>Planeten</b> gefunden werden. Wenn du über ein <b>Radar</b> verfügst, kannst du die <b>Scan</b>-Funktion in der <b>Sternenkarte</b> verwenden, um das aktuelle Sternensystem nach einem gewünschten Material zu durchsuchen.",,
+tut.prod.acquire.3,"Du kannst auch <b>Sonden</b> zu Planeten im aktuellen Sternensystem starten, um sie nach Ressourcen zu durchsuchen.",,
+tut.prod.acquire.4,Mit dem <b>Shuttle</b> kannst du manuelle Bergbauexpeditionen zu nahegelegenen <b>Ressourcenvorkommen</b> starten.,,
+tut.prod.acquire.5,"Wenn <b>{0}</b> freigeschaltet ist, kannst du <b>Frachtkopter</b> und <b>Autodrill-Rig</b> bauen, um die Bergbauvorgänge zu automatisieren.<br><br>Versuche jetzt, ein <b>Autodrill-Rig</b> in einer nahegelegenen Ressourcenlagerstätte einzusetzen.",,
+tut.prod.acquire.6,"Wenn du eine Ressource im Weltraum nicht finden kannst, kannst du einen <b>Kommunikator</b> verwenden, um einen <b>Händler</b> zu rufen, der möglicherweise die gesuchte Ressource hat.<br><br> Beachte, dass für die Verwendung des <b>Kommunikators</b> möglicherweise Menschen erforderlich sind.",,
+tut.prod.acquire.7,"Einige Ressourcen können mit einem <b>Partikelsammler</b> erfasst werden, dies ist jedoch ein langsamer und oft energieintensiver Prozess.<br><br>Tipp: <b>Partikelsammler</b> sind während eines <b>Staubsturms</b> effizienter.",,
+tut.prod.acquire.title,So erwirbst du Ressourcen,,
+probe.warning.above.star.system,"Betrete ein <b>Sternensystem</b>, um die Sonde zu starten.",,
+probe.warning.below.star.system,"Verlasse <b>{0}</b>, um die Sonde zu starten.",,{0} is Planet
+tut.prod.water.1,"Während der <b>{0}</b> <b>{1}</b> produziert, machen wir weiter und nutzen die anderen Geräte, um die Materialien zu produzieren, die wir benötigen.",,{0} is Furnace {1} is Lead Plate
+tut.prod.water.2,"Das nächste Material, dass für den Bau eines <b>Kernreaktors</b> benötigt wird, ist <b>{0}</b>. Der <b>Kodexeintrag</b> für <b>{0}</b> enthält die folgenden Informationen: {1}",,{0} is Nuclear Battery {1} is instructions on how to produce it
+tut.prod.water.3,"Wir produzieren bereits <b>{0}</b>, aber wir haben nicht <b>{1}</b> und <b>{2}</b>.<br><br>Der <b>Kodexeintrag</b> für <b>{1}</b> besagt: {3}",,{0} is Lead Plate {1} is Enriched Uranium {2} is Microchip {3} is instructions
+tut.prod.water.4,"Wir haben einige <b>{0}</b>, aber nicht <b>{1}</b>. Der <b>Kodexeintrag</b> für <b>{1}</b> lautet: {2}",,{0} is Uranium {1} is Water {2} is instructions
+tut.prod.water.5,"Schließlich haben wir einen benötigten Artikel gefunden, den wir produzieren können. Wir haben einige <b>{0}</b> und einen <b>{1}</b>.<br><br>Lass uns den <b>{1}</b> für die Verarbeitung von <b>{0}</b> in <b>{2}</b> konfigurieren.",,{0} is Biowaste {1} is Recycler {2} is Water
+tut.prod.what.to.produce,"Identifizieren, was als nächstes produziert werden soll",,
+tut.prod.enriched.uranium.1,"Wir werden bald alle Zutaten haben, die wir für die Herstellung von <b>{0}</b> benötigen. Lass uns die <b>{1}</b> konfigurieren, um es herzustellen.",,{0} is Enriched Uranium {1} is Centrifuge
