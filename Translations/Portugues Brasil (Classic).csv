@@ -4053,7 +4053,7 @@ ore.deposit,Depósito de {0},,"{0} will be replaced with ore name, such as Iron"
 mining.difficulty,Dificuldade de Mineração,,
 mining.difficulty.info,"Quando o recurso é extraído do depósito, a dificuldade de mineração desse depósito aumenta. Maior dificuldade reduzirá a produção de mineração. Equipamentos avançados de mineração podem aumentar a produção dos depósitos de recursos.",,
 exp.mine.resource.title,Minerando {0} ({1:0.00}/Dia),,"{0} is resource name (i.e. Iron), {1:0.00} will become a number, like 1.35"
-est.mining.rate,Taxa Mínima: {0:0.00}/dia,,"{0:0.00} will become a number, like 1.35"
+est.mining.rate,Taxa: {0:0.00}/dia,2023-09-16,"{0:0.00} will become a number, like 1.35"
 orders,Ordens,,"noun, as in current orders"
 min.mine.rate,Taxa Mínima,,
 min.mine.rate.tip,A expedição terminará automaticamente quando a taxa de mineração cair abaixo desse limite.,,
@@ -4909,7 +4909,7 @@ tut.winch.step5_10,Desconstrua a área destacada para continuar.,,
 tut.step.relocate,Use {0} para realocar <b>{1}</b> para a àrea destacada.<br><br>Gire o dispositivo com {1}.,,
 tut.step.relocate.workspot,O local de trabalho (círculo) deve ficar em um Piso vazio.,,
 tut.step.relocate.waiting,Aguardando Realocação...,,
-tut.winch.step6_1,"A última seção no canto inferior esquerdo será muito mais fácil de anexar, pois possui vários <b>Controladores de Manobra</b> prontos para ação.<br><br>Os <b>Controladores de Manobra</b> podem mover uma Seção da Nave ou toda ela com alta precisão. Eles podem ser usados para mover <b>Naves Abandonadas</b> ou para esquivar de <b>Asteroides</b>.",2022-08-26,
+tut.winch.step6_1,"A última seção no canto inferior esquerdo será muito mais fácil de anexar, pois possui vários <b>Controladores de Manobra</b> prontos para ação.<br><br>Os <b>Controladores de Manobra</b> podem mover uma Seção da Nave ou toda ela com alta precisão. Eles podem ser usados para mover <b>Naves Abandonadas</b> ou para esquivar de <b>Asteroides</b>.",2023-09-16,
 tut.winch.step6_2,Teremos que estabelecer uma <b>Conexão Temporária</b> com a Rede remota antes que possamos usar os <b>Controladores de Manobra</b>. .,2022-08-26,
 tut.winch.step6_3,Aguardando o estabelecimento da Conexão Temporária.,2022-08-26,
 tut.winch.step6_4,"Agora use a interface dos <b>Controladores de Manobra</b> para ajustar <b>{0}</b> e <b>{1}</b>, depois o botão <b>{2}</b> para executar o movimento.<br><br>Quando esse <b>Controlador de Manobra</b> descarregar, selecione o próximo e execute outro movimento.<br><br>Seu objetivo é conectar esta Seção com a que possui o <b>Computador de Bordo</b>.",,
@@ -5024,3 +5024,12 @@ crafter.batch.size,Tamanho do Lote,,
 crafter.batch.size.tip,Você pode aumentar o tamanho do lote para carregar mais ingredientes e produzir mais. Lotes maiores levarão mais tempo para serem produzidos.,,
 retrieve.resource.miner,Recuperar Minerador de Recursos,,
 copter.mission.stage.retrieve.miner,Recuperando Equipamento de Mineração,,
+device.produced,{0} produziu {1} em {2},,{0} is device name {1} is product name {2} is location
+verb.extract,Extrair,,
+noun.depth,Profundidade,,
+mining.depth.tip,"A profundidade aumenta quando o depósito é extraído. Após atingir uma certa profundidade, será necessário equipamento especializado para continuar a extração de recursos. O depósito só pode ser extraído até a profundidade que seu equipamento suportar.",,
+deposit.verb.mine,Minerando {0} ({1:0.##}/dia @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
+deposit.verb.collect,Coletando {0} ({1:0.##}/dia),,{0} is resource name {1} is number
+deposit.verb.extract,Extraindo {0} ({1:0.##}/dia @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
+mining.depth.max,Profundidade Máxima de Mineração,,
+resource.deposit.possible,Possível Depósito de Recursos,,
