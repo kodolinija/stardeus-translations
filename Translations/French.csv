@@ -3553,6 +3553,7 @@ reset.input.bindings.tip,Réinitialise toutes les liaisons d'entrée aux valeurs
 reset.tips,Conseils de réinitialisation,,
 reset.to.defaults,Réinitialiser les paramètres,,
 resource.accumulation.bar,Accumulation de ressources: {0},,
+resource.deposit.possible,Dépôt de ressources possible,,
 resource.miner,Mineur automatique,,
 resource.miner.tip,Vous pouvez déployer ce mineur automatique sur les gisements de ressources. La machine tentera de collecter la ressource jusqu'à ce que son stockage interne soit plein.,,
 restart.now,Redémarrer maintenant,,
