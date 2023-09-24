@@ -3392,6 +3392,7 @@ tool.ads_cancel.desc,"Bricht alle Aufgaben im gezogenen Bereich ab",,
 tool.ads_priority,"Priorität ändern",,
 tool.ads_priority.desc,"Passt die Aufgabenpriorität innerhalb des gezogenen Bereichs nach oben oder unten an.",2022-06-25,
 tool.ads_retry,"Aufgaben wiederholen",,
+tool.ads_retry.desc,Wiederholt fehlgeschlagene Aufgaben im ausgewählten Bereich.,,
 tool.choose_pos,"Position wählen",,
 tool.copy_config,"Konfiguration kopieren",,
 tool.copy_config.desc,"Kopiert die Konfiguration einiger Objekte (Lichter, Pflanzmaschine, Sonnenpaneele usw.)",,
@@ -4061,7 +4062,7 @@ ore.deposit,"{0} Vorkommen",,"{0} will be replaced with ore name, such as Iron"
 mining.difficulty,"Schwierigkeit des Abbaus",,
 mining.difficulty.info,"Wenn die Ressource aus der Lagerstätte abgebaut wird, erhöht sich die Abbau-Schwierigkeit dieser Lagerstätte. Je höher die Schwierigkeit, desto geringer ist die Fördermenge. Fortgeschrittene Bergbauausrüstung kann die Ausbeute des Rohstoffvorkommens erhöhen.",,
 exp.mine.resource.title,Bergbau {0} ({1:0.00}/Tag),,"{0} is resource name (i.e. Iron), {1:0.00} will become a number, like 1.35"
-est.mining.rate,Abbaugeschwindigkeit: {0:0.00}/Tag,,"{0:0.00} will become a number, like 1.35"
+est.mining.rate,Rate: {0:0.00}/Tag,2023-09-16,"{0:0.00} will become a number, like 1.35"
 orders,Aufträge,,"noun, as in current orders"
 min.mine.rate,Mindestrate,,
 min.mine.rate.tip,"Die Expedition wird automatisch beendet, wenn die Abbaurate unter diesen Wert fällt.",,
@@ -4916,7 +4917,7 @@ tut.winch.step5_10,"Dekonstruiere den hervorgehobenen Bereich, um fortzufahren."
 tut.step.relocate,"Verwende {0}, um die Verschiebung des ausgewählten <b>{1}</b> in den hervorgehobenen Bereich anzuordnen.<br><br>Drehe das Gerät mit {1}.",,
 tut.step.relocate.workspot,Der Arbeitsplatz (Kreis) muss sich auf einem leeren Boden befinden.,,
 tut.step.relocate.waiting,Warten auf Umzug.,,
-tut.winch.step6_1,"Der letzte Abschnitt unten rechts lässt sich viel einfacher anbringen, da dort mehrere <b>Manövriercontroller</b> einsatzbereit sind.<br><br>Die <b>Manövriercontroller</b> können ein Schiffsabschnitt bewegen oder das gesamte Schiff, mit hoher Präzision. Sie können verwendet werden, um <b>verlassene Schiffe</b> zu bewegen oder ankommenden <b>Asteroiden</b> auszuweichen.",2022-08-26,
+tut.winch.step6_1,"Der letzte Abschnitt unten links lässt sich viel einfacher anbringen, da dort mehrere <b>Manövriercontroller</b> einsatzbereit sind.<br><br>Die <b>Manövriercontroller</b> können einen Schiffsabschnitt oder das gesamte Schiff mit hoher Präzision bewegen. Sie können verwendet werden, um <b>Verlassene Schiffe</b> zu bewegen oder ankommenden <b>Asteroiden</b> auszuweichen.",2023-09-16,
 tut.winch.step6_2,"Wir müssen eine <b>vorübergehende Verbindung</b> zum entfernten Netz herstellen, bevor wir die <b>Manövriersteuerungen</b> verwenden können.",2022-08-26,
 tut.winch.step6_3,Warten auf den Aufbau einer temporären Verbindung.,2022-08-26,
 tut.winch.step6_4,"Verwende nun die Benutzeroberfläche des <b>Maneuvering Controller</b>, um <b>{0}</b> und <b>{1}</b> anzupassen, und verwende dann <b>{2}</b> Klicke auf die Schaltfläche, um die Bewegung auszuführen.<br><br>Wenn dieser <b>Manövriercontroller</b> entladen wird, wähle den nächsten aus und führe eine weitere Bewegung aus.<br><br>Dein Ziel ist es, diesen Abschnitt mit dem mit dem Abschnitt mit <b>Schiffscomputer</b>zu verbinden.",,
@@ -5032,4 +5033,27 @@ crafter.batch.size.tip,"Du kannst die Chargengröße erhöhen, um mehr Zutaten z
 retrieve.resource.miner,Abbaugerät zurück holen,,
 copter.mission.stage.retrieve.miner,Bergbauausrüstung bergen,,
 device.produced,{0} hat {1} bei {2} produziert,,{0} is device name {1} is product name {2} is location
-explosion.at,Explosion bei {0},,
+verb.extract,Fördern,,
+noun.depth,Tiefe,,
+mining.depth.tip,"Die Tiefe der Ressourcenlagerstätte nimmt zu, wenn die Lagerstätte abgebaut wird. Sobald eine bestimmte Tiefe erreicht ist, ist Spezialausrüstung erforderlich, um die Ressourcengewinnung fortzusetzen. Die Ablagerung kann so tief gefördert werden, wie es deine Ausrüstung zulässt.",,
+deposit.verb.mine,Bergbau {0} ({1:0.##}/Tag @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
+deposit.verb.collect,Sammeln von {0} ({1:0.##}/Tag),,{0} is resource name {1} is number 
+deposit.verb.extract,Fördern von {0} ({1:0.##}/Tag bei {2}),,{0} is resource name {1} is number {2} is depth like 12km
+mining.depth.max,Maximale Abbautiefe,,
+resource.deposit.possible,Mögliche Ressourcenlagerstätte,,
+operate.fail.deficit,Betrieb von {0} bei {1} aufgrund von Stromdefiziten fehlgeschlagen: {2},,
+noun.note,Notiz,,
+adjective.tired,Müde,,
+exp.crew.tired,"Einige Mitglieder Ihrer Crew sind zu müde, um auf eine Expedition geschickt zu werden.",,
+noun.permissions,Berechtigungen,,
+nav.perm.walking,Gehen,,
+nav.perm.flying,Fliegend,,
+nav.perm.robot,Roboter,,
+nav.perm.biological,Biologisch,,
+nav.perm.humanoid,Menschlich,,
+nav.perm.animal,Tier,,
+nav.perm.friendly,Freundlich,,
+nav.perm.enemy,Feind,,
+research.security.doorpermissions,Türberechtigungen,,
+permissions.denied,Abgelehnt für: {0},,
+permissions.allowed,Nur zulässig für: {0},,
