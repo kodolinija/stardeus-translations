@@ -160,7 +160,7 @@ activate,"Aktivieren",,
 activate.siren,"Sirene aktivieren",,
 active,Aktiv,,"Opposite of Inactive or Disabled. Appears on device buttons that can switch the state, or on labels that display that device is active (operational, running)"
 active.orders,"Aktive Befehle",,
-active.orders.info,"Aktive Befehle werden von dir direkt über die Werkzeuge erteilt. Die Anzahl der aktiven Befehle, die du erteilen kannst, hängt davon ab, über wie viel Speicherplatz dein Schiffscomputer zu einem bestimmten Zeitpunkt verfügt. Wenn du mehr Befehle erteilst, als dein Schiffscomputer verarbeiten kann, musst du warten, bis die Anzahl der aktiven Befehle sinkt, bevor du neue erteilen kannst.",,
+active.orders.info,"Die Gesamtzahl der aktiven Aufträge ist durch die Ressource <b>Arbeitspeicher</b> begrenzt. Baue neue <b>Arbeitsspeichermodule</b>, um das Limit zu erhöhen.<br><br>Sobald das Limit erreicht ist, kannst du keine neuen manuellen Aufträge mehr erstellen.",2023-09-15,
 ad.rej.cancelled,"Aufgabe wurde abgebrochen",,
 ad.rej.construction.site.obstructed,"Baustelle blockiert",,
 ad.rej.could.not.reserve,"Konnte den Gegenstand nicht reservieren",,
@@ -1415,7 +1415,7 @@ hidden.achievement,"Versteckte Errungenschaft",,
 hide,Ausblenden,,
 hint,Hinweis,,
 hint.ad_cancel,"Du hast mehrere Aufgaben manuell abgebrochen. Es gibt einen effizienteren Weg, dies zu tun. Verwende das Werkzeugmenü, um das Werkzeug <nobr><b>Aufgaben abbrechen</b></nobr> zu finden, und klicke dann auf Aufgaben oder ziehe ein Rechteck über mehrere Aufgaben, die du abbrechen möchtest.",2023-08-16,
-hint.autoclear_debris,"Wenn du Geräte auf Schutt und Materialien baust, werden automatisch Transportaufgaben erstellt. Du musst eine <b>Lagereinheit</b> bauen, damit der Abtransport stattfinden kann. Der Bau kann erst erfolgen, wenn der Schutt weggeräumt ist.",,
+hint.autoclear_debris,"Der Bau von Geräten auf Trümmern und Materialien führt automatisch zu Transportaufgaben. Mit dem Bau wird erst begonnen, wenn die Trümmer entfernt sind.",2023-09-12,
 hint.cleaning_auto,"Du kannst den <b>Selbstreinigungschwellenwert</b> anpassen, um automatische Reinigungsaufgaben früher erstellen zu lassen. Du kannst auch das <b>Konfig.-kopieren</b> Werkzeug verwenden, um diese Einstellung schnell auf mehrere Geräte zu übertragen.",,
 hint.close_events_clock,"Denke daran, die Zeit anzuhalten, wenn du Ereignisbenachrichtigungen überprüfst oder verwaltest. Andernfalls können neue Benachrichtigungen die Liste neu ordnen und die Numerierung zurücksetzen.",,
 hint.construction_cramped,"Es wird empfohlen, jedes Gerät von mindestens einer Seite aus zugänglich zu halten, da die Arbeiter es sonst nicht erreichen können, um Reparaturen oder Wartungen durchzuführen.",,
@@ -3392,6 +3392,7 @@ tool.ads_cancel.desc,"Bricht alle Aufgaben im gezogenen Bereich ab",,
 tool.ads_priority,"Priorität ändern",,
 tool.ads_priority.desc,"Passt die Aufgabenpriorität innerhalb des gezogenen Bereichs nach oben oder unten an.",2022-06-25,
 tool.ads_retry,"Aufgaben wiederholen",,
+tool.ads_retry.desc,Wiederholt fehlgeschlagene Aufgaben im ausgewählten Bereich.,,
 tool.choose_pos,"Position wählen",,
 tool.copy_config,"Konfiguration kopieren",,
 tool.copy_config.desc,"Kopiert die Konfiguration einiger Objekte (Lichter, Pflanzmaschine, Sonnenpaneele usw.)",,
@@ -4061,7 +4062,7 @@ ore.deposit,"{0} Vorkommen",,"{0} will be replaced with ore name, such as Iron"
 mining.difficulty,"Schwierigkeit des Abbaus",,
 mining.difficulty.info,"Wenn die Ressource aus der Lagerstätte abgebaut wird, erhöht sich die Abbau-Schwierigkeit dieser Lagerstätte. Je höher die Schwierigkeit, desto geringer ist die Fördermenge. Fortgeschrittene Bergbauausrüstung kann die Ausbeute des Rohstoffvorkommens erhöhen.",,
 exp.mine.resource.title,Bergbau {0} ({1:0.00}/Tag),,"{0} is resource name (i.e. Iron), {1:0.00} will become a number, like 1.35"
-est.mining.rate,Abbaugeschwindigkeit: {0:0.00}/Tag,,"{0:0.00} will become a number, like 1.35"
+est.mining.rate,Rate: {0:0.00}/Tag,2023-09-16,"{0:0.00} will become a number, like 1.35"
 orders,Aufträge,,"noun, as in current orders"
 min.mine.rate,Mindestrate,,
 min.mine.rate.tip,"Die Expedition wird automatisch beendet, wenn die Abbaurate unter diesen Wert fällt.",,
@@ -4366,8 +4367,8 @@ toggle.log,"Protokoll umschalten",,
 evt.micro.meteors.ended,"Mikrometeorschauer beendet",,
 joined.mutiny,"hat sich der Meuterei angeschlossen",,"Will be prefixed by human name, i.e. 'John: Joined the mutiny'"
 breakdown.ended,"Nervenzusammenbruch beendet",,
-took.damage.from,Hat {0} {1} Schaden von {2} erlitten,,"{0} amount, {1} type, {2} source. Will look like 'took 12 Heat damage from Mike'"
-took.damage,Hat {0} {1} Schaden erlitten,,"{0} amount, {1} type"
+took.damage.from,Hat {0} {1} Schaden von {2} am {3} erlitten,2023-09-13,"{0} amount, {1} type, {2} source {3} is location. Will look like ""took 12 Heat damage from Mike at [12:31]"""
+took.damage,Hat {0} {1} Schaden bei {2} erlitten,2023-09-14,"{0} amount, {1} type, {2} is location"
 structure.floors.oxymaticfloor.desc,"Eine elegante Alternative zur bodenbasierten Sauerstoffpumpe mit besserer Sauerstoffproduktionsrate.",,
 structure.floors.oxymaticfloor,"O2-Boden",,
 structure.floors.heatmaticfloor.desc,"Eine elegante Alternative zur Bodenheizung mit erhöhter Heizrate.",,
@@ -4640,7 +4641,7 @@ tut.basic.controls.desc,Dieses Tutorial gibt dir einen Überblick über die Benu
 tut.basic.controls.step.intro,Willkommen bei Stardeus!,,
 tut.basic.controls.step.intro.desc,"Dieses Tutorial zeigt dir, wie du das Spiel steuern und in der Benutzeroberfläche navigieren kannst.<br><br>Klicke auf dieses Fenster und ziehe es, um es zu verschieben.<br><br>Du kannst die Skalierung der Benutzeroberfläche unter <b>Einstellungen > Video</b>.",,
 tut.basic.controls.step.cam,Kamerakontrolle,,
-tut.basic.controls.step.cam.desc,"So bewegst du die Kamera: {0}.<br><br>Zoom anpassen: {1}. <color={2}>(wenn nicht über die Benutzeroberfläche)</b><br><br>Rundschwenk kann unter <b>Einstellungen > Eingabe</b> umgeschaltet werden.",2023-08-25,{0} and {1} are key bindings
+tut.basic.controls.step.cam.desc,"So bewegst du die Kamera: {0}.<br><br>Zoom anpassen: {1}. <color={2}>(wenn nicht über die Benutzeroberfläche)</color></b><br><br>Rundschwenk kann unter <b>Einstellungen > Eingabe</b> umgeschaltet werden.",2023-08-25,{0} and {1} are key bindings
 tut.basic.controls.step.overlays.visual,Visuelle Übersicht,,
 tut.basic.controls.vis.ov.1,"Unterhalb der Zeitsteuerung findest du Schaltflächen zum Umschalten von Overlays, die nützliche Informationen über den Zustand des Schiffs anzeigen. {0}<br><br>Wir werden nun jedes Overlay durchgehen. <b>Du kannst den nächsten Teil überspringen</b> und die Schaltflächen-Tooltips später selbst erkunden.",,{0} is a sentence about keyboard shortcuts
 tut.basic.controls.vis.ov.1_keyboard,"Du kannst die Tasten {0} verwenden, um sie umzuschalten.",,
@@ -4916,7 +4917,7 @@ tut.winch.step5_10,"Dekonstruiere den hervorgehobenen Bereich, um fortzufahren."
 tut.step.relocate,"Verwende {0}, um die Verschiebung des ausgewählten <b>{1}</b> in den hervorgehobenen Bereich anzuordnen.<br><br>Drehe das Gerät mit {1}.",,
 tut.step.relocate.workspot,Der Arbeitsplatz (Kreis) muss sich auf einem leeren Boden befinden.,,
 tut.step.relocate.waiting,Warten auf Umzug.,,
-tut.winch.step6_1,"Der letzte Abschnitt unten rechts lässt sich viel einfacher anbringen, da dort mehrere <b>Manövriercontroller</b> einsatzbereit sind.<br><br>Die <b>Manövriercontroller</b> können ein Schiffsabschnitt bewegen oder das gesamte Schiff, mit hoher Präzision. Sie können verwendet werden, um <b>verlassene Schiffe</b> zu bewegen oder ankommenden <b>Asteroiden</b> auszuweichen.",2022-08-26,
+tut.winch.step6_1,"Der letzte Abschnitt unten links lässt sich viel einfacher anbringen, da dort mehrere <b>Manövriercontroller</b> einsatzbereit sind.<br><br>Die <b>Manövriercontroller</b> können einen Schiffsabschnitt oder das gesamte Schiff mit hoher Präzision bewegen. Sie können verwendet werden, um <b>Verlassene Schiffe</b> zu bewegen oder ankommenden <b>Asteroiden</b> auszuweichen.",2023-09-16,
 tut.winch.step6_2,"Wir müssen eine <b>vorübergehende Verbindung</b> zum entfernten Netz herstellen, bevor wir die <b>Manövriersteuerungen</b> verwenden können.",2022-08-26,
 tut.winch.step6_3,Warten auf den Aufbau einer temporären Verbindung.,2022-08-26,
 tut.winch.step6_4,"Verwende nun die Benutzeroberfläche des <b>Maneuvering Controller</b>, um <b>{0}</b> und <b>{1}</b> anzupassen, und verwende dann <b>{2}</b> Klicke auf die Schaltfläche, um die Bewegung auszuführen.<br><br>Wenn dieser <b>Manövriercontroller</b> entladen wird, wähle den nächsten aus und führe eine weitere Bewegung aus.<br><br>Dein Ziel ist es, diesen Abschnitt mit dem mit dem Abschnitt mit <b>Schiffscomputer</b>zu verbinden.",,
@@ -5016,3 +5017,43 @@ tut.prod.water.4,"Wir haben einige <b>{0}</b>, aber nicht <b>{1}</b>. Der <b>Kod
 tut.prod.water.5,"Schließlich haben wir einen benötigten Artikel gefunden, den wir produzieren können. Wir haben einige <b>{0}</b> und einen <b>{1}</b>.<br><br>Lass uns den <b>{1}</b> für die Verarbeitung von <b>{0}</b> in <b>{2}</b> konfigurieren.",,{0} is Biowaste {1} is Recycler {2} is Water
 tut.prod.what.to.produce,"Identifizieren, was als nächstes produziert werden soll",,
 tut.prod.enriched.uranium.1,"Wir werden bald alle Zutaten haben, die wir für die Herstellung von <b>{0}</b> benötigen. Lass uns die <b>{1}</b> konfigurieren, um es herzustellen.",,{0} is Enriched Uranium {1} is Centrifuge
+tool.spawn_human,Mensch hervorbringen,,
+storage.capsule.contained,Aufbewahrungskapsel enthält {0},,{0} is a list of contents
+exp.found.resource,<b>{0}</b> hat eine Ressourcenlagerstätte gefunden: <b>{1}</b>,,{0} is shuttle name {1} is deposit type
+energy.renewable,Erneuerbare Energie,,
+energy.renewable.desc,"Strom, der durch Sonnenkollektoren oder andere Geräte erzeugt wird, die keine Materialien verbrauchen.",,
+trap.ready,Falle bereit,,
+trap.charging,Falle lädt,,
+trap.unpowered,Falle ohne Strom,,
+structure.floors.trapfloor,Bodenfalle,,
+structure.floors.trapfloor.desc,"Ein Boden, der beim Betreten mit Stacheln in ein feindliches Wesen eindringt".,,
+research.security.trapfloor,Bodenfalle,,
+crafter.batch.size,Chargengröße,,
+crafter.batch.size.tip,"Du kannst die Chargengröße erhöhen, um mehr Zutaten zu laden und mehr Leistung zu erzielen. Bei größeren Chargen dauert die Produktion länger.",,
+retrieve.resource.miner,Abbaugerät zurück holen,,
+copter.mission.stage.retrieve.miner,Bergbauausrüstung bergen,,
+device.produced,{0} hat {1} bei {2} produziert,,{0} is device name {1} is product name {2} is location
+verb.extract,Fördern,,
+noun.depth,Tiefe,,
+mining.depth.tip,"Die Tiefe der Ressourcenlagerstätte nimmt zu, wenn die Lagerstätte abgebaut wird. Sobald eine bestimmte Tiefe erreicht ist, ist Spezialausrüstung erforderlich, um die Ressourcengewinnung fortzusetzen. Die Ablagerung kann so tief gefördert werden, wie es deine Ausrüstung zulässt.",,
+deposit.verb.mine,Bergbau {0} ({1:0.##}/Tag @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
+deposit.verb.collect,Sammeln von {0} ({1:0.##}/Tag),,{0} is resource name {1} is number 
+deposit.verb.extract,Fördern von {0} ({1:0.##}/Tag bei {2}),,{0} is resource name {1} is number {2} is depth like 12km
+mining.depth.max,Maximale Abbautiefe,,
+resource.deposit.possible,Mögliche Ressourcenlagerstätte,,
+operate.fail.deficit,Betrieb von {0} bei {1} aufgrund von Stromdefiziten fehlgeschlagen: {2},,
+noun.note,Notiz,,
+adjective.tired,Müde,,
+exp.crew.tired,"Einige Mitglieder Ihrer Crew sind zu müde, um auf eine Expedition geschickt zu werden.",,
+noun.permissions,Berechtigungen,,
+nav.perm.walking,Gehen,,
+nav.perm.flying,Fliegend,,
+nav.perm.robot,Roboter,,
+nav.perm.biological,Biologisch,,
+nav.perm.humanoid,Menschlich,,
+nav.perm.animal,Tier,,
+nav.perm.friendly,Freundlich,,
+nav.perm.enemy,Feind,,
+research.security.doorpermissions,Türberechtigungen,,
+permissions.denied,Abgelehnt für: {0},,
+permissions.allowed,Nur zulässig für: {0},,
