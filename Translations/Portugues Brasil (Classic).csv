@@ -160,7 +160,7 @@ activate,Ativar,,
 activate.siren,Ativar Sirene,,
 active,Ativo,,"Opposite of Inactive or Disabled. Appears on device buttons that can switch the state, or on labels that display that device is active (operational, running)"
 active.orders,Ordens Ativas,,
-active.orders.info,"Ordens Ativas são aquelas criadas diretamente por você, por meio das ferramentas. Existe um limite de Ordens Ativas, e esse número depende da quantidade de Memória que seu Computador de Bordo possui naquele momento. Se você criar mais Ordens do que o seu Computador de Bordo pode executar, terá que esperar até que a contagem de Ordens Ativas diminua antes de conseguir criar novas.",,
+active.orders.info,O número de Ordens Ativas é limitado pela <b>Memória</b>. Construa mais <b>Módulos de Memória</b> para aumentar esse limite.<br><br>Quando o limite for atingido não será mais possível criar novas Ordens manalmente.,2023-09-15,
 ad.rej.cancelled,Tarefa Cancelada,,
 ad.rej.construction.site.obstructed,Local de Construção Obstruído,,
 ad.rej.could.not.reserve,Não foi possível reservar item,,
@@ -1407,7 +1407,7 @@ hidden.achievement,Conquista Oculta,,
 hide,Esconder,,
 hint,Dica,,
 hint.ad_cancel,Você cancelou manualmente várias tarefas. Existe uma maneira mais eficiente de fazer isso. Use o Menu de Ferramentas para encontrar a ferramenta <nobr><b>Cancelar Tarefas</b></nobr> e clique nas tarefas ou arraste um retângulo sobre várias para cancelar.,2023-08-16,
-hint.autoclear_debris,"Construir dispositivos em cima de detritos ou outros materiais, irá criar automaticamente tarefas de transporte. Você precisa construir uma <nobr><b>Unidade de Armazenamento</b></nobr> para que o transporte aconteça. A construção não acontecerá até que o local esteja limpo.",,
+hint.autoclear_debris,"Construir dispositivos em cima de detritos ou outros materiais, irá criar automaticamente tarefas de transporte. A construção não acontecerá até que o local esteja limpo.",2023-09-12,
 hint.cleaning_auto,Você pode ajustar a <nobr><b>Quantidade para Limpeza Automática</b></nobr> e criar tarefas de limpeza automaticamente mais cedo. Você também pode usar a ferramenta <nobr><b>Copiar configuração</b></nobr> para copiar essa configuração entre vários dispositivos rapidamente.,,
 hint.close_events_clock,"Considere fazer uma pausa ao revisar ou gerenciar notificações de eventos, caso contrário, novas notificações poderão reordenar a lista e redefinir a paginação.",,
 hint.construction_cramped,"Você deve manter todos os dispositivos acessíveis por pelo menos um lado, caso contrário, os trabalhadores não poderão alcançá-los para realizar reparos ou manutenção.",,
@@ -4053,7 +4053,7 @@ ore.deposit,Depósito de {0},,"{0} will be replaced with ore name, such as Iron"
 mining.difficulty,Dificuldade de Mineração,,
 mining.difficulty.info,"Quando o recurso é extraído do depósito, a dificuldade de mineração desse depósito aumenta. Maior dificuldade reduzirá a produção de mineração. Equipamentos avançados de mineração podem aumentar a produção dos depósitos de recursos.",,
 exp.mine.resource.title,Minerando {0} ({1:0.00}/Dia),,"{0} is resource name (i.e. Iron), {1:0.00} will become a number, like 1.35"
-est.mining.rate,Taxa Mínima: {0:0.00}/dia,,"{0:0.00} will become a number, like 1.35"
+est.mining.rate,Taxa: {0:0.00}/dia,2023-09-16,"{0:0.00} will become a number, like 1.35"
 orders,Ordens,,"noun, as in current orders"
 min.mine.rate,Taxa Mínima,,
 min.mine.rate.tip,A expedição terminará automaticamente quando a taxa de mineração cair abaixo desse limite.,,
@@ -4358,8 +4358,8 @@ toggle.log,Alternar Histórico,,
 evt.micro.meteors.ended,Micrometeoroides não estão mais presentes,,
 joined.mutiny,Juntou-se ao Motim,,"Will be prefixed by human name, i.e. ""John: Joined the mutiny"""
 breakdown.ended,Voltou ao Normal,,
-took.damage.from,Sofreu {0} {1} de Dano causado por {2}.,,"{0} amount, {1} type, {2} source. Will look like ""took 12 Heat damage from Mike"""
-took.damage,Sofreu {0} de Dano: {1},,"{0} amount, {1} type"
+took.damage.from,Sofreu {0} {1} de Dano causado por {2} em {3}.,2023-09-13,"{0} amount, {1} type, {2} source. Will look like ""took 12 Heat damage from Mike"""
+took.damage,Sofreu {0} de Dano em {2}: {1},2023-09-14,"{0} amount, {1} type"
 structure.floors.oxymaticfloor.desc,Uma elegante alternativa de Bomba de Oxigênio em formato de Pixo com taxa de produção de oxigênio mais rápida.,,
 structure.floors.oxymaticfloor,Piso Oxymatic,,
 structure.floors.heatmaticfloor.desc,Uma elegante alternativa de Aquecedor em formato de Piso com maior taxa de aquecimento.,,
@@ -4632,7 +4632,7 @@ tut.basic.controls.desc,Este tutorial dará uma visão geral da interface do Sta
 tut.basic.controls.step.intro,Bem-vindo ao Stardeus!,,
 tut.basic.controls.step.intro.desc,Este tutorial será focado na interface e controles do jogo.<br><br>É possível arrastar janelas para outros locais.<br><br>Também é possível ajustar a escala da interface em <b>Configurações > Vídeo</b>.,,
 tut.basic.controls.step.cam,Controle da Câmera,,
-tut.basic.controls.step.cam.desc,Para mover a câmera: {0}.<br><br>Ajustar o Zoom: {1}. <color={2}>(com o cursor fora de alguma janela)</b><br><br>Rolar pelas bordas pode ser configurado em <b>Configurações > Controles</b>.,2023-08-25,
+tut.basic.controls.step.cam.desc,Para mover a câmera: {0}.<br><br>Ajustar o Zoom: {1}. <color={2}>(com o cursor fora de alguma janela)</color></b><br><br>Rolar pelas bordas pode ser configurado em <b>Configurações > Controles</b>.,2023-08-25,
 tut.basic.controls.step.overlays.visual,Visualizações,,
 tut.basic.controls.vis.ov.1,"Abaixo dos controles de tempo, temos os botões para alternar as visualizações que exibem informações úteis sobre o estado da Nave. {0}<br><br>Vamos passar agora por cada uma. <b>Você pode pular a próxima parte</b> e explorar as dicas dos botões por conta própria mais tarde.",,{0} is a sentence about keyboard shortcuts
 tut.basic.controls.vis.ov.1_keyboard,Você pode usar as teclas {0} para alternar entre elas.,,
@@ -4909,7 +4909,7 @@ tut.winch.step5_10,Desconstrua a área destacada para continuar.,,
 tut.step.relocate,Use {0} para realocar <b>{1}</b> para a àrea destacada.<br><br>Gire o dispositivo com {1}.,,
 tut.step.relocate.workspot,O local de trabalho (círculo) deve ficar em um Piso vazio.,,
 tut.step.relocate.waiting,Aguardando Realocação...,,
-tut.winch.step6_1,"A última seção no canto inferior esquerdo será muito mais fácil de anexar, pois possui vários <b>Controladores de Manobra</b> prontos para ação.<br><br>Os <b>Controladores de Manobra</b> podem mover uma Seção da Nave ou toda ela com alta precisão. Eles podem ser usados para mover <b>Naves Abandonadas</b> ou para esquivar de <b>Asteroides</b>.",2022-08-26,
+tut.winch.step6_1,"A última seção no canto inferior esquerdo será muito mais fácil de anexar, pois possui vários <b>Controladores de Manobra</b> prontos para ação.<br><br>Os <b>Controladores de Manobra</b> podem mover uma Seção da Nave ou toda ela com alta precisão. Eles podem ser usados para mover <b>Naves Abandonadas</b> ou para esquivar de <b>Asteroides</b>.",2023-09-16,
 tut.winch.step6_2,Teremos que estabelecer uma <b>Conexão Temporária</b> com a Rede remota antes que possamos usar os <b>Controladores de Manobra</b>. .,2022-08-26,
 tut.winch.step6_3,Aguardando o estabelecimento da Conexão Temporária.,2022-08-26,
 tut.winch.step6_4,"Agora use a interface dos <b>Controladores de Manobra</b> para ajustar <b>{0}</b> e <b>{1}</b>, depois o botão <b>{2}</b> para executar o movimento.<br><br>Quando esse <b>Controlador de Manobra</b> descarregar, selecione o próximo e execute outro movimento.<br><br>Seu objetivo é conectar esta Seção com a que possui o <b>Computador de Bordo</b>.",,
@@ -5009,3 +5009,27 @@ tut.prod.water.4,"Temos algum <b>{0}</b>, mas não <b>{1}</b>. A <b>Entrada no C
 tut.prod.water.5,"Finalmente, encontramos um item necessário que podemos produzir. Temos <b>{0}</b> e um <b>{1}</b>.<br><br>Vamos configurar o <b>{1}</b> para processar <b>{0}</b> em <b>{2}</b>.",,{0} is Biowaste {1} is Recycler {2} is Water
 tut.prod.what.to.produce,Identificando o que produzir depois,,
 tut.prod.enriched.uranium.1,Em breve teremos todos os ingredientes necessários para produzir <b>{0}</b>. Vamos configurar a <b>{1}</b> para produzi-lo.,,{0} is Enriched Uranium {1} is Centrifuge
+tool.spawn_human,Gerar Humano,,
+storage.capsule.contained,Cápsula de Armazenamento continha {0},,{0} is a list of contents
+exp.found.resource,<b>{0}</b> encontrou um Depósito de Recurso: <b>{1}</b>,,{0} is shuttle name {1} is deposit type
+energy.renewable,Energia Renovável,,
+energy.renewable.desc,Eletricidade produzida por Painéis Solares ou outros dispositivos que não consomem nenhum material.,,
+trap.ready,Armadilha Pronta,,
+trap.charging,Armadilha Carregando,,
+trap.unpowered,Armadilha sem Energia,,
+structure.floors.trapfloor,Piso de Armadilha,,
+structure.floors.trapfloor.desc,Um piso que perfura um Ser hostil com espinhos quando pisado.,,
+research.security.trapfloor,Piso de Armadilha,,
+crafter.batch.size,Tamanho do Lote,,
+crafter.batch.size.tip,Você pode aumentar o tamanho do lote para carregar mais ingredientes e produzir mais. Lotes maiores levarão mais tempo para serem produzidos.,,
+retrieve.resource.miner,Recuperar Minerador de Recursos,,
+copter.mission.stage.retrieve.miner,Recuperando Equipamento de Mineração,,
+device.produced,{0} produziu {1} em {2},,{0} is device name {1} is product name {2} is location
+verb.extract,Extrair,,
+noun.depth,Profundidade,,
+mining.depth.tip,"A profundidade aumenta quando o depósito é extraído. Após atingir uma certa profundidade, será necessário equipamento especializado para continuar a extração de recursos. O depósito só pode ser extraído até a profundidade que seu equipamento suportar.",,
+deposit.verb.mine,Minerando {0} ({1:0.##}/dia @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
+deposit.verb.collect,Coletando {0} ({1:0.##}/dia),,{0} is resource name {1} is number
+deposit.verb.extract,Extraindo {0} ({1:0.##}/dia @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
+mining.depth.max,Profundidade Máxima de Mineração,,
+resource.deposit.possible,Possível Depósito de Recursos,,
