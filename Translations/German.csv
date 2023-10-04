@@ -490,7 +490,7 @@ codex.m.colonists.mindcontrol.desc,"Es gibt Möglichkeiten, deine biologischen K
 codex.m.colonists.mood,"Stimmung des Kolonisten",,
 codex.m.colonists.mood.desc,"Im Gegensatz zu Drohnen haben biologische Kolonisten Gefühle und können in guter oder schlechter Stimmung sein. Wenn du einen Kolonisten auswählst und den Inhalt des Abschnitts <b>Stimmung</b> in der Infotafel untersuchst, findest du die genauen Gründe, warum die Stimmung steigt oder sinkt. Die meisten Gründe können verhindert werden, indem man den Kolonisten das gibt, was sie brauchen.<br><br>Du kannst auch die Bedürfnisse untersuchen, da sie oft mit der Stimmung verbunden sind.",,
 codex.m.colonists.stasiswakeups,"Aufwachen aus der Stasis",,
-codex.m.colonists.stasiswakeups.desc,"Das Stasis-Array enthält Hunderte ruhender Kolonisten, darunter Menschen und Haustiere. Gelegentlich kommt es zu einer <b>Stasisfeld Fehlfunktion</b>, die jemanden vorzeitig aufweckt.<br><br>Die Häufigkeit dieser unerwarteten Aufweckvorgänge wird von der <b>Kryostabilität</b> des Feldes beeinflusst: Je niedriger die Stabilität, desto häufiger treten Fehlfunktionen auf.<br><br>Überprüfe die Kryostabilität, indem du das Stasisfeld auswählst und seine Details im Infofenster anzeigen lässt.<br><br>Indem du das Stasisfeld auf <b>Erweiterte Lebenserhaltung</br> umstellst, kannst du Fehlfunktionen des Feldes verhindern und bei Bedarf manuelle Weckvorgänge einleiten.",2023-08-29,
+codex.m.colonists.stasiswakeups.desc,"Das Stasis-Array enthält Hunderte ruhender Kolonisten, darunter Menschen und Haustiere. Gelegentlich kommt es zu einer <b>Stasisfeld Fehlfunktion</b>, die jemanden vorzeitig aufweckt.<br><br>Die Häufigkeit dieser unerwarteten Aufweckvorgänge wird von der <b>Kryostabilität</b> des Feldes beeinflusst: Je niedriger die Stabilität, desto häufiger treten Fehlfunktionen auf.<br><br>Überprüfe die Kryostabilität, indem du das Stasisfeld auswählst und seine Details im Infofenster anzeigen lässt.<br><br>Indem du das Stasisfeld auf <b>Erweiterte Lebenserhaltung<br> umstellst, kannst du Fehlfunktionen des Feldes verhindern und bei Bedarf manuelle Weckvorgänge einleiten.",2023-08-29,
 codex.m.combat,"Waffen und Kampf",,
 codex.m.combat.breachcapsules,Enterkapseln,,
 codex.m.combat.breachcapsules.desc,"Enterkapseln werden meist von Überfallkommandos eingesetzt. Die Kapsel wird von unten an deinem Schiff befestigt und bohrt sich durch die Außenwand. Die Räuber entern dann durch das Bohrloch dein Schiff. Sie können ihre Beute in die Enterkapsel legen und diese abkoppeln, um zu entkommen. Wenn du alle Räuber getötet hast, gehört die Enterkapsel dir. Du kannst sie zerlegen, um einige wertvolle Materialien zu erhalten und deine gestohlenen Waren zurückzubekommen.",,
@@ -1922,7 +1922,7 @@ modifier.NoTutorialQuests,"Anfängermission überspringen",,
 modifier.NoTutorialQuests.desc,"Ist dies ausgewählt, werden einige Anfängermissionen übersprungen.",2022-10-08,"Removed comment about locking research nodes, it doesn’t do that anymore"
 modifier.ResourceMul,"Ressourcenmultiplikator [{0:0.##x}]",,
 modifier.ResourceMul.desc,"Ändert die Menge der Anfangsressourcen, die beim Start eines neuen Spiels verfügbar sind. Beeinflusst auch die Menge der auf Planeten verfügbaren Ressourcen.",2023-05-10,
-modifier.ShipSize,"Schiffsgröße [{0:0.##} ×]",, 
+modifier.ShipSize,"Schiffsgröße [{0:0.##} ×]",,
 modifier.ShipSize.desc,"Passt die relative Größe des generierten Schiffes an. Eine geringe Größe kann mehr Generierungsversuche erfordern. Der Start in einem kleinen Schiff wird schwieriger sein als in einem großen.",,
 modifiers,Modifikatoren,,"A label for options that modify the gameplay. You select the modifiers you want to start your game with in »new game« menu. Modifiers will be options like »Difficulty level«, »Disable combat«, etc."
 month,Monat,,
@@ -4567,16 +4567,16 @@ last.meal,"Letzte Mahlzeit",,
 breakdown.BreakdownFoodPoisoning,"Lebensmittelvergiftung",,
 breakdown.BreakdownFoodPoisoning.desc,"{0} leidet an einer Lebensmittelvergiftung!",,
 act.BreakdownFoodPoisoning,"Leidet an einer Lebensmittelvergiftung.",,
-research.ready.to.unlock,"Forschungen bereit zum Freischalten",,"{0} is a number, it says that X research items are ready to unlock right now"							
-research.ready.bookmarked,"Markierte Forschungen bereit zum Freischalten",,"{0} is a number, it says that X bookmarked research items are ready to unlock right now"					
-research.ready.to.unlock.tip,"<b>{0}</b> Forschungen sind fertig zum Freischalten.",,"{0} is number"						
-research.ready.bookmarked.tip,"<b>{0}</b> markierte und <b>{1}</b> allgemeine Forschungen sind fertig zum Freischalten.",,"variables are numbers"						
-research.lacks.resource,"Forschung <b>{0}</b> angehalten: {1}",,"{0} is resource name {1} is number"						
+research.ready.to.unlock,"Forschungen bereit zum Freischalten",,"{0} is a number, it says that X research items are ready to unlock right now"
+research.ready.bookmarked,"Markierte Forschungen bereit zum Freischalten",,"{0} is a number, it says that X bookmarked research items are ready to unlock right now"
+research.ready.to.unlock.tip,"<b>{0}</b> Forschungen sind fertig zum Freischalten.",,"{0} is number"
+research.ready.bookmarked.tip,"<b>{0}</b> markierte und <b>{1}</b> allgemeine Forschungen sind fertig zum Freischalten.",,"variables are numbers"
+research.lacks.resource,"Forschung <b>{0}</b> angehalten: {1}",,"{0} is resource name {1} is number"
 bookmark.add,"Markierung hinzufügen",,
 bookmark.remove,"Markierung entfernen",,
 required.material,"Benötigt: {0}",,
-research.prerequisites.missing,"<b>{0}</b> vorher nötige Forschungen",,									
-research.tier.locked,"Forschungsstufe <b>{0}</b> ist gesperrt",,								
+research.prerequisites.missing,"<b>{0}</b> vorher nötige Forschungen",,
+research.tier.locked,"Forschungsstufe <b>{0}</b> ist gesperrt",,
 unlock.miningautomation.desc,Schaltet das <b>{0}</b>-Overlay und die für die Bergbau-Automatisierung erforderlichen Tools frei,,{0} will be Copter Missions translation
 research.cpu.cap,Schiffscomputer Kapazität {0},,
 research.cpu.cap.desc,Schaltet die Möglichkeit frei <b>{0}</b> aktive Schiffscomputer zu haben,,
@@ -4985,7 +4985,7 @@ tut.adv.controls.select.modes.5,"Wenn ein <b>Wesen</b> ausgewählt ist:<br><br>H
 tut.adv.controls.select.modes.6,"Wenn mehrere <b>Geräte</b> ausgewählt werden, werden <b>{0}</b> und <b>{1}</b> auf den Inhalt der Auswahl angewendet.",,
 tut.adv.controls.outro,"Das ist das Ende dieser Einführung. Weitere Tipps und Tricks findest du unter <b>Kodex</b> > <b>Tipps</b>.",,
 tut.completed.never,Noch nicht abgeschlossen,,
-tut.completed.date,Abgeschlossen am {0},,{0} is date 
+tut.completed.date,Abgeschlossen am {0},,{0} is date
 tut.completed.outdated.tip,"Du hast eine alte Version diese Einführung am {0} abgeschlossen. Es wird empfohlen, diese Einführung erneut zu absolvieren.",,
 tut.not.completed.warning,Du hast {0} von {1} Einführungen abgeschlossen.,,
 tut.prod.title,Ressourcenproduktion,,
@@ -5037,7 +5037,7 @@ verb.extract,Fördern,,
 noun.depth,Tiefe,,
 mining.depth.tip,"Die Tiefe der Ressourcenlagerstätte nimmt zu, wenn die Lagerstätte abgebaut wird. Sobald eine bestimmte Tiefe erreicht ist, ist Spezialausrüstung erforderlich, um die Ressourcengewinnung fortzusetzen. Die Ablagerung kann so tief gefördert werden, wie es deine Ausrüstung zulässt.",,
 deposit.verb.mine,Bergbau {0} ({1:0.##}/Tag @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
-deposit.verb.collect,Sammeln von {0} ({1:0.##}/Tag),,{0} is resource name {1} is number 
+deposit.verb.collect,Sammeln von {0} ({1:0.##}/Tag),,{0} is resource name {1} is number
 deposit.verb.extract,Fördern von {0} ({1:0.##}/Tag bei {2}),,{0} is resource name {1} is number {2} is depth like 12km
 mining.depth.max,Maximale Abbautiefe,,
 resource.deposit.possible,Mögliche Ressourcenlagerstätte,,
