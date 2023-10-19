@@ -4067,7 +4067,7 @@ orders,Aufträge,,"noun, as in current orders"
 min.mine.rate,Mindestrate,,
 min.mine.rate.tip,"Die Expedition wird automatisch beendet, wenn die Abbaurate unter diesen Wert fällt.",,
 objects.devices.autodrillrig,Autodrill Rig,,
-objects.devices.autodrillrig.desc,"Das Autodrill Rig ist ein KI-gesteuertes Bergbausystem, das für den präzisen Abbau von Ressourcen und die nahtlose Integration in automatisierte Abläufe entwickelt wurde.",2023-07-06,"Added note about no possibility to retrieve"
+objects.devices.autodrillrig.desc,"Das Autodrill Rig ist ein KI-gesteuertes Bergbausystem, das für die präzise Ressourcengewinnung und die nahtlose Integration in automatisierte Abläufe entwickelt wurde.",2023-10-18,Added note about no possibility to retrieve.
 research.miningautomation,Bergbau-Automatisierung,,
 quick.search.tip.starmap,"Gib den Namen des Raumobjekts ein, das du finden möchtest.",,
 quick.search.tip.research,"Gib den Namen des Forschungszweigs oder des Geräts ein, das du finden möchtest.",,
@@ -5074,7 +5074,6 @@ explode.on.hit,Explodieren bei Treffer,,
 explode.on.hit.desc,"Einige Objekte können explodieren, wenn sie Schaden erleiden. Die Explosionsgefahr hängt von Gesundheit und Verschleiß ab.",,
 fire.spread.chance,Chance auf Brandausbreitung,,
 fire.spread.chance.desc,"Gibt an, wie wahrscheinlich es ist, dass dieses Objekt Feuer fängt, wenn sich eine starke Flamme in der Nähe befindet.",,
-fire.self.combust.chance,,,
 fire.self.ignite.at,Kann sich selbst entzünden,,
 fire.no.self.ignite,Kann sich nicht selbst entzünden,,
 fire.self.ignite.desc,"Dieses Objekt kann sich selbst entzünden, wenn die aktuelle Temperatur den Zündpunkt überschreitet.",,
@@ -5082,3 +5081,7 @@ fire.no.self.ignite.desc,"Dieses Objekt kann sich durch Hitze nicht selbst entz�
 chance.low,Niedrig,,
 chance.avg,Durchschnitt,,
 chance.high,Hoch,,
+click.ctrl.add.fav,"Klicke auf {0} während du {1} gedrückt hältst, um dieses Element zu den Favoriten hinzuzufügen.",,
+click.ctrl.remove.fav,"Klicke auf {0} während du {1} gedrückt hältst, um dieses Element aus den Favoriten zu entfernen.",,
+breakdown.deconstruct.log,Dekonstruierte <b>{0}</b> bei <b>{1}</b> aufgrund eines Nervenzusammenbruchs.,,
+wormhole.to,Wurmloch nach <b>{0}</b>,,{0} is the name of a galaxy the wormhole leads to
