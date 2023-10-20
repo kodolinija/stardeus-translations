@@ -490,7 +490,7 @@ codex.m.colonists.mindcontrol.desc,"Es gibt Möglichkeiten, deine biologischen K
 codex.m.colonists.mood,"Stimmung des Kolonisten",,
 codex.m.colonists.mood.desc,"Im Gegensatz zu Drohnen haben biologische Kolonisten Gefühle und können in guter oder schlechter Stimmung sein. Wenn du einen Kolonisten auswählst und den Inhalt des Abschnitts <b>Stimmung</b> in der Infotafel untersuchst, findest du die genauen Gründe, warum die Stimmung steigt oder sinkt. Die meisten Gründe können verhindert werden, indem man den Kolonisten das gibt, was sie brauchen.<br><br>Du kannst auch die Bedürfnisse untersuchen, da sie oft mit der Stimmung verbunden sind.",,
 codex.m.colonists.stasiswakeups,"Aufwachen aus der Stasis",,
-codex.m.colonists.stasiswakeups.desc,"Das Stasis-Array enthält Hunderte ruhender Kolonisten, darunter Menschen und Haustiere. Gelegentlich kommt es zu einer <b>Stasisfeld Fehlfunktion</b>, die jemanden vorzeitig aufweckt.<br><br>Die Häufigkeit dieser unerwarteten Aufweckvorgänge wird von der <b>Kryostabilität</b> des Feldes beeinflusst: Je niedriger die Stabilität, desto häufiger treten Fehlfunktionen auf.<br><br>Überprüfe die Kryostabilität, indem du das Stasisfeld auswählst und seine Details im Infofenster anzeigen lässt.<br><br>Indem du das Stasisfeld auf <b>Erweiterte Lebenserhaltung</br> umstellst, kannst du Fehlfunktionen des Feldes verhindern und bei Bedarf manuelle Weckvorgänge einleiten.",2023-08-29,
+codex.m.colonists.stasiswakeups.desc,"Das Stasis-Array enthält Hunderte ruhender Kolonisten, darunter Menschen und Haustiere. Gelegentlich kommt es zu einer <b>Stasisfeld Fehlfunktion</b>, die jemanden vorzeitig aufweckt.<br><br>Die Häufigkeit dieser unerwarteten Aufweckvorgänge wird von der <b>Kryostabilität</b> des Feldes beeinflusst: Je niedriger die Stabilität, desto häufiger treten Fehlfunktionen auf.<br><br>Überprüfe die Kryostabilität, indem du das Stasisfeld auswählst und seine Details im Infofenster anzeigen lässt.<br><br>Indem du das Stasisfeld auf <b>Erweiterte Lebenserhaltung<br> umstellst, kannst du Fehlfunktionen des Feldes verhindern und bei Bedarf manuelle Weckvorgänge einleiten.",2023-08-29,
 codex.m.combat,"Waffen und Kampf",,
 codex.m.combat.breachcapsules,Enterkapseln,,
 codex.m.combat.breachcapsules.desc,"Enterkapseln werden meist von Überfallkommandos eingesetzt. Die Kapsel wird von unten an deinem Schiff befestigt und bohrt sich durch die Außenwand. Die Räuber entern dann durch das Bohrloch dein Schiff. Sie können ihre Beute in die Enterkapsel legen und diese abkoppeln, um zu entkommen. Wenn du alle Räuber getötet hast, gehört die Enterkapsel dir. Du kannst sie zerlegen, um einige wertvolle Materialien zu erhalten und deine gestohlenen Waren zurückzubekommen.",,
@@ -1111,7 +1111,7 @@ expedition,Expedition,,
 expedition.aborted,"Expedition abgebrochen",,
 expedition.aborted.shuttle.damaged,"Die Expedition wurde abgebrochen, weil das Schiff vor dem Start beschädigt wurde.",,
 expedition.action.prompt,"Expeditionsschiff <b>{0}</b> versucht, mit dir Kontakt aufzunehmen.",,"{0} will be the shuttle name"
-expedition.auto.unload,"Automatisches Ausladen",,
+expedition.auto.unload,Nach dem Entladen fortfahren,2023-09-29,
 expedition.auto.unload.info,"Falls ausgewählt, kehrt das Schiff zur Basis zurück, um den Laderaum zu leeren, sobald dieser voll ist, und setzt dann die Expedition fort.",,
 expedition.call.back.already.retuning,"Expedition {0} ist bereits auf dem Rückweg.",,
 expedition.call.back.failed,"Die Besatzung auf {0} antwortet derzeit nicht.",,
@@ -1922,7 +1922,7 @@ modifier.NoTutorialQuests,"Anfängermission überspringen",,
 modifier.NoTutorialQuests.desc,"Ist dies ausgewählt, werden einige Anfängermissionen übersprungen.",2022-10-08,"Removed comment about locking research nodes, it doesn’t do that anymore"
 modifier.ResourceMul,"Ressourcenmultiplikator [{0:0.##x}]",,
 modifier.ResourceMul.desc,"Ändert die Menge der Anfangsressourcen, die beim Start eines neuen Spiels verfügbar sind. Beeinflusst auch die Menge der auf Planeten verfügbaren Ressourcen.",2023-05-10,
-modifier.ShipSize,"Schiffsgröße [{0:0.##} ×]",, 
+modifier.ShipSize,"Schiffsgröße [{0:0.##} ×]",,
 modifier.ShipSize.desc,"Passt die relative Größe des generierten Schiffes an. Eine geringe Größe kann mehr Generierungsversuche erfordern. Der Start in einem kleinen Schiff wird schwieriger sein als in einem großen.",,
 modifiers,Modifikatoren,,"A label for options that modify the gameplay. You select the modifiers you want to start your game with in »new game« menu. Modifiers will be options like »Difficulty level«, »Disable combat«, etc."
 month,Monat,,
@@ -4067,7 +4067,7 @@ orders,Aufträge,,"noun, as in current orders"
 min.mine.rate,Mindestrate,,
 min.mine.rate.tip,"Die Expedition wird automatisch beendet, wenn die Abbaurate unter diesen Wert fällt.",,
 objects.devices.autodrillrig,Autodrill Rig,,
-objects.devices.autodrillrig.desc,"Das Autodrill Rig ist ein KI-gesteuertes Bergbausystem, das für den präzisen Abbau von Ressourcen und die nahtlose Integration in automatisierte Abläufe entwickelt wurde.",2023-07-06,"Added note about no possibility to retrieve"
+objects.devices.autodrillrig.desc,"Das Autodrill Rig ist ein KI-gesteuertes Bergbausystem, das für die präzise Ressourcengewinnung und die nahtlose Integration in automatisierte Abläufe entwickelt wurde.",2023-10-18,Added note about no possibility to retrieve.
 research.miningautomation,Bergbau-Automatisierung,,
 quick.search.tip.starmap,"Gib den Namen des Raumobjekts ein, das du finden möchtest.",,
 quick.search.tip.research,"Gib den Namen des Forschungszweigs oder des Geräts ein, das du finden möchtest.",,
@@ -4567,16 +4567,16 @@ last.meal,"Letzte Mahlzeit",,
 breakdown.BreakdownFoodPoisoning,"Lebensmittelvergiftung",,
 breakdown.BreakdownFoodPoisoning.desc,"{0} leidet an einer Lebensmittelvergiftung!",,
 act.BreakdownFoodPoisoning,"Leidet an einer Lebensmittelvergiftung.",,
-research.ready.to.unlock,"Forschungen bereit zum Freischalten",,"{0} is a number, it says that X research items are ready to unlock right now"							
-research.ready.bookmarked,"Markierte Forschungen bereit zum Freischalten",,"{0} is a number, it says that X bookmarked research items are ready to unlock right now"					
-research.ready.to.unlock.tip,"<b>{0}</b> Forschungen sind fertig zum Freischalten.",,"{0} is number"						
-research.ready.bookmarked.tip,"<b>{0}</b> markierte und <b>{1}</b> allgemeine Forschungen sind fertig zum Freischalten.",,"variables are numbers"						
-research.lacks.resource,"Forschung <b>{0}</b> angehalten: {1}",,"{0} is resource name {1} is number"						
+research.ready.to.unlock,"Forschungen bereit zum Freischalten",,"{0} is a number, it says that X research items are ready to unlock right now"
+research.ready.bookmarked,"Markierte Forschungen bereit zum Freischalten",,"{0} is a number, it says that X bookmarked research items are ready to unlock right now"
+research.ready.to.unlock.tip,"<b>{0}</b> Forschungen sind fertig zum Freischalten.",,"{0} is number"
+research.ready.bookmarked.tip,"<b>{0}</b> markierte und <b>{1}</b> allgemeine Forschungen sind fertig zum Freischalten.",,"variables are numbers"
+research.lacks.resource,"Forschung <b>{0}</b> angehalten: {1}",,"{0} is resource name {1} is number"
 bookmark.add,"Markierung hinzufügen",,
 bookmark.remove,"Markierung entfernen",,
 required.material,"Benötigt: {0}",,
-research.prerequisites.missing,"<b>{0}</b> vorher nötige Forschungen",,									
-research.tier.locked,"Forschungsstufe <b>{0}</b> ist gesperrt",,								
+research.prerequisites.missing,"<b>{0}</b> vorher nötige Forschungen",,
+research.tier.locked,"Forschungsstufe <b>{0}</b> ist gesperrt",,
 unlock.miningautomation.desc,Schaltet das <b>{0}</b>-Overlay und die für die Bergbau-Automatisierung erforderlichen Tools frei,,{0} will be Copter Missions translation
 research.cpu.cap,Schiffscomputer Kapazität {0},,
 research.cpu.cap.desc,Schaltet die Möglichkeit frei <b>{0}</b> aktive Schiffscomputer zu haben,,
@@ -4985,7 +4985,7 @@ tut.adv.controls.select.modes.5,"Wenn ein <b>Wesen</b> ausgewählt ist:<br><br>H
 tut.adv.controls.select.modes.6,"Wenn mehrere <b>Geräte</b> ausgewählt werden, werden <b>{0}</b> und <b>{1}</b> auf den Inhalt der Auswahl angewendet.",,
 tut.adv.controls.outro,"Das ist das Ende dieser Einführung. Weitere Tipps und Tricks findest du unter <b>Kodex</b> > <b>Tipps</b>.",,
 tut.completed.never,Noch nicht abgeschlossen,,
-tut.completed.date,Abgeschlossen am {0},,{0} is date 
+tut.completed.date,Abgeschlossen am {0},,{0} is date
 tut.completed.outdated.tip,"Du hast eine alte Version diese Einführung am {0} abgeschlossen. Es wird empfohlen, diese Einführung erneut zu absolvieren.",,
 tut.not.completed.warning,Du hast {0} von {1} Einführungen abgeschlossen.,,
 tut.prod.title,Ressourcenproduktion,,
@@ -5037,7 +5037,7 @@ verb.extract,Fördern,,
 noun.depth,Tiefe,,
 mining.depth.tip,"Die Tiefe der Ressourcenlagerstätte nimmt zu, wenn die Lagerstätte abgebaut wird. Sobald eine bestimmte Tiefe erreicht ist, ist Spezialausrüstung erforderlich, um die Ressourcengewinnung fortzusetzen. Die Ablagerung kann so tief gefördert werden, wie es deine Ausrüstung zulässt.",,
 deposit.verb.mine,Bergbau {0} ({1:0.##}/Tag @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
-deposit.verb.collect,Sammeln von {0} ({1:0.##}/Tag),,{0} is resource name {1} is number 
+deposit.verb.collect,Sammeln von {0} ({1:0.##}/Tag),,{0} is resource name {1} is number
 deposit.verb.extract,Fördern von {0} ({1:0.##}/Tag bei {2}),,{0} is resource name {1} is number {2} is depth like 12km
 mining.depth.max,Maximale Abbautiefe,,
 resource.deposit.possible,Mögliche Ressourcenlagerstätte,,
@@ -5057,3 +5057,31 @@ nav.perm.enemy,Feind,,
 research.security.doorpermissions,Türberechtigungen,,
 permissions.denied,Abgelehnt für: {0},,
 permissions.allowed,Nur zulässig für: {0},,
+expedition.fail.missing.crew,Das Besatzungsmitglied <b>{0}</b> konnte das Shuttle nicht erreichen. Die Expedition nach <b>{1}</b> wurde abgebrochen.,,
+scan.report,Scan-Bericht: {0},,{0} is something like Iron not found
+mod.warning.dev.disabled,"Einige der Mod-Versionen, die du verwendest, werden vom Entwickler als nicht unterstützt gekennzeichnet. Diese Mods wurden deaktiviert.",,
+mod.warning.runtime.broken,"Bei einigen der Mods kam es zu Ladefehlern. Es wird <b>dringend empfohlen, diese Mods zu deaktivieren und das Spiel neu zu starten</b>, da teilweise geladene Mods zu undefiniertem Verhalten, Schleifenfehlern, Leistungsproblemen und Bugs führen können.",,
+mod.had.load.failures,Diese Mod-Version hatte Ladefehler,,
+mod.marked.incompatible,Diese Mod-Version wird vom Entwickler als inkompatibel markiert,,
+mod.item,Mod-Gegenstand,,
+save.upgraded,Aktualisierung speichern,
+save.upgraded.info,"Diese Speicherdatei wurde automatisch aktualisiert, damit sie mit der aktuellen Version des Spiels funktioniert. <br><br>{0}",,
+fire.extinguished,Feuer gelöscht,,
+firefighting.failed,Die Brandbekämpfung scheiterte an {0}: {1},,{0} is position {1} is reason
+chance.to.explode.on.dmg,"Chance, bei erlittenem Schaden zu explodieren: {0}",,{0} is percentage
+fire.on.dmg,Feuer bei Treffer,,
+explode.on.hit,Explodieren bei Treffer,,
+explode.on.hit.desc,"Einige Objekte können explodieren, wenn sie Schaden erleiden. Die Explosionsgefahr hängt von Gesundheit und Verschleiß ab.",,
+fire.spread.chance,Chance auf Brandausbreitung,,
+fire.spread.chance.desc,"Gibt an, wie wahrscheinlich es ist, dass dieses Objekt Feuer fängt, wenn sich eine starke Flamme in der Nähe befindet.",,
+fire.self.ignite.at,Kann sich selbst entzünden,,
+fire.no.self.ignite,Kann sich nicht selbst entzünden,,
+fire.self.ignite.desc,"Dieses Objekt kann sich selbst entzünden, wenn die aktuelle Temperatur den Zündpunkt überschreitet.",,
+fire.no.self.ignite.desc,"Dieses Objekt kann sich durch Hitze nicht selbst entzünden. Wenn sich jedoch ein Feuer in der Nähe befindet, kann es sich auf dieses Objekt ausbreiten.",,
+chance.low,Niedrig,,
+chance.avg,Durchschnitt,,
+chance.high,Hoch,,
+click.ctrl.add.fav,"Klicke auf {0} während du {1} gedrückt hältst, um dieses Element zu den Favoriten hinzuzufügen.",,
+click.ctrl.remove.fav,"Klicke auf {0} während du {1} gedrückt hältst, um dieses Element aus den Favoriten zu entfernen.",,
+breakdown.deconstruct.log,Dekonstruierte <b>{0}</b> bei <b>{1}</b> aufgrund eines Nervenzusammenbruchs.,,
+wormhole.to,Wurmloch nach <b>{0}</b>,,{0} is the name of a galaxy the wormhole leads to
