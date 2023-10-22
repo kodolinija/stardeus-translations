@@ -5085,3 +5085,8 @@ click.ctrl.add.fav,"Klicke auf {0} während du {1} gedrückt hältst, um dieses 
 click.ctrl.remove.fav,"Klicke auf {0} während du {1} gedrückt hältst, um dieses Element aus den Favoriten zu entfernen.",,
 breakdown.deconstruct.log,Dekonstruierte <b>{0}</b> bei <b>{1}</b> aufgrund eines Nervenzusammenbruchs.,,
 wormhole.to,Wurmloch nach <b>{0}</b>,,{0} is the name of a galaxy the wormhole leads to
+noun.variations,Variationen,,"Will go on a small-ish button, so try to make it quite short"
+tool.heat,Temperatur ändern,,
+tool.heat.desc,"Klicke und ziehe, um die Temperatur zu erhöhen. Halte die Strg-Taste gedrückt, um die Temperatur zu senken. Halte die Umschalttaste gedrückt, um die Temperatur auf 21 °C einzustellen.",,
+tool.oxygenate,Sauerstoffgehalt ändern,,
+tool.oxygenate.desc,"Klicke und ziehe, um O2 zu erhöhen. Halte die Strg-Taste gedrückt, um O2 zu verringern. Halte die Umschalttaste gedrückt, um O2 auf 21 % einzustellen.",,
