@@ -447,7 +447,7 @@ close.floor.vent,"Bodenlüftungsschacht schließen",,
 close.starmap,"Sternenkarte schließen",,
 close.vent,"Lüftungsschacht schließen",,
 codex,Kodex,,
-codex.blueprints,Blaupausen,,
+codex.blueprints,Baupläne,,
 codex.blueprints.mode.All,Alle,,
 codex.blueprints.mode.Locked,Gesperrt,,
 codex.blueprints.mode.Unlocked,Freigeschaltet,,
@@ -456,7 +456,7 @@ codex.equipment,Ausrüstung,,
 codex.factions,Fraktionen,,
 codex.m.basebuilding,Basenbau,,
 codex.m.basebuilding.buildacopy,"Kopien bestehender Objekte erstellen",,
-codex.m.basebuilding.buildacopy.desc,"Wenn du eine Kopie von etwas erstellen möchtest, das du bereits besitzt, markiere das Objekt und wähle den Menüpunkt 'Kopie erstellen' in der Infotafel oder im Kontextmenü. Du kannst auch die Tastenkombination {0} verwenden, während das Objekt ausgewählt ist.<br><br>Um eine Kopie eines Energieanschlusses zu erstellen, ziehe eine Verbindung und lege sie auf einem leeren Bodenfeld ab (konfigurierbar, kann ausgeschaltet werden).<br><br>Wenn du auf diese Weise keine Kopie erstellen kannst, überprüfe, ob die passende Blaupause freigeschaltet ist.",,
+codex.m.basebuilding.buildacopy.desc,"Wenn du eine Kopie eines Objekts, das du bereits besitzt, erstellen möchtest, markiere dieses Objekt und wähle den Menüpunkt 'Kopie erstellen' in der Infotafel oder im Kontextmenü. Du kannst auch die Tastenkombination {0} verwenden, während das Objekt ausgewählt ist.<br><br>Um eine Kopie eines Energieanschlusses zu erstellen, ziehe eine Verbindung und lege sie auf einem leeren Bodenfeld ab (konfigurierbar, kann ausgeschaltet werden).<br><br>Wenn du auf diese Weise keine Kopie erstellen kannst, überprüfe, ob der passende Bauplan freigeschaltet ist.",,
 codex.m.basebuilding.devicewear,Geräteabnutzung,,
 codex.m.basebuilding.devicewear.desc,"<b>Geräteverschleiß</b> gibt die Höhe des Schadens an, den ein Gerät erlitten hat. Du kannst den Schaden beheben, aber du kannst den Verschleiß nicht verringern. Sobald der Verschleiß 100 % erreicht, ist das Gerät nicht mehr reparabel.<br><br>Du kannst ein abgenutztes Gerät ersetzen, indem du den Bau einer Kopie desselben Geräts an seinem Standort bestellst.<br><br>Durch Interaktionen mit dem Gerät können geringfügige Abnutzungserscheinungen entstehen.<br><br>Ein Gerät mit 100 % Abnutzung wird bei der Verwendung <b>Altersschäden</b> erleiden und irgendwann kaputt gehen.",2023-08-29,
 codex.m.basebuilding.relocatingobjects,"Objekte verlagern",,
@@ -464,7 +464,7 @@ codex.m.basebuilding.relocatingobjects.desc,"Es kommt häufig vor, dass du ein G
 codex.m.basebuilding.teleporters,Teleporters,,
 codex.m.basebuilding.teleporters.desc,"<b>Teleporter</b> können als Eine-Richtung-Portale zu anderen Teleportern verwendet werden.<br><br>Zwei Teleporter können miteinander verbunden werden und so ein Zwei-Wege-Portal erzeugen. Mehrere Teleporter können dasselbe Ziel haben.<br><br>Ein funktionierender Teleporter wird außerdem benötigt, um mit Handelsschiffen, Raumstationen oder planetaren Außenposten Handel zu treiben. Der Strombedarf von Teleportern steigt exponentiell mit der Anzahl aktiver Verbindungen.",2022-12-24,
 codex.m.basebuilding.winching,Winden,,
-codex.m.basebuilding.winching.desc,"Du kannst die Winde und den Windenanker verwenden, um einen abgebrochenen Teil des Schiffes einzuholen. Baue die Winde in der Nähe der Kante deines Schiffes und den Windenanker in der Nähe der Kante eines abgebrochenen Schiffsteils.<br><br>Wähle dann den Windenhaken aus und verwende die Infotafel oder das Kontextmenü, um den Abschnitt einzuholen. Der Vorgang wird abgebrochen, wenn sich Hindernisse im Weg befinden (Solarpaneele, Triebwerke usw.).<br><br>Du musst die Windentechnologie im Forschungsbaum freischalten, um die Blaupausen für Windenhaken und Windenanker zu erhalten.",,
+codex.m.basebuilding.winching.desc,"Du kannst die Winde und den Windenanker verwenden, um einen abgebrochenen Teil des Schiffes einzuholen. Baue die Winde in der Nähe der Kante deines Schiffes und den Windenanker in der Nähe der Kante eines abgebrochenen Schiffsteils.<br><br>Wähle dann den Windenhaken aus und verwende die Infotafel oder das Kontextmenü, um den Abschnitt einzuholen. Der Vorgang wird abgebrochen, wenn sich Hindernisse im Weg befinden (Solarpaneele, Triebwerke usw.).<br><br>Du musst die Windentechnologie im Forschungsbaum freischalten, um die Baupläne für Windenhaken und Windenanker zu erhalten.",,
 codex.m.bigquestions,"Zentrale Fragen",,
 codex.m.bigquestions.endgoal,Hauptziel,,
 codex.m.bigquestions.endgoal.desc,"Dein Hauptziel ist es, deine Kolonisten in eine Siedlung auf einem bewohnbaren Planeten umzuziehen.<br><br>Baue zunächst ein Teleskop und scanne das beobachtbare Universum, um einen potenziell bewohnbaren Planeten zu finden.<br><br>Sobald du einen potenziell bewohnbaren Planeten gefunden und erreicht hast, muss er terraformiert werden.<br><br>Wenn der Planet vollständig terraformiert ist, musst du eine Siedlung errichten und die Kolonisten auf diesen Planeten bringen.",2022-04-13,
@@ -521,7 +521,7 @@ codex.m.electricity.damagedconnectors.desc,"Wenn der Verbinder stark beschädigt
 codex.m.electricity.gridredundancy,"Hohe Verfügbarkeit und Redundanz",,
 codex.m.electricity.gridredundancy.desc,"Um Unterbrechungen des Stromnetzes zu vermeiden, empfiehlt es sich, dein Netz mit zusätzlicher Redundanz zu planen. Dies ist besonders wichtig für kritische Teile deiner Infrastruktur, wie Reaktoren, Batterien, Schiffscomputer, Stasisfeld, Sauerstoffpumpen, Heizungen, Türen und Luftschleusen.<br><br>Um die Redundanz zu erhöhen, baue mehr Verbinder und verbinde wichtige Geräte über mehr als einen Verbinder.<br><br>Hochverfügbarkeit bedeutet, dass, selbst wenn ein Teil deines Netzes zerstört wird, es keinen oder nur einen minimalen Verbindungsverlust für wichtige Teile deiner Infrastruktur gibt.",,
 codex.m.electricity.handlingdeficit,"Umgang mit Stromlücken",,
-codex.m.electricity.handlingdeficit.desc,"Wenn deine Geräte versuchen, mehr Strom zu verbrauchen, als du produzierst, entsteht ein <b>Stromdefizit</b>. In dieser Situation werden die Geräte mit der niedrigsten Verbrauchspriorität zuerst nicht mehr funktionieren. Du wirst über den Strommangel in der Ereignistafel benachrichtigt und kannst dies an flackernden Lichtern erkennen.<br><br>Es gibt mehrere Möglichkeiten, mit dem Defizit umzugehen:<br> • Benutze <b>Stromnetzdetails</b> in der <b>{0}</b>-Übersicht um die Situation zu untersuchen. Überprüfe die Liste der <b>Verbraucher</b> • manchmal kann ein einzelnes Gerät mehr Strom verbrauchen als alle anderen Geräte zusammen.<br> • Als vorübergehende Lösung kannst du nicht lebenswichtige Geräte mit hohem Stromverbrauch abschalten.<br> • Langfristig musst du mehr <b>Reaktoren</b> und <b>Solarpaneele</b> bauen, um die Leistung zu erhöhen. Versuche, immer zusätzliche Produktionskapazitäten zu haben.<br> • Baue <b>Batterien</b> und halte sie als Notreserve voll aufgeladen.",,
+codex.m.electricity.handlingdeficit.desc,"Wenn deine Geräte versuchen, mehr Strom zu verbrauchen, als du produzierst, entsteht ein <b>Stromdefizit</b>. In dieser Situation werden die Geräte mit der niedrigsten Verbrauchspriorität zuerst nicht mehr funktionieren. Du wirst über den Strommangel in der Ereignistafel benachrichtigt und kannst dies an flackernden Lichtern erkennen.<br><br>Es gibt mehrere Möglichkeiten, mit dem Defizit umzugehen:<br> • Benutze <b>Stromnetzdetails</b> im <b>{0}</b>overlay um die Situation zu untersuchen. Überprüfe die Liste der <b>Verbraucher</b>; manchmal kann ein einzelnes Gerät mehr Strom verbrauchen als alle anderen Geräte zusammen.<br> • Als vorübergehende Lösung kannst du nicht lebenswichtige Geräte mit hohem Stromverbrauch abschalten.<br> • Langfristig musst du mehr <b>Reaktoren</b> und <b>Solarpaneele</b> bauen, um die Leistung zu erhöhen. Versuche, immer zusätzliche Produktionskapazitäten zu haben.<br> • Baue <b>Batterien</b> und halte sie als Notreserve voll aufgeladen.",,
 codex.m.electricity.managingunreachabledevices,"Verwaltung von Geräten außerhalb des Stromnetzes",,
 codex.m.electricity.managingunreachabledevices.desc,"Geräte, die sich nicht im selben Netz wie der <b>Schiffscomputer</b> befinden, sind unkontrollierbar. Du kannst jedoch einen Roboterarbeiter anweisen, eine temporäre Verbindung einzurichten. Sobald die Verbindung hergestellt ist, ist das Gerät voll funktionsfähig. Dieser Arbeiter wird auch eine kleine Menge <b>Strom</b> und <b>CPU</b> bereitstellen.<br><br>Um eine temporäre Verbindung herzustellen, wähle ein nicht erreichbares Gerät aus und Klicke dann auf die Schaltfläche <b>Verwalten</b> neben der Warnung „Knoten ist nicht erreichbar“ im Infobereich oder im Kontextmenü. Wenn ein Arbeiter eine temporäre Verbindung herstellt, erscheint eine Benachrichtigung im Ereignisfenster.<br><br>Um die temporäre Verbindung zu beenden, wähle den verbundenen Arbeiter aus und klicke im Infofenster auf <b>Herstellung temporärer Verbindung löschen</b>.",2023-08-29,
 codex.m.electricity.multiplegrids,"Mehrere Stromnetze",,
@@ -556,7 +556,7 @@ codex.m.research,Forschung,,
 codex.m.research.disk,"Festplatten erforschen",,
 codex.m.research.disk.desc,"Neue Forschung freizuschalten, wird <b>Festplatten</b>speicher verbrauchen. Wie viel freier Speicher dir noch zur Verfügung steht, siehst du in der oberen linken Ecke der Nutzeroberfläche des <b>Forschungsbaums</b>.<br><br>Baue und verbinde mehr <b>Festplattenmodule</b>, um zusätzlichen Speicherplatz zu erhalten.<br><br>Du kannst deine <b>Festplattenmodule</b> aufwerten, indem du die <b>Datenkomprimierungsverbesserung</b> benutzt und so höhere Speichereffizienz bereits bestehender Module erreichst. Diese Verbesserungen sind stapelbar.<br><br>Ebenso kannst du Festplattenplatz zurückerhalten, indem du <b>gespeicherte Forschungen</b> über das Menü in der oberen linken Ecke des <b>Forschungsbaum</b>bereichs aus dem Speicher entfernst. Du erhältst dann den bisher von den gewählten Technologien eingenommenen Speicher zurück.",,
 codex.m.research.search,"Im Forschungsbaum suchen",,
-codex.m.research.search.desc,"Im linken oberen Bereich des <b>Forschungsbaums</b> gibt es die <b>Suchen</b>schaltfläche. Damit lassen sich Technologien und Blaupausen über Namensbestandteile finden.",,
+codex.m.research.search.desc,"Im linken oberen Bereich des <b>Forschungsbaums</b> gibt es die <b>Suchen</b>schaltfläche. Damit lassen sich Technologien und Baupläne über Namensbestandteile finden.",,
 codex.m.research.tiers,Forschungsstufen,,
 codex.m.research.tiers.desc,"Jeder Technologie im <b>Forschungsbaum</b> wird eine <b>Stufen</b>nummer zugeordnet. Diese ist rein informatorisch; höherstufige Technologien können erforscht werden, ohne zuvor niederstufige freizuschalten, jedoch wird empfohlen, niederstufige Technologien zuerst freizuschalten.",,
 codex.m.resources,"Werkstoffe und Ressourcen",,
@@ -588,15 +588,15 @@ codex.m.ui.commonactions.desc,"Wenn mehrere Objekte ausgewählt sind, können ei
 codex.m.ui.contextmenu,Kontextmenü,,
 codex.m.ui.contextmenu.desc,"Nachdem du ein Objekt mit {0} ausgewählt hast, bewege den Mauszeiger über das Objekt und öffne mit {1} das Kontextmenü. Bei manchen Objekten ist es nicht vorhanden, bei den meisten jedoch schon.<br><br>Das Kontextmenü enthält in der Regel eine Teilmenge nützlicher Aktionen, die du im Infobereich finden kannst.<br><br>Die Infotafel bietet fast immer alles, was das Kontextmenü bietet, und noch mehr.<br><br>Du kannst auch mehrere Objekte auswählen und ein Kontextmenü über einem von ihnen aufrufen, um eine gemeinsame Aktion für alle ausgewählten Objekte durchzuführen. Siehe ""Gemeinsame Aktionen"" für weitere Details.",,
 codex.m.ui.hotbar,Schnellleiste,,
-codex.m.ui.hotbar.desc,"Die Schnellleiste unten bietet schnelle Verknüpfungen zu Werkzeugen und Blaupausen. Standardmäßig sind die Werkzeuge aus dem Werkzeugmenü in einem neuen Spiel vorinstalliert, aber du kannst es an deine Bedürfnisse anpassen.<br><br> • So fügst du ein Element hinzu: Halte im Werkzeugmenü die Taste {0} gedrückt und wähle das gewünschte Menüelement aus.<br> • Um ein Element zu entfernen: Halte {0} gedrückt und klicke auf das Element in der Schnellleiste.<br> • Um Elemente neu anzuordnen: Klicke auf ein beliebiges Element und ziehe es.<br> • Um versehentliche Änderungen zu verhindern, kannst du die Schnellleiste über das Menü „Aktuelle Spieleinstellungen“ sperren.",2023-08-16,
+codex.m.ui.hotbar.desc,"Die Schnellleiste unten bietet schnelle Verknüpfungen zu Werkzeugen und Bauplänen. Standardmäßig sind die Werkzeuge aus dem Werkzeugmenü in einem neuen Spiel vorinstalliert, aber du kannst es an deine Bedürfnisse anpassen.<br><br> • So fügst du ein Element hinzu: Halte im Werkzeugmenü die Taste {0} gedrückt und wähle das gewünschte Menüelement aus.<br> • Um ein Element zu entfernen: Halte {0} gedrückt und klicke auf das Element in der Schnellleiste.<br> • Um Elemente neu anzuordnen: Klicke auf ein beliebiges Element und ziehe es.<br> • Um versehentliche Änderungen zu verhindern, kannst du die Schnellleiste über das Menü „Aktuelle Spieleinstellungen“ sperren.",2023-08-16,
 codex.m.ui.infopanel,Infotafel,,
 codex.m.ui.infopanel.desc,"Die <b>Infotafel</b> stellt die internen Daten und Steuerelemente für jedes ausgewählte Objekt bereit. Es wird dringend empfohlen, das Infotafel für jedes Gerät, Wesen und Material zu erkunden. Es hilft dir, den Status des Objekts zu verstehen und zeigt dir, wie du es verwalten oder konfigurieren kannst.<br><br>Jedes Objekt verfügt über eine Reihe von Komponenten. Wenn ein Objekt ausgewählt wird, stellt jede Komponente dieses Objekts ihre Daten und Steuerelemente der Infotafel zur Verfügung.<br><br>Wenn mehrere Objekte ausgewählt werden, zeigt die Infotafel eine Liste aller ausgewählten Objekte und eine interaktive Liste von gemeinsamen Aktionen über sie. Weitere Einzelheiten findest du im Abschnitt <b>Allgemeine Aktionen</b> des <b>Kodex > Betriebshandbuch</b>.",2023-08-14,
-codex.m.ui.overlays,Übersichten,,
-codex.m.ui.overlays.desc,"Übersichten stellen die Benutzeroberfläche für die Interaktion mit verschiedenen internen Systemen und Datengruppen bereit, z. B. <b>{0}</b>, <b>{1}</b>, <b>{2}</b>, <b>{3}</b> usw.<br><br>Übersicht-Schaltflächen befinden sich oben links in der Benutzeroberfläche.<br><br>Einige Übersichten werden mit <b>Recherche</b> freigeschaltet oder erfordern bestimmte Geräte.",2023-08-29,
+codex.m.ui.overlays,Overlays,,
+codex.m.ui.overlays.desc,"Overlays bieten je eine Benutzeroberfläche für die Interaktion mit verschiedenen internen Systemen und Datengruppen, z. B. <b>{0}</b>, <b>{1}</b>, <b>{2}</b>, <b>{3}</b> usw.<br><br>Overlayschaltflächen befinden sich oben links in der Benutzeroberfläche.<br><br>Einige Overlays werden durch <b>Forschung</b> freigeschaltet oder erfordern bestimmte Geräte.",2023-08-29,
 codex.m.ui.quicksearch,Schnellsuche,,
-codex.m.ui.quicksearch.desc,"Mit der <b>Schnellsuche</b> kannst du verschiedene Aktionen ausführen und Informationen finden. Öffne sie mit {0} und beginne mit der Eingabe einer Abfrage. Du kannst:<br> • zu einem <b>Werkzeug</b> wechseln.<br> • <b>Baue</b> ein Gerät.<br> • Ein <b>Wesen</b> finden.<br> • Finde einen <b>Forschungsknoten</b> oder einen <b>Bauplan</b> im <b>Forschungsbaum</b>.<br> • Finde Objekte in der <b>Sternenkarte</b>.<br> • <b>Kodex</b>einträge finden.<br> • Zu einer <b>Koordinate</b> springen (z. B. <b>120 234</b>).",2023-08-29,
+codex.m.ui.quicksearch.desc,"Mit der <b>Schnellsuche</b> kannst du verschiedene Aktionen ausführen und Informationen finden. Öffne sie mit {0} und beginne mit der Eingabe einer Abfrage. Du kannst:<br> • zu einem <b>Werkzeug</b> wechseln<br> • ein Gerät <b>bauen</b><br> • ein <b>Wesen</b> finden<br> • ein <b>Forschungsgebiet</b> oder einen <b>Bauplan</b> im <b>Forschungsbaum</b> finden<br> • Objekte auf der <b>Sternenkarte</b> finden<br> • <b>Kodex</b>einträge finden<br> • zu einer <b>Koordinate</b> springen (z. B. <b>120 234</b>).",2023-08-29,
 codex.m.ui.radialmenu,Radialmenü,2023-08-16,
-codex.m.ui.radialmenu.desc,"Das Radialmenü ist das kreisförmige Menü, das durch {0} aufgerufen werden kann.<br><br>Über {1} wird entweder ein Untermenü geöffnet oder die gewählte Aktion ausgeführt.<br><br>{0} verlässt Untermenüs (eine Ebene nach oben) und schließlich das Radialmenü selbst.<br><br>Ein {1}-Doppelklick verlässt das Radialmenü sofort, auch wenn du tief im Untermenübaum steckst.<br><br>Häufig benutzte Werkzeuge und Blaupausen können in der Schnellleiste (unterste Zeile) abgelegt werden.<br><br>Es geht fast immer schneller, durch das Nutzen der Schnellsuche ({2}) oder via ""Kopie bauen"" zu bauen.",,
+codex.m.ui.radialmenu.desc,"Das Radialmenü ist das kreisförmige Menü, das durch {0} aufgerufen werden kann.<br><br>Über {1} wird entweder ein Untermenü geöffnet oder die gewählte Aktion ausgeführt.<br><br>{0} verlässt Untermenüs (eine Ebene nach oben) und schließlich das Radialmenü selbst.<br><br>Ein {1}-Doppelklick verlässt das Radialmenü sofort, auch wenn du tief im Untermenübaum steckst.<br><br>Häufig benutzte Werkzeuge und Baupläne können in der Schnellleiste (unterste Zeile) abgelegt werden.<br><br>Es geht fast immer schneller, durch das Nutzen der Schnellsuche ({2}) oder via ""Kopie bauen"" zu bauen.",,
 codex.m.ui.timecontrols,Zeitsteuerung,,
 codex.m.ui.timecontrols.desc,"Die Zeitsteuerung befindet sich in der oberen rechten Ecke der Nutzeroberfläche.<br><br>Du kannst via {0}-Taste pausieren/fortsetzen und über die {1}-, {2}- sowie {3}-Taste zwischen den verschiedenen Geschwindigkeiten wechseln.",2022-12-12,
 codex.m.ui.uiscaling,Nutzeroberflächenskalierung,,
@@ -615,9 +615,9 @@ codex.m.workers.needs.desc,"Bedürfnisse sind die primären Faktoren, die das Ha
 codex.m.workers.priorities,"Aufgabentypen und Prioritäten",,
 codex.m.workers.priorities.desc,"Jeder robotische Arbeiter und jeder biologische Kolonist hat einen Satz von Aufgabentypen mit Prioritäten. Aufgabentypen bestimmen, was der Arbeiter zu tun in der Lage ist, während Prioritäten anzeigen, wie gewillt der Arbeiter ist, eine Aufgabe dieses Types auszuführen. 1 ist die niedrigste Priorität, 9 die höchste und eine Priorität von 0 schließt den Arbeiter von der Verrichtung einer Aufgabe des entsprechenden Typs aus.<br><br>Der Infotafel kannst du entnehmen, welche Aufgabentypen ein Arbeiter ausführen kann.<br><br>Aufgabenprioritäten kannst du bei von dir kontrollierten Arbeitern (Roboter und Drohnen) festlegen.<br><br>Es ist ebenso möglich, Aufgabenprioritäten individuell festzulegen oder einen Arbeiter zu zwingen, eine bestimmte Aufgabe auszuführen.<br><br>Sei beim Anpassen von Prioritäten deiner Arbeiter vorsichtig! Standardwerte sind vernünftig gesetzt und es ist durchaus möglich, in eine Situation zu geraten, in der einige Aufgaben wegen falschen Prioritätenmanagements niemals durchgeführt werden.",,
 codex.m.workers.production,"Neue Arbeiter rekrutieren",,
-codex.m.workers.production.desc,"Robotische Arbeiter können in einer Montagemaschine und einem Fertiger hergestellt werden, nachdem die dafür notwendigen Blaupausen erforscht wurden. In bestimmten Fällen kann ein streunender robotischer Arbeiter deiner Kolonie direkt beitreten.<br><br>Tote Arbeiter kannst du in einer Demontagemaschine zerlegen und so wertvolle Materialien gewinnen, die zur Fertigung neuer Arbeiter benötigt werden.",,
+codex.m.workers.production.desc,"Robotische Arbeiter können in einer Montagemaschine und einem Fertiger hergestellt werden, nachdem die dafür notwendigen Baupläne erforscht wurden. In bestimmten Fällen kann ein streunender robotischer Arbeiter deiner Kolonie direkt beitreten.<br><br>Tote Arbeiter kannst du in einer Demontagemaschine zerlegen und so wertvolle Materialien gewinnen, die zur Fertigung neuer Arbeiter benötigt werden.",,
 codex.m.workers.skills,Fähigkeiten,,
-codex.m.workers.skills.desc,"Jeder robotische Arbeiter und jeder menschliche Kolonist verfügt über einen Satz an Fähigkeiten. Oft ist eine Fähigkeit auf einer bestimmten Stufe erforderlich, um gewisse Aufgaben auszuführen. Beispielsweise benötigt die Installation eines Verbesserungsmoduls Wissenschaftsfähigkeiten, weshalb Arbeiter, die diese Fähigkeit nicht besitzen, nicht in der Lage sein werden, diese Aufgabe auszuführen.<br><br>Welche Fähigkeiten zum Bauen eines Geräts benötigt werden, kannst du den Kodexeinträgen ihrer jeweiligen Blaupausen entnehmen.<br><br>Der Aufgabenbereich in der Infotafel zeigt dir weitere Details über benötigte Fähigkeiten und andere Voraussetzungen.",,
+codex.m.workers.skills.desc,"Jeder robotische Arbeiter und jeder menschliche Kolonist verfügt über einen Satz an Fähigkeiten. Oft ist eine Fähigkeit auf einer bestimmten Stufe erforderlich, um gewisse Aufgaben auszuführen. Beispielsweise benötigt die Installation eines Verbesserungsmoduls Wissenschaftsfähigkeiten, weshalb Arbeiter, die diese Fähigkeit nicht besitzen, nicht in der Lage sein werden, diese Aufgabe auszuführen.<br><br>Welche Fähigkeiten zum Bauen eines Geräts benötigt werden, kannst du den Kodexeinträgen ihres jeweiligen Bauplans entnehmen.<br><br>Der Aufgabenbereich in der Infotafel zeigt dir weitere Details über benötigte Fähigkeiten und andere Voraussetzungen.",,
 codex.manual,Betriebshandbuch,2022-04-01,
 codex.mark.learned,"Als gelernt markieren",,
 codex.materials,Werkstoffe,,
@@ -752,7 +752,7 @@ cursor.software,"Softwaremauszeiger verwenden",,
 cutoff.ambience,"Ferne Umgebungsgeräusche dämpfen",,"Cutoff refers to audio low-pass filter frequency: In a lowpass filter, the higher the cutoff frequency is set, the higher the frequencies of signals that are allowed to pass. Ambience in this case is sounds coming from various devices, like machines or engines humming. The context for »Zoom Cutoff for Ambience« – it is used as a label for a checkbox in audio settings. If checked, when camera is zooming, ambience audio gets the cutoff (muffled sound) effect when camera distance changes."
 cutoff.fx,"Ferne Geräuscheffekte dämpfen",,
 cutoff.music,"Ferne Musik dämpfen",,
-cycle.blueprint.tip,"<br>Blaupause wechseln mit {0} und {1}",,
+cycle.blueprint.tip,"<br>Bauplan wechseln mit {0} und {1}",,
 cycle.placement.mode.tip,"<br>Platzierungsmodus durchschalten mit {0}",,
 damage.type.Acid,Säure,,
 damage.type.Age,Alter,,
@@ -1056,7 +1056,7 @@ evt.meteor.shower.desc,"Ein Meteoritenschauer ist im Anmarsch. Dies ist eine Not
 evt.meteor.shower.title,Meteoritenschauer,,
 evt.micro.meteors.desc,"Wir haben eine Zone betreten, in der eine hohe Wahrscheinlichkeit besteht, von Mikrometeoren getroffen zu werden, die mit nahezu Lichtgeschwindigkeit fliegen. Sei vorsichtig!",,
 evt.micro.meteors.title,"Mikrometeore entdeckt",,
-evt.research.desc,"Ich habe {0} erforscht und neue Blaupausen freigeschaltet: {1}.",,
+evt.research.desc,"Ich habe {0} erforscht und neue Baupläne freigeschaltet: {1}.",,
 evt.research.title,"{0} erforscht",,
 evt.shuttle.crawler.desc,"Forschungsraumfähre brachte ein {0}exemplar zurück",,
 evt.shuttle.crawler.title,"Unerwünschter Passagier",,
@@ -1324,9 +1324,9 @@ global.market.index,"Globaler Marktindex",,
 go.through,Durchgehen,,"[Weidengeist: Might need revision.]"
 go.to.shuttle,"Geht zum Schiff",,"[Weidengeist: Might need revision.]"
 goal.AddEnergyBudget,"Steigere die Stromproduktion",,
-goal.AddEnergyBudget.desc,"Wir sind derzeit in der Lage, {0} zu produzieren. Der Spitzenverbrauch hat 80 % überschritten. Um ein Stromdefizit zu vermeiden, müssen wir mehr Geräte bauen, die Strom produzieren können. Materiereaktoren, Solarpaneele, wofür auch immer wir Blaupausen haben. Wenn wir Solarpaneele haben, könnte deren Reinigung helfen.",,
+goal.AddEnergyBudget.desc,"Wir sind derzeit in der Lage, {0} zu produzieren. Der Spitzenverbrauch hat 80 % überschritten. Um ein Stromdefizit zu vermeiden, müssen wir mehr Geräte bauen, die Strom produzieren können. Materiereaktoren, Solarpaneele, wofür auch immer wir Baupläne haben. Wenn wir Solarpaneele haben, könnte deren Reinigung helfen.",,
 goal.BuildDiskModule,"Baue ein Festplattenmodul",,
-goal.BuildDiskModule.desc,"Dein Forschungsspeicher geht zur Neige. Ich schlage vor, ein oder mehrere Festplattenmodule zu bauen. Du musst Datenverarbeitung erforschen, um die Blaupausen zu erhalten.",,
+goal.BuildDiskModule.desc,"Dein Forschungsspeicher geht zur Neige. Ich schlage vor, ein oder mehrere Festplattenmodule zu bauen. Du musst Datenverarbeitung erforschen, um die Baupläne zu erhalten.",,
 goal.BuildHeater,"Baue eine Heizung",,
 goal.BuildHeater.desc,"Um abgeschlossene Räume zu erwärmen und bewohnbar zu machen, müssen wir eine Heizung bauen.",,
 goal.BuildMiniMatterReactor,"Baue einen Materiereaktor",,
@@ -1407,7 +1407,7 @@ heat.production.rate,Abwärmerate,,
 heat.pump,Wärmepumpe,,
 heat.sink,Wärmeableiter,,"[Weidengeist: Did not use »Kühlkörper« here to make the difference between this object and the radiator clearer.]"
 heat.sink.effectiveness,"Effizienz des Wärmeableiters",,
-heat.sink.effectiveness.desc,"Um interne Überhitzung zu reduzieren und die Fragmentierung des neuronalen Netzwerks zu verlangsamen, kannst du einen oder mehrere Wärmeableiter um den Schiffscomputer herum bauen. Erforsche ""Temperaturregulation"", um die Blaupause für den Wärmeableiter zu erlernen.",2022-11-15,
+heat.sink.effectiveness.desc,"Um interne Überhitzung zu reduzieren und die Fragmentierung des neuronalen Netzwerks zu verlangsamen, kannst du einen oder mehrere Wärmeableiter um den Schiffscomputer herum bauen. Erforsche ""Temperaturregulation"", um den Bauplan für den Wärmeableiter zu erlernen.",2022-11-15,
 heater,Heizung,,
 help.money,"Geld und Wirtschaft",,
 help.money.desc,"Du kannst Geld verdienen, indem du das, was du auf deinem Schiff hast, an Händler verkaufst, auf dem Aktienmarkt handelst oder indem du die Währung mit deinem Schiffscomputer schürfst.",2022-12-04,
@@ -1420,7 +1420,7 @@ hint.cleaning_auto,"Du kannst den <b>Selbstreinigungschwellenwert</b> anpassen, 
 hint.close_events_clock,"Denke daran, die Zeit anzuhalten, wenn du Ereignisbenachrichtigungen überprüfst oder verwaltest. Andernfalls können neue Benachrichtigungen die Liste neu ordnen und die Numerierung zurücksetzen.",,
 hint.construction_cramped,"Es wird empfohlen, jedes Gerät von mindestens einer Seite aus zugänglich zu halten, da die Arbeiter es sonst nicht erreichen können, um Reparaturen oder Wartungen durchzuführen.",,
 hint.draw_circle,"Du kannst die Konstruktion von Böden und Wänden in einem perfekten Kreis befehlen, indem du {0} gedrückt hältst und ziehst.",,
-hint.draw_delete,"Du kannst das Entfernen der aktuell ausgewählten Blaupausenebene (Wände oder Böden) befehlen, indem du {0} und {1} gedrückt hältst und ein Rechteck ziehst.",,
+hint.draw_delete,"Du kannst das Entfernen der aktuell ausgewählten Bauplanebene (Wände oder Böden) befehlen, indem du {0} und {1} gedrückt hältst und ein Rechteck ziehst.",,
 hint.draw_fill,"Du kannst einen Bereich mit einem Boden oder einer Wand füllen, indem du {0} und {1} gedrückt hältst.",,
 hint.draw_line,"Du kannst den Bau von Böden und Wänden in einer geraden Linie von Punkt A nach Punkt B anordnen, indem du {0} gedrückt hältst und ziehst.",,
 hint.draw_pencil,"Du kannst die Konstruktion von Böden und Wänden im Freies-Zeichnen-Modus (Bleistift) anordnen, indem du {0} gedrückt hältst und ziehst.",,
@@ -1442,7 +1442,7 @@ hostile,Feindlich,,
 hotbar.help.desc,"Wenn du das Werkzeugmenü verwendest, halte {0} gedrückt, während du das Menüelement aktivierst, um es zur Schnellleiste hinzuzufügen.<br><br>Um Elemente aus der Schnellleiste zu entfernen, halte {0} gedrückt und klicke auf das Element in der Schnellleiste.<br><br>Du kannst Schnellleisten-Elemente sortieren, indem du sie mit der Maus anklickst und ziehst.<br><br>Du kannst die Schnellleiste sperren/entsperren oder diese Info-Schaltfläche im Menü Aktuelle Spieleinstellungen ausblenden.",2023-08-16,
 hotbar.help.title,"Verwendung der Schnellleiste",,
 hotbar.help.tooltip,Schnellleiste,,
-hotbar.info.no.submenus,"Du kannst der Schnellleiste keine Untermenüs hinzufügen. Bitte wähle stattdessen ein Werkzeug oder eine Blaupause aus.",,
+hotbar.info.no.submenus,"Du kannst der Schnellleiste keine Untermenüs hinzufügen. Bitte wähle stattdessen ein Werkzeug oder einen Bauplan aus.",,
 hotbar.lock,"Schnellleiste sperren",,
 hotbar.locked,"Schnellleiste gesperrt",,
 hotbar.locked.info,"Du musst die Schnellleiste unter »Aktuelle Spieleinstellungen« entsperren, um Einträge hinzuzufügen, zu entfernen oder zu verändern.",,
@@ -1997,8 +1997,8 @@ no,Nein,,
 no.access.to.starmap,"Wir müssen mit der Brückensteuerung verbunden sein, um Zugang zur Sternenkarte zu haben. Erforsche <b>Schiffssteuerung</b>, um den Bauplan für die Brückensteuerung zu erhalten.",2022-08-01,
 no.active.combat,"Keine aktiven Kämpfe",,
 no.available.teleporter,"Kein verfügbarer Teleporter",,
-no.blueprints,"Keine Blaupausen",,
-no.blueprints.help,"Druckoptionen werden verfügbar, sobald Blaupausen, die mit diesem Gerät kompatibel sind, durch Forschung freigeschaltet wurden.",,
+no.blueprints,"Keine Baupläne",,
+no.blueprints.help,"Druckoptionen werden verfügbar, sobald Baupläne, die mit diesem Gerät kompatibel sind, durch Forschung freigeschaltet wurden.",,
 no.chair.in.work.spot,"Kein Stuhl im Arbeitsbereich",,
 no.coffee,"Kein Kaffee",,
 no.compute.shaders,"Keine Shaderberechnung",,
@@ -2040,7 +2040,7 @@ no.task.reason.unreachable.mats.grounded,"War <b>unmöglich, alle benötigten Ma
 no.task.reason.unsafe,"<b>{0}</b> Aufgaben übersprungen, weil der Arbeitsplatz oder die für die Aufgabe benötigten Materialien an einem <b>unsicheren Ort</b> waren (kein Sauerstoff, zu kalt, zu heiß?).",,"{0} is a number of skipped tasks."
 no.task.reason.workable,"<b>{0}</b> Aufgaben können durch dieses Wesen <b>bearbeitet</b> werden.",,"{0} is a number of skipped tasks."
 no.tasks.rason.clock.stopped,"Hinweis: <b>Die Zeit ist im Moment pausiert</b>; Aufgaben werden nur ausgewertet, wenn die Zeit läuft.",,"[Weidengeist: Key typo?]"
-no.terraform.controls,"Diese Funktion erfordert eine Verbindung zu einem Terraformierungssteuergerät. Erforsche <b>Terraformierung</b>, um die Blaupause für das Terraformierungssteuergerät zu erhalten.",,
+no.terraform.controls,"Diese Funktion erfordert eine Verbindung zu einem Terraformierungssteuergerät. Erforsche <b>Terraformierung</b>, um den Bauplan für das Terraformierungssteuergerät zu erhalten.",,
 no.terraform.target,"Kein Terraformierungsziel",,
 no.terraform.target.help,"Gelange in die Nähe eines terraformierbaren Planeten und beginne den Terraformierungsprozess. Du kannst terraformierbare Planeten auf der Sternenkarte finden, indem du nach einer bestimmten Markierung neben Galaxie-, System- und Planetennamen Ausschau hältst.",,
 no.terraformable,"Keine terraformierbaren Planeten",,
@@ -2243,7 +2243,7 @@ objects.cosmetics.emblem2x2.desc,"Du kannst dein Schiff mit individuellen Emblem
 objects.cosmetics.emblem3x3,"Großes Emblem",,
 objects.cosmetics.emblem3x3.desc,"Du kannst dein Schiff mit individuellen Emblemen verzieren.",,
 objects.devices.assembler,Montagemaschine,,
-objects.devices.assembler.desc,"Eine universelle Montagemaschine zum Herstellen von Gegenständen aus Rohstoffen. Erfordert zusätzliche Forschung, um Blaupausen freizuschalten.",,
+objects.devices.assembler.desc,"Eine universelle Montagemaschine zum Herstellen von Gegenständen aus Rohstoffen. Erfordert zusätzliche Forschung, um Baupläne freizuschalten.",,
 objects.devices.autodoc,Autodoc,,
 objects.devices.autodoc.desc,"Eine fortschrittliche medizinische Kapsel, die Mikrochirurgie durchführen und verschiedene Gesundheitszustände behandeln kann.",,
 objects.devices.autokitchen,Autoküche,,
@@ -2634,7 +2634,7 @@ quest.info,"Mission: <b>{0}</b><br><br>{1}<br><br>{2}",,"{0} will be quest title
 quest.MakeShipFlightReady,"Versetze das Schiff in Flugbereitschaft",,
 quest.MakeShipFlightReady.bridge.controls.tip,"Die <b>Brückensteuerung</b> gewährt uns Zugang zur <b>Sternenkarte</b>, damit wir endlich unsere Position im Universum feststellen können.",,
 quest.MakeShipFlightReady.desc,"Wir müssen die Flugfähigkeit unseres Schiffs wiederherstellen. So können wir einen nahegelegenen Planeten erreichen und Bergbaumissionen unternehmen, um mehr Ressourcen zu sammeln.",,
-quest.MakeShipFlightReady.thruster.tip,"Wenn wir Glück haben, gibt es dort zumindest eine reparierbare <b>Schubdüse</b> in den Trümmern. Wenn nicht, werden wir wohl zusätzliche Forschungen anstellen müssen, um die Blaupause dafür zu bekommen.",,
+quest.MakeShipFlightReady.thruster.tip,"Wenn wir Glück haben, gibt es dort zumindest eine reparierbare <b>Schubdüse</b> in den Trümmern. Wenn nicht, werden wir wohl zusätzliche Forschungen anstellen müssen, um die Baupläne dafür zu bekommen.",,
 quest.new,"Neue Mission: <b>{0}</b><br><br>{1}<br><br>{2}",,"{0} will be quest title (i.e. »Defeat the dragon«). {1} will be a long description, {2} will be a list of rewards"
 quest.no.active,"Keine aktiven Missionen",,
 quest.no.active.many.available.tip,"Es sind <b>{0} Missionen verfügbar</b>: {1}<br>Markiere eine Mission als <b>aktiv</b>, um ihren Fortschritt zu verfolgen.",,"{0} is a number (2 or greater). {1} will be the list of quest names"
@@ -2656,7 +2656,7 @@ quest.show.all,"Zeige alle Missionen",,
 quest.step.build.many,"Baue <b>{0} {1}</b>",,"{0} will be a multiplier, {1} will be the device name. Example: »Build <b>×2 Matter Reactor</b>«"
 quest.step.build.one,"Baue <b>{0}</b>",,"{0} will be the device name. Example: »Build a <b>Matter Reactor</b>«"
 quest.step.build.tip,"Den Bauplan für diesen Artikel findest du im <b>Werkzeugmenü</b>:<br>{0}",2023-08-16,
-quest.step.build.tip.search,"Tipp: Benutze die <b>Schnellsuche</b> ({0}), um <b>eine beliebige Blaupause zu finden</b>, indem du ihren Namen eintippst.",,
+quest.step.build.tip.search,"Tipp: Benutze die <b>Schnellsuche</b> ({0}), um <b>einen beliebigen Bauplan zu finden</b>, indem du ihren Namen eintippst.",,
 quest.step.chain.connectors,"Baue verkettete Verbinder",,
 quest.step.colonize,"Kolonisiere einen <b>bewohnbaren Planeten</b>",2022-09-26,
 quest.step.colonize.tip,"Dies ist unser Hauptziel. Wir müssen uns auf einem vollständig terraformierten Planeten niederlassen und unsere Kolonisten ein glückliches Leben leben lassen.<br><br>Wir werden unsere Reise noch fortsetzen können, nachdem dieses Ziel erreicht wurde.",,
@@ -2745,7 +2745,7 @@ request.count,"Empf. Befehle",,"A label for a number that shows how many times s
 request.merchant.type,"Wähle eine Händlerart",,
 request.wake.up,"Aufwachen befehlen",,
 required.for.building,"Zum Bauen benötigt:",,
-required.for.building.num,"Benötigt, um nach {0} Blaupausen zu bauen",,
+required.for.building.num,"Benötigt, um {0} Baupläne herzustellen",,
 required.for.crafting,"Zum Herstellen benötigt:",,
 required.for.crafting.num,"Benötigt, um {0} Gegenstände herzustellen",,
 required.skills,"Erforderliche Fertigkeiten",,
@@ -2768,7 +2768,7 @@ research.cloning,Klonen,,
 research.clothing,Kleidung,,
 research.coffee,Kaffee,,
 research.communications,Kommunikation,,
-research.complete,"Forschung abgeschlossen: <nobr><b>{0}</b></nobr><br>Neue Blaupausen freigeschaltet: {1}",,
+research.complete,"Forschung abgeschlossen: <nobr><b>{0}</b></nobr><br>Neue Baupläne freigeschaltet: {1}",,
 research.complete.no.unlockables,"Forschung abgeschlossen: <nobr><b>{0}</b></nobr>",,
 research.computing,Datenverarbeitung,,
 research.computingadvanced,"Fortgeschr. Datenverarbeitung",,"[Weidengeist: Abbreviated to prevent overlaying the progress.]"
@@ -2965,7 +2965,7 @@ section,Bereich,,
 sections,Bereiche,,
 security.controls,Sicherheitssystemsteuerung,,
 security.controls.missing,"Steuereinheit fehlt",,
-security.controls.missing.info,"Diese Funktion erfordert eine Verbindung zu einem Steuergerät für Sicherheitssysteme. Erforsche <b>Sicherheitssystemsteuerung</b>, um die entsprechende Blaupause zu erhalten.",,
+security.controls.missing.info,"Diese Funktion erfordert eine Verbindung zu einem Steuergerät für Sicherheitssysteme. Erforsche <b>Sicherheitssystemsteuerung</b>, um den entsprechenden Bauplan zu erhalten.",,
 seed.randomize,"Zufälliger Startwert",,
 seeking.medical.attention,"Sucht medizinische Hilfe",,
 seeking.relief,"Sucht Erleichterung",,"This is about a being looking for a toilet"
@@ -3522,14 +3522,14 @@ turret.settings,Geschützturmeinstellungen,,
 tutorial.build_connector,"Der Materiereaktor ist gebaut, aber wir müssen ihn mit unserem Stromnetz verbinden. Baue einen <nobr><b>Verbinder</b></nobr>.<br><br>{0}",,
 tutorial.build_connector_place,"Platziere den Verbinder so, dass der Materiereaktor, die Batterie und der Schiffscomputer in seiner Reichweite liegen. Du kannst die Reichweite des Verbinders sehen, wenn du herauszoomst.",,
 tutorial.build_connector_wait,"Warte auf Arbeiter, die den Bau abschließen. Benutze <b>{0}</b>, um in den freien Modus zurückzukehren.",,
-tutorial.build_reactor,"Die <b>Energie</b>forschung ist abgeschlossen; wir haben neue Objektblaupausen installiert.<br><br>Baue einen <nobr><b>Materiereaktor</b></nobr>, um mit der Stromerzeugung zu beginnen.<br><br>{0}",,
+tutorial.build_reactor,"Die <b>Energie</b>forschung ist abgeschlossen; wir haben neue Objektbaupläne installiert.<br><br>Baue einen <nobr><b>Materiereaktor</b></nobr>, um mit der Stromerzeugung zu beginnen.<br><br>{0}",,
 tutorial.build_reactor_place,"Klicke <b>{0}</b> über unbeschädigtem Boden, um die Konstruktion zu befehlen. Benutze <b>{1}</b>, um das Objekt zu drehen, bevor du es platzierst. Der <b><color=#d2c2d6ff>Kreis</color></b> ist der Arbeitsbereich; er darf nicht blockiert werden. Ein Roboter muss in der Lage sein, den Reaktor zu erreichen, da Drohnen die Fähigkeit fehlt, ihn zu bauen.",2022-05-11,
 tutorial.build_reactor_wait,"Klicke nun auf <b>{0}</b>, um zum <nobr><b>freien Modus</b></nobr> zurückzukehren.",,
 tutorial.build_reactor_wait.2,"Wartet auf die Konstruktion. Du kannst den nicht gebauten Reaktor auswählen und die Infotafel oben links benutzen, um zu sehen, was mit der Bauaufgabe passiert.",,
 tutorial.build.range.info,"Bitte baue das Gerät maximal {0} Felder vom Schiffscomputer entfernt.",,
 tutorial.camera_pan,"Benutze <b>{0}</b>, um die Kamera zu schwenken. Bewege die Kamera zum Bestätigen.",,
 tutorial.camera_zoom,"Benutze <b>{0}</b>, um die Kamera hinein- und herauszuzoomen.",,
-tutorial.charge_station,"Auch deine Arbeiter brauchen etwas Energie. Benutze die <nobr><b>Schnellsuche</b></nobr>, um die Blaupause für eine <nobr><b>Ladestation</b></nobr> zu finden. Drücke <b>{0}</b>, gib ""Lade"" ein und drücke dann {1}.",,
+tutorial.charge_station,"Auch deine Arbeiter brauchen etwas Energie. Benutze die <nobr><b>Schnellsuche</b></nobr>, um den Bauplan für eine <nobr><b>Ladestation</b></nobr> zu finden. Drücke <b>{0}</b>, gib ""Lade"" ein und drücke dann {1}.",,
 tutorial.charge_station_link,"Schließe nun die <nobr><b>Ladestation</b></nobr> an den <b>Verbinder</b> an.<br><br>Du kannst {0} drücken und ihn ziehen, um automatisch in das {1} <b>Verbinden</b>werkzeug zu wechseln.",2022-07-01,
 tutorial.charge_station_place,"Suche nun eine schöne Stelle innerhalb der Reichweite deines Verbinders und klicke auf <b>{0}</b>, um die Konstruktion anzuordnen.",,
 tutorial.charge_station_wait,"Benutze zu beliebiger Zeit <b>{0}</b>, um zum <nobr><b>freien Modus</b></nobr> zurückzukehren. Warte auf den Bau.",,
@@ -3545,7 +3545,7 @@ tutorial.deconstruct_mass.2,"Wenn das <b>Dekonstruieren</b>werkzeug ausgewählt 
 tutorial.deconstruct_mass.limit,"Der Massenrückbau ist für die Dauer des Tutorials auf 25 Felder begrenzt. Eine große Menge an Aufgaben für Arbeiter zu erstellen, ist im Moment nicht zu empfehlen.",,
 tutorial.deconstruct_single,"Wir werden einige Rohstoffe für den Bau und die Stromerzeugung benötigen.<br><br>Wähle mit <b>{0}</b> ein einzelnes Wand- oder Bodenfeld, klicke dann <b>{1}</b>, um das Kontextmenü zu öffnen, und wähle dort die Option <nobr><b>Dekonstruktion befehlen</b></nobr> aus.",2022-06-21,
 tutorial.deconstruct.obj,"Die Dekonstruktion von Objekten ist momentan deaktiviert.",,
-tutorial.direct_orders.1,"Wir haben die nötigsten Grundlagen abgedeckt, aber es gibt noch viel mehr zu lernen. Es ist nicht genug Zeit, dir alles zu zeigen. Stattdessen sollst du Dinge selbst herausfinden, indem du die Nutzeroberfläche erkundest und tief in jedem Menüeintrag herumstöberst.<br><br>Du musst sorgfältig lesen, wenn du alle Feinheiten zum Leiten dieser Operation meistern willst.<br><br>Ich werde dir zeigen, wie du deinen robotischen Arbeitern direkte Anweisungen gibst. Wähle irgendeinen Arbeiter und finde den Button <b>Direkte Kontrolle</b> im Abschnitt <b>Kontrollierter Arbeiter</b> der Infotafel.",,
+tutorial.direct_orders.1,"Wir haben die nötigsten Grundlagen abgedeckt, aber es gibt noch viel mehr zu lernen. Es ist nicht genug Zeit, dir alles zu zeigen. Stattdessen sollst du Dinge selbst herausfinden, indem du die Nutzeroberfläche erkundest und tief in jedem Menüeintrag herumstöberst.<br><br>Du musst sorgfältig lesen, wenn du alle Feinheiten zum Leiten dieser Operation meistern willst.<br><br>Ich werde dir zeigen, wie du deinen robotischen Arbeitern direkte Anweisungen gibst. Wähle irgendeinen Arbeiter und finde die Schaltfläche <b>Direkte Kontrolle</b> im Abschnitt <b>Kontrollierte Arbeiter</b> der Infotafel.",,
 tutorial.direct_orders.2,"Weise nun den kontrollierten Arbeiter an, sich zu einer Position deiner Wahl zu bewegen. Unter dem Mauszeiger wird es einen Hinweis geben. Stelle sicher, dass der Arbeiter ausgewählt ist, und vergiss nicht, die direkte Kontrolle anschließend wieder zu lösen, da der Arbeiter andernfalls auf weitere Instruktionen warten wird.",2022-10-28,
 tutorial.end,"Die Einführung ist nun abgeschlossen. Ich danke dir für deine Geduld. Um dir weiterhin das Lernen zu ermöglichen, empfehle ich dringlichst, im <b>Betriebshandbuch</b> des <b>Kodex</b>overlays zu stöbern.<br><br>Ich werde gelegentlich Ratschläge erteilen, wenn bestimmte Aktionen angebracht sind. Behalte die Ereignisliste im Auge.<br><br>Vollständige Freigabe erteilt. Viel Glück!",2022-08-18,"Now order the controlled worker to move to a position of your choice. The will be a hint underneath the mouse cursor. Make sure you have the worker selected, and don't forget to release the direct control afterwards, or the worker will keep waiting for more instructions."
 tutorial.energy_grid,"Du kannst das <nobr><b>Stromnetz</b></nobr>overlay verwenden, um abgeschaltete Geräte zu finden sowie den Energiefluss und die Menge der Produktion und des Verbrauchs zu sehen. Schalte das Stromnetzoverlay aus, um fortzufahren. <b>{0}</b> wird das Overlay schließen, wenn nichts anderes ausgewählt ist.",,
@@ -3569,8 +3569,8 @@ tutorial.relocate_bed.2,"Finde nun einen neuen Ort für das Objekt und klicke {0
 tutorial.relocate_bed.3,"Der Transport erfolgt nun.",,
 tutorial.repair_mass.limit,"Die Massenreparatur ist für die Dauer des Tutorials auf 25 Felder begrenzt. Eine große Menge an Aufgaben für Arbeiter zu erstellen, ist im Moment nicht zu empfehlen.",,
 tutorial.repair_single,"Es ist wichtig, alle Schäden in den Bereichen, die wir nutzen werden, zu reparieren. Du wirst nicht in der Lage sein, beschädigte Geräte zu benutzen oder Objekte auf beschädigten Böden zu bauen. Außerdem wird beschädigte Bausubstanz Sauerstoff entweichen lassen.<br><br>Benutze das {1} <b>Reparatur</b>werkzeug im {0}menü, um einige Reparaturen in Auftrag zu geben.<br><br>Wenn das {1} <b>Reparatur</b>werkzeug aktiv ist, werden beschädigte Objekte <b><color=#cc0000ff>hervorgehoben</color></b>. Wenn du keine beschädigten Objekte in der Nähe finden kannst, zoome heraus und schaue dich um.",,"Most of our data banks were destroyed during the crash. We will have to recover the lost blueprints.<br><br>Click the <b>Research</b> Overlay button to open the <b>Research Tree</b> (Shortcut {0})."
-tutorial.research,"Die meisten unserer Datenbanken wurden bei dem Absturz zerstört. Wir müssen die verlorenen Blaupausen wiederherstellen.<br><br>Klicke auf den <b>Forschungs</b>overlaybutton, um den <nobr><b>Forschungsbaum</b></nobr>  zu öffnen (Schnelltaste {0}).",2022-02-28,
-tutorial.research_start,"Dies ist der <b>Forschungsbaum</b>. Du kannst genau wie in der Hauptansicht die Kamera schwenken und zoomen.<br><br>Jede Technologie hat ihre eigenen <b>Elektrizitäts</b>-, <b>Arbeitsspeicher</b>- und <b>Festplattenspeicher</b>anforderungen. Bewege die Maus über die Symbole innerhalb eines Forschungsgebiets, um detaillierte Beschreibungen der Blaupausen, die freigeschaltet werden, anzuzeigen.<br><br>Beginne die <b>Energie</b>forschung, um fortzufahren. Möglicherweise musst du die Ansicht verkleinern oder nach unten schwenken, um sie zu finden.",2022-01-07,
+tutorial.research,"Die meisten unserer Datenbanken wurden bei dem Absturz zerstört. Wir müssen die verlorenen Baupläne wiederherstellen.<br><br>Klicke auf die <b>Forschungs</b>overlayschaltfläche, um den <nobr><b>Forschungsbaum</b></nobr>  zu öffnen (Schnelltaste {0}).",2022-02-28,
+tutorial.research_start,"Dies ist der <b>Forschungsbaum</b>. Du kannst genau wie in der Hauptansicht die Kamera schwenken und zoomen.<br><br>Jede Technologie hat ihre eigenen <b>Elektrizitäts</b>-, <b>Arbeitsspeicher</b>- und <b>Festplattenspeicher</b>anforderungen. Bewege die Maus über die Symbole innerhalb eines Forschungsgebiets, um detaillierte Beschreibungen der Baupläne, die freigeschaltet werden, anzuzeigen.<br><br>Beginne die <b>Energie</b>forschung, um fortzufahren. Möglicherweise musst du die Ansicht verkleinern oder nach unten schwenken, um sie zu finden.",2022-01-07,
 tutorial.research_wait,"Lass uns warten, bis die <b>Energie</b>forschung abgeschlossen ist. Spule die Zeit vor, um sie zu beschleunigen. Die Forschung schreitet nicht voran, während die Zeit angehalten wird.",,
 tutorial.research.energy,"Du kannst Energieforschung nur während der Einführung beginnen.",,
 tutorial.restriction,Einführungsbeschränkung,,
@@ -3786,7 +3786,7 @@ cpu.cost,CPU-Bedarf,,"cost of processing power of a robotic worker"
 cpu.cost.tip,"Bedarf an Rechenleistung, wenn der Arbeiter online ist. Wenn du nicht über genügend CPU-Leistung verfügst, fahren sich manche Arbeiter herunter.",,
 codex.m.workers.cpucost,Arbeiter-CPU-Bedarf,,
 codex.m.workers.cpucost.desc,"Jeder robotische Arbeiter benötigt CPU-Leistung, um ihn betriebsbereit zu halten. Dein Schiffscomputer verfügt über <b>8 THz</b> eingebauter CPU-Leistung. Letztlich wirst du neue <b>CPU-Module</b> bauen und anschließen müssen, um den Umfang deiner aktiven Arbeiterschaft zu vergrößern.<br><br>Arbeiter, die sich auf einer Expedition befinden, beanspruchen keine CPU-Leistung.<br><br>Wenn mehrere Arbeiter außer Betrieb sind, erlaubt dir das <b>{0} Wesen</b>overlay, sie alle gleichzeitig einzuschalten.",,
-codex.blueprints.tip,"Liste sämtlicher Geräteblaupausen, sowohl gesperrte als auch durch Forschung freigeschaltete. Enthält eine typenbasierte Suche nach vorhandenen Geräten.",,
+codex.blueprints.tip,"Liste sämtlicher Gerätebaupläne, sowohl gesperrte als auch durch Forschung freigeschaltete. Enthält eine typenbasierte Suche nach vorhandenen Geräten.",,
 codex.materials.tip,"Liste sämtlicher Materialien und kleiner Gegenstände, wie Ausrüstung, Nahrung und Verbesserungsmodule. Enthält eine typenbasierte Suche nach Gegenständen im eigenen Bestand.",2022-11-13,
 objects.devices.jukebox.desc,"Eine Maschine, die automatisch ein ausgewähltes Musikstück spielt, wenn eine Münze eingeworfen wird. Du verdienst ein wenig Geld, wenn deine Kolonisten sie benutzen.",,
 objects.devices.jukebox,Jukebox,,
@@ -4066,8 +4066,8 @@ est.mining.rate,"Rate: {0:0.00} pro Tag",2023-09-16,"{0:0.00} will become a numb
 orders,Aufträge,,"noun, as in current orders"
 min.mine.rate,Mindestrate,,
 min.mine.rate.tip,"Die Expedition wird automatisch beendet, wenn die Abbaurate unter diesen Wert fällt.",,
-objects.devices.autodrillrig,"Autodrill Rig",,
-objects.devices.autodrillrig.desc,"Das Autodrill Rig ist ein KI-gesteuertes Bergbausystem, das für die präzise Ressourcengewinnung und die nahtlose Integration in automatisierte Abläufe entwickelt wurde.",2023-10-18,"Added note about no possibility to retrieve."
+objects.devices.autodrillrig,Autobohrturm,,
+objects.devices.autodrillrig.desc,"Der Autobohrturm ist ein KI-gestütztes Bergbausystem, das für die präzise Ressourcenförderung und die nahtlose Integration in automatisierte Abläufe entwickelt wurde.",2023-10-18,"Added note about no possibility to retrieve."
 research.miningautomation,Bergbauautomatisierung,,
 quick.search.tip.starmap,"Gib den Namen des Raumobjekts ein, das du finden möchtest.",,
 quick.search.tip.research,"Gib den Namen des Forschungszweigs oder des Geräts ein, das du finden möchtest.",,
@@ -4097,15 +4097,15 @@ space.object.Port,Weltraumhafen,,
 space.object.info.Port,"Ein Knotenpunkt, an dem du mit der Fraktion, der dieser Planet gehört, handeln und interagieren kannst.",,
 sell.ship.section,"Schiffsabschnitt verkaufen",,
 sell.ship.section.hint,"Du kannst dein Schiff in Abschnitte aufteilen und die Abschnitte in der Werft verkaufen.",,
-shipyard.section.offer,"<b>{0}</b> bieten <b>{1}</b> für diesen Schiffsabschnitt.",,"{0} will be a merchant name or a space port, {1} will be the sum"
-time.sensitive.operation,"Dies ist ein zeitkritischer Vorgang. Bitte versuche es erneut und ändere nicht die Taktrate.",,
+shipyard.section.offer,"<b>{0}</b> bietet <b>{1}</b> für diesen Schiffsabschnitt.",,"{0} will be a merchant name or a space port, {1} will be the sum"
+time.sensitive.operation,"Dies ist ein zeitkritischer Vorgang. Bitte versuche es erneut und ändere nicht die Spielgeschwindigkeit.",,
 merchant.type.MerchantSpacePortGood,Weltraumhandelshafen,,
 merchant.type.MerchantSpacePortEvil,"Zwielichtiger Weltraumhandelshafen",,
 space.object.Resource,Rohstoffquelle,2023-09-02,
 space.object.info.Resource,"Hierbei handelt es  sich um eine abbaubare Rohstofflagerstätte.",,
 space.object.Anomaly,Anomalie,,
 space.object.info.Anomaly,"Radargeräte entdecken in diesem Gebiet seltsame Aktivitätsmuster. Vorsicht ist geboten.",,
-expedition.already.in.progress,"Die Expedition zu dieser <b>{0}</b> ist bereits im Gange.",,"{0} is the object type, like Anomaly"
+expedition.already.in.progress,"<b>{0}</b> ist breits Ziel einer Expedition.",,"{0} is the object type, like Anomaly; [Weidengeist: Changed into a more general wording to also cover »Schwarzes Loch« or »Weltraumhafen« in a grammatically correct way.]"
 rebuild.graphics.cache,"Graphikcache neu generieren",,
 rebuild.graphics.cache.tip,"Wenn einige Graphiken fehlen oder falsch dargestellt werden, kann eine Neugenerierung des Graphikcaches helfen. Durch Drücken dieser Schaltfläche wird der folgende Ordner gelöscht:<br><br><b>{0}</b>",,
 evt.exp.crash.site.survivors.title,"Absturzstelle gefunden",,
@@ -4571,12 +4571,12 @@ research.ready.to.unlock,"Forschungen bereit zum Freischalten",,"{0} is a number
 research.ready.bookmarked,"Markierte Forschungen bereit zum Freischalten",,"{0} is a number, it says that X bookmarked research items are ready to unlock right now"
 research.ready.to.unlock.tip,"<b>{0}</b> Forschungen sind fertig zum Freischalten.",,"{0} is number"
 research.ready.bookmarked.tip,"<b>{0}</b> markierte und <b>{1}</b> allgemeine Forschungen sind fertig zum Freischalten.",,"variables are numbers"
-research.lacks.resource,"Forschung <b>{0}</b> angehalten: {1}",,"{0} is resource name {1} is number"
-bookmark.add,"Markierung hinzufügen",,
-bookmark.remove,"Markierung entfernen",,
+research.lacks.resource,"Erforschung erfordert {1} <b>{0}</b>.",,"{0} is resource name {1} is number"
+bookmark.add,"Lesezeichen hinzufügen",,
+bookmark.remove,"Lesezeichen entfernen",,
 required.material,"Benötigt: {0}",,
-research.prerequisites.missing,"<b>{0}</b> vorher nötige Forschungen",,
-research.tier.locked,"Forschungsstufe <b>{0}</b> ist gesperrt",,
+research.prerequisites.missing,"<b>{0}</b> wird vorausgesetzt.",,
+research.tier.locked,"Forschungsstufe <b>{0}</b> ist gesperrt.",,
 unlock.miningautomation.desc,"Schaltet das <b>{0}</b>overlay und die für die Bergbauautomatisierung erforderlichen Gerätschaften frei.",,"{0} will be Copter Missions translation"
 research.cpu.cap,"Schiffscomputerkapazität {0}",,
 research.cpu.cap.desc,"Schaltet die simultane Nutzung <b>{0}</b> aktiver Schiffscomputer frei.",,
@@ -4671,7 +4671,7 @@ tut.basic.controls.step.overlays.special.desc,"Hier findest du spezielle Ansicht
 tut.basic.controls.step.overlays.special,"Spezielle Ansichten",,
 tut.basic.controls.step.overlay.research,"Hier erschließt du neue Technologien.",,
 tut.basic.controls.step.overlay.starmap,"Wenn dein Schiff aus einem Stück besteht, über eine <b>Brückensteuerung</b> und <b>Triebwerke</b> verfügt, kann es fliegen. Die Erforschung des Weltraums wird von entscheidender Bedeutung sein, um die benötigten Ressourcen zu finden.",2023-08-19,
-tut.basic.controls.step.overlay.codex,"Der Kodex enthält das <b>Bedienungshandbuch</b>, Tipps und verschiedene Datenlisten, z. B. die Arten verschiedener Materialien, die im Stardeus-Universum existieren, alle Blaupausen, die du im Forschungsbaum freischalten kannst, bekannte Fraktionen und mehr.",,
+tut.basic.controls.step.overlay.codex,"Der Kodex enthält das <b>Bedienungshandbuch</b>, Tipps und verschiedene Datenlisten, z. B. die Arten verschiedener Materialien, die im Stardeus-Universum existieren, alle Baupläne, die du im Forschungsbaum freischalten kannst, bekannte Fraktionen und mehr.",,
 tut.basic.controls.step.overlay.search,"Diese Schaltfläche öffnet eine Eingabemaske, mittels derer du schnell einen Bauplan, einen Wesensnamen, einen Kodexeintrag und vieles mehr finden kannst.",2023-08-16,
 tut.basic.controls.step.overlays.controls.desc,"Diese Schaltflächen schalten die Bedienfelder um, mit denen du verschiedene Bordsysteme verwalten kannst.",,
 tut.basic.controls.step.overlays.controls,Systemsteuerung,,
@@ -4767,32 +4767,32 @@ tut.basic.controls.relocate.3,"Platziere das Gerät an der markierten Stelle.<br
 tut.basic.controls.relocate.4,"Die Umsiedlung steht nun aus.<br><br>Auf diese Weise kannst du Lebewesen, Materialhaufen und andere Objekte umsiedeln.",,
 tut.basic.controls.quick.search.1,"Verwende die <b>Schnellsuche</b>, wenn du weist, wonach du suchst. Dies ist der schnellste Weg, etwas zu finden.<br><br>Drücke {0}, um die <b>Schnellsuche</b> zu aktivieren.",2023-08-18," {0} is key binding"
 tut.basic.controls.quick.search.2,"Beginne nun mit der Eingabe eines Blueprint-Namens und drücke {0} oder klicke auf das Ergebnis, um es zu aktivieren, sobald es verfügbar ist.<br><br>Für dieses Beispiel nehmen wir an, du möchtest einen <b>{1}</b> erstellen . Gebe „{2}“ ein und drücke dann {0}.",," {0} is key binding. {1} is device name. {2} will be first few characters of device name"
-tut.basic.controls.quick.search.3,"Die <b>Schnellsuche</b> ist äußerst leistungsstark. Zusätzlich zu Blaupausen können Arbeiter, Kodexeinträge und Gegenstände in speziellen Ansichten wie <b>Forschungsbaum</b> oder <b>Sternenkarte</b> gefunden werden.",,
+tut.basic.controls.quick.search.3,"Die <b>Schnellsuche</b> ist äußerst leistungsstark. Zusätzlich zu Bauplänen können Arbeiter, Kodexeinträge und Gegenstände in speziellen Ansichten wie <b>Forschungsbaum</b> oder <b>Sternenkarte</b> gefunden werden.",,
 tut.basic.controls.end,"Diese Einführung ist nun abgeschlossen. Wenn du die Informationen überwältigend fandest, denke daran, dass du jederzeit noch einmal darauf zurückgreifen und mit dem gewünschten Schritt fortfahren oder einfach eintauchen und beim Spielen lernen kannst.<br><br>Wir empfehlen dringend, den <b>Kodex</b> zu erkunden. Er enthält Antworten darüber, wie diverse Mechaniken funktionieren.<br><br>Viele der Informationen aus dieser Einführung sowie der <b>Kodex</b> sind direkt in das Spiel eingebettet und werden in der Regel via ""{0}"" in Hinweisfenstern gekennzeichnet.",2023-08-18," {0} is something like: hold CTRL for more info"
 tut.research.name,Forschung,,
 tut.research.desc,"Lerne die Konzepte der Forschung kennen.",,
-tool.menu.recent.desc,"Enthält eine Liste der zuletzt verwendeten Blaupausen.",,
+tool.menu.recent.desc,"Enthält eine Liste der zuletzt verwendeten Baupläne.",,
 tut.research.intro.desc,"In dieser Einführung erfährst du alles, was du über <b>Forschung</b> in Stardeus wissen musst.",,
-tut.research.end,"Das ist es! Hier ist eine Zusammenfassung dessen, was wir gelernt haben:<br><br> – Forschung verwendet <b>Datoiden</b>.<br> – Datoiden müssen in <b>Datoid-Lader</b> gespeichert werden, um verfügbar zu sein. <br> – du musst über genügend <b>Speicherplatz</b> und <b>Datoide</b> des richtigen Typs verfügen, um einen Forschungsknoten freizuschalten.<br> – Datoide werden von <b>Datoid Erntern produziert</b>.<br> – Erstelle und verbinde neue <b>Festplattenmodule</b>, um mehr <b>Festplattenspeicher</b> hinzuzufügen.",,
-tut.research.open.tree,"Öffne den <b>Forschungsbaum</b>. Verknüpfung: {0}",," {0} is key binding"
+tut.research.end,"Das war’s! Hier ist eine Zusammenfassung dessen, was wir gelernt haben:<br><br> • Forschung verwendet <b>Datoiden</b>.<br> • Datoiden müssen in <b>Datoidenladern</b> abgelegt werden, um verfügbar zu sein.<br> • Du musst über genügend <b>Speicherplatz</b> und <b>Datoiden</b> des richtigen Typs verfügen, um ein Forschungsgebiet freizuschalten.<br> • Datoiden werden von <b>Datoidenerntern</b> produziert.<br> • Baue und schließe neue <b>Festplattenmodule</b> an, um den verfügbaren <b>Festplattenspeicher</b> zu erhöhen.",,
+tut.research.open.tree,"Öffne den <b>Forschungsbaum</b>. Schnelltaste: {0}",," {0} is key binding"
 tut.research.tree.nav,"Forschungsbaum: Sich bewegen",,
 tut.research.tree.nav.desc,"Dies ist der <nobr><b>Forschungsbaum</b></nobr>. So navigierst du darin:<br><br> • Um sich zu bewegen: {0} oder ziehe die Maus, während du {1} gedrückt hältst <br> • So änderst du den Zoom: {2}",," {0}{1}{2} is key binding"
 tut.research.tree.nav.gamepad,"Dies ist der <nobr><b>Forschungsbaum</b></nobr>. So navigierst du darin:<br><br> • Zum Bewegen: {0}.<br> • Zum Ändern des Zooms: {1}.",," {0}{1} is key binding"
 verb.scroll,Scrollen,,"As in Mouse Scroll"
-tut.research.tree.find.element,"Konzentriere dich auf den hervorgehobenen Forschungsknoten <b>{0}</b>.<br><br>Du kannst die {1}-Suche verwenden, um direkt dorthin zu springen.",," {0} is tech name. {1} is key binding"
-tut.research.tree.find.element.gamepad,"Konzentriere dich auf den hervorgehobenen Forschungsknoten <b>{0}</b>.",," {0} is tech name."
-tut.research.tree.node,"Forschungsbaum: Knoten",,
+tut.research.tree.find.element,"Konzentriere dich auf das hervorgehobene Forschungsgebiet <b>{0}</b>.<br><br>Du kannst via {1} suchen, um direkt dorthin zu springen.",," {0} is tech name. {1} is key binding"
+tut.research.tree.find.element.gamepad,"Konzentriere dich auf das hervorgehobene Forschungsgebiet <b>{0}</b>.",," {0} is tech name."
+tut.research.tree.node,"Forschungsbaum: Forschungsgebiet",,
 tut.research.tree.node.cost.datoids,"Forschung wird durch den Verbrauch spezieller Materialien namens <b>Datoiden</b> freigeschaltet. Hier findest du die benötigten Datoidtypen und -mengen aufgelistet. Bewege den Mauszeiger über die Symbole, um mehr über jeden Datoidtyp zu erfahren und auch darüber, wie du ihn erwerben kannst.",,
-tut.research.tree.node.cost.tier,"Dies zeigt den Forschungsknoten <b>Stufe</b>. Du musst eine bestimmte Anzahl an Knoten der aktuellen Stufe freischalten, um die nächste Stufe freizuschalten.",,
+tut.research.tree.node.cost.tier,"Dies zeigt die Forschungsgebiets<b>stufe</b>. Du musst eine bestimmte Anzahl an Forschungsgebieten der aktuellen Stufe freischalten, um die nächste Stufe zu erreichen.",,
 tut.research.tree.node.cost.disk,"Dies ist die Menge an <b>Festplattenspeicher</b>, die für die dauerhafte Speicherung der Forschungsergebnisse erforderlich sind.<br><br>Erstelle oder aktualisiere <b>Festplattenmodule</b>, um den verfügbaren Speicherplatz zu erhöhen.",,
-tut.research.tree.node.bookmark,"Dies ist die Schaltfläche <b>Lesezeichen</b>. Klicke darauf, um einen beliebigen gesperrten Forschungsknoten für einen schnellen Zugriff zu deinen Lesezeichen hinzuzufügen.",,
-tut.research.tree.node.bookmarks,"Über diese Schaltfläche wird eine Liste aller mit Lesezeichen versehenen Forschungsknoten angezeigt.<br><br>Du erhältst eine Benachrichtigung, wenn einer der mit Lesezeichen versehenen Forschungsknoten zum Entsperren verfügbar wird.",,
-tut.research.tree.node.unlock,"Dies ist die Schaltfläche <b>Entsperren</b>. Wenn du über die erforderlichen Ressourcen verfügst, wird der Forschungsknoten mit einem einzigen Klick entsperrt.<br><br>Warum der Forschungsknoten nicht entsperrt werden kann, erfährst du, wenn du mit der Maus über diese Schaltfläche fährst.",,
+tut.research.tree.node.bookmark,"Dies ist die Schaltfläche <b>Lesezeichen</b>. Klicke darauf, um ein beliebiges gesperrtes Forschungsgebiet für einen schnellen Zugriff zu deinen Lesezeichen hinzuzufügen.",,
+tut.research.tree.node.bookmarks,"Über diese Schaltfläche wird eine Liste aller mit Lesezeichen versehenen Forschungsgebiete angezeigt.<br><br>Du erhältst eine Benachrichtigung, sobald eines der mit Lesezeichen versehenen Forschungsgebiete zum Freischalten verfügbar wird.",,
+tut.research.tree.node.unlock,"Dies ist die Schaltfläche <b>Freischalten</b>. Wenn du über die erforderlichen Ressourcen verfügst, wird das Forschungsgebiet mit einem einzigen Klick entsperrt.<br><br>Falls das Forschungsgebiet nicht freigeschaltet werden kann, erfährst du die Gründe dafür, indem du mit der Maus über diese Schaltfläche fährst.",,
 tut.research.tree.info,"Informationstafel zum Forschungsbaum",,
 tut.research.tree.info.desc,"Dieses Fenster enthält eine Übersicht über die verfügbaren Ressourcen und nützlichen Aktionen.",,
-tut.research.tree.info.disk,"Dieser Fortschrittsbalken zeigt die <b>Festplattennutzung</b> an.<br><br>Die Schaltfläche <b>{0}</b> öffnet eine Liste freigeschalteter Forschungsknoten, die bei dringendem Bedarf an mehr Speicherplatz entladen werden können. Entladene Forschungsergebnisse müssen erneut freigeschaltet werden.",," {0} is key binding"
+tut.research.tree.info.disk,"Dieser Fortschrittsbalken zeigt die <b>Festplattennutzung</b> an.<br><br>Die Schaltfläche <b>{0}</b> öffnet eine Liste freigeschalteter Forschungsgebiete, die bei dringendem Bedarf an mehr Speicherplatz entladen werden können. Entladene Forschungsgebiete müssen erneut freigeschaltet werden.",," {0} is key binding"
 tut.research.tree.info.datoids,"In diesem Abschnitt werden <b>Datoiden</b> aufgeführt, die zur Verwendung verfügbar sind. Bewege den Mauszeiger oder klicke auf die Elemente, um weitere Informationen zu jedem Datoid-Typ zu erhalten.<br><br>Datoide werden erst verfügbar, nachdem sie in einem <b>Datoid-Lader</b> gespeichert wurden. Wir werden bald eines bauen.",,
-tut.research.tree.info.management,"Im Verwaltungsbereich findest du hilfreiche Werkzeuge wie die bereits erwähnten <b>Lesezeichen</b> und eine <b>Suchfunktion</b>. Auf diese Weise kannst du Knoten anhand ihres Namens oder anhand der Namen der freigeschalteten Elemente finden.<br><br>Du kannst den <b>Forschungsbaum</b> jetzt mit {0} schließen.",," {0} is key binding"
+tut.research.tree.info.management,"Im Verwaltungsbereich findest du hilfreiche Werkzeuge wie die bereits erwähnten <b>Lesezeichen</b> und eine <b>Suchfunktion</b>. Auf diese Weise kannst du Forschungsgebiete anhand ihres Namens oder der  Namen der darüber freigeschalteten Objekte finden.<br><br>Du kannst den <b>Forschungsbaum</b> jetzt mit {0} schließen.",," {0} is key binding"
 tut.research.unstored.datoid,"Wir haben bereits einige <b>Datoiden</b>, aber sie stehen noch nicht für die Forschung zur Verfügung.<br><br>Wir müssen einen <b>Datoid-Lader</b> bauen, unsere Arbeiter lassen die Datoiden dann hinein.",2023-08-18,
 tut.obj.not.found,"Das Objekt wurde nicht gefunden!",,
 tut.obj.no.longer.available,"Das Objekt ist nicht mehr verfügbar!",,
@@ -4801,11 +4801,11 @@ tut.waiting.for.construction,"Warten auf den Bau von <b>{0}</b>.",," {0} is devi
 tut.research.datoid.load.wait,"Datoide werden geladen",,
 tut.research.datoid.unstored,"Entladene Datoide",,
 tut.research.datoid.load.wait.desc,"Warten darauf, dass <b>Datoide</b> in den <b>Datoid-Lader</b> geladen werden.<br><br>Die Arbeiter erledigen das automatisch, aber du kannst <b>{0}</b> Werkzeug verwenden, um den Transport sofort anzuordnen.",,"{0} is tool name"
-tut.research.datoid.load.ready,"Die <b>Datoiden</b> sind jetzt geladen und es gibt einige Forschungsknoten, die freigeschaltet werden können.<br><br>Immer wenn eine Forschung freigeschaltet werden kann, wird im <b> eine Benachrichtigung darüber angezeigt Ereignisfenster</b> auf der rechten Seite.<br><br>Klicke auf die Benachrichtigung, um den <b>Forschungsbaum</b> zu öffnen. Es konzentriert sich automatisch auf den ersten freischaltbaren Knoten.",,
-tut.research.unlock.tech,"Freischalten <b>{0}</b>",," {0} is tech name"
-tut.research.unlock.tech.desc,"Schalte den hervorgehobenen Forschungsknoten frei, um fortzufahren.",,
-tut.research.tree.group,Forschungsbaum-Benutzeroberfläche,,
-tut.research.after.first.unlock,"<b>{0}</b> ist jetzt freigeschaltet. Du kannst alle in diesem Forschungsknoten aufgeführten Blaupausen erstellen.",," {0} is tech name"
+tut.research.datoid.load.ready,"Die <b>Datoiden</b> sind jetzt geladen und es gibt einige Forschungsgebiete, die freigeschaltet werden können.<br><br>Wann immer ein Forschungsgebiet freigeschaltet werden kann, wird auf der rechten Seite im <b>Ereignisfenster</b> eine Benachrichtigung darüber angezeigt.<br><br>Klicke auf diese Benachrichtigung, um den <b>Forschungsbaum</b> zu öffnen. Das erste freischaltbare Forschungsgebiet wird automatisch fokussiert.",,
+tut.research.unlock.tech,"<b>{0}</b> freischalten",," {0} is tech name"
+tut.research.unlock.tech.desc,"Schalte das hervorgehobene Forschungsgebiet frei, um fortzufahren.",,
+tut.research.tree.group,Forschungsbaumoberfläche,,
+tut.research.after.first.unlock,"<b>{0}</b> ist jetzt freigeschaltet. Du kannst alle zu den in diesem Forschungsgebiet aufgeführten Bauplänen gehörenden Objekte herstellen.",," {0} is tech name"
 tut.research.unlocked.tech,"<b>{0}</b> freigeschaltet",," {0} is tech name"
 tut.research.datoids.howto.1,"Wir haben gerade die meisten unserer <b>Datoiden</b> verbraucht, also müssen wir mehr produzieren.<br><br>Klicke auf das Benutzeroberflächenelement <b>{0}</b>, um herauszufinden, wie man es produziert.",," {0} is a translation for Basic Datoid"
 tut.research.datoids.howto.2,"Der Kodex-Popup sagt uns, dass <b>{0}</b> in <b>{1}</b> produziert wurde – wir müssen eines produzieren.<br><br>Verwende {2} oder {3}, um den <b>Forschungsbaum</b> zu schließen.",," {0} is a translation for Basic Datoid {1} is translation for Basic Data Harvester/ {2} {3} are bindings"
@@ -4817,16 +4817,16 @@ tut.connect.device,"Verbinden {0}",,"{0} is device name"
 tut.connect.device.freestyle.desc,"Verwende das Werkzeug <b>{0}</b>, um das markierte <b>{1}</b> mit dem nächstgelegenen verfügbaren Anschluss zu verbinden.",," {0} is tool name. {1} is device name"
 tut.connect.device.constrained.desc,"Drücke {0} über <b>{2}</b>, ziehe dann eine Linie zu <b>{1}</b> und lasse {0} los, um eine neue Verbindung zu erstellen.",2023-08-23," {0} is key binding. {1} and {2} is device name"
 tut.configure,"Konfigurieren {0}",,"{0} is device name"
-tut.exit.tool,"Verwende {0}, um zum Modus <b>Freie Auswahl</b> zurückzukehren.",," {0} is key binding"
-tut.configure.crafter.product,"Beginne mit der Produktion von <b>{0}</b>",," {0} is product name"
+tut.exit.tool,"Verwende {0}, um zum Modus <b>Freie Auswahl</b> zurückzukehren.",,"{0} is key binding"
+tut.configure.crafter.product,"Beginne mit der Produktion von <b>{0}</b>",,"{0} is product name"
 tut.research.tree.node.unlockables,"Freischaltbare Gegenstände",,
-tut.research.tree.node.unlockables.desc,"Jeder Forschungsknoten verfügt über eine Liste freischaltbarer Gegenstände. Bewege den Mauszeiger über das Element, um dessen Namen und Beschreibung in der Kurzinfo anzuzeigen.",,
-tut.build.not.expected,"Du bist derzeit nicht bereit einen <b>{0}</b> zu bauen.",,"{0} is device name"
-tut.research.disk.1,"Während <b>{0}</b> neue Datoiden produziert, planen wir unseren nächsten Schritt.",," {0} s device name"
-tut.research.disk.2,"Wir wollen ein <b>{0}</b> erstellen. Suchen wir den Forschungsknoten, der diesen Bauplan freischaltet. Du kannst die Suche mit {1} öffnen.",," {0} is device name {1} is key binding"
-tut.research.disk.2.gamepad,"Wir wollen ein <b>{0}</b> erstellen. Suchen wir den Forschungsknoten <b>{1}</b>. Du kannst dazu die Schaltfläche <b>{2}</b> oben rechts verwenden.",," {0} is device name {1} is key binding. {2} is translation for Search"
-tut.research.disk.3,"Gebe den Namen von <b>{0}</b> in das Suchfeld ein und drücke {1} oder klicke auf das Ergebnis, sobald es verfügbar ist.",," {0} is device name. {1} is key binding"
-tut.research.disk.4,"Lass uns herausfinden, was wir zum Freischalten von <b>{0}</b> benötigen. Bewege den Mauszeiger über die Schaltfläche <b>{1}</b>.",," {0} is device name. {1} is button label"
+tut.research.tree.node.unlockables.desc,"Jedes Forschungsgebiet verfügt über eine Liste freischaltbarer Objekte. Bewege den Mauszeiger über ein solches Objekt, um dessen Namen und Beschreibung in der Kurzinfo anzuzeigen.",,
+tut.build.not.expected,"<b>{0}</b> kann noch nicht gebaut werden.",,"{0} is device name"
+tut.research.disk.1,"Während <b>{0}</b> neue Datoiden produziert, planen wir unseren nächsten Schritt.",,"{0} is device name"
+tut.research.disk.2,"Unser nächstes Bauvorhaben: <b>{0}</b>. Suchen wir das Forschungsgebiet, das den zugehörigen Bauplan freischaltet. Du kannst die Suche mit {1} öffnen.",,"{0} is device name {1} is key binding"
+tut.research.disk.2.gamepad,"Unser nächstes Bauvorhaben: <b>{0}</b>. Suchen wir das Forschungsgebiet <b>{1}</b>. Du kannst dazu die Schaltfläche <b>{2}</b> oben rechts verwenden.",,"{0} is device name {1} is key binding. {2} is translation for Search"
+tut.research.disk.3,"Gib den Namen von <b>{0}</b> in das Suchfeld ein und drücke {1} oder klicke auf das Ergebnis, sobald es verfügbar ist.",,"{0} is device name. {1} is key binding"
+tut.research.disk.4,"Lass uns herausfinden, was wir zum Freischalten von <b>{0}</b> benötigen. Bewege den Mauszeiger über die Schaltfläche <b>{1}</b>.",,"{0} is device name. {1} is button label"
 tut.research.disk.5,"Sobald wir genügend <b>Grundlegendes Datoid</b> produziert haben, können wir diese immer noch nicht freischalten, da wir nicht über den <b>Festplattenspeicher</b> verfügen, der zum Speichern des Forschungsergebnisses erforderlich ist.<br><br>Wir müssen ein <b>Festplattenmodul</b> bauen.<br><br>Verwende {0} oder {1}, um den <b>Forschungsbaum</b> zu schließen.",,"{0} and {1} are key bindings"
 tut.research.disk.3.hint,"Hinweis: Das Suchergebnis sollte <b>{0}</b> lauten.",," {0} is a tech name"
 tut.research.outro,"Wir haben jetzt genug <b>Speicherplatz</b>, um <b>{0}</b> freizuschalten, aber wir müssen noch warten, bis <b>Grundlegendes Datoid</b> produziert wurde.<br><br>Du kannst mehrere <b>Datoid Ernter</b> bauen, um mehr Datoiden zu produzieren. Achte jedoch darauf, dass du nicht zu schnell zu viel produzierst, da dir sonst möglicherweise die Ressourcen ausgehen.<br><br>Um fortgeschrittenere Forschung freizuschalten, ist es erforderlich neue Arten von Datoiden freizuschalten, die schwieriger herzustellen sein werden und neue Geräte und Materialien erfordern.",," {0} is a tech name"
@@ -4853,7 +4853,7 @@ tut.el.overlay.3,"Geben wir ihm etwas Zeit, damit der Reaktor Brennstoff erhält
 tut.el.overlay.4,"Der <b>Schiffscomputer</b> ist jetzt Teil eines Stromnetzes. Auf dieser Schnittstelle wird ein Diagramm angezeigt, das die Stromproduktion, den Stromverbrauch, den Batteriestand und die Defizite anzeigt.<br><br>Wenn du mit der Maus über das Diagramm fährst, erhältst du Einblicke in den vergangenen und aktuellen Zustand des Stromnetzes. Beobachte, wie das Defizit verschwindet, wenn der Reaktor beginnt, Strom zu erzeugen.<br><br>Wenn das Diagramm nicht sichtbar ist, aktiviere es, indem du auf die Schaltfläche <b>{0}</b> klickst.",,
 tut.el.overlay.5,"Beachte, dass im Abschnitt <b>Nicht verwaltete Netze</b> des <b>{0}</b>overlays ein unbekanntes Stromnetz aufgeführt ist.<br><br>Klicke auf das Benutzeroberflächenelement, um die Kamera auf dieses Netz zu fokussieren.",2023-08-23,
 tut.el.refuel.title,"Konfigurieren des Materiereaktors",,
-research.cannot.unload.unlock.effects,"Dieser Forschungsknoten kann aufgrund seiner irreversiblen Freischalteffekte nicht entladen werden.",,
+research.cannot.unload.unlock.effects,"Dieses Forschungsgebiet kann aufgrund seiner irreversiblen Freischalteffekte nicht entladen werden.",,
 tut.el.grid.merge.title,"Netze zusammenführen",,
 tut.el.grid.merge.1,"Bis der <b>Schiffscomputer</b> angeschlossen ist, können wir keine Verbindungen anpassen oder Geräte in diesem Netz konfigurieren. Durch den Aufbau einer Kette von <b>Anschlüssen</b> können wir die beiden Netze zusammenführen und die Kontrolle über diesen Bereich erlangen.<br><br>Schließe das <b>{0}</b>overlay, um fortzufahren.",,
 tut.el.grid.merge.2,"Zuerst bauen wir eine Brücke, die zum <b>Schiffscomputer</b> führt. Dies bildet die Grundlage für die Platzierung der <b>Verbinder</b>.",,
@@ -4861,8 +4861,8 @@ tut.el.grid.merge.3,"Baue den Boden im hervorgehobenen Bereich auf.<br><br>Klick
 tut.el.grid.merge.4,"Während die Drohne damit beschäftigt ist, die Brücke zu bauen, können wir einen neuen <b>Verbinder</b> bestellen.<br><br>Ich zeige dir, wie es am schnellsten geht.",,
 tut.el.grid.merge.5_1,"1. Halte {0} gedrückt, während du über den Verbinder schwebst.",,
 tut.el.grid.merge.5_2,"2. Ziehe eine Linie in Richtung der Baustelle.",2023-08-29,
-tut.el.grid.merge.5_3,"3. Gebe {0} frei, um eine Liste der Verbinder Blaupausen zu erhalten.",,
-tut.el.grid.merge.5_4,"4. Wähle den Verbinder-Typ aus, den bauen möchtest.",,
+tut.el.grid.merge.5_3,"3. Lass {0} los, um eine Liste der Verbinderbaupläne zu erhalten.",,
+tut.el.grid.merge.5_4,"4. Wähle den Verbindertyp aus, den du bauen möchtest.",,
 tut.el.grid.merge.6,"Warten wir, bis der neue <b>Verbinder</b> erstellt wurde. Es wird automatisch mit dem Anschluss verknüpft, von dem du eine Linie gezogen hast.",,
 tut.el.grid.merge.7,"Öffne das <b>{0}</b>overlay und beobachte, wie zwei Netze zu einem zusammengeführt werden, nachdem du eine Verknüpfung zwischen den hervorgehobenen Anschlüssen erstellt hast.<br><br>Erstelle eine Verknüpfung zwischen den hervorgehobenen Anschlüssen, um fortzufahren.",,
 tut.el.grid.merge.5.title,"Der schnellste Weg, einen <b>Verbinder</b> zu erstellen",,
@@ -5090,3 +5090,5 @@ tool.heat,"Temperatur ändern",,
 tool.heat.desc,"Klicke und ziehe, um die Temperatur zu erhöhen. Halte die Strg-Taste gedrückt, um die Temperatur zu senken. Halte die Umschalttaste gedrückt, um die Temperatur auf 21 °C einzustellen.",,
 tool.oxygenate,"Sauerstoffgehalt ändern",,
 tool.oxygenate.desc,"Klicke und ziehe, um O<sub>2</sub> zu erhöhen. Halte die Strg-Taste gedrückt, um O<sub>2</sub> zu verringern. Halte die Umschalttaste gedrückt, um O<sub>2</sub> auf 21 % einzustellen.",,
+situation.Firefighters,Brandbekämpfer,,
+situation.GridRenewableOutput,"Anteil erneuerbarer Energie im Netz",,
