@@ -1435,7 +1435,7 @@ hotbar.help.desc,"Ao usar o Menu de Ferramentas, mantenha pressionado {0} enquan
 hotbar.help.title,Como usar a Barra de Atalhos,,
 hotbar.help.tooltip,Barra de Atalhos,,
 hotbar.info.no.submenus,Você não pode adicionar submenus a Barra de Atalhos. Selecione uma ferramenta ou um projeto.,,
-hotbar.lock,Bloquear Barra de Atalhos,,
+hotbar.lock,Travar Barra de Atalhos,,
 hotbar.locked,Barra de Atalhos Travada,,
 hotbar.locked.info,"Você precisa destravar a Barra de Atalhos nas configurações atuais do jogo para adicionar, remover ou reordenar itens.",,
 hotbar.show.info.button,Exibir informações na Barra de Atalhos,,
@@ -1649,7 +1649,7 @@ loading.news,Carregando Novidades...,,
 loading.save,<size=200%>{0}</size><br> Inicializando Rede Neural...,,
 location,Local,,
 lock,Trancar,,Action verb for a button that locks the door
-locked,Bloqueada,,Label for a state that shows that door is locked
+locked,Trancada,,Label for a state that shows that door is locked
 log.export.date,Data Atual: {0},,
 log.export.header,Registro de História do Stardeus,,"A header for game story - a history of everything that happened to the player from the beginning of the game. This story can be exported and shared, etc."
 log.export.save_name,Nome da Nave: {0},,
@@ -3604,8 +3604,8 @@ unity.data.privacy.fetch.fail,Falha ao buscar o URL de privacidade de dados do U
 unknown,Desconhecido,,
 unlink,Desemparelhar,,"as in ""remove a link"""
 unload,Descarregar,,
-unlock,Desbloquear,,
-unlocked,Desbloqueada,,Used for door and research
+unlock,Destrancar,,
+unlocked,Destrancada,,Used for door and research
 unoccupied,Desocupado,,
 unpowered,Sem Energia,,
 unreachable.areas,Salas Inacessíveis,,
@@ -5086,3 +5086,6 @@ tool.oxygenate,Alterar Oxigenação,,
 tool.oxygenate.desc,Clique e arraste para aumentar o nível de O2. Segure Ctrl para diminuir. Segure Shift para definir em 21%.,,
 situation.Firefighters,Bombeiros,,
 situation.GridRenewableOutput,Produção Renovável da Rede Elétrica,,
+research.locked,Bloqueado,,Separate from doors lock / unlock due to some languages
+research.unlocked,Desbloqueado,,Separate from doors lock / unlock due to some languages
+research.unlock,Desbloquear,,Separate from doors lock / unlock due to some languages
