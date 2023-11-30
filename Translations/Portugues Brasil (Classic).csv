@@ -5089,3 +5089,30 @@ situation.GridRenewableOutput,Produção Renovável da Rede Elétrica,,
 research.locked,Bloqueado,,Separate from doors lock / unlock due to some languages
 research.unlocked,Desbloqueado,,Separate from doors lock / unlock due to some languages
 research.unlock,Desbloquear,,Separate from doors lock / unlock due to some languages
+hint.void_ripper_dm,O Void Ripper produziu um pouco de <b>Matéria Escura</b>. Isso acontece toda vez que você passa por um buraco negro.,,
+verb.hatching,Hatching,,For eggs
+noun.direct.order,Ordem Direta,,
+goal.state.interupted.direct.order,Interrompido. Outra tarefa foi forçada: {0}.,,
+goal.assigned.worker.busy,O worder designado está ocupado com outra tarefa: {0}.,,
+goal.worker.incapable,Worder designado é incapaz de executar a tarefa.,,
+goal.worker.preassigned,Pré-atribuído.,,
+tractor.beam.auto.projectile,Seleção Automática de Projétil,,
+tractor.beam.auto.projectile.desc,"Quando ativado, este Raio Trator começará a puxar automaticamente qualquer projétil em direção ao alvo selecionado.",,
+tractor.beam.auto.pulling,Selecionando {0} automaticamente em {1} para ser puxado para {2}.,,{0} is object name {1} and {2} is coordinates
+tractor.beam.success,"Trajetória alterada com sucesso para {0}, deveria pousar em {1}.",,{0} is object name {1} is coordinate
+stats.base,Estatísticas Básicas,,
+stats.being,Estatísticas do Ser,,
+stats.full.title,Estatísticas Completas,,
+stat.value.base,Valor Base: {0},,
+stat.value.effective,Valor Efetivo: {0},,
+stat.no.modifiers,Sem Modificadores,,
+severity.mild,Leve,,
+severity.moderate,Moderada,,
+severity.severe,Severa,,
+severity.critical,Crítica,,
+severity.fatal,Fatal,,
+condition.duration,Duração: {0},,for how long did someone have a condition
+stat.influences,Influências,,
+stat.influenced.by,Influenciado por,,
+stat.no.effect,Sem Alteração,,
+stats.obj,Estatísticas do Objeto,,
