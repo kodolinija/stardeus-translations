@@ -2167,7 +2167,7 @@ obj.materials.protein.desc,Nutriente extraído de organismos vivos à base de ca
 obj.materials.quartz,Quartzo,,
 obj.materials.quartz.desc,Um mineral comum usado para produzir vidro.,,
 obj.materials.rock,Rocha,,
-obj.materials.rock.desc,Substância semelhante a pedra que pode ser moída em Terra e necessária para vários sistemas de Suporte à Vida. Pode conter outros materiais em seu interior.,2022-03-30,
+obj.materials.rock.desc,Substância semelhante a pedra que pode ser moída em Terra e usada em vários sistemas de Suporte à Vida. Pode conter outros materiais em seu interior.,2022-03-30,
 obj.materials.rubber,Borracha,,
 obj.materials.rubber.desc,Um material elástico amplamente utilizado em diversas máquinas e equipamentos.,,
 obj.materials.silicon,Silício,,
@@ -5089,3 +5089,38 @@ situation.GridRenewableOutput,Produção Renovável da Rede Elétrica,,
 research.locked,Bloqueado,,Separate from doors lock / unlock due to some languages
 research.unlocked,Desbloqueado,,Separate from doors lock / unlock due to some languages
 research.unlock,Desbloquear,,Separate from doors lock / unlock due to some languages
+hint.void_ripper_dm,O Void Ripper produziu um pouco de <b>Matéria Escura</b>. Isso acontece toda vez que você passa por um buraco negro.,,
+verb.hatching,Hatching,,For eggs
+noun.direct.order,Ordem Direta,,
+goal.state.interupted.direct.order,Interrompido. Outra tarefa foi forçada: {0}.,,
+goal.assigned.worker.busy,O worder designado está ocupado com outra tarefa: {0}.,,
+goal.worker.incapable,Worder designado é incapaz de executar a tarefa.,,
+goal.worker.preassigned,Pré-atribuído.,,
+tractor.beam.auto.projectile,Seleção Automática de Projétil,,
+tractor.beam.auto.projectile.desc,"Quando ativado, este Raio Trator começará a puxar automaticamente qualquer projétil em direção ao alvo selecionado.",,
+tractor.beam.auto.pulling,Selecionando {0} automaticamente em {1} para ser puxado para {2}.,,{0} is object name {1} and {2} is coordinates
+tractor.beam.success,"Trajetória alterada com sucesso para {0}, deveria pousar em {1}.",,{0} is object name {1} is coordinate
+stats.base,Estatísticas Básicas,,
+stats.being,Estatísticas do Ser,,
+stats.full.title,Estatísticas Completas,,
+stat.value.base,Valor Base: {0},,
+stat.value.effective,Valor Efetivo: {0},,
+stat.no.modifiers,Sem Modificadores,,
+severity.mild,Leve,,
+severity.moderate,Moderada,,
+severity.severe,Severa,,
+severity.critical,Crítica,,
+severity.fatal,Fatal,,
+condition.duration,Duração: {0},,for how long did someone have a condition
+stat.influences,Influências,,
+stat.influenced.by,Influenciado por,,
+stat.no.effect,Sem Alteração,,
+stats.obj,Estatísticas do Objeto,,
+current.task,Tarefa Atual,,
+last.failed.task,Última Tarefa Fracassada,,
+last.completed.task,Última Tarefa Finalizada,,
+verb.hiding,Escondendo,,when a cat is hiding in the bushes and similar situations
+expedition.loot,Saque de Expedição,,
+exp.deposit.too.deep,Este depósito de recursos é muito profundo para a Nave de Transporte selecionada.<br><br>Profundidade máxima de mineração: <b>{0}</b>.<br>Profundidade do depósito: <b>{1}</b>. .,,{0} and {1} are depth in kiometers
+modifier.NoCPUFragmentation,Desativar Fragmentação de Rede Neural,,
+modifier.NoCPUFragmentation.desc,Os Computadores da Nave não irão acumular Fragmentação de Rede Neural ao longo do tempo e não vão precisar de Desfragmentação.,,
