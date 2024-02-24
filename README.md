@@ -86,7 +86,7 @@ Contributions are awesome! Any contributions you make are **greatly appreciated*
 4. Push to the Branch (`git push origin feature/Language`)
 5. Open a Pull Request
 
-If you use Github Desktop check [this](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) out.
+If you use Github Desktop check [this](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) out.
 
 <!-- CONTACT -->
 ## Contact
