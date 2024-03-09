@@ -5039,6 +5039,9 @@ mining.depth.tip,"Die Abbautiefe steigt während des Abbaus stetig an. Sobald ei
 deposit.verb.mine,"Abbau von {0} ({1:0.##}/d in {2} Tiefe)",,"{0} is resource name {1} is number {2} is depth like 12km"
 deposit.verb.collect,"Einsammeln von {0} ({1:0.##}/d)",,"{0} is resource name {1} is number"
 deposit.verb.extract,"Förderung von {0} ({1:0.##}/d in {2} Tiefe)",,"{0} is resource name {1} is number {2} is depth like 12km"
+deposit.shuttle.verb.mine,"Abbau von {0} ({1:0}/d, {2})",,"{0} is resource name {1} is number {2} is storage like 100/120"
+deposit.shuttle.verb.collect,"Einsammeln von {0} ({1:0}/d, {2})",,"{0} is resource name {1} is number {2} is storage like 100/120"
+deposit.shuttle.verb.extract,"Förderung von {0} ({1:0}/d, {2})",,"{0} is resource name {1} is number {2} is storage like 100/120"
 mining.depth.max,"Maximale Abbautiefe",,
 resource.deposit.possible,"Mögliche Ressourcenquelle",,
 operate.fail.deficit,"Einsatz von {0} bei {1} aufgrund Strommangels fehlgeschlagen: {2}",,

@@ -4671,7 +4671,7 @@ tut.basic.controls.step.overlay.wallet,A carteira mostra nossos créditos e dá 
 tut.basic.controls.step.overlay.quests,Aqui fica a lista das missões disponíveis. A missão ativa fica sempre visível no painel de Alertas.,,
 tut.basic.controls.step.overlay.goals,"O jogo mantém seu progresso registrado, e sobre certas circunstâncias dar conselhos, ou dicas se preferir, em algo que pode ser feito para melhor a situação. Essas dicas aparecem no Painel de Alertas, mais podem ser ignorado sem nenhuma repercussão. Você pode fecha-las clicando no 'x'. ",,
 tut.basic.controls.step.overlay.beings,"Essa aba tem a lista completa de nossa tripulação, que inclui nossos seres sintéticos (drone, robôs,etc)  e biológicos (humanos, cães, gatos, etc).",,
-tut.basic.controls.step.overlay.tasks,"Essa aba permite ver quantas Ordens Ativas temos no mapa, incluindo as que estão em progresso, no aguardo, quem está as executando e tudo mais. Nosso limite de Ordens Ativas é definido pela nossa <b>Memória</b>, que pode ser aumentada ao se construir mais 
+tut.basic.controls.step.overlay.tasks,"Essa aba permite ver quantas Ordens Ativas temos no mapa, incluindo as que estão em progresso, no aguardo, quem está as executando e tudo mais. Nosso limite de Ordens Ativas é definido pela nossa <b>Memória</b>, que pode ser aumentada ao se construir mais
 <b>Módulos de Memória</b>.",2023-08-16,
 tut.basic.controls.step.overlay.eventlog,"O registro de eventos é o local que mantém o histórico de eventos marcantes da nossa viagem. Sempre que algo importante acontecer, um registro será feito nele. É possível adicionar um registro pessoal caso queira.",2023-08-16,
 tut.basic.controls.step.overlays.special.desc,Aqui fica as abas especiais como <b>Catálogo de Pesquisa</b> e o <b>Mapa Estelar</b>.,2023-08-16,
@@ -5047,6 +5047,9 @@ mining.depth.tip,"A medida que precisamos cavar mais fundo, aumenta a profundida
 deposit.verb.mine,Extraindo {0} ({1:0.##}/dia @ {2}),,
 deposit.verb.collect,Extraindo {0} ({1:0.##}/dia),,
 deposit.verb.extract,Extraindo {0} ({1:0.##}/dia @ {2}),,
+deposit.verb.mine,Extraindo {0} ({1:0}/d, {2}),,
+deposit.verb.collect,Extraindo {0} ({1:0}/d, {2}),,
+deposit.verb.extract,Extraindo {0} ({1:0}/d, {2}),,
 mining.depth.max,Profundidade Limite,,
 resource.deposit.possible,Jazida possíveis,,
 operate.fail.deficit,Operação {0} em {1} fracassou devido a déficit energético: {2},,

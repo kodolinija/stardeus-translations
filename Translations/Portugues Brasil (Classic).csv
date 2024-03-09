@@ -5032,6 +5032,9 @@ mining.depth.tip,"A profundidade aumenta quando o depósito é extraído. Após 
 deposit.verb.mine,Minerando {0} ({1:0.##}/dia @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
 deposit.verb.collect,Coletando {0} ({1:0.##}/dia),,{0} is resource name {1} is number
 deposit.verb.extract,Extraindo {0} ({1:0.##}/dia @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
+deposit.shuttle.verb.mine,Minerando {0} ({1:0}/d, {2}),,{0} is resource name {1} is number {2} is storage like 100/120
+deposit.shuttle.verb.collect,Coletando {0} ({1:0}/d, {2}),,{0} is resource name {1} is number {2} is storage like 100/120
+deposit.shuttle.verb.extract,Extraindo {0} ({1:0}/d, {2}),,{0} is resource name {1} is number {2} is storage like 100/120
 mining.depth.max,Profundidade Máxima de Mineração,,
 resource.deposit.possible,Possível Depósito de Recursos,,
 operate.fail.deficit,Falhou ao operar {0} em {1} devido ao déficit de eletricidade: {2}.,,
