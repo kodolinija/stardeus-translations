@@ -1,6 +1,6 @@
 Key  (PURPLE means not ready for translation yet),Translation,Version,Comment (context for translators)
-<Gamepad>,Геймпад,,Used in input settings when showing bindings for Gamepad (controller) 
-<Keyboard>,Клавіатура,,Used in input settings when showing bindings for Keyboard 
+<Gamepad>,Геймпад,,Used in input settings when showing bindings for Gamepad (controller)
+<Keyboard>,Клавіатура,,Used in input settings when showing bindings for Keyboard
 <Mouse>,Миша,,Used in input settings when showing bindings for Mouse
 abort,Перервати,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
 aborting.expedition.died,Перериваємо експедицію. Член команди {0} загинув ще до того як потрапив до шатлу.,,{0} will be replaced with a name
@@ -843,7 +843,7 @@ drag.release.build.con,Монтувати конектори перетягув�
 drag.release.build.con.tip,Якщо увімкнено - за допомогою інструмента Підключити можна наказати змонтувати конектор просто перетягуючи з'єднання до порожньої локації на підлозі.,,
 drink.coffee,Випити Кави,,
 drop.task,Відміна,,
-duplicate.binding,Комбінація Дублюється,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad). 
+duplicate.binding,Комбінація Дублюється,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad).
 duplicate.binding.info,"Комбінація, яку Ви обрали для {0} вже задіяна. Зазвичай, кращим рішенням буде відмінити таке призначення. Зауважте, що клавіші зі стрілками, Enter та ESC використовуються в навігації ІК.",,
 dust.accumulation,Накопичення Пилу,,
 dust.amount,Кількість Пилу,,
@@ -861,7 +861,7 @@ eject.ammo,Розрядити,,
 eject.contents,Вивантажити Вміст,,
 eject.food,Вивантажити Їжу,,
 eject.fuel,Вивантажити Паливо,,
-el.build.connector.here,Змонтувати тут Конектор,,Displayed in a tooltip when dragging a connector 
+el.build.connector.here,Змонтувати тут Конектор,,Displayed in a tooltip when dragging a connector
 el.connector.fully.utilized,Конектор задіяно повністю!,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.connector.not.on.grid,Конектор не у одній Мережі із Корабельним Комп'ютером!,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
 el.connector.out.of.range,За межею!,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
@@ -1465,7 +1465,7 @@ inconsistent.game.state,"Неможливо зробити сейв. Певни�
 increase,Збільшити,,
 increase.amount,Збільшити Кількість,,
 indestructible,Невразливий об'єкт,,
-indestructible.desc,"Невразливий об'єкт не буде отримувати ніяких пошкоджень від механічних, вибухових, термічних або інших, зазвичай деструктивних, чинників оточення.",, 
+indestructible.desc,"Невразливий об'єкт не буде отримувати ніяких пошкоджень від механічних, вибухових, термічних або інших, зазвичай деструктивних, чинників оточення.",,
 infinity,Безкінечно,,"Used in displaying time estimate when something would take forever to execute. Example: research time estimate when there is 0kW of energy output shows a tooltip: ""ETA: Infinity @0kW"""
 info.ad.rejected,Завдання відхилено,,
 info.ad.rejected.cancelled,Завдання було скасовано,,
@@ -3024,7 +3024,7 @@ ship.no.bridge.controls,Навігаційна Рубка Відключена,,
 ship.no.bridge.controls.operator,Відсутній Оператор Навігаційної Рубки,,
 ship.no.engines,Двигуни Відключені,,
 ship.not.in.one.piece,Корабель не є Єдиним Сегментом,,
-shooter,Кулю випущено,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter. 
+shooter,Кулю випущено,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter.
 short.title,Короткий Заголовок,,
 shortcut.not.bound,(не прив'язано),,
 shortcut.tip,Хоткей: {0},,
@@ -3982,7 +3982,7 @@ height,Висота,,noun
 width,Ширина,,noun
 color.hue,Відтінок,,color property (H in HSL)
 color.saturation,Насиченість,,color property (S in HSL)
-color.luminosity,Світність,,color property (L in HSL) 
+color.luminosity,Світність,,color property (L in HSL)
 steam.connection.unavailable,"Неможливо встановити підключення до Steam. За таких умов неможливо буде користуватися функціоналом Steam Achievments та Workshop. Ось декілька порад, що можуть допомогти у вирішенні проблеми:<br> - Будь ласка перевірте чи коректно працює підключення до Internet, та чи налаштування брандмауера(фаєрвола) не становлять перешкод для обміну інформацією зі Steam<br> - Будь ласка переконайтесь що клієнт Steam працює у нормальному режимі<br> - Будь ласка спробуйте перезавантажити(перезапустити) клієнт Steam<br> - Будь ласка спробуйте перезавантажити Операційну Систему свого комп'ютера<br> - І нарешті - зробіть невелику перерву та прогуляйтеся (принаймні за чаєм/кавою/...)",,
 combat.ongoing,Відбуваються бойові дії,,
 bot.cpu.limit,Роботи споживають ресурс ЦП,,
@@ -4140,7 +4140,7 @@ obj.copters.cargocopterflying.desc,"Повністю автоматизован�
 copter.mission.stage.deploy.miner,Транспортувати {0},,"{0} is the resource miner device name, like Autodrill Rig"
 copter.mission.stage.fly.to.ship,Повертається на Корабель,,
 copter.mission.stage.fly.to,Прямує до {0},,"{0} is the name of the target, like Silicon Deposit, or a device name"
-copter.mission.stage.collect.resource,Збирає {0},,{0} is material type 
+copter.mission.stage.collect.resource,Збирає {0},,{0} is material type
 copter.mission.stage.land.on.ship,Виконує Посадку на Борт Корабля,,
 copter.mission.stage.leave.ship,Залишає Корабель,,
 copter.mission.stage.start,Очікування На Вільний Коптер,,
@@ -4155,7 +4155,7 @@ expedition.type.mining,Видобування Ресурсу,,
 expedition.type.exploration,Дослідження,,
 space.object.CargoCopter,Вантажний Коптер,,
 space.object.info.CargoCopter,Цей Вантажний Коптер виконує завдання.,,
-no.task.reason.no.skill.one,Рівень навички <b>{0}</b> недостатній. Поточний рівень: <b>{1}</b>. Необхідний рівень: <b>{2}</b>. ,,{0} - skill name. {1} and {2} - a number (skill level). 
+no.task.reason.no.skill.one,Рівень навички <b>{0}</b> недостатній. Поточний рівень: <b>{1}</b>. Необхідний рівень: <b>{2}</b>. ,,{0} - skill name. {1} and {2} - a number (skill level).
 no.task.reason.job.priority0.one,Для цього працівника пріоритет для <b>{0}</b> завдань дорівнює <b>0</b>.,,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
 no.task.reason.job.priority.none,Відхилено <b>{0}</b> завдань - через те що працівник <b>не може виконувати завдання такого типу</b>.,,
 no.task.reason.job.priority.none.one,Цей працівник не може виконувати завдання такого типу - <b>{0}</b>.,,{0} is job type - like construction or hauling
@@ -4987,7 +4987,7 @@ tut.adv.controls.select.modes.5,"Якщо обрано <b>Істоту</b>:<br><
 tut.adv.controls.select.modes.6,Якщо обрано кілька <b>Пристроїв</b> - операції <b>{0}</b> та <b>{1}</b> будуть застосовані до кожного із них.,,
 tut.adv.controls.outro,Ось і фінал цього навчального етапу. Деяку додаткову інформацію про засоби та механіки взаємодії із ігровим світом можна знайти у <b>Кодекс</b> > <b>Поради</b>.,,
 tut.completed.never,Ще не завершено,,
-tut.completed.date,Завершено - {0},,{0} is date 
+tut.completed.date,Завершено - {0},,{0} is date
 tut.completed.outdated.tip,Попередню версію цього навчального етапу було завершено {0}. Рекомендовано пройти цей навчальний етап ще раз.,,
 tut.not.completed.warning,Завершено {0} із {1} навчальних курсів.,,
 tut.prod.title,Виробництво та Ресурси,,
@@ -5039,8 +5039,11 @@ verb.extract,Екстрагувати,,
 noun.depth,Глибина,,
 mining.depth.tip,"Показник Глибини Залягання Ресурсу постійно збільшується під час розробки родовища. Після того як цей показник сягне певного рівня, для подальшої експлуатації родовища знадобиться спеціальне гірничовидобувне обладнання. Видобуток ресурсу буде можливим із такої глибини залягання, на розробку якої розраховано наявне гірничовидобувне обладнання.",,
 deposit.verb.mine,Гірництво {0} ({1:0.##}/доба @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
-deposit.verb.collect,Збір {0} ({1:0.##}/доба),,{0} is resource name {1} is number 
+deposit.verb.collect,Збір {0} ({1:0.##}/доба),,{0} is resource name {1} is number
 deposit.verb.extract,Екстракт {0} ({1:0.##}/доба @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
+deposit.shuttle.verb.mine,Гірництво {0} ({1:0}/д, {2}),,{0} is resource name {1} is number {2} is storage like 100/120
+deposit.shuttle.verb.collect,Збір {0} ({1:0}/д, {2}),,{0} is resource name {1} is number {2} is storage like 100/120
+deposit.shuttle.verb.extract,Екстракт {0} ({1:0}/д, {2}),,{0} is resource name {1} is number {2} is storage like 100/120
 mining.depth.max,Макс.можлива Глибина Видобутку,,
 resource.deposit.possible,Вірогідні Поклади Ресурсів,,
 operate.fail.deficit,Використання {0} у {1} було невдалим через нестачу електрики: {2},,
