@@ -2634,7 +2634,7 @@ quest.no.active.one.available.tip,Existe <b>uma Missão disponível</b>: {0}<br>
 quest.pause,Desativar,,"Deactivates the quest, or stops following it. Should be short text, displayed on a fairly small button"
 quest.ProvideChargeStation,Forneça uma Estação de Recarga,,
 quest.ProvideChargeStation.build.connector.tip,Todos os dispositivos devem ser conectados através de uma Rede de <b>Conectores</b>. Crie um conector e use a ferramenta <b>Conectar</b> para vinculá-lo ao seu <b>Computador de Bordo</b> e depois ao <b>Reator de Matéria</b>.,,
-quest.ProvideChargeStation.build.reactor.tip,"Enquanto o <b>Ship Computer</b> gera uma pequena quantidade de energia por conta própria, não será suficiente. Um <b>Matter Reactor</b> pode queimar quase qualquer tipo de material para produzir eletricidade.",,
+quest.ProvideChargeStation.build.reactor.tip,"Enquanto o <b>Ship Computer</b> gera uma pequena quantidade de energia por conta própria, não será suficiente. Um <b>Reator de Matéria</b> pode queimar quase qualquer tipo de material para produzir eletricidade.",,
 quest.ProvideChargeStation.configure.reactor,Configure o <b>Reator de Matéria</b>,,
 quest.ProvideChargeStation.configure.reactor.tip,Selecione o <b>Reator de Matéria</b> e use o Painel de Informações do lado superior esquerdo configurar a queima de algum tipo de combustível. Recomendamos <b>Placa de Aço</b> pois tem uma saída de energia decente e é fácil de obter.,,
 quest.ProvideChargeStation.desc,"Antes de mais nada, devemos garantir que nossos trabalhadores robóticos tenham uma maneira de se recarregar.",2022-09-20,
@@ -2907,7 +2907,7 @@ room.nr.unreachable,Sala #{0} <color={1}><b>UNREACHABLE!</b></color>,,
 rotate.tip,Gire com {0},,
 run.in.bg,Executar em Segundo Plano,,
 run.research,Executar Pesquisa,,
-safety.check.off,Safety Check Off,,
+safety.check.off,Verificação de Segurança Desativada,,
 safety.lacks.oxygen,Objeto em Área Insegura: <b>Pouco Oxigênio</b>,,
 safety.lacks.oxygen.too.cold,Objeto em Área Insegura: <b>Pouco Oxigênio / Muito frio</b>.,,
 safety.lacks.oxygen.too.hot,Objeto em Área Insegura: <b>Pouco Oxigênio / Muito quente</b>.,,
@@ -5032,6 +5032,9 @@ mining.depth.tip,"A profundidade aumenta quando o depósito é extraído. Após 
 deposit.verb.mine,Minerando {0} ({1:0.##}/dia @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
 deposit.verb.collect,Coletando {0} ({1:0.##}/dia),,{0} is resource name {1} is number
 deposit.verb.extract,Extraindo {0} ({1:0.##}/dia @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
+deposit.shuttle.verb.mine,"Minerando {0} ({1:0}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
+deposit.shuttle.verb.collect,"Coletando {0} ({1:0}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
+deposit.shuttle.verb.extract,"Extraindo {0} ({1:0}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
 mining.depth.max,Profundidade Máxima de Mineração,,
 resource.deposit.possible,Possível Depósito de Recursos,,
 operate.fail.deficit,Falhou ao operar {0} em {1} devido ao déficit de eletricidade: {2}.,,
@@ -5120,7 +5123,12 @@ current.task,Tarefa Atual,,
 last.failed.task,Última Tarefa Fracassada,,
 last.completed.task,Última Tarefa Finalizada,,
 verb.hiding,Escondendo,,when a cat is hiding in the bushes and similar situations
-expedition.loot,Saque de Expedição,,
+expedition.loot,Saque da Expedição,,
 exp.deposit.too.deep,Este depósito de recursos é muito profundo para a Nave de Transporte selecionada.<br><br>Profundidade máxima de mineração: <b>{0}</b>.<br>Profundidade do depósito: <b>{1}</b>. .,,{0} and {1} are depth in kiometers
 modifier.NoCPUFragmentation,Desativar Fragmentação de Rede Neural,,
 modifier.NoCPUFragmentation.desc,Os Computadores da Nave não irão acumular Fragmentação de Rede Neural ao longo do tempo e não vão precisar de Desfragmentação.,,
+show.probe.launch,Centralizar na Sonda Lançada,,
+enable.pause.frame,Exibir Borda ao Pausar,,
+fav.items.help,Favoritos,,
+fav.items.help.tip,Aperte {0} enquanto segura {1} sobre os Materiais na Interface para adicionar / remover dos Favoritos.,,{0} and {1} are key bindings
+mission.leave.warning,Você possui uma <b>Expedição da Nave de Transporte</b> ou uma <b>Missão de Copter</b> em andamento. Eles não poderão retornar a Nave até que você volte.,,
