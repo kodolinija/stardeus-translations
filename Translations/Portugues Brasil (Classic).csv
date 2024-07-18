@@ -4907,7 +4907,7 @@ tut.winch.step5_7,Clique no botão <b>{0}</b> perto do texto <b>{1}</b> para ord
 tut.winch.step5_8,"Você solicitou uma <b>Conexão Temporária</b> para este dispositivo. Um trabalhador chegará em breve para realizá-la.<br><br>Quando feita, a função <b>Rebocar</b> ficará disponível.",,
 tut.winch.step5_9,Agora vamos remover a ponte temporária para conseguirmos finalizar o processo.<br><br>Mude para a ferramenta <b>{0}</b>.,,
 tut.winch.step5_10,Desconstrua a área destacada para continuar.,,
-tut.step.relocate,Use {0} para realocar <b>{1}</b> para a àrea destacada.<br><br>Gire o dispositivo com {1}.,,
+tut.step.relocate,Use {0} para realocar <b>{1}</b> para a àrea destacada.<br><br>Gire o dispositivo com {2}.,,
 tut.step.relocate.workspot,O local de trabalho (círculo) deve ficar em um Piso vazio.,,
 tut.step.relocate.waiting,Aguardando Realocação...,,
 tut.winch.step6_1,"A última seção no canto inferior esquerdo será muito mais fácil de anexar, pois possui vários <b>Controladores de Manobra</b> prontos para ação.<br><br>Os <b>Controladores de Manobra</b> podem mover uma Seção da Nave ou toda ela com alta precisão. Eles podem ser usados para mover <b>Naves Abandonadas</b> ou para esquivar de <b>Asteroides</b>.",2023-09-16,

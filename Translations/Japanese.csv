@@ -521,7 +521,7 @@ codex.m.electricity.damagedconnectors.desc,"コネクタがひどく損傷して
 codex.m.electricity.gridredundancy,高可用性と冗長性,,
 codex.m.electricity.gridredundancy.desc,"パワーグリッドの接続喪失を防ぐために、二重化するなど冗長性を持たせたグリッドを設計してください。これは、反応炉、バッテリー、船のコンピュータ、コールドスリープ、酸素ポンプ、ヒーター、ドア、エアロックなど、船のインフラの重要な部分においては特に重要です。<br><br>冗長性を高めるため、より多くのコネクタを建造して複数の接続を介して重要なデバイスを接続しましょう。<br><br>可用性が高いということは、グリッドの一部が破壊された場合でもインフラの重要な部分の損害がゼロまたは最小限であることを意味します。",,
 codex.m.electricity.handlingdeficit,電力不足の取り扱い,,
-codex.m.electricity.handlingdeficit.desc,"発電量よりも多くの電力を消費しようとすると、電力不足が発生します。この状況では、消費優先度が最も低いデバイスは最初に停止します。イベントパネルで進行中の電力不足について通知されます。ライトがちらつく事で、この兆候に気づくかもしれません。<br><br>電力不足に対処するには複数の方法があります。パワーグリッドオーバーレイを使用して状況を調べます。電力消費のリストを確認してください - 単一の機器が残りのすべての機器を合わせたよりも多くを消費する場合があります。一時的な解決策として、消費電力の多い機器(分子転換器、ブリッジ制御端末、アセンブラ、縫製機など)の必須ではない機器をオフにしたりします。<br><br>長期的には、電力出力を増やすために、より多くの反応炉とソーラーパネルを建造する必要があります。常に余分な発電能力を持つようにしてください。<br><br>バッテリーを組み立て、緊急時の予備のために完全に充電してください。",,
+codex.m.electricity.handlingdeficit.desc,"発電量よりも多くの電力を消費しようとすると、電力不足が発生します。この状況では、<b>電力不足</b>の通知がイベントパネルに表示され、ライトがちらつく事で、この兆候に気づくかもしれません。<br><br>電力不足に対処するには複数の方法があります:<br> - <b>{0}</b> オーバーレイの<b>グリッド詳細</b>を使用して状況を調べます。このセクションには<b>消費者</b>のリストが含まれており、電力不足の原因を特定するのに役立ちます。<br> - 非必須の高出力デバイスを一時的にオフにします。<br> - 発電量を増やすために、より多くの<b>反応炉</b>と<b>ソーラーパネル</b>を建造します。常に余分な発電能力を維持することをお勧めします。<br> - <b>バッテリー</b>に投資し、完全に充電して緊急時の電力予備として使用します。",,
 codex.m.electricity.managingunreachabledevices,グリッド外の機器の管理,,
 codex.m.electricity.managingunreachabledevices.desc,"原則として、船のコンピュータと同じパワーグリッド上にない機器は制御できません。例外が1つあります。ロボットの作業ユニットに、あらゆるデバイスへの一時的な接続を確立するよう命じることができます。作業ユニットが接続されている間、デバイスは完全に制御可能になります。また作業ユニットは、デバイスが必要とする電力の一部を供給します。<br><br>一時的な接続を指示するには、グリッド外のデバイスをを選択し、情報パネルまたはコンテキストメニューの""電力ノード到達不可""警告の横にある""管理""ボタンを選択します。使用するには、作業ユニットの1機がデバイスに物理的に接続するのを待たなければなりません。一時的な接続が確立されると、イベントパネルに通知が表示されます。<br><br>一時的な接続を終了するには、デバイスの情報パネルのタスクの項目からタスクをキャンセルするか、接続された作業ユニットを選択して情報パネルで""作業中止""をクリックします。",,
 codex.m.electricity.multiplegrids,複数のグリッド,,
@@ -532,9 +532,9 @@ codex.m.environment,環境,,
 codex.m.environment.airtightness,気密性,,
 codex.m.environment.airtightness.desc,"気密性は、床面や隔壁(通気口やドアを含む)のような構造物の特性です。気密性は、構造物をどれだけ酸素が通過するかを示しています。100%は完全に密閉されていることを意味します。損傷しない限り、通常はすべての壁が100%の気密性能となります。ドアは閉まっている間は100%の気密性能です。エアロックは電力が供給されている場合は開いていても100%の気密性能です。<br><br>床は無傷のときに5%の気密性能を持っています - 床は近隣の構造物と酸素を通過させるので、これで正常です。ただし、床タイルの気密性能が2.5%未満の場合、宇宙空間にさらされているように扱われます。 - 酸素が外部に漏れます。<br><br>構造がどれほど気密状態であるかを確認するには、""気密性""オーバーレイ（{0}）を参照してください。",,
 codex.m.environment.enclosedareas,気密区画,,
-codex.m.environment.enclosedareas.desc,"""気密区画""とは、無傷な床と隔壁（通気口やドアを含む）で囲まれている範囲のことを指します。区画が損傷した壁や床の亀裂から宇宙空間にさらされると、無酸素化して適切に暖めることはできません。<br><br>""区画""オーバーレイ({0})で""気密区画""を確認できます。",,
+codex.m.environment.enclosedareas.desc,"<b>気密区画</b>とは、無傷な<b>床</b>と<b>隔壁</b>（通気口やドアを含む）で囲まれている範囲のことを指します。区画が損傷した壁や床の亀裂から<b>宇宙空間</b>にさらされると、無酸素化して適切に暖めることはできません。<br><br>一部のデバイスは<b>非気密区画</b>が必要です。そのようなデバイスが気密区画になると、イベントパネルに警告が表示されます。<br><br><b>{0}</b> オーバーレイでどの区画が気密区画であるかを確認できます。",,
 codex.m.environment.fire,火災,,
-codex.m.environment.fire.desc,"高レベルの熱が酸素と組み合わされると、一部のオブジェクトが炎上する可能性があります。<br><br>""放水銃""を建造して水を装填しておくことで、自動的に消火することができます。<br><br>任意のオブジェクトか生命体を選択し、情報パネルでその""適温""や""発火温度""を確認できます。<br><br>近くのすべての酸素ポンプ(コールドスリープに組み込まれているものを含む)をオフにし、通気口を解放し、床タイルを分解することは、消火するときに便利です。<br><br>火災が発生しないように、""温度"" オーバーレイ ({0}) から目を離さないでください。",,
+codex.m.environment.fire.desc,"高レベルの熱が酸素と組み合わされると、一部のオブジェクトが炎上する可能性があります。<br><br>""放水銃""を建造して水を装填しておくことで、自動的に消火することができます。<br><br>任意のオブジェクトか生命体を選択し、情報パネルでその""適温""や""発火温度""を確認できます。<br><br>近くのすべての酸素ポンプ(コールドスリープに組み込まれているものを含む)をオフにし、通気口を解放し、床タイルを分解することは、消火するときに便利です。<br><br>火災が発生しないように、""温度"" オーバーレイ (<b>{0}</b>) から目を離さないでください。",,
 codex.m.environment.heat,熱,,
 codex.m.environment.heat.desc,"熱、または温度は、すべてのタイルが持つ物理的性質です。熱交換は、断熱性に応じて、隣接するすべての構造物の間で常に行われます。区画が宇宙空間にさらされると、温度は最終的に(遅かれ早かれ)絶対零度(0Kまたは-273度または-460F)に低下します。極端な高熱と酸素を混ぜると火が発生します。<br><br>現在の温度を調べるには、""温度""オーバーレイ({0})を参照してください。",,
 codex.m.environment.hullintegrity,船体強度,,
@@ -4005,7 +4005,7 @@ height,高さ,,noun
 width,幅,,noun
 color.hue,色相,,color property (H in HSL)
 color.saturation,彩度,,color property (S in HSL)
-color.luminosity,明度,,color property (L in HSL) 
+color.luminosity,明度,,color property (L in HSL)
 steam.connection.unavailable,"Steamとの接続が確立できませんでした。実績やワークショップとの連携が機能しません。問題の対応方法:<br> - インターネットの接続と、ファイアウォールの設定を確認してください。<br> - Steamが起動しているか確認してください。<br> - Steamを再起動してみてください。<br> - PCを再起動してください。<br> - ゲームはひと休みして、お散歩に出かけてみましょう。",,
 combat.ongoing,戦闘中,,
 bot.cpu.limit,ロボットがCPUを消費する,,
@@ -4163,7 +4163,7 @@ obj.copters.cargocopterflying.desc,惑星への重機の設置や、資源収集
 copter.mission.stage.deploy.miner,設置中 {0},,"{0} is the resource miner device name, like Autodrill Rig"
 copter.mission.stage.fly.to.ship,帰還中,,
 copter.mission.stage.fly.to,{0}に航行中,,"{0} is the name of the target, like Silicon Deposit, or a device name"
-copter.mission.stage.collect.resource,収集中 {0},,{0} is material type 
+copter.mission.stage.collect.resource,収集中 {0},,{0} is material type
 copter.mission.stage.land.on.ship,着艦中,,
 copter.mission.stage.leave.ship,発進中,,
 copter.mission.stage.start,艦載機の割り当て待ち,,
@@ -4178,7 +4178,7 @@ expedition.type.mining,資源収集,,
 expedition.type.exploration,探査,,
 space.object.CargoCopter,輸送機,,
 space.object.info.CargoCopter,この輸送機は任務中です。,,
-no.task.reason.no.skill.one,<b>{0}</b>のスキルが不足しています。 現在値: <b>{1}</b> 必要: <b>{2}</b>,,{0} - skill name. {1} and {2} - a number (skill level). 
+no.task.reason.no.skill.one,<b>{0}</b>のスキルが不足しています。 現在値: <b>{1}</b> 必要: <b>{2}</b>,,{0} - skill name. {1} and {2} - a number (skill level).
 no.task.reason.job.priority0.one,<b>{0}</b>の作業優先度が<b>ゼロ</b>になっています。,,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
 no.task.reason.job.priority.none,<b>{0}</b>の作業は、<b>この種類の作業は対応不能のため</b>スキップされました。,,
 no.task.reason.job.priority.none.one,<b>{0}</b>の作業は対応不能。,,{0} is job type - like construction or hauling
