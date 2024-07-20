@@ -1,6 +1,6 @@
 ﻿Key,Translation,Version,Comment (context for translators)
-<Gamepad>,Kontroler,,Used in input settings when showing bindings for Gamepad (controller) 
-<Keyboard>,Klawiatura,,Used in input settings when showing bindings for Keyboard 
+<Gamepad>,Kontroler,,Used in input settings when showing bindings for Gamepad (controller)
+<Keyboard>,Klawiatura,,Used in input settings when showing bindings for Keyboard
 <Mouse>,Myszka,,Used in input settings when showing bindings for Mouse
 abort,Przerwij,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
 aborting.expedition.died,Przerywanie ekspedycji. Członek załogi {0} zginął zanim dotarł do transportera.,,{0} will be replaced with a name
@@ -689,7 +689,7 @@ controllable.worker,Zarządzalny Pracownik,,
 convert,Przemień,,
 converting.now,Przemienianie {0},,
 cook,Kucharz,,
-cooking.bar,Gotuje,,
+cooking.bar,Gotuje {0},,
 ,,,
 ,,,
 ,,,
@@ -847,7 +847,7 @@ drag.release.build.con,Buduj łączniki na zwolnieniu przeciągania,,
 drag.release.build.con.tip,"Jeśli ta opcja jest włączona, narzędzie łączenia utworzy połączenie, gdy przeciągnięte połączenie zostanie zwolnione na pustej podłodze.",,
 drink.coffee,Wypij Kawę,,
 drop.task,Porzuć Zadanie,,
-duplicate.binding,Zduplikowane Przypisania,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad). 
+duplicate.binding,Zduplikowane Przypisania,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad).
 duplicate.binding.info,"Przycisk wybrany dla {0} jest już używany gdzie indziej. W większości przypadków zalecamy cofnąć zmiany. Należy pamiętać, że klawisze strzałek na klawiaturze, Enter i ESC są używane do nawigacji w interfejsie użytkownika.",,
 dust.accumulation,Gromadzenie się Kurzu,,
 dust.amount,Ilość Kurzu,,
@@ -865,7 +865,7 @@ eject.ammo,Wyrzuć Amunicję,,
 eject.contents,Wyrzuć Zawartość,,
 eject.food,Wyrzuć Jedzenie,,
 eject.fuel,Wyrzuć Paliwo,,
-el.build.connector.here,Zbuduj tutaj łącznik,,Displayed in a tooltip when dragging a connector 
+el.build.connector.here,Zbuduj tutaj łącznik,,Displayed in a tooltip when dragging a connector
 el.connector.fully.utilized,Łącznik jest w pełni wykorzystany!,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.connector.not.on.grid,Łącznik nie jest na tej samej sieci co Komputer Pokładowy,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
 el.connector.out.of.range,Poza zasięgiem!,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
