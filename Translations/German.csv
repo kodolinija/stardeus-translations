@@ -4914,7 +4914,7 @@ tut.winch.step5_7,"Klicke auf die Schaltfläche <b>{0}</b> neben dem Text <b>{1}
 tut.winch.step5_8,"Du hast einen <b>temporären Stromanschluss</b> für dieses Gerät beauftragt. Ein Arbeiter wird in Kürze eintreffen und diesen aufbauen.<br><br>Die Funktion <b>Einholen</b> wird dann verfügbar sein.",,
 tut.winch.step5_9,"Jetzt entfernen wir die provisorische Brücke, damit wir den Abschnitt vollständig einholen können.<br><br>Wechsle zum <b>{0}</b>werkzeug.",,
 tut.winch.step5_10,"Dekonstruiere den hervorgehobenen Bereich, um fortzufahren.",,
-tut.step.relocate,"Drücke {0}, um die Verschiebung des ausgewählten Objekts (hier: <b>{1}</b>) in den hervorgehobenen Bereich anzuordnen.<br><br>Drehe das Objekt mittels {1}.",,
+tut.step.relocate,"Drücke {0}, um die Verschiebung des ausgewählten Objekts (hier: <b>{1}</b>) in den hervorgehobenen Bereich anzuordnen.<br><br>Drehe das Objekt mittels {2}.",,
 tut.step.relocate.workspot,"Der Arbeitsplatz (Kreis) muss sich auf einem leeren Bodenfeld befinden.",,
 tut.step.relocate.waiting,"Warte aufs Umsetzen.",,
 tut.winch.step6_1,"Der letzte Abschnitt unten links lässt sich viel einfacher anzubinden, da sich dort mehrere einsatzbereite <b>Präzisionsschubdüsen</b> befinden.<br><br>Die <b>Präzisionsschubdüsen</b> können einen Schiffsabschnitt oder das gesamte Schiff minutiös bewegen. Sie können verwendet werden, um <b>verlassene Schiffe</b> zu bewegen oder ankommenden <b>Asteroiden</b> auszuweichen.",2023-09-16,
