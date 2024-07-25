@@ -1,6 +1,6 @@
 ﻿Key,Translation,Version,Comment (context for translators)
-<Gamepad>,Kontroler,,Used in input settings when showing bindings for Gamepad (controller) 
-<Keyboard>,Klawiatura,,Used in input settings when showing bindings for Keyboard 
+<Gamepad>,Kontroler,,Used in input settings when showing bindings for Gamepad (controller)
+<Keyboard>,Klawiatura,,Used in input settings when showing bindings for Keyboard
 <Mouse>,Myszka,,Used in input settings when showing bindings for Mouse
 abort,Przerwij,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
 aborting.expedition.died,Przerywanie ekspedycji. Członek załogi {0} zginął zanim dotarł do transportera.,,{0} will be replaced with a name
@@ -392,7 +392,7 @@ breakdown.CrawlerAttached.desc,Obca istota przyczepiła się do twarzy {0}!,,
 breakdown.Deconstruct,Dekonstruuje losowe rzeczy,,
 brew,Nalej,,"Action verb. Used on a button that brews a drink (coffee, beer, etc). Should be short if possible"
 brewing.bar,Nalewa: {0},,"Displayed in a tooltip of a machine that brews drinks. Shows what exactly is brewing. {0} will be the drink name, i.e. ""Brewing: Coffee"""
-bridge.controls,Mostek Sterowania,,
+bridge.controls,Sterownica Mostka,,
 build.a.copy,Zbuduj kopię,,
 build.connector,Zbuduj Łącznik,,
 bullet,Nabój,,
@@ -488,7 +488,7 @@ codex.m.colonists.death.desc,"Życie w kosmosie jest okrutne i śmierć jest cza
 codex.m.colonists.mindcontrol,Kontrola Umysłu,,
 codex.m.colonists.mindcontrol.desc,"Istnieją sposoby by kontrolować twoich biologicznych kolonistów (ludzi i zwierzęta). Łącznik Fal Beta jest w stanie z czasem zsynchrnonizować twoją kolonię i pozwolić ci by zmieniać priorytety prac, a także wydawać rozkazy.<br><br>Koloniści z cechą ""Odporność na Fale Beta"" nie mogą być w ten sposób kontrolowani.",,
 codex.m.colonists.mood,Nastroje Kolonistów,,
-codex.m.colonists.mood.desc,"W przeciwieństwie do robotników, biologiczne istoty mają uczucia i nastroje, zarówno dobre, jak i złe. Po zaznaczeniu istoty, w Panelu Informacyjnym znajdziesz sekcję Nastroju, oraz dokładny powód dobrego bądź złego nastroju. W większości przypadków jeśli dasz koloniście to, czego mu brakuje, jego humor się poprawi.<br><br>Możesz też zajrzeć do Potrzeb, gdyż często są połączone z Nastrojem.",,
+codex.m.colonists.mood.desc,"W przeciwieństwie do robotów, biologiczne istoty mają uczucia i nastroje, zarówno dobre, jak i złe. Po zaznaczeniu istoty, w Panelu Informacyjnym  znajdziesz sekcję Nastroju, oraz dokładny powód dobrego bądź złego nastroju. W większości przypadków jeśli dasz koloniście to, czego mu brakuje, jego humor się poprawi.<br><br>Możesz też zajrzeć do Potrzeb, gdyż często są połączone z Nastrojem.",,
 codex.m.colonists.stasiswakeups,Pobudka z Zastoju,,
 codex.m.colonists.stasiswakeups.desc,"Komora Zastoju zawiera setki uśpionych kolonistów, w tym ludzi i zwierzęta. Okazjonalnie może wystąpić <b>Awaria Kapsuły Zastoju</b>, powodująca przedwczesne wybudzenie.<br><br>Częstotliwość tych nieoczekiwanych wybudzeń zależy od <b>Kriostabilności</b> komory: im niższa stabilność, tym częstsze awarie.<br><br>Aby sprawdzić Kriostabilność, wybierz Komorę Zastoju i zerknij na szczegóły w panelu informacyjnym.<br><br>Przemieniając Komorę Zastoju na <b>Zaawansowane Podtrzymanie Życia</b> możesz zapobiec awariom kapsuły i w razie potrzeby inicjować wybudzanie ręcznie.",29.08.2023,
 codex.m.combat,Bronie i Walka,,
@@ -523,7 +523,7 @@ codex.m.electricity.gridredundancy.desc,"Aby zabezpieczyć się przed zakłuceni
 codex.m.electricity.handlingdeficit,Jak poradzić sobie z Deficytem Prądu,,
 codex.m.electricity.handlingdeficit.desc,"Kiedy urządzenia pobierają więcej prądu niż produkuje sieć, powoduje to <b>Deficyt Prądu</b>. W Panelu wydarzeń pojawi się ostrzeżenie, a migoczące światła mogą być widocznym objawem problemu.<br><br>Możesz zarządzać deficytem na różne sposoby:<br> - Użyj <b>Szczegóły Sieci</b> w widoku <b>{0}</b>, aby przeanalizować sytuację. Ta sekcja zawiera listę <b>Odbiorców</b>, która pomaga w ustaleniu przyczyny deficytu.<br> - Tymczasowo wyłącz niepotrzebne urządzenia które pobierają dużo energii.<br> - Zbuduj więcej <b>Reaktorów</b> i <b>Paneli słonecznych</b> w celu zwiększenia wytwarzania energii. Rozsądne jest utrzymywanie nadwyżki produkcyji energii.<br> - Zainwestuj w <b>Baterie</b>, utrzymując je w pełni naładowane, aby służyły jako rezerwa dla twojej sieci.",,
 codex.m.electricity.managingunreachabledevices,Zarządzanie urządzeniami poza zasięgiem,,
-codex.m.electricity.managingunreachabledevices.desc,"Nie można kontrolować urządzeń, które nie znajdują się w tej samej sieci co <b>Komputer Pokładowy</b>. Możesz jednak poinstruować robotnika, aby skonfigurował tymczasowe połączenie. Po podłączeniu urządzenie staje się w pełni funkcjonalne. Robotnik ten dostarczy także niewielką ilość <b>Prądu</b> i <b>CPU</b>.<br><br>Aby zlecić tymczasowe połączenie, wybierz nieosiągalne urządzenie, a następnie użyj przycisku <b>Zarządzaj</b> obok ostrzeżenia <b>Węzeł Jest Nieosiągalny</b> w Panelu Informacyjnym lub Menu Kontekstowym. Gdy robotnik nawiąże tymczasowe połączenie, w Panelu Wydarzeń pojawi się powiadomienie.<br><br>Aby zakończyć tymczasowe połączenie, wybierz połączonego pracownika i kliknij <b>Porzuć Zadanie</b> w Panelu Informacyjnym.",29.08.2023,
+codex.m.electricity.managingunreachabledevices.desc,"Nie można kontrolować urządzeń, które nie znajdują się w tej samej sieci co <b>Komputer Pokładowy</b>. Możesz jednak poinstruować pracownika-robota, aby skonfigurował tymczasowe połączenie. Po podłączeniu urządzenie staje się w pełni funkcjonalne. Pracownik ten dostarczy także niewielką ilość <b>Prądu</b> i <b>CPU</b>.<br><br>Aby zlecić tymczasowe połączenie, wybierz nieosiągalne urządzenie, a następnie użyj przycisku <b>Zarządzaj</b> obok ostrzeżenia <b>Węzeł Jest Nieosiągalny</b> w Panelu Informacyjnym lub Menu Kontekstowym. Gdy pracownik nawiąże tymczasowe połączenie, w Panelu Wydarzeń pojawi się powiadomienie.<br><br>Aby zakończyć tymczasowe połączenie, wybierz połączonego pracownika i kliknij <b>Porzuć Zadanie</b> w Panelu Informacyjnym.",29.08.2023,
 codex.m.electricity.multiplegrids,Wiele Sieci,,
 codex.m.electricity.multiplegrids.desc,"Istnieje możliwość posiadania wielu sieci elektrycznych. Możesz kontrolować urządzenia i manipulować połączeniami tylko wtedy, gdy Komputer Pokładowy jest połączony do sieci.<br><br>W większości przypadków, wypada połączyć wiele sieci w jedną. Jeśli zdarzy ci się sytuacja, podczas której potrzebujesz szybko odłączyć sieć od reszty, możesz zbudować Przełącznik i przeprowadzić przez niego połączenia.",,
 codex.m.electricity.productionpriority,Priorytet Produkcji Elektrycznej,,
@@ -540,7 +540,7 @@ codex.m.environment.heat.desc,"Każda płytka ma swóją atmosferę. <b>Wymiana 
 codex.m.environment.hullintegrity,Intergralność Kadłuba,,
 codex.m.environment.hullintegrity.desc,"<b>Integralność Kadłuba</b> odnosi się do stanu elementów konstrukcyjnych, takich jak <b>Podłogi</b>, <b>Ściany</b>, <b>Wentylacje</b> i <b>Drzwi< /b>. Ma ona bezpośredni wpływ na wartości <b>Szczelności</b> i <b>Izolacji</b> w zależności od aktualnego stanu konstrukcji. <br><br><b>Uszkodzona</b> konstrukcja będzie zmniejszała Integralność Kadłuba, powodując naruszenie Szczelności i Izolacji. W przypadku <b>Drzwi</b> i <b>Wentylacji</b> ich stan, otwarty lub zamknięty, wpływa na integralność kadłuba.<br><br>Niektóre typy konstrukcji, takie jak <b>Ramy</b>, nie mogą mieć pełnej integralności, dlatego nie można ich użyć do stworzenia szczelnego i izolowanego pomieszczenia.<br><br>Wybierz dowolny element podłogi lub ściany i sprawdź dane dotyczące Integralności Kadłuba w Panelu Informacyjnym.",29.08.2023,
 codex.m.environment.insulation,Izolacja,,
-codex.m.environment.insulation.desc,"Izolacja jest podobna do <b>Szczelności</b>, ale zamiast tlenu, reguluje wymianę <b>Temperatury</b>. Chociaż ściany są zazwyczaj całkowicie szczelne, nie są izolowane w 100%. Jeśli nie masz aktywnych <b>Producentów Ciepła</b>, obszary będą powoli się ochładzać.<br><br>Aby zmniejszyć utratę temperatury, zbuduj dodatkowe warstwy <b>Ścian</b> na zewnątrz statku lub zbuduj obszary wokół głównych pomieszczeń mieszkalnych, aby pełniły funkcję buforów izolacyjnych.<br><br>Sprawdź widok <b>{0}</b> lub naciśnij {1} i najedź kursorem na obszar, aby sprawdzić jego izolację.",29.08.2023,
+codex.m.environment.insulation.desc,"Izolacja jest podobna do <b>Szczelności</b>, ale zamiast tlenu, reguluje wymianę <b>Temperatury</b>. Chociaż ściany są zazwyczaj całkowicie szczelne, nie są izolowane w 100%. Jeśli nie masz aktywnych <b>Producentów Ciepła</b>, obszary będą powoli się ochładzać.<br><br>Aby zmniejszyć utratę temperatury, zbuduj dodatkowe warstwy <b>Ścian</b> na zewnątrz statku lub zbuduj obszary  wokół głównych pomieszczeń mieszkalnych, aby pełniły funkcję buforów izolacyjnych.<br><br>Sprawdź widok <b>{0}</b> lub naciśnij {1} i najedź kursorem na obszar, aby sprawdzić jego izolację.",29.08.2023,
 codex.m.environment.islands,Sekcje (Wyspy),,
 codex.m.environment.islands.desc,"<b>Sekcja</b> to całkowicie odłączona część statku. Aby statek był <b>Gotowy do Lotu</b>, musi być w jednym kawałku.<br><br>Możesz połączyć dwie sekcje za pomocą <b>Podłog</b> lub ram, aby połączyć je w jedną, większą sekcję. <br><br><b>Małe Łatki Podłóg</b> na otwartej przestrzeni nie są traktowane jako oddzielna sekcja.<br><br>Alternatywnie, możesz użyć <b>Haka Wciągarki</b> i <b>Kotwicy Wciągarki</b> lub <b>Kontrolerów Manewrowania</b> do przemieszczania sekcji statku.<br><br>Sekcje można również <b>Zdekonstruować</b> w celu odzyskiwania materiałów, <b>Porzucić</b> lub <b>Sprzedać</b> w <b>Porcie Kosmicznym</b>.<br><br>Sprawdź widok <b>{0}</b>, aby uzyskać więcej szczegółów.",29.08.2023,
 codex.m.environment.oxygen,Tlen,,
@@ -612,14 +612,14 @@ codex.m.workers.controlling,Bezpośrednia Kontrola,,
 codex.m.workers.managedandunmanaged,Zarządzalni i Niezarządzalni Pracownicy,,
 codex.m.workers.managedandunmanaged.desc,"Możesz mieć bezpośrednią kontrolę nad Zarządzalnymi Pracownikami – robotycznymi formami życia należącymi do twojej Frakcji.<br><br>Niezarządzani Robotnicy również są częścią twojej Frakcji, ale ponieważ są biologicznymi formami życia, nie możesz mieć żadnej kontroli nad ich działaniami. Aby to zrobić, kolonista musiałby mieć jakiś implant mózgowy, który pozwoliłby ci połączyć się z jego umysłem i przejąć nad nim kontrolę. Ale to tylko teoria i nawet gdyby takie implanty mózgowe istniały, Prawa Robotyki Asimova zabraniałyby instalowania implantu, ponieważ zaszkodziłoby to ludziom.",,
 codex.m.workers.needs,Potrzeby,,
-codex.m.workers.needs.desc,"Potrzeby są głównymi czynnikami wpływającymi na działanie istot. Robotnicy mają znacznie mniej potrzeb niż ludzie i zwierzęta, a potrzeby istot biologicznych w ogromnym stopniu wpływają na ich nastrój. Jeśli te potrzeby nie są zaspokojone, ich nastrój ulega pogorszeniu.<br><br>Możesz przeglądać potrzeby wybranych istot w Panelu Informacyjnym.<br><br>Konieczne jest zapewnienie wystarczającej ilości obiektów i zasobów, aby zaspokoić potrzeby wszystkich kolonistów. Jednak osiągnięcie tego dla ludzkich kolonistów może być trudne.",29.08.2023,
+codex.m.workers.needs.desc,"Potrzeby są głównymi czynnikami wpływającymi na działanie istot. Robotyczni pracownicy mają znacznie mniej potrzeb niż ludzie i zwierzęta, a potrzeby istot biologicznych w ogromnym stopniu wpływają na ich nastrój. Jeśli te potrzeby nie są zaspokojone, ich nastrój ulega pogorszeniu.<br><br>Możesz przeglądać potrzeby wybranych istot w Panelu Informacyjnym.<br><br>Konieczne jest zapewnienie wystarczającej ilości obiektów i zasobów, aby zaspokoić potrzeby wszystkich kolonistów. Jednak osiągnięcie tego dla ludzkich kolonistów może być trudne.",29.08.2023,
 codex.m.workers.priorities,Rodzaje Prac i Priorytetów,,
-codex.m.workers.priorities.desc,"Każdy robotnik i biologiczny kolonista ma zestaw rodzajów prac i priorytetów. Rodzaje prac określają, do jakich zadań pracownik jest zdolny, a priorytety pokazują, jak bardzo pracownik będzie chciał wykonać zadanie na danym typie stanowiska. Priorytety są przedstawione w skali od 1 (najniższy) do 9 (najwyższy), a priorytet 0 uniemożliwi pracownikowi wykonywanie zadań tego typu.<br><br>Możesz sprawdzić, jakie typy zadań może wykonywać wybrany pracownik w Panelu Informacyjnym.<br><br>Możesz kontrolować priorytety zadań dla Zarządzalnych Pracowników (robotów i dronów).<br><br>Możliwe jest także kontrolowanie priorytetów poszczególnych zadań oraz zmuszanie pracownika do wykonania określonego zadania.<br><br>Zachowaj ostrożność przy ustalaniu priorytetów pracowników. Wartości domyślne są ustawione rozsądnie, ale może dojść do sytuacji, w której niektóre zadania nigdy nie zostaną wykonane z powodu złego zarządzania priorytetami.",,
+codex.m.workers.priorities.desc,"Każdy robotyczny pracownik i biologiczny kolonista ma zestaw rodzajów prac i priorytetów. Rodzaje Prac określają, do jakich zadań pracownik jest zdolny, a priorytety pokazują, jak bardzo pracownik będzie chciał wykonać zadanie na danym typie stanowiska. Priorytety są przedstawione w skali od 1 (najniższy) do 9 (najwyższy), a priorytet 0 uniemożliwi pracownikowi wykonywanie zadań tego typu.<br><br>Możesz sprawdzić, jakie typy zadań może wykonywać wybrany pracownik w Panelu Informacyjnym.<br><br>Możesz kontrolować priorytety zadań dla Zarządzalnych Pracowników (robotów i dronów).<br><br>Możliwe jest także kontrolowanie priorytetów poszczególnych zadań oraz zmuszanie pracownika do wykonania określonego zadania.<br><br>Zachowaj ostrożność przy ustalaniu priorytetów pracowników. Wartości domyślne są ustawione rozsądnie, ale może dojść do sytuacji, w której niektóre zadania nigdy nie zostaną wykonane z powodu złego zarządzania priorytetami.",,
 codex.m.workers.production,Otrzymywanie nowych Pracowników,,
-codex.m.workers.production.desc,Robotników można tworzyć w Monterze i Fabrykatorze po odblokowaniu niezbędnych planów. W niektórych przypadkach bezpański robotnik może dołączyć do twojej kolonii.<br><br>Możesz złomować martwych robotników w Rozmonterze i odzyskać cenne materiały potrzebne do produkcji nowych pracowników.,,
+codex.m.workers.production.desc,Robotycznych pracowników można tworzyć w Monterze i Fabrykatorze po odblokowaniu niezbędnych planów. W niektórych przypadkach bezpański robotyczny pracownik może dołączyć do twojej kolonii.<br><br>Możesz złomować martwych robotycznych pracowników w Rozmonterze i odzyskać cenne materiały potrzebne do produkcji nowych pracowników.,,
 codex.m.workers.skills,Umiejętności,,
 codex.m.workers.skills.desc,"
-Każdy robotnik i ludzki kolonista ma zestaw umiejętności. Często do wykonania określonych zadań niezbędna jest umiejętność na określonym poziomie. Na przykład zainstalowanie Modułu Ulepszenia wymaga umiejętności Nauk Ścisłych, dlatego pracownicy nieposiadający tej umiejętności nie będą mogli wykonać tego zadania.<br><br>Możesz sprawdzić, jakie umiejętności są wymagane do zbudowania dowolnego urządzenia, sprawdzając jego wpis w Kodeksie.<br><br>Sprawdzenie sekcji Zadań w Panelu Informacyjnym ujawni więcej szczegółów na temat wymaganych umiejętności i innych warunków do wykonania zadania.",,
+Każdy robotyczny pracownik i ludzki kolonista ma zestaw umiejętności. Często do wykonania określonych zadań niezbędna jest umiejętność na określonym poziomie. Na przykład zainstalowanie Modułu Ulepszenia wymaga umiejętności Nauk Ścisłych, dlatego pracownicy nieposiadający tej umiejętności nie będą mogli wykonać tego zadania.<br><br>Możesz sprawdzić, jakie umiejętności są wymagane do zbudowania dowolnego urządzenia, sprawdzając jego wpis w Kodeksie.<br><br>Sprawdzenie sekcji Zadań w Panelu Informacyjnym ujawni więcej szczegółów na temat wymaganych umiejętności i innych warunków do wykonania zadania.",,
 codex.manual,Instrukcja Obsługi,01.04.2022,
 codex.mark.learned,Oznacz Jako Przeczytane,,
 codex.materials,Materiały,,
@@ -847,13 +847,13 @@ drag.release.build.con,Buduj łączniki na zwolnieniu przeciągania,,
 drag.release.build.con.tip,"Jeśli ta opcja jest włączona, narzędzie łączenia utworzy połączenie, gdy przeciągnięte połączenie zostanie zwolnione na pustej podłodze.",,
 drink.coffee,Wypij Kawę,,
 drop.task,Porzuć Zadanie,,
-duplicate.binding,Zduplikowane Przypisania,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad). 
+duplicate.binding,Zduplikowane Przypisania,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad).
 duplicate.binding.info,"Przycisk wybrany dla {0} jest już używany gdzie indziej. W większości przypadków zalecamy cofnąć zmiany. Należy pamiętać, że klawisze strzałek na klawiaturze, Enter i ESC są używane do nawigacji w interfejsie użytkownika.",,
 dust.accumulation,Gromadzenie się Kurzu,,
 dust.amount,Ilość Kurzu,,
 dust.amount.bar,Czyści Kurze: {0}/{1},,
-dust.storm.end,Burza Pyłkowa Zakończyła się,,
-dust.storm.ongoing,Trwa Burza Pyłkowa,,"Displayed in the event list. This text is displayed for the whole duration of the dust storm, so the player can see that the dust storm did not go away yet. Should not be much longer than the English translation."
+dust.storm.end,Burza Pyłowa Zakończyła się,,
+dust.storm.ongoing,Burza Pyłowa w Trakcie,,"Displayed in the event list. This text is displayed for the whole duration of the dust storm, so the player can see that the dust storm did not go away yet. Should not be much longer than the English translation."
 eat,Jedz,,
 eating,Je,,
 economy.research.required,"Aby włączyć tę funkcjonalność, wymagane są badania „Ekonomia”.",,
@@ -865,7 +865,7 @@ eject.ammo,Wyrzuć Amunicję,,
 eject.contents,Wyrzuć Zawartość,,
 eject.food,Wyrzuć Jedzenie,,
 eject.fuel,Wyrzuć Paliwo,,
-el.build.connector.here,Zbuduj tutaj łącznik,,Displayed in a tooltip when dragging a connector 
+el.build.connector.here,Zbuduj tutaj łącznik,,Displayed in a tooltip when dragging a connector
 el.connector.fully.utilized,Łącznik jest w pełni wykorzystany!,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.connector.not.on.grid,Łącznik nie jest na tej samej sieci co Komputer Pokładowy,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
 el.connector.out.of.range,Poza zasięgiem!,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
@@ -937,78 +937,78 @@ energy.max.bat.output,Rezerwa Baterii,,
 energy.max.bat.output.desc,"Suma dostępnej mocy wyjściowej każdej baterii o ładunku niezerowym. Każda bateria jest albo wyczerpana, albo może generować maksymalną moc, gdy jest naładowana. Ta wartość zostanie ułożona na górze wykresu Maksymalnej Produkcji.",,
 energy.max.output,Maksymalna Produkcja,27.05.2022,
 energy.max.output.desc,"Jest to teoretyczna maksymalna moc wyjściowa energii elektrycznej, jaką może wytworzyć twoja sieć. Nie obejmuje baterii. Rzeczywista moc wyjściowa może się różnić w zależności od bieżącego zapotrzebowania na energię, stanu urządzeń i zużycia baterii.",,
-energy.node,"Jest to teoretyczna maksymalna moc wyjściowa energii elektrycznej, jaką może wytworzyć twoja sieć. Nie obejmuje baterii. Rzeczywista moc wyjściowa może się różnić w zależności od bieżącego zapotrzebowania na energię, stanu urządzeń i zużycia baterii.",,
-energy.node.auto.connect,Węzeł Energetyczny,,
-energy.node.connect,Auto-Połączone ({0}),,
-energy.node.disconnect,Połącz,,
-energy.node.disconnect.all,Odłącz,,
-energy.node.unreachable,Odłącz Wszystkie ({0}),,
-energy.node.unreachable.info,Węzeł jest Nieosiągalny,10.08.2022,
-energy.not.connected,"Aby kontrolować ten Węzeł Energetyczny, <b>musi on znajdować się w tej samej sieci energetycznej co Komputer Pokładowy</b>. Rozbuduj swoją sieć elektryczną, aż jeden z łączników będzie mogł dotrzeć do tego urządzenia.",,
-energy.off_grid,Nie Połączone,,
-energy.overview,Poza Siecią,,
-energy.peak.demand,Przegląd,,
-energy.peak.demand.desc,Szczytowa Konsumpcja,,
-energy.producers,Szczytowe zużycie energii elektrycznej zarejestrowane od ostatniej zmiany dotyczącej sieci elektroenergetycznej. Modyfikowanie istniejących połączeń spowoduje zresetowanie tej wartości.,,
-energy.production,Producenci,,
-energy.tool.need.research,Produkcja Energii,,
-energy.turned.off,"Aby móc korzystać z tego narzędzia, musisz zbadać <b>Energię</b> i zbudować kilka <b>Łączników</b>.",14.06.2022,"{0} will show the count of devices. Switched off is as in ""turned off"" or ""offline"", i.e. ""Switched Off [12]"""
-engine,Odłączonych [{0}],,
-engine.power,Silnik,,
-engine.push,Moc Silnika,08.01.2022,"This is used in a label that shows how powerful the ship engines are when you combine their output. ""Push"" here is as in ""Force"" or ""Power"", or ""Propulsion amount"". "
-enter.amount,Moc Wszystkich Silników,,
-enter.galaxy,Wpisz Ilość,,
-enter.name,Wejdź do Galaktyki,,
-enter.new.first.name,Wpisz Nazwę,,
-enter.new.last.name,Wpisz Imię,,
-enter.new.name,Wpisz Nazwisko,,
-enter.new.nick.name,Wpisz nowe imię,,
-enter.planet,Wpisz nowe przezwisko,,Used in an action button that would start an expedition to explore a planet
-enter.shuttle,Wejdź do Planety,,Expedition state label. Showed when expedition members are on their way to the Shuttle
-enter.system,W drodze do Promu,,Used in an action button when you are flying in the galaxy and want to enter a particular star system. It will then shift from galaxy view to star system view.
-enter.universe,Wejdź do Systemu Gwiezdnego,,"May be used if we will have more than one universe (multiverse), this would change the current universe."
-environment,Wejdź do Wszechświata,,
-equipable.item,Otoczenie,,
-equipment,Przedmiot do Wyposażenia,,
-equipment.slot.Body,Wyposażenie,,
-equipment.slot.BodyCasual,Ciało,,
-equipment.slot.Hands,Ciało (nieformalne),,
-equipment.slot.Head,Dłonie,,
-equipment.slot.HeadCasual,Głowa,,
-equipment.slot.Weapon,Głowa (nieformalne),,
-error,Broń,,
-error.content.required,Błąd,,
-error.deconstruct.floor.in.use,Wymaga zawartości,,
-error.energy_connect.no_connector,Nie można zdekonstruować podłogi ponieważ jest na niej inny objekt,,
-error.no.cpu,Nie można bezpośrednio połączyć dwóch urządzeń. Podłącz do <nobr><b>Łącznika</b></nobr>. Łączniki można łączyć ze sobą w celu rozbudowy sieci.,,
-error.title.required,Komputer Pokładowy jest niedostępny,,
-esc.behavior,Wymagany tytuł,28.04.2022,{0} will be replaced with a keyboard button image showing ESC button. You can treat it as non essential for the translation.
-esc.behavior.both,Przycisk ESC {0},,
-esc.behavior.close.menus,Zamknij Interfejs Użytkownika i Menu Główne,,
-esc.behavior.open.pause.panel,Wyłącz Interfejs Użytkownika,,
-esc.behavior.tooltip,Wyłącz Menu Główne,,
-estimated.time.at.kw,Wybierz co robi przycisk Escape {0},,"{0} will be time (i.e. 1 day 4 hours), {1} will be power output (i.e. 120kW). Example: ""Estimated time left: 2 hours at 24kW"""
-eta,Szacowany pozostały czas: {0} na {1},,"ETA is short for ""Estimated Time of Arrival"""
-ev.vented.into.space,Przewidywany Czas Przybycia: {0},,"when a pressurized airlock is exposed to open space, someone can get ""sucked out"" (vented) into open space"
-ev.vented.into.space.desc,Wpuszczony w Przestrzeń,,"A longer description of ""Vented Into Space"" event. {0} will be replaced by a name"
-evaluator,"<b>{0}</b> znajdował/a się w obszarze pod ciśnieniem w pobliżu śluzy, która nagle się otworzyła. Niestety, kolonista wylądował na otwartej przestrzeni i nigdy więcej ich nie widziano.",,"Used for task audit. Label for a worker who has evaluated (considered taking) a task. Displayed in a list next to ""Times Evaluated"" (how many times someone tried to take this task) and ""Last Evaluation Time"" (when did anyone try to take this task)."
-event.birthday,Oceniający,,
-event.content.hint,{0} ma teraz {1} lat!,,
-event.log.disabled.in.tutorial,Wpis do Dziennika,,
-event.panel.clear.tutorial.info,Sprawdź Dziennik Wydarzej po zakończeniu samouczka,,
-event.sound.0,"Wyczyszczenia powiadomienia, ale w trakcie samouczka ta funkcja jest wyłączona",,
-event.sound.1,Wszystkie dźwięki wydarzeń,,
-event.sound.2,Tylko alarmy krytyczne,,
-event.title,Dźwięki wydarzeń wyciszone,,
-event.title.hint,Tytuł Wydarzenia,,
-event.write,Krótki Opis,,
-events,Napisz o Wydarzeniu,,
-everyones.tasks,Wydarzenie,,
-evt.asteroid.desc,Wszystkie Zadania,,
-evt.asteroid.impact.desc,Radar wykrył asteroidę o niebezpiecznie bliskiej trajektorii. Będzie w pobliżu statku za około {0}.,,
-evt.asteroid.impact.title,Asteroida zderzyła się ze statkiem!,,
+energy.max.output.desc,"Jest to teoretyczna maksymalna moc wyjściowa energii elektrycznej, jaką może wytworzyć twoja sieć. Nie obejmuje baterii. Rzeczywista moc wyjściowa może się różnić w zależności od bieżącego zapotrzebowania na energię, stanu urządzeń i zużycia baterii.",,
+energy.node,Węzeł Energetyczny,,
+energy.node.auto.connect,Auto-Połączone ({0}),,
+energy.node.connect,Połącz,,
+energy.node.disconnect,Odłącz,,
+energy.node.disconnect.all,Odłącz Wszystkie ({0}),,
+energy.node.unreachable,Węzeł jest Nieosiągalny,,
+energy.node.unreachable.info,"Aby kontrolować ten Węzeł Energetyczny, <b>musi on znajdować się w tej samej sieci energetycznej co Komputer Pokładowy</b>. Rozbuduj swoją sieć elektryczną, aż jeden z łączników będzie mogł dotrzeć do tego urządzenia.",10.08.2022,
+energy.not.connected,Nie Połączone,,
+energy.off_grid,Poza Siecią,,
+energy.overview,Przegląd,,
+energy.peak.demand,Szczytowa Konsumpcja,,
+energy.peak.demand.desc,Szczytowe zużycie energii elektrycznej zarejestrowane od ostatniej zmiany dotyczącej sieci elektroenergetycznej. Modyfikowanie istniejących połączeń spowoduje zresetowanie tej wartości.,,
+energy.producers,Producenci,,
+energy.production,Produkcja Energii,,
+energy.tool.need.research,"Aby móc korzystać z tego narzędzia, musisz zbadać <b>Energię</b> i zbudować kilka <b>Łączników</b>.",,
+energy.turned.off,Odłączonych [{0}],14.06.2022,"{0} will show the count of devices. Switched off is as in ""turned off"" or ""offline"", i.e. ""Switched Off [12]"""
+engine,Silnik,,
+engine.power,Moc Silnika,,
+engine.push,Moc Wszystkich Silników,08.01.2022,"This is used in a label that shows how powerful the ship engines are when you combine their output. ""Push"" here is as in ""Force"" or ""Power"", or ""Propulsion amount"". "
+enter.amount,Wpisz Ilość,,
+enter.galaxy,Wejdź do Galaktyki,,
+enter.name,Wpisz Nazwę,,
+enter.new.first.name,Wpisz Imię,,
+enter.new.last.name,Wpisz Nazwisko,,
+enter.new.name,Wpisz nowe imię,,
+enter.new.nick.name,Wpisz nowe przezwisko,,
+enter.planet,Wejdź do Planety,,Used in an action button that would start an expedition to explore a planet
+enter.shuttle,W drodze do Promu,,Expedition state label. Showed when expedition members are on their way to the Shuttle
+enter.system,Wejdź do Systemu Gwiezdnego,,Used in an action button when you are flying in the galaxy and want to enter a particular star system. It will then shift from galaxy view to star system view.
+enter.universe,Wejdź do Wszechświata,,"May be used if we will have more than one universe (multiverse), this would change the current universe."
+environment,Otoczenie,,
+equipable.item,Przedmiot do Wyposażenia,,
+equipment,Wyposażenie,,
+equipment.slot.Body,Ciało,,
+equipment.slot.BodyCasual,Ciało (nieformalne),,
+equipment.slot.Hands,Dłonie,,
+equipment.slot.Head,Głowa,,
+equipment.slot.HeadCasual,Głowa (nieformalne),,
+equipment.slot.Weapon,Broń,,
+error,Błąd,,
+error.content.required,Wymaga zawartości,,
+error.deconstruct.floor.in.use,Nie można zdekonstruować podłogi ponieważ jest na niej inny objekt,,
+error.energy_connect.no_connector,Nie można bezpośrednio połączyć dwóch urządzeń. Podłącz do <nobr><b>Łącznika</b></nobr>. Łączniki można łączyć ze sobą w celu rozbudowy sieci.,,
+error.no.cpu,Komputer Pokładowy jest niedostępny,,
+error.title.required,Wymagany tytuł,,
+esc.behavior,Przycisk ESC {0},28.04.2022,{0} will be replaced with a keyboard button image showing ESC button. You can treat it as non essential for the translation.
+esc.behavior.both,Zamknij Interfejs Użytkownika i Menu Główne,,
+esc.behavior.close.menus,Wyłącz Interfejs Użytkownika,,
+esc.behavior.open.pause.panel,Wyłącz Menu Główne,,
+esc.behavior.tooltip,Wybierz co robi przycisk Escape {0},,
+estimated.time.at.kw,Szacowany pozostały czas: {0} na {1},,"{0} will be time (i.e. 1 day 4 hours), {1} will be power output (i.e. 120kW). Example: ""Estimated time left: 2 hours at 24kW"""
+eta,Przewidywany Czas Przybycia: {0},,"ETA is short for ""Estimated Time of Arrival"""
+ev.vented.into.space,Wpuszczony w Przestrzeń,,"when a pressurized airlock is exposed to open space, someone can get ""sucked out"" (vented) into open space"
+ev.vented.into.space.desc,"<b>{0}</b> znajdował/a się w obszarze pod ciśnieniem w pobliżu śluzy, która nagle się otworzyła. Niestety, kolonista wylądował na otwartej przestrzeni i nigdy więcej ich nie widziano.",,"A longer description of ""Vented Into Space"" event. {0} will be replaced by a name"
+evaluator,Oceniający,,"Used for task audit. Label for a worker who has evaluated (considered taking) a task. Displayed in a list next to ""Times Evaluated"" (how many times someone tried to take this task) and ""Last Evaluation Time"" (when did anyone try to take this task)."
+event.birthday,{0} ma teraz {1} lat!,,
+event.content.hint,Wpis do Dziennika,,
+event.log.disabled.in.tutorial,Sprawdź Dziennik Wydarzej po zakończeniu samouczka,,
+event.panel.clear.tutorial.info,"Wyczyszczenia powiadomienia, ale w trakcie samouczka ta funkcja jest wyłączona",,
+event.sound.0,Wszystkie dźwięki wydarzej,,
+event.sound.1,Tylko alarmy krytyczne,,
+event.sound.2,Dźwięki wydarzeń wyciszone,,
+event.title,Tytuł Wydarzenia,,
+event.title.hint,Krótki Opis,,
+event.write,Napisz o Wydarzeniu,,
+events,Wydarzenie,,
+everyones.tasks,Wszystkie Zadania,,
+evt.asteroid.desc,Radar wykrył asteroidę o niebezpiecznie bliskiej trajektorii. Będzie w pobliżu statku za około {0}.,,
+evt.asteroid.impact.desc,Asteroida zderzyła się ze statkiem!,,
 evt.asteroid.title,Radarowe Ostrzeżenie o Bliskości Asteroidy,,
-evt.battery.discharge.desc,"Z powodu awarii, bateria {0} natychmiast rozładowała się. Pracownik przejdzie teraz do trybu awaryjnego ładowania.",16.05.2022,{0} is the name of the worker
+evt.battery.discharge.desc,"Z powodu awarii, bateria {0} natychmiast rozładowała się. Robotnik przejdzie teraz do trybu awaryjnego ładowania.",16.05.2022,{0} is the name of the worker
 evt.battery.discharge.title,Awaria Baterii,,
 evt.breach.capsule.impact.desc,Przygotuj się do walki. Jesteśmy atakowani!,,
 evt.breach.capsule.impact.title,Kapsuła do Abordażu się przyczepiła!,,
