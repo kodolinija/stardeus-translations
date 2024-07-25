@@ -995,9 +995,9 @@ ev.vented.into.space.desc,"<b>{0}</b> znajdował/a się w obszarze pod ciśnieni
 evaluator,Oceniający,,"Used for task audit. Label for a worker who has evaluated (considered taking) a task. Displayed in a list next to ""Times Evaluated"" (how many times someone tried to take this task) and ""Last Evaluation Time"" (when did anyone try to take this task)."
 event.birthday,{0} ma teraz {1} lat!,,
 event.content.hint,Wpis do Dziennika,,
-event.log.disabled.in.tutorial,Sprawdź Dziennik Wydarzej po zakończeniu samouczka,,
+event.log.disabled.in.tutorial,Sprawdź Dziennik Wydarzeń po zakończeniu samouczka,,
 event.panel.clear.tutorial.info,"Wyczyszczenia powiadomienia, ale w trakcie samouczka ta funkcja jest wyłączona",,
-event.sound.0,Wszystkie dźwięki wydarzej,,
+event.sound.0,Wszystkie dźwięki wydarzeń,,
 event.sound.1,Tylko alarmy krytyczne,,
 event.sound.2,Dźwięki wydarzeń wyciszone,,
 event.title,Tytuł Wydarzenia,,
