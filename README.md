@@ -121,16 +121,6 @@ If you feel lost at any point, please join the <a href="https://discord.com/invi
 * [eFkoCaptain](https://github.com/eFkoCaptain)
 
 
-### Chinese
-
-YouHanHua Team
-
-* [law_4x](https://github.com/law4x)
-* 翻译菌2号
-* Senio
-* Ding
-* 404のUMP-9
-
 ### Portuguese (Brazil)
 
 * [unggod](https://github.com/unggod)
@@ -169,6 +159,16 @@ YouHanHua Team
 
 * [Ketyak](https://github.com/Ketyak)
 
-### Swedish
+### Swedish (abandoned)
 
 * [blarrkan](https://github.com/blarrkan)
+
+### Chinese (abandoned)
+
+YouHanHua Team
+
+* [law_4x](https://github.com/law4x)
+* 翻译菌2号
+* Senio
+* Ding
+* 404のUMP-9
