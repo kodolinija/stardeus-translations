@@ -2640,7 +2640,7 @@ quest.MakeShipFlightReady,Przygotuj Statek do Lotu,,
 quest.MakeShipFlightReady.bridge.controls.tip,"<b>Mostek Sterowania</b> zapewni nam dostęp do <b>Mapy Gwiezdnej</b>, dzięki czemu w końcu będziemy mogli zobaczyć nasze położenie we Wszechświecie.",,
 quest.MakeShipFlightReady.desc,"Musimy przywrócić zdolność naszego statku do lotów kosmicznych. W ten sposób możemy dotrzeć do pobliskiej planety i przeprowadzić kilka wypraw górniczych, aby zebrać więcej zasobów.",,
 quest.MakeShipFlightReady.thruster.tip,"Jeśli będziemy mieli szczęście, gdzieś we wraku będzie przynajmniej jeden nadający się do naprawy <b>Silnik Odrzutowy</b>. Jeśli nie, być może będziemy musieli przeprowadzić dodatkowe badania, aby zdobyć jego plan.",,
-quest.new,Nowe zadanie: <b>{0</b><br><br>{1}<br><br>{2},,"{0} will be quest title (i.e. ""Defeat the dragon""). {1} will be a long description, {2} will be a list of rewards"
+quest.new,Nowe zadanie: <b>{0}</b><br><br>{1}<br><br>{2},,"{0} will be quest title (i.e. ""Defeat the dragon""). {1} will be a long description, {2} will be a list of rewards"
 quest.no.active,Brak Aktywnego Zadania,,
 quest.no.active.many.available.tip,"Liczba dostępnych <b>{0} zadań</b>: {1}<br>Ustaw zadanie jako <b>Aktywne</b>, aby rozpocząć śledzenie jego postępów.",,{0} is a number (2 or greater). {1} will be the list of quest names
 quest.no.active.one.available.tip,"<b>Dostępne jest jedno zadanie</b>: {0}<br>Ustaw zadanie jako <b>Aktywne</b>, aby rozpocząć śledzenie jego postępów.",,{0} is the quest name
@@ -2694,7 +2694,7 @@ quest.step.research.tip,"Odblokuj {0} w <b>Drzewku Badań</b>. Aby to znaleźć,
 quest.step.set.ship.forward.direction,Ustal Przód Statku,,
 quest.step.set.ship.forward.direction.tip,"Otwórz nakładkę <b>{0}</b> i wybierz <b>Ustal Przód Statku</b>. Kierunek powinien być odwrotny do silników, ale możesz je przenieść i wybrać dowolny kierunek.",,
 quest.step.terraform,Sterraformuj <b>{0}</b>,,
-quest.step.terraform.tip,"Aby poddać <b>{0}</b> terraformacji, musisz użyć <b>{1}<b/> w pobliżu planety nadającej się do terraformacji.",,"{0} will be the terraforming type (i.e. Biosphere), {1} will be device name (i.e. Biosphere Generator)"
+quest.step.terraform.tip,"Aby poddać <b>{0}</b> terraformacji, musisz użyć <b>{1}</b> w pobliżu planety nadającej się do terraformacji.",,"{0} will be the terraforming type (i.e. Biosphere), {1} will be device name (i.e. Biosphere Generator)"
 quest.tasks.completed,Ukończone Zadania,,
 quest.tasks.current,Aktualne Zadania,,
 quest.tasks.failed,Nieudane Zadania,,
