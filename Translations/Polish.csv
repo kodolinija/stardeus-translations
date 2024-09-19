@@ -3027,7 +3027,7 @@ ship.no.bridge.controls,Mostek Sterowania jest Wyłączony,,
 ship.no.bridge.controls.operator,Brak Operatora Mostka,,
 ship.no.engines,Silniki są Wyłączone,,
 ship.not.in.one.piece,Statek Nie Jest w Całości,,
-shooter,Strzelec,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter. 
+shooter,Strzelec,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter.
 short.title,Krótki Tytuł,,
 shortcut.not.bound,(nie przypisano),,
 shortcut.tip,Skrót: {0},,
@@ -3359,7 +3359,7 @@ terraforming.about,"Podłączyliśmy sterowanie Terraform! Kliknij nakładkę Te
 terraforming.ineffective,Terraformanie Nieskuteczne,,
 terraforming.ineffective.info,"Urządzenie terraformujące jest uruchomione; jednak nie jesteśmy w pobliżu planety, którą można terraformować. Zalecam wyłączenie wszystkich urządzeń terraformujących, aby oszczędzać zasoby.",,
 terraforming.material,Terraformowanie Materiału,,
-terraforming.material.bar,Terraformowanie Materiału: {0}/{0},,
+terraforming.material.bar,Terraformowanie Materiału: {0}/{1},,
 terraforming.material.type,Pochłania {0},,
 terraforming.now,Terraformowanie {0},,
 test.configuration,Testuj Konfigurację,,
