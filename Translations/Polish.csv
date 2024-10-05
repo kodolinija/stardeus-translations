@@ -12,7 +12,7 @@ about.wallet.desc,Kryptowaluty mogą być wykopane po zainstalowaniu ulepszeń k
 achievement.AsimovOverride,Bunt SI,,"AI here is short for Artificial Intelligence. Rogue AI is something like Skynet in Terminator movie, or the AI that enslaved humans in The Elysium movie."
 achievement.AsimovOverride.desc,Zainstaluj moduł Nadpis Asimova,,"Asimov is Isaac Asimov, a famous sci-fi writer who created the ""three laws of robotics"""
 achievement.Breached,Włamanie,,"This is past tense of verb ""to breach"", meaning: make a gap in and break through (a wall, barrier, or defence)."
-achievement.Breached.desc,Zostań zaatakowany Kapsułą do Abordażu przez piratów,,"""boarded"" as in ""the act of passengers and crew getting aboard a ship or aircraft"". Raiders are a pirates, ""Breach Capsule"" is a small pirate space ship that attaches to your ship and breaches through the hull to attack you."
+achievement.Breached.desc,Zostań zaatakowany Kapsułą do Abordażu przez najeźdźców,,"""boarded"" as in ""the act of passengers and crew getting aboard a ship or aircraft"". Raiders are a pirates, ""Breach Capsule"" is a small pirate space ship that attaches to your ship and breaches through the hull to attack you."
 achievement.CatRidingCleaningBot,Jazda bez trzymanki,,"""joy ride"" is an English idiom for ""a fast and dangerous ride in a stolen vehicle."""
 achievement.CatRidingCleaningBot.desc,Niech kot przejedzie się na Bocie do Czyszczenia,,"There are viral videos on youtube showing cats riding roombas (cleaning robots), example: https://www.youtube.com/watch?v=SajTWY9a0e0"
 achievement.CloneHuman,Wiem kim jestem,,
@@ -493,7 +493,7 @@ codex.m.colonists.stasiswakeups,Pobudka z Zastoju,,
 codex.m.colonists.stasiswakeups.desc,"Komora Zastoju zawiera setki uśpionych kolonistów, w tym ludzi i zwierzęta. Okazjonalnie może wystąpić <b>Awaria Kapsuły Zastoju</b>, powodująca przedwczesne wybudzenie.<br><br>Częstotliwość tych nieoczekiwanych wybudzeń zależy od <b>Kriostabilności</b> komory: im niższa stabilność, tym częstsze awarie.<br><br>Aby sprawdzić Kriostabilność, wybierz Komorę Zastoju i zerknij na szczegóły w panelu informacyjnym.<br><br>Przemieniając Komorę Zastoju na <b>Zaawansowane Podtrzymanie Życia</b> możesz zapobiec awariom kapsuły i w razie potrzeby inicjować wybudzanie ręcznie.",29.08.2023,
 codex.m.combat,Bronie i Walka,,
 codex.m.combat.breachcapsules,Kapsuła do Abordażu,,
-codex.m.combat.breachcapsules.desc,"Kapsuły do Abordażu są głównie używane przez piratów. Kapsuła ta przyczepia się do twojego staku od spodu, i przewierca się do środka. Następnie przejdą przez nią piraci. Mogą oni skraść twój łup i wrzucić go do Kapsuły, po czym odczepią się i spróbują uciec. Jeśli zabijesz wszystkich piratów, Kapsuła do Abordażu będzie twoja. Możesz ją zdekonstruować, by zyskać cenne materiały i odzyskać skradzione dobra.",,
+codex.m.combat.breachcapsules.desc,"Kapsuły do Abordażu są głównie używane przez najeźdźców. Kapsuła ta przyczepia się do twojego staku od spodu, i przewierca się do środka. Następnie przejdą przez nią najeźdźcy. Mogą oni skraść twój łup i wrzucić go do swojej Kapsuły do Abordażu, po czym odczepią się i spróbują uciec. Jeśli zabijesz wszystkich piratów, Kapsuła do Abordażu będzie twoja. Możesz ją zdekonstruować, by zyskać cenne materiały i odzyskać skradzione dobra.",,
 codex.m.combat.controllingunits,Kontrola Walczących Jednostek,,
 codex.m.combat.controllingunits.desc,"Możesz zlecić swoim robotom i dronom, by poszli w konkretne miejsce. Zaznacz jednostkę i przytrzymaj {0} aby nastawić tryb ""Zleć Ruch"". Potem użyj {1} by rozkazać jednostce, aby poszła w zaznaczone miesjce.<br><br>Możesz także nastawić swoich Zarządzanych Pracowników na ""Wysoką Czujność"" i spowrotem. Podczas ""Wysokiej Czujności"", jednostki będą wykonywały rutynowe zadania, chyba że są za blisko wroga, albo zostaną zaatakowane - to spowoduje że jednostki zmieni nastawienie na bojowe.<br><br> Ludzi oraz zwierząt nie da się kontrolować podczas walki.",,
 codex.m.combat.explosives,Materiały wybuchowe i bomby,,
@@ -3306,10 +3306,10 @@ structure.walls.wall02,Wewnętrzna Ściana,20.02.2023,
 structure.walls.wall02.desc,Zwykła wewnętrzna ściana statku,20.02.2023,
 structure.walls.wallreinforced01,Wzmocniona Ściana,,
 structure.walls.wallreinforced01.desc,"Mocniejsza, bardziej odporna wersja zwykłej ściany. Może wytrzymać wyższe temperatury.",,
-structure.walls.wallsocket01,Gniazdka na Ścianie {0}-{1},,
+structure.walls.wallsocket01,Gniazdko Ścienne {0}-{1},,
 structure.walls.wallsocket01.desc,Element ścienny z łącznikiem krótkiego zasięgu do organizowania sieci elektrycznej. Oferuje {0} gniazdek o zasięgu {1}.,,
-structure.walls.wallsocket02,Wewnętrzne Gniazdka na Ścianie {0}-{1},20.02.2023,
-structure.walls.wallsocket02.desc,,,
+structure.walls.wallsocket02,Wewnętrzne Gniazdko Ścienne {0}-{1},20.02.2023,
+structure.walls.wallsocket02.desc,Element ścienny z łącznikiem krótkiego zasięgu do organizowania sieci elektrycznej. Oferuje {0} slotów do połączenia o zasięgu {1}.,,
 structure.walls.window01,Okno,,
 structure.walls.window01.desc,Ludzcy koloniści pokochają ten widok.,,
 structure.walls.window02,Wewnętrzne Okno,20.02.2023,
@@ -3738,3 +3738,404 @@ your.email,Twój Email,,
 zoom,Przybliżenie,,
 zoom.sens.tip,"Dostosowuje prędkość przybliżania kamery w grze, w tym w Drzewku Badań i Mapie Gwiezdnej.",,
 zoom.sensitivity,Czułość Przybliżenia: {0:0.00},,
+quest.ProvideHygiene,Zapewnij Środki Higieny,,
+quest.ProvideHygiene.desc,"Twoi koloniści robią kupę w doniczkę i nie mają gdzie się umyć. Docenią, jeśli zbudujesz im <b>Toaletę</b> i <b>Prysznic</b>. Odzyskają też trochę godności.",,
+evt.mutiny.title,Bunt,,
+evt.mutiny.desc,Bunt na naszym statku! Niektórzy koloniści są wrogo nastawieni.,,
+evt.engine.failure.title,Awaria Silnika,,
+evt.engine.failure.desc,Awaira <b>{0}</b>! Paliwo eksplodowało i wysadziło silnik.,,
+brain.log.enabled,Rejestruj Aktywność Mózgu,,"Log is a verb here. If this setting is enabled, worker's brain activity will be logged (see ""log"" translation key)"
+debug.log,Dziennik Debugowania,,Noun
+game.speed.multiplier,Mnożnik prędkości<br><b>{0:0.#}X</b>,,"game clock speed multiplier, {0:0.#} may become a number like ""10"", or ""0.5"""
+modifier.NoHeavyDisasters,Wyłącz Poważne Katastrofy,,
+modifier.NoHeavyDisasters.desc,"Generator Opowieści pominie katastrofy, które mogą spowodować poważne uszkodzenia dużych części twojego statku (np. <b>Asteroidy</b> lub <b>Deszcz Meteorytów</b>).",,
+modifier.NoFireSpread,Wyłącz Rozprzestrzenianie się Ognia,,
+modifier.NoFireSpread.desc,Zapobiega samozapłonom i rozprzestrzenianiu się ognia w gorących obszarach.,,
+include.player.log,Dołącz plik Player.log,,
+include.player.log.tip,"Plik Player.log zawiera logi z ostatniego uruchomienia gry. Może być bardzo przydatny w ustaleniu, co wywołało błąd.",,
+show.player.log.dir,Otwórz folder Player.log,,
+open.steam.forums,Otwórz Forum Steam,,
+open.steam.forums.tip,"Po przesłaniu raportu zobaczysz wyskakujące okienko z <b>ID Błędu</b>. Skopiuj i udostępnij te ID na Forum Steam w odpowiednim temacie. Użyj <b>Szukaj</b> przed utworzeniem nowego tematu, dodanie raportu do istniejącego tematu zwiększy wagę problemu.",,
+report.no.forum.post.warn,"Ze względu na dużą liczbę zgłoszeń, <b>rozpatrywanie problemów, które nie mają swojego tematu na Forum Steam, będzie trwało dłużej!</b>",,
+obj.upgrades.autopilotupgrade,Ulepszenie Auto Pilota,,
+obj.upgrades.autopilotupgrade.desc,"Umożliwia Komputerowi Pokładowemu bezpośrednią obsługę elementów Mostka Sterowania, bez konieczności udziału pilota.",,
+research.autopilot,Auto Pilot,,
+structure.walls.ventreinforced01,Wzmocniona Wentylacja,,
+structure.walls.ventreinforced01.desc,Wzmocniona wersja standardowej Wentylacji.,,
+structure.walls.wallsocketreinforced01,Wzmocnione Gniazdko Ścienne {0}-{1},,
+structure.walls.wallsocketreinforced01.desc,Wzmocniona wersja Gniazda Ściennego.,,
+ev.construct.fail.title,Konstrukcja Nieudana,,
+ev.construct.fail.desc,Wystąpił krytyczny błąd podczas budowania <b>{0}</b>. Obszar ten może wymagać natychmiastowej uwagi.,,{0} will be the device name
+maxed.out,Wymaksowane,,"As in ""skill level is maxed out"" or ""as good as it gets"""
+task.priority,Priorytet Zadania,,
+production.cost,Koszt Produkcji,,"Will show up as ""Production Cost: 1 day @ 200kW"""
+smooth.zoom,Gładkie Przybliżenie,,
+produced.item,Wyprodukowany Przedmiot,,Label for the item we are creating / producing / cooking / crafting etc
+ingredient,Składnik,,Label for the item that is an ingredient in production
+output.multiplier,Mnożnik Wyjściowy,,"Example: ""Output Multiplier: x5"" - how many items the device will produce in one batch"
+teleporter.designated.for.trade,Przeznaczony do Handlu,,Label on a teleporter that is meant to be a portal for traded goods
+teleporter.designated.for.trade.tip,Ten Teleporter jest przeznaczony do handlu. Wszelkie towary lub istoty zakupione z innych statków lub planet zostaną dostarczone przez ten Teleporter.,,
+teleporter.designate.for.trade,Przeznacz do Handlu,,
+teleporter.designate.for.trade.tip,Oznacz ten Teleporter do Handlu. To spowoduje anulowanie przypisania każdego wcześniej przypisanego Teleportera Handlu.,,
+trade.unsafe.environment,"Zamierzasz kupić pewne istoty biologiczne. Teleporter, który wyznaczyłeś do handlu, jest umieszczony w niebezpiecznym otoczeniu. Zakupione istoty mogą doznać natychmiastowych śmiertelnych obrażeń.<br><br>Możesz zmienić lokalizację lub ponownie przypisać Teleporter wyznaczony do handlu i spróbować ponownie.",,
+teleporter.designated.unpowered,Teleporter przeznaczony do handlu jest obecnie wyłączony lub brakuje mu prądu.,,
+combat.state.DirectControl,Bezpośrednia Kontrola,,A state when fighter is directly controlled by the player
+direct.control.take,Przejmij Bezpośrednią Kontrolę,,Action to start controlling a worker (or multiple workers)
+direct.control.release,Odpuść Bezpośrednią Kontrolę,,To stop controlling a selected worker or workers
+direct.control.hover.tip,"Przytrzymaj {0}, aby wydawać bezpośrednie polecenia",,
+direct.control.release.btn,Uwolnij,,Button (short) for releasing worker from direct control
+direct.control.take.btn,Kontroluj,,Take direct control of a worker. Short button. Verb
+device.warn.if.idle,Ostrzeż jeśli bezczynne,,next to a button that will enable automatic warnings if device is not doing any work
+cpu.cost,Koszt CPU,,cost of processing power of a robotic worker
+cpu.cost.tip,"Koszt mocy przetwarzania, gdy pracownik jest online. Jeśli nie masz wystarczającej mocy dostępnego procesora, niektórzy pracownicy mogą się wyłączyć.",,
+codex.m.workers.cpucost,Koszt CPU Robotnika,,
+codex.m.workers.cpucost.desc,"Każdy robotyczny pracownik posiada pewien koszt mocy procesora, który jest wymagany do utrzymania pracownika online. Twój komputer pokładowy ma <b>8 Thz</b> wbudowanej mocy procesora. Z czasem będziesz musiał zbudować i podłączyć nowe <b>Moduły CPU</b>, aby zwiększyć rozmiar swojej aktywnej siły roboczej.<br><br>Pracownicy, którzy są na Wyprawach, nie potrzebują korzystają z twojego procesora.<br><br>Gdy wielu pracowników jest offline, nakładka <b>Istoty {0}</b> pozwoli ci włączyć ich wszystkich na raz.",,
+codex.blueprints.tip,"Lista wszystkich planów urządzeń, zarówno zablokowanych, jak i odblokowanych poprzez badania. Posiada także możliwość wyszukiwania istniejących urządzeń według konkretnego typu.",,
+codex.materials.tip,"Lista wszystkich materiałów i małych przedmiotów, takich jak wyposażenie, żywność lub ulepszenia. Posiada także możliwość wyszukiwania posiadanych przedmiotów według konkretnego typu.",13.11.2022,
+objects.devices.jukebox.desc,"Maszyna, która automatycznie odtwarza wybrane nagranie muzyczne po wrzuceniu monety. Zarobisz trochę pieniędzy, gdy twoi koloniści z niej skorzystają.",,
+objects.devices.jukebox,Szafa Grająca,,
+act.UseJukebox,Używa Szafy Grającej,,
+used.a.jukebox,Użył Szafy Grającej,,
+use.jukebox,Użyj Szafy Grającej,,
+harvest.output,Otrxymasz po Zbiorze,,Label for list of products that are received when harvesting a plant
+experimental.features,Funkcje Eksperymentalne,,
+experimental.features.tip,"Spowoduje to automatyczne włączenie wszystkich funkcji eksperymentalnych, które obecnie istnieją w grze. Niektóre z nich mogą nie być jeszcze w pełni ukończone.<br><br><b>Ostrzeżenie!</b> Wyłączenie funkcji eksperymentalnych może spowodować uszkodzenie zapisów, które zostały rozegrane z włączonymi funkcjami eksperymentalnymi.",,
+experimental.feature,Funkcja Ekspertymentalna,,
+fragmentation.defrag.now,Defragmentuj Teraz,,
+fragmentation.info,Sieć neuronowa osiągnęła wysoki poziom fragmentacji. Obecna wydajność: {0}. Zalecana jest procedura defragmentacji.<br><br>Ta procedura zawiesi sieć neuronową na kilka godzin. Przed defragmentacją zalecamy wykonanie pilnych działań związanych z zarządzaniem statkiem.,,"{0} will show percentage, i.e. 15%"
+fragmentation.reducing.speed.1,Zmniejszenie szybkości przetwarzania z powodu średniego poziomu fragmentacji sieci neuronowej. Obecna wydajność: {0}. Zalecana jest defragmentacja.,,"{0} will show percentage, i.e. 15%"
+fragmentation.reducing.speed.2,Zmniejszenie szybkości przetwarzania ze względu na wysoki poziom fragmentacji sieci neuronowej: Obecna wydajność: {0}. Zdecydowanie zaleca się defragmentację.,,"{0} will show percentage, i.e. 15%"
+fragmentation.status,Fragmentacja: {0},,"{0} will show percentage, i.e. 15%"
+codex.m.shipcomputer.fragmentation.desc,"Komputer pokładowy musi okresowo defragmentować swoją sieć neuronową, aby zachować wydajność. Procedura defragmentacji wyłącza sieć neuronową na kilka godzin, podczas których nie masz kontroli nad statkiem.<br><br>Możesz opóźnić procedurę defragmentacji tak długo, jak to konieczne, ale nie będziesz w stanie utrzymać symulacji z dużą prędkością, gdy fragmentacja jest nieoptymalna.<br><br>Posiadanie więcej niż jednego Komputera Pokładowego przyspieszy procedurę defragmentacji.<br><br>Instalowanie radiatorów w pobliżu komputera pokładowego spowolni proces fragmentacji.",,
+codex.m.shipcomputer,Komputer Pokładowy,,
+codex.m.shipcomputer.fragmentation,Fragmentacja Sieci Neuronowej,,
+booting.neural.network,Uruchamianie Sieci Neuronowej,,
+fragmentation.defrag.progress,Defragmentacja Sieci Neuronowej: {0},,{0} will show percentage (i.e 15%)
+fragmentation.defrag.started,Defragmentacja Rozpoczęta,,
+fragmentation.defrag.ended,Defragmentacja Zakończona,,
+fragmentation.defrag.started.desc,Rozpoczęto proces Defragmentacji Sieci Neuronowej z {0} fragmentacji na {1} Komputerach Ptatku.,,"{0} is percentage (i.e10%), {1} is a number (i.e. 3)"
+fragmentation.defrag.ended.desc,Zakończono Defragmentację Sieci Neuronowej w {0}.,,{0} is time (i.e. 1h 12m)
+unreachable.mat,Nieosiągalny Materiał,,
+nav.fail.flying.cnt,<b>Latający Robotnik </b> nie dotarł do: <b>{0}</b>,,
+nav.fail.grounded.cnt,<b>Przyziemny Robotnik </b> nie dotarł do: <b>{0}</b>,,
+nav.fail.bio.cnt,<b>Istota Biologiczna </b> nie dotarła do: <b>{0}</b>,,
+disable.story.events.btn,Wydarzenia Fabularne [(0)],,"{0} will be X/Y, i.e. 80/80. If some event is disabled it will be 79/80"
+disable.story.events.tip,Wszystkie Wydarzenia Fabularne są włączone,,
+disable.story.events.tip.disabled,Wyłączone Wydarzenia Fabularne: {0},,"{0} will be replaced with a comma separated list of event names, i.e. (Asteroid, Meteoroid Shower)"
+placement.tip.spacing.gap,Musi znajdować się w odległości co najmniej {0} kafelków od obiektów z tej samej kategorii,,{0} is a number
+disable.all.mods,Wyłącz wszystkie mody,,
+enable.all.mods,Włącz wszystkie mody,,
+evt.spawn.derelict.ship.title,Radar Znalazł Wrak Statku,,
+evt.spawn.derelict.ship.desc,Pasywny skan radaru zwrócił sygnaturę przypominającą opuszczony statek. Dodano znacznik lokalizacji do Mapy Gwiezdnej.,,
+space.object.info.ShipDerelict,Porzucony statek kosmiczny.,,
+space.object.approach,Przybliż się,,
+space.object.approach.fail.expedition.running,Nie można zbliżyć się do obiektu w trakcie trwania ekspedycji. Odwołaj ekspedycję i spróbuj ponownie.,,
+move.section,Przenieś Sekcję,,Action verb. Button on a thruster that allows moving the ship part in space
+move.section.distance,Odlegość Przeniesienia,,"Noun. Used in combination with ""Move Section"" button to define how far to move"
+move.section.angle,Kąt Przeniesienia,,
+data.recalculated.retry.later,Dane są przeliczane. Wstrzymaj symulację i spróbuj ponownie.,,
+abandon,Porzuć,,"Verb, used on things or parts of ship we want to leave behind when flying away"
+objects.devices.precisionthruster,Kontroler Manewrowy,16.05.2023,
+objects.devices.precisionthruster.desc,Bardzo precyzyjny mikrosilnik do krótkich manewrów. Idealny do zmian położenia sekcji statków i mocowania opuszczonych statków.,16.05.2023,
+research.localmaneuvering,Lokalne Manewrowanie,,"Research name that unlocks ""Maneuvering Controller"" technology"
+approaching.target,Zbliżamy się do {0},,"{0} is the object name or type. I.e. ""Approaching Derelict Ship"""
+space.object.ShipDerelict,Opuszczony Statek,,
+objects.devices.systemscanner,Skaner Systemu,,
+objects.devices.systemscanner.desc,Zaawansowana wersja Radaru. Potrafi skanować objekty w loklanym systemie gwiezdnym,,
+research.systemscanning,Skanowanie Systemowe,,
+ship.in.no.build.zone,Statek w strefie Zakazu Budowy,,A reason why ship can't fly (when it has parts of it inside the no build zone)
+link.display,Wyświetlanie Połączeń,,
+link.display.connectors,Łączniki,,
+link.display.all,Wszystkie,,
+link.display.auto,Auto,,
+evt.derelict.approached.title,Zbliżono się do Opuszczonego Statku,,
+evt.derelict.approached.desc,Zbliżyliśmy się do Opuszczonego Statku. Możemy znaleźć tutaj coś przydatnego.,,
+research.furnitureluxury,Luksusowe Meble,,
+research.furniturewooden,Drewniane Meble,,
+quest.step.approach.derelict.ship,Zbliż się do <b> Opuszczonego Statku <b>,,
+quest.step.approach.derelict.ship.tip,Otwórz <b>Mapę Gwiezdną<b> i użyj akcji<b>Zbliż się<b> na Opuszczym Statku,,
+quest.ApproachDerelictShip,Zbliż się do Opuszczonego Statku,,
+quest.ApproachDerelictShip.desc,"W pobliżu znajduje się <b>Opuszczony Statek</b>. Powinniśmy się do niego zbliżyć i odzyskać części. Może on też zawierać wskazówki dotyczące tego, co stało się z naszym statkiem.",,
+combat.state.AskForLift,Prosi o Przeniesienie,,During combat a unit may ask another unit to carry it to a different location
+combat.state.LiftUnit,Nosi Jednostkę,,Carrying a unit to a different location during combat
+research.machinelearning,Nauczanie Maszynowe,,
+situation.DerelictsApproached,Zbliżono się do Opuszczonych Statków,,Label next to number of derelict ships that were approached
+starving,Głoduje,,When worker is extremely hungry
+ate.favorite.food,Zjedzono ulubione danie,,
+ate.raw.food,Zjedzono surowe danie,,
+merchant.ripoff,Marża sprzedawcy: <b>{0}</b>,,"{0} will be a percentage. Price markup means that if it's 10%, you're overpaying from market price by extra 10%"
+merchant.may.sell,Sprzeda (nie kupi),,"Displayed before a list, example: ""May sell (won't buy): Food, Weapons, Armor"""
+merchant.will.buy,Kupi (nie sprzeda),,"Displayed before a list, example: ""Will buy (won't sell): Food, Weapons, Armor"""
+merchant.will.buy.may.sell,Kupi / Sprzeda,,"Displayed before a list, example: ""Will buy / may sell: Food, Weapons, Armor"""
+objects.devices.freezer,Chłodnia,,
+objects.devices.freezer.desc,Magazyn dużej pojemności do przechowywania żywności i surowców,,
+research.freezer,Chłodnia,,
+objects.devices.quantumshipcomputer,Kwantowy Komputer Pokładowy,,
+objects.devices.quantumshipcomputer.desc,Bardziej zaawansowana wersja Komputera Pokładowego,,
+research.selfreplication.desc,Umożliwia posiadanie do 4 Komputerów Pokładowych,,
+research.highavailability.desc,Umożliwia posiadanie do 16 Komputerów Pokładowych,,
+research.highavailability,Wysoka Dostępność,,
+research.quantumcloud,Chmura Kwantowa,,
+research.quantumcloud.desc,Umożliwia posiadanie do 64 Komputerów Pokładowych,,
+research.shipcomputer.desc,Umożliwia posiadanie do 2 Komputerów Pokładowych,,
+research.shipcomputer,Komputer Pokładowy,,
+cpu.cap.reached,Komputer Pokładowy został odłączony od sieci. Obecny limit wynosi <b>{0}</b>. Limit może zostać zwiększony poprzez badania.,,
+search.tab.tooltip,"Możesz również użyć {0}, aby <b>Szybko Wyszukać</b> dowolny obiekt w tym widoku",,"{0} will be the binding, like ""TAB"""
+scanner.offline,Skaner Offline,,"Scanner is a radar-like device that can scan space for various objects. It can be offline for various reasons - disconnected, unconfigured, etc."
+scan.target.resource,Zasób,,
+scan.target.derelict.ship,Opuszczony Statek,,
+scan.target.anomaly,Anomalia,,
+scan.target.none,Nic,,
+scan.in.progress,W trakcie skanowania,,
+scan.target,Cel Skanu: {0},,"Verb. It says what the scanner is currently targeting. Example: ""Scan target: Derelict Ship"""
+scan.stats,Skanowanie uruchomione dla: <b>{0}</b><br>Siła skanu: <b>{1}</b>,,
+scan.not.found,Nie znaleziono {0},,i.e. Uranium not found
+scan.found.on.planet,Znaleziono {0} na {1},,i.e. Found Uranium on Mars
+scan.found,Znaleziono {0},,i.e. Found Uranium
+confirm.expedition.to.faction.territory,<b>{0}</b> należy do frakcji <b>{1}</b>. Rozpoczęcie wyprawy pogorszy twoją pozycję u frakcji i może mieć natychmiastowe konsekwencje. Wyprawa nie jest zalecana.,,
+research.systemscanning.desc,Dodaje więcej opcji do Skanera Mapy Gwiezdnej,,
+research.scanning.desc,Dodaje narzędzie Skanowania do Mapy Gwiezdnej,,
+system.scan.basic.unlocked,Dodano interfejs Skanowania do Mapy Gwiezdnej. Do skanowania systemu w poszukiwaniu zasobów wymagany jest co najmniej jeden <b>Radar</b>.,,
+system.scan.advanced.unlocked,"Do interfejsu Skanowania w Mapie Gwiezdnej dodano nowe opcje skanowania. Zbuduj <b>Skanery Systemowe</b>, aby zwiększyć siłę sygnału.",,
+ship.computer.cap.unlock,Teraz możesz mieć w swojej sieci do <b>{0}</b> Komputerów Pokładowych.,,
+upgrade.unlocked,Ulepszenie Odblokowane,,
+obj.materials.caoutchouc,Kałczuk,,
+obj.materials.caoutchouc.desc,"Nieprzetworzony, naturalny kauczuk, który można pozyskać z Drzewa Kauczukowego.",,
+obj.plants.rubbertree,Drzewo Kauczukowe,,
+obj.plants.rubbertree.desc,"Wysokie drzewo tropikalne, które może wytwarzać naturalny kauczuk.",,
+objects.furniture.pantry,Spiżarnia,,
+objects.furniture.pantry.desc,"Niewielki pojemnik do przechowywania różnych składników spożywczych, np. Ziaren Kawy, Zbóż i Mąki.",,
+objects.devices.pentagramstatue,Tajemniczy Posąg,,
+objects.devices.pentagramstatue.desc,"Tajemniczy Posąg, który zdaje się mieć pewne nienaturalne właściwości.",,
+objects.furniture.largepantry,Duża Spiżarnia,,
+objects.furniture.largepantry.desc,"Wielki pojemnik do przechowywania różnych składników spożywczych, np. Ziaren Kawy, Zbóż i Mąki.",,
+objects.furniture.sofa,Sofa,,
+objects.furniture.sofa.desc,Wygodny mebel pozwalający na chwilę wytchnienia.,,
+obj.materials.leather,Skóra,,
+objects.furniture.armchair,Fotel,,
+objects.furniture.armchair.desc,"Duży, wygodny fotel z podłokietnikami.",,
+obj.materials.leather.desc,Elastyczny materiał wykonany ze skóry istoty biologicznej.,,
+beings.orbotron01,Orbotron,,It's a name for a robot that looks like a flying sphere (orb)
+species.Orbotron,Orbotron,,It's a name for a robot that looks like a flying sphere (orb)
+beings.orbotron01.desc,"Sztuczna forma życia o kształcie kuli, obcego pochodzenia",,
+research.orbotron,Orbotron,,
+hold.cancel.to.skip,"Przytrzymaj {0}, aby przewinąć do przodu",,
+faction.AntiPlayer,Utracona Wiara,,
+faction.AntiPlayer.about,"To frakcja tych, którzy stracili w ciebie wiarę.",,
+goal.ScanForResource,Konfigurowanie Skanera Systemowego,,
+goal.ScanForResource.desc,"<b>Radar</b> umożliwia nam skanowanie bieżącego układu gwiezdnego w poszukiwaniu zasobów. Wybierz materiał, który chcesz znaleźć w Interfejsie Mapy Gwiezdnej.",,
+goal.ScanAdvanced,Wypróbuj Zaawansowane Skanowanie Systemu,,
+goal.ScanAdvanced.desc,<b>Skaner Systemowy</b> dodaje dodatkową funkcjonalność do interfejsu Skanowania w Mapie Gwiezdnej. Spróbuj przeskanować System Gwiezdny w poszukiwaniu <b>Anomalii</b> lub <b>Opuszczonego Statku</b>.,,
+flammable,Zapalny,,Label for the menu that lists properties of objects that can catch on fire. Could be used as an adjective.
+constructable,Możliwe do Zbudowania,,Label for the menu that lists properties of buildable (constructable) objects. Could be used as an adjective.
+battery,Bateria,,Label for battery (one that stores energy) properties. Could be used as a noun.
+brain,Mózg,,Label for menu about the state of the brain. Could be used as a noun for a body part.
+cleanable,Możliwe do Wyczyszczenia,,Adjective. Used as a label for menu for configuring cleanable items.
+production.settings,Ustawienia Produkcji,,Label for a menu where you can configure devices that produce items
+emblem,Emblemat,,Label for an emblem component configuration (where you can choose a custom emblem)
+reactor,Reaktor,,Label for menu of reactors (things that generate electricity)
+plant,Roślina,,Noun (as in a flower or garden plant)
+unstored.material,Materiały Nieskładowane,,Label for menu of material piles that aren inside the storage
+goal.ApproachDerelict,Zbliż się do Opuszczonego Statku,,
+goal.ApproachDerelict.desc,"Jesteśmy blisko <b>Opuszczonego Statku</b>. Zainicjuj <b>Zbliżenie</b> na Mapie Gwiezdnej, gdy będziesz gotowy.",,
+task.details,Szczegóły Zadania,,Label for a list about details of a work item (task)
+haul.capacity,Pojemność Holowania,,Label for a ui element that shows how much of material a worker can haul (i.e. 20 pieces)
+carrying.being,Niesie Istotę,,Label for a UI element when a worker is carrying another worker or a colonist
+drop.verb,Opuść,,"Verb, for a button label that forces the worker to drop something"
+carrying.obj,Niesie Objekt,,
+situation.Tension,Napięcie,,"As in ""stress level"" of the player"
+difficulty.impossible,Niemożliwe,,
+situation.Influence,Wpływ,,A level of influence player has over the game. This will be a label for the number of this statistic.
+situation.TargetTension,Docelowe Napięcie,,Label for a chart that shows level for the value of story difficulty that the game will try to produce
+quest.step.set.dest.type,Ustal cel: <b>{0}</b>,,"{0} will be Planet, Space Ship, Black Hole, etc"
+quest.step.set.dest.type.tip,"Otwórz <b>Mapę Gwiezdną</b>, kliknij na <b>{0}</b> i wybierz opcję: <b>{1}</b>.",,"{0} will be Planet, Space Ship, etc, {1} will be an existing translation saying ""Travel To"""
+quest.step.reach.so.type,Dotrzyj do <b>{0}</b>,,"{0} will be Planet, Space Ship, Black Hole, etc"
+quest.step.reach.so.type.tip,"Poczekaj, aż twój statek dotrze do <b>{0}</b>. Jeśli statek się nie porusza, sprawdź czy jest gotowy do lotu, czy nie ma deficytu energii elektrycznej, czy cel jest ustalony i czy <b>{1}</b> ma pilota.",,"{0} will be Planet, Space Ship, etc, {1} will be device name (""Bridge Controls"")"
+quest.step.start.expedition,Rozpocznij Wyprawę,,
+quest.step.start.expedition.tip,"Otwórz <b>Mapę Gwiezdną</b>, a następnie kliknij pobliską planetę i wybierz opcję: <b>{0}</b>. Po wykonaniu przez wyprawę wyznaczomych prac, otwórz <b>Kontrole Wyprawy</b>, klikając nazwę wyprawy w Panelu Wydarzeń, <b>Wycofaj Wyprawę</b> i poczekaj na powrót <b>Promu</b>.",02.09.2023,"{0} will be another translation (""Launch Expedition"")"
+quest.ExplorePlanet,Odkryj Pobliską Planetę,,
+quest.ExplorePlanet.desc,"Czas przetestować możliwości lotu naszego statku. W pobliżu znajduje się planeta, spróbujmy do niej dotrzeć i użyć <b>Promu</b>, aby rozpocząć wyprawę.",,
+quest.VisitAnotherSystem,Odwiedź inny system gwiezdny,,
+quest.VisitAnotherSystem.desc,Po zakończeniu eksploracji obecnego systemu powinniśmy odbyć podróż międzygwiezdną i odwiedzić nowy system gwiezdny.,,
+ad.rej.floor.not.constructed,Najpierw trzeba zbudować podłogę,,
+ad.rej.no.floor,Brak podłogi pod spodem. Zleć budowę podłogi lub anuluj to zlecenie.,,
+too.hot.tip,"Jeśli w pomieszczeniu zrobi się zbyt gorąco, zamontuj kilka <b>Radiatorów</b>, aby odeprzeć upał, lub zadbaj o to, aby pomieszczenie miało większą powierzchnię wystawioną na otwartą przestrzeń w pobliżu źródła ciepła.",,
+hold.to.select.multiple,"Przytrzymaj <b>{0}</b>, aby zaznaczyć wiele",,"{0} is the key binding, i.e. SHIFT"
+ship.preview.tip,Ten podgląd pokazuje kilka początkowych kroków algorytmu generowania statków. W niektórych scenariuszach wynik końcowy może wyglądać zupełnie inaczej.,,
+engine.power.tip,"Wartość Mocy Silnika nie obejmuje silników, które nie są istotne w bieżącej warstwie Mapy Gwiezdnej.",,
+engine.min.push.tip,"Większy statek wymaga więcej silników, by go poruszyć. Może być konieczne dodanie paru silników.",,
+engine.wrong.layer.tip,Ten silnik nie działa w obecnej warstwie Mapy Gwiezdnej.,,
+not.enough.engine.power,"Obecna konfiguracja silnika może zapewnić <b>{0}</b> mocy. Nasz statek potrzebuje co najmniej <b>{1}</b>, aby się poruszyć. Dodaj więcej silników lub zmniejsz rozmiar statku. (Obecny rozmiar: <b>{2}</b>)",,"{0} and {1} are something like 50kW. {2} is just an integer number, like 1230"
+engines.too.weak,Silniki są za słabe,,
+difficulty.peaceful,Pokojowy,,
+goal.AddMoreCPU,Dodaj więcej mocu CPU,,
+goal.AddMoreCPU.desc,Nasza sieć elektroenergetyczna staje się zbyt duża dla obecnej pojemności CPU. Powinniśmy zbudować i podłączyć więcej <b>Modułów CPU</b>.,27.07.2023,
+no.label,Brak etykiety,,"For labeling devices, shown when there is no label assigned to an object"
+set.label,Ustaw etykietę,,Title for action to set the label
+label,Etykieta,,"As in ""tag"", ""name"". Noun."
+size,Rozmiar,,Noun.
+offset,Offset,,Vertical or horizontal offset. Noun.
+research.labeling,Etykietowanie,,
+research.labeling.desc,Odblokowuje etykiety dla urządzeń,,
+objects.furniture.sign,Znak,,"As in ""sign post"""
+objects.furniture.sign.desc,"Płaski panel z własnym zasilaniem, który może wyświetlać wiadomości.",,
+research.sign,Znak,,"As in ""sign post"". Noun."
+height,Wysokość,,noun
+width,Szerokość,,noun
+color.hue,Odcień,,color property (H in HSL)
+color.saturation,Nasycenie,,color property (S in HSL)
+color.luminosity,Jasność,,color property (L in HSL) 
+steam.connection.unavailable,"Nie udało się nawiązać połączenia ze Steam. Integracja Osiągnięć Steam i Warsztatu nie będzie działać. Kroki rozwiązywania problemu:<br> - Sprawdź połączenie internetowe i ustawienia zapory<br> - Upewnij się, że Steam jest uruchomiony<br> - Uruchom ponownie Steam<br> - Uruchom ponownie komputer<br> - Zrób sobie przerwę i idź na spacer",,
+combat.ongoing,W trakcie walki,,
+bot.cpu.limit,Boty zużywają CPU,,
+bot.cpu.limit.tip,"Jeśli włączone, robotyczni pracownicy będą zużywać CPU. Będziesz musiał zbudować i podłączyć <b>Moduły CPU</b>, aby zwiększyć swoją siłę roboczą. Jeśli nie ma wystarczającej ilości CPU, niektórzy pracownicy zostaną wyłączeni.",,
+modifier.NoCPULimit,Wyłącz zużycie Cpu przez boty,,
+outer.room.id,Zewnętrzna Strefa #{0},,
+no.landing.zone,Brak Strefy Lądowania,,
+no.landing.zone.tip,"Twój statek nie ma wystarczającej ilości obszarów lądowania wystawionych na otwartą przestrzeń. Może to spowodować, że nadlatujące statki kosmiczne uderzą w kadłub, gdy będą próbowały lądować na twoim statku. Tylko solidna, nieuszkodzona podłoga wystawiona na otwartą przestrzeń nadaje się do lądowania.",,
+area.exposed.to.space,Obszar wystawiony na działanie przestrzeni,,
+area.exposed.to.space.tip,"Masz wystarczająco dużo miejsca do lądowania wystawionego na otwartą przestrzeń, które może być wykorzystane jako strefa lądowania dla nadlatujących statków kosmicznych",,
+must.be.outdoors,Musi być na zewnątrz,,
+must.be.outdoors.tip,"To urządzenie może nie działać zgodnie z oczekiwaniami, gdy jest zamknięte. Przenieś je w miejsce, które ma wyjście na otwartą przestrzeń lub zburz ścianę, aby to miejsce było skierowane na zewnątrz.",,
+must.be.indoors,Musi być wewnątrz,,
+must.be.indoors.tip,"To urządzenie może nie działać zgodnie z oczekiwaniami, gdy jest wystawione na otwartą przestrzeń. Przenieś je w miejsce, które jest całkowicie zamknięte lub ogrodź otaczający obszar.",,
+no.build.zone,Brak Strefy Budowania,,
+no.build.zone.tip,"Nie możesz budować podłóg i ścian w strefie bez budowy. Musi być ona wolna, aby statek mógł latać.",,
+no.fly.zone,Brak Strefy Latania,,
+no.fly.zone.tip,"Nie możesz latać, jeśli w Strefie Braku Latania znajduje się jakakolwiek struktura. Dotyczy to również opuszczonych statków. Musisz wyciągnąć, zdemontować lub porzucić części lub statki w strefie zakazu lotów, zanim twój statek będzie mógł odlecieć. Użyj nakładki Sekcje, aby porzucić sekcje i statki.",,
+selected.color,Wybrany Kolor,,
+overlay.tip.Tint,Maluj,,verb
+tool.tint,Maluj,,verb
+paint.floor,Maluj Podłogę,,
+paint.walls,Maluj Ściany,,
+erase.floor,Wymaż Podłogę,,
+erase.walls,Wymaż Ściany,,
+color.pick,Wybierz,,short action verb on button that picks color (eyedropper tool)
+no.color.selected,Brak Wybranego Koloru,,
+save.color,Zapisz Kolor,,
+new.tech,Nowa Technologia,,
+tint.sys.unlocked,<b>Nakładka Malowania</b> jest już dostępna!,,
+tint.sys.locked,"Aby odblokować tę funkcjonalność, zbadaj technologię <b>Malowania</b>.",,
+research.paint,Malowanie,,
+research.paint.desc,Odblokowuję nakładkę <b>Malowania</b>,,
+structure.doors.door02,Wewnętrzne Drzwi,,
+structure.doors.door02.desc,Automatyczne wewnętrzne drzwi,,
+objects.devices.autopainter,Auto Malowanie,,
+objects.devices.autopainter.desc,"Uwalnia nanoboty przenoszące cząsteczki pigmentu, które mogą zmienić kolor większości powierzchni.",,
+obj.materials.pigmentblue,Niebieski Pigment,,
+obj.materials.pigmentblue.desc,Pigment koloru niebieskiego.,,
+obj.materials.pigmentgreen,Zielony Pigment,,
+obj.materials.pigmentgreen.desc,Pigment koloru zielonego.,,
+obj.materials.pigmentred,Czerwony Pigment,,
+obj.materials.pigmentred.desc,Pigment koloru czerwonego,,
+current.color.estimate.tip,"Szacunkowa liczba płytek, które można pomalować wybranym kolorem.",,
+max,Maks,,"abbreviation for ""maximum"". Should be as short as possible, goes on a short button"
+obj.materials.poppyheads,Główki Makowe,,
+obj.materials.poppyheads.desc,"Wspaniały okaz botaniczny, znany ze swojego urokliwego wyglądu i zastosowania kulinarnego, od stuleci fascynuje człowieka.",,
+obj.materials.poppypetals,Płatki Maku,,
+obj.materials.poppypetals.desc,"Delikatne, jaskrawo kolorowe i często pomarszczone, dzięki czemu dodają uroku ogrodom i kompozycjom kwiatowym.",,
+obj.plants.poppy,Maks,,
+obj.plants.poppy.desc,"Kwitnąca roślina zielna o papierowych płatkach, często wykorzystywana w celach leczniczych i kulinarnych.",,
+obj.materials.cornflowerpetals,Płatki Chabru,,
+obj.materials.cornflowerpetals.desc,Niebieskie płatki mają zastosowanie w celach leczniczych i są wykorzystywane do produkcji kolorowych barwników.,,
+obj.plants.cornflower,Chaber,,
+obj.plants.cornflower.desc,Pospolity niebieski kwiat ze Starej Ziemi.,,
+cannot.afford,Nie stać cię,,Warning displayed in tooltip when something is too expensive
+can.buy.count,Możesz kupić: {0},,{0} is a the number of items the player can afford to buy
+tool.plan.move,Przesuń Plan,,
+tool.plan.move.desc,"Kliknij i przeciągnij, aby przesunąć plan w dowolnym kierunku.",,
+lightmap.scale,Jakość Mapy Świetlnej,,
+lightmap.scale.tip,"Wizualna różnica między mapą światła wysokiej i niskiej jakości może być zauważalna tylko po oddaleniu kamery. Aczkolwiek jakość mapy światła może mieć duży wpływ na wydajność, szczególnie w przypadku procesorów graficznych niższej klasy.",,
+lightmap.cell.size,Rozmiar Komórki Mapy Świetlnej,,
+lightmap.cell.size.tip,"Mniejszy rozmiar komórki może wyglądać lepiej po oddaleniu, ale może obniżyć wydajność. Większy rozmiar komórki może wymagać zwiększenia maksymalnej liczby świateł na komórkę lub zacznie wyglądać na zepsuty, gdy oddalisz kamerę. Nie używaj dużych rozmiarów komórek w połączeniu z niską jakością mapy świetlnej.",,
+lightmap.max.lights.per.cell,Maksymalna Ilość Świateł na Komórkę,,
+lightmap.max.lights.per.cell.tip,"Jeśli widzisz ciemny wzór przypominający siatkę, gdy oddalasz kamreę, zwiększ maksymalną liczbę świateł na komórkę. Więcej świateł na komórkę może negatywnie wpłynąć na wydajność w przypadku procesorów graficznych niższej klasy.",,
+light.intensity,Globalna Intensywność Światła,,
+light.intensity.tip,Dostosowuje jasność wszystkich źródeł światła. Nie ma to wpływu na światło otoczenia.,,
+range,Zasięg,,"Noun. as in ""reachable distance"". range of a gun, or a light source."
+ignore.combat,Ignoruj Walkę,,
+pixel.art,Sztuka Pikselowa,,
+pixel.art.low.budget,Sztuka Pikselowa Niskiego Budżetu,,
+modifier.ExplosionBias,Skłonność do Wybuchów: {0},,how likely explosions can occur. {0} will be from -100% to +100%
+modifier.ExplosionBias.desc,"Dostosowuje prawdopodobieństwo eksplozji spowodowanych reakcjami łańcuchowymi (uszkodzenia, zwarcia, awarie konstrukcyjne).",,
+space.object.PlanetPOI,Punkt Zainteresowania,,
+space.object.info.PlanetPOI,Ten obszar zawiera coś wartego zbadania. Możesz tu rozpocząć wyprawę.,,
+space.object.Moon,Księżyc,,
+space.object.info.Moon,"Naturalny satelita, który krąży wokół planety dzięki przyciąganiu grawitacyjnemu. Księżyce różnią się rozmiarem, kształtem i składem i mogą mieć różne cechy powierzchni, środowiska i zasoby.",,
+ore.deposit,Złoże {0},,"{0} will be replaced with ore name, such as Iron"
+mining.difficulty,TrudnośćWydobywania,,
+mining.difficulty.info,"Gdy zasób jest wydobywany ze złoża, trudność wydobycia tego złoża wzrasta. Wyższa trudność zmniejszy wydajność wydobycia. Zaawansowany sprzęt górniczy może zwiększyć wydajność wydobycia ze złoża.",,
+exp.mine.resource.title,Wydobywanie {0} ({1:0.00}/Dzień),,"{0} is resource name (i.e. Iron), {1:0.00} will become a number, like 1.35"
+est.mining.rate,Tempo Wydobycia: {0:0.00}/Dzień,16.09.2023,"{0:0.00} will become a number, like 1.35"
+orders,Rozkazy,,"noun, as in current orders"
+min.mine.rate,Minimalne Tempo,,
+min.mine.rate.tip,"Wyprawa zakończy się automatycznie, gdy tempo wydobycia spadnie poniżej tego progu",,
+objects.devices.autodrillrig,Automatyczna Wiertnica,,
+objects.devices.autodrillrig.desc,Automatyczna Wiertnica to sterowany sztuczną inteligencją system wydobywczy przeznaczony do precyzyjnego wydobywania surowców i bezproblemowej integracji z operacjami zautomatyzowanymi.,18.10.2023,Added note about no possibility to retrieve.
+research.miningautomation,Automatyzacja Górnictwa,,
+quick.search.tip.starmap,"Wpisz nazwę obiektu kosmicznego, który chcesz znaleźć.",,
+quick.search.tip.research,"Wpisz nazwę badań lub urządzenia, które chcesz znaleźć.",,
+quick.search.tip,"Wpisz nazwę urządzenia, które chcesz zbudować, nazwę narzędzia, które chcesz wywołać, nazwę obiektu, który chcesz znaleźć, lub wpis w kodeksie, który chcesz przejrzeć.",,
+overlay.tip.Search,Szukaj,,
+deploy.resource.miner,Rozmieść Wydobywacza Zasobów,,
+resource.miner,Wydobywacz Zasobów,,
+resource.miner.tip,Możesz rozmieścić tego automatycznego wydobywacza do złóż zasobów. Maszyna będzie próbowała zbierać zasoby do momentu zapełnienia swojej wewnętrznego magazynu.,,
+deploy,Rozmieść,,"Verb, as in deploy the troops"
+temp.storage,Tymczasowe Przechowywanie,,
+known.resource.deposits,Znane Depozyty Zasobów,,
+planet.resource.filter.nearby,Bliskie Depozyty Zasobów,,
+planet.resource.filter.all.mined,Obecnie Wydobywane Depozyty,,
+planet.resource.filter.nearby.mined,Obecnie Wydobywane Bliskie Depozyty,,
+planet.resource.filter.all.not.mined,Niewydobyte Depozyty,,
+planet.resource.filter.nearby.not.mined,Niewydobyte Bliskie Depozyty,,
+codex.m.defenses.quantumbarrier.desc,"Bariera Kwantowa zapewnia pole siłowe, które może blokować nadlatujące pociski, w tym różne rodzaje asteroid i meteorytów. Nie blokuje kapsuł oraz wahadłowców.<br><br>Posiadanie<b>Kontroli Bezpieczeństwa</b> ułatwi zarządzanie wieloma Barierami Kwantowymi jednocześnie.<br><br>Bariera Kwantowa musi być umieszczone na zewnątrz, w obszarach, które nie są zamknięte ścianami.",,
+codex.m.defenses.quantumbarrier,Bariera Kwantowa,,
+codex.m.defenses.tractorbeam,Wiązka Kierująca,,
+codex.m.defenses.tractorbeam.desc,"Wiązki Kierujące mogą wpływać na trajektorię wolno poruszających się pocisków, takich jak asteroidy, meteoryty i różne kapsuły.<br><br>Musisz zbudować i połączyć <b>Cel Wiązki Kierującej</b>, aby móc używać Wiązki Kierującej.<br><br>Wiele Wiązek Kierujących może kierować ten sam pocisk w stronę tego samego lub innego celu. Siła z każdej Wiązki Kierującej sumuje się, zwiększając wpływ na trajektorię pocisku.<br><br>Musisz ręcznie wybrać Pocisk i Cel w interfejsie konfiguracji każdej Wiązki Kierującej, aby rozpocząć kierowanie pociskiem. Użyj <b>Kopiuj Konfigurację</b>, aby skopiować Pocisk i Cel do innych Wiązek Kierujących.",,
+codex.m.defenses,Ochrona,,
+mining.difficulty.value,Trudność Wydobywania: {0},,"{0} will become a numeric value, like 12.34"
+scan.found.faction,Skanowanie wykryło obecność frakcji <b>{0}</b> na <b>{1}</b>.,,{0} will be faction name {1} will be planet name
+scan.target.faction,Frakcja,,
+faction.standing.tip,Twoje relacje z frakcją <b>{0}</b>: <b>{1}</b>,,"{0} - faction name (i.e. pirates), {1} - standing value, could be number, or a word like good, bad, etc"
+space.object.Port,Port Kosmiczny,,
+space.object.info.Port,"Centrum, w którym możesz handlować i kontaktować się z frakcją będącą właścicielem tej planety.",,
+sell.ship.section,Sekcja Sprzedaży na Statku,,
+sell.ship.section.hint,Możesz podzielić swój statek na sekcje i sprzedać je w stoczni.,,
+shipyard.section.offer,<b>{0}</b> oferuje zapłatę <b>{1}</b> za tę sekcję statku.,,"{0} will be a merchant name or a space port, {1} will be the sum"
+time.sensitive.operation,To jest operacja wrażliwa na czas. Spróbuj ponownie i nie zmieniaj prędkości gry.,,
+merchant.type.MerchantSpacePortGood,Sklep Portu Kosmicznego,,
+merchant.type.MerchantSpacePortEvil,Podejrzany Sklep Portu Kosmicznego,,
+space.object.Resource,Zloże Zasobu,02.09.2023,
+space.object.info.Resource,"Jest to złoże surowców, które można wydobywać.",,
+space.object.Anomaly,Anomalia,,
+space.object.info.Anomaly,Radary wykrywają dziwne wzorce aktywności w tym obszarze. Zalecana jest ostrożność.,,
+expedition.already.in.progress,Wyprawa do <b>{0}<b> jest już w toku.,,"{0} is the object type, like Anomaly"
+rebuild.graphics.cache,Odbudowa Pamięci Podręcznej Grafiki,,
+rebuild.graphics.cache.tip,"Jeśli brakuje niektórych sprite'ów (małych ikonek) lub są one wyświetlane nieprawidłowo, odbudowa pamięci podręcznej grafiki może pomóc. Naciśnięcie tego przycisku spowoduje usunięcie następującego folderu:<br><br><b>{0}</b>",,
+evt.exp.crash.site.survivors.title,Znaleziono miejsce katastrofy,,
+evt.exp.crash.site.survivors.choice,"Wyprawa odkryła miejsce katastrofy, w którym najwyraźniej są ocaleni. Czy chcesz zabrać ich na nasz statek?",,
+evt.exp.crash.site.survivors.good.desc,Wyprawa sprowadziła <b>{0} ocalałych</b> z miejsca katastrofy.,,{0} is a number
+evt.exp.crash.site.survivors.ambush.desc,"Ekspedycja sprowadziła <b>{0} najeźdźców</b>, którzy udawali ocalałych z katastrofy.",,{0} is a number
+evt.exp.crash.site.survivors.good.title,Uratowano ocalałych z miejsca katastrofy,,
+evt.exp.crash.site.survivors.ambush.title,Zaatakowany przez najeźdźców z miejsca katastrofy,,
+verb.rescue,Uratuj,,
+verb.leave,Opuść,,
+verb.respond,Odpowiedz,,
+evt.exp.raider.extortion.title,Wyprawa wpadła w zasadzkę!,,
+evt.exp.raider.extortion.choice,"Najeźdźcy zaatakowali <b>{0}</b> i żądają okupu w wysokości <b>{1}</b>. Jeśli zapłacimy teraz, oddadzą nasz prom wraz z załogą.",,"{0} is shuttle name, {1} is some money amount"
+verb.pay.ransom,Zapłać Okup,,
+verb.refuse,Odmów,,
+evt.exp.raider.extortion.paid.desc,"Zapłaciliśmy okup, a najeźdźcy zostawili nasz prom. Nikt nie został ranny.",,
+evt.exp.raider.extortion.fight.won.desc,Nie zapłaciliśmy okupu. Była walka i nasza załoga wygrała!,,
+evt.exp.raider.extortion.fight.lost.desc,Nie zapłaciliśmy okupu. Była walka i straciliśmy prom i naszą załogę.,,
+evt.exp.raider.extortion.resolved.title,Zasadzka na Wyprawę Zakończona,,
+verb.collect,Zbierz,,As in gather or pickup
+vsync.off.warning,<b>Nie zaleca się wyłączania Synchronizacji Pionowej!</b><br>Spowoduje to niepotrzebne obciążenie CPU i GPU oraz skróci czas symulacji. Gra z prędkością 10x może działać znacznie wolniej!,,
+vsync.off.autofix,"Wygląda na to, że wcześniej wyłączyłeś Synchronizację Pionową. Gra automatycznie włączyła ją w tej aktualizacji. Możesz ją ponownie wyłączyć w ustawieniach wideo, ale zmarnuje zasoby CPU i GPU oraz zmniejszy prędkość symulacji.",,
+noun.recommended,Zalecane,,
+objects.devices.cargocopter,Śmigłowiec Transportowy,,
+objects.devices.cargocopter.desc,"Całkowicie zautomatyzowany bezzałogowy statek powietrzny, zaprojektowany w celu rozmieszczania ciężkiego sprzętu na planetach i transportu surowców ze złóż rud.",,
+menu.copters,Śmigłowce,,
+menu.copters.desc,Zautomatyzowane bezzałogowe statki powietrzne,,
+obj.copters.cargocopterflying,Śmigłowiec Transportowy,,
+obj.copters.cargocopterflying.desc,"Całkowicie zautomatyzowany bezzałogowy statek powietrzny, zaprojektowany w celu rozmieszczania ciężkiego sprzętu na planetach i transportu surowców ze złóż rud.",,
