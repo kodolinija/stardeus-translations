@@ -3819,7 +3819,7 @@ unreachable.mat,Nieosiągalny Materiał,,
 nav.fail.flying.cnt,<b>Latający Robotnik </b> nie dotarł do: <b>{0}</b>,,
 nav.fail.grounded.cnt,<b>Przyziemny Robotnik </b> nie dotarł do: <b>{0}</b>,,
 nav.fail.bio.cnt,<b>Istota Biologiczna </b> nie dotarła do: <b>{0}</b>,,
-disable.story.events.btn,Wydarzenia Fabularne [(0)],,"{0} will be X/Y, i.e. 80/80. If some event is disabled it will be 79/80"
+disable.story.events.btn,Wydarzenia Fabularne [{0}],,"{0} will be X/Y, i.e. 80/80. If some event is disabled it will be 79/80"
 disable.story.events.tip,Wszystkie Wydarzenia Fabularne są włączone,,
 disable.story.events.tip.disabled,Wyłączone Wydarzenia Fabularne: {0},,"{0} will be replaced with a comma separated list of event names, i.e. (Asteroid, Meteoroid Shower)"
 placement.tip.spacing.gap,Musi znajdować się w odległości co najmniej {0} kafelków od obiektów z tej samej kategorii,,{0} is a number
@@ -3890,7 +3890,7 @@ scan.in.progress,W trakcie skanowania,,
 scan.target,Cel Skanu: {0},,"Verb. It says what the scanner is currently targeting. Example: ""Scan target: Derelict Ship"""
 scan.stats,Skanowanie uruchomione dla: <b>{0}</b><br>Siła skanu: <b>{1}</b>,,
 scan.not.found,Nie znaleziono {0},,i.e. Uranium not found
-scan.found.on.planet,Znaleziono {0} na {1},,i.e. Found Uranium on Mars
+scan.found.on.planet,Znaleziono <b>{0}</b> na <b>{1}</b>,,i.e. Found Uranium on Mars
 scan.found,Znaleziono {0},,i.e. Found Uranium
 confirm.expedition.to.faction.territory,<b>{0}</b> należy do frakcji <b>{1}</b>. Rozpoczęcie wyprawy pogorszy twoją pozycję u frakcji i może mieć natychmiastowe konsekwencje. Wyprawa nie jest zalecana.,,
 research.systemscanning.desc,Dodaje więcej opcji do Skanera Mapy Gwiezdnej,,
@@ -3984,7 +3984,7 @@ height,Wysokość,,noun
 width,Szerokość,,noun
 color.hue,Odcień,,color property (H in HSL)
 color.saturation,Nasycenie,,color property (S in HSL)
-color.luminosity,Jasność,,color property (L in HSL) 
+color.luminosity,Jasność,,color property (L in HSL)
 steam.connection.unavailable,"Nie udało się nawiązać połączenia ze Steam. Integracja Osiągnięć Steam i Warsztatu nie będzie działać. Kroki rozwiązywania problemu:<br> - Sprawdź połączenie internetowe i ustawienia zapory<br> - Upewnij się, że Steam jest uruchomiony<br> - Uruchom ponownie Steam<br> - Uruchom ponownie komputer<br> - Zrób sobie przerwę i idź na spacer",,
 combat.ongoing,W trakcie walki,,
 bot.cpu.limit,Boty zużywają CPU,,
@@ -4109,7 +4109,7 @@ space.object.Resource,Zloże Zasobu,02.09.2023,
 space.object.info.Resource,"Jest to złoże surowców, które można wydobywać.",,
 space.object.Anomaly,Anomalia,,
 space.object.info.Anomaly,Radary wykrywają dziwne wzorce aktywności w tym obszarze. Zalecana jest ostrożność.,,
-expedition.already.in.progress,Wyprawa do <b>{0}<b> jest już w toku.,,"{0} is the object type, like Anomaly"
+expedition.already.in.progress,Wyprawa do <b>{0}</b> jest już w toku.,,"{0} is the object type, like Anomaly"
 rebuild.graphics.cache,Odbudowa Pamięci Podręcznej Grafiki,,
 rebuild.graphics.cache.tip,"Jeśli brakuje niektórych sprite'ów (małych ikonek) lub są one wyświetlane nieprawidłowo, odbudowa pamięci podręcznej grafiki może pomóc. Naciśnięcie tego przycisku spowoduje usunięcie następującego folderu:<br><br><b>{0}</b>",,
 evt.exp.crash.site.survivors.title,Znaleziono miejsce katastrofy,,
@@ -4142,7 +4142,7 @@ obj.copters.cargocopterflying.desc,"Całkowicie zautomatyzowany bezzałogowy sta
 copter.mission.stage.deploy.miner,Montowanie {0},,"{0} is the resource miner device name, like Autodrill Rig"
 copter.mission.stage.fly.to.ship,Wraca do Statku,,
 copter.mission.stage.fly.to,Leci do {0},,"{0} is the name of the target, like Silicon Deposit, or a device name"
-copter.mission.stage.collect.resource,Zbiera {0},,{0} is material type 
+copter.mission.stage.collect.resource,Zbiera {0},,{0} is material type
 copter.mission.stage.land.on.ship,Ląduje na Statku,,
 copter.mission.stage.leave.ship,Opiuszcza Statek,,
 copter.mission.stage.start,Czeka na dostępny Śmigłowiec,,
@@ -4157,7 +4157,7 @@ expedition.type.mining,Zbieranie Surowców,,
 expedition.type.exploration,Ekspoloracja,,
 space.object.CargoCopter,Śmigłowiec Transportowy,,
 space.object.info.CargoCopter,Ten Śmigłowiec Transportowy jest na misji.,,
-no.task.reason.no.skill.one,Brakuje umiejętności <b>{0}</b>. Obecnie: <b>{1}</b>. Potrzebne: <b>2</b>.,,{0} - skill name. {1} and {2} - a number (skill level). 
+no.task.reason.no.skill.one,Brakuje umiejętności <b>{0}</b>. Obecnie: <b>{1}</b>. Potrzebne: <b>{2}</b>.,,{0} - skill name. {1} and {2} - a number (skill level).
 no.task.reason.job.priority0.one,Priorytet pracownika dla <b>{0}</b> jest ustawiony na <b>0</b>.,,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
 no.task.reason.job.priority.none,"Pominięto <b>{0} </b> zadań, ponieważ pracownik <b>nie może wykonywać zadań tego typu</b>.",,
 no.task.reason.job.priority.none.one,Pracownik nie może wykonywać zadań typu <b>{0}</b> .,,{0} is job type - like construction or hauling
@@ -4179,7 +4179,7 @@ sig.ask.money.unclear.reward.object.4,"Pewien inżynier kontaktuje się z tobą,
 sig.ask.money.unclear.reward.object.5,"Sygnał z podupadłej fabryki prosi o <b>{0}</b> w celu wznowienia produkcji. Sugerują, że mają plany potężnej maszyny, ale nie podają żadnych szczegółów, dopóki nie dostaną pieniędzy.",,
 sig.ask.money.unclear.reward.object.6,"Tajemnicza transmisja zostaje przechwycona z dawno zaginionej kolonii, prosząc o <b>{0}</b>. Wiadomość nie zawiera żadnych informacji o tym, kto ją wysłał, dlaczego potrzebują funduszy lub czy w zamian coś otrzymamy.",,
 sig.ask.money.unclear.reward.object.7,"Anonimowa prośba o <b>{0}</b> została otrzymana z ukrytego źródła. Nadawca nie daje podaje informacji kim jest ani dlaczego potrzebuje pieniędzy, okrywając prośbę aurą tajemnicy.",,
-sig.ask.money.unclear.reward.object.8,"Zniekształcony sygnał alarmowy dociera do naszego statku, zawierający prośbę o <b>{0}<b/>. Wiadomość nie zawiera żadnych szczegółów na temat nadawcy ani jego sytuacji, pozostawiając cię z domysłami na temat celu prośby.",,
+sig.ask.money.unclear.reward.object.8,"Zniekształcony sygnał alarmowy dociera do naszego statku, zawierający prośbę o <b>{0}</b>. Wiadomość nie zawiera żadnych szczegółów na temat nadawcy ani jego sytuacji, pozostawiając cię z domysłami na temat celu prośby.",,
 sig.ask.money.unclear.reward.object.9,"Transmisja wiadomość głosowa trzeszczy w komunikatorach, pilnie prosząc o <b>{0}</b>. Nadawca pozostaje tajemniczy, nie oferując żadnego wyjaśnienia na temat potrzeby ani potencjalnych korzyści, które mogą wyniknąć z przekazania funduszy.",,
 sig.ask.money.unclear.reward.object.10,"Przychodzi krótka i enigmatyczna wiadomość, po prostu żądająca <b>{0}</b>. Mają głos dobrej osoby.",,
 sig.ask.money.unclear.reward.object.11,"Intrygująca transmisja od wykwalifikowanego rzemieślnika opisuje piękny, ręcznie wykonany przedmiot, który ma potencjał odblokowania nieopisanych mocy. W miarę rozwoju wiadomości rzemieślnik wspomina, że ​​chętnie rozstałby się z tym niesamowitym dziełem, prosząc o zaledwie <b>{0}</b> na pokrycie swoich wydatków.",,
@@ -4273,7 +4273,7 @@ sig.extortion.0,"Kontakt ostrzega, że ​​jeśli nie przekarzesz im <b>{0}</b
 sig.extortion.1,"Głos grozi, że odmowa przekazania <b>{0}</b> może mieć tragiczne konsekwencje.",,
 sig.extortion.2,"Chrapliwy głos ostrzega, że ​​odrzucenie ich rozkazu o <b>{0}</b> może prowadzić do żalu i rozpaczy.",,
 sig.extortion.3,"Kontakt agresywnie żąda <b>{0}</b> podniesionym głosem. Dźwięk broni uzbrajanej w tle daje poczucie, że atak jest nieuchronny.",,
-sig.extortion.4,"Wrogi głos nakazuje ci przekazać <b>{0</b>, podczas gdy dźwięk włączającego się roju dronów bojowych wysyła przerażające ostrzeżenie przed tym, co może się stać.",,
+sig.extortion.4,"Wrogi głos nakazuje ci przekazać <b>{0}</b>, podczas gdy dźwięk włączającego się roju dronów bojowych wysyła przerażające ostrzeżenie przed tym, co może się stać.",,
 sig.extortion.5,"Groźny ton kontaktu nalega na natychmiastowe otrzymanie <b>{0} </b>. Odległy szum silników okrętu wojennego sugeruje, że nie zawahają się użyć siły, jeśli będzie to konieczne.",,
 sig.extortion.6,"Głos pełen wściekłości żąda <b>{0}</b>. Niepodważalny dźwięk przygotowywanej w tle jednostki ciężkiej artylerii nie pozostawia wątpliwości, że nie żartują.",,
 sig.extortion.7,"Kontakt krzyczy do ciebie, abyś natychmiast dostarczył <b>{0} </b>. Groźny dźwięk ładowania armaty energetycznej wywołałby dreszcze na twoim kręgosłupie, gdybyś go jeszcze miał, ostrzega on przed konsekwencjami nieporozumienia.",,
@@ -4294,7 +4294,7 @@ hold.button.for.more.info,"Przytrzymaj {0}, aby uzyskać więcej informacji",,"{
 ui.auto.pack,Auto kompaktowanie Interfejsu Użytkownika,,
 ui.auto.pack.tip,"Jeśli włączono funkcję Auto kompaktowania, niektóre elementy listy UI mogą zostać zgrupowane w celu zmniejszenia długości listy. Może być konieczne ponowne uruchomienie gry, aby zastosować zmiany tego ustawienia.",,
 situation.BlackHoleJumps,Skoki przez Czarną Dziurę,,
-sys.locked.by.research,"Aby odblokować tę funkcjonalność, zbadaj <b>{0}<b>.",,{0} is technology name
+sys.locked.by.research,"Aby odblokować tę funkcjonalność, zbadaj <b>{0}</b>.",,{0} is technology name
 mining.auto.unlocked,Teraz możesz zbudować sprzęt niezbędny do automatyzacji operacji górniczych. Nakładka <b>{0}</b> została aktywowana.,,
 verb.mine,Wydobywaj,,as in mine the iron ore deposit
 compatible.items,Kompatybilne Przedmioty,,"Items could be anything, fuel, clothing, equipment, devices"
