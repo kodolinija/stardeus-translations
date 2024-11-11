@@ -173,7 +173,7 @@ region.name,Região {0},,{0} is some name
 sector.name,Setor {0},,{0} is some name
 sleep.deprivation,Privação de Sono,,
 developing.condition,Sintomas de {0} ({1}),,"{0} is the condition name, {1} is percentage. example: Developing depression (23%)"
-cond.Depression.desc,"Depressão tem vários fatores que causam seu aparecimento. Caso o Ser não esteja tendo suas necessidades como diversão atendidas eles podem desenvolver Depressão. Construa coisas que tragam o que está em falta como diversão, decorações ou mesmo uma melhor iluminação".,,
+cond.Depression.desc,"Depressão tem vários fatores que causam seu aparecimento. Caso o Ser não esteja tendo suas necessidades como diversão atendidas eles podem desenvolver Depressão. Construa coisas que tragam o que está em falta como diversão, decorações ou mesmo uma melhor iluminação.",,
 effect.magnetic.storm,Tempestade Magnética,,
 effect.magnetic.storm.desc,Esse setor está permanentemente com tempestades Magnéticas. Ela interfere com equipamentos elétricos.,,
 effect.dust.storm.desc,Esse setor está permanentemente com tempestades de poeira. Ela interfere com painéis solares.,,
