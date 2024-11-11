@@ -1,4 +1,4 @@
-Key  (PURPLE means not ready for translation yet),Translation,Version,Comment (context for translators)
+Key,Translation,Version,Comment
 randomize.starting.sector,Inicio aleatório,,label for button that select a random starting sector in the starmap
 randomize.starting.sector.tip,Vai na sorte.,,
 space.object.Sector,Setor,,
