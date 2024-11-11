@@ -1,0 +1,370 @@
+Key  (PURPLE means not ready for translation yet),Translation,Version,Comment (context for translators)
+randomize.starting.sector,Inicio aleatório,,label for button that select a random starting sector in the starmap
+randomize.starting.sector.tip,Vai na sorte.,,
+space.object.Sector,Setor,,
+space.object.Region,Região,,
+noun.map.view,Visualizar mapa,,label for buttons that can switch the map view mode
+noun.hyperjump,Hiper salto,,label for hyperjump details
+exit.hyperspace,Sair do Hiper Espaço,,
+noun.hyperspace,Hiper Espaço,,
+enter.hyperspace,Entrar no Hiper Salto,,
+verb.hyperjump,Hiper salto,,action verb on a button that executes a hyperjump
+unable.to.hyperjump,Hiper Salto indisponível.,,
+hyperjump.tip.expedition,Termine as <b>Expedições</b> para prosseguir.,,
+hyperjump.tip.copter,Temos <b>Cargo Coptéro</b> trabalhando.,,
+noun.custom.location,Local escolhido,,
+noun.current.destination,Destino atual,,
+enter.region,Entrar Região,,
+enter.sector,Entrar Setor,,
+obj.materials.phasium,Cristal Phasium,,
+obj.materials.phasium.desc,"Um raro, cristal semi metálico que emite um luz purpura, mesclando o físico com o energético.",,
+market.group.name.Hyperfuel,Hiper Combustível,,
+obj.materials.fusioncell,Célula de fusão,,
+obj.materials.fusioncell.desc,"Criado do cristal Phasium, esse combustível é utilizado em Hiper Saltos.",,
+noun.hyperdrive,Hiper Motor,,
+hyperspace.missing.engine,Hiper Motor indisponível.,,
+hyperspace.not.charged,Hiper Motor descarregado.,,
+noun.hyperjump.charge,Carga de Hiper Salto,,Label for hyperdrive engine readiness percentage
+hyperjumps.available,Hiper Saltos,,Label for the number of available hyperjumps
+quest.step.use.hyperjump.relay,Usar Hiper Salto de estação,,
+quest.step.use.hyperjump.relay.tip,"Selecione <b>{0}</b> no Mapa Estelar, então clique <b>{1}</b>.",,{0} is Hyperjump Relay name {1} is the menu option name you have to select to use it
+space.object.HyperjumpRelay,Estação de Hiper Saltos,,
+space.object.info.HyperjumpRelay,"Uma massiva estrutura espacial, com o proposito de ajudar Naves a realizar Hiper Saltos mesmo que não tenham potência necessária.",,
+,,,
+quest.ProvideRepairStation,Estabelecer Estação de Reparos,,
+quest.ProvideRepairStation.desc,Sintéticos podem ser reparados na <b>Estação de Reparos</b>. Sempre tenha algumas disponíveis.,,
+quest.StartAnExpedition,Iniciar Expedições,,
+quest.StartAnExpedition.desc,Detectamos a presença de Jazidas próximas. Use a <b>Nave Auxiliar</b> para iniciar uma <b>Expedição</b>.,,
+quest.PerformHyperjump,Execute um Hiper Salto,,
+quest.PerformHyperjump.desc,Não devemos permanecer em um local por muito tempo. Execute um pequeno <b>Hiper Salto</b> para explorar outras regiões.,,
+quest.PerformHyperjump.fusiondrive.tip,Executar um <b>Hiper Salto</b> requer um <b>Motor de Fusão</b> e <b>Célula de Fusão</b> como combustível.,,
+quest.TradeWithSpaceStation,Comercio na Estação,,
+quest.TradeWithSpaceStation.desc,O comercio é necessário para adquirir fundos ou recursos. Encontra uma <b>Estação Espacial</b> e comece a Negociar.,,
+quest.VisitAnotherRegion,Explorar Regiões do Espaço,,
+quest.VisitAnotherRegion.desc,Já passou da hora de começarmos a explorar o Espaço. Encontre uma <b>Estação de Hiper Saltos</b> e execute um <b>Hiper Salto</b> de grandes distâncias.,,
+quest.step.execute.trade.tip,"Abra o <b>Mapa Estelar</b>, selecione a <b>Estação Espacial</b>, clique em <b>Negociar</b> para iniciar um escambo.",,
+obj.materials.aerolith,Aerólito,,
+obj.materials.terranite,Terramina,,
+obj.materials.edenium,Edenio,,
+obj.materials.hydronium,Hidronio,,
+obj.materials.aerolith.desc,Um raro metal capaz de purificar gases.,,
+obj.materials.terranite.desc,Um cristal âmbar com propriedades de transformação geológicas.,,
+obj.materials.edenium.desc,"Um brilhante cristal, com a propriedade de intensificar o crescimento de vegetais.",,
+obj.materials.hydronium.desc,"Um raro mineral capaz de condensar oxigênio em água.",,
+scenario.NoRobots,Nenhum Sintético,,
+scenario.NoRobots.tooltip,O maior desafio do jogo. Uma nave com apenas seres biológicos.,,
+objects.devices.storage,Armazém ({0}),2024-09-18,
+space.effect.star,ALERTA: Estrela nas proximidades,,
+space.effect.star.desc,"Estamos próximos a uma <b>Estrela</b>. A eficacia solar é aumentada em <b>{0}</b>, porém a nave está sendo constantemente super aquecida (~<b>{1}</b> por hora).",,{0} is percentage; {1} is degrees celsius or farenheit
+obj.plants.artilleryfungus,Fungo bombardeiro,,
+obj.plants.artilleryfungus.desc,"Um tipo de fungo que se lança em qualquer superfície próxima, é capaz de tomar grandes regiões em pouco tempo.",,
+space.effect.alien.lifeform,ALERTA: Forma de vida detectada,,
+space.effect.alien.lifeform.desc,Nossos sensores detectaram um forma de vida não categorizada. Cautela é recomendada..,,
+,,,
+research.economy.onlineshop,Vendas online,,
+online.shop.unlocked,<b>{0}</b> ficou disponível. Podemos encomendar produtos pagando um preço mais alto.,,{0} is Online Shop
+adj.available,Disponível,,
+create.shop.order,Fazer lista,,
+capsule.delivery,Entrega por capsula,,
+capsule.delivery.tip,Nossa compra será entregue através de <b>{0}</b>.,,{0} is Storage Capsule translation
+exit.hyperspace.first,Essa ação não é permitida durante hiper saltos. Termine o Hiper Salto para executar essa ação.,,
+shop.orders.pending.delivery,Entrega programada,,
+shop.orders.delivered,Entregue,,plural
+shop.orders.delivery.failed,Entrega não finalizada,,
+shop.order.wrong.location.tip,Saímos do local de entrega. Retorne ao local original para receber nossa encomenda.,,
+shop.order.wrong.location,Local incorreto!,,
+shop.order.delivered,Recebido,,singular
+shop.order.lost,Perdido,,
+shop.order.estimated.delivery,Estimativa: {0},,{0} is time
+noun.price,Preço,,
+difficult.start.region.warning,ALERTA. A região espacial selecionada tem uma dificuldade alta e pode não conter os recursos necessários nesse estagio da missão. Deseja realmente prosseguir?,,
+quest.ProvideEntertainment,Xó tédio,,
+quest.ProvideEntertainment.desc,Seres biológicos precisam de lazer ou eles vão começar a ter problemas de sanidade.,,
+story.wreck_empty_ship.intro.6,Essa é uma <b>nave Auxiliar</b>. Ela permite realizar expedições em busca de recurso em locais de interesse. Fundamental para iniciar a coleta de recursos necessários para nossa Nave Mãe.,2024-10-04,
+noun.multiple.items,{0} itens,,{0} will be a number above 1
+craft.order.new,Escala de produção,,label for a button that creates a new order for a device to produce something
+craft.order.settings,Configurações,,label for crafting order settings
+explosion.at,Explosão em {0},,{0} is position coordinate
+tut.prod.online.shop,Podemos encomendar recursos em <b>Vendas Online</b> na aba <b>Carteira</b>.,,
+space.object.info.Asteroid,Um Asteroide estéril flutuando pelo Espaço.,,
+quest.available,Missão disponível,,
+quest.click.to.accept,Clique para aceitar,,
+noun.strength,?Strength?,,
+available.quests,Missões disponíveis,,
+research.required.generic,A pesquisa <b>{0}</b> é necessária para ativar essa função,,{0} is research node name. for example Stock Market
+cryostability.unstable.warning,Essa Câmara de hiper sono está muito instável. Colonistas desenvolveram sérios problemas físicos e mentais caso isso persista. <b>Reestabeleça a conexão energética o mais rápido possível.</b>,,
+quest.MakeStasisAreaSurvivable,Estabilizar a área da câmara,,
+quest.MakeStasisAreaSurvivable.desc,Colonistas precisam de calor e oxigênio para sobreviver. Crie um ambiente apto a vida ao redor das Câmaras de Hiper sono para receber novos tripulantes.,,
+quest.step.heat.area,Aqueça o ambiente com {0},,{0} is device name
+quest.step.heat.area.tip,A aba temperatura ajuda a monitorar as condições em {0}. Construa mais aquecedores se necessário. Esse estagio será completado quando a temperatura atingir {1}.,,{0} is device name {1} is temperature value
+quest.step.oxygenate.area,Oxigenar com {0},,{0} is device name
+quest.step.oxygenate.area.tip,A aba oxigênio ajuda a monitorar as condições em {0}. Construa mais purificadores se necessário. Esse estagio será completado quando a oxigenação atingir {1}.,,{0} is device name {1} is oxygen value
+quest.step.dispose.corpses,Recicle os cadáveres,,
+quest.step.dispose.corpses.tip,Selecione os falecidos e use a opção <b>{0}</b> no menu de informação para ordenar seu processamento. Esse estagio será completado assim que todos os cadáveres estiverem sido reciclados.<br><br>A maneira mais facil de selecionar todos os falecidos é usando os ícones de grupos no canto superior direito e selecionar falecidos.,,{0} will be button name saying Dispose
+quest.DisposeOfDeadBodies,Reciclar os cadáveres,,
+quest.DisposeOfDeadBodies.desc,"Podemos reciclar cadáveres para conseguir recursos como <b>Proteína</b> entre outros. Alguns dos falecidos podem estar infectados com <b>Parasitas</b>. Ao ser recicla os parasitas são esterilizados e feito inertes. um olhar apurado pode identificar partes infectadas ao examinar as <b>Condições</b> do corpo.",,
+scan.hyperspace.warning,Escanear desativado no Hiper Espaço.,,
+space.object.info.Region,Conglomerado de Setores.,,
+space.object.AsteroidZone,Cinturão de Asteroides,,
+space.object.info.AsteroidZone,"Uma região com sedimentos espaciais, alguns podem conter recursos.",,
+space.object.info.Sector,Setor não explorado,,
+quest.BuildRadar,Construa um Radar,,
+quest.BuildRadar.desc,Um <b>Radar</b> escaneia objetos e outros corpos celestes para fornecer informações. É essencial ter pelo menos um ativo todo o tempo.,,
+space.object.info.SpaceEvent,Esse setor espacial pode conter algo. Visite para ter mais informações.,,
+objects.devices.tradeportal,Portal de trocas,,
+objects.devices.tradeportal.desc,Um mecanismo de transferência de matéria que é muito usado para efetuar trocas entre estações e Naves.,,
+trade.portal.not.available,Portal de trocas indisponível,,
+trade.portal.required,Portal de trocas é requerido para essa negociação,,
+no.trade.portal,Sem Portal de trocas,,
+trade.portal.ready,Portal de trocas funcional,,
+space.object.TradeZone,Zona Franca,,
+space.object.info.TradeZone,Um local aonde vários mercadores se reúnem para realizar negócios.,,
+noun.hyperjump.short,Hiper Salto Curto,,
+noun.hyperjump.long,Hiper Salto Longo,,
+goal.EnsureShipCPUVentilation.desc,"Nosso <b>Computador de Bordo</b> produz calor durante sua operação. Podemos substituir alguns piso próximos por <b>Andaimes</b> para ventilar a sala, ou construir mais <b>Dissipadores ao redor do Computador</b>.",2024-10-16,
+quest.EstablishProduction,A produção precisa começar,,
+quest.EstablishProduction.desc,"Nossos materiais iram acabar com nosso crescimento, precisamos estabelecer maneiras de conseguir/produzir/fabricar mais recursos.",,
+quest.EstablishSmelting,Aqueça a forja,,
+quest.EstablishSmelting.desc,Os minérios que conseguirmos precisam ser forjados em Barras. Faça isso uma possibilidade.,,
+placement.tip.ports,O ponto de acesso precisa estar sempre livres. Exceto por cadeiras.,,
+goal.GetMoreResource.desc,Estamos quase sem <b>{0}</b>. Use o <b>Códex</b> para identificar ingredientes e consiga mais. Maioria dos materiais brutos podem ser adquiridos em Expedições. <b>Vendas Online</b> ou em <b>Estações Espaciais</b>.,2024-10-17,
+click.to.enlarge,Clique para aumentar,,
+evt.cooking.incident,Queimando água,,
+evt.cooking.incident.desc,{0} teve um acidente cozinhando {1} em {2}.,,{0} is being name; {1} is meal name; {2} is cooking station 
+fight.ongoing,Treta!,,
+fight.lost,Perdeu a batalha contra {0},,{0} is the opponent name
+fight.between,{0} começou uma disputa contra {1},,{0} and {1} are names
+fight.with,Briga com {0},,{0} is the opponent name
+evt.device.malfunction,Falha em: {0},,{0} is the device name
+evt.device.malfunction.desc,{0} teve uma falha drástica. Um Fusível pode evitar danos mais severos se instalado.,,{0} is the device name
+evt.blown.fuse,{0} queimou seu Fusível,,
+evt.blown.fuse.desc,O Fusível cumpriu seu papel e evitou danos severos. Coloque um novo assim que possível.,,
+obj.upgrades.fuseupgrade,Fusível,,
+obj.upgrades.fuseupgrade.desc,Uma proteção para evitar falhas drásticas.,,
+blown.fuse,Fusível queimado,,
+verb.hacked,Hackeado,,
+evt.hacked,{0} está sendo hackeado!,,{0} will be a robot or device name
+cond.Hacked.desc,"Esse Sintético está sendo hackeado. Se o processo for completado, ele pode se voltar contra nós!",,
+cond.Hacked,Reprogramando,,as in 'hacking in progress' or 'currently being hacked'
+noun.cause,Causa,,as in 'cause of death'
+disease.immunity,{0} Imunizado,,{0} is the disease name
+alien.bacteria.detected,Bactéria não catalogada,,
+noun.developing.conditions,Apresentando Sintomas,,"Conditions that have not yet developed, but are in progress"
+status.strong,Forte,,Example: strong immunity
+status.full,Total,,Example: full immunity
+status.permanent,Permanente,,Example: permanent immunity
+status.innate,Natural,,Example: innate immunity
+active.conditions,Sintomas Ativos,,
+telescope.found.planet,"O Telescópio detectou um planeta habitável na Região {0}, Setor {1}. Devemos investigar quando possível.<br><br>Terraformação deverá ser necessária para fazer ele ser compatível com nossos seres biológicos. Para tal serviço a tecnologia necessária será requerida.",2024-10-29,
+must.open.first,Esvazie primeiro,,For requiring to open a storage capsule before performing another action
+cond.Preoccupied,Ocupado,,
+cond.Preoccupied.desc,Esse individuo está ocupado com algo e está ignorando ordens.,,
+space.object.Space,Espaço vago,,
+region.no.hyperjump.relay,"Não foi detectado <b>{0}</b> nessa região. Para alcança-la, precisamos de um motor que permita Hiper Saltos de longa distância (<b>{1}</b>).",,?
+space.object.info.Space,Setor aparenta ser vazio.,,
+stat.ImmunityGainRate,Ganho de Imunização,,
+stat.ImmunityLossRate,Perda de Imunização,,
+enter.hyperspace.first,Entre no Hiper Espaço!,,warning for trying to move in hyperspace while not in it
+hyperdrive.not.running,Hiper Motor não funcional.,,
+hyperdrives.running,Hiper Motor funcional,,label next to number of hyperdrives that are currently running (working)
+hyperdrives.charge.hyperspace.tip,O Hiper Motor só pode ser recarregado fora do Hiper Espaço.,,
+hyperdrives.not.running.tip,"Uma vez dentro do Hiper Espaço, precisamos de no minio um Hiper Motor ativo para realizar Saltos.",,
+region.name,Região {0},,{0} is some name
+sector.name,Setor {0},,{0} is some name
+sleep.deprivation,Privação de Sono,,
+developing.condition,Sintomas de {0} ({1}),,"{0} is the condition name, {1} is percentage. example: Developing depression (23%)"
+cond.Depression.desc,"Depressão tem vários fatores que causam seu aparecimento. Caso o Ser não esteja tendo suas necessidades como diversão atendidas eles podem desenvolver Depressão. Construa coisas que tragam o que está em falta como diversão, decorações ou mesmo uma melhor iluminação".,,
+effect.magnetic.storm,Tempestade Magnética,,
+effect.magnetic.storm.desc,Esse setor está permanentemente com tempestades Magnéticas. Ela interfere com equipamentos elétricos.,,
+effect.dust.storm.desc,Esse setor está permanentemente com tempestades de poeira. Ela interfere com painéis solares.,,
+obj.materials.fusioncellheavy,Célula de fusão densa,,
+obj.materials.fusioncellheavy.desc,"Uma versão condensada da Célula de fusão, permite Hiper Saltos de longa distância.",,
+preparing.for.hyperjump,Preparando Hiper Salto,,
+entered.hyperspace,Dentro do Hiper Espaço,,
+left.hyperspace,Fora do Hiper Espaço,,as in exited hyperspace
+enter.hyperspace.failed,Não entrou no Hiper Espaço,,
+Key  (PURPLE means not ready for translation yet),Translation,Version,Comment (context for translators)
+randomize.starting.sector,Inicio aleatório,,label for button that select a random starting sector in the starmap
+randomize.starting.sector.tip,Vai na sorte.,,
+space.object.Sector,Setor,,
+space.object.Region,Região,,
+noun.map.view,Visualizar mapa,,label for buttons that can switch the map view mode
+noun.hyperjump,Hiper salto,,label for hyperjump details
+exit.hyperspace,Sair do Hiper Espaço,,
+noun.hyperspace,Hiper Espaço,,
+enter.hyperspace,Entrar no Hiper Espaço,,
+verb.hyperjump,Hiper salto,,action verb on a button that executes a hyperjump
+unable.to.hyperjump,Hiper Salto indisponível.,,
+hyperjump.tip.expedition,Termine as <b>Expedições</b> para prosseguir.,,
+hyperjump.tip.copter,Temos <b>Cargo Coptéro</b> trabalhando.,,
+noun.custom.location,Local escolhido,,
+noun.current.destination,Destino atual,,
+enter.region,Entrar Região,,
+enter.sector,Entrar Setor,,
+obj.materials.phasium,Cristal Phasium,,
+obj.materials.phasium.desc,"Um raro, cristal semi metálico que emite um luz purpura, mesclando o físico com o energético.",,
+market.group.name.Hyperfuel,Hiper Combustível,,
+obj.materials.fusioncell,Célula de fusão,,
+obj.materials.fusioncell.desc,"Criado do cristal Phasium, esse combustível é utilizado em Hiper Saltos.",,
+noun.hyperdrive,Hiper Motor,,
+hyperspace.missing.engine,Hiper Motor indisponível.,,
+hyperspace.not.charged,Hiper Motor descarregado.,,
+noun.hyperjump.charge,Carga de Hiper Salto,,Label for hyperdrive engine readiness percentage
+hyperjumps.available,Hiper Saltos,,Label for the number of available hyperjumps
+quest.step.use.hyperjump.relay,Usar Hiper Salto de estação,,
+quest.step.use.hyperjump.relay.tip,"Selecione <b>{0}</b> no Mapa Estelar, então clique <b>{1}</b>.",,{0} is Hyperjump Relay name {1} is the menu option name you have to select to use it
+space.object.HyperjumpRelay,Estação de Hiper Saltos,,
+space.object.info.HyperjumpRelay,"Uma massiva estrutura espacial, com o proposito de ajudar Naves a realizar Hiper Saltos mesmo que não tenham potência necessária.",,
+,,,
+quest.ProvideRepairStation,Estabelecer Estação de Reparos,,
+quest.ProvideRepairStation.desc,Sintéticos podem ser reparados na <b>Estação de Reparos</b>. Sempre tenha algumas disponíveis.,,
+quest.StartAnExpedition,Iniciar Expedições,,
+quest.StartAnExpedition.desc,Detectamos a presença de Jazidas próximas. Use a <b>Nave Auxiliar</b> para iniciar uma <b>Expedição</b>.,,
+quest.PerformHyperjump,Execute um Hiper Salto,,
+quest.PerformHyperjump.desc,Não devemos permanecer em um local por muito tempo. Execute um pequeno <b>Hiper Salto</b> para explorar outras regiões.,,
+quest.PerformHyperjump.fusiondrive.tip,Executar um <b>Hiper Salto</b> requer um <b>Motor de Fusão</b> e <b>Célula de Fusão</b> como combustível.,,
+quest.TradeWithSpaceStation,Comercio na Estação,,
+quest.TradeWithSpaceStation.desc,O comercio é necessário para adquirir fundos ou recursos. Encontra uma <b>Estação Espacial</b> e comece a Negociar.,,
+quest.VisitAnotherRegion,Explorar Regiões do Espaço,,
+quest.VisitAnotherRegion.desc,Já passou da hora de começarmos a explorar o Espaço. Encontre uma <b>Estação de Hiper Saltos</b> e execute um <b>Hiper Salto</b> de grandes distâncias.,,
+quest.step.execute.trade.tip,"Abra o <b>Mapa Estelar</b>, selecione a <b>Estação Espacial</b>, clique em <b>Negociar</b> para iniciar um escambo.",,
+obj.materials.aerolith,Aerólito,,
+obj.materials.terranite,Terramina,,
+obj.materials.edenium,Edenio,,
+obj.materials.hydronium,Hidronio,,
+obj.materials.aerolith.desc,Um raro metal capaz de purificar gases.,,
+obj.materials.terranite.desc,Um cristal âmbar com propriedades de transformação geológicas.,,
+obj.materials.edenium.desc,"Um brilhante cristal, com a propriedade de intensificar o crescimento de vegetais.",,
+obj.materials.hydronium.desc,"Um raro mineral capaz de condensar oxigênio em água.",,
+scenario.NoRobots,Nenhum Sintético,,
+scenario.NoRobots.tooltip,O maior desafio do jogo. Uma nave com apenas seres biológicos.,,
+objects.devices.storage,Armazém ({0}),2024-09-18,
+space.effect.star,ALERTA: Estrela nas proximidades,,
+space.effect.star.desc,"Estamos próximos a uma <b>Estrela</b>. A eficacia solar é aumentada em <b>{0}</b>, porém a nave está sendo constantemente super aquecida (~<b>{1}</b> por hora).",,{0} is percentage; {1} is degrees celsius or farenheit
+obj.plants.artilleryfungus,Fungo bombardeiro,,
+obj.plants.artilleryfungus.desc,"Um tipo de fungo que se lança em qualquer superfície próxima, é capaz de tomar grandes regiões em pouco tempo.",,
+space.effect.alien.lifeform,ALERTA: Forma de vida detectada,,
+space.effect.alien.lifeform.desc,Nossos sensores detectaram um forma de vida não categorizada. Cautela é recomendada..,,
+,,,
+research.economy.onlineshop,Vendas online,,
+online.shop.unlocked,<b>{0}</b> ficou disponível. Podemos encomendar produtos pagando um preço mais alto.,,{0} is Online Shop
+adj.available,Disponível,,
+create.shop.order,Fazer lista,,
+capsule.delivery,Entrega por capsula,,
+capsule.delivery.tip,Nossa compra será entregue através de <b>{0}</b>.,,{0} is Storage Capsule translation
+exit.hyperspace.first,Essa ação não é permitida durante hiper saltos. Termine o Hiper Salto para executar essa ação.,,
+shop.orders.pending.delivery,Entrega programada,,
+shop.orders.delivered,Entregue,,plural
+shop.orders.delivery.failed,Entrega não finalizada,,
+shop.order.wrong.location.tip,Saímos do local de entrega. Retorne ao local original para receber nossa encomenda.,,
+shop.order.wrong.location,Local incorreto!,,
+shop.order.delivered,Recebido,,singular
+shop.order.lost,Perdido,,
+shop.order.estimated.delivery,Estimativa: {0},,{0} is time
+noun.price,Preço,,
+difficult.start.region.warning,ALERTA. A região espacial selecionada tem uma dificuldade alta e pode não conter os recursos necessários nesse estagio da missão. Deseja realmente prosseguir?,,
+quest.ProvideEntertainment,Xó tédio,,
+quest.ProvideEntertainment.desc,Seres biológicos precisam de lazer ou eles vão começar a ter problemas de sanidade.,,
+story.wreck_empty_ship.intro.6,Essa é uma <b>nave Auxiliar</b>. Ela permite realizar expedições em busca de recurso em locais de interesse. Fundamental para iniciar a coleta de recursos necessários para nossa Nave Mãe.,2024-10-04,
+noun.multiple.items,{0} itens,,{0} will be a number above 1
+craft.order.new,Escala de produção,,label for a button that creates a new order for a device to produce something
+craft.order.settings,Configurações,,label for crafting order settings
+explosion.at,Explosão em {0},,{0} is position coordinate
+tut.prod.online.shop,Podemos encomendar recursos em <b>Vendas Online</b> na aba <b>Carteira</b>.,,
+space.object.info.Asteroid,Um Asteroide estéril flutuando pelo Espaço.,,
+quest.available,Missão disponível,,
+quest.click.to.accept,Clique para aceitar,,
+noun.strength,?Strength?,,
+available.quests,Missões disponíveis,,
+research.required.generic,A pesquisa <b>{0}</b> é necessária para ativar essa função,,{0} is research node name. for example Stock Market
+cryostability.unstable.warning,Essa Câmara de hiper sono está muito instável. Colonistas desenvolveram sérios problemas físicos e mentais caso isso persista. <b>Reestabeleça a conexão energética o mais rápido possível.</b>,,
+quest.MakeStasisAreaSurvivable,Estabilizar a área da câmara,,
+quest.MakeStasisAreaSurvivable.desc,Colonistas precisam de calor e oxigênio para sobreviver. Crie um ambiente apto a vida ao redor das Câmaras de Hiper sono para receber novos tripulantes.,,
+quest.step.heat.area,Aqueça o ambiente com {0},,{0} is device name
+quest.step.heat.area.tip,A aba temperatura ajuda a monitorar as condições em {0}. Construa mais aquecedores se necessário. Esse estagio será completado quando a temperatura atingir {1}.,,{0} is device name {1} is temperature value
+quest.step.oxygenate.area,Oxigenar com {0},,{0} is device name
+quest.step.oxygenate.area.tip,A aba oxigênio ajuda a monitorar as condições em {0}. Construa mais purificadores se necessário. Esse estagio será completado quando a oxigenação atingir {1}.,,{0} is device name {1} is oxygen value
+quest.step.dispose.corpses,Recicle os cadáveres,,
+quest.step.dispose.corpses.tip,Selecione os falecidos e use a opção <b>{0}</b> no menu de informação para ordenar seu processamento. Esse estagio será completado assim que todos os cadáveres estiverem sido reciclados.<br><br>A maneira mais facil de selecionar todos os falecidos é usando os ícones de grupos no canto superior direito e selecionar falecidos.,,{0} will be button name saying Dispose
+quest.DisposeOfDeadBodies,Reciclar os cadáveres,,
+quest.DisposeOfDeadBodies.desc,"Podemos reciclar cadáveres para conseguir recursos como <b>Proteína</b> entre outros. Alguns dos falecidos podem estar infectados com <b>Parasitas</b>. Ao ser recicla os parasitas são esterilizados e feito inertes. um olhar apurado pode identificar partes infectadas ao examinar as <b>Condições</b> do corpo.",,
+scan.hyperspace.warning,Escanear desativado no Hiper Espaço.,,
+space.object.info.Region,Conglomerado de Setores.,,
+space.object.AsteroidZone,Cinturão de Asteroides,,
+space.object.info.AsteroidZone,"Uma região com sedimentos espaciais, alguns podem conter recursos.",,
+space.object.info.Sector,Setor não explorado,,
+quest.BuildRadar,Construa um Radar,,
+quest.BuildRadar.desc,Um <b>Radar</b> escaneia objetos e outros corpos celestes para fornecer informações. É essencial ter pelo menos um ativo todo o tempo.,,
+space.object.info.SpaceEvent,Esse setor espacial pode conter algo. Visite para ter mais informações.,,
+objects.devices.tradeportal,Portal de trocas,,
+objects.devices.tradeportal.desc,Um mecanismo de transferência de matéria que é muito usado para efetuar trocas entre estações e Naves.,,
+trade.portal.not.available,Portal de trocas indisponível,,
+trade.portal.required,Portal de trocas é requerido para essa negociação,,
+no.trade.portal,Sem Portal de trocas,,
+trade.portal.ready,Portal de trocas funcional,,
+space.object.TradeZone,Zona Franca,,
+space.object.info.TradeZone,Um local aonde vários mercadores se reúnem para realizar negócios.,,
+noun.hyperjump.short,Hiper Salto Curto,,
+noun.hyperjump.long,Hiper Salto Longo,,
+goal.EnsureShipCPUVentilation.desc,"Nosso <b>Computador de Bordo</b> produz calor durante sua operação. Podemos substituir alguns piso próximos por <b>Andaimes</b> para ventilar a sala, ou construir mais <b>Dissipadores ao redor do Computador</b>.",2024-10-16,
+quest.EstablishProduction,A produção precisa começar,,
+quest.EstablishProduction.desc,"Nossos materiais iram acabar com nosso crescimento, precisamos estabelecer maneiras de conseguir/produzir/fabricar mais recursos.",,
+quest.EstablishSmelting,Aqueça a forja,,
+quest.EstablishSmelting.desc,Os minérios que conseguirmos precisam ser forjados em Barras. Faça isso uma possibilidade.,,
+placement.tip.ports,O ponto de acesso precisa estar sempre livres. Exceto por cadeiras.,,
+goal.GetMoreResource.desc,Estamos quase sem <b>{0}</b>. Use o <b>Códex</b> para identificar ingredientes e consiga mais. Maioria dos materiais brutos podem ser adquiridos em Expedições. <b>Vendas Online</b> ou em <b>Estações Espaciais</b>.,2024-10-17,
+click.to.enlarge,Clique para aumentar,,
+evt.cooking.incident,Queimando água,,
+evt.cooking.incident.desc,{0} teve um acidente cozinhando {1} em {2}.,,{0} is being name; {1} is meal name; {2} is cooking station 
+fight.ongoing,Treta!,,
+fight.lost,Perdeu a batalha contra {0},,{0} is the opponent name
+fight.between,{0} começou uma disputa contra {1},,{0} and {1} are names
+fight.with,Briga com {0},,{0} is the opponent name
+evt.device.malfunction,Falha em: {0},,{0} is the device name
+evt.device.malfunction.desc,{0} teve uma falha drástica. Um Fusível pode evitar danos mais severos se instalado.,,{0} is the device name
+evt.blown.fuse,{0} queimou seu Fusível,,
+evt.blown.fuse.desc,O Fusível cumpriu seu papel e evitou danos severos. Coloque um novo assim que possível.,,
+obj.upgrades.fuseupgrade,Fusível,,
+obj.upgrades.fuseupgrade.desc,Uma proteção para evitar falhas drásticas.,,
+blown.fuse,Fusível queimado,,
+verb.hacked,Hackeado,,
+evt.hacked,{0} está sendo hackeado!,,{0} will be a robot or device name
+cond.Hacked.desc,"Esse Sintético está sendo hackeado. Se o processo for completado, ele pode se voltar contra nós!",,
+cond.Hacked,Reprogramando,,as in 'hacking in progress' or 'currently being hacked'
+noun.cause,Causa,,as in 'cause of death'
+disease.immunity,{0} Imunizado,,{0} is the disease name
+alien.bacteria.detected,Bactéria não catalogada,,
+noun.developing.conditions,Apresentando Sintomas,,"Conditions that have not yet developed, but are in progress"
+status.strong,Forte,,Example: strong immunity
+status.full,Total,,Example: full immunity
+status.permanent,Permanente,,Example: permanent immunity
+status.innate,Natural,,Example: innate immunity
+active.conditions,Sintomas Ativos,,
+telescope.found.planet,"O Telescópio detectou um planeta habitável na Região {0}, Setor {1}. Devemos investigar quando possível.<br><br>Terraformação deverá ser necessária para fazer ele ser compatível com nossos seres biológicos. Para tal serviço a tecnologia necessária será requerida.",2024-10-29,
+must.open.first,Esvazie primeiro,,For requiring to open a storage capsule before performing another action
+cond.Preoccupied,Ocupado,,
+cond.Preoccupied.desc,Esse individuo está ocupado com algo e está ignorando ordens.,,
+space.object.Space,Espaço vago,,
+region.no.hyperjump.relay,"Não foi detectado <b>{0}</b> nessa região. Para alcança-la, precisamos de um motor que permita Hiper Saltos de longa distância (<b>{1}</b>).",,?
+space.object.info.Space,Setor aparenta ser vazio.,,
+stat.ImmunityGainRate,Ganho de Imunização,,
+stat.ImmunityLossRate,Perda de Imunização,,
+enter.hyperspace.first,Entre no Hiper Espaço!,,warning for trying to move in hyperspace while not in it
+hyperdrive.not.running,Hiper Motor não funcional.,,
+hyperdrives.running,Hiper Motor funcional,,label next to number of hyperdrives that are currently running (working)
+hyperdrives.charge.hyperspace.tip,O Hiper Motor só pode ser recarregado fora do Hiper Espaço.,,
+hyperdrives.not.running.tip,"Uma vez dentro do Hiper Espaço, precisamos de no minio um Hiper Motor ativo para realizar Saltos.",,
+region.name,Região {0},,{0} is some name
+sector.name,Setor {0},,{0} is some name
+sleep.deprivation,Privação de Sono,,
+developing.condition,Sintomas de {0} ({1}),,"{0} is the condition name, {1} is percentage. example: Developing depression (23%)"
+cond.Depression.desc,"Depressão tem vários fatores que causam seu aparecimento. Caso o Ser não esteja tendo suas necessidades como diversão atendidas eles podem desenvolver Depressão. Construa coisas que tragam o que está em falta como diversão, decorações ou mesmo uma melhor iluminação".,,
+effect.magnetic.storm,Tempestade Magnética,,
+effect.magnetic.storm.desc,Esse setor está permanentemente com tempestades Magnéticas. Ela interfere com equipamentos elétricos.,,
+effect.dust.storm.desc,Esse setor está permanentemente com tempestades de poeira. Ela interfere com painéis solares.,,
+obj.materials.fusioncellheavy,Célula de fusão densa,,
+obj.materials.fusioncellheavy.desc,"Uma versão condensada da Célula de fusão, permite Hiper Saltos de longa distância.",,
+preparing.for.hyperjump,Preparando Hiper Salto,,
+entered.hyperspace,Dentro do Hiper Espaço,,
+left.hyperspace,Fora do Hiper Espaço,,as in exited hyperspace
+enter.hyperspace.failed,Não entrou no Hiper Espaço,,
