@@ -1,6 +1,6 @@
 ﻿Key,Translation,Version,Comment (context for translators)
-<Gamepad>,Kontroler,,Used in input settings when showing bindings for Gamepad (controller) 
-<Keyboard>,Klawiatura,,Used in input settings when showing bindings for Keyboard 
+<Gamepad>,Kontroler,,Used in input settings when showing bindings for Gamepad (controller)
+<Keyboard>,Klawiatura,,Used in input settings when showing bindings for Keyboard
 <Mouse>,Myszka,,Used in input settings when showing bindings for Mouse
 abort,Przerwij,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
 aborting.expedition.died,Przerywanie wyprawy. Członek załogi {0} zginął zanim dotarł do promu kosmicznego.,,{0} will be replaced with a name
@@ -847,7 +847,7 @@ drag.release.build.con,Buduj łączniki na zwolnieniu przeciągania,,
 drag.release.build.con.tip,"Jeśli ta opcja jest włączona, narzędzie łączenia utworzy połączenie, gdy przeciągnięte połączenie zostanie zwolnione na pustej podłodze.",,
 drink.coffee,Wypij Kawę,,
 drop.task,Porzuć Zadanie,,
-duplicate.binding,Zduplikowane Przypisania,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad). 
+duplicate.binding,Zduplikowane Przypisania,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad).
 duplicate.binding.info,"Przycisk wybrany dla {0} jest już używany gdzie indziej. W większości przypadków zalecamy cofnąć zmiany. Należy pamiętać, że klawisze strzałek na klawiaturze, Enter i ESC są używane do nawigacji w interfejsie użytkownika.",,
 dust.accumulation,Gromadzenie się Kurzu,,
 dust.amount,Ilość Kurzu,,
@@ -865,7 +865,7 @@ eject.ammo,Wyrzuć Amunicję,,
 eject.contents,Wyrzuć Zawartość,,
 eject.food,Wyrzuć Jedzenie,,
 eject.fuel,Wyrzuć Paliwo,,
-el.build.connector.here,Zbuduj tutaj łącznik,,Displayed in a tooltip when dragging a connector 
+el.build.connector.here,Zbuduj tutaj łącznik,,Displayed in a tooltip when dragging a connector
 el.connector.fully.utilized,Łącznik jest w pełni wykorzystany!,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.connector.not.on.grid,Łącznik nie jest na tej samej sieci co Komputer Pokładowy,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
 el.connector.out.of.range,Poza zasięgiem!,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
@@ -1469,7 +1469,7 @@ inconsistent.game.state,"Nie można zapisać. Błąd uniemożliwia prawidłowe u
 increase,Zwiększ,,
 increase.amount,Zwiększ Ilość,,
 indestructible,Niezniszczalne,,
-indestructible.desc,"Niezniszczalne obiekty nie odniosą żadnych uszkodzeń w wyniku uderzenia, eksplozji, pożaru lub otoczenia.",, 
+indestructible.desc,"Niezniszczalne obiekty nie odniosą żadnych uszkodzeń w wyniku uderzenia, eksplozji, pożaru lub otoczenia.",,
 infinity,Nieskończoność,,"Used in displaying time estimate when something would take forever to execute. Example: research time estimate when there is 0kW of energy output shows a tooltip: ""ETA: Infinity @0kW"""
 info.ad.rejected,Zadanie odrzucone,,
 info.ad.rejected.cancelled,Zadanie zostało anulowane,,
@@ -3028,7 +3028,7 @@ ship.no.bridge.controls,Mostek Sterowania jest Wyłączony,,
 ship.no.bridge.controls.operator,Brak Operatora Mostka,,
 ship.no.engines,Silniki są Wyłączone,,
 ship.not.in.one.piece,Statek Nie Jest w Całości,,
-shooter,Strzelec,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter. 
+shooter,Strzelec,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter.
 short.title,Krótki Tytuł,,
 shortcut.not.bound,(nie przypisano),,
 shortcut.tip,Skrót: {0},,
@@ -3985,7 +3985,7 @@ height,Wysokość,,noun
 width,Szerokość,,noun
 color.hue,Odcień,,color property (H in HSL)
 color.saturation,Nasycenie,,color property (S in HSL)
-color.luminosity,Jasność,,color property (L in HSL) 
+color.luminosity,Jasność,,color property (L in HSL)
 steam.connection.unavailable,"Nie udało się nawiązać połączenia ze Steam. Integracja Osiągnięć Steam i Warsztatu nie będzie działać. Kroki rozwiązywania problemu:<br> - Sprawdź połączenie internetowe i ustawienia zapory<br> - Upewnij się, że Steam jest uruchomiony<br> - Uruchom ponownie Steam<br> - Uruchom ponownie komputer<br> - Zrób sobie przerwę i idź na spacer",,
 combat.ongoing,W trakcie walki,,
 bot.cpu.limit,Boty zużywają CPU,,
@@ -4158,7 +4158,7 @@ expedition.type.mining,Zbieranie Surowców,,
 expedition.type.exploration,Ekspoloracja,,
 space.object.CargoCopter,Śmigłowiec Transportowy,,
 space.object.info.CargoCopter,Ten Śmigłowiec Transportowy jest na misji.,,
-no.task.reason.no.skill.one,Brakuje umiejętności <b>{0}</b>. Obecnie: <b>{1}</b>. Potrzebne: <b>{2}</b>.,,{0} - skill name. {1} and {2} - a number (skill level). 
+no.task.reason.no.skill.one,Brakuje umiejętności <b>{0}</b>. Obecnie: <b>{1}</b>. Potrzebne: <b>{2}</b>.,,{0} - skill name. {1} and {2} - a number (skill level).
 no.task.reason.job.priority0.one,Priorytet pracownika dla <b>{0}</b> jest ustawiony na <b>0</b>.,,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
 no.task.reason.job.priority.none,"Pominięto <b>{0} </b> zadań, ponieważ pracownik <b>nie może wykonywać zadań tego typu</b>.",,
 no.task.reason.job.priority.none.one,Pracownik nie może wykonywać zadań typu <b>{0}</b> .,,{0} is job type - like construction or hauling
