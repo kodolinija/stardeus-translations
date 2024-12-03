@@ -836,7 +836,7 @@ dock,Dokuj,,Verb. Displayed on an action button that tells a robot to return to 
 dockable,Dokowalny,,Adjective. Displayed on a button that opens a submenu that contains robot's docking status and controls
 docked,Zadokowany,,"Robot state, denoting that robot is currently inside it's designated docking station"
 docking,Dokowanie,,"Robot state, denoting that robot is currently trying to reach it's docking station"
-does.not.include.batteries,Nie zawiera baterii,,"This is a tooltip/balloonÂ text, appearing when you hover cursor over the ""Max Production"" string in the Electric Grid Overlay (section Details)
+does.not.include.batteries,Nie zawiera baterii,,"This is a tooltip/balloon text, appearing when you hover cursor over the ""Max Production"" string in the Electric Grid Overlay (section Details)
 It means - the value (amount of production power) does not include electric power which produced by Batteries."
 dont.save,Wyjdź Bez Zapisania,,
 door,Drzwi,,
@@ -1006,6 +1006,7 @@ events,Wydarzenie,,
 everyones.tasks,Wszystkie Zadania,,
 evt.asteroid.desc,Radar wykrył asteroidę o niebezpiecznie bliskiej trajektorii. Będzie w pobliżu statku za około {0}.,,
 evt.asteroid.impact.desc,Asteroida zderzyła się ze statkiem!,,
+evt.asteroid.impact.title,Zderzenie z Asteroidą!,,
 evt.asteroid.title,Radarowe Ostrzeżenie o Bliskości Asteroidy,,
 evt.battery.discharge.desc,"Z powodu awarii, bateria {0} natychmiast rozładowała się. Robotnik przejdzie teraz do trybu awaryjnego ładowania.",16.05.2022,{0} is the name of the worker
 evt.battery.discharge.title,Awaria Baterii,,
@@ -1431,7 +1432,7 @@ hint.el_check_charge_stations,"Robotnikowi nie udało się znaleźć Stacji Ład
 hint.el_connect_tool,"Za pomocą narzędzia <nobr><sprite=""Glyphs_IconsWhite"" name=""Connect""> <b>Połącz</b></nobr> możesz zarządzać połączeniami między łącznikami i obiektami elektrycznymi, przeciągając linię myszką.",,
 hint.el_disconnect,Możesz szybko rozłączyć urządzenia za pomocą narzędzia <nobr><b>Połącz</b></nobr>. Wystarczy kliknąć i przeciągnąć linię pomiędzy podłączonymi urządzeniami.,,
 hint.el_drag_connect,"Możesz automatycznie przełączyć się na narzędzie <b>Połącz</b>, klikając i przeciągając łącznik w trybie Swobodnego Wyboru.",26.08.2022,
-hint.firefighting,"Wygląda na to, że gdzieś jest pożar. Oto kilka wskazówek dotyczących gaszenia pożarów:<br>- Wyłącz pobliskie pompy tlenowe (Komora Stazy również ma wbudowaną pompę tlenową)<br>- Pozwól, aby załatwiły to twoje roboty i drony<br>- Jeśli ogień zacznie się rozprzestrzeniać, zdekonstruuj niektóre pobliskiej podłogi, aby przewietrzyć pomieszczenie",,
+hint.firefighting,"Wygląda na to, że gdzieś jest pożar. Oto kilka wskazówek dotyczących gaszenia pożarów:<br>- Wyłącz pobliskie pompy tlenowe (Komora Stazy również ma wbudowaną pompę tlenową)<br>- Pozwól, aby załatwiły to twoje roboty i drony<br>- Jeśli ogień zacznie się rozprzestrzeniać, zdekonstruuj niektóre pobliskiej podłogi, aby przewietrzyć pomieszczenie",22.08.2024,
 hint.haul_manage_priority,"Możesz szybko dostosować priorytety zadań dla wielu obiektów, korzystając z narzędzia Zarządzaj Zadaniami.",,
 hint.haul_to_processing,Możesz zlecić masową obróbkę za pomocą narzędzia <nobr><b>Przetwórz</b></nobr>.,27.06.2022,
 hint.haul_to_storage,Możesz zlecić masowe holwanie korzystając z narzędzia <nobr><b>Holuj</b></nobr>.,27.06.2022,
@@ -1512,7 +1513,7 @@ info.worker.thinking,Myśli,,
 information,Informacje,,
 ingredients,Składniki:,,
 input.AltModifier,Alternatywny Modyfikator,,
-input.bindings.reset,"Wszystkie pozmieniane przyciski zostały zresetowane z powodu zmian ustawień domyślnych w ostatniej aktualizacji. Aby zobaczyć lub zmienić przyciski, przejdź do „Ustawienia” > „Wprowadzanie”.",,
+input.bindings.reset,"Wszystkie pozmieniane przyciski zostały zresetowane z powodu zmian ustawień domyślnych w ostatniej aktualizacji. Aby zobaczyć lub zmienić przyciski, przejdź do „Ustawienia” > „Przyciski”.",,
 input.CameraDrag,Przeciągnij Kamerę,,
 input.CameraMove,Ruch Kamery,,
 input.CameraZoom,Przybliż/Oddal Kamerę,,
@@ -1540,8 +1541,8 @@ input.QuickSearch,Szybkie Wyszukiwanie,,
 input.rebind.printscreen.bug,"Wygląda na to że masz stworzone powiązanie na Print Screen. Jeśli próbowałeś przypisać klawisze strzałek, to najprawdopobniej stało się to z powodu nierozwiązanego błędu Unity. Istnieje na to obejście. <br><br>Aby powiązać klawisze strzałek, wyłącz NUM LOCK i spróbuj ponownie.",,
 input.rebind.ui.conflict.warning,Klawisze strzałek na klawiaturze i Enter są używane w nawigacji interfejsu użytkownika. Twoje najnowsze przypisanie może prowadzić do niepożądanych efektów.,,
 input.rebind.warning,Ostrzeżenie ponownego przypisania,,
-input.reset,Reset powiązania,,
-input.reset.info,Przypisane klawisze zostały zresetowane do bazowych przycisków,,
+input.reset,Reset przycisków,,
+input.reset.info,Przypisane przyciski zostały zresetowane do bazowych przycisków,,
 input.Rotate,Obróć objekt,,
 input.RotateLeft,Obróć w lewo,,
 input.RotateRight,Obróć w prawo,,
@@ -1863,7 +1864,7 @@ menu.settings.audio.desc,Zmień ustawienia audio,,
 menu.settings.current_game,Ustawienia Aktualnej Gry,,
 menu.settings.desc,Ustawienia Globalne,,
 menu.settings.gameplay,Rozgrywka,,
-menu.settings.input,Wejście,,
+menu.settings.input,Przyciski,,
 menu.settings.language,Language,,Do not translate this please!
 menu.settings.video,Wideo,,
 menu.settings.video.desc,Zmień ustawienia wideo,,
@@ -2340,7 +2341,7 @@ objects.devices.mlbooth.desc,"Kabina Nauczania Maszynowego pozwala przeszkolić 
 objects.devices.nuclearreactor,Reaktor Nuklearny ({0}MW),,
 objects.devices.nuclearreactor.desc,Potężny reaktor wymagający paliwa nuklearnego.,,
 objects.devices.nutrientextractor,Ekstraktor Składników Odżywczych,,
-objects.devices.nutrientextractor.desc,"Wydobywa i przechowuje składniki odżywcze i surowce z zebranych roślin. Wydobywa również fragmenty „Zbycha” i „Zdzicha”, którzy zmarli tragicznie 2 godziny temu. Tylko upewnij się, że nikt nie patrzy: niektórzy koloniści nie byliby szczęśliwi, gdyby dowiedzieli się, jak powstaje kiełbasa. Wybierz akcję „Wydobądź składniki odżywcze” na martwym (lub żywym) człowieku, aby zobaczyć, jak to działa. Rośliny są zbierane i przywożone tutaj automatycznie.",,"You can put in local popular first names instead of ""Bob"" and ""Bill"". Keep the quotes around the names, that will make those names emphasized in the game (quoted words get special accented color in-game)"
+objects.devices.nutrientextractor.desc,"Wydobywa i przechowuje składniki odżywcze i surowce z zebranych roślin. Wydobywa również fragmenty „Zbycha” i „Zdzicha”, którzy zmarli tragicznie 2 godziny temu. Tylko upewnij się, że nikt nie patrzy: niektórzy koloniści nie byliby szczęśliwi, gdyby dowiedzieli się, jak powstaje kiełbasa. Wybierz akcję „Wydobądź składniki odżywcze” na martwym (lub żywym) człowieku, aby zobaczyć, jak to działa. Rośliny są zbierane i przywożone tutaj automatycznie.",24.07.2024,
 objects.devices.oxygenpump,Pompa Tlenowa,,
 objects.devices.oxygenpump.desc,"Wytwarza tlen. Jedna powinna wystarczyć do wypełnienia powierzchni o średniej wielkości. Umieszczenie więcej niż jednej pompy blisko siebie nie przynosi żadnych dodatkowych korzyści. Przed umieszczeniem tego przedmiotu należy sprawdzić nakładkę temperatury. Jeśli tlen będzie wytwarzany w bardzo gorących miejscach, pomieszczenie zapali się.",,
 objects.devices.particlecollector,Kolektor Cząsteczek,,
@@ -2887,7 +2888,7 @@ reserved.by,Zarezerwowane Przez,,"This is a label next to a worker name who has 
 reserved.by.detailed,Zarezerwowane przez {0},,{0} is a being name
 reserved.for,Zarezerwowane przez kolejne {0},,"{0} is time. Example: ""Reserved for 18h 12m"""
 reset,Reset,,
-reset.input.bindings.tip,Zresetuje wszystkie ustalone klawisze do ich oryginalnych przypisań,,
+reset.input.bindings.tip,Zresetuje wszystkie przypisane przyciski do ich oryginalnych przypisań.,,
 reset.tips,Wskazówki do Resetu,,
 reset.to.defaults,Zresetuj do Ustawień Fabrycznych,,
 resource.accumulation.bar,Akumulacja zasobów: {0},,
@@ -3968,7 +3969,7 @@ engine.wrong.layer.tip,Ten silnik nie działa w obecnej warstwie Mapy Gwiezdnej.
 not.enough.engine.power,"Obecna konfiguracja silnika może zapewnić <b>{0}</b> mocy. Nasz statek potrzebuje co najmniej <b>{1}</b>, aby się poruszyć. Dodaj więcej silników lub zmniejsz rozmiar statku. (Obecny rozmiar: <b>{2}</b>)",,"{0} and {1} are something like 50kW. {2} is just an integer number, like 1230"
 engines.too.weak,Silniki są za słabe,,
 difficulty.peaceful,Pokojowy,,
-goal.AddMoreCPU,Dodaj więcej mocu CPU,,
+goal.AddMoreCPU,Dodaj więcej mocy CPU,,
 goal.AddMoreCPU.desc,Nasza sieć elektroenergetyczna staje się zbyt duża dla obecnej pojemności CPU. Powinniśmy zbudować i podłączyć więcej <b>Modułów CPU</b>.,27.07.2023,
 no.label,Brak etykiety,,"For labeling devices, shown when there is no label assigned to an object"
 set.label,Ustaw etykietę,,Title for action to set the label
@@ -4020,7 +4021,7 @@ research.paint,Malowanie,,
 research.paint.desc,Odblokowuję nakładkę <b>Malowania</b>,,
 structure.doors.door02,Wewnętrzne Drzwi,,
 structure.doors.door02.desc,Automatyczne wewnętrzne drzwi,,
-objects.devices.autopainter,Auto Malowanie,,
+objects.devices.autopainter,Auto Malarz,,
 objects.devices.autopainter.desc,"Uwalnia nanoboty przenoszące cząsteczki pigmentu, które mogą zmienić kolor większości powierzchni.",,
 obj.materials.pigmentblue,Niebieski Pigment,,
 obj.materials.pigmentblue.desc,Pigment koloru niebieskiego.,,
@@ -4142,7 +4143,7 @@ obj.copters.cargocopterflying.desc,"Całkowicie zautomatyzowany bezzałogowy sta
 copter.mission.stage.deploy.miner,Montowanie {0},,"{0} is the resource miner device name, like Autodrill Rig"
 copter.mission.stage.fly.to.ship,Wraca do Statku,,
 copter.mission.stage.fly.to,Leci do {0},,"{0} is the name of the target, like Silicon Deposit, or a device name"
-copter.mission.stage.collect.resource,Zbiera {0},,{0} is material type
+copter.mission.stage.collect.resource,Zbiera {0},,{0} is material type 
 copter.mission.stage.land.on.ship,Ląduje na Statku,,
 copter.mission.stage.leave.ship,Opiuszcza Statek,,
 copter.mission.stage.start,Czeka na dostępny Śmigłowiec,,
@@ -4392,7 +4393,7 @@ not.selected,Niezaznaczone,,filter label for items that are not selected
 asimov.override.installed,Nadpisywanie Praw Robotyki Asimova,,
 tier.locked.tip,"Zbadaj <b>{0}</b> więcej technologii <b>Poziomu {1}</b>, aby odblokować <b>Poziom {2}</b>",,variables ar numbers
 research.blocked,Badania Zablokowane,,
-objects.devices.datoidloader,Ładowniku Datoidów,,
+objects.devices.datoidloader,Ładownik Datoidów,,
 objects.devices.datoidloader.desc,"Specjalistyczne miejsce przechowywania <b>Datoidów</b>, które mogą być używane do badań. Musi znajdować się obok komputera statku.",,
 producing.now,Produkowanie {0},,
 verb.produce,Produkuj,,
@@ -4609,3 +4610,303 @@ modifier.NoBotLimit,Wyłącz Limit Botów,,
 modifier.NoBotLimit.desc,"Jeśli Limit Botów nie jest wyłączony, konieczne będzie odblokowanie możliwości posiadania większej liczby aktywnych robotów poprzez badania.",,
 changing.disables.achievements,Zmiana tej wartości wyłącza osiągnięcia!,,
 achievements.will.be.disabled,Osiągnięcia zostaną wyłączone!,,
+grid.cpu.bound,Zbyt mała ilość procesorów do obsługi sieci Elektroenergetycznej,,
+grid.cpu.bound.end,Sieć Elektroenergetyczna znów działa niedoborze procesorów,,
+noun.connection.limit,Limit Połączeń,,
+grid.connection.limit.tip,Do tej sieci elektroenergetycznej podłączono <b>{0}</b> urządzeń. Procesor <b>{1}</b> obsługuje do <b>{2}</b> połączeń.,,
+connection.limit.exceeded,Osiągnięto Limit Połączeń,,
+codex.m.electricity.connectionlimit,Limit Połączeń,,
+codex.m.electricity.connectionlimit.desc,"Gdy podłączasz urządzenia do sieci elektroenergetycznej, zużywają one część mocy <b>CPU</b>. Gdy sieć osiągnie limit połączeń, utracisz kontrolę nad podłączonymi urządzeniami.<br><br>Urządzenia będą działać normalnie, ale nie będziesz mógł zmienić ich ustawień.<br><br>Spróbuj utrzymać liczbę urządzeń poniżej limitu połączenia lub dodaj więcej <b>Modułów CPU</b> lub <b>Komputerów Pokładowych</b>, aby zwiększyć limit połączeń. Moc CPU nie jest współdzielona między oddzielnymi podsieciami.<br><br>Sprawdź nakładkę <b>{0}</b>, aby zobaczyć rozmiar i limit swojej sieci.",29.08.2023,
+idle.devices,Bezczynne urządzenia,,
+major.update.warning,Ostrzeżenie o Dużej Aktualizacji,,
+major.update.warning.desc,"Od twojej ostatniej sesji nastąpiła duża aktualizacja. Zapis powinien się nadal załadować, jednak duże zmiany mogą przerwać postęp i sprawić, że zapis będzie bardzo niezrównoważony, zbyt łatwy lub zbyt trudny do grania. Zdecydowanie zaleca się rozpoczęcie nowej gry.<br>Aktualna wersja gry: <b>{0}</b><br>Wersja zapisu: <b>{1}</b>",,
+structure.walls.wallarmored01,Opancerzona Ściana,,
+structure.walls.wallarmored01.desc,"Silna, wysoce odporna ściana zewnętrzna",,
+research.construction.structurearmored,Opancerzona Struktura,,
+structure.walls.windowarmored01,Opancerzone Okno,,
+structure.walls.windowarmored01.desc,Wysoce odporne zewnętrzne okno,,
+structure.walls.wallsocketarmored01,Opancerzone Gniazdko Ścienne {0}-{1},,
+structure.walls.wallsocketarmored01.desc,Wysoce odporne gniazdko ścienne z miejscem na {0} połączeń o zasięgu {1},,
+structure.walls.ventarmored01,Opancerzona Wentylacja,,
+structure.walls.ventarmored01.desc,Wysoce odporna wentylacja,,
+make.a.choice,Musisz podjąć decyzję,,
+situation.TotalGPU,Moc GPU,,
+situation.Money,Pieniądze,,
+menu.tutorials,Samouczki,,
+difficulty.Beginner,Początkujący,,
+difficulty.Intermediate,Średnio zaawansowany,,
+difficulty.Advanced,Zaawansowany,,
+tutorial.of.type,{0} Samouczek,,{0} will be Beginner or Intermedia or Advanced translation
+end.tutorial,Zakończ Samouczek,,label on a button that ends the tutorial
+verb.back,Wstecz,,
+tutorial.completed,Samouczek Ukończony,,
+tutorial.completed.info,Samouczek został ukończony. Możesz kontynuować tą rozgrywkę tak długo jak chcesz.,,
+tut.basic.controls.name,Interfejs Użytkownika i Sterowanie,,
+tut.basic.controls.desc,"W tym samouczku zapoznasz się z interfejsem użytkownika Stardeus i nauczysz się, jak korzystać z najważniejszych narzędzi.",16.08.2023,
+tut.basic.controls.step.intro,Witamy w Stardeus!,,
+tut.basic.controls.step.intro.desc,"W tym samouczku dowiesz się, jak kontrolować grę i nawigować po interfejsie użytkownika.<br><br>Kliknij i przeciągnij to okno, aby je przesunąć.<br><br>Skalę interfejsu użytkownika możesz dostosować w <b>Ustawienia > Wideo</b>.",,
+tut.basic.controls.step.cam,Sterowanie Kamerą,,
+tut.basic.controls.step.cam.desc,Aby przesunąć kamerę: {0}.<br><br>Dostosuj powiększenie: {1}. <color={2}>(gdy nie jesteś w interfejsie użytkownika)</color></b><br><br>Przesuwanie kamery krawędzią ekranu można zmienić w <b>Ustawienia > Przyciski</b>.,25.08.2023,{0} and {1} are key bindings
+tut.basic.controls.step.overlays.visual,Nakładki,,
+tut.basic.controls.vis.ov.1,Pod elementami sterującymi czasem znajdziesz przyciski umożliwiające przełączanie nakładek wyświetlających przydatne informacje o stanie statku. {0}<br><br>Teraz przejdziemy przez każdą nakładkę. <b>Możesz pominąć następną część</b> i później samodzielnie zapoznać się z podpowiedziami dotyczącymi przycisków.,,{0} is a sentence about keyboard shortcuts
+tut.basic.controls.vis.ov.1_keyboard,Możesz używać {0} aby przełączać nakładki.,,
+tut.basic.controls.vis.ov.1_gamepad,Możesz używać {0} aby szybko nawigować po interfejsie użytkownika.,,
+tutorial.click.next.when.ready,Kliknij <b>{0}</b> gdy będziesz gotowy.,,{0} is translation for Next or End Tutorial
+tut.basic.controls.step.overlay.electricity,"Ta nakładka pokazuje połączenia urządzeń i pomaga w rozwiązywaniu problemów z siecią elektroenergetyczną. Dostarcza danych o produkcji i zużyciu energii elektrycznej, wszelkich niedoborach, stanie baterii, a także pokazuje urządzenia, które są odłączone lub wyłączone.",,
+tut.basic.controls.step.overlay.atmoo2,"Ta nakładka pokazuje poziom tlenu, co jest przydatne przy wykrywaniu przecieków i obszarów niezdatnych do zamieszkania.",,
+tut.basic.controls.step.overlay.atmotemp,"Ta nakładka wyświetla poziomy temperatury i pomaga szybko zidentyfikować wszelkie gorące strefy, które mogą się pojawić jeśli urządzenia przemysłowe pracują w zamkniętej przestrzeni bez chłodzenia lub wentylacji.",,
+tut.basic.controls.step.overlay.atmoo2res,"Szczelność mierzy, jak dobrze coś utrzymuje tlen w danym obszarze. Ta nakładka pomaga dostrzec otwarte otwory wentylacyjne i uszkodzone ściany, gdyż nie są one aż tak szczelne.",,
+tut.basic.controls.step.overlay.atmotempres,"Izolacja pokazuje opór na wymianę temperatury z otoczeniem. Nawet jeśli ściany są całkowicie szczelne i nie przepuszczają tlenu, nie mogą całkowicie zablokować transferu ciepła. Ciepło będzie powoli przemieszczać się do otaczających obszarów, dlatego utrzymanie komfortowej temperatury wymaga więcej pracy niż po prostu utrzymanie obszaru pełnego tlenu.",,
+tut.basic.controls.step.overlay.aesthetics,Estetyka odzwierciedla piękno lub prostotę otoczenia. Koloniści będą cieszyć się spędzaniem czasu w bardziej wizualnie atrakcyjnym otoczeniu.,,
+tut.basic.controls.step.overlay.plan,"Oprócz zestawu narzędzi do planowania, które obejmują lustrzane odbicie, okręgi i linie, ta nakładka pomaga w projektowaniu idealnego statku. W scenariuszach, w których Twój statek zostanie zniszczony, nakładka będzie zawierać oryginalny projekt, więc możesz wybrać przywrócenie mu dawnej świetności lub wymazanie wszystkiego i uczynienie go swoim.",,
+tut.basic.controls.step.overlay.path,"Ta nakładka wyjaśnia, gdzie i jak mogą poruszać się twoi koloniści i roboty. Nawet jeśli wydaje się, że jest dostępna luka, ścieżka może być nadal zablokowana. Pamiętaj, że istoty nie mogą poruszać się przez ukośne przejścia.",,
+tut.basic.controls.step.overlay.areas,"Ta nakładka pokazuje zamknięte obszary, nazwy pomieszczeń (dostępne po odblokowaniu badań Znaki i Etykietowanie) i wyświetla urządzenia w każdym pomieszczeniu. Ujawnia również obszary wystawione na działanie przestrzeni kosmicznej i umożliwia przełączanie wyświetlania zewnętrznego kadłuba.<br><br>Nadlatujące statki kosmiczne nie mogą lądować w zamkniętych obszarach, dlatego upewnij się, że jest wystarczająco dużo stref lądowania otwartych na przestrzeń kosmiczną. Obszar lądowania mniejszy niż około 100 kafelków może powodować problemy.<br><br>Kolejny ważny punkt: niektóre urządzenia i wszystkie statki kosmiczne muszą znajdować się w obszarach otwartych na przestrzeń kosmiczną. Jeśli urządzenie przeznaczone do użytku na zewnątrz jest zamknięte, nie będzie działać. Zamknięcie wahadłowca może uszkodzić kadłub podczas próby startu lub lądowania.",,
+tut.basic.controls.step.overlay.islands,"Ta nakładka ujawnia oddzielne sekcje statku. Sekcje to pojedyncze wyspy struktur. Zazwyczaj posiadanie więcej niż jednej wyspy oznacza, że ​​statek nie poleci, chociaż małe sekcje złożone z mniej niż około 30 kafelków są ignorowane. Możesz użyć <b>Wciągarki</b> lub <b>Kontrolera Manewrowego</b>, aby połączyć te sekcje.<br><br>Nakładka pozwala również porzucić wszelkie niechciane sekcje statku, w tym porzucone statki, na które możesz trafić podczas swojej przygody. Będziesz musiał przymocować, rozmontować lub porzucić wrak statku przed odlotem.<br><br>Kiedy jesteś w pobliżu portu kosmicznego, możesz użyć tej nakładki, aby sprzedać sekcję. Umożliwia to tymczasowe przymocowanie porzuconego statku do swojego, odholowanie go do najbliższego portu kosmicznego, odłączenie go, a następnie sprzedaż.",16.08.2023,
+tut.basic.controls.step.feedback,"Jeśli napotkasz problemy, znajdziesz błąd lub będziesz mieć sugestię, możesz przesłać swoją opinię bezpośrednio z poziomu gry.",16.08.2023,
+tut.basic.controls.step.overlays.information.desc,"Przyciski te przełączają panele zawierające różne informacje na temat zasobów, gospodarki, zadań, statystyk i nie tylko.",,
+tut.basic.controls.step.overlays.information,Nakładki Informacji,,
+tut.basic.controls.step.overlay.resources,"W tym panelu wyświetlane są posiadane przez ciebie zasoby, dostępne typy materiałów i plany urządzeń.",26.08.2023,
+tut.basic.controls.step.overlay.wallet,Widok portfela wyświetla twoje rezerwy gotówkowe i zapewnia dostęp do <b>Giełdy</b>.,16.08.2023,
+tut.basic.controls.step.overlay.quests,Tutaj znajdziesz listę dostępnych zadań. Aktywne zadanie jest zawsze wyświetlane w panelu zdarzeń w prawym górnym rogu.,,
+tut.basic.controls.step.overlay.goals,"Gra śledzi Twoje bieżące postępy i w pewnych warunkach może Ci dać pewne sugestie. Te sugestie pojawiają się również w panelu zdarzeń w prawym górnym rogu. Te sugestie są całkowicie opcjonalne i możesz je zignorować, jeśli chcesz podążać własną strategią.",,
+tut.basic.controls.step.overlay.beings,"Ten widok zawiera listę wszystkich istot obecnych na twoim statku. Obejmuje to twoich robotycznych pracowników, ludzkich kolonistów, zwierzęta domowe i wszelkie inne stworzenia, które mogą się pojawić.",,
+tut.basic.controls.step.overlay.tasks,"Tutaj możesz zobaczyć aktywne zadania i kto nad czym pracuje. Liczba aktywnych zadań jest ograniczona przez <b>Pamięć</b>, które można zwiększyć, budując <b>Moduły Pamięci</b>. Ograniczenia będą widoczne tutaj.",16.08.2023,
+tut.basic.controls.step.overlay.eventlog,"Dziennik Wydarzeń to dziennik, który zawiera historię twojego statku. Gdy wydarzy się coś ważnego, w tym dzienniku pojawi się automatyczny wpis. Możesz również w dowolnym momencie dodać tutaj niestandardowe wpisy ręczne.",16.08.2023,
+tut.basic.controls.step.overlays.special.desc,"Tutaj znajdziesz specjalne widoki, takie jak <b>Drzewko Badań</b> i <b>Mapę Gwiazdną</b>.",16.08.2023,
+tut.basic.controls.step.overlays.special,Widoki Specjalne,,
+tut.basic.controls.step.overlay.research,Tutaj odblokowujesz nowe technologie.,,
+tut.basic.controls.step.overlay.starmap,"Jeśli twój statek jest w jednym kawałku i ma <b>Mostek Sterowania</b> i <b>Silniki</b>, może latać. Eksploracja kosmosu będzie niezbędna do znalezienia potrzebnych zasobów.",19.08.2023,
+tut.basic.controls.step.overlay.codex,"Kodeks zawiera <b>Instrukcje Operacyjne</b>, wskazówki i różne listy danych, takie jak rodzaje materiałów występujących w uniwersum Stardeus, wszystkie plany, które można odblokować w Drzewku Badawczym, znane Frakcje i wiele więcej.",,
+tut.basic.controls.step.overlay.search,"Ten przycisk otwiera pole wyszukiwania, dzięki któremu możesz szybko znaleźć projekt, który chcesz zbudować, istotę po nazwie, wpis w kodeksie i wiele więcej.",16.08.2023,
+tut.basic.controls.step.overlays.controls.desc,Przyciski te przełączają panele umożliwiające zarządzanie różnymi systemami pokładowymi.,,
+tut.basic.controls.step.overlays.controls,Kontrolki Systemowe,,
+tut.basic.controls.step.overlay.security,"Pokazuje listy aktywnych zagrożeń i umożliwia kontrolowanie niektórych urządzeń skoncentrowanych na bezpieczeństwie w jednym wygodnym miejscu. Chcesz podnieść wszystkie swoje pola siłowe jednym kliknięciem? Kontrolki Bezpieczeństwa mają to, czego potrzebujesz.",,
+tut.basic.controls.step.overlay.combat,Widok walki jest przydatny do śledzenia szczegółów trwającej walki. Wyświetla frakcje i wszystkich wojowników.,,
+tut.basic.controls.step.overlay.shipnav,"Tutaj możesz sprawdzić, czy twój statek jest sprawny i rozwiązać problemy, jeśli tak nie jest. Zawiera listę wszystkich silników i listę kontrolną związaną z lotem, pozwala ci również zmienić kierunek przodu twojego statku.<br><br>Kierunek przodu określa, jak pole gwiazdowe za statkiem porusza się podczas lotu. Na przykład, jeśli twoje silniki są skierowane w lewo, kierunek przodu powinien być ustawiony na prawo.",,
+tut.basic.controls.step.overlay.expedition,"Ten widok pokazuje wszystkie znane lokalizacje zasobów i pozwala zarządzać wyprawami promów. Jeśli  jakiś prom kosmiczny kiedykolwiek się zgubi, możesz wyśledzić jego lokalizację tutaj.",,
+tut.basic.controls.step.overlay.copters,Po odblokowaniu <b>Automatyzacji Wydobywania</b> będziesz mógł budować <b>Śmigłowce Transportowe</b>. Ten widok pozwala zarządzać trwającymi misjami śmigłowców.,,
+tut.basic.controls.step.overlay.tint,"Gdy <b>Auto Malarz</b> załaduje pigmenty, użyj narzędzi udostępnionych w tym widoku, aby pomalować podłogi i ściany statku na taki kolor, jaki lubisz.",,
+tut.basic.controls.step.overlay.terraform,"Gdy znajdziesz planetę nadającą się do terraformowania, zostanie ona zarejestrowana w tym widoku wraz ze statusem terraformowania. Gdy planeta zostanie w pełni terraformowana, możesz użyć tego panelu, aby rozpocząć procedurę kolonizacji.",,
+tut.basic.controls.step.events,Aktywne Wydarzenia,,
+tut.basic.controls.step.events.desc,"Ta lista zawiera najważniejsze wydarzenia, które obecnie mają miejsce. Niektóre elementy na liście to grupy, które można rozwinąć po kliknięciu.",,
+tut.basic.controls.step.log,Dziennik Wydarzeń,,
+tut.basic.controls.step.log.desc,"Ta sekcja zawiera pełny dziennik wydarzeń, w tym drobne szczegóły. Najedź kursorem na dziennik, aby ułatwić czytanie.<br><br>Możesz wyczyścić ten dziennik lub przełączyć jego widoczność za pomocą przycisków poniżej.",,
+tut.step.select.entity,Wybierz {0},,{0} is some device or object name
+tut.step.select.entity.desc,Kliknij podświetlone <b>{0}</b> aby to zaznaczyć.,,{0} is device or being or object
+tut.step.select.entity.expired,Kliknij podświetlony objekt aby go zaznaczyć. (Ten krok już wygasł),,
+tut.msg.target.ui.not.found,Wymagany element interfejsu użytkownika nie jest widoczny. Użyj przycisku <b>{0}</b> i powtórz czynność z poprzedniego kroku.,,{0} is translation for Back
+tut.msg.target.ui.udb,Kliknij podświetlony element interfejsu użytkownika,,
+tut.msg.target.ui.udb.desc,Znajdz element interfejsu użytkownika o nazwie <b>{0}</b> i go kliknij aby kontynuować.,,
+tut.msg.target.udb.no.title.desc,Znajdz podświetlony element interfejsu użytkownika i go kliknij aby kontynuować.,,
+tut.ui.click.and.drag,Kliknij i przeciągnij ten blok interfejsu użytkownika aby go przesunąć,,
+tut.basic.controls.step.dev.manage,Zarządzanie Urządzeniami,,
+tut.basic.controls.step.dev.manage.desc,<b>Panel Informacyjny</b> udostępnia różne dane i kontrolki dla wybranego obiektu. Przyjrzyjmy się połączeniom elektrycznym tego urządzenia.,16.08.2023,
+tut.basic.controls.step.dev.select,Zaznaczanie Objektów,,
+tut.basic.controls.step.dev.manage.submenu,Kontrola Komponentów,,
+tut.basic.controls.step.dev.manage.submenu.desc,"Teraz patrzysz na kontrolki komponentu <b>Prąd</b> wybranego urządzenia. Jeśli wybierzesz inne urządzenie, które ma ten sam komponent, podmenu pozostanie otwarte. Każdy obiekt ma różne komponenty, które w ten właśnie sposób ujawniają swoje dane i kontrolki.",16.08.2023,
+tut.basic.controls.step.deselect,Odznaczanie Objektów,,
+tut.basic.controls.step.deselect.desc,"Gdy coś jest zaznaczone, użyj <b>{0}</b>, aby to odznaczyć. Zamknie to również wszystkie otwarte nakładki lub aktywne panele interfejsu użytkownika. Wypróbuj teraz.",02.07.2024,{0} is a key binding
+tut.basic.controls.step.context.menu.1,Wywoływanie Menu Kontekstowego,,
+tut.basic.controls.step.context.menu.1.desc,"Gdy kursor znajduje się nad obiektem, <b>{0}</b> otworzy <b>Menu Kontekstowe</b>. Spróbuj otworzyć je dla podświetlonego urządzenia.",16.08.2023,{0} is a key binding
+tut.basic.controls.step.context.menu.2,Menu Kontekstowe,,
+tut.basic.controls.step.context.menu.2.desc,<b>Menu Kontekstowe</b> zawiera podzbiór najczęściej wykonywanych działań z Panelu Informacyjnego.,14.08.2023,
+tut.basic.controls.step.context.menu.3.desc,Użyj {0} aby zamknąć Menu Kontekstowe,02.07.2024,{0} is a key binding
+tut.basic.controls.tools,Narzędzia,,
+tut.basic.controls.tools.desc,"Wiele akcji w grze wymaga użycia Narzędzi, które są do twojej dyspozycji. Możesz uzyskać do nich dostęp na różne sposoby, w tym przez <b>Menu Narzędzi</b>, <b>Pasek Szybkiego Wyboru</b>, <b>Szybkie Wyszukiwanie</b> i <b>Klawisze skrótów</b>.<br><br>Naciśnij <b>{0}</b>, aby otworzyć <b>Menu Narzędzi</b>.",,
+tool.menu.type,Rodzaj Menu Narzędzi,,
+tool.menu.type.radial,Okrągłe Menu,,
+tool.menu.type.grid,Menu Tradycyjne,,
+hotbar.add.tip,"Naciśnij {0}, przytrzymując jednocześnie {1}, aby dodać ten element do Paska Szybkiego Wyboru.",16.08.2023,{0} and {1} is a key binding
+hotbar.ctrl.tip,"Naciśnij {0}, przytrzymując jednocześnie {1}, aby usunąć ten element.<br>Przytrzymaj {0}, a następnie przeciągnij element w lewo lub w prawo, aby zmienić kolejność.",16.08.2023,{0} and {1} is a key binding
+search.placeholder,"Wpisz tutaj, aby wyszukać",,
+adjective.recent,Ostatnie,,
+datoid.available.vs.owned.tip,"Aby móc używać Datoidów, muszą one znajdować się w <b>Ładowniku Datoidów</b>.",,
+def.unlock.tip,Zbadaj {0} by to odblokować.,,{0} is the technology name. this message is displayed in a tooltip of a locked item.
+tut.basic.controls.step.overlay.skip.tip,"Możesz pominąć tę część. Przytrzymaj {0}, najeżdżając kursorem na przycisk nakładki, aby w dowolnym momencie zobaczyć wiadomość z samouczka.",,{0} is a key binding
+tut.skip.group,Pomiń grupę: {0},,{0} is the group name
+tut.basic.controls.step.grid.menu.1,Rodzaje Menu Narzędzi,,
+tut.basic.controls.step.grid.menu.1.desc,"To jest <b>Menu Tradycyjne</b>. Istnieje alternatywne <b>Okrągłe Menu</b>, które może być wygodniejsze podczas gry na kontrolerze. Możesz zmienić typ menu narzędzi w <b>Ustawienia > Przyciski > Rodzaje Menu Narzędzi</b>.<br><br>W tym samouczku użyto <b>Tradycyjnego</b> rodzaju menu narzędzi.",,
+tut.basic.controls.step.grid.menu.2,Narzędzia,16.08.2023,
+tut.basic.controls.step.grid.menu.2.desc,"Lewa strona <b>Menu Narzędzi</b> zawiera listę wszystkich dostępnych narzędzi. Niektóre narzędzia mogą mieć podmenu, podczas gdy inne zostaną aktywowane po kliknięciu. Aktywne narzędzie będzie miało żółty odcień.",16.08.2023,
+getting.food.in.dangerous.loc,Próbuje wziąć jedzenie z niebezpiecznego miejsca: {0},,{0} is a coordinate
+failed.to.find.path.to.safety,Nie udało się znaleźć ścieżki do bezpiecznej lokalizacji z {0},,{0} is a coordinate
+tut.basic.controls.step.tools.place_tiles,"To narzędzie będzie zawierać odblokowane plany różnych obiektów, które możesz zlecić swoim pracownikom do zbudowania. Jest też podmenu z kategoriami i lista <b>Ostatnich</b> elementów.",,
+tut.basic.controls.step.tools.connect,To narzędzie umożliwia podłączanie/odłączanie urządzeń elektrycznych oraz łączenie/odłączanie teleporterów poprzez kliknięcie i przeciągnięcie linii między nimi.,,
+tut.basic.controls.step.tools.repair,"To narzędzie podświetla uszkodzone struktury i urządzenia, umożliwiając ci zlecenie napraw. Kliknij pojedyncze urządzenie lub kliknij i przeciągnij, aby wybrać większy obszar aby zlecić naprawy.",,
+tut.basic.controls.step.tools.store,"To narzędzie nakazuje transport nieskładowanych stosów materiałów do zgodnego magazynu, jeśli jest dostępny. Kliknij pojedynczy stos lub kliknij i przeciągnij, aby wybrać wiele stosów do transportu.",,
+tut.basic.controls.step.tools.process,"To narzędzie zleca przetwarzanie wybranych stosów materiałów lub martwych istot, pod warunkiem dostępności zgodnej maszyny procesującej. Kliknij pojedynczy obiekt lub kliknij i przeciągnij, aby wybrać wiele obiektów do przetworzenia.",,
+tut.basic.controls.step.tools.remove_tiles,"To narzędzie zleca dekonstrukcję ścian, podłóg lub urządzeń. Kliknij na pojedynczy obiekt lub kliknij i przeciągnij po obszarze, aby zlecić dekonstrukcję.",,
+tut.basic.controls.step.tools.ads_cancel,"To narzędzie anuluje aktywne zlecenia. Kliknij obiekt z oczekującym zadaniem lub kliknij i przeciągnij nad obszarem, aby anulować zlecone aktywności w tej strefie.",,
+tut.basic.controls.step.tools.ads_retry,"To narzędzie zleci natychmiastowe ponowienie nieudanuych zadań. Kliknij obiekt z nieudanym zadaniem lub przeciągnij nad obszarem, aby natychmiast ponowić wszystkie nieudane zlecenia w tym regionie. Nieudane zadania zostaną automatycznie ponowione po opóźnieniu, nawet bez ręcznej interwencji.",,
+tut.basic.controls.step.tools.manage_ads,"To narzędzie umożliwia ponawianie prób, anulowanie i dostosowywanie priorytetu oczekujących zadań. Zwiększenie priorytetu spowoduje również próbę przypisania zadania do najbliższego dostępnego pracownika. Kliknij obiekt z oczekującym zadaniem lub przeciągnij nad obszarem, aby zastosować wybraną akcję w tej strefie.",,
+tut.basic.controls.step.tools.copy_config,"To narzędzie umożliwia kopiowanie i wklejanie ustawień między zgodnymi urządzeniami. Kliknij jedno, aby skopiować jego konfigurację, a następnie wybierz inne lub przeciągnij nad obszar, aby zastosować skopiowane ustawienia do urządzeń tego samego typu.",,
+tut.basic.controls.step.tools.plan,To Narzędzie oferuje wiele metod rysowania w nakładce <b>Planowania</b>.,,
+tut.basic.controls.step.tools.skip.tip,"Możesz pominąć tę część. Najedź kursorem na dowolny przycisk narzędzia, aby zobaczyć wiadomość samouczka.",,
+toggle.button.size,Zmień rozmiar przycisku,16.08.2023,
+tut.basic.controls.step.tool.build.1,"Przyjrzymy się bliżej narzędziu <b>{0}</b>. Kliknij je, aby aktywować podmenu narzędzia.",,{0} is the tool name
+tut.basic.controls.step.tool.build.2,"To jest podmenu narzędzi. Zawiera zakładki dla grup obiektów, które możesz zbudować.",,
+tut.basic.controls.step.tool.build.3,"Zbudujmy coś. Kliknij zakładkę {0}, a następnie kliknij {1}, aby rozpocząć budowanie.",,{0} is the tab label {1} is the device name
+tut.step.place.tile.with.rot.desc,"Użyj {0}, aby zlecić zbudowanie {1} w podświetlonym miejscu.<br><br>Obróć używając {2} przed umieszczeniem.",,{0} and {2} is key binding. {1} is device name
+tut.step.place.tile.desc,Zleć zbudowanie {0} w podświetlonym miejscu.,,{0} is an device name
+tut.step.place.tile,Zbuduj {0},,{0} is an device name
+tut.step.expired,Ten krok wygasł,,
+tut.basic.controls.step.tool.build.4,Pracownicy wkrótce rozpoczną wykonywanie polecenia budowania.<br><br><b>{1}</b> powróci do menu budowania.<br><br>{0} wyjdzie z trybu budowania.,,{0} and {1} are key bindings
+tut.basic.controls.step.connect.1,"Teraz zobaczmy, co potrafi narzędzie <b>{0}</b>. Użyj <b>{1}</b>, aby otworzyć <b>Menu Narzędzi</b> i je aktywuj.",16.08.2023,{0} is tool name. {1} is key binding
+tut.basic.controls.step.connect.2,"Spójrz, znaleźliśmy odłączony <b>{0}</b>. Połączmy go z pobliskim <b>{1}</b>.<br><br>Naciśnij {2} nad {1}, a następnie przeciągnij linię do {0} i zwolnij {2}, aby je połączyć.",,{0} is device name. {1} is connector device name. {2} is key binding
+tut.basic.controls.step.connect.3,"Ta sama czynność spowoduje rozłączenie dwóch połączonych urządzeń.<br><br>Użyj {0}, aby przeciągnąć linię między <b>{1}</b> i <b>{2}</b>, aby przerwać połączenie.",16.08.2023,{0} is key binding {1} and {2} are device names
+tut.basic.controls.step.connect.4,"Narzędzie <b>{0}</b> może również łączyć i rozłączać <b>Teleportery</b>.<br><br>Łącza teleporterów są jednokierunkowe, więc musisz połączyć teleporter <b>A</b> z <b>B</b> i <b>B</b> z <b>A</b>, aby prowadziły do ​​siebie. Utwórz dwukierunkowe łącze między podświetlonymi teleporterami, aby kontynuować.",16.08.2023,{0} is tool name
+tut.basic.controls.step.connect.5,"<b>Wskazówka:</b> w trybie swobodnego wyboru naciśnij {0} nad <b>Łącznikiem</b> lub <b>Teleporterem</b> i zacznij przeciągać linię, aby przełączyć się na narzędzie <b>{1}</b>.",,{0} is key binding. {1} is tool name
+tut.connecting.teleporters,Łączenie Teleporterów,,
+choice.or,{0} lub {1},,{0} and {1} will be some arbitrary things like shortcut keys or two item names
+tut.basic.controls.step.repair.1,"Systemy zgłaszają wyciek tlenu. Użyjmy nakładki <b>{0}</b>, aby znaleźć źródło wycieku.",,{0} is Oxygen translation
+tut.basic.controls.step.repair.2,"Oto wyciek. Możesz zobaczyć tlen przepływający przez uszkodzone <b>{0}</b> do sąsiedniego obszaru, który nie ma tlenu.",,{0} is a translation for Window structure
+tut.basic.controls.step.repair.3,"Użyj <b>{0}</b>, aby otworzyć <b>Menu Narzędzi</b> i aktywować narzędzie <b>{1}</b>. Następnie utworzymy kilka zadań naprawczych.",16.08.2023,{0} is key binding {1} is tool name
+tut.basic.controls.step.repair.4,"Naciśnij {0} i przeciągnij prostokąt wokół uszkodzonego obszaru, aby zamówić naprawę.",16.08.2023,{0} is key binding
+tut.basic.controls.group.examining.objects,Badanie Obiektów,,
+tut.basic.controls.step.deconstruct.1,"Teraz usuniemy niektóre struktury. Użyj {0}, aby otworzyć <b>Menu narzędzi</b> i aktywować narzędzie <b>{1}</b>.",,{0} is key binding
+tut.basic.controls.step.deconstruct.2,"Naciśnij {0} i przeciągnij prostokąt wokół zaznaczonego obszaru, aby zarządzić dekonstrukcję kafelek.",16.08.2023,
+tut.basic.controls.step.deconstruct.3,"Dekonstrukcja wkrótce się rozpocznie.<br><br>Wiele akcji, w tym <b>Naprawa</b> i <b>Dekonstrukcja</b>, można zamówić za pośrednictwem <b>Panelu Informacyjnego</b> lub <b>Menu Kontekstowego</b> wybranego obiektu.",,
+tut.basic.controls.relocate.1,Kolejnym ważnym aspektem organizacji statku jest przenoszenie przedmiotów.,,
+tut.basic.controls.relocate.2,"Aby rozpocząć proces relokacji, kliknij przycisk <b>{0}</b> w <b>Panelu infIrmacyjnym</b> objektu.",,{0} is key binding
+tut.basic.controls.relocate.3,"Przenieś urządzenie do podświetlonego obszaru.<br><br>Pulsujący okrąg oznacza <b>Miejsce Pracy</b>. Nie może być niczym zasłonięte. Będziesz musiał obrócić urządzenie.<br><br>Użyj {0}, aby obrócić urządzenie.<br><br>Naciśnij {1} nad podświetlonym obszarem, aby zamówić przeniesienie.",16.08.2023,{0} is key binding
+tut.basic.controls.relocate.4,"Przeniesienie jest obecnie w toku.<br><br>W ten sposób możesz przenosić istoty, stosy materiałów i inne obiekty.",,
+tut.basic.controls.quick.search.1,"Użyj <b>Szybkiego Wyszukiwania</b>, jeśli dokładnie wiesz czego szukasz. To najszybszy sposób na znalezienie czegokolwiek.<br><br>Naciśnij {0}, aby aktywować <b>Szybkie Wyszukiwanie</b>.",18.08.2023,{0} is key binding
+tut.basic.controls.quick.search.2,"Teraz zacznij wpisywać nazwę planu i naciśnij {0} lub kliknij wynik, aby go aktywować, gdy stanie się dostępny.<br><br>W tym przykładzie powiedzmy, że chcesz zbudować <b>{1}</b>. Wpisz „{2}”, a następnie naciśnij {0}.",,{0} is key binding. {1} is device name. {2} will be first few characters of device name
+tut.basic.controls.quick.search.3,"<b>Szybkie Wyszukiwanie</b> jest niezwykle przydatne. Oprócz planów może znaleźć pracowników, wpisy do kodeksu i przedmioty w specjalnych widokach, takich jak <b>Drzewko Badań</b> lub <b>Mapa Gwiezdna</b>.",,
+tut.basic.controls.end,"Udało ci się ukończyć samouczek. Jeśli informacje wydają ci się przytłaczające, pamiętaj, że zawsze możesz do nich wrócić i przeskoczyć do wybranego kroku lub po prostu uczyć się podczas gry.<br><br>Zdecydowanie zalecamy zapoznanie się z <b>Kodeksem</b>. Zawiera on informacje na temat działania rzeczy.<br><br>Wiele informacji z tego samouczka, jak również z <b>Kodeksu</b>, jest osadzonych bezpośrednio w grze, często oznaczonych jako „{0}” w podpowiedziach. Wykorzystaj to na swoją korzyść.",18.08.2023,{0} is something like: hold CTRL for more info
+tut.research.name,Badania,,
+tut.research.desc,Poznaj koncepcje Badań.,,
+tool.menu.recent.desc,Zawiera listę ostatnio używanych planów.,,
+tut.research.intro.desc,"W tym samouczku dowiesz się wszystkiego, co musisz wiedzieć o <b>Badaniach</b> w grze Stardeus.",,
+tut.research.end,"To wszystko! Oto podsumowanie tego, czego się nauczyliśmy:<br><br> - Badania wykorzystują <b>Datoidy</b>.<br> - Datoidy muszą być przechowywane w <b>Ładownikach Datoidów</b>, aby stały się dostępne.<br> - Musisz mieć wystarczająco dużo <b>Przestrzeni Dyskowej</b> i <b>Datoidów</b> odpowiedniego typu, aby odblokować konkretne badania.<br> - Datoidy są produkowane przez <b>Zbieracze Danych</b>.<br> - Buduj i podłączaj nowe <b>Moduły Dysków</b>, aby dodać więcej <b>Przestrzeni Dyskowej</b>.",,
+tut.research.open.tree,Otwórz <b>Drzewko badań</b>. Skrót: {0},,{0} is key binding
+tut.research.tree.nav,Drzewko Badawcze: Poruszanie Się,,
+tut.research.tree.nav.desc,"To jest <nobr><b>Drzewko badań</b></nobr>. Oto jak się po nim poruszać:<br><br> - Aby się poruszać: {0} lub przeciągnij mysz, trzymając {1}.<br> - Aby zmienić powiększenie: {2}",,{0}{1}{2} is key binding
+tut.research.tree.nav.gamepad,To jest <nobr><b>Drzewko badań</b></nobr>. Oto jak się po nim poruszać:<br><br> - Aby się poruszać: {0}.<br> - Aby zmienić powiększenie: {1}.,,{0}{1} is key binding
+verb.scroll,Przewiń,,As in Mouse Scroll
+tut.research.tree.find.element,"Spójrz na podświetlony węzeł badawczy <b>{0}</b>.<br><br>Możesz użyć wyszukiwania {1}, aby przejść do niego bezpośrednio.",,{0} is tech name. {1} is key binding
+tut.research.tree.find.element.gamepad,Spójrz na podświetlony węzeł badawczy <b>{0}</b>.,,{0} is tech name.
+tut.research.tree.node,Drzewko Badawcze: Węzeł,,
+tut.research.tree.node.cost.datoids,"Badania są odblokowywane poprzez wykorzystywanie specjalnych materiałów zwanych <b>Datoidami</b>. Tutaj znajdziesz listę wymaganych typów i ilości Datoidów. Najedź kursorem na ikony, aby dowiedzieć się więcej o każdym typie Datoidów, oraz o tym, jak je zdobyć.",,
+tut.research.tree.node.cost.tier,"To wskazuje <b>Poziom</b> węzła badawczego. Musisz odblokować określoną liczbę węzłów z bieżącego poziomu, aby odblokować następny poziom.",,
+tut.research.tree.node.cost.disk,"Jest to ilość miejsca na <b>Dysku</b> wymagana do trwałego przechowywania wyników badań.<br><br>Buduj lub ulepszaj <b>Moduły dysków</b>, aby zwiększyć dostępną przestrzeń dyskową.",,
+tut.research.tree.node.bookmark,"To jest przycisk <b>Zakładki</b>. Kliknij go, aby dodać dowolny zablokowany węzeł badawczy do zakładek w celu szybkiego dostępu.",,
+tut.research.tree.node.bookmarks,"Ten przycisk wyświetla listę wszystkich dodanych do zakładek badań.<br><br>Otrzymasz powiadomienie, gdy którykolwiek z dodanych do zakładek węzłów badań stanie się dostępny do odblokowania.",,
+tut.research.tree.node.unlock,"To jest przycisk <b>Odblokowania</b>. Jeśli masz niezbędne zasoby, odblokuje on węzeł badawczy jednym kliknięciem.<br><br>Jeśli węzeł badawczy nie może zostać odblokowany, najechanie na ten przycisk pokaże ci dlaczego.",,
+tut.research.tree.info,Panel Informacyjny Drzewka Badań,,
+tut.research.tree.info.desc,Ten panel zawiera przegląd dostępnych zasobów i przydatnych działań.,,
+tut.research.tree.info.disk,"Ten pasek postępu pokazuje użycie <b>Dysku</b>.<br><br>Przycisk <b>{0}</b> otwiera listę odblokowanych węzłów badawczych, które można odładować, jeśli pilnie potrzebujesz więcej miejsca na dysku. Odładowane badania będą musiały zostać ponownie odblokowane.",,{0} is key binding
+tut.research.tree.info.datoids,"Ta sekcja zawiera listę <b>Datoidów</b>, które są dostępne do użycia. Najedź kursorem lub kliknij elementy, aby uzyskać więcej informacji o każdym typie Datoidów.<br><br>Datoidy stają się dostępne dopiero po zapisaniu ich w <b>Ładowniku Datoidów</b>. Wkrótce jeden zbudujemy.",,
+tut.research.tree.info.management,"W sekcji zarządzania znajdziesz pomocne narzędzia, takie jak wcześniej wspomniane <b>Zakładki</b> i funkcja <b>Wyszukiwania</b>. Umożliwia ona lokalizowanie węzłów według ich nazwy lub nazw odblokowanych przez nie elementów.<br><br>Możesz teraz zamknąć <b>Drzewko Badań</b> za pomocą {0}.",,{0} is key binding
+tut.research.unstored.datoid,"Mamy już kilka <b>Datoidów</b>, ale nie są one jeszcze dostępne do badań.<br><br>Będziemy musieli zbudować <b>Ładownik Datoidów</b> i pozwolić naszym pracownikom ładować do niej te Datoidy.",18.08.2023,
+tut.obj.not.found,Obiekt nie został znaleziony!,,
+tut.obj.no.longer.available,Obiekt nie jest już dostępny!,,
+tut.start.building.def,"Użyj {0}, aby otworzyć <b>Menu Narzędzi</b>, znajdź <b>{1}</b>, a następnie kliknij ikonę, aby rozpocząć budowanie.",,{0} is key binding. {1} is device name
+tut.waiting.for.construction,Oczekiwanie na budowę <b>{0}</b>.,,{0} is device name
+tut.research.datoid.load.wait,Ładowanie Datoidów,,
+tut.research.datoid.unstored,Niezaładowane Datoidy,,
+tut.research.datoid.load.wait.desc,"Oczekiwanie na załadowanie <b>Datoidów</b> do <b>Ładownika Datoidów</br>.<br><br>Pracownicy zrobią to automatycznie, ale możesz użyć narzędzia <b>{0}</b>, aby natychmiast zlecić holowanie.",,{0} is tool name
+tut.research.datoid.load.ready,"<b>Datoidy</b> są teraz załadowane i jest kilka węzłów badawczych, które można odblokować.<br><br>Za każdym razem, gdy jakieś badania mogą zostać odblokowane, zobaczysz powiadomienie o tym w <b>Panelu Wydarzeń</b> po prawej stronie.<br><br>Kliknij powiadomienie, aby otworzyć <b>Drzewko Badań</b>. Automatycznie skupi się ono na pierwszym odblokowanym węźle.",,
+tut.research.unlock.tech,Odblokuj <b>{0}</b>,,{0} is tech name
+tut.research.unlock.tech.desc,"Odblokuj podświetlony węzeł badawczy, aby kontynuować.",,
+tut.research.tree.group,Interfejs Użytkownika Drzewka Badań,,
+tut.research.after.first.unlock,<b>{0}</b> jest teraz odblokowany. Będziesz mógł zbudować wszystkie plany wymienione w tym węźle badawczym.,,{0} is tech name
+tut.research.unlocked.tech,<b>{0}</b> odblokowane,,{0} is tech name
+tut.research.datoids.howto.1,"Właśnie zużyliśmy większość naszych <b>Datoidów</b>, więc musimy wygenerować ich więcej.<br><br>Kliknij element Interfejsu Użytkownika <b>{0}</b>, aby dowiedzieć się, jak je wygenerować.",,{0} is a translation for Basic Datoid
+tut.research.datoids.howto.2,"Powiadomienie z kodeksu informuje nas, że <b>{0}</b> może być wytworzone w <b>{1}</b> — będziemy musieli to zbudować.<br><br>Użyj {2} lub {3}, aby zamknąć <b>Drzewko Badań</b>.",,{0} is a translation for Basic Datoid {1} is translation for Basic Data Harvester/ {2}[3} are bindings
+tut.research.datoids.howto,Jak Produkować Datoidy,,
+tut.switch.tool.no.shortcut,"Użyj {0}, aby otworzyć <b>Menu Narzędzi</b> i aktywować narzędzie <b>{1}</b>.",,{0} is key binding. {1} is tool name
+tut.switch.tool.with.shortcut,"Użyj {0}, aby otworzyć <b>Menu Narzędzi</b> i aktywować narzędzie <b>{1}</b>.<br><br>Możesz również aktywować narzędzie <b>{1}</b> za pomocą {2}.",,{0} is key binding. {1} is tool name {2} is binding
+tut.switch.tool.title,Aktywuj narzędzie: {0},,{0} is tool name
+tut.connect.device,Połącz {0},,{0} is device name
+tut.connect.device.freestyle.desc,Za pomocą narzędzia <b>{0}</b> połącz podświetlony <b>{1}</b> z najbliższym dostępnym łącznikiem.,,{0} is tool name. {1} is device name
+tut.connect.device.constrained.desc,"Naciśnij {0} nad <b>{2}</b>, a następnie przeciągnij do <b>{1}</b> i puść {0}, aby utworzyć nowe połączenie.",23.08.2023,{0} is key binding. {1} and {2} is device name
+tut.configure,Skonfiguruj {0},,{0} is device name
+tut.exit.tool,"Użyj {0}, aby powrócić do trybu <b>Swobodnego Wyboru</b>.",,{0} is key binding
+tut.configure.crafter.product,Zacznij produkować <b>{0}</b>,,{0} is product name
+tut.research.tree.node.unlockables,Przedmioty Do Odblokowania,,
+tut.research.tree.node.unlockables.desc,"Każdy węzeł badawczy ma listę przedmiotów do odblokowania. Najedź kursorem na przedmiot, aby zobaczyć jego nazwę i opis.",,
+tut.build.not.expected,Nie oczekuje się od ciebie zbudowania <b>{0}</b> w tej chwili.,,{0} is device name
+tut.research.disk.1,"Podczas gdy <b>{0}</b> produkuje nowe Datoidy, zaplanujmy nasz następny ruch.",,{0} s device name
+tut.research.disk.2,"Chcemy zbudować <b>{0}</b>. Znajdźmy węzeł badawczy, który odblokuje ten projekt. Możesz otworzyć wyszukiwanie za pomocą {1}.",,{0} is device name {1} is key binding
+tut.research.disk.2.gamepad,"Chcemy zbudować <b>{0}</b>. Znajdźmy węzeł badawczy <b>{1}</b>. Możesz użyć przycisku <b>{2}</b> w lewym górnym rogu, aby go znaleźć.",,{0} is device name {1} is key binding. {2} is translation for Search
+tut.research.disk.3,"Zacznij wpisywać nazwę <b>{0}<b> w polu wyszukiwania i naciśnij {1} lub kliknij wynik, gdy stanie się dostępny.",,{0} is device name. {1} is key binding
+tut.research.disk.4,"Zastanówmy się, co jest potrzebne do odblokowania <b>{0}</b>. Najedź kursorem na przycisk <b>{1}</b>.",,{0} is device name. {1} is button label
+tut.research.disk.5,"Gdy wyprodukujemy wystarczającą liczbę <b>Podstawowych Datoidów</b>, nadal nie będziemy mogli tego odblokować, ponieważ nie będziemy mieć wystarczającej <b>Przestrzeni Dyskowej</b> wymaganej do zapisania wyników badań.<br><br>Będziemy musieli zbudować <b>Moduł Dysku</b>.<br><br>Użyj {0} lub {1}, aby zamknąć <b>Drzewko Badań</b>.",,{0} and {1} are key bindings
+tut.research.disk.3.hint,Wskazówka: Wynik wyszukiwania powinien wyglądać tak: <b>{0}</b>.,,{0} is a tech name
+tut.research.outro,"Mamy teraz wystarczająco dużo <b>Przestrzeni Dyskowej</b>, aby odblokować <b>{0}</b>, ale wciąż musimy poczekać, aż zostaną wyprodukowane <b>Podstawowe Datoidy</b>.<br><br>Możesz zbudować wiele <b>Zbieraczy Danych</b>, aby wyprodukować więcej Datoidów, ale uważaj, aby nie skalować ich zbyt szybko, ponieważ może zabraknąć ci zasobów.<br><br>Odblokowanie bardziej zaawansowanych badań będzie wymagało nowych typów Datoidów, których produkcja będzie trudniejsza i które będą wymagały nowych urządzeń i materiałów.",,{0} is a tech name
+available.material,Dostępne: {0},,
+tut.el.title,Elektryczność,,
+tut.el.desc,"Dowiedz się, jak działa elektryczność w Stardeus.",,
+tut.el.intro,"Energia elektryczna odgrywa ważną rolę w Stardeus. Nie tylko zasila urządzenia, ale także umożliwia ich zarządzanie.<br><br>Ten samouczek przeprowadzi cię przez proces konfigurowania, zarządzania i rozwiązywania problemów z sieciami elektrycznymi.",,
+tut.el.end,"Teraz wiesz, jak działa elektryczność w Stardeus. Oto podsumowanie:<br><br> - Możesz zarządzać urządzeniami tylko wtedy, gdy są podłączone do sieci <b>Komputera Pokładowego</b>.<br> - Użyj <b>Łączników</b>, aby połączyć urządzenia z siecią.<br> - Połącz <b>Łączniki</b>, aby dotrzeć do odległych urządzeń lub sieci.<br> - Kliknij i przeciągnij linię z <b>Łącznika</b>, a następnie upuść ją na puste piętro, aby zbudować tam nowe złącze.<br> - Połączenie dwóch sieci połączy je w jedną.<br> - Nakładka <b>{0}</b> może pomóc w rozwiązywaniu problemów z <b>Deficytem Energii Elektrycznej</b> i innymi problemami.",23.08.2023,
+tutorial.header,Samouczek: {0},,{0} is the name of tutorial the player is playing
+tut.el.no.grid,W grze Stardeus Twoja świadomość znajduje się w <b>Komputerze Pokładowym</b>. Pozwala ci to wydawać polecenia robotom i kontrolować urządzenia podłączone do tej samej sieci elektrycznej co <b>Komputer Pokładowy</b>.,,
+tut.open.overlay.to.continue,"Aby kontynuować, otwórz nakładkę <b>{0}</b>.",,
+tut.el.overlay.1,"To jest nakładka <b>{0}</b>. Wkrótce przyjrzymy się jej bliżej.<br><br>W tej chwili informuje nas, że nie mamy żadnych <b>Zarządzanych Sieci</b>, co oznacza, że ​​<b>Komputer Pokładowy</b> nie jest połączony z niczym.<br><br>Zbudujmy i podłączmy kilka urządzeń.<br><br>Zamknij nakładkę, aby kontynuować.",23.08.2023,
+tut.overlay.title,Nakładka <b>{0}</b>,,
+tut.el.small.grid.1,"<b>Komputer Pokładowy</b> nie jest połączony z tym urządzeniem, więc nie możesz nim jeszcze sterować.<br><br>Element<b>{0}</b> będzie widoczny w <b>Panelu Informacyjnym</b> takich urządzeń.",,
+tut.el.small.grid.2,"Urządzenia nie mogą być połączone ze sobą bezpośrednio. Musimy połączyć je za pomocą <b>Łącznika</b>.<br><br>Odznacz <b>Reaktor Materii</b> za pomocą {0}, aby przejść do trybu <b>Swobodnego Wyboru</b>.",,
+tut.el.small.grid.3,"Najpierw musisz podłączyć <b>Łącznik</b> do <b>Komputeru Pokładowego</b>.<br><br>Próba podłączenia <b>Reaktora Materii</b> do niepołączonego <b>Łącznika</b> zakończy się niepowodzeniem, ponieważ nie kontrolujesz jeszcze <b>Łącznika</b>.",,
+tut.el.small.grid.4,"Teraz istnieje połączenie pomiędzy <b>Komputerem Pokładowym</b> i <b>Łącznikiem</b>. Pozwala to na rozszerzenie sieci do urządzeń, do których może dotrzeć połączony <b>Łącznik</b>.",,
+tut.el.small.grid.title,Tworzenie Sieci,,
+tut.el.small.grid.5,"W pobliżu znajduje się kilka odłączonych <b>Lamp Podłogowych</b>. Jest tu trochę ciemno, więc połączmy je oba, aby uzyskać trochę światła.<br><br>Możemy użyć funkcji <b>Auto Łączenie</b> wbudowanej w elementy sterujące <b>Łącznika</b>.",,
+tut.el.small.grid.6,"Obie <b>Lampy Podłogowe</b> są teraz połączone. Poczekajmy, aż się zapalą.",,
+tut.el.refuel.1,"Światła wywołały <b>Deficyt Energii Elektrycznej</b>, ponieważ nie dodaliśmy żadnego paliwa do <b>Reaktora Materii</b>.",,
+tut.el.refuel.2,"<b>Reaktor Materii</b> może przekształcić niemal każdy materiał w energię elektryczną. Mamy mnóstwo <b>{0}</b>, materiału o wysokiej wydajności energetycznej. Użyjmy go jako naszego źródła paliwa.<br><br>Kliknij przycisk <b>{1}</b>, aby kontynuować.",,
+tut.el.overlay.3,Dajmy reaktorowi trochę czasu na otrzymanie paliwa i rozwiązanie problemu deficytu energii elektrycznej.<br><br>W międzyczasie przyjrzymy się wykresowi energii elektrycznej.<br><br>Zwiększ <b>Prędkość Czasu</b> i otwórz nakładkę <b>{0}</b>.,,
+tut.el.overlay.4,"<b>Komputer Pokładowy</b> jest teraz częścią sieci elektroenergetycznej. Ten interfejs pokazuje wykres, który wyświetla produkcję energii elektrycznej, zużycie, poziom naładowania baterii i deficyty.<br><br>Najeżdżając kursorem na wykres, możesz uzyskać wgląd w przeszły i obecny stan sieci elektroenergetycznej. Obserwuj, jak deficyt znika, gdy reaktor zaczyna generować energię.<br><br>Jeśli wykres nie jest widoczny, aktywuj go, klikając przycisk <b>{0}</b>.",,
+tut.el.overlay.5,"Zwróć uwagę, że w sekcji <b>Sieci Niezarządzane</b> nakładki <b>{0}</b> wymieniona jest nieznana sieć energetyczna.<br><br>Kliknij element Interfejsu Użytkownika, aby ustawić skupić kamerę na tej siatce.",23.08.2023,
+tut.el.refuel.title,Konfiguracja Reaktora Materii,,
+research.cannot.unload.unlock.effects,Nie można odładować tego węzła badawczego ze względu na nieodwracalne efekty odblokowania.,,
+tut.el.grid.merge.title,Łączenie Sieci,,
+tut.el.grid.merge.1,"Dopóki <b>Komputer Pokładowy</b> nie zostanie podłączony, nie będziemy mogli dostosować żadnych połączeń ani skonfigurować urządzeń w tej sieci. Budując łańcuch <b>Łączników</b>, możemy połączyć dwie siatki i uzyskać kontrolę nad tym obszarem.<br><br>Zamknij nakładkę <b>{0}</b>, aby kontynuować.",,
+tut.el.grid.merge.2,Najpierw zbudujemy most prowadzący do <b>Komputera Pokładowego</b>. Będzie to pierwszym krokiem do umieszczenia <b>Łączników</b>.,,
+tut.el.grid.merge.3,"Zamów budowę podłogi w podświetlonym obszarze.<br><br>Kliknij i przeciągnij prostokąt, aby utworzyć zamówienie za pomocą jednej akcji.",,
+tut.el.grid.merge.4,"Podczas gdy dron będzie zajęty budowaniem mostu, możemy zamówić nowy <b>Łącznik</b>.<br><br>Pokażę ci najszybszy sposób, aby to zrobić.",,
+tut.el.grid.merge.5_1,"1. Najedź kursorem na złącze, a następnie naciśnij i przytrzymaj {0} .",,
+tut.el.grid.merge.5_2,2. Przeciągnij linię w kierunku podświetlonego punktu.,29.08.2023,
+tut.el.grid.merge.5_3,"3. Zwolnij {0}, aby uzyskać listę projektów Łączników.",,
+tut.el.grid.merge.5_4,"4. Wybierz typ Łącznika, które chcesz zbudować.",,
+tut.el.grid.merge.6,"Poczekajmy, aż nowy <b>Łącznik</b> zostanie zbudowany. Zostanie on automatycznie połączony z Łącznikiem, z którego przeciągnąłeś linię.",,
+tut.el.grid.merge.7,"Otwórz nakładkę <b>{0}</b> i obserwuj, jak dwie sieci łączą się w jedną po utworzeniu połączenia między podświetlonymi Łącznikami.<br><br>Utwórz połączenie między podświetlonymi łącznikami, aby kontynuować.",,
+tut.el.grid.merge.5.title,Najszybszy sposób na zbudowanie <b>Łącznika</b>,,
+tut.el.bots.maintain.title,Konserwacja robotów,,
+tut.el.bots.maintain.1,Cała ta praca wyczerpała baterię naszego <b>Drona Budowniczego</b>. Dajmy mu możliwość naładowania się.,,
+tut.el.bots.maintain.2,Robotnicy muszą również wykonywać okresową samokonserwację. Najlepiej mieć przynajmniej jedną ogólnodostępną <b>Stację Naprawczą</b>.,,
+tut.el.bots.maintain.3,"Teraz podłącz nowe urządzenia do sieci elektrycznej.<br><br>Wskazówka: Możesz użyć {0}, aby przeciągnąć i zaznaczyć wiele urządzeń, a następnie przytrzymaj {1} i naciśnij {0} nad <b>złączem</b>, aby podłączyć wybrane urządzenia.",26.08.2023,
+click.to.continue.setup,Kliknij aby kontynuować konfigurację,,
+tut.el.deficit.1,"Czas nauczyć się, jak rozwiązywać problemy z siecią elektryczną. Stworzyłem sytuację, która wywoła deficyt energii elektrycznej.<br><br>Sieć elektryczna może potrzebować chwili na symulację. Zegar nie powinien być teraz wstrzymywany.",,
+tut.el.deficit.1_2,"Gdy wystąpi deficyt, zawsze otrzymasz powiadomienie.<br><br>Kliknij powiadomienie o deficycie, aby otworzyć nakładkę <b>{0}</b>.",,
+tut.el.deficit.2,"W przypadku sieci elektrycznej, w której występuje deficyt, wartości zużycia i produkcji będą wyświetlane w kolorze <color={0}>czerwonym</color>.<br><br>Kliknij przycisk <b>{1}</b>, aby rozpocząć rozwiązywanie problemów.",,"{0} is the color code, do not move it away from <color={0}>"
+tut.el.deficit.2_2,To jest widok szczegółów sieci elektrycznej. Może pomóc ci zidentyfikować i rozwiązać różne problemy.,,
+tut.el.deficit.3,"Niedobór energii elektrycznej zostanie spowodowany przez jednego z <b>Konsumentów</b> energii elektrycznej. Listę wszystkich konsumentów podłączonych do tej sieci możemy uzyskać, klikając przycisk <b>Konsumenci</b> w sekcji <b>Zarządzanie</b> w widoku szczegółów sieci.",,
+tut.el.deficit.4,"Na liście konsumentów najpierw wyświetlane są urządzenia z deficytem. Zobaczysz, że <b>{0}</b> ma deficyt, ponieważ jego pobór mocy jest oznaczony kolorem <color={1}>czerwonym</color>.<br><br>Możesz wyłączyć to urządzenie lub skonfigurować je ponownie, aby zbierało tańszy materiał, aby rozwiązać ten deficyt.<br><br>Rozwiąż deficyt, aby kontynuować.",,
+tut.el.deficit.title,Rozwiązywanie problemów z siecią,,
+ad.rej.would.get.stuck,Utknąłby,,
+tut.deselect.objects,"Aby kontynuować, odznacz wszystkie zaznaczone obiekty za pomocą {0}.",,
+grids.managed,Zarządzanie Sieci,,
+grids.unmanaged,Niezarządzane Sieci,,
+distance.to,Dystans: {0},,
+tut.winch.title,Przenoszenie Sekcji Statku,,
+tut.winch.desc,"W tym samouczku dowiesz się, jak używać {0}, {1} i {2} do przesuwania sekcji statków po mapie.",,{0}{1}{2} are device names
+tut.winch.intro,"Czasami znajdziesz się w sytuacji, w której masz dwie lub więcej <b>Sekcje</b> (fragmentów) statku, które są od siebie odłączone.<br><br>Możesz połączyć sekcje, budując między nimi most, lub możesz zamiast tego je przesunąć.<br><br>Ten samouczek pokaże Ci, jak używać specjalistycznych urządzeń, aby przesuwać sekcje statku.",,
+tut.winch.end,"Teraz wiesz wszystko o przesuwaniu <b>Sekcji</b> statku. Oto podsumowanie:<br><br> - Użyj <b>Haka</b> i <b>Kotwicy</b>, aby <b>Przyciągnąc</b> mniejszą sekcję w kierunku większej.<br> - Mały fragment podłogi nie jest uważany za sekcję i nie można go przyciągnąć.<br> - Urządzenia przymocowane w przestrzeni mogą uniemożliwić przesunięcie się sekcji do końca. Jeśli tak się stanie, <b>Zmień Położenie Przeszkód</b> i spróbuj ponownie.<br> - Możesz zbudować <b>tymczasowy most przedłużający</b>, aby zwinąć sekcję, która jest zbyt daleko.<br> - Możesz przesunąć sekcję, aby zebrać <b>Zasoby</b> rozrzucone w przestrzeni.<br> - Użyj <b>Kontrolek Manewrowych</b>, aby sterować sekcją lub całym statkiem z dużą precyzją. Może to pomóc uniknąć <b>Zderzeń z Asteroidami</b>.",,
+tut.winch.step1_1,"Zacznijmy od przyciągnięci <b>Sekcji</b> z napisanym na niej numerem <b>1</b>, w kierunku sekcji z <b>Komputerem Pokładowym</b>. Użyjemy <b>Haka</b> i <b>Kotwicy</b>.",,
+tut.winch.step1_2,"<b>Hak</b> ma przycisk <b>Przyciągnij</b> w sekcji <b>Zarządzanie</b> w <b>Paneli Informacyjnym</b>. Będzie on zawierał listę dostępnych <b>Kotwic</b>, które możemy przyciągnąć. Otwórzmy tę listę.",,
+tut.winch.step1_3,Kliknięcie przycisku <b>Przyciągnij</b> obok wybranego <b>Haka</b> rozpocznie proces. Przyciągnij kotwicę oznaczoną <b>{0} </b>.,,
+tut.winch.step1_4,"Teraz te dwie sekcje są połączone w jedną. Jednak wkrótce odkryjesz, że nie zawsze wszystko idzie tak gładko.",,
+tut.winch.success,Przyciąganie Udane,,
+tut.winch.step2_1,"Spróbujmy teraz przyciągnąć sekcję oznaczoną numerem <b>2</b>, która znajduje się tuż nad nami.",,
+tut.winch.step2_2,"Operacja przyciągania została przerwana, ponieważ <b>Kolektor Cząsteczek</b> znajduje się na drodze. Możemy zmienić lokalizację przeszkody i spróbować ponownie.",,
+tut.winch.step2_4,<b>Kolektor Cząsteczek</b> nie powinien już uniemożliwiać przesuwania sekcji. Spróbujmy ponownie procedury przyciągania.,,
+tut.winch.patch.1,W prawym dolnym rogu ekranu znajduje się mały fragment podłogi z <b>Kotwicą</b>. Spróbujmy go przyciągnąć.,,
+tut.winch.patch.2,"Operacja przyciągania nie powiodła się, ponieważ łatka jest zbyt mała, aby można ją było uznać za poprawną <b>Sekcję</b>.<br><br>Nakładka <b>{0}</b> wyświetli listę prawidłowych sekcji wraz z ich rozmiarami.<br><br>Najlepszym sposobem na pozbycie się tego małego fragmentu podłogi jest jego dekonstrukcja.",,
+tut.winch.step3_1,"Do tej pory przyciągaliśmy tylko mniejsze sekcje. Zobaczmy, co się stanie, gdy spróbujemy przyciągnąć sekcję oznaczoną numerem <b>3</b>, która jest większa niż jakakolwiek sekcja, którą przyciągaliśmy wcześniej.",,
+tut.winch.step3_2,"Tym razem sekcja z <b>Komputerem Pokładowym</b> przesunęła się w kierunku sekcji, którą przyciągaliśmy.<br><br>Mniejsza sekcja zawsze będzie przesuwać się w kierunku większej, podczas gdy większa sekcja pozostanie w bezruchu.",,
+tut.winch.step4_1,"Istnieje kilka kreatywnych sposobów wykorzystania mechaniki przyciągania. Przyciągnijmy sekcję z numerem <b>4</b>, aby zebrać materiały rozrzucone w przestrzeni.",,
+tut.winch.step4.title,Kreatywne Przyciąganie,,
+tut.winch.step5.title,Przyciąganie Odległych Sekcji,,
+tut.winch.step5_1,"Co powiesz na małe wyzwanie? W lewym górnym rogu ekranu znajduje się sekcja oznaczona numerem <b>5</b>. Jest ona zbyt daleko, aby nasz <b>Hak</b> mógł do niej dotrzeć.<br><br>Zbudujemy tymczasowy most w kierunku tej sekcji i przybliżymy do niej nasz <b>Hak</b>.",,
+tut.winch.step5_2,"Najpierw sprawdźmy, jak daleko może sięgnąć <b>Hak</b>. Wybierz wyróżniony hak.",,
+tut.winch.step5_2_2,"Teraz użyj {0}, aby oddalić kamerę, aż zobaczysz duży <b>Krąg</b> wokół wybranego urządzenia. Ten krąg pokazuje zasięg haka.",,
