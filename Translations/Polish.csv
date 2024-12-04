@@ -4143,7 +4143,7 @@ obj.copters.cargocopterflying.desc,"Całkowicie zautomatyzowany bezzałogowy sta
 copter.mission.stage.deploy.miner,Montowanie {0},,"{0} is the resource miner device name, like Autodrill Rig"
 copter.mission.stage.fly.to.ship,Wraca do Statku,,
 copter.mission.stage.fly.to,Leci do {0},,"{0} is the name of the target, like Silicon Deposit, or a device name"
-copter.mission.stage.collect.resource,Zbiera {0},,{0} is material type 
+copter.mission.stage.collect.resource,Zbiera {0},,{0} is material type
 copter.mission.stage.land.on.ship,Ląduje na Statku,,
 copter.mission.stage.leave.ship,Opiuszcza Statek,,
 copter.mission.stage.start,Czeka na dostępny Śmigłowiec,,
@@ -4805,7 +4805,7 @@ tut.start.building.def,"Użyj {0}, aby otworzyć <b>Menu Narzędzi</b>, znajdź 
 tut.waiting.for.construction,Oczekiwanie na budowę <b>{0}</b>.,,{0} is device name
 tut.research.datoid.load.wait,Ładowanie Datoidów,,
 tut.research.datoid.unstored,Niezaładowane Datoidy,,
-tut.research.datoid.load.wait.desc,"Oczekiwanie na załadowanie <b>Datoidów</b> do <b>Ładownika Datoidów</br>.<br><br>Pracownicy zrobią to automatycznie, ale możesz użyć narzędzia <b>{0}</b>, aby natychmiast zlecić holowanie.",,{0} is tool name
+tut.research.datoid.load.wait.desc,"Oczekiwanie na załadowanie <b>Datoidów</b> do <b>Ładownika Datoidów</b>.<br><br>Pracownicy zrobią to automatycznie, ale możesz użyć narzędzia <b>{0}</b>, aby natychmiast zlecić holowanie.",,{0} is tool name
 tut.research.datoid.load.ready,"<b>Datoidy</b> są teraz załadowane i jest kilka węzłów badawczych, które można odblokować.<br><br>Za każdym razem, gdy jakieś badania mogą zostać odblokowane, zobaczysz powiadomienie o tym w <b>Panelu Wydarzeń</b> po prawej stronie.<br><br>Kliknij powiadomienie, aby otworzyć <b>Drzewko Badań</b>. Automatycznie skupi się ono na pierwszym odblokowanym węźle.",,
 tut.research.unlock.tech,Odblokuj <b>{0}</b>,,{0} is tech name
 tut.research.unlock.tech.desc,"Odblokuj podświetlony węzeł badawczy, aby kontynuować.",,
@@ -4830,7 +4830,7 @@ tut.build.not.expected,Nie oczekuje się od ciebie zbudowania <b>{0}</b> w tej c
 tut.research.disk.1,"Podczas gdy <b>{0}</b> produkuje nowe Datoidy, zaplanujmy nasz następny ruch.",,{0} s device name
 tut.research.disk.2,"Chcemy zbudować <b>{0}</b>. Znajdźmy węzeł badawczy, który odblokuje ten projekt. Możesz otworzyć wyszukiwanie za pomocą {1}.",,{0} is device name {1} is key binding
 tut.research.disk.2.gamepad,"Chcemy zbudować <b>{0}</b>. Znajdźmy węzeł badawczy <b>{1}</b>. Możesz użyć przycisku <b>{2}</b> w lewym górnym rogu, aby go znaleźć.",,{0} is device name {1} is key binding. {2} is translation for Search
-tut.research.disk.3,"Zacznij wpisywać nazwę <b>{0}<b> w polu wyszukiwania i naciśnij {1} lub kliknij wynik, gdy stanie się dostępny.",,{0} is device name. {1} is key binding
+tut.research.disk.3,"Zacznij wpisywać nazwę <b>{0}</b> w polu wyszukiwania i naciśnij {1} lub kliknij wynik, gdy stanie się dostępny.",,{0} is device name. {1} is key binding
 tut.research.disk.4,"Zastanówmy się, co jest potrzebne do odblokowania <b>{0}</b>. Najedź kursorem na przycisk <b>{1}</b>.",,{0} is device name. {1} is button label
 tut.research.disk.5,"Gdy wyprodukujemy wystarczającą liczbę <b>Podstawowych Datoidów</b>, nadal nie będziemy mogli tego odblokować, ponieważ nie będziemy mieć wystarczającej <b>Przestrzeni Dyskowej</b> wymaganej do zapisania wyników badań.<br><br>Będziemy musieli zbudować <b>Moduł Dysku</b>.<br><br>Użyj {0} lub {1}, aby zamknąć <b>Drzewko Badań</b>.",,{0} and {1} are key bindings
 tut.research.disk.3.hint,Wskazówka: Wynik wyszukiwania powinien wyglądać tak: <b>{0}</b>.,,{0} is a tech name
