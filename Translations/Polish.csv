@@ -4983,7 +4983,7 @@ tut.adv.controls.select.modes.5,"Gdy wybrana jest <b>Istota</b>:<br><br>Przytrzy
 tut.adv.controls.select.modes.6,"W przypadku wybrania wielu <b>Urządzeń</b>, <b>{0}</b> i <b>{1}</b> zostaną zastosowane do zawartości zaznaczenia.",,
 tut.adv.controls.outro,To koniec tego samouczka. Więcej wskazówek znajdziesz w <b>Kodeksie</b> > <b>Wskazówki</b>.,,
 tut.completed.never,Jeszcze nie ukończono,,
-tut.completed.date,Ukończono {0},,{0} is date 
+tut.completed.date,Ukończono {0},,{0} is date
 tut.completed.outdated.tip,Ukończyłeś starą wersję tego samouczka {0}. Zaleca się ponowne przejście tego samouczka.,,
 tut.not.completed.warning,Ukończyłeś {0} z {1} samouczków.,,
 tut.prod.title,Produkcja Zasobów,,
@@ -4996,7 +4996,7 @@ tut.prod.ident.2,"Za każdym razem, gdy nadarzy deficyt, w <b>Panelu Wydarzeń</
 tut.prod.ident.3,"Aby zbudować <b>Reaktor Jądrowy</b>, potrzebujemy następujących materiałów: {0}<br><b>{1}</b> to pierwszy element na liście blokujący zadanie konstrukcyjne.<br><br>Po wyprodukowaniu wystarczającej ilości <b>{1}</b>, kolejny brakujący element na liście wywoła nowy deficyt.<br><br>Łatwiej jest radzić sobie z jednym deficytem na raz, więc skupmy się na wyprodukowaniu <b>{1}</b>.",,
 tut.prod.codex.title,Wyszukiwanie Wpisów w Kodeksie,,
 tut.prod.codex.1,"Jeśli nie wiesz, jak wytwotzyć <b>{0}</b>, sprawdź wpis <b>{0}</b> w <b>Kodeksie</b> > <b>Materiały</b>.<br><br>Możesz też najechać kursorem na dowolny element interfejsu użytkownika zawierający <b>{0}</b> na liście materiałów i przytrzymać <b>{1}</b>, aby zobaczyć <b>Wpis w Kodeksie</b> w dymku.",,
-tut.prod.codex.2,"Wpis do Kodeksu stanowi, że <b>{0}</b> powstaje w wyniku przetopienia <b>{1}</b> w <b>{2}</b>.<br><br>Skonfigurujemy <b>{2}</b> w celu wytworzenia <b>{0}</b>.",,
+tut.prod.codex.2,"Wpis do <b>Kodeksu</b> stanowi, że <b>{0}</b> powstaje w wyniku przetopienia <b>{1}</b> w <b>{2}</b>.<br><br>Skonfigurujemy <b>{2}</b> w celu wytworzenia <b>{0}</b>.",,
 tut.prod.wanted.amt,"Będziemy potrzebować co najmniej <b>{0}</b> <b>{1}</b>. Przy obecnej konfiguracji <b>{2}</b> przestanie produkować <b>{1}</b> po tym, jak w naszym <b>Inwentarzu</b> będzie <b>{3}</b> przedmiotów. To nie wystarczy.<br><br>Zwiększ <b>{4}</b> do co najmniej <b>{0}</b>, aby kontynuować.",,{0} is number {1} is Lead Plate {2} is Furnace {3} is number {4} is Wanted Amount
 tut.prod.acquire.1,"Mamy do dyspozycji <b>{0}</b>, ale gdybyśmy nie mieli żadnego, <b>Kodeks</b> nie wspominałby o tym, jak go wytworzyć.<br><br>Jeśli proces produkcji nie jest opisany w <b>Kodeksie</b>, materiał można zdobyć poprzez <b>Wyprawy Górnicze</b>, <b>Handel</b> lub <b>Specjalne Środki</b>.",,
 tut.prod.acquire.2,"Większość surowców można znaleźć na <b>Planetach</b>. Jeśli masz <b>Radar</b>, możesz użyć funkcji <b>Skanuj</b> na <b>Mapie Gwiezdnej</b>, aby przeszukać obecny układ gwiezdny w poszukiwaniu pożądanego materiału.",,
@@ -5035,11 +5035,11 @@ verb.extract,Wydobądź,,
 noun.depth,Głębokość,,
 mining.depth.tip,"Głębokość złoża zasobów zwiększa się, gdy złoże jest wydobywane. Po osiągnięciu określonej głębokości, specjalistyczny sprzęt będzie wymagany do dalszego wydobywania zasobów. Złoże można wydobywać tak głęboko, jak pozwala na to Twój sprzęt.",,
 deposit.verb.mine,Wydobywanie {0} ({1:0.##}/dzień @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
-deposit.verb.collect,Zbieranie {0} ({1:0.##}/dzień),,{0} is resource name {1} is number 
+deposit.verb.collect,Zbieranie {0} ({1:0.##}/dzień),,{0} is resource name {1} is number
 deposit.verb.extract,Wydobywanie {0} ({1:0.##}/dzień @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
-deposit.shuttle.verb.mine,"Wydobywanie {0} ({1:0.##}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
-deposit.shuttle.verb.collect,"Zbieranie {0} ({1:0.##}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
-deposit.shuttle.verb.extract,"Wydobywanie {0} ({1:0.##}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
+deposit.shuttle.verb.mine,"Wydobywanie {0} ({1:0}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
+deposit.shuttle.verb.collect,"Zbieranie {0} ({1:0}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
+deposit.shuttle.verb.extract,"Wydobywanie {0} ({1:0}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
 mining.depth.max,Maksymalna Głębokość Wydobywania,,
 resource.deposit.possible,Możliwy Depozyt Zasobów,,End of official Spanish / Chinese translations here
 operate.fail.deficit,Nie udało się uruchomić {0} na {1} z powodu niedoboru energii elektrycznej: {2},,
@@ -5084,7 +5084,7 @@ chance.avg,Średnia,,
 chance.high,Wysoka,,
 click.ctrl.add.fav,"Kliknij {0}, przytrzymując {1}, aby dodać ten element do ulubionych.",,
 click.ctrl.remove.fav,"Kliknij {0}, przytrzymując {1}, aby usunąć ten element z ulubionych.",,
-breakdown.deconstruct.log,Zdekonstruowano <b>{0}<b> o godzinie <b>{1}<b> z powodu załamania nerwowego.,,
+breakdown.deconstruct.log,Zdekonstruowano <b>{0}</b> o godzinie <b>{1}</b> z powodu załamania nerwowego.,,
 wormhole.to,Tunel czasoprzestrzenny do <b>{0}</b>,,{0} is the name of a galaxy the wormhole leads to
 noun.variations,Wariacje,,"Will go on a small-ish button, so try to make it quite short"
 tool.heat,Zmień Temperaturę,,
@@ -5324,7 +5324,7 @@ bodypart.type.Tail,Ogon,,
 bodypart.type.Thumb,Kciuk,,
 bodypart.type.Toe,Palec u Stopy,,
 days.abbr,{0}d,,one character abbreviation for days
-days.hours.abbr,{0}d {1}g {2}m,,
+days.hours.abbr,{0}d {1}g,,
 days.hours.minutes.abbr,{0}d {1}g {2}m,,
 hours.abbr,{0}g,,one character abbreviation for hours
 hours.minutes.abbr,{0}g {1}m,,
