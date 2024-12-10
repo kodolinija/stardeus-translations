@@ -5560,10 +5560,10 @@ attack.type.piercing,Przeszywający,,
 attack.type.energy,Energiczny,,
 noun.jobs,Prace,,
 job.priority,Priorytet Pracy: <b>{0}</b>,,{0} is a number
-job.level,Wprawa: <b>{0</b>,,Must be as short as possible. {0} is a number
+job.level,Wprawa: <b>{0}</b>,,Must be as short as possible. {0} is a number
 adj.incapable,Niezdolny,,
 job.level.progress,Postęp do Awansu: {0},,
-job.fail.no.worker,Nikt nie może pracować nad <b>{0</b>. Sprawdź priorytety prac pracowników.,,{0} job type name
+job.fail.no.worker,Nikt nie może pracować nad <b>{0}</b>. Sprawdź priorytety prac pracowników.,,{0} job type name
 job.fail.no.skill,Nikt nie może pracować nad <b>{0}</b> na poziomie <b>{1}</b>. Sprawdź priorytety prac pracowników lub przeszkol pracowników na łatwiejszych pracach <b>{0}</b>.,,{0} job type name. {1} leve number
 goal.state.available,Dostępne,,
 goal.state.pending,Oczekujące,,
