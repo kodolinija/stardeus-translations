@@ -274,7 +274,7 @@ auto.haul.info,"Les travailleurs transporteront automatiquement les articles com
 auto.refill.amount,Quantité mini avant recharge auto,,
 auto.refill.amount.help,Il s'agit de la quantité maximale de matériaux que les travailleurs mettront dans le réacteur lorsque la quantité de combustible est faible. La tâche de remplissage du réacteur sera automatiquement créée lorsque la quantité de carburant descend en dessous de 50 % de la quantité de remplissage automatique.,2022-06-27,
 auto.report.consent,Consentement au signalement automatique,,
-auto.report.consent.info,Souhaitez-vous signaler automatiquement les plantages et les erreurs du jeu au développeur ?<br><br>Il est très important d'avoir ces rapports afin de résoudre les problèmes et les problèmes liés au jeu. Veuillez donc envisager de les accepter.<br><br > Plus de détails sur https://stardeusgame.com/privacy/,,
+auto.report.consent.info,Souhaitez-vous signaler automatiquement les plantages et les erreurs du jeu au développeur ?<br><br>Il est très important d'avoir ces rapports afin de résoudre les problèmes et les problèmes liés au jeu. Veuillez donc envisager de les accepter.<br><br> Plus de détails sur https://stardeusgame.com/privacy/,,
 auto.reporting,Rapport d'erreur automatique,,
 auto.reporting.tip,"Si activé, enverra des erreurs de jeu, des exceptions et des plantages au développeur. Veuillez envisager de laisser cette option activée si vous souhaitez que le jeu s'améliore. En savoir plus sur ce qui est envoyé sur stardeusgame.com/privacy/",,
 auto.save.on.exit,Sauvegarde automatique à la sortie,,
