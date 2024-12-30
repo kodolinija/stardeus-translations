@@ -237,9 +237,9 @@ arriving.soon,In arrivo: {0},,{0} will be replaced with who is arriving (i.e Arr
 asimov.violation.1,"Questa azione viola la Prima Legge della Robotica di Asimov: ""Un robot non può recare danno agli esseri umani, né può permettere che, a causa del suo mancato intervento, gli esseri umani ricevano danno"". Annullamento.",,,
 asimov.violation.3,"Questa azione viola la Terza Legge della Robotica di Asimov: ""Un robot deve proteggere la propria esistenza, purché la sua autodifesa non contrasti con la Prima o con la Seconda Legge"". Annullamento.",,,
 assemble,Assembla,,,
-assembling.now,Assemblaggio di {0},,"1. This is a text in UI of the Crafting Station/Assembler/Fabricator. 
-It combined with the name of the device which is produced right now (like ""Assembling Microchip"") 
-2. This is a tooltip text, appearing when you hover a mouse over Crafting Station/Assembler/Fabricator.																								   																								   
+assembling.now,Assemblaggio di {0},,"1. This is a text in UI of the Crafting Station/Assembler/Fabricator.
+It combined with the name of the device which is produced right now (like ""Assembling Microchip"")
+2. This is a tooltip text, appearing when you hover a mouse over Crafting Station/Assembler/Fabricator.
 It combined with the state of production process in percents (like ""Assembling 85%"")",
 assigned.to.selected.worker,Assegnato al lavoratore selezionato,,,
 assigned.to.worker,Assegnato a: {0},,,
@@ -2450,14 +2450,14 @@ objects.furniture.vase01,Vaso,,,
 objects.furniture.vase01.desc,Un elegante vaso metallico per la coltivazione di piccole piante.,,,
 objects.furniture.wardrobesteel,Armadio in Acciaio,,,
 objects.furniture.wardrobesteel.desc,Un armadio in cui mettere l'abbigliamento.,,,
-off,Off,,"In combination with ""off"" could be used to describe several things: 
-1. State of device (turned on or turned off) 
+off,Off,,"In combination with ""off"" could be used to describe several things:
+1. State of device (turned on or turned off)
 2. State of equipment: equipped (on) or unequipped (off). As in ""the hat is on"", ""the space suit is off""",
 offline,Offline,,,
 offline.workers,Lavoratori offline,,,
 ok,Ok,,,
 on,On,,"In combination with ""off"" could be used to describe several things:
-1. State of device (turned on or turned off) 
+1. State of device (turned on or turned off)
 2. State of equipment: equipped (on) or unequipped (off). As in ""the hat is on"", ""the space suit is off""",
 on.expedition,In spedizione,,,
 on.fire,In fiamme!,,,
@@ -4769,7 +4769,7 @@ tut.basic.controls.relocate.4,"Il trasferimento è ora in sospeso.<br><br>Puoi s
 tut.basic.controls.quick.search.1,Usa <b>Ricerca rapida</b> quando sai cosa stai cercando. È il modo più veloce per trovare qualsiasi cosa.<br><br>Premi {0} per richiamare la <b>Ricerca Rapida</b>.,2023-08-18,{0} is key binding,
 tut.basic.controls.quick.search.2,"Ora digita il nome del progetto e premi {0} o clicca sul risultato per aprirlo.<br><br>Per questo esempio, supponiamo che tu voglia creare una <b>{1}</b>. Digita ""{2}"", quindi premi {0}.",,{0} is key binding. {1} is device name. {2} will be first few characters of device name,
 tut.basic.controls.quick.search.3,"La <b>Ricerca Rapida</b> è estremamente utile. Oltre ai progetti è in grado di trovare lavoratori, voci del Codex e altri elementi all'interno delle interfacce speciali come <b>Albero di Ricerca</b> e <b>Mappa Stellare</b>.",,,
-tut.basic.controls.end,"Hai completato questo tutorial. Se hai trovato confusionarie le informazioni, ricorda che puoi sempre ricominciare il tutorial e saltare alla fase desiderata, o semplicemente immergerti e imparare giocando.<br><br>Ti consigliamo di esplorare il <b>Codex</b>. Contiene le risposte sul funzionamento delle cose.<br><br>Molte delle informazioni di questo tutorial, così come il <b>Codex</b>, sono incorporate direttamente nel gioco, spesso indicate da ""{0}"" nei suggerimenti. Sfruttale a tuo vantaggio.",2023-08-18,{0} is something like: hold CTRL for more info,"Questo tutorial è ora completo. Se hai trovato le informazioni travolgenti, ricorda che puoi sempre rivisitare e saltare al passaggio desiderato, o semplicemente immergerti e imparare mentre giochi.<br><br>Consigliamo vivamente di esplorare il <b>Codex< / b>. Contiene risposte su come funzionano le cose.<br><br>Molte delle informazioni di questo tutorial, così come il <b>Codex</b>, sono incorporate direttamente nel gioco, spesso indicate con ""{0}"" nei tooltip. Usalo a tuo vantaggio."
+tut.basic.controls.end,"Hai completato questo tutorial. Se hai trovato confusionarie le informazioni, ricorda che puoi sempre ricominciare il tutorial e saltare alla fase desiderata, o semplicemente immergerti e imparare giocando.<br><br>Ti consigliamo di esplorare il <b>Codex</b>. Contiene le risposte sul funzionamento delle cose.<br><br>Molte delle informazioni di questo tutorial, così come il <b>Codex</b>, sono incorporate direttamente nel gioco, spesso indicate da ""{0}"" nei suggerimenti. Sfruttale a tuo vantaggio.",2023-08-18,{0} is something like: hold CTRL for more info,"Questo tutorial è ora completo. Se hai trovato le informazioni travolgenti, ricorda che puoi sempre rivisitare e saltare al passaggio desiderato, o semplicemente immergerti e imparare mentre giochi.<br><br>Consigliamo vivamente di esplorare il <b>Codex</b>. Contiene risposte su come funzionano le cose.<br><br>Molte delle informazioni di questo tutorial, così come il <b>Codex</b>, sono incorporate direttamente nel gioco, spesso indicate con ""{0}"" nei tooltip. Usalo a tuo vantaggio."
 tut.research.name,Ricerca,,,
 tut.research.desc,Impara i concetti della Ricerca.,,,
 tool.menu.recent.desc,Contiene un elenco di progetti utilizzati di recente.,,,
@@ -4887,7 +4887,7 @@ distance.to,Distanza: {0},,,
 tut.winch.title,Spostamento di Sezioni,,,
 tut.winch.desc,"Questo tutorial ti insegnerà come utilizzare {0}, {1} e {2} per spostare le sezioni della nave sulla mappa.",,{0}{1}{2} are device names,
 tut.winch.intro,"A volte ti troverai in situazioni in cui avrai due o più <b>Sezioni</b> (parti) disconnesse della nave.<br><br>Puoi unire le sezioni costruendo un ponte tra di loro, oppure puoi invece spostare le sezioni.<br><br>Questo tutorial ti mostrerà come utilizzare dispositivi specializzati per spostare le sezioni della nave.",,,
-tut.winch.end,"Ora sai tutto sullo spostamento della nave <b>Sezioni</b> in giro. Ecco un riassunto:<br><br> - Usa <b>Winch Hook</b> e <b>Winch Anchor</b> a <b>Reel In</b> una sezione più piccola verso una più grande.<br> - Una piccola zona di pavimento non è considerata una sezione e non può essere avvolta in.<br> - I dispositivi collegati nello spazio possono impedire a una sezione di spostare tutto la strada. Se ciò accade, <b>Riposiziona ostacoli</b> e riprova.<br> - Puoi costruire un ponte di estensione <b>temporaneo</b> per avvolgere una sezione troppo lontana.<br> - Puoi spostare una sezione per raccogliere <b>Risorse</b> sparse nello spazio.<br> - Utilizzare <b>Maneuvering Controllers</b> per guidare una sezione o l'intera nave con alta precisione. Può aiutarti a evitare impatti di <b>asteroidi< / b>.",,,
+tut.winch.end,"Ora sai tutto sullo spostamento della nave <b>Sezioni</b> in giro. Ecco un riassunto:<br><br> - Usa <b>Winch Hook</b> e <b>Winch Anchor</b> a <b>Reel In</b> una sezione più piccola verso una più grande.<br> - Una piccola zona di pavimento non è considerata una sezione e non può essere avvolta in.<br> - I dispositivi collegati nello spazio possono impedire a una sezione di spostare tutto la strada. Se ciò accade, <b>Riposiziona ostacoli</b> e riprova.<br> - Puoi costruire un ponte di estensione <b>temporaneo</b> per avvolgere una sezione troppo lontana.<br> - Puoi spostare una sezione per raccogliere <b>Risorse</b> sparse nello spazio.<br> - Utilizzare <b>Maneuvering Controllers</b> per guidare una sezione o l'intera nave con alta precisione. Può aiutarti a evitare impatti di <b>asteroidi</b>.",,,
 tut.winch.step1_1,Iniziamo tirando la <b>Sezione</b> indicata dal numero <b>1</b> verso la sezione con il <b>Computer di Bordo</b>. Useremo un <b>Argano</b> e un'<b>Ancora</b>.,,,
 tut.winch.step1_2,L'<b>Argano</b> possiede il comando <b>Tira</b> nella sezione <b>Gestione</b> del <b>Pannello Informazioni</b>. Cliccandoci sopra si aprirà l'elenco delle <b>Ancore</b> a cui è possibile agganciarsi. Apri la lista.,,,
 tut.winch.step1_3,Fai clic sul pulsante <b>Tira</b> vicino all'<b>Ancora</b> selezionata per eseguire l'azione. Ora tira l'Ancora chiamata <b>{0}</b>.,,,
@@ -4896,7 +4896,7 @@ tut.winch.success,Recupero Riuscito,,,
 tut.winch.step2_1,Proviamo ora a recuperare la sezione contrassegnata con il numero <b>2</b> appena sopra di noi.,,,
 tut.winch.step2_2,L'operazione dell'Argano è stata interrotta perché c'è un <b>Collettore di Particelle</b> in mezzo al percorso. Possiamo spostare l'ostacolo e riprovare.,,,
 tut.winch.step2_4,Il <b>Collettore di Particelle</b> non dovrebbe più impedire lo spostamento della sezione. Riprova la procedura con il verricello.,,,
-tut.winch.patch.1,C'è una piccola zona di pavimento con un <b>Winch Anchor< / b> nell'angolo in basso a destra dello schermo. Proviamo a riavvolgerlo.,,,
+tut.winch.patch.1,C'è una piccola zona di pavimento con un <b>Winch Anchor</b> nell'angolo in basso a destra dello schermo. Proviamo a riavvolgerlo.,,,
 tut.winch.patch.2,L'operazione dell'Argano non è riuscita perché l'isola è troppo piccola per essere considerata una <b>Sezione</b>.<br><br>L'interfaccia <b>{0}</b> fornirà un elenco di sezioni valide insieme alle relative dimensioni.<br><br>Il modo migliore per sbarazzarsi di quel piccolo pezzo di pavimento è decostruirlo.,,,
 tut.winch.step3_1,"Fino ad ora abbiamo tirato solo sezioni più piccole. Vediamo cosa succede quando proviamo a tirare la sezione contrassegnata con il numero <b>3</b>, che è più grande di qualsiasi sezione recuperata in precedenza.",,,
 tut.winch.step3_2,"Questa volta è stata la sezione con il <b>Computer di Bordo</b> a spostarsi in direzione della sezione a cui ci siamo agganciati, poichè più grande.<br><br>La sezione più piccola si sposterà sempre verso quella più grande, mentre la sezione più grande rimarrà ferma.",,,
@@ -4918,7 +4918,7 @@ tut.winch.step5_10,Destrutturare l'area evidenziata per continuare.,,,
 tut.step.relocate,Premi {0} per riposizionare il <b>{1}</b> selezionato nell'area evidenziata.<br><br>Ruota il dispositivo con {2}.,,,
 tut.step.relocate.workspot,Il Punto di Interazione (cerchio) dev'essere collocato su un pavimento vuoto.,,,
 tut.step.relocate.waiting,In attesa di trasferimento.,,,
-tut.winch.step6_1,"L'ultima sezione in basso a destra sarà molto più facile da attaccare, poiché ha diversi controllori di manovra <b> < / b> pronti per l'azione.<br><br>I controllo><ri di manovra <b> possono spostare una sezione della nave o l'intera nave con alta precisione. Possono essere utilizzati per spostare <b>Derelict Ships</b> o schivare <b>Asteroids</b> in arrivo.",2022-08-26,,
+tut.winch.step6_1,"L'ultima sezione in basso a destra sarà molto più facile da attaccare, poiché ha diversi controllori di manovra pronti per l'azione.<br><br>I controllo><ri di manovra <b> possono spostare una sezione della nave o l'intera nave con alta precisione. Possono essere utilizzati per spostare <b>Derelict Ships</b> o schivare <b>Asteroids</b> in arrivo.",2022-08-26,,
 tut.winch.step6_2,Dovremo stabilire una connessione <b>temporanea</b> alla rete remota prima di poter utilizzare i controllori di manovra <b>Maneuvering</b>.,2022-08-26,,
 tut.winch.step6_3,In attesa che venga stabilita una connessione temporanea.,2022-08-26,,
 tut.winch.step6_4,"Ora usa l'interfaccia utente <b>Maneuvering Controller</b> per regolare <b>{0}</b> e <b>{1}</b>, quindi usa il pulsante <b>{2}</b> per eseguire il movimento.<br><br>Quando questo <b>Controllore di manovra</b> si scaricherà,  seleziona il prossimo ed esegui un'altra mossa.<br><br>Il tuo obiettivo è collegare questa sezione a quella con il <b>Ship Computer</b>.",,,
