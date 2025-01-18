@@ -10,3 +10,8 @@
 /Translations/English.csv
 /.vscode/
 /_tools/
+/.vs/stardeus-translations/FileContentIndex/*.vsidx
+/.vs/stardeus-translations/v17/*.wsuo
+/.vs/stardeus-translations/v17/*.json
+/.gitignore
+/.gitignore
