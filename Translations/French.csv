@@ -6487,7 +6487,11 @@ tut.combat.step4_5,Cliquez sur {0} sur l'<b>ennemi</b> en surbrillance pour ord
 tut.combat.step4_6,Ouvrez le calque <b>Commandes de combat</b> pour continuer.,,
 tut.combat.step4_6_2,"Utilisez le calque <b>Commandes de combat</b> pour basculer entre les unités, prendre et relâcher le contrôle et modifier les réactions de combat.",,
 tut.combat.step4_7,"Maintenant, <b>déverrouillez la porte</b> et positionnez les unités <b>manuellement</b> ou <b>libérez le contrôle</b> pour les laisser affronter l'ennemi <b>de manière autonome</b>.",,
-
+tut.combat.step4_8,<b> Battez </b> le <b>crawler</b> pour continuer.,,
+tut.combat.step5_1,"Pour le test final, j'ai lancé une <b>capsule de brèche</b> sur votre vaisseau.<br><br><b>Préparez-vous</b> à l'attaque et <b>vainquez les pillards</b> pour terminer le tutoriel.",,
+traded.item.too.hot,Vous avez acheté cet article récemment; votre prix d’achat a augmenté.,,
+traded.item.too.cold,Vous avez vendu cet article récemment; votre prix de vente a diminué.,,
+input.ToggleDirectControl,Raccourci: Activer/désactiver le contrôle direct,,
 
 
 compatible.body.sizes,Tailles de corps compatibles,,
