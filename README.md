@@ -75,6 +75,9 @@ Before contributing, you will have to sign [the following CLA](https://docs.goog
 
 You can find the source file <a href="https://docs.google.com/spreadsheets/d/1iiaORk6Ma5c2DpijK3oFs08fdk9PAe7QsCoiiBzdEUU/edit#gid=0">here</a>.
 
+Development versions keep new translations in the additional `EnglishDev.csv` file
+which has <a href="https://docs.google.com/spreadsheets/d/1dVDHNUlMwROLT4DVqHtzCVJJozlQoqjb4Gn5p1h9wtQ/edit?gid=0#gid=0">this source</a>.
+
 The recommended way of translating is to make a copy of the source sheet, modify the "Translation" column (please don't modify any other columns), then download
 
 ### Contributing
