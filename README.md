@@ -69,10 +69,14 @@ Before contributing, you will have to sign [the following CLA](https://docs.goog
 3. Make sure you spent some time in the game. Demo can be used for translating too.
 4. Be ready to play your translation. Often words in your language might don't really fit in a box or the context is missing.
 5. Use the "Generate Validity Report" in Settings > Language in game (or demo) to see if there are any errors in your translation.
+6. Example of how to fix invalid translations if you get some in the report: https://www.twitch.tv/videos/2319536309
 
 ### The Source file
 
 You can find the source file <a href="https://docs.google.com/spreadsheets/d/1iiaORk6Ma5c2DpijK3oFs08fdk9PAe7QsCoiiBzdEUU/edit#gid=0">here</a>.
+
+Development versions keep new translations in the additional `EnglishDev.csv` file
+which has <a href="https://docs.google.com/spreadsheets/d/1dVDHNUlMwROLT4DVqHtzCVJJozlQoqjb4Gn5p1h9wtQ/edit?gid=0#gid=0">this source</a>.
 
 The recommended way of translating is to make a copy of the source sheet, modify the "Translation" column (please don't modify any other columns), then download
 
@@ -121,16 +125,6 @@ If you feel lost at any point, please join the <a href="https://discord.com/invi
 * [eFkoCaptain](https://github.com/eFkoCaptain)
 
 
-### Chinese
-
-YouHanHua Team
-
-* [law_4x](https://github.com/law4x)
-* 翻译菌2号
-* Senio
-* Ding
-* 404のUMP-9
-
 ### Portuguese (Brazil)
 
 * [unggod](https://github.com/unggod)
@@ -169,6 +163,16 @@ YouHanHua Team
 
 * [Ketyak](https://github.com/Ketyak)
 
-### Swedish
+### Swedish (abandoned)
 
 * [blarrkan](https://github.com/blarrkan)
+
+### Chinese (abandoned)
+
+YouHanHua Team
+
+* [law_4x](https://github.com/law4x)
+* 翻译菌2号
+* Senio
+* Ding
+* 404のUMP-9

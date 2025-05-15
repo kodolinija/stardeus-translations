@@ -521,7 +521,6 @@ codex.m.electricity.damagedconnectors.desc,如果连接器严重受损，必须�
 codex.m.electricity.gridredundancy,高可用率和电量富余,,
 codex.m.electricity.gridredundancy.desc,为了防止电网崩溃，建造时要留出余量。这对关键基础设施非常重要，比如反应堆、电池、飞船中央计算机、休眠阵列、氧气泵、加热器、舱门和气密阀。<br><br>你可以通过建造更多的连接器，并将关键设备连接到多个连接器上，留出余量。<br><br>高可用率是指，就算电网的某些部分被破坏，对关键基础设施的影响也不大。,,
 codex.m.electricity.handlingdeficit,解决电力不足,,
-codex.m.electricity.handlingdeficit.desc,当设备消耗的电量比生产的电量更多的时候，就会出现电力不足。在这种情况下，用电优先级最低的设备会最先断电。事件面板中会弹出电力不足的通知，同时警报灯也会闪烁。<br><br>下面是一些解决电力不足的办法。使用电网视窗查看情况。查看用户列表——有时候一台设备的耗电量会比其他所有设备加起来还要多。你可以关闭非必要的高功耗设备（粒子收集器，舰桥控制台，装配机，织布机等），解决临时用电不足。<br><br>此外，你需要建造更多的反应堆和太阳能电池板来增加电力输出，保障长期用电。尽量保证随时都有富余电量。<br><br>你可以建造电池作为应急储电，并使它们保持在满电状态。,,
 codex.m.electricity.managingunreachabledevices,管理无法抵达的设备,,
 codex.m.electricity.managingunreachabledevices.desc,一般来说，你无法控制与飞船中央计算机不在同一电网内的设备。不过也有例外。你可以命令机器人工作单位建立与其他电子设备的临时连接。当工作单位与对方设备连接之后，就可以控制它了。如果该设备需要用电，工作单位也可以为它提供少量电力。<br><br>如需建立临时连接，选定一个无法抵达的设备，在信息面板或关联菜单的“节点无法抵达”警告旁边点击“管理”按钮。工作单位与该设备建立实际连接之后，你就可以控制它了。临时连接建立之后，事件面板中会弹出通知。<br><br>如需结束临时连接，可以在该设备的信息面板中找到任务控制器，选择取消任务；或选定已连接工作单位，在信息面板中点击删除任务。,,
 codex.m.electricity.multiplegrids,多重电网,,
@@ -532,9 +531,7 @@ codex.m.environment,环境,,
 codex.m.environment.airtightness,气密性,,
 codex.m.environment.airtightness.desc,气密性是一种结构特性。比如地板或墙壁（包括通风口和舱门）都有这种特性。气密性代表有多少氧气可以穿过地砖。100% 表示完全密封。除非墙壁出现损坏。否则一般气密性都是 100%。舱门在关闭时的气密性也是 100%。气密阀在通电状态下，即使开启，气密性也是 100%。<br><br>完好地板的气密性为 5%。这是正常数值，因为它们会与旁边的地砖进行氧气交换。然而，如果地砖的气密性低于 2.5%，就意味着它暴露在宇宙空间中，氧气会从这里漏到外面。<br><br>想要知道某个结构的气密性，可以查阅气密性视窗（{0}）。,,
 codex.m.environment.enclosedareas,封闭区域,,
-codex.m.environment.enclosedareas.desc,如果一个区域的地板完整，并被墙壁（包括通风口和舱门）包围，就被视作封闭区域。如果墙壁缺了一块或地板损坏，导致该区域暴露在宇宙空间中，就无法正常充入氧气或加热。<br><br>你可以在房间视窗（{0}）中查看哪些区域是封闭区域。,,
 codex.m.environment.fire,火灾,,
-codex.m.environment.fire.desc,如果高热遇到氧气，可能会导致一些物品着火。<br><br>你可以建造流体炮并装上水，让它们自动灭火。<br><br>选定任意对象或单位，在信息面板中查看他的舒适温度和着火概率。<br><br>着火时，可以关闭附近所有的氧气泵（包括休眠阵列中的氧气泵），关闭通风口，或拆解地砖，都可以有效灭火。<br><br>多留心热量视窗（{0}）预防发生火灾。,,
 codex.m.environment.heat,热量,,
 codex.m.environment.heat.desc,热量，或温度，是单块地砖的物理特性。隔热性能决定了相邻的地砖之间热量交换的水平。当区域暴露在宇宙空间后，温度最终（或早或晚）会降低到绝对零度（0K 或 -273℃ 或-460℉）。高热遇到氧气会导致火灾。<br><br>请在热量视窗（{0}）中查看当前的温度。,,
 codex.m.environment.hullintegrity,舱体密闭性,,
@@ -4005,7 +4002,7 @@ height,高度,,noun
 width,宽度,,noun
 color.hue,色调,,color property (H in HSL)
 color.saturation,饱和度,,color property (S in HSL)
-color.luminosity,亮度,,color property (L in HSL) 
+color.luminosity,亮度,,color property (L in HSL)
 steam.connection.unavailable,无法连接到Steam。Steam成就和创意工坊集成将无法工作。故障排除步骤：<br> - 检查您的互联网连接和防火墙设置<br> - 确保Steam正在运行<br> - 重新启动Steam<br> - 重新启动机器<br> - 休息一下，出去走走,,
 combat.ongoing,战斗正在进行中,,
 bot.cpu.limit,机器人会消耗CPU资源,,
@@ -4163,7 +4160,7 @@ obj.copters.cargocopterflying.desc,一种完全自动化的无人机，旨在将
 copter.mission.stage.deploy.miner,部署{0},,"{0} is the resource miner device name, like Autodrill Rig"
 copter.mission.stage.fly.to.ship,返回飞船,,
 copter.mission.stage.fly.to,飞往{0},,"{0} is the name of the target, like Silicon Deposit, or a device name"
-copter.mission.stage.collect.resource,收集{0},,{0} is material type 
+copter.mission.stage.collect.resource,收集{0},,{0} is material type
 copter.mission.stage.land.on.ship,降落在飞船上,,
 copter.mission.stage.leave.ship,离开飞船,,
 copter.mission.stage.start,等待可用的直升机,,
@@ -4178,7 +4175,7 @@ expedition.type.mining,资源收集,,
 expedition.type.exploration,探索,,
 space.object.CargoCopter,货运直升机,,
 space.object.info.CargoCopter,货物直升机正在执行任务。,,
-no.task.reason.no.skill.one,技能<b>{0}</b>不足。当前技能值：<b>{1}</b>。要求技能值：<b>{2}</b>。,,{0} - skill name. {1} and {2} - a number (skill level). 
+no.task.reason.no.skill.one,技能<b>{0}</b>不足。当前技能值：<b>{1}</b>。要求技能值：<b>{2}</b>。,,{0} - skill name. {1} and {2} - a number (skill level).
 no.task.reason.job.priority0.one,<b>{0}</b>的工人优先级设置为<b>0</b>。,,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
 no.task.reason.job.priority.none,跳过了<b>{0}</b>项任务，因为工人<b>无法执行此类工作</b>。,,
 no.task.reason.job.priority.none.one,工人无法执行<b>{0}</b>工作。,,{0} is job type - like construction or hauling
