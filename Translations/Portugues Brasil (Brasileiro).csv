@@ -1384,7 +1384,7 @@ goal.GetMoreResource,Déficit: {0},,
 goal.HailMerchant,Chamar um mercador,,
 goal.HailMerchant.desc,É possível usar o Comunicador para chamar um mercador. Tente chamar um agora usando o Catálogo Mercantil no Painel de Informações.,,
 goal.InstallUpgrade,Melhore um reator,,
-goal.InstallUpgrade.desc,"Foi detectado que há uma unidade de <b>Melhoria: Reator mais eficiente</b> nos destroços. Use a guia <nobr><b>Inventário</b> {0}</nobr> para localizá-la, então reposicione ela para perto de um <nobr><b>Reator</b></nobr> para que o Robô possa alcançá-lo.<br><br>Uma vez realocado, selecione o reator e ordene a instalação pelo painel de Melhorias do objeto.",,
+goal.InstallUpgrade.desc,"Foi detectado uma <b>Melhoria de Reator</b> nos destroços. Selecione um <b>Reator</b>, então use o submenu <b>{0}</b> no Painel de Informações para selecionar Instalar Melhoria.",2025-02-04,
 goal.RelocateSpaceSuit,Recolher o traje espacial,,
 goal.RelocateSpaceSuit.desc,"Existem alguns <b>Trajes Espaciais</b> e um <b>Capacete Espacial</b> nos destroços. Poderemos ter um humano apto a trabalhar fora da área segura.<br><br>Use a grade do <nobr><b>Inventário</b> {0}</nobr> para encontrar as peças, então ordene uma realocação para perto dos sobreviventes.",2022-03-21,
 goal.RepairOrDeconstruct,Reparar ou demolir,,
@@ -6574,7 +6574,6 @@ tut.spacetravel.step3_8,A carga de uma <b>Célula de fusão</b> é consumida ao 
 tut.spacetravel.step3_9,"Com um <b>Hiper Motor</b> carregado, podemos usar esse botão <b>iniciar a entrada</b> para o <b>Hiper Espaço</b>.<br><br>Não temos nenhuma <b>Célula de Fusão</b> disponível, temos que comprar algumas na <b>Estação Espacial</b>.",,
 tut.spacetravel.step3_10,Aguardando chegada à <b>Estação Espacial</b>.,,
 tut.spacetravel.step4.title,Adquira Células de Fusão,,
-tut.spacetravel.step4_1,"Podemos realizar <b>Trocas</b> com a <b>Estação Espacial</b>. Clique com {0} na <b>Estação Espacial</b> destacada no <b>Mapa Estelar</b> para abrir opções de ações, então selecione <b>Negociar</b>.",,
 tut.spacetravel.step4_2,"Estamos em negociações com a <b>Estação Espacial</b>. Adquira <b>5 Células de Fusão</b> para prosseguirmos.<br><br>Encontre na lista  <b>Célula de Fusão</b> e use as setas para adquirir <b>5</b>, o botão <b>Negociar</b> confirma a troca.",,
 tut.spacetravel.step4_3,"Podemos também <b>fabricar Células de Fusão</b> com <b>Cristais Phasium</b>. Ainda temos uma ultima opção, <b>Vendas Online</b>, aonde podemos comprar materiais por um preço elevado.<br><br>As <b>Vendas Online</b> entregam nossas compras através de <b>Capsulas</b>. Elas ficam disponíveis através da <b>Pesquisa</b>: {0}.",,
 tut.spacetravel.step4_4,"Assim que as <b>Células de Fusão</b> forem inseridas nos <b>Hiper Motores</b> eles começam a carregar. Quando completamente carregado e alimentados com eletricidade, poderemos <b>entrar no Hiper Espaço</b>.<br><br>Leva algumas <b>Horas</b> para ser <b>carregado completamente</b>; a velocidade do tempo afeta isso.",,
@@ -6769,3 +6768,537 @@ modifier.ResearchCost.desc,Modifica o custo de datoids para realizar Pesquisas.,
 scan.target.deep,Escaneamento detalhado,,
 scan.target.deep.desc,"performa uma varredura mais precisa, podendo encontrar recursos que passaram desapercebidos pelo Radar.",,
 noun.list,Lista,,
+ai.alignment.info.1,"A confiança de seres biológicos pode mudar com a passagem do tempo e eventos. Cuidar de sua tripulação é um jeito de garantir sua confiança.",,
+ai.alignment.info.2,"Algumas Condições, Implantes ou Equipamentos pode afetar a confiança.",,
+system.scan.extended,Escaneamento Reforçado,,
+system.scan.extended.desc,Permite Escanear todo o Universo observável por recursos.,,
+share.ship,Compartilhar Nave,,for sharing the ship in steam workshop
+noun.ship,Nave,,as in space ship (but has to be short)
+noun.ships,Naves,,plural of ship
+game.template.mode,Jogo carregado no modo <b>Diagrama</b>. Nele você pode visualizar como era a Nave e pode também decidir usar ela para inicio.,,
+game.template.new,Usar essa Nave em um novo Mapa.,,
+more.actions,Ações extras,,
+download.ships,Baixar Naves,,
+mod.unsubscribe,Remover,,
+verb.keep,Manter,,
+verb.regenerate,Regenerar,,
+situation.SectorDifficulty,Periculosidade,,
+modifier.MiningOutput,[Balanço] Jazidas ricas,,
+modifier.MiningOutput.desc,Minério rende mais.,,
+eject.from.storage.first,Retire do Armazém primeiro.,,Shown when player tries to replace a body part on a being that is in storage (in morgue or mechuary).
+modifier.BasicTech,[QoL] Tecnologia de sobrevida,,
+modifier.BasicTech.desc,"Pesquisas como Banheiros, Chuveiros, Mini Aquecedores e coisas do tipo, estarão disponíveis desde o inicio. Pode-se também trava-los ou criar condições aleatórias para destravar.",,
+goal.AcceptQuest,Aceitar Missão,,
+goal.AcceptQuest.desc,"Não aceitamos nenhuma missão ainda, temos algumas disponíveis. Verifique o painel de alertas ou a aba de Missões.",,
+hold.to.lock.tooltip,Segure {0} para manter a descrição ativa,,{0} is a shortcut key name. Locking the tooltip will keep it frozen in place so that you can click links inside the tooltip
+noun.weapon.power,Poder de Fogo,,Version 0.13 translations start here
+noun.shields,Escudos,,
+noun.weapons,Armamento,,
+noun.weapon.power.short,Força,,As in Strength of Weapon Power
+noun.flux,Íons,,A sci-fi term. can be accumulated during ship combat and has to be vented. 
+noun.flux.desc,Íons é o acumulo de partículas carregadas durante o uso de maquinário energético. O disparo de armas ou o bloqueio de projeteis pelo Escudo causam um aumento acelerado. Seu acumulo elevado causa falha de sistemas cruciais.,,
+noun.evade,Evadir,,"Label next to ship evasion percentage. Evasion determines how likely the ship will dodge incoming attacks. Must be short, hence Evade and not Evasion"
+noun.evade.desc,Evadir demonstra a probabilidade de evitar um acerto direto durante combate. naves menores tem maior chance de evadir do que Naves grandes.,,
+ship.does.not.meet.requirements,Requerimentos não atingidos.,,Displayed as a warning tooltip near options where ship class or tag cannot bet switched into due to not fulfilled requirements
+flux.capacity,Tolerância à Íons,,
+flux.capacity.short,MAX,,should be no more than 3-4 letters. short for capacity.
+flux.overload.desc,Íons abundantes! Ventilação forçada ativada.,,
+flux.soft,Íons Leve,,
+flux.soft.short,leve,,no more than 3-4 letters
+flux.hard,Íons Alto,,
+flux.hard.short,Alto,,no more than 3-4 letters
+flux.accumulated,Íons acumulados,,
+vent.rate,Ventilação,,
+flux.overload,Sobrecarga Íon,,defines a state when a device is overloaded
+verb.vent.flux,Ventilar Íons,,For toggling venting of the ship heat (flux)
+flux.venting,Ventilando Íons,,
+noun.hull.points,Hermeticidade Pontual,,"like Hit Points (HP) but for ships, so Hull Points"
+noun.hull.points.short,HP,,
+our.ship,Nossa Nave,,label above ship combat UI controls for our ship
+ship.configuration,Configuração da Nave,,
+noun.engines,Motores,,plural of Engine. for space ship engines.
+space.object.Ship,Nave Espacial,,
+noun.ship.class,Nave de Classe,,"as in ship class in navy (fighter, cruser, battleship)"
+ship.class.spacestation,Estação Espacial,,special ship class for space stations
+ship.class.unclassified,Sem classificação,,for space ships that don't fit any class requirements
+ship.class.corvette,Corveta,,second smallest ship class
+ship.class.fighter,Patrulha,,smallest ship class in game
+ship.class.cruiser,Cruzador,,
+ship.class.battlecruiser,Cruzador Encouraçado,,
+ship.class.destroyer,Torpedeiro,,
+ship.class.dreadnought,Almirantado,,second biggest ship class
+ship.class.titan,Titã,,biggest ship class in game
+ship.class.carrier,Cargueiro,,
+ship.class.frigate,Fragata,,
+ship.class.battleship,Encouraçado,,
+noun.ship.tag,Identificação,,"a 2-3 letter tag before the ship name (like USS, HMS, etc)"
+ship.tag.nss,MEE,,acronym is always constructed from the description: Navy Star Ship -> NSS
+ship.tag.nss.desc,Marinha Estelar,,standard military vessels
+ship.tag.bcv,NBC,,
+ship.tag.bcv.desc,Nave de Batalha Comandada,,capital warships
+ship.tag.ars,NRA,,
+ship.tag.ars.desc,Nave de Resposta Automática,,AI controlled defense ships
+ship.tag.css,NC,,
+ship.tag.css.desc,Nave corporativa,,capitalist ships
+ship.tag.tcv,CTT,,
+ship.tag.tcv.desc,Cargueiro de Transporte e Trocas,,"merchants, transport"
+ship.tag.lcv,NCL,,
+ship.tag.lcv.desc,Nave Comercial de Luxo,,high-end capitalist ships
+ship.tag.esv,EEP,,
+ship.tag.esv.desc,Estação de Exploração e Pesquisa,,deep space research
+ship.tag.fsv,NPF,,
+ship.tag.fsv.desc,Nave e Patrulha de Fronteira,,independent adventurers
+ship.tag.imv,NMI,,
+ship.tag.imv.desc,Nave de Mineração Industrial,,resource extraction ships
+ship.tag.inf,EIE,,
+ship.tag.inf.desc,Estrutura Infestada Espacial,,virus-corrupted ships
+ship.tag.ltv,NTL,,
+ship.tag.ltv.desc,Nave Transporte e Logística,,cargo haulters and carriers
+ship.tag.tav,NAT,,
+ship.tag.tav.desc,Nave de Ataque Tático,,big offensive ships
+ship.tag.scs,SNC,,
+ship.tag.scs.desc,Super Nave Capital,,titan class ships
+ship.tag.lfs,NAL,,
+ship.tag.lfs.desc,nave de Ataque Leve,,small fighters
+ship.tag.srs,NRA,,
+ship.tag.srs.desc,Nave de Reconhecimento e Ataque,,hit and run tactical ships
+ship.tag.msv,NMT,,
+ship.tag.msv.desc,Nave Multi Tarefa,,verstaile small crafts
+ship.tag.usv,NDR,,
+ship.tag.usv.desc,Nave Desconhecida sem Registro,,
+ship.tag.fss,EEF,,
+ship.tag.fss.desc,Estação Especial de Fronteira,,
+ship.tag.iss,EEI,,
+ship.tag.iss.desc,Estação Espacial Independente,,
+ship.tag.uss,ENU,,
+ship.tag.uss.desc,Estação das Nações Unidas,,
+ship.tag.rss,EER,,
+ship.tag.rss.desc,Estação Espacial Rebelde,,
+codex.ship.classes,Classe Naval,,header for list of ship classes
+codex.ship.tags,ID,,header for list of ship tags
+in.hyperspace,no Hiper Espaço,,label for ships that are currently in hyperspace
+verb.hail,Comunicar,,initiate communications with another space ship
+verb.insult,Insultar,,As in say something bad to insult a person
+verb.trading.with,Negociando com {0},,{0} will be traders name
+verb.approaching,Aproximando-se {0},,{0} will be object name
+verb.end.call,Terminar comunicação,,for ending telecommunications between ships
+incoming.transmission,Recebendo Comunicação,,when other ships hail your ship
+ship.hailing.you,{0} está abrindo comunicação.,,{0} will be the ship name
+verb.offer.gift,Presentar,,action button label for offering a gift to another spaceship
+verb.surrender,Render-se,,for surrendering during combat
+verb.ask.fuel,Solicitar Combustível,,action button label for asking another space ship to give you fuel
+verb.extort,Extorquir,,label for asking other ship for money or items by threatening them
+noun.gift.package,Oferenda,,"when we get a gift, we have to chose from a few packages, this is a button label. it will have #1, #2 in the end of it"
+noun.fuel.package,Combustível,,"when we aks for fuel, we have a choice from several fuel packages. this label will have #1, #2, etc in the end "
+noun.ransom,Pagamento,,extortion ransom label
+noun.combat,Combate,,mostly used for ship to ship combat
+noun.end.of.combat,Termino do Combate,,"as in 'if you surrender, the consequence will be: End of combat'"
+relationship.with,Relação com {0},,{0} is a name
+chance.accept,Aceitabilidade,,"when you want to give a gift to someone, this will show up like 'Accept Chance: 10%'. This is the chance of the receiver to accept a gift"
+noun.value,Valor,,monetary value of something
+consequence.accept,Aceitando,,a label for consequence of accepting a gift
+consequence.reject,Rejeitando,,a label for consequence of rejecting a gift
+consequence.take,Recebendo,,a label for consequence of taking a package
+offer.this.package,Oferecer,,label on a button that offers this gift package. the recipient may not agree to take it.
+take.this.package,Receber,,label on a button that selects a gift package player wants to take (one from a list)
+,,,
+ship.chat.trade_req.neutral.casual.01,"Ola, podemos negociar?",,
+ship.chat.trade_req.neutral.casual.02,"Estamos com falta de algumas coisas, vamos trocar?",,
+ship.chat.trade_req.neutral.casual.03,Estamos abertos a trocas. Talvez até uma promoção...,,
+ship.chat.trade_req.neutral.polite.01,"Nossa tripulação gostaria de negociar, estais disposto?",,
+ship.chat.trade_req.neutral.polite.02,Gostaríamos de entrar em negociações com você.,,
+ship.chat.trade_req.neutral.polite.03,O capitão deseja negociar com você. Poderia responder?,,
+ship.chat.trade_req.neutral.rude.01,Você parece ter uns bagulhos bons. Mostra ai!,,
+ship.chat.trade_req.neutral.rude.02,Mostra o seu que eu mostro o meu ... inventario,,
+ship.chat.trade_req.neutral.rude.03,"Espero que seja de qualidade, parça",,
+ship.chat.trade_res.positive.casual.01,Ficamos felizes em negociar com você!,,
+ship.chat.trade_res.positive.casual.02,"Claro, só um segundo.",,
+ship.chat.trade_res.positive.casual.03,"Recebemos nova mercadoria. Venha dar uma olhada.",,
+ship.chat.trade_res.positive.polite.01,"Só um momento que logo abriremos negociações.",,
+ship.chat.trade_res.positive.polite.02,"Positivo, podemos trocar.",,
+ship.chat.trade_res.positive.polite.03,recebemos sua solicitação. Espere um pouco.,,
+ship.chat.trade_res.positive.rude.01,Sem descontos mlk.,,
+ship.chat.trade_res.positive.rude.02,isso pode te custar um braço ou perna.,,
+ship.chat.trade_res.positive.rude.03,"Se não levar nada, vai ganhar confusão de brinde.",,
+,,,
+ship.chat.gift_req.neutral.casual.01,"Ei, notamos que temos suprimentos sobrando. Talvez você possa uso deles.",,
+ship.chat.gift_req.neutral.casual.02,"Você parece ter passado por uns bocados. Aqui pega.",,
+ship.chat.gift_req.neutral.casual.03,Um presentinho para você. Use com sabedoria.,,
+ship.chat.gift_req.neutral.polite.01,Queremos mostrar nossa gratidão com um presentinho.,,
+ship.chat.gift_req.neutral.polite.02,Estamos enviando um presente de nossa facção.,,
+ship.chat.gift_req.neutral.polite.03,O capitão preparou uma surpresinha para você.,,
+ship.chat.gift_req.neutral.rude.01,Toma essa migalha e vaza leque!,,
+ship.chat.gift_req.neutral.rude.02,Considere isso como uma boa ação.,,
+ship.chat.gift_req.neutral.rude.03,Pegue isso e suma da nossa área.,,
+ship.chat.gift_res.positive.casual.01,"Obrigado, você é o máximo!",,
+ship.chat.gift_res.positive.casual.02,Muito obrigado!,,
+ship.chat.gift_res.positive.casual.03,Você é muito gentil!,,
+ship.chat.gift_res.positive.polite.01,Agradecemos a oferenda.,,
+ship.chat.gift_res.positive.polite.02,Nossa Facção agradece sua contribuição.,,
+ship.chat.gift_res.positive.polite.03,O capitão está muito grato com seu presente.,,
+ship.chat.gift_res.positive.rude.01,Você podia ter feito melhor. Mais tanto faz.,,
+ship.chat.gift_res.positive.rude.02,"Esperava mais, da pro gasto.",,
+ship.chat.gift_res.positive.rude.03,"Só isso? obrigado, eu acho.",,
+,,,
+ship.chat.extort_res.positive.casual.01,"Eh? acho que não posso recusar.",,
+ship.chat.extort_res.positive.casual.02,Eu esperava mais de você. Mais melhor não ariscar.,,
+ship.chat.extort_res.positive.casual.03,Não esquecerei isso...,,
+ship.chat.extort_res.positive.polite.01,"Estamos desapontados. Porém iremos aceitar.",,
+ship.chat.extort_res.positive.polite.02,Nossa Facção se lembrará disso.,,
+ship.chat.extort_res.positive.polite.03,"O capitão aceitou sobre protestos sua demanda. Uma pena.",,
+ship.chat.extort_res.positive.rude.01,"Você tem ideia de quem eu sou? tanto faz, você tá morto pra mim.",,
+ship.chat.extort_res.positive.rude.02,"OK, mais meus chapas não serão tao legais.",,
+ship.chat.extort_res.positive.rude.03,"O QUE! você vai se arrepender disso e logo.",,
+,,,
+ship.chat.extort_res.negative.casual.01,"Cara, já vi micro meteoroides mais ameaçadores.",,
+ship.chat.extort_res.negative.casual.02,Deve ser novo nessa área. Procure alguém que se importe.,,
+ship.chat.extort_res.negative.casual.03,"Extorsão? Que gracinha, me diga se isso funcionar algum dia.",,
+ship.chat.extort_res.negative.casual.04,"É uma bela piada.",,
+ship.chat.extort_res.negative.casual.05,Tem certeza que você esta na profissão certa? você daria um bom comediante.,,
+ship.chat.extort_res.negative.casual.06,"Eu até podia pagar. Mais melhor não.",,
+ship.chat.extort_res.negative.polite.01,Notado e descartado.,,
+ship.chat.extort_res.negative.polite.02,Sinto informar que não iremos negociar desse jeito.,,
+ship.chat.extort_res.negative.polite.03,Sua proposta foi analisada e decidida como irrelevante.,,
+ship.chat.extort_res.negative.rude.01,Falando alto para quem está no alcance.,,
+ship.chat.extort_res.negative.rude.02,Você bateu a cabeça quando era criança?,,
+ship.chat.extort_res.negative.rude.03,"Eu até acho engraçado, mais não vai rolar.",,
+ship.chat.extort_res.negative.rude.04,Você não ta tão equipado pra isso rapaz.,,
+ship.chat.extort_res.negative.rude.05,"Olha pivete, vai procurar alguém do teu tamanho.",,
+ship.chat.extort_res.negative.rude.06,Vindo de uma Nave cheia de esparadrapo não me impressiona.,,
+,,,
+ship.chat.fuel_req.neutral.casual.01,"Ei, teria uma gasolina sobrando ai?",,
+ship.chat.fuel_req.neutral.casual.02,"Estou quase de tanque vazio, poderia arrumar um pouco?",,
+ship.chat.fuel_req.neutral.casual.03,Tó no vermelho. Tem alguma combustível dando bobeira?,,
+ship.chat.fuel_req.neutral.polite.01,Nós imploramos por um pouco de combustível.,,
+ship.chat.fuel_req.neutral.polite.02,Poderia ceder um pouco do seu combustível?,,
+ship.chat.fuel_req.neutral.polite.03,O capitão mandou perguntar se você tem combustível para ceder?.,,
+ship.chat.fuel_req.neutral.rude.01,"Você tem um pouco de combustível para nós, não é?",,
+ship.chat.fuel_req.neutral.rude.02,"Eu não ia pedir, mais sou obrigado. Me arruma um combustível.",,
+ship.chat.fuel_req.neutral.rude.03,"Você parece ter mais combustível do que precisa, me de um pouco!",,
+,,,
+ship.chat.extort_req.neutral.casual.01,"Se não me der o que eu quero, as coisas vão ficar feias.",,
+ship.chat.extort_req.neutral.casual.02,"Chega de ser bonzinho. Me da minha parte ou haverá consequências.",,
+ship.chat.extort_req.neutral.casual.03,"Pensa rápido, você divide ou perde tudo.",,
+ship.chat.extort_req.neutral.polite.01,Estamos aguardando você pagar pela sua segurança.,,
+ship.chat.extort_req.neutral.polite.02,"Decidimos cobrar uma taxinha. Pague e tudo ficará bem.",,
+ship.chat.extort_req.neutral.polite.03,"Para manter a paz, tudo que precisa fazer é pagar um gorjeta.",,
+ship.chat.extort_req.neutral.rude.01,"Você fica com a Nave, eu fico com a carga, uma troca justa não acha?",,
+ship.chat.extort_req.neutral.rude.02,"Uma pequena doação e você estará livre para ir.",,
+ship.chat.extort_req.neutral.rude.03,"Pague e sua Nave não começará a encolher do nada.",,
+ship.chat.extort_req.neutral.rude.04,"Você que escolhe, pagar com grana ou com a vida.",,
+ship.chat.extort_req.neutral.rude.05,"Você pode levar sua nave, pagando o preço por ela.",,
+ship.chat.extort_req.neutral.rude.06,"Você ta bem pesado, Eu posso te ajudar a ficar mais leve.",,
+,,,
+ship.chat.combat_engage.neutral.casual.01,É hora do duelo!,,
+ship.chat.combat_engage.neutral.casual.02,Chegou a hora de testar nossa arma nova.,,
+ship.chat.combat_engage.neutral.casual.03,Pronto pro combate?,,
+ship.chat.combat_engage.neutral.polite.01,Entrando em modo de batalha.,,
+ship.chat.combat_engage.neutral.polite.02,em sua posições de combate.,,
+ship.chat.combat_engage.neutral.polite.03,Capitão avisando. Você está sobre ataque.,,
+ship.chat.combat_engage.neutral.rude.01,"A carga ou a vida!!!",,
+ship.chat.combat_engage.neutral.rude.02,Perdeu mlk!,,
+ship.chat.combat_engage.neutral.rude.03,Eu estava de bobeira mesmo. Venha!,,
+ship.chat.combat_engage.neutral.rude.04,Sinto cheiro de lucro ... e medo ... muito medo.,,
+ship.chat.combat_engage.neutral.rude.05,Espero que você não esteja perto das janelas!,,
+ship.chat.combat_engage.neutral.rude.06,Sem pedir arrego. Sem testemunhas. Sem misericórdia.,,
+,,,
+ship.chat.hail_req.neutral.casual.01,Ola?,,
+ship.chat.hail_req.neutral.casual.02,Alto e claro!,,
+ship.chat.hail_req.neutral.casual.03,"Capitão na escuta.",,
+ship.chat.hail_req.neutral.polite.01,Transmissão recebida. Prossiga...,,
+ship.chat.hail_req.neutral.polite.02,Estamos ouvindo.,,
+ship.chat.hail_req.neutral.polite.03,Conexão completada. No aguardo...,,
+ship.chat.hail_req.neutral.rude.01,Que foi?,,
+ship.chat.hail_req.neutral.rude.02,"Diga o que você quer, ou vá embora",,
+ship.chat.hail_req.neutral.rude.03,Quem es tu?,,
+,,,
+ship.chat.surrender_req.neutral.casual.01,Nos rendemos!,,
+ship.chat.surrender_req.neutral.casual.02,"Calma ai, podemos conversar melhor?",,
+ship.chat.surrender_req.neutral.casual.03,"Caraca, você é mais forte do que pensei. Não nos exploda.",,
+ship.chat.surrender_req.neutral.polite.01,"Pode parar, aceitaremos suas condições.",,
+ship.chat.surrender_req.neutral.polite.02,Imploramos por clemencia.,,
+ship.chat.surrender_req.neutral.polite.03,podemos resolver isso de maneira amigável?,,
+ship.chat.surrender_req.neutral.rude.01,"Tá certo, você venceu. Podemos ir embora com o que sobrou?",,
+ship.chat.surrender_req.neutral.rude.02,"Olhe, nos rendemos! não era nosso dia mesmo.",,
+ship.chat.surrender_req.neutral.rude.03,"Se você deixar a gente ir embora, prometemos nunca mais roubar você.",,
+,,,
+ship.chat.busy.casual.01,"Desculpe, estamos ocupados.",,
+ship.chat.busy.casual.02,Deixe seu recado apos o sinal.,,
+ship.chat.busy.casual.03,"No momento não podemos responder.",,
+ship.chat.busy.polite.01,"Sinto muito, não podemos atender no momento.",,
+ship.chat.busy.polite.02,O capitão está ocupado no momento.,,
+ship.chat.busy.polite.03,"Transmissão recebida, você é o decimo na fila.",,
+ship.chat.busy.rude.01,To ocupado. Não enche!,,
+ship.chat.busy.rude.02,Cai fora. Sem tempo pra vocÊ.,,
+ship.chat.busy.rude.03,Se me encher a paciência. Vai receber uma invasão.,,
+,,,
+ship.chat.negative.casual.01,"Desculpe, mais não da.",,
+ship.chat.negative.casual.02,"Não posso.",,
+ship.chat.negative.casual.03,Preciso dizer não.,,
+ship.chat.negative.polite.01,Negativo.,,
+ship.chat.negative.polite.02,Capitão não aprovou.,,
+ship.chat.negative.polite.03,Sem chance.,,
+ship.chat.negative.rude.01,Vaza mlk.,,
+ship.chat.negative.rude.02,Ta de brincadeira?! não!,,
+ship.chat.negative.rude.03,NUNCA!,,
+,,,
+ship.chat.positive.casual.01,"Claro, bora.",,
+ship.chat.positive.casual.02,Vamos!,,
+ship.chat.positive.casual.03,Claro!,,
+ship.chat.positive.polite.01,Afirmativo.,,
+ship.chat.positive.polite.02,Capitão concorda.,,
+ship.chat.positive.polite.03,Positivo.,,
+ship.chat.positive.rude.01,Concordo dessa vez.,,
+ship.chat.positive.rude.02,"Vamos logo antes que eu mude de ideia.",,
+ship.chat.positive.rude.03,"Tá, tanto faz.",,
+,,,
+ship.chat.outlaw.casual.01,"Você por acaso sabe que existe coisas ilegais?",,
+ship.chat.outlaw.casual.02,Você leu a regulação antes de colocar essa coisa na sua Nave?,,
+ship.chat.outlaw.casual.03,"Não sendo chato, mais você está quebrando algumas leis.",,
+ship.chat.outlaw.polite.01,Você está de aviso que sua Nave esta violando regras.,,
+ship.chat.outlaw.polite.02,"Desculpe, mais sua Nave não atende as regulamentações.",,
+ship.chat.outlaw.polite.03,Parece que sua Nave não segue os padrões e normas.,,
+ship.chat.outlaw.rude.01,"Você ta de zoeira? porque não tem como isso ser legal.",,
+ship.chat.outlaw.rude.02,Eu já vi muitos contrabandistas menso chamativos que você.,,
+ship.chat.outlaw.rude.03,Você montou aquilo de sucata? aquilo não tem como ser oficial.,,
+,,,
+ship.chat.too.far.negative.casual.01,"Uh? Parece que estamos presos, se aproxime por favor.",,
+ship.chat.too.far.negative.casual.02,"Estamos a deriva, então a menos que você tenha um cabo de reboque, você precisa se aproximar.",,
+ship.chat.too.far.negative.casual.03,"A não ser que você espere que remamo, você precisa vir até nós.",,
+ship.chat.too.far.negative.polite.01,O capitão avisa que não podemos deixar o posto. Venha até nos.,,
+ship.chat.too.far.negative.polite.02,"Desculpe a inconveniência, mais não podemos nos mover, você poderia vir em nossa direção?",,
+ship.chat.too.far.negative.polite.03,Nossa Nave está sem Motores operacionais no momento. Ficaremos gratos caso você possa vir ate nós,,
+ship.chat.too.far.negative.rude.01,"Nossos Motores estão de greve. Seja legal e venha ate nós então.",,
+ship.chat.too.far.negative.rude.02,"Sim estamos sem Motores. Se quiser ser assaltado, você precisa vir aqui perto.",,
+ship.chat.too.far.negative.rude.03,"Só você tem Motores ativos, venha aqui e pare de perder tempo.",,
+,,,
+space.object.ShipHyperTrail,Rastro do Hiper Salto,,
+space.object.info.ShipHyperTrail,"Quando uma Nave realiza um Hiper Salto, ela deixa um rastro temporário indicando sua presença e direção para onde foi.",,
+ship.hypertrail.hot,Há uma Nave no Hiper Espaço e ainda está nesse Setor.,,
+objects.devices.shieldemitter,Projetor de Escudo,,
+objects.devices.shieldemitter.desc,Projeta um Escudo Energético envolvendo a Nave para absorver Danos ou bloquear baixo calibre.,,
+,,,
+overlay.tip.ShipCombat,Controle de Batalha Naval,,
+objects.devices.shreddercannon,Torre Ofensiva Metralhadora,,
+objects.devices.shreddercannon.desc,Dispara projeteis de alta velocidade e com cadencia alta.,,
+objects.devices.heavylaser,Torre Ofensiva Laser,,
+objects.devices.heavylaser.desc,Usa uma Laser denso concentrado em seu Alvo.,,
+research.shipcombat.pointdefense,Defesa Anti Balística,,
+research.shipcombat.weaponsballistic,Armas Balística,,
+research.shipcombat.weaponslaser,Armas á Laser,,
+research.shipcombat.weaponsmissile,Misseis,,
+objects.devices.rocketpod,Rompe Escudo,,
+objects.devices.rocketpod.desc,Dispara um míssil explosivo designado a destruir escudos.,,
+obj.materials.rocket,Míssil,,
+obj.materials.rocket.desc,Um míssil rompe escudos.,,
+objects.devices.interceptorturret,Torre Defensiva Interceptadora,,
+objects.devices.interceptorturret.desc,Um Torre de defesa com a função de destruir projeteis antes que atinjam a Nave.,,
+not.available.during.ship.combat,Desativado durante combate,,
+state.disabled,Desativado,,
+state.windup,Armando,,
+state.no.ammo,Sem munição,,
+noun.weapon.type,Categoria,,
+weapon.type.balistic,Balístico,,
+weapon.type.missile,Míssil,,
+weapon.type.laser,Raio Laser,,
+weapon.type.pointdefense,Interceptar,,
+weapon.type.plasma,Massa Plasma,,
+noun.hyperdrives,Hiper Motores,,plural of Hyperdrive
+noun.ship.hull,Casco,,
+noun.weapon.settings,Configuração Armamento,,
+adj.default,Padrão,,
+adj.custom,Customizado,,
+open.default.settings,Abrir Configuração Padrão,,
+weapon.mode.target,Modo Mira,,"how weapon selects a target (auto, manual, etc)"
+weapon.mode.fire,Modo Disparo,,"how weapon shots (auto, manual, etc)"
+autofire.flux.threshold,Limite de Íons,,
+autofire.flux.threshold.desc,"Ao disparar, armas geram Íons, assim que atingir o limite, as armas param de disparar automaticamente.",,
+auto.target.priorities,Prioridade de Alvo,,
+research.shipcombat.weaponsplasma,Armas de Plasma,,
+objects.devices.gaussstriker,Torre Ofensiva Plasma,,
+objects.devices.gaussstriker.desc,"Dispara Massas de Plasma capaz de aniquilar a maioria dos alvos.",,
+paste.config,Colar Config,,
+noun.stats,Atributos,,
+stat.charge.time,Recarga,,
+stat.charge.time.weapons.desc,Tempo entre disparos.,,
+stat.charge.time.desc,Tempo para se armar.,,
+stat.windup.time,Reativação,,
+stat.windup.time.desc,Tempo para voltar á ativa depois de um tempo inativo.,,
+ammo.capacity,Capacidade,,
+stat.accuracy,Precisão,,
+stat.shield.penetrate.chance,Perfuração,,
+stat.shield.penetrate.chance.desc,Chance {0} de perfurar escudo.,,{0} is Shields
+stat.flux.per.shot.hard,Íons Pesado por Disparo,,
+stat.flux.per.shot.soft,Íons Leve por Disparo,,
+stat.flux.per.shot.desc,{0} gerados por disparo.,,{0} is Hard Flux or Soft Flux
+stat.flux.per.hit.hard,Íons Pesado por Bloqueio,,
+stat.flux.per.hit.soft,Íons Leve por Bloqueio,,
+stat.flux.per.hit.desc,{0} gerados por dano bloqueado em {1}.,,"{0} is Hard Flux or Soft Flux, {1} is Shields"
+targeted.by,Marcado,,
+target.with.all.weapons,Marcado por todo armamento,,
+target.with.weapon,Marcar,,
+current.target,Alvo atual,,
+not.targeted,Sem Alvo,,
+noun.ship.weapon,Arma Naval,,
+noun.ship.weapons,Armas Naval,,Plural of Ship Weapon
+noun.combat.mode,Modo de Combate,,
+too.much.flux,Sobrecarga de Íons,,
+noun.thrusters,Motores,,plural of Thruster - a small engine
+noun.flux.vent.settings,Descarga de Íons,,
+auto.vent.flux,Auto Desc Íons,,label for setting: automatically vent flux
+tolerated.flux.hard,Limite Íons Pesados,,
+tolerated.flux.hard.desc,Descarrega os Íons assim que passar esse limite.,,
+tolerated.flux,Limite de Íons Leves,,
+tolerated.flux.desc,Descarrega os Íons assim que passar esse limite.,,
+auto.vent.flux.stop.hard,Nível Seguro de Íons,,
+auto.vent.flux.stop.hard.desc,O descarregamento de Íons para assim que atingir esse nível.,,
+auto.vent.flux.stop.total,Nível Seguro de Íons,,
+auto.vent.flux.stop.total.desc,O descarregamento de Íons para assim que atingir esse nível.,,
+value.too.low,Baixíssimo,,warning label when a numeric value is too low
+toggle.compact.ui,Alterna UI compacta,,
+noun.class.points,Classe Pontual,,device points for ship class
+class.points.desc,"Cada classe de Nave tem um limite Legal de quantos pontos de classe ele pode conter. Cada equipamento Naval (Armamento, Escudos, Motores) possuiu uma pontuação. Exceder o limite da Classe da Nave traz consequências negativas para como somos vistos.",,
+class.points.exceeded.player,Nossa Nave está infringindo o limite de nossa Classe!,,
+class.points.exceeded.npc,Essa Nave está violando o limite de Classe Espacial.,,
+class.points.exceeded.info,Limite da Classe {0}. Atual: {1}/{2}.,,"{0} is ship class name, {1} and {2} are numbers"
+ship.class.base.evade,Evasão Base,,
+ship.evade.thruster.bonus,Auxilio dos Motores,,
+ship.violates.class.limit,Nave acima do Limite,,
+noun.ship.class.limit,Limite da Classe Espacial,,
+ship.class.limit.future.violation.tip,Construir esse objeto irá exceder o limite de nossa Classe!,,
+trade.refused,Troca rejeitada,,when player wants to trade but the trader doesn't like the player
+noun.law.enforcement,Vigia da Lei,,
+noun.law.enforcement.officer,Oficial da Vigia de Lei,,
+noun.outlaw,Fora da Lei,,as in someone who is hunted by the police
+state.in.combat,em Combate,,
+ev.pirate.attack.title,Nave Pirata Aproximando,,
+ev.pirate.attack.desc,Warning. Estamos na mira de Piratas!,,
+ev.police.raid.title,Revista da Lei,,
+ev.police.raid.desc,Warning. Oficiais estão se aproximando!,,
+choose.ship.class,Escolha a Classe de Nave,,
+incompatible.ship.class.tip,Nossa Classe de Nave ({0}) não é mais compatível com nossa configuração. Escolha uma nova Classe.,,
+select.this.ship.class,Escolher essa Classe,,
+adj.incompatible,Incompatível,,for example when ship class is incompatible with your ship configuration. adjective. button label so should be short.
+noun.derelict,Destroço,,
+quest.MakeShipCombatReady,Arme nossa Nave,,
+quest.MakeShipCombatReady.desc,Precisamos nos preparar para conflitos. Construa Armas e Escudos.,,
+quest.MakeShipCombatReady.shredder.cannon.tip,Ter algumas Armas Metralhadoras irá aumentar nosso poder de fogo para repelir Naves pequenas e alguns Meteoroides.,,
+quest.MakeShipCombatReady.shield.emitter.tip,"Precisamos ter um Projetor de Escudos ativo, sem ele não duraremos, mesmo contra Naves pequenas.",,
+noun.ship.combat,Combate Naval,,
+noun.minimum,Mínimo,,
+pronoun.any,Livre,,Example: Ship size: Any
+noun.base.capacity,Capacidade Basal,,base flux capacity
+noun.class.bonus,Bônus da Classe,,ship class bonus
+noun.size.bonus,Bônus da Escala,,ship size bonus
+noun.capacitor.bonus,Bônus dos Capacitores,,bonus from flux capacitors
+noun.flux.bonus,Íons Bônus,,
+noun.flux.capacitor,Capacitor de Íons,,a device that increases flux capacity
+noun.flux.capacitor.desc,Aumenta a tolerância a Íons.,,
+noun.flux.capacitors,Capacitores de Íons,,plural of flux capacitor
+research.spacetravel.warpdrive,Motor de Dobra,,
+research.spacetravel.warpdrivealien,Motor de Dobra Alien,,
+objects.devices.warpdrive,Motor grande de Dobra,,
+objects.devices.warpdrive.desc,"Esse Motor de origem desconhecida, permite dobrar o Espaço/Tempo e 'teleportar' para locais. O tamanho desse Motor permite a viagem a qualquer distancia sem restrição.",,
+objects.devices.warpdrivemini,Motor pequeno de Dobra,,
+objects.devices.warpdrivemini.desc,"Esse Motor de origem desconhecida, permite dobrar o Espaço/Tempo e 'teleportar' para locais. O tamanho desse Motor permite a viagem a qualquer distancia dentro do mesmo Setor. Também permite uso tático em combates para reposicionamento ou fuga.",,
+ship.combat.ongoing,Em Combate Naval,,
+ship.combat.ended,Termino de conflito,,
+warps.available,Dobras utilizáveis,,warp is like a hyperjump but between distant places in space
+tut.ship.combat.desc,Combate Naval.,,"This tutorial uses a codex linking system, that's why lots of terms are set as variables, the game replaces them with links to codex"
+tut.ship.combat.intro,Aqui será ensinado o básico do Combate entre Naves vulgo Combate Naval.,,
+tut.ship.combat.step.class.1,Cada Nave tem uma {0} que delimita seu armamento.,,"{0} will be ""Ship Class"" with link to codex"
+tut.ship.combat.step.class.2,"Quando sua Nave passar dos limites de sua Classe atual. Precisaremos escolher uma nova {0}.",,"{0} will be ""Ship Class"" with link to codex"
+tut.ship.combat.step.class.3,Você pode mudar entre Classes compatíveis em {0}.,,"{0} will be ""Ship Combat Controls > Configure > Ship Class"""
+tut.ship.combat.step.class.points.1,O limite de armamento é definido pela {0}. Naves com Classes maiores tem um maior limite de {0}.,,"{0} will be ""Class Points"" with link to codex"
+tut.ship.combat.step.class.points.2,Cada <b>maquinário</b> usado em combate tem um custo de {0}.,,"{0} will be ""Class Points"""
+tut.ship.combat.step.class.points.3,Exceder o limite da {0} de sua {1} quebra a Lei e nós torna {2}.,,"{0} will be ""Class Points"", {1} will be ""Ship Class"", {2} is ""Outlaw"""
+tut.ship.combat.step.class.points.4,"Essa Nave é de Classe {0}, permitindo {1}/{2}, porém o armamento atual é de {3}/{2}, fazendo dela {4}.",,"{0} is class name like Cruiser, {2} is ""Class Points"", {1} and {3} are numbers (points), {4} is ""Outlaw"""
+tut.ship.combat.step.class.points.5,Uma notificação irá ser emitida sempre que o limite de {0} for quebrado.,,"{0} is ""Class Points"""
+tut.ship.combat.step.class.points.6,"Ser {0} traz problemas. A maioria dos mercadores irá evitar você, além de Oficias {1} vão te caçar.",,"{0} is ""Outlaw"", {1} is ""Law Enforcement"""
+tut.ship.combat.step.devices.title,Maquinas de Combate,,
+tut.ship.combat.step.devices.1,Aqui iremos ver os maquinários de Combate Naval.,,
+tut.ship.combat.step.devices.shield.1,{0} são essenciais para ter a mínima chance de sobreviver. O mínimo de um {1} é necessário para que o Escudo funcione.,,"{0} will be Shields, {1} is Shield Emitter"
+tut.ship.combat.step.devices.shield.2,{0} protegem contra projeteis. Danos absorvidos por {0} geram {1}.,,"{0} will be Shields, {1} is Hard Flux"
+tut.ship.combat.step.devices.capacitor.1,Cada {0} aumenta o limite de dano que os {1} podem absorver. O sistema de {2} será explicado depois.,,"{0} is Flux Capacitors, {1} is shields, {2} is Flux"
+tut.ship.combat.step.devices.engines.1,"Cada {0} aumenta o {1}, diminuindo a precisão inimiga. {1} depende da {2} e tamanho, seu limite é de {3}.",,"{0} is Thruster, {1} is Evade, {2} is Ship Class, {3} is percentage like 50%"
+tut.ship.combat.step.devices.engines.2,Os {0} precisam acumular cargas para executar Hiper Saltos durante combate.,,{0} is Hyperdrives
+tut.ship.combat.step.devices.weapons.1,"Existe uma variedade de {0}, cada uma com vantagens e desavantagens.",,{0} is Ship Weapon
+tut.ship.combat.step.devices.weapons.ballistic.1,"{0} possuem um calibre menor e podem ser interceptados pelo {1}. {2} é gerado no impacto com o {1}, ele causa muito dano contra Naves com Escudos caídos.",,"{0} is Ballistic Weapons, {1} is Shields, {2} is Hard Flux"
+tut.ship.combat.step.devices.weapons.ballistic.2,"{0} são bons em interceptar projeteis lentos como {1}.",,"{0} is Ballistic Weapons, {1} is Meteoroid"
+tut.ship.combat.step.devices.weapons.laser.1,{0} são mais poderosos que {1} porem sua cadencia de disparo é baixa.,,"{0} is Laser Weapons, {1} is Ballistic Weapons"
+tut.ship.combat.step.devices.weapons.missile.1,{0} são extremamente letais já que perfuram {1} e causam dano elevado ao custo alto de sua munição.,,"{0} is Missile Weapons, {1} is Shields."
+tut.ship.combat.step.devices.weapons.point.defense.1,"{0} não podem atacar Naves adversarias, mas podem abater projeteis {1} ou objetos espaciais como meteoroides ou {2}.",,"{0} is Point Defense, {1} is Missile Weapons, {2} is Breach Capsule"
+tut.ship.combat.step.devices.weapons.plasma.1,{0} é a arma derradeira podendo derrubar {1} e causar danos massivos.,,"{0} is Plasma Weapons, {1} is Shields"
+tut.ship.combat.step.ui.1,Uma Nave pirata está nos atacando. Vamos aprender a controlar as Armas em um combate real.,,
+tut.ship.combat.step.ui.2,Aqui fica {0}. Você pode alternar a Aba com o ícone {1}.,,"{0} is Ship Combat Controls, {1} is also Ship Combat Controls but with link to overlay icon"
+tut.ship.combat.step.ui.3,A esquerda contem os controles da Nave {0}.,,{0} is Ship Combat Controls
+tut.ship.combat.step.ui.4,A direita mostra informação do seu adversário.,,
+tut.ship.combat.step.ui.5,Clicar no nome da Nave foca a câmera na Nave selecionada.,,
+tut.ship.combat.step.ui.6,"Antes de prosseguir, ative a passagem do tempo e troque alguns tiros.",,
+tut.ship.combat.step.flux.1,Acumulamos uma quantia de {0}. essa é a hora de explicar o sistema.,,{0} is Flux
+tut.ship.combat.step.flux.types.1,Há dois tipos de {0}:,,{0} is Flux
+tut.ship.combat.step.flux.types.2,{0} é gerado com o disparo de suas armas. Ele se esvai com o passar do tempo.,,{0} is Soft Flux
+tut.ship.combat.step.flux.types.3,{0} é gerado quando o {1} recebe danos. Esse tipo não se esvai sozinho.,,{0} is Hard Flux. {1} is Shields
+tut.ship.combat.step.flux.types.4,Algumas armas geram {0} quando disparadas. Verifique os detalhes de cada arma para saber.,,{0} - Hard Flux
+tut.ship.combat.step.flux.capacity.1,{0} consiste de {1} + {2}. O limite acumulável é definido por {3}.,,"{0} - Accumulated Flux, {1} - Hard Flux, {2} - Soft Flux. {3} - Flux Capacity"
+tut.ship.combat.step.flux.capacity.2,Passe o cursor sobre o ícone UI {0} para ver como {1} é calculado.,,"{0} - Flux, {1} - Flux Capacity"
+tut.ship.combat.step.flux.capacity.3,Aumenta sua {0} ou construa mais {1} para aumentar o limite {2} da Nave.,,"{0} - Ship Class. {1} - Flux Capacitors, {2} - Flux Capacity"
+tut.ship.combat.step.flux.overload.1,"Quando {0} exceder sua {1}, uma {2} acontece.",,"{0} - Accumulated Flux, {1} - Flux Capacity, {2} - Flux Overload."
+tut.ship.combat.step.flux.overload.2,{0} desativa seu {1} e força a ventilação de todo {2}.,,"{0} - Flux Overload, {1} - Shields, {2} - Flux"
+tut.ship.combat.step.flux.venting.1,"É possível ventilar {0} manualmente. Isso também desativa o {1}, mas pode ser interrompida a qualquer momento.",,"{0} is Flux, {1} - Shields"
+tut.ship.combat.step.flux.venting.2,É possível também ajustar para ventilação automática quando certo valor for atingido dentro da Aba de Combate Naval.,,
+tut.ship.combat.step.config.1,Pressione o botão {0} para abrir a Aba <b>Configuração da Nave</b>.,,{0} - Configure
+tut.ship.combat.step.config.2,"Essa é a <b>Configuração da Nave</b>. Nela podemos mudar a {0}, ajustar {1} , e modificar a mira das armas.",,"{0} - ship class, {1} - Flux"
+tut.ship.combat.end,"Com isso cobrimos o básico de {0}. Explore {1} e {2} para mais informações.<br><br>Agora coloque em pratica o que aprendeu, derrote a Nave adversaria.",,"{0} - Ship Combat. {1} - Codex, {2} - Ship Combat Controls"
+law.enforcement.desc,"A maioria das Facções tem <b>Oficiais da Vigia de Lei</b> que mantêm a ordem e caçam Naves {0}. Enquanto você não for um {0}, não precisa teme-los.",,{0} is Outlaw
+noun.weapon.class.points,Ponto da Classe de Armamento,,
+noun.offensiveness,Ofensiva,,
+noun.offensiveness.allowed,Ofensiva permitida,,
+noun.offensiveness.current,Ofensiva atual,,
+compatible.ship.classes,Classe Naval Compatíveis,,
+compatible.factions,Facções Compatíveis,,
+obj.ammo.interceptordart,Dardos Interceptadores,,"Plural, because it's a stack of several darts"
+obj.ammo.interceptordart.desc,"Um míssil compacto de auto navegação usado para defesa de proximidade, capaz de interceptar objetos com precisão.",,
+obj.ammo.missile,Míssil,,
+obj.ammo.missile.desc,Um míssil extramente explosivo capaz de perfurar Escudos e causar dano pesado.,,
+tut.spacetravel.step4_1_new,"Estamos prontos para <b>Negociar</b> com a <b>Estação Espacial</b>. Clicando {0} sobre a Estação destacada abre as opções de ações, selecione <b>Comunicar</b>, então <b>Negociar</b>.",,Has alias to old version of this text for outdated translations
+find.resource,Achar {0},,"{0} is resource name, like ""Dark Matter"""
+unlock.scanning.tip,"Estamos ficando sem {0}. Pesquise {1} para habilitar Escaneamento de recursos, use a função {2} em {3} para localizar jazidas.",,"{0} is resource name, like ""Dark Matter"", {1} is research technology name, {2} is Scanning, {3} is Starmap"
+warped.to.location,Telou para {0},,"{0} is location name. Warped to as in ""teleported to"" in space"
+scan.strength.limit.tip,"Nossa potencia de {0} foi mudada para {1}, o máximo é {2}. Adicionar mais Escanear além do limite não melhora nada.",,"{0} is Scan Strength, {1} and {2} is a number"
+noun.scan.strength,Potência,,
+ship.entered.sector,Uma Nave entrou nesse Setor,,Notification about another ship hyperjumping into player's location
+ship.left.sector,Uma Nave saiu desse Setor,,Notification about another ship hyperjumping away from player's location
+ship.destroyed,Nave Destruída,,
+obj.upgrades.winchrangeupgrade,Auxiliar do Gancho e Engate,,
+obj.upgrades.winchrangeupgrade.desc,"Permite rebocar destroços de qualquer distância.",,
+waiting.for.operator,Esperando operador,,waiting for someone to operate the device
+no.worker.capable,Ninguém capaz presente,,
+noun.operator.bonus,Habilidade do Operador,,"when someone is communicating with another ship, operator with good social skills can give bonus in negotiation outcomes. This will be displayed as: Operator Bonus: +15%"
+noun.risk,Risco,,Will display something like Risk: 20%
+deep.scan.not.found,Nada mais no escaneamento.,,
+adj.done,Finalizado,,"as in ""the job is done"""
+tut.basic.controls.step.overlay.shipcombat,Essa Aba pertence ao Combate Naval.,,
+auto.rebuild.priority,Prioridade Auto Reconstruir,,
+auto.rebuild.priority.tip,"Quando um objeto com sua pesquisa completada é destruído, uma ordem de reconstruí-la é criada, você pode definir a prioridade dessa ação.",,
+auto.repair.priority,Prioridade Auto Reparo,,
+auto.repair.priority.tip,"Quando um objeto é danificado e tem sua pesquisa {0} completada, uma ordem de reparo é criada, você pode definir a prioridade dessa ação..",,{0} is Auto Repair
+body.part.procedure.priority,Prioridade de Cirurgias,,
+body.part.procedure.priority.tip,Muda a prioridade para ações cirúrgicas.,,
+upgrade.available,Melhoria disponível,,
+ship.class.upgrade.available.desc,Sua Nave tem qualificações para subir {0}. Atualize em {0} com {1} > {2}.,,"{0} is Ship Class, {1} is Ship Combat Controls. {2} is Configure"
+noun.return.beacon,Farol de Retorno,,
+noun.return.beacon.desc,Um sinalizador que ao ser instalado em um local permite o retorno rápido.,,
+object.deployed,{0} enviado,,{0} is object name
+object.already.exists,{0} já presente,,{0} is object name (like Return Beacon)
+noun.return.beacons,Faróis de retorno,,plural of Return Beacon
+overlay.tip.Notes,Notas,,
+tut.basic.controls.step.overlay.notes,Você pode usar isso como bloco de notas.,,
+structure.floors.floorwood01,Piso de Madeira,,
+structure.floors.floorwood01.desc,Bom e velho Assoalho.,,
+bodypart.Implant.FirewallChip,Chip Criptográfico,,
+bodypart.Implant.FirewallChip.desc,Protege contra hackeamento e aumenta tolerância a danos energéticos.,,
+crawler.combat.alert,Alerta de Criatura,,
+crawler.combat.alert.desc,"Ao ser desativado, qualquer coisa envolvendo Criaturas, não irá gerar um alerta, seja combate ou ovo chocado.",,
+universe.seed,Serial do Universo,,"Seed is a random number used as a starting point to generate something, in this case a universe"
+tut.adv.controls.select.modes.2_new,"Segure {1}, araste um retângulo em uma área, então solte {1} para selecionar todos os <b>Indivíduos</b> nessa área.<br><br>Segure {0} e aperte {1} em um <b>Individuo</b> para adicionar ou remover da seleção to.",,"{0} is Shift button icon, {1} is left mouse button icon"
