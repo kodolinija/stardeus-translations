@@ -5810,7 +5810,7 @@ combat.objectives,Ziele,,
 ability.Research,Forschung,,
 cond.CrawlerAttached,Krabbler zugefügt,,
 cond.CrawlerInfected,Außerirdische Parasiten,,
-wound.inflicted.time.ago,Zugefügt vor {0},,{0} is time like 10m 
+wound.inflicted.time.ago,Zugefügt vor {0},,{0} is time like 10m
 cond.Hypothermia,Unterkühlung,,
 menu.ungrouped,Nicht gruppiert,,
 menu.ungrouped.desc,Verschiedene nicht gruppierte Artikel,,
@@ -6292,7 +6292,7 @@ placement.tip.ports,Der Arbeitsplatz und die Ein-/Ausgabeanschlüsse müssen fre
 goal.GetMoreResource.desc,"Wir haben nur noch wenig <b>{0}</b>. Benutze den <b>Kodex</b>, um die Zutaten zu identifizieren und mehr davon herzustellen. Einige Materialien können bei Bergbauexpeditionen abgebaut, im <b>Online-Shop</b> oder auf <b>Raumstationen</b> erworben werden.",2024-10-17,
 click.to.enlarge,Zum Vergrößern anklicken,,
 evt.cooking.incident,Kochunfall,,
-evt.cooking.incident.desc,{0} hatte einen Unfall beim Kochen von {1} bei {2}.,,{0} is being name; {1} is meal name; {2} is cooking station 
+evt.cooking.incident.desc,{0} hatte einen Unfall beim Kochen von {1} bei {2}.,,{0} is being name; {1} is meal name; {2} is cooking station
 fight.ongoing,Kampf!,,
 fight.lost,den Kampf gegen {0} verloren,,{0} is the opponent name
 fight.between,{0} hat einen kampf mit {1} angefangen,,{0} and {1} are names
@@ -6595,7 +6595,7 @@ noun.weapon.power,Waffenstärke,,Version 0.13 translations start here
 noun.shields,Schild,,
 noun.weapons,Waffen,,
 noun.weapon.power.short,Stärke,,As in Strength of Weapon Power
-noun.flux,"Flux",,A sci-fi term. can be accumulated during ship combat and has to be vented. 
+noun.flux,"Flux",,A sci-fi term. can be accumulated during ship combat and has to be vented.
 noun.flux.desc,Flux ist die Ansammlung von Wärmeenergie während des Kampfes. Sie steigt beim Abfeuern von Waffen oder beim Blockieren von Angriffen mit Schilden. Zu viel Flux deaktiviert wichtige Systeme.,,
 noun.evade,Ausweichen,,"Label next to ship evasion percentage. Evasion determines how likely the ship will dodge incoming attacks. Must be short, hence Evade and not Evasion"
 noun.evade.desc,"Der Ausweichwert bestimmt, wie wahrscheinlich es ist, dass das Schiff Angriffen ausweicht. Kleinere Schiffe haben einen höheren Ausweichwert als größere.",,
@@ -6652,7 +6652,7 @@ ship.tag.imv,IBS,,
 ship.tag.imv.desc,Industrielles Bergbauschiff,,resource extraction ships
 ship.tag.inf,"INF",,
 ship.tag.inf.desc,Infizierter Netzwerkrahmen,,virus-corrupted ships
-ship.tag.ltv,"LTS",
+ship.tag.ltv,"LTS",,
 ship.tag.ltv.desc,Logistik-Transportschiff,,cargo haulters and carriers
 ship.tag.tav,TAS,,
 ship.tag.tav.desc,Taktisches Angriffsschiff,,big offensive ships
@@ -6660,7 +6660,7 @@ ship.tag.scs,SKS,,
 ship.tag.scs.desc,Superkapitalschiff,,titan class ships
 ship.tag.lfs,LJS,,
 ship.tag.lfs.desc,Leichtes Jagdschiff,,small fighters
-ship.tag.srs,"AAS",
+ship.tag.srs,"AAS",,
 ship.tag.srs.desc,Angriffsaufklärungsschiff,,hit and run tactical ships
 ship.tag.msv,MUS,,
 ship.tag.msv.desc,Mehrzweck-Unterstützungsschiff,,verstaile small crafts
