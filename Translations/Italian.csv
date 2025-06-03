@@ -6019,3 +6019,6 @@ act.admired.object,Admired {0},,{0} will be replaced by an object or being name.
 verb.admiring.view,Enjoying the view,,,
 verb.admired.view,Enjoyed the view,,,
 verb.butcher,Macella,,for killing a being for meat,
+telemetry.tip,"Per migliorare le prestazioni del gioco e l'esperienza dei giocatori, raccogliamo dati di gioco in base al nostro legittimo interesse.",,
+telemetry,Telemetria,,noun
+share.telemetry,Condividi la telemetria di gioco,,label for a checkbox that enables telemetry sharing
