@@ -7107,3 +7107,6 @@ scenario.cargo_ship,Frachtschiff,,
 scenario.cargo_ship.tooltip,"Starte in einem voll funktionstüchtigem Frachtschiff mit reiner Roboterbesatzung.",,
 slog.trade,"Handel mit {0}",,
 btn.join.our.community,"Tritt der Community bei",,
+telemetry.tip,"Um die Leistung des Spiels und dein Spielerlebnis zu verbessern, sammeln wir auf der Grundlage unseres berechtigten Interesses Daten über das Spiel.",,
+telemetry,Telemetrie,,noun
+share.telemetry,Spieldaten freigeben,,label for a checkbox that enables telemetry sharing
