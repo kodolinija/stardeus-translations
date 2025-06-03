@@ -6186,3 +6186,6 @@ objects.cosmetics.coffin01.desc,"Dekoracyjna trumna, przeznaczona wyłącznie do
 uncomfortable.sleep,Niewygodny Sen,,
 objects.cosmetics.tombstone01,Nagrobek,,
 objects.cosmetics.tombstone01.desc,Dekoracyjny nagrobek.,,
+telemetry.tip,"W celu poprawy działania gry i zapewnienia graczom jak najlepszych wrażeń gromadzimy dane dotyczące rozgrywki na podstawie uzasadnionych interesów.",,
+telemetry,Telemetria,,noun
+share.telemetry,Udostępnij telemetrię gry,,label for a checkbox that enables telemetry sharing
