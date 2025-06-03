@@ -6795,7 +6795,7 @@ noun.weapon.power,Poder de Fogo,,Version 0.13 translations start here
 noun.shields,Escudos,,
 noun.weapons,Armamento,,
 noun.weapon.power.short,Força,,As in Strength of Weapon Power
-noun.flux,Íons,,A sci-fi term. can be accumulated during ship combat and has to be vented. 
+noun.flux,Íons,,A sci-fi term. can be accumulated during ship combat and has to be vented.
 noun.flux.desc,Íons é o acumulo de partículas carregadas durante o uso de maquinário energético. O disparo de armas ou o bloqueio de projeteis pelo Escudo causam um aumento acelerado. Seu acumulo elevado causa falha de sistemas cruciais.,,
 noun.evade,Evadir,,"Label next to ship evasion percentage. Evasion determines how likely the ship will dodge incoming attacks. Must be short, hence Evade and not Evasion"
 noun.evade.desc,Evadir demonstra a probabilidade de evitar um acerto direto durante combate. naves menores tem maior chance de evadir do que Naves grandes.,,
@@ -7302,3 +7302,6 @@ crawler.combat.alert,Alerta de Criatura,,
 crawler.combat.alert.desc,"Ao ser desativado, qualquer coisa envolvendo Criaturas, não irá gerar um alerta, seja combate ou ovo chocado.",,
 universe.seed,Serial do Universo,,"Seed is a random number used as a starting point to generate something, in this case a universe"
 tut.adv.controls.select.modes.2_new,"Segure {1}, araste um retângulo em uma área, então solte {1} para selecionar todos os <b>Indivíduos</b> nessa área.<br><br>Segure {0} e aperte {1} em um <b>Individuo</b> para adicionar ou remover da seleção to.",,"{0} is Shift button icon, {1} is left mouse button icon"
+telemetry.tip,"A fim de melhorar o desempenho do jogo e aprimorar a sua experiência, nós coletamos dados de jogabilidade com base em nosso interesse legítimo.",,
+telemetry,Telemetria,,noun
+share.telemetry,Compartilhar telemetria do jogo,,label for a checkbox that enables telemetry sharing
