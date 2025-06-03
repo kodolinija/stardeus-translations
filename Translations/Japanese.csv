@@ -6581,3 +6581,6 @@ modifier.ResearchCost.desc,研究ノードの解除に必要なデートイド�
 scan.target.deep,深部スキャン,,
 scan.target.deep.desc,"現在のセクターを深部までスキャンし、長距離スキャンで見逃していた可能性のある資源を検出します。",,
 noun.list,一覧,,
+telemetry.tip,"ゲームのパフォーマンスを向上させ、体験をより良質なものにするため、私たちは正当な権利に基づいてゲームプレイデータを収集します",,
+telemetry,テレメトリー,,noun
+share.telemetry,ゲームのテレメトリを共有する,,label for a checkbox that enables telemetry sharing
