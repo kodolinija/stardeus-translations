@@ -1,6 +1,6 @@
 Key,Translation,Version,Comment
-<Gamepad>,Геймпад,,Used in input settings when showing bindings for Gamepad (controller) 
-<Keyboard>,Клавиатура,,Used in input settings when showing bindings for Keyboard 
+<Gamepad>,Геймпад,,Used in input settings when showing bindings for Gamepad (controller)
+<Keyboard>,Клавиатура,,Used in input settings when showing bindings for Keyboard
 <Mouse>,Мышь,,Used in input settings when showing bindings for Mouse
 abandon,Бросить,,"Verb, used on things or parts of ship we want to leave behind when flying away"
 ability.AnimalEat,Есть,,synonym for eat in context of an animal eating on its own
@@ -1055,7 +1055,7 @@ color.Blue,Синий,,
 color.Green,Зеленый,,
 color.Grey,Серый,,
 color.hue,Тон,,color property (H in HSL)
-color.luminosity,Яркость,,color property (L in HSL) 
+color.luminosity,Яркость,,color property (L in HSL)
 color.Orange,Оранжевый,,
 color.pick,Выбрать,,short action verb on button that picks color (eyedropper tool)
 color.Pink,Розовый,,
@@ -1170,7 +1170,7 @@ cooking.bar,Готовит {0},,
 cooler,Кулер,,"A device type, noun. Opposite of ""Heater"". Device that cools the area down, reduces temperature."
 copied.to.clipboard,Скопировано в буфер обмена,,
 copied.to.clipboard.info,"Скопировано {0} записей из журнала в буфер обмена. Вставьте их в свой любимый текстовый редактор, чтобы сохранить.",,
-copter.mission.stage.collect.resource,Собирает {0},,{0} is material type 
+copter.mission.stage.collect.resource,Собирает {0},,{0} is material type
 copter.mission.stage.deploy.miner,Устанавливает {0},,"{0} is the resource miner device name, like Autodrill Rig"
 copter.mission.stage.fly.to,Летит к {0},,"{0} is the name of the target, like Silicon Deposit, or a device name"
 copter.mission.stage.fly.to.ship,Возвращается на корабль,,
@@ -1310,7 +1310,7 @@ deploy.resource.miner,Запустить добывающее устройств
 deposit.shuttle.verb.collect,"Cбор {0} ({1:0}/д, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
 deposit.shuttle.verb.extract,"Извлечение {0} ({1:0}/д, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
 deposit.shuttle.verb.mine,"Добыча {0} ({1:0}/д, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
-deposit.verb.collect,Сбор {0} ({1:0.##}/день),,{0} is resource name {1} is number 
+deposit.verb.collect,Сбор {0} ({1:0.##}/день),,{0} is resource name {1} is number
 deposit.verb.extract,Извлечение {0} ({1:0.##}/день @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
 deposit.verb.mine,Добыча {0} ({1:0.##}/день @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
 derelict.abandon.warning,Заброшенный корабль будет покинут.,,
@@ -1401,7 +1401,7 @@ drag.release.build.con.tip,"Если этот параметр включен, �
 drink.coffee,Пить кофе,,
 drop.task,Отменить задачу,,
 drop.verb,Бросить,,"Verb, for a button label that forces the worker to drop something"
-duplicate.binding,Привязка уже существует,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad). 
+duplicate.binding,Привязка уже существует,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad).
 duplicate.binding.info,"Способ ввода, который вы выбрали для {0}, уже используется в другом месте. В большинстве случаев вы можете отменить свое изменение. Обратите внимание, что клавиши со стрелками, Enter и ESC используются для навигации по пользовательскому интерфейсу.",,
 dust.accumulation,Накопление пыли,,
 dust.amount,Количество пыли,,
@@ -1423,7 +1423,7 @@ eject.contents,Извлечь содержимое,,
 eject.food,Извлечь еду,,
 eject.from.storage.first,Сначала извлеките это существо из хранилища.,,Shown when player tries to replace a body part on a being that is in storage (in morgue or mechuary).
 eject.fuel,Извлечь топливо,,
-el.build.connector.here,Постройте здесь коннектор,,Displayed in a tooltip when dragging a connector 
+el.build.connector.here,Постройте здесь коннектор,,Displayed in a tooltip when dragging a connector
 el.connector.fully.utilized,Все слоты коннектора заняты!,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.connector.not.on.grid,Коннектор не находится в одной сети с Бортовым Компьютером!,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
 el.connector.out.of.range,Вне пределов досягаемости!,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
@@ -1605,7 +1605,7 @@ evt.cleaning.incident,Инцидент при уборке,,
 evt.cleaning.incident.desc,У <b>{0}</b> произошел инцидент во время уборки <b>{1}</b>.,,0 is name of the worker 1 is name of the device (usually Toilet)
 evt.connection.loss,Потеряно соединение,,
 evt.cooking.incident,Несчастный случай при приготовлении еды,,
-evt.cooking.incident.desc,С {0} произошел несчастный случай во время приготовления {1} в {2}.,,{0} is being name; {1} is meal name; {2} is cooking station 
+evt.cooking.incident.desc,С {0} произошел несчастный случай во время приготовления {1} в {2}.,,{0} is being name; {1} is meal name; {2} is cooking station
 evt.damaged.device.exploded,Поврежденное устройство взорвалось,,
 evt.damaged.device.exploded.desc,Поврежденное устройство ({0}) взорвалось в {1},,
 evt.damaged.device.fire,Поврежденное устройство загорелось,,
@@ -2217,7 +2217,7 @@ inconsistent.game.state,"Сохранение не удалось, баг меш
 increase,Увеличить,,
 increase.amount,Увеличить количество,,
 indestructible,Неразрушаем,,
-indestructible.desc,"Неразрушаемые объекты не получают повреждений от ударов, взрывов, огня или окружающей среды",, 
+indestructible.desc,"Неразрушаемые объекты не получают повреждений от ударов, взрывов, огня или окружающей среды",,
 infinity,Бесконечность,,"Used in displaying time estimate when something would take forever to execute. Example: research time estimate when there is 0kW of energy output shows a tooltip: ""ETA: Infinity @0kW"""
 inflict.wound.log,"{0} нанес рану {3} (степень, тип урона: <b>{1}, {2}</b>, часть тела: <b>{4}</b>).",,{0} is attacker name {1} wound severity level {2} is wound damage type {3} is victim name {4} is victims body part name. Example: John inflicted a Critical Piercing wound on Mike's Head
 info.ad.rejected,Задача отклонена,,
@@ -3027,7 +3027,7 @@ no.task.reason.job.priority0,"Пропущено <b>{0}</b> задач, поск
 no.task.reason.job.priority0.one,Приоритет работника для <b>{0}</b> установлен на <b>0</b>.,,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
 no.task.reason.last.eval,Работник оценил все задачи <b>{0} назад</b> (в игровом времени).,,
 no.task.reason.no.skill,<b>Недостаточно навыков</b> для <b>{0}</b> задач.,,
-no.task.reason.no.skill.one,Недостаточный навык <b>{0}</b>. Текущий: <b>{1}</b>. Требуется: <b>{2}</b>. ,,{0} - skill name. {1} and {2} - a number (skill level). 
+no.task.reason.no.skill.one,Недостаточный навык <b>{0}</b>. Текущий: <b>{1}</b>. Требуется: <b>{2}</b>. ,,{0} - skill name. {1} and {2} - a number (skill level).
 no.task.reason.reluctant,"<b>{0}</b> задач было пропущено, поскольку <b>работник не захотел</b> выполнять эти задачи (слишком далеко, работник слишком устал, задача была недавно провалена и т. д.)",2022-12-04,
 no.task.reason.total,"Есть <b>{0}</b> задач, ожидающих выполнения.",,
 no.task.reason.total.one,Есть <b>1</b> задача в ожидании: {0},,{0} is task description
@@ -4831,7 +4831,7 @@ ship.not.in.one.piece,Сегменты не соединены,,
 ship.not.in.one.piece.tip,"Вы можете убрать нежелательные структуры с помощью слоя <b>{0}</b>. Заброшенные корабли должны быть присоединены, разобраны или брошены, прежде чем ваш корабль сможет покинуть текущую область.",,
 ship.preview.tip,Это превью показывает несколько начальных шагов алгоритма генерации корабля. В некоторых сценариях конечный результат может выглядеть совсем иначе.,,
 shipyard.section.offer,<b>{0}</b> предлагает заплатить <b>{1}</b> за эту секцию корабля.,,"{0} will be a merchant name or a space port, {1} will be the sum"
-shooter,Выпущено,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter. 
+shooter,Выпущено,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter.
 shop.order.delivered,Доставлено,,singular
 shop.order.estimated.delivery,Доставка через: {0},,{0} is time
 shop.order.lost,Потеряно,,
@@ -6016,7 +6016,7 @@ tut.combat.step4_8,"<b>Победите</b> <b>Краулера</b>, чтобы 
 tut.combat.step4.title,Контроль нескольких юнитов,,
 tut.combat.step5_1,"Для последнего теста <b>Абордажная капсула</b> была запущена в ваш корабль.<br><br><b>Подготовьтесь</b> к атаке и <b>победите рейдеров</b>, чтобы завершить обучение.",,
 tut.combat.title,Боевая тактика,,
-tut.completed.date,Завершено {0},,{0} is date 
+tut.completed.date,Завершено {0},,{0} is date
 tut.completed.never,Еще не пройдено,,
 tut.completed.outdated.tip,Вы завершили старую версию этого обучения {0}. Рекомендуется пройти это обучение еще раз.,,
 tut.configure,Настроить {0},,{0} is device name
@@ -6589,7 +6589,7 @@ working.out,Тренируется,,
 workout,Тренироваться,,
 workout.slots,Слоты для тренировок,,
 wormhole.to,Кротовая нора к <b>{0}</b>,,{0} is the name of a galaxy the wormhole leads to
-wound.inflicted.time.ago,Нанесена {0} назад,,{0} is time like 10m 
+wound.inflicted.time.ago,Нанесена {0} назад,,{0} is time like 10m
 wound.title,"Рана: {0}, Тип урона: {1}",,{0} is severity {1} is damage type. example: Mild Blunt wound
 write.error,Ошибка записи,,
 years.abbr,{0}г,,one character abbreviation for years
@@ -6601,3 +6601,6 @@ your.email,Ваш email,,
 zoom,Увеличить,,
 zoom.sens.tip,"Регулирует скорость масштабирования камеры в игре, включая Дерево исследований и Звездную карту.",,
 zoom.sensitivity,Чувствительность масштабирования: {0:0.00},,
+telemetry.tip,"Чтобы улучшить производительность игры и сделать ее интереснее, мы собираем данные об игровом процессе в рамках наших законных интересов.",,
+telemetry,Телеметрия,,noun
+share.telemetry,Делиться телеметрией игры,,label for a checkbox that enables telemetry sharing
