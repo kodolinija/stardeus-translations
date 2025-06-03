@@ -3793,3 +3793,6 @@ teleporter.designate.for.trade,거래용 설정,,
 teleporter.designate.for.trade.tip,이 텔레포터를 무역용으로 설정합니다. 이전에 할당된 무역 텔레포터는 해제합니다.,,
 trade.unsafe.environment,생물학적 생물이 거래 목록에 있습니다. 거래를 위해 지정된 텔레포터는 안전하지 않은 환경에 있습니다. 구매 즉시 치명적인 부상을 입을 수 있습니다.<br><br>거래용으로 지정된 텔레포터를 재배치하거나 안전한 텔레포터를 지정하고 다시 시도할 수 있습니다.,,
 teleporter.designated.unpowered,거래용으로 설정된 텔레포터는 현재 연결이 끊겼거나 전력이 부족합니다.,,
+telemetry.tip,"게임 성능을 개선하고 경험을 향상하기 위해 당사는 합법적인 이해관계에 따라 게임플레이 데이터를 수집합니다.",,
+telemetry,원격 측정,,noun
+share.telemetry,게임 텔레메트리 공유,,label for a checkbox that enables telemetry sharing
