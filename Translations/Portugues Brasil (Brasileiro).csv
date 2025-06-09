@@ -6795,7 +6795,7 @@ noun.weapon.power,Poder de Fogo,,Version 0.13 translations start here
 noun.shields,Escudos,,
 noun.weapons,Armamento,,
 noun.weapon.power.short,Força,,As in Strength of Weapon Power
-noun.flux,Íons,,A sci-fi term. can be accumulated during ship combat and has to be vented. 
+noun.flux,Íons,,A sci-fi term. can be accumulated during ship combat and has to be vented.
 noun.flux.desc,Íons é o acumulo de partículas carregadas durante o uso de maquinário energético. O disparo de armas ou o bloqueio de projeteis pelo Escudo causam um aumento acelerado. Seu acumulo elevado causa falha de sistemas cruciais.,,
 noun.evade,Evadir,,"Label next to ship evasion percentage. Evasion determines how likely the ship will dodge incoming attacks. Must be short, hence Evade and not Evasion"
 noun.evade.desc,Evadir demonstra a probabilidade de evitar um acerto direto durante combate. naves menores tem maior chance de evadir do que Naves grandes.,,
