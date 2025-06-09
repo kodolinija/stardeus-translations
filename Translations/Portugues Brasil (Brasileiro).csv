@@ -7311,6 +7311,6 @@ situation.ShipSize,Tamanho da Nave,,
 situation.ShipClassPoints,Pontos de Classe,,
 situation.CombatStrength,Potência de combate,,
 situation.NumShipCombats,Conflitos Navais,,
-telemetry.tip,"Para melhorar o estado do jogo, coletamos informações relacionados a problemas durante a jogatina.",,
+telemetry.tip,"A fim de melhorar o desempenho do jogo e aprimorar a sua experiência, nós coletamos dados de jogabilidade com base em nosso interesse legítimo..",,
 telemetry,Telemetria,,noun
-share.telemetry,Compartilhar,,label for a checkbox that enables telemetry sharing
+share.telemetry,Compartilhar dados de Telemetria,,label for a checkbox that enables telemetry sharing
