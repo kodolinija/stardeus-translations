@@ -1930,7 +1930,7 @@ merchant.beacon,Catálogo Mercantil,,
 merchant.beacon.success,Mercador respondeu,,
 merchant.may.sell,Pode ter a venda (não compra similar),,
 merchant.offering.trade,Mercador pronto para negociar,,
-merchant.ripoff,Taxa extra: <b>{0}</b>,,
+merchant.ripoff,Imposto: <b>{0}</b>,,
 merchant.ship,{0} (Mercador),,
 merchant.ship.offering.trade,Negociar,,
 merchant.type.MerchantAlloy,Rei dos Metais,,
@@ -6765,8 +6765,8 @@ quest.UseDarkPortal.desc,Segundo as lendas - esse portal leva a outra dimensão 
 quest.step.use.dark.portal,Entrar no Portal,,
 modifier.ResearchCost,Custo da Pesquisa,,
 modifier.ResearchCost.desc,Modifica o custo de datoids para realizar Pesquisas.,,
-scan.target.deep,Escaneamento detalhado,,
-scan.target.deep.desc,"performa uma varredura mais precisa, podendo encontrar recursos que passaram desapercebidos pelo Radar.",,
+scan.target.deep,Escaneamento Local,,
+scan.target.deep.desc,"performa uma varredura mais precisa na posição atual, podendo encontrar recursos que passaram desapercebidos pelo Radar de longa distância.",,
 noun.list,Lista,,
 ai.alignment.info.1,"A confiança de seres biológicos pode mudar com a passagem do tempo e eventos. Cuidar de sua tripulação é um jeito de garantir sua confiança.",,
 ai.alignment.info.2,"Algumas Condições, Implantes ou Equipamentos pode afetar a confiança.",,
@@ -6795,7 +6795,7 @@ noun.weapon.power,Poder de Fogo,,Version 0.13 translations start here
 noun.shields,Escudos,,
 noun.weapons,Armamento,,
 noun.weapon.power.short,Força,,As in Strength of Weapon Power
-noun.flux,Íons,,A sci-fi term. can be accumulated during ship combat and has to be vented.
+noun.flux,Íons,,A sci-fi term. can be accumulated during ship combat and has to be vented. 
 noun.flux.desc,Íons é o acumulo de partículas carregadas durante o uso de maquinário energético. O disparo de armas ou o bloqueio de projeteis pelo Escudo causam um aumento acelerado. Seu acumulo elevado causa falha de sistemas cruciais.,,
 noun.evade,Evadir,,"Label next to ship evasion percentage. Evasion determines how likely the ship will dodge incoming attacks. Must be short, hence Evade and not Evasion"
 noun.evade.desc,Evadir demonstra a probabilidade de evitar um acerto direto durante combate. naves menores tem maior chance de evadir do que Naves grandes.,,
@@ -7276,7 +7276,7 @@ waiting.for.operator,Esperando operador,,waiting for someone to operate the devi
 no.worker.capable,Ninguém capaz presente,,
 noun.operator.bonus,Habilidade do Operador,,"when someone is communicating with another ship, operator with good social skills can give bonus in negotiation outcomes. This will be displayed as: Operator Bonus: +15%"
 noun.risk,Risco,,Will display something like Risk: 20%
-deep.scan.not.found,Nada mais no escaneamento.,,
+deep.scan.not.found,Finalizado 100%.,,
 adj.done,Finalizado,,"as in ""the job is done"""
 tut.basic.controls.step.overlay.shipcombat,Essa Aba pertence ao Combate Naval.,,
 auto.rebuild.priority,Prioridade Auto Reconstruir,,
@@ -7302,6 +7302,15 @@ crawler.combat.alert,Alerta de Criatura,,
 crawler.combat.alert.desc,"Ao ser desativado, qualquer coisa envolvendo Criaturas, não irá gerar um alerta, seja combate ou ovo chocado.",,
 universe.seed,Serial do Universo,,"Seed is a random number used as a starting point to generate something, in this case a universe"
 tut.adv.controls.select.modes.2_new,"Segure {1}, araste um retângulo em uma área, então solte {1} para selecionar todos os <b>Indivíduos</b> nessa área.<br><br>Segure {0} e aperte {1} em um <b>Individuo</b> para adicionar ou remover da seleção to.",,"{0} is Shift button icon, {1} is left mouse button icon"
-telemetry.tip,"A fim de melhorar o desempenho do jogo e aprimorar a sua experiência, nós coletamos dados de jogabilidade com base em nosso interesse legítimo.",,
+skip.colonist.choice,Auto Despertar,,
+skip.colonist.choice.desc,Escolhe um individuo quando chegar a hora em vez de perguntar qual acordar.,,
+drag.to.resize,Arraste para ajustar,,tooltip for the UI resize handle button
+menu.lights,Luzes,,label for build menu containing lights
+menu.lights.desc,Fonte de Luz,,
+situation.ShipSize,Tamanho da Nave,,
+situation.ShipClassPoints,Pontos de Classe,,
+situation.CombatStrength,Potência de combate,,
+situation.NumShipCombats,Conflitos Navais,,
+telemetry.tip,"Para melhorar o estado do jogo, coletamos informações relacionados a problemas durante a jogatina.",,
 telemetry,Telemetria,,noun
-share.telemetry,Compartilhar telemetria do jogo,,label for a checkbox that enables telemetry sharing
+share.telemetry,Compartilhar,,label for a checkbox that enables telemetry sharing
