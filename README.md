@@ -50,13 +50,11 @@
 
 This repository is a place for volunteers to contribute community translations for Stardeus.
 
-You can contribute new translations, fixes to existing translations, or point out errors by creating an <a href="https://github.com/othneildrew/Best-README-Template/issues">Issue</a>.
-
-Before making a Pull Request, please send in a signed CLA (read the next section).
+You can contribute new translations, fixes to existing translations, or point out errors by creating an <a href="https://github.com/kodolinija/stardeus-translations/issues">Issue</a>.
 
 ## Contributor License Agreement
 
-Before contributing, you will have to sign [the following CLA](https://docs.google.com/document/d/1X2G0VvNNtRHAApqbNKRXkYmKHlg1j5tBF2hZPy6LHM4/edit?usp=sharing). You can either print the document, sign and scan it or make a photo. Then email the agreement to tomas at kodolinija dot com, including the details about your intended contribution. This agreement applies to all contributions to Kodo Linija, be it translations, modding repository, or anything related.
+Before contributing, you will have to sign [the following CLA](https://cla-assistant.io/kodolinija/stardeus-translations). You can sign easy it with CLA assistant. This agreement applies to all contributions to Kodo Linija, be it translations, modding repository, or anything related.
 
 <!-- GETTING STARTED -->
 ## Getting Started
