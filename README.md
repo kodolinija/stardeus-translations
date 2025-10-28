@@ -24,7 +24,7 @@
     ·
     <a href="https://discord.com/invite/89amEwP">Discord</a>
     ·
-    <a href="https://docs.google.com/spreadsheets/d/1iiaORk6Ma5c2DpijK3oFs08fdk9PAe7QsCoiiBzdEUU/edit?usp=sharing">The Source</a>
+    <a href="https://docs.google.com/spreadsheets/d/1iiaORk6Ma5c2DpijK3oFs08fdk9PAe7QsCoiiBzdEUU/edit?usp=sharing">The Translation Source</a>
   </p>
 </p>
 
@@ -36,11 +36,8 @@
   <ol>
     <li> <a href="#about-the-project">About The Project</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
-    <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#the-source-file">The Source file</a></li>
-        <li><a href="#installation">Contributing</a></li>
-      </ul>
+    <li><a href="#the-source-file">The Source file</a></li>
+    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#credits">Credits</a></li>
   </ol>
