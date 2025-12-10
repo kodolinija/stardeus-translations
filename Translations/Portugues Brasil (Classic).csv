@@ -1,6 +1,6 @@
 Key (PURPLE means not ready for translation yet),Translation,Version,Comment (context for translators)
-<Gamepad>,Controle,,Used in input settings when showing bindings for Gamepad (controller) 
-<Keyboard>,Teclado,,Used in input settings when showing bindings for Keyboard 
+<Gamepad>,Controle,,Used in input settings when showing bindings for Gamepad (controller)
+<Keyboard>,Teclado,,Used in input settings when showing bindings for Keyboard
 <Mouse>,Mouse,,Used in input settings when showing bindings for Mouse
 abort,Abortar,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
 aborting.expedition.died,Abortando Expedição. O tripulante {0} morreu antes de entrar na Nave de Transporte.,,{0} will be replaced with a name
@@ -843,7 +843,7 @@ drag.release.build.con,Construir conectores ao arrastar,,
 drag.release.build.con.tip,"Se estiver ativado, a ferramenta de conexão criará um conector quando uma conexão for arrastada e solta em um piso vazio.",,
 drink.coffee,Tomar Café,,
 drop.task,Abandonar,,
-duplicate.binding,Atalho duplicado,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad). 
+duplicate.binding,Atalho duplicado,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad).
 duplicate.binding.info,"A entrada que você escolheu para {0} já está em uso em outro lugar. Observe que as teclas de seta, Enter e ESC são usadas na Navegação da interface.",,
 dust.accumulation,Acúmulo de poeira,,
 dust.amount,Quantidade de poeira,,
@@ -861,7 +861,7 @@ eject.ammo,Ejetar munição,,
 eject.contents,Ejetar conteúdo,,
 eject.food,Ejetar comida,,
 eject.fuel,Ejetar combustível,,
-el.build.connector.here,Construir um Conector aqui...,,Displayed in a tooltip when dragging a connector 
+el.build.connector.here,Construir um Conector aqui...,,Displayed in a tooltip when dragging a connector
 el.connector.fully.utilized,Conector cheio!,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.connector.not.on.grid,Conector não está na Rede do Computador de Bordo!,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
 el.connector.out.of.range,Fora de alcance!,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
@@ -1465,7 +1465,7 @@ inconsistent.game.state,"Não é possível salvar. Um bug está impedindo que o 
 increase,Aumentar,,
 increase.amount,Aumentar quantidade,,
 indestructible,Indestrutível,,
-indestructible.desc,"Objetos indestrutíveis não receberão nenhum dano de impacto, explosão, incêndio ou meio ambiente.",, 
+indestructible.desc,"Objetos indestrutíveis não receberão nenhum dano de impacto, explosão, incêndio ou meio ambiente.",,
 infinity,Infinito,,"Used in displaying time estimate when something would take forever to execute. Example: research time estimate when there is 0kW of energy output shows a tooltip: ""ETA: Infinity @0kW"""
 info.ad.rejected,Tarefa recusada,,
 info.ad.rejected.cancelled,Tarefa cancelada,,
@@ -3024,7 +3024,7 @@ ship.no.bridge.controls,Ponte de Controle desligado,,
 ship.no.bridge.controls.operator,Nenhum operador de ponte,,
 ship.no.engines,Motores desligados,,
 ship.not.in.one.piece,A Nave não está em uma peça só,,
-shooter,Atirador,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter. 
+shooter,Atirador,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter.
 short.title,Assunto,,
 shortcut.not.bound,(não vinculado),,
 shortcut.tip,Atalho: {0},,
@@ -3981,7 +3981,7 @@ height,Altura,,noun
 width,Largura,,noun
 color.hue,Matiz,,color property (H in HSL)
 color.saturation,Saturação,,color property (S in HSL)
-color.luminosity,Luminosidade,,color property (L in HSL) 
+color.luminosity,Luminosidade,,color property (L in HSL)
 steam.connection.unavailable,A conexão com o Steam não pôde ser estabelecida. As conquistas do Steam e a integração do Workshop não funcionarão. Etapas de solução de problemas:<br> - Verifique sua conexão com a Internet e as configurações de firewall<br> - Certifique-se de que o Steam esteja em execução<br> - Reinicie o Steam<br> - Reinicie a máquina<br> - Faça uma pausa e dê um passeio,,
 combat.ongoing,Combate em andamento,,
 bot.cpu.limit,Robôs consomem CPU,,
@@ -4139,7 +4139,7 @@ obj.copters.cargocopterflying.desc,Um veículo aéreo não tripulado totalmente 
 copter.mission.stage.deploy.miner,Enviando {0},,"{0} is the resource miner device name, like Autodrill Rig"
 copter.mission.stage.fly.to.ship,Voltando para a Nave,,
 copter.mission.stage.fly.to,Voando para {0},,"{0} is the name of the target, like Silicon Deposit, or a device name"
-copter.mission.stage.collect.resource,Coletando {0},,{0} is material type 
+copter.mission.stage.collect.resource,Coletando {0},,{0} is material type
 copter.mission.stage.land.on.ship,Pousando na Nave,,
 copter.mission.stage.leave.ship,Saindo da Nave,,
 copter.mission.stage.start,Aguardando Copter disponível,,
@@ -4154,7 +4154,7 @@ expedition.type.mining,Coleta de recursos,,
 expedition.type.exploration,Exploração,,
 space.object.CargoCopter,Cargo Copter,,
 space.object.info.CargoCopter,Este Cargo Copter está em uma missão.,,
-no.task.reason.no.skill.one,Habilidade <b>{0}</b> insuficiente. Atual: <b>{1}</b>. Necessária: <b>{2}</b>,,{0} - skill name. {1} and {2} - a number (skill level). 
+no.task.reason.no.skill.one,Habilidade <b>{0}</b> insuficiente. Atual: <b>{1}</b>. Necessária: <b>{2}</b>,,{0} - skill name. {1} and {2} - a number (skill level).
 no.task.reason.job.priority0.one,Prioridade do trabalhador para <b>{0}</b> está em <b>0</b> (zero).,,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
 no.task.reason.job.priority.none,Ignorou <b>{0}</b> tarefas porque o trabalhador <b>não pode executar esse tipo de trabalho</b>.,,
 no.task.reason.job.priority.none.one,O trabalhador não pode realizar tarefas de <b>{0}</b>.,,{0} is job type - like construction or hauling
@@ -4986,7 +4986,7 @@ tut.adv.controls.select.modes.5,Quando um <b>Ser</b> está selecionado:<br><br>S
 tut.adv.controls.select.modes.6,"Quando vários <b>Dispositivos</b> estão selecionados, <b>{0}</b> e <b>{1}</b> será aplicado a todo conteúdo da seleção.",,
 tut.adv.controls.outro,Este é o fim deste tutorial. Você pode encontrar mais dicas e truques em <b>Códice</b> > <b>Dicas</b>.,,
 tut.completed.never,Não Concluído,,
-tut.completed.date,Concluído em {0},,{0} is date 
+tut.completed.date,Concluído em {0},,{0} is date
 tut.completed.outdated.tip,Você concluiu uma versão antiga deste tutorial em {0}. É recomendado fazer este tutorial novamente.,,
 tut.not.completed.warning,Você concluiu {0} de {1} tutoriais.,,
 tut.prod.title,Produção de Recursos,,
@@ -5038,7 +5038,7 @@ verb.extract,Extrair,,
 noun.depth,Profundidade,,
 mining.depth.tip,"A profundidade aumenta quando o depósito é extraído. Após atingir uma certa profundidade, será necessário equipamento especializado para continuar a extração de recursos. O depósito só pode ser extraído até a profundidade que seu equipamento suportar.",,
 deposit.verb.mine,Minerando {0} ({1:0.##}/dia @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
-deposit.verb.collect,Coletando {0} ({1:0.##}/dia),,{0} is resource name {1} is number 
+deposit.verb.collect,Coletando {0} ({1:0.##}/dia),,{0} is resource name {1} is number
 deposit.verb.extract,Extraindo {0} ({1:0.##}/dia @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
 deposit.shuttle.verb.mine,"Minerando {0} ({1:0}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
 deposit.shuttle.verb.collect,"Coletando {0} ({1:0}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
@@ -5839,7 +5839,7 @@ combat.objectives,Objetivos,,
 ability.Research,Pesquisar,,
 cond.CrawlerAttached,Crawler Grudado,,
 cond.CrawlerInfected,Parasitas Alienígenas,,
-wound.inflicted.time.ago,Causado {0} atrás,,{0} is time like 10m 
+wound.inflicted.time.ago,Causado {0} atrás,,{0} is time like 10m
 cond.Hypothermia,Hipotermia,,
 menu.ungrouped,Desagrupado,,
 menu.ungrouped.desc,Vários itens não agrupados,,
@@ -6176,3 +6176,6 @@ space.map.region,Região,,
 space.map.sector,Setor,,
 randomize.starting.sector,Início aleatório,,
 randomize.starting.sector.tip,Seleciona um setor inical aleatório,,
+telemetry.tip,"A fim de melhorar o desempenho do jogo e aprimorar a sua experiência, nós coletamos dados de jogabilidade com base em nosso interesse legítimo.",,
+telemetry,Telemetria,,noun
+share.telemetry,Compartilhar telemetria do jogo,,label for a checkbox that enables telemetry sharing
