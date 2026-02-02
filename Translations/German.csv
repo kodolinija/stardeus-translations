@@ -53,7 +53,7 @@ achievement.Money9.desc,"Verdiene 1.000.000.000 Starcreds.",,
 achievement.OnePiece,"In einem Stück",,"short for »all in one piece« idiom, which means »Uninjured or unharmed; fully intact.«. Examples of idiom use: We are lucky to have walked away from that car accident all in one piece. I made sure to pack the heirloom carefully so that it would still be all in one piece when it reached my daughter."
 achievement.OnePiece.desc,"Verbinde die getrennten Schiffsteile wieder zu einem Stück.",,
 achievement.StasisDestroyed,"Keine Hoffnung mehr.",,
-achievement.StasisDestroyed.desc,"Verliere deine Stasenkammer.",,
+achievement.StasisDestroyed.desc,"Verliere deine Stasiskammer.",,
 achievement.StockMarketLoss,"Einer von uns.",,
 achievement.StockMarketLoss.desc,"Verkaufe eine Aktie mit einem Verlust von über 100.000 $ auf dem Aktienmarkt.",,
 achievement.TerraformAtmosphere,"Terraformiere eine Atmosphäre",,
@@ -237,10 +237,7 @@ arriving.soon,"{0} trifft ein",,"{0} will be replaced with who is arriving (i.e 
 asimov.violation.1,"Diese Aktion verstößt gegen Asimovs erstes Gesetz der Robotik. Ein Roboter darf einen Menschen nicht verletzen oder durch Untätigkeit zulassen, dass ein Mensch zu Schaden kommt. Abbruch.",,
 asimov.violation.3,"Diese Aktion verstößt gegen Asimovs drittes Gesetz der Robotik. Ein Roboter muss seine eigene Existenz schützen, solange dies nicht gegen das erste oder zweite Gesetz verstößt. Abbruch.",,
 assemble,Herstellen,,
-assembling.now,"Stelle {0} her",,"1. This is a text in UI of the Crafting Station/Assembler/Fabricator.
-It combined with the name of the device which is produced right now (like 'Assembling Microchip')
-2. This is a tooltip text, appearing when you hover a mouse over Crafting Station/Assembler/Fabricator.
-It combined with the state of production process in percents (like 'Assembling 85%')"
+assembling.now,Montiere {0},,"1. This is a text in UI of the Crafting Station/Assembler/Fabricator. It combined with the name of the device which is produced right now (like ""Assembling Microchip"") 2. This is a tooltip text, appearing when you hover a mouse over Crafting Station/Assembler/Fabricator. It combined with the state of production process in percents (like ""Assembling 85%"")"
 assigned.to.selected.worker,"Ausgewähltem Arbeiter zugewiesen",,
 assigned.to.worker,"{0} zugewiesen",,
 assigned.worker,Zugewiesen,,
@@ -577,7 +574,7 @@ codex.m.ui.cameramemory.desc,"Du kannst die Kameraposition und den Zoom durch Dr
 codex.m.ui.commonactions,"Gemeinsame Aktionen",,
 codex.m.ui.commonactions.desc,"Wenn mehrere Objekte ausgewählt sind, können einige von ihnen gemeinsame Aktionen haben. Diese Aktionen werden oben in der Infotafel und im Kontextmenü angezeigt.<br><br>Wenn eine gemeinsame Aktion einen Multiplikator (z. B. × 12) besitzt, bedeutet dies, dass die Aktion auf die angegebene Anzahl von Objekten angewendet wird.",,
 codex.m.ui.contextmenu,Kontextmenü,,
-codex.m.ui.contextmenu.desc,"Nachdem du ein Objekt mit {0} ausgewählt hast, bewege den Mauszeiger über dieses Objekt und öffne mit {1} das Kontextmenü. Bei manchen Objekten gibt es keines, bei den meisten jedoch schon.<br><br>Das Kontextmenü enthält in der Regel eine Teilmenge nützlicher Aktionen aus der Infotafel.<br><br>Die Infotafel bietet fast immer alles, was das Kontextmenü bietet, und noch mehr.<br><br>Du kannst auch mehrere Objekte auswählen und ein Kontextmenü über einem von ihnen aufrufen, um eine gemeinsame Aktion für alle ausgewählten Objekte durchzuführen. Siehe ""Gemeinsame Aktionen"" für weitere Details.",,
+codex.m.ui.contextmenu.desc,"Nachdem du ein beliebiges Objekt mit {0} ausgewählt hast, bewege den Cursor über das Objekt und drücke {1}, um das Kontextmenü zu öffnen. Manche Objekte haben möglicherweise keines, die meisten jedoch schon. Das Kontextmenü enthält in der Regel eine Teilmenge nützlicher Aktionen, die auch im Informationspanel zu finden sind. Das Informationspanel enthält fast immer alles aus dem Kontextmenü und noch mehr. Du kannst auch mehrere Objekte auswählen und für eines davon das Kontextmenü öffnen, um gemeinsame Aktionen für alle ausgewählten Objekte auszuführen; siehe ""Gemeinsame Aktionen"" für weitere Details.",,
 codex.m.ui.hotbar,Schnellleiste,,
 codex.m.ui.hotbar.desc,"Die Schnellleiste am unteren Bildschirmrand enthält Verknüpfungen zu Werkzeugen und Bauplänen. Initial zeigt sie in einem neuen Spiel die Werkzeuge aus dem Werkzeugmenü, kann aber deinen Wünschen angepasst werden.<br><br> • Hinzufügen eines Elements: Halte im Werkzeugmenü die Taste {0} gedrückt und wähle das gewünschte Menüelement aus.<br> • Entfernen eines Elements: Halte {0} gedrückt und klicke auf das Element in der Schnellleiste.<br> • Neuanordnen der Elemente: Klicke auf ein beliebiges Element und ziehe es.<br> • Um versehentliche Änderungen zu verhindern, kannst du die Schnellleiste über das Menü ""Einstellungen für aktuelles Spiel"" sperren.",2023-08-16,
 codex.m.ui.infopanel,Infotafel,,
@@ -815,8 +812,7 @@ dock,Andocken,,"Verb. Displayed on an action button that tells a robot to return
 dockable,Andockbar,,"Adjective. Displayed on a button that opens a submenu that contains robot's docking status and controls"
 docked,Angedockt,,"Robot state, denoting that robot is currently inside its designated docking station"
 docking,Andocken,,"Robot state, denoting that robot is currently trying to reach it's docking station"
-does.not.include.batteries,"Enthält keine Batterien",,"This is a tooltip/balloon text, appearing when you hover cursor over the ""Max Production"" string in the Electric Grid Overlay (section Details)
-It means - the value (amount of production power) does not include electric power which produced by Batteries."
+does.not.include.batteries,"Enthält keine Batterien",,"This is a tooltip/balloon text, appearing when you hover cursor over the ""Max Production"" string in the Electric Grid Overlay (section Details) It means - the value (amount of production power) does not include electric power which produced by Batteries."
 dont.save,"Ohne Speichern schließen",,
 door,Tür,,
 door.not.powered,"Tür ist nicht angeschlossen oder hat ein Stromdefizit",,
@@ -1058,7 +1054,7 @@ evt.stasis.pod.merchant.desc,"Die Stasiskapsel gehört einem freiberuflichen Hä
 evt.stasis.pod.merchant.title,Händlerstasiskapsel,,
 evt.stasis.pod.raid.desc,"Wir werden von der {0}fraktion angegriffen.",,
 evt.stasis.pod.raid.title,"Enterung durch {0}",,
-evt.stasis.pod.title,"Stasenkapsel nähert sich",,
+evt.stasis.pod.title,"Stasiskapsel nähert sich",,
 evt.teleporter.clone.desc,"Es gab eine Fehlfunktion des Teleporters. Wir haben jetzt einen identischen Klon von {0}.",,
 evt.teleporter.clone.title,"Teleporter produzierte einen Klon",,
 evt.wakeup.desc,"Ein Kolonist wachte aufgrund einer Fehlfunktion der Stasiskammer aus dem Kryoschlaf auf. Kurzprofil:<br><br>{0}",,
@@ -1344,8 +1340,8 @@ goal.StartExpedition,"Unternimm eine Expedition",,
 goal.StartExpedition.desc,"Wir sind in der Nähe eines Planeten. Entsende ein <b>Schiff</b> auf eine Bergbauexpedition.",2022-08-26,
 goal.StartResearch,"Erforsche Technologie",,
 goal.StartResearch.desc,"Du betreibst derzeit keine Forschung. Ich schlage vor, aktiv Forschung zu betreiben, wann immer es dir möglich ist. Zur Erforschung fortschrittlicherer Technologien wirst du zusätzliche Festplatten- und Speichermodule bauen und deinem Stromnetz mehr Leistung hinzufüge müssen.",,
-goal.StasisALS,"Erweiterte Stasenlebenserhaltung",,
-goal.StasisALS.desc,"Wähle die <b>Stasenkammer</b> aus und verwende den Menüpunkt <b>Kryostabilität</b>, um die <b>Erweiterte Lebenserhaltung</b> zu finden und zu aktivieren.<br><br>Dies wird zwar eine beträchtliche Menge an Strom verbrauchen, aber die <b>Kryostabilität</b> wird erhöht und wir werden mehr Kontrolle über die Aufwachrate der Kolonisten haben.",,
+goal.StasisALS,"Erweiterte Stasislebenserhaltung",,
+goal.StasisALS.desc,"Wähle die <b>Stasiskammer</b> aus und verwende den Menüpunkt <b>Kryostabilität</b>, um die <b>Erweiterte Lebenserhaltung</b> zu finden und zu aktivieren.<br><br>Dies wird zwar eine beträchtliche Menge an Strom verbrauchen, aber die <b>Kryostabilität</b> wird erhöht und wir werden mehr Kontrolle über die Aufwachrate der Kolonisten haben.",,
 goals,Vorschläge,,
 goals.completed,"Abgeschlossene Vorschläge",,
 goals.pending,"Aktive Vorschläge",,
@@ -2074,8 +2070,8 @@ obj.containers.breachcapsuleflying,Enterkapsel,,
 obj.containers.breachcapsuleflying.desc,"Die sieht nicht sehr freundlich aus!",,
 obj.containers.probeflying,Sonde,,
 obj.containers.probeflying.desc,"Eine gestartete Sonde, die unterwegs ist, um ein entferntes Objekt zu scannen.",,
-obj.containers.stasispodflying,Stasenkapsel,,
-obj.containers.stasispodflying.desc,"Die Stasenkapsel kann Wesen im Kryoschlaf enthalten und über weite Strecken durch den Weltraum reisen.",,
+obj.containers.stasispodflying,Stasiskapsel,,
+obj.containers.stasispodflying.desc,"Die Stasiskapsel kann Wesen im Kryoschlaf enthalten und über weite Strecken durch den Weltraum reisen.",,
 obj.containers.storagecapsule,Aufbewahrungskapsel,,
 obj.containers.storagecapsule.desc,"Ein verstärkter Container, der weite Strecken im Weltraum zurücklegen kann. Dient als Kryostasekapsel für einen einzelnen Reisenden oder bietet Platz für eine kleine Menge Fracht.",2023-08-31,
 obj.eggs.egg01,"Nicht identifiziertes Objekt",,
@@ -2232,7 +2228,7 @@ objects.devices.battery,"Batterie ({0} kW)",,
 objects.devices.battery.desc,"Eine normale Batterie zum Speichern von Energie. Kann bis zu {0} kW produzieren.",,
 objects.devices.battery2,"Batterie ({0} kW)",,
 objects.devices.battery2.desc,"Eine große Batterie zum Speichern von Energie. Kann bis zu {0} kW erzeugen.",,
-objects.devices.battery3,"Atombatterie ({0} kW)",,
+objects.devices.battery3,"Nuklearbatterie ({0} kW)",,
 objects.devices.battery3.desc,"Eine massive nuklearbetriebene Batterie zur Speicherung von Energie. Kann bis zu {0} kW erzeugen.",,
 objects.devices.betawavetransceiver,Betawellenempfänger,,
 objects.devices.betawavetransceiver.desc,"Wenn dieses Gerät aktiviert ist, kannst du biologische Wesen beeinflussen, indem du ihre Arbeitsprioritäten änderst und ihnen direkte Befehle gibst.",,
@@ -2256,10 +2252,8 @@ objects.devices.converter,Umwandler,,
 objects.devices.converter.desc,"Ändert die Molekularstruktur bestimmter Materialien, um Ressourcen von einem Typ in einen anderen umzuwandeln.",,
 objects.devices.cookingstation,Kochstation,,
 objects.devices.cookingstation.desc,"Manuell betriebene Miniküche mit Herd.",,
-objects.devices.cpumodule,"CPU-Modul ({0} THz)",2022-03-31,
-objects.devices.cpumodule.desc,"Das CPU-Modul trägt zur Rechenleistung deines neuronalen Netzwerks bei, sodass du mehr Geräte anschließen und steuern kannst.",2023-07-28,
 objects.devices.cpumodulemini,"CPU-Modul ({0} THz)",2022-03-31,
-objects.devices.cpumodulemini.desc,"Das CPU-Modul trägt zur Rechenleistung deines neuronalen Netzwerks bei, sodass du mehr Geräte anschließen und steuern kannst.",2023-07-28,
+objects.devices.cpumodulemini.desc,Das CPU-Modul liefert Rechenleistung für dein neuronales Netzwerk.,2025-09-08,
 objects.devices.craftingstation,Handwerkstisch,,
 objects.devices.craftingstation.desc,"Ein halbautomatischer Handwerkstisch, die einen menschlichen Bediener erfordert.",,
 objects.devices.directionalturret,"Gerichteter Geschützturm",,
@@ -2426,15 +2420,11 @@ objects.furniture.vase01,Vase,,
 objects.furniture.vase01.desc,"Ein modisches metallenes Gefäß, in das sich kleine Pflanzen setzen lassen.",,
 objects.furniture.wardrobesteel,Stahlgarderobe,,
 objects.furniture.wardrobesteel.desc,"Ein Ort, um Kleidungsstücke abzulegen.",,
-off,Aus,,"In combination with »off« could be used to describe several things:
-1. State of device (turned on or turned off)
-2. State of equipment: equipped (on) or unequipped (off). As in »the hat is on«, »the space suit is off«"
+off,Aus,,"In combination with »off« could be used to describe several things: 1. State of device (turned on or turned off) 2. State of equipment: equipped (on) or unequipped (off). As in »the hat is on«, »the space suit is off«"
 offline,Offline,,
 offline.workers,"Abgeschaltete Arbeiter",,
 ok,OK,,
-on,An,,"In combination with »on« could be used to describe several things:
-1. State of device (turned on or turned off)
-2. State of equipment: equipped (on) or unequipped (off). As in »the hat is on«, »the space suit is off«"
+on,An,,"In combination with »on« could be used to describe several things: 1. State of device (turned on or turned off) 2. State of equipment: equipped (on) or unequipped (off). As in »the hat is on«, »the space suit is off«"
 on.expedition,"Auf Expedition",,
 on.fire,Brennt!,,
 ongoing.trade,"Laufender Handel",,
@@ -3161,9 +3151,9 @@ start.tutorial,"Einführung starten",,
 starting.expedition,"Start der Expedition zu {0}. Das Schiff startet, sobald die Besatzungsmitglieder an Bord sind. Du kannst den Expeditionsfortschritt in der Expeditionsebene im Menü oben rechts verfolgen.",,
 stasis.elysium,"Das Elysium",,
 stasis.pod.flying.info,"Dies ist eine Landekapsel. Du musst warten, bis sie landet und seinen Inhalt auswirft, bevor du mit ihr interagieren kannst.",,
-stasis.pod.incoming,"Stasenkapsel nähert sich",,
-stasis.pod.landed.info,"Diese Stasenkapsel ist gerade gelandet. Der Inhalt wird nach Abschluss der Abkühlungssequenz ausgeworfen.",,
-stasis.pod.merchant.prompt,"Die Stasenkapsel gehört einem freiberuflichen Händler {0}. Er bietet einen Handel an. Möchtest du irgendwelche Waren?",,
+stasis.pod.incoming,"Stasiskapsel nähert sich",,
+stasis.pod.landed.info,"Diese Stasiskapsel ist gerade gelandet. Der Inhalt wird nach Abschluss der Abkühlungssequenz ausgeworfen.",,
+stasis.pod.merchant.prompt,"Die Stasiskapsel gehört einem freiberuflichen Händler {0}. Er bietet einen Handel an. Möchtest du irgendwelche Waren?",,
 stock.market,Aktienmarkt,,
 stock.market.research.required,"Um diese Funktion zu aktivieren, ist die Erforschung von ""Aktienmarkt"" erforderlich.",,
 stock.ownership.All,Alle,,
@@ -4239,7 +4229,7 @@ obj.materials.enricheduranium.desc,"Angereichertes Uran enthält einen höheren 
 refine,Veredeln,,
 refining.now,"{0} veredeln",,
 obj.materials.nuclearcell,Radionuklidbatterie,,
-obj.materials.nuclearcell.desc,"Eine kompakte Radionuklidbatterie, auch Atombatterie genannt, nutzt die bei radioaktivem Zerfall freigesetzte Energie und wandelt sie durch Prozesse wie Thermophotovoltaik oder thermoelektrische Umwandlung in elektrische Energie um.",,
+obj.materials.nuclearcell.desc,"Eine kompakte Radionuklidbatterie, auch Nuklearbatterie genannt, nutzt die bei radioaktivem Zerfall freigesetzte Energie und wandelt sie durch Prozesse wie Thermophotovoltaik oder thermoelektrische Umwandlung in elektrische Energie um.",,
 sig.extortion.0,"Der Kontakt weist darauf hin, dass die Nichtbereitstellung von <b>{0}</b> zu Konsequenzen führen kann, die du bereuen wirst.",,
 sig.extortion.1,"Die Stimme droht, dass die Weigerung, <b>{0}</b> zu geben, schlimme Folgen haben könnte.",,
 sig.extortion.2,"Eine heisere Stimme warnt davor, dass die Ablehnung ihres Antrags auf <b>{0}</b> zu Bedauern und Verzweiflung führen könnte.",,
@@ -4487,7 +4477,7 @@ research.lifesupport.root,Lebenserhaltung,,
 research.production.assembly,Montage,,
 research.production.assemblyadvanced,"Fortschrittliche Montage",,
 research.production.assemblyimproved,"Verbesserte Montage",,
-research.production.batteriesnuclear,Atombatterie,,
+research.production.batteriesnuclear,Nuklearbatterie,,
 research.production.biochemicalextraction,"Biochemische Extraktion",,
 research.production.chemicalengineering,Chemieingenieurwesen,,
 research.production.disassembly,Demontage,,
@@ -4721,7 +4711,7 @@ tut.step.place.tile,"Baue {0}",,"{0} is a device name"
 tut.step.expired,"Dieser Schritt ist abgelaufen",,
 tut.basic.controls.step.tool.build.4,"Die Arbeiter beginnen in Kürze mit der Ausführung des Bauauftrags.<br><br><b>{1}</b> bringt dich zum Baumenü zurück.<br><br>{0} verlässt den Baumodus.",," {0} and {1} are key bindings"
 tut.basic.controls.step.connect.1,"Sehen wir uns nun an, was das <b>{0}</b>werkzeug bewerkstelligt. Öffne mit <b>{1}</b> das <b>Werkzeugmenü</b> und aktiviere es.",2023-08-16," {0} is tool name. {1} is key binding"
-tut.basic.controls.step.connect.2,"Es gibt ein nicht angeschlossenes Gerät: <b>{0}</b>. Schließe es an einen nahegelegenen <b>{1}</b> an.<br><br>Drücke über dem {1} {2}, ziehe dann eine Linie zum nicht angeschlossenen Objekt ({0}) und lasse {2} los, um eine Verbindung herzustellen.",," {0} is device name. {1} is connector device name. {2} is key binding"
+tut.basic.controls.step.connect.2,"Es gibt ein nicht verbundenes <b>{0}</b>. Verbinde es mit einem nahegelegenen <b>{1}</b>. Drücke {2} auf dem {1}, ziehe eine Linie zu {0} und lasse {2} los, um die Verbindung herzustellen.",," {0} is device name. {1} is connector device name. {2} is key binding"
 tut.basic.controls.step.connect.3,"Auf die gleiche Weise werden zwei verbundene Geräte getrennt.<br><br>Drücke {0}, um eine Linie zwischen <b>{1}</b> und <b>{2}</b> zu ziehen, und trenne so die Verbindung.",2023-08-16," {0} is key binding {1} and {2} are device names"
 tut.basic.controls.step.connect.4,"Das <b>{0}</b>werkzeug kann auch Verbindungen zwischen <b>Teleportern</b> herstellen sowie aufheben.<br><br>Teleporterverbindungen sind unidirektional, was bedeutet, dass du Teleporter <b>A</b> mit Teleporter <b>B</b> und <b>B</b> mit <b>A</b> verbinden musst, damit sie zueinander führen. Stelle eine bidirektionale Verbindung zwischen den hervorgehobenen Teleportern her, um fortzufahren.",2023-08-16," {0} is tool name"
 tut.basic.controls.step.connect.5,"<b>Tipp:</b> Drücke im Freie-Auswahl-Modus über einem <b>Stromanschluss</b> oder einem <b>Teleporter</b> {0} und beginne mit dem Ziehen einer Linie, um zum Werkzeug <b>{1}</b> zu wechseln.",," {0} is key binding. {1} is tool name"
@@ -4737,7 +4727,7 @@ tut.basic.controls.step.deconstruct.2,"Drücke {0} und ziehe ein Rechteck um den
 tut.basic.controls.step.deconstruct.3,"Der Rückbau wird in Kürze beginnen.<br><br>Viele Aktionen, einschließlich <b>Reparieren</b> und <b>Dekonstruieren</b>, können über das <b>Infofenster</b> oder das <b>Kontextmenü</b> des ausgewählten Objekts in Auftrag gegeben werden.",,
 tut.basic.controls.relocate.1,"Ein weiterer wichtiger Aspekt bei der Organisation deines Schiffes ist das Verschieben von Objekten.",,
 tut.basic.controls.relocate.2,"Verwende die Schaltfläche <b>{0}</b> im <b>Infofenster</b>, um das Verschieben zu starten.",," {0} is key binding"
-tut.basic.controls.relocate.3,"Platziere das Gerät an der markierten Stelle.<br><br>Der pulsierende Kreis markiert den <b>Arbeitsort</b>. Er darf nicht blockiert sein. Du wirst das Gerät drehen müssen.<br><br>Drücke {0}, um das Gerät zu drehen.<br><br>Drücke {1} über dem hervorgehobenen Bereich, um das Verschieben in Auftrag zu geben.",2023-08-16," {0} is key binding"
+tut.basic.controls.relocate.3,"Verschiebe das Gerät in den markierten Bereich. Der pulsierende Kreis markiert den <b>Arbeitsplatz</b>, der nicht blockiert sein darf. Möglicherweise musst du das Gerät drehen. Verwende {0}, um es zu drehen, und drücke dann {1} auf dem markierten Bereich, um die Verschiebung zu beauftragen.",2023-08-16," {0} is key binding"
 tut.basic.controls.relocate.4,"Das Verschieben steht nun aus.<br><br>Du kannst Lebewesen, Werkstoffstapel und andere Objekte auf diese Weise versetzen.",,
 tut.basic.controls.quick.search.1,"Verwende die <b>Schnellsuche</b>, wenn du weißt, wonach du suchst. Dies ist der schnellste Weg, etwas zu finden.<br><br>Drücke {0}, um die <b>Schnellsuche</b> zu aktivieren.",2023-08-18," {0} is key binding"
 tut.basic.controls.quick.search.2,"Beginne nun mit der Eingabe eines Bauplannamens und drücke, sobald das Gewünschte gefunden wurde, {0} oder klicke es an, um es zu aktivieren.<br><br>Für dieses Beispiel nehmen wir an, du möchtest eine <b>{1}</b> bauen. Gib ""{2}"" ein und drücke dann {0}.",," {0} is key binding. {1} is device name. {2} will be first few characters of device name [Weidengeist: Device is the value of objects.devices.chargestation.]"
@@ -4843,7 +4833,7 @@ tut.el.grid.merge.5.title,"Der schnellste Weg, einen <b>Stromanschluss</b> zu er
 tut.el.bots.maintain.title,"Wartung von Robotern",,
 tut.el.bots.maintain.1,"All diese Arbeiten haben den Akku unserer <b>Baudrohne</b> erschöpft. Geben wir ihr eine Möglichkeit, sich wiederaufzuladen.",,
 tut.el.bots.maintain.2,"Roboterarbeiter müssen außerdem regelmäßig Selbstwartungsarbeiten durchführen. Am besten ist es, immer mindestens eine <b>Reparaturstation</b> zur Verfügung zu haben.",,
-tut.el.bots.maintain.3,"Schließe nun die neuen Geräte an das Stromnetz an.<br><br>Tipp: Du kannst {0} drücken, um mehrere Geräte per Drag-and-Drop auszuwählen, dann {1} gedrückt halten und {0} über einem <b>Stromanschluss</b>drücken, um die ausgewählten Geräte zu anzuschließen.",2023-08-26,
+tut.el.bots.maintain.3,"Verbinde nun die neuen Geräte mit dem Stromnetz. Tipp: Verwende {0}, um mehrere Geräte per Ziehen auszuwählen, halte dann {1} gedrückt und klicke {0} auf einen <b>Stromanschluss</b>, um sie zu verbinden.",2023-08-26,
 click.to.continue.setup,"Klicke, um mit der Einrichtung fortzufahren.",,
 tut.el.deficit.1,"Es ist Zeit, zu lernen, wie man Fehler im Stromnetz behebt. Ich habe eine Situation geschaffen, die ein Stromdefizit auslöst.<br><br>Die Reaktion des Stromnetzes darauf kann einen Moment dauern. Der Zeitablauf sollte jetzt nicht angehalten werden.",,
 tut.el.deficit.1_2,"Wenn ein Defizit auftritt, wirst du immer benachrichtigt.<br><br>Klicke auf die Defizitbenachrichtigung, um das <b>{0}</b>overlay zu öffnen.",,
@@ -4894,7 +4884,7 @@ tut.step.relocate.waiting,"Warte aufs Umsetzen.",,
 tut.winch.step6_1,"Der letzte Abschnitt unten links lässt sich viel einfacher anzubinden, da sich dort mehrere einsatzbereite <b>Präzisionsschubdüsen</b> befinden.<br><br>Die <b>Präzisionsschubdüsen</b> können einen Schiffsabschnitt oder das gesamte Schiff minutiös bewegen. Sie können verwendet werden, um <b>verlassene Schiffe</b> zu bewegen oder ankommenden <b>Asteroiden</b> auszuweichen.",2023-09-16,
 tut.winch.step6_2,"Wir müssen einen <b>temporären Stromanschluss</b> zum entfernten Netz herstellen, bevor wir die <b>Präzisionsschubdüsen</b> verwenden können.",2022-08-26,
 tut.winch.step6_3,"Warte auf den Aufbau eines temporären Anschlusses.",2022-08-26,
-tut.winch.step6_4,"Verwende nun die Benutzeroberfläche der <b>Präzisionsschubdüse</b>, um <b>{0}</b> und <b>{1}</b> anzupassen, und drücke dann die Schaltfläche <b>{2}</b>, um die Bewegung auszuführen.<br><br>Sollte sich diese <b>Präzisionsschubdüse</b> vollständig entladen, wähle die nächste aus und führe eine weitere Bewegung aus.<br><br>Dein Ziel ist es, diesen Abschnitt mit dem den <b>Schiffscomputer</b> beherbergenden zu verbinden.",,
+tut.winch.step6_4,"Verschiebe nun den Abschnitt in Richtung Kartenmittelpunkt und wiederhole diese Aktion einige Male, sobald die <b>Manövrierungs-Controller</b> wieder aufgeladen sind.<br><br>Dein Ziel ist es, diesen Abschnitt mit demjenigen zu verbinden, der den <b>Schiffscomputer</b> enthält.",2025-10-14,
 tut.el.connect.multi,"Anschließen mehrerer Geräte",,
 tut.el.temp.connect,"Temporären Stromanschluss herstellen",,
 tut.el.temp.disconnect,"Temporären Stromanschluss entfernen",,
@@ -4925,7 +4915,7 @@ tut.adv.controls.intro,"Diese Einführungslektion zeigt dir, wie du einige Aktio
 tut.adv.controls.mass.select.title,"Auswählen mehrerer Objekte",,
 tut.adv.controls.mass.select.1,"Du kannst <b>alle sichtbaren Objekte desselben Typs auswählen</b>, indem du auf ein Objekt <b>doppelklickst</b>.<br><br>Richte die Kamera auf die hervorgehobenen <b>Materiereaktoren</b> aus und doppelklicke dann einen, um alle fünf auszuwählen.",,
 tut.adv.controls.mass.connect.title,"Schließe mehrere Geräte an",,
-tut.adv.controls.mass.connect.1,"Du kannst <b>alle ausgewählten Geräte</b> mit einem Klick anschließen, indem du {0} gedrückt hältst und über einem nahegelegenen <b>Stromanschluss</b> {1} drückst.<br><br>Verbinde alle ausgewählten Reaktoren mit dem markierten Anschluss, um fortzufahren.",,
+tut.adv.controls.mass.connect.1,"Du kannst <b>alle ausgewählten Geräte verbinden</b>, indem du {0} hältst und {1} auf einen nahegelegenen <b>Stromanschluss</b> drückst. Verbinde alle ausgewählten Reaktoren mit dem hervorgehobenen Stromanschluss, um fortzufahren.",,
 mass.connect.tip.enodes,"Drücke über einem <b>Stromanschluss</b> {0}, um das/die ausgewählte(n) Gerät(e) anzuschließen oder vom Netz zu trennen.",,
 mass.connect.tip.conn,"Drücke über einem <b>Gerät</b> {0}, um die Verbindung mit den ausgewählten Anschlüssen herzustellen oder zu entfernen.",,
 mass.connect.tip.teleporters,"Drücke über einem aktiven <b>Teleporter</b> {0}, um die Verbindung mit dem ausgewählten Teleporter herzustellen oder zu entfernen.",,
@@ -4943,16 +4933,16 @@ tut.adv.controls.build.modes.title,Baumodi,,
 tut.adv.controls.build.modes.1,"Wir werden nun verschiedene <b>Baumodi</b> erkunden.<br><br>Drücke {0}, um eine beliebige <b>Bodenfliese</b> auszuwählen, und drücke dann {1} oder klicke im <b>Infofenster</b> oder im <b>Kontextmenü</b> auf <b>{2}</b>, um mit dem Erstellen einer Kopie zu beginnen.",,
 tut.adv.controls.build.modes.1.build.unbound,"Wir werden nun verschiedene <b>Baumodi</b> einsetzen.<br><br>Drücke {0}, um eine beliebige <b>Bodenfliese</b> auszuwählen, und klicke dann im <b>Infofenster</b> oder im <b>Kontextmenü</b> auf <b>{1}</b> , um mit dem Erstellen einer Kopie zu beginnen.",,
 tut.adv.controls.build.modes.2,"Mit dem <b>Kreismodus</b> kannst du kreisförmige Formen erstellen.<br><br>1. Bewege den Cursor zur die Mitte des hervorgehobenen Bereichs.<br><br>2. Halte {0} gedrückt, um in den <b>Kreismodus</b> zu wechseln.<br><br>3. Drücke {1} und beginne mit dem Ziehen, um eine Vorschau des Kreises anzuzeigen.<br><br>4. Lasse {1} los, um den Auftrag zu bestätigen.<br><br>5. Lasse {0} los, um den <b>Kreismodus</b> wieder zu verlassen.",,
-tut.adv.controls.build.modes.3,"Der <b>Linienmodus</b> ist nützlich, wenn du eine Brücke bauen musst.<br><br>1. Halte {0} gedrückt, um in den <b>Linienmodus</b> zu wechseln. <br><br>2. Drücke {1} über der unteren linken Ecke des hervorgehobenen Bereichs.<br><br>3. Ziehe eine diagonale Linie in Richtung der Plattform oben rechts.<br><br>4. Lasse {1} los, um einen Auftrag zu erstellen.<br><br>5. Lasse {0} los, um den <b>Zeilenmodus</b> wieder zu verlassen.",,
+tut.adv.controls.build.modes.3,"Der <b>Linienmodus</b> ist nützlich, um eine Brücke zu bauen. Halte {0}, um den <b>Linienmodus</b> zu aktivieren, drücke dann {1} auf die untere linke Ecke des markierten Bereichs, ziehe eine diagonale Linie zur Plattform oben rechts, lasse {1} los, um einen Auftrag zu erstellen, und lasse {0} los, um den <b>Linienmodus</b> zu verlassen.",,
 tut.adv.controls.build.modes.4,"Der <b>Bleistiftmodus</b> kann zum Zeichnen benutzerdefinierter Formen verwendet werden.<br><br>1. Halte {0} gedrückt, um den <b>Bleistiftmodus</b> aufzurufen.<br><br>2. Drücke {1} und ziehe den Mauszeiger über einen Bereich, um einige Anweisungen zu erteilen.<br><br>3. Lasse {0} los, um den <b>Bleistiftmodus</b> wieder zu verlassen.",,
 tut.adv.controls.build.modes.5,"Der Modus <b>Abbrechen</b> bietet eine schnelle Möglichkeit, ausstehende Befehle zu widerrufen.<br><br>1. Halte {0} und {1} gedrückt, um in den <b>Abbruchmodus</b> zu wechseln.<br><br>2. Drücke {2} und ziehe ein Rechteck um den hervorgehobenen Bereich.<br><br>3. Lasse {2} los, um alle Aufgaben innerhalb dieses Bereichs abzubrechen.<br><br>4. Lasse {0} und {1} los, um den <b>Abbruchmodus</b> wieder zu verlassen.",,
 tut.adv.controls.build.modes.6,"Der <b>Füllmodus</b> füllt einen leeren Bereich mit einem einzigen Klick.<br><br>1. Bewege den Mauszeiger über den hervorgehobenen Bereich.<br><br>2. Halte {0} und {1} gedrückt, um in den <b>Füllmodus</b> zu wechseln.<br><br>3. Drücke {2}, um den Bau des Bodens im abgeschlossenen leeren Raum anzuordnen.<br><br>4. Lasse {0} und {1} los, um den <b>Füllmodus</b> wieder zu verlassen.<br><br><b>Warnung!</b> Dieser Modus kann eine große Menge an Aufgaben erzeugen. Wenn die Anzahl der Aufgaben das <b>Aufgabenlimit</b> überschreiten würde, wird der Füllvorgang abgebrochen. Das <b>Aufgabenlimit</b> kann durch Hinzufügen weiterer <b>Arbeitspeichermodule</b> erhöht werden.",,
 tut.adv.controls.build.modes.7,"Die meisten <b>Baumodi</b> funktionieren auch beim Bau von <b>Wänden</b> sowie bei der Verwendung des <b>{0}</b>werkzeugs.<br><br>Du musst dir nicht sämtliche Tastenkombinationen für die verschiedenen Modi merken. Versuche einfach, {1} einzeln oder paarweise zu drücken. Der Mauszeiger ändert sich, um den Werkzeugmodus anzuzeigen.",,
 tut.adv.controls.select.modes.title,Freie-Auswahl-Modi,,
 tut.adv.controls.select.modes.1,"Halte im <b>Freie-Auswahl-Modus</b> {0} gedrückt und bewege den Mauszeiger über eine beliebige Kachel, um die Umgebungsdaten anzuzeigen.",,
-tut.adv.controls.select.modes.2,"Halte {0} gedrückt, drücke dann {1}, ziehe ein Rechteck um einen Bereich und lass {1} los, um alle <b>Wesen</b> in diesem Bereich auszuwählen.<br><br>Halte {0} gedrückt und drücke über einem <b>Wesen</b> {1}, um es zur Auswahl hinzuzufügen oder daraus zu entfernen.",,
-tut.adv.controls.select.modes.3,"Halte {0} gedrückt, drücke dann {1}, ziehe ein Rechteck um einen Bereich und lass {1} los, um alle <b>Ressourcen</b> in diesem Bereich auszuwählen.<br><br>Halte {0} gedrückt und drücke über einer <b>Ressource</b> {1}, um sie zur Auswahl hinzuzufügen oder daraus zu entfernen.",,
-tut.adv.controls.select.modes.4,"Halte {0} gedrückt, drücke dann {1}, ziehe ein Rechteck um einen Bereich und lass {1} los, um alle <b>Geräte</b> in diesem Bereich auszuwählen.<br><br>Halte {0} gedrückt und drücke über einem <b>Gerät</b> {1} , um es zur Auswahl hinzuzufügen oder daraus zu entfernen.",,
+tut.adv.controls.select.modes.2,"Halte {0}, drücke dann {1}, ziehe ein Rechteck um einen Bereich und lasse {1} los, um alle <b>Wesen</b> in diesem Bereich auszuwählen. Halte {0} und nutze {1} auf einem <b>Wesen</b>, um es der Auswahl hinzuzufügen oder zu entfernen.",,
+tut.adv.controls.select.modes.3,"Halte {0}, drücke dann {1}, ziehe ein Rechteck um einen Bereich und lasse {1} los, um alle <b>Ressourcen</b> in diesem Bereich auszuwählen. Halte {0} und nutze {1} auf einer <b>Ressource</b>, um sie der Auswahl hinzuzufügen oder zu entfernen.",,
+tut.adv.controls.select.modes.4,"Halte {0}, drücke dann {1}, ziehe ein Rechteck um einen Bereich und lasse {1} los, um nur die <b>Geräte</b> in diesem Bereich auszuwählen. Halte {0} und nutze {1} auf einem <b>Gerät</b>, um es der Auswahl hinzuzufügen oder zu entfernen.",,
 tut.adv.controls.select.modes.5,"Wenn ein <b>Wesen</b> ausgewählt ist:<br><br>Halte {0} gedrückt und bewege den Mauszeiger über einen beliebigen <b>Ort</b>, um zu sehen, ob das Wesen ihn erreichen kann und welchen Weg es nehmen würde.<br><br>Halte {0} gedrückt und drücke {1}, während du mit der Maus über einen <b>Ort</b> fährst, um einen <b>kontrollierten Arbeiter</b> zu zwingen, sofort dorthin zu gehen.<br><br>Halte {0} und bewege den Mauszeiger über eine <b>ausstehende Aufgabe</b>, um zu sehen, ob das Wesen die Aufgabe ausführen kann.<br><br>Halte {0} gedrückt und drücke {1}, während sich der Mauszeiger über einer <b>ausstehenden Aufgabe</b> befindet, um einem <b>kontrollierten Arbeiter</b> diese Aufgabe zuzuweisen.",,
 tut.adv.controls.select.modes.6,"Wenn mehrere <b>Geräte</b> ausgewählt werden, werden <b>{0}</b> und <b>{1}</b> auf den Inhalt der Auswahl angewendet.",,
 tut.adv.controls.outro,"Dies ist das Ende dieser Einführung. Weitere Tipps und Tricks findest du im <b>Kodex</b> unter <b>Tipps</b>.",,
@@ -5088,7 +5078,7 @@ stat.value.base,Basiswert: {0},,
 stat.value.effective,Effektiver Wert: {0},,
 stat.no.modifiers,Keine Modifikatoren,,
 severity.mild,Leicht,,
-severity.moderate,Mäßig,,
+severity.moderate,Mäßige,,
 severity.severe,Schwer,,
 severity.critical,Kritisch,,
 severity.fatal,Tödlich,,
@@ -5393,7 +5383,7 @@ stat.MoveSpeed,Bewegungsgeschwindigkeit,,
 stat.MoveSpeed.desc,So schnell kann sich dieses Wesen bewegen.,,
 stat.MoveSpeedMul,Bewegungsgeschwindigkeitsmultiplikator,,
 stat.O2.desc,"O<sub>2</sub> Level",,
-stat.O2Min,"O<sub>2</sub> Minimum",,
+stat.O2Min,O<sub>2</sub>-Minimum,,
 stat.O2Min.desc,Zum Überleben erforderliche Mindestmenge an Sauerstoff.,,
 stat.Pain,Schmerz,,
 stat.Pain.desc,"Das Ausmaß der Schmerzen, die das Wesen derzeit verspürt.",,
@@ -5810,7 +5800,7 @@ combat.objectives,Ziele,,
 ability.Research,Forschung,,
 cond.CrawlerAttached,Krabbler zugefügt,,
 cond.CrawlerInfected,Außerirdische Parasiten,,
-wound.inflicted.time.ago,Zugefügt vor {0},,{0} is time like 10m
+wound.inflicted.time.ago,Zugefügt vor {0},,{0} is time like 10m 
 cond.Hypothermia,Unterkühlung,,
 menu.ungrouped,Nicht gruppiert,,
 menu.ungrouped.desc,Verschiedene nicht gruppierte Artikel,,
@@ -6187,7 +6177,7 @@ noun.hyperdrive,Hyperantrieb,,
 hyperspace.missing.engine,Hyperraumfähiges Triebwerk ist nicht verfügbar.,,
 hyperspace.not.charged,Hyperraumfähiger Motor ist nicht geladen.,,
 noun.hyperjump.charge,Hypersprung-Ladung,,Label for hyperdrive engine readiness percentage
-hyperjumps.available,Available Jumps,,Label for the number of available hyperjumps
+hyperjumps.available,Verfügbare Sprünge,,Label for the number of available hyperjumps
 quest.step.use.hyperjump.relay,Hyperjump-Relais verwenden,,
 quest.step.use.hyperjump.relay.tip,"Klicke in der Sternenkarte auf <b>{0}</b> und wähle dann <b>{1}</b> aus.",,{0} is Hyperjump Relay name {1} is the menu option name you have to select to use it
 space.object.HyperjumpRelay,Hypersprung-Relais,,
@@ -6292,7 +6282,7 @@ placement.tip.ports,Der Arbeitsplatz und die Ein-/Ausgabeanschlüsse müssen fre
 goal.GetMoreResource.desc,"Wir haben nur noch wenig <b>{0}</b>. Benutze den <b>Kodex</b>, um die Zutaten zu identifizieren und mehr davon herzustellen. Einige Materialien können bei Bergbauexpeditionen abgebaut, im <b>Online-Shop</b> oder auf <b>Raumstationen</b> erworben werden.",2024-10-17,
 click.to.enlarge,Zum Vergrößern anklicken,,
 evt.cooking.incident,Kochunfall,,
-evt.cooking.incident.desc,{0} hatte einen Unfall beim Kochen von {1} bei {2}.,,{0} is being name; {1} is meal name; {2} is cooking station
+evt.cooking.incident.desc,{0} hatte einen Unfall beim Kochen von {1} bei {2}.,,{0} is being name; {1} is meal name; {2} is cooking station 
 fight.ongoing,Kampf!,,
 fight.lost,den Kampf gegen {0} verloren,,{0} is the opponent name
 fight.between,{0} hat einen kampf mit {1} angefangen,,{0} and {1} are names
@@ -6338,6 +6328,7 @@ developing.condition,Entwicklung von {0} ({1}),,"{0} is the condition name, {1} 
 cond.Depression.desc,"Depressionen entstehen, wenn das Bedürfnis nach Spaß über längere Zeit nicht befriedigt wird. Baue Unterhaltungsmöglichkeiten und füge Dekorationen hinzu, um dies zu verhindern.",,
 effect.magnetic.storm,Magnetischer Sturm,,
 effect.magnetic.storm.desc,In diesem Sektor herrscht ein permanenter magnetischer Sturm. Bei einigen elektrischen Geräten treten zeitweise Probleme auf.,,
+ev.magnetic.storm.desc,Es herrscht ein andauernder Magnetsturm. Einige elektrische Geräte werden zeitweise Probleme haben.c.,,
 effect.dust.storm.desc,In diesem Sektor herrscht ein permanenter Staubsturm. Die Leistung der Solarmodule wird reduziert.,,
 obj.materials.fusioncellheavy,Schwere Fusionszelle,,
 obj.materials.fusioncellheavy.desc,"Eine Hochleistungsversion der Fusionszelle, geeignet für Hypersprünge über große Entfernungen.",,
@@ -6371,7 +6362,7 @@ tut.spacetravel.step3_5,"Mindestens ein <b>Hyperantrieb</b> muss <b>vollständig
 tut.spacetravel.step3_6,"Sobald du den <b>Hyperraum</b> betrittst, kannst du <b>Hypersprünge</b> zu benachbarten <b>Sektoren</b> durchführen. Die <b>Anzahl der Sprünge</b> hängt von deiner Anzahl <b>aufgeladener Hyperantriebe</b> ab.",,
 tut.spacetravel.step3_7,"Um deine Position im <b>Hyperraum</b> zu halten, muss mindestens ein <b>Hyperantrieb</b> laufen. Dies erfordert <b>Strom</b> und einen <b>Piloten</b> an der <b>Brückensteuerung</b>. Wenn alle Antriebe ausfallen, <b>verlässt das Schiff sofort den Hyperraum</b>.",,
 tut.spacetravel.step3_8,Bei einem <b>Hypersprung kurzer Reichweite</b> zwischen benachbarten <b>Sektoren</b> wird eine <b>Fusionszelle</b> verbraucht. <b>Hypersprünge langer Reichweite</b> zwischen <b>Regionen</b> erfordern <b>SAL-Antriebe</b> und <b>Schwere Fusionszellen</b>.,,
-tut.spacetravel.step3_9,"Wenn die <b>Hyperantriebe</b> aufgeladen sind, kannst du mit dieser Schaltfläche den <b>Eintritt</b> in den <b>Hyperraum</b> einleiten.<br><br>Wir haben noch keine <b>Fusionszellen</b>, aber wir können welche in der <b>Raumstation</b> kaufen.",,
+tut.spacetravel.step3_9,"Wir haben noch keine <b>Fusionszellen</b>, können aber einige auf der <b>Raumstation</b> kaufen.",2025-09-22,"last change deleted the first half of this message, the rest is unchanged."
 tut.spacetravel.step3_10,"Warten wir, bis unser Schiff <b>die Raumstation erreicht</b>.",,
 tut.spacetravel.step4.title,Gewinnung von Fusionszellen,,
 tut.spacetravel.step4_2,"Du handelst jetzt mit der <b>Raumstation</b>. Kaufe <b>5 Fusionszellen</b>, um fortzufahren.<br><br>Suche die <b>Fusionszelle</b> und lege den gewünschten Betrag auf <b>5</b> fest. Bestätige den Handel anschließend mit der Schaltfläche <b>Handel ausführen</b>.",,
@@ -6382,18 +6373,18 @@ tut.spacetravel.step5.title,Bewegung im Hyperraum,,
 tut.spacetravel.step5_1,"Die <b>Hyperantriebe</b> sind <b>betankt und aufgeladen</b>, wir sind <b>bereit zum Sprung</b>!<br><br>Klicke auf die hervorgehobene Schaltfläche, um <b>Eintritt</b> in den <b>Hyperraum</b> anzufordern.",2024-12-03,
 tut.spacetravel.step5_2,"Nachdem du den <b>Eintritt</b> in den <b>Hyperraum</b> beantragt hast, muss ein <b>Pilot</b> seinen Posten an der <b>Brückensteuerung</b> einnehmen und die Antriebe müssen <b>laufen</b>. Dies sollte in Kürze geschehen.<br><br>Setze die Simulation fort und warte, bis der Sprung erfolgt.",2024-12-03,
 tut.spacetravel.step5_2_2,"Du befindest dich jetzt im <b>Hyperraum</b>! Alle <b>aktiven Bedrohungen aus dem Weltraum</b>, <b>ankommenden Projektile</b> und <b>verlassenen Schiffe</b> werden <b>aufgegeben</b>, sobald du den <b>Hyperraum</b> betreten hast.",,
-tut.spacetravel.step5_3,Die <b>Sternenkarte</b> hat die <b>Kartenansicht</b> auf die Ebene <b>Region</b> <b>umgeschaltet</b>. Der Standort deines Schiffs im <b>Hyperraum</b> wird als <b>pulsierender Kreis</b> markiert.,,
+tut.spacetravel.step5_3,Die Sternenkarte zeigt nun die <b>Region</b>-Ebene. Der Standort deines Schiffs ist mit einem <b>Kreis</b> markiert.,2025-09-22,
 tut.spacetravel.step5_4,"Versuchen wir, das <b>Hypersprung-Relais</b> zwei Sektoren weiter zu erreichen. Verwende {0} über einem angrenzenden markierten <b>Sektor</b>, um <b>einen Sprung auszuführen</b>.",,
 tut.spacetravel.step5_5,"Da wir zwei <b>Hyperantriebe</b> haben, können wir <b>noch einen Sprung</b> machen, bevor wir den <b>Hyperraum</b> verlassen müssen. Nutzen wir den letzten verfügbaren Sprung, um zum markierten <b>Hypersprung-Relais</b> zu gelangen.",,
 tut.spacetravel.step5_6,"Wir haben unsere <b>Hyperantriebe</b> erschöpft, aber sie werden <b>wieder aufgeladen</b>, sobald wir <b>den Hyperraum verlassen</b>.",,
 tut.spacetravel.step6.title,Langstrecken-Hypersprung,,
-tut.spacetravel.step6_1,"Wir befinden uns nicht mehr im <b>Hyperraum</b>; die <b>Kartenansicht</b> wurde auf die lokale <b>Sektorebene</b> umgeschaltet. Du kannst nun die <b>Schubdüsen</b> verwenden, um das <b>Hypersprung-Relais</b> im Zentrum dieses Sektors zu erreichen.<br><br>Verwende {0} über dem markierten <b>Hypersprung-Relais</b>, um es als <b>Ziel</b> festzulegen.",,
+tut.spacetravel.step6_1,"Wir befinden uns nicht mehr im <b>Hyperraum</b>; die <b>Kartenansicht</b> zeigt nun die lokale <b>Sektoren</b>-Ebene. Du kannst jetzt die <b>Triebwerke</b> nutzen, um das <b>Hyperraum-Relais</b> in der Mitte dieses Sektors zu erreichen. Verwende {0} auf dem hervorgehobenen <b>Hyperraum-Relais</b>, um es als <b>Ziel</b> festzulegen.",,
 tut.spacetravel.step6_2,"Warte bis dein Schiff <b>das Hypersprung-Relais erreicht</b>, um fortzufahren. Du kannst die Zeitgeschwindigkeit erhöhen.",,
-tut.spacetravel.step6_3,"Wir haben das <b>Hypersprung-Relais</b> erreicht, dass es uns ermöglicht, mit unseren aktuellen Kurzstrecken-Hyperantrieben einen <b>Langstrecken-Hypersprung</b> durchzuführen.<br><br>Verwende {0} über dem hervorgehobenen <b>Hypersprung-Relais</b>, um die verfügbaren Aktionen anzeigen zu lassen und wähle dann <b>Hypersprung</b> aus.",,
+tut.spacetravel.step6_3,"Wir haben das <b>Hyperraum-Relais</b> erreicht, das mit unseren aktuellen Kurzstrecken-Hyperantrieben einen <b>Langstrecken-Hyperraum-Sprung</b> ermöglicht. Verwende {0} auf dem hervorgehobenen <b>Hyperraum-Relais</b>, um verfügbare Aktionen anzuzeigen, und wähle dann <b>Hyperraum-Sprung</b>.",,
 tut.spacetravel.step6_4,"Warte bis dein Schiff den <b>Hyperraum betritt</b>, um fortzufahren.",,
-tut.spacetravel.step6_5,"Du hast den <b>Hyperraum</b> über ein Relais betreten und die <b>Kartenansicht</b> zeigt jetzt die Ebene des <b>Universums</b>.<br><br>Verwenden {0} über einer beliebigen <b>angrenzenden Region</b>, um einen <b>Langstrecken-Hypersprung</b> durchzuführen.",,
-tut.spacetravel.step6_6,"Das <b>Hypersprung-Relais</b> ermöglicht nur einen Weitsprung. Nach Abschluss kannst du den <b>Hyperraum</b> sofort verlassen. Es ist jedoch oft hilfreich zu wissen, in welchem <b>Sektor</b> du landest.<br><br>Wechsel in die <b>Kartenansicht</b> zur <b>Region</b> Ebene, um deinen <b>Standort</b> innerhalb der aktuellen Region anzuzeigen. Unser <b>Radar</b> zeigt dir deinen aktuellen <b>Sektor</b> sowie angrenzende Sektoren an.",,
-tut.spacetravel.step6_7,"Du kannst jetzt zu einem angrenzenden <b>Sektor</b> springen oder den <b>Hyperraum</b> hier verlassen.<br><br>Verlasse den <b>Hyperraum</b>, um fortzufahren.",,
+tut.spacetravel.step6_5,"Die <b>Kartenansicht</b> zeigt nun die <b>Universum</b>-Ebene. Verwende {0} auf einer beliebigen <b>angrenzenden Region</b>, um einen <b>Langstrecken-Hyperraum-Sprung</b> durchzuführen.",2025-09-22,last change: first part of the sentence deleted
+tut.spacetravel.step6_6,"Das <b>Hyperraum-Relais</b> erlaubt nur einen Langstrecken-Hyperraum-Sprung. Danach verlässt das Schiff sofort den Hyperraum.",2025-09-22,
+tut.spacetravel.step6_7,"Springe zu einer angrenzenden <b>Region</b>, um fortzufahren.",2025-09-22,
 tut.spacetravel.outro,"Jetzt weist du, wie <b>Weltraumreisen</b> funktionieren. Sei vorsichtig, wenn du <b>schwierige Regionen</b> erkundest - sie können gefährlich sein!",,
 obj.upgrades.speedupgrade.desc,Kann in kompatiblen Geräten installiert werden und sorgt für eine Geschwindigkeitssteigerung von 15%. Die Effekte mehrerer Upgrades sind kumulativ.,2024-11-15,
 ,,,
@@ -6595,7 +6586,7 @@ noun.weapon.power,Waffenstärke,,Version 0.13 translations start here
 noun.shields,Schild,,
 noun.weapons,Waffen,,
 noun.weapon.power.short,Stärke,,As in Strength of Weapon Power
-noun.flux,"Flux",,A sci-fi term. can be accumulated during ship combat and has to be vented.
+noun.flux,"Flux",,A sci-fi term. can be accumulated during ship combat and has to be vented. 
 noun.flux.desc,Flux ist die Ansammlung von Wärmeenergie während des Kampfes. Sie steigt beim Abfeuern von Waffen oder beim Blockieren von Angriffen mit Schilden. Zu viel Flux deaktiviert wichtige Systeme.,,
 noun.evade,Ausweichen,,"Label next to ship evasion percentage. Evasion determines how likely the ship will dodge incoming attacks. Must be short, hence Evade and not Evasion"
 noun.evade.desc,"Der Ausweichwert bestimmt, wie wahrscheinlich es ist, dass das Schiff Angriffen ausweicht. Kleinere Schiffe haben einen höheren Ausweichwert als größere.",,
@@ -6636,7 +6627,7 @@ ship.tag.nss,MSS,,acronym is always constructed from the description: Navy Star 
 ship.tag.nss.desc,Sternenschiff der Marine,,standard military vessels
 ship.tag.bcv,KKS,,
 ship.tag.bcv.desc,Kampfkommandoschiff,,capital warships
-ship.tag.ars,"ARS",,
+ship.tag.ars,ARS,,
 ship.tag.ars.desc,Automatisiertes Reaktionsschiff,,AI controlled defense ships
 ship.tag.css,KSS,,
 ship.tag.css.desc,Korporatives Schlachtschiff,,capitalist ships
@@ -6650,9 +6641,9 @@ ship.tag.fsv,GSS,,
 ship.tag.fsv.desc,Grenzsternschiff,,independent adventurers
 ship.tag.imv,IBS,,
 ship.tag.imv.desc,Industrielles Bergbauschiff,,resource extraction ships
-ship.tag.inf,"INF",,
+ship.tag.inf,INF,,
 ship.tag.inf.desc,Infizierter Netzwerkrahmen,,virus-corrupted ships
-ship.tag.ltv,"LTS",,
+ship.tag.ltv,LTS,,
 ship.tag.ltv.desc,Logistik-Transportschiff,,cargo haulters and carriers
 ship.tag.tav,TAS,,
 ship.tag.tav.desc,Taktisches Angriffsschiff,,big offensive ships
@@ -6660,7 +6651,7 @@ ship.tag.scs,SKS,,
 ship.tag.scs.desc,Superkapitalschiff,,titan class ships
 ship.tag.lfs,LJS,,
 ship.tag.lfs.desc,Leichtes Jagdschiff,,small fighters
-ship.tag.srs,"AAS",,
+ship.tag.srs,AAS,,
 ship.tag.srs.desc,Angriffsaufklärungsschiff,,hit and run tactical ships
 ship.tag.msv,MUS,,
 ship.tag.msv.desc,Mehrzweck-Unterstützungsschiff,,verstaile small crafts
@@ -7100,13 +7091,495 @@ bodypart.Implant.FirewallChip,Schutzchip für Netzwerksicherheit,,
 bodypart.Implant.FirewallChip.desc,Schützt vor Hackerangriffen und verbessert die Widerstandsfähigkeit gegen Energieangriffe.,,
 crawler.combat.alert,Krabbler-Kampfalarm,,
 crawler.combat.alert.desc,"Wenn diese Option deaktiviert ist, werden beim Kampf gegen Krabbler keine Kampfalarme ausgelöst und die Musik wird nicht geändert.",,
-universe.seed,Universe Seed,,"Seed is a random number used as a starting point to generate something, in this case a universe"
-tut.adv.controls.select.modes.2_new,"Drücke {1}, ziehe dann ein Rechteck um einen Bereich und lasse {1} los, um alle <b>Wesen</b> im Bereich auszuwählen.<br><br>Halte {0} gedrückt und verwende {1} über einem <b>Wesen</b>, um es zur Auswahl hinzuzufügen oder zu entfernen.",,"{0} is Shift button icon, {1} is left mouse button icon"
-scenario.wrecked_empty_ship.tooltip,"Baue ein zerstörtes Raumschiff wieder auf und rette deine Kolonie. Dies ist das Hauptszenario.",,
-scenario.cargo_ship,Frachtschiff,,
-scenario.cargo_ship.tooltip,"Starte in einem voll funktionstüchtigem Frachtschiff mit reiner Roboterbesatzung.",,
-slog.trade,"Handel mit {0}",,
-btn.join.our.community,"Tritt der Community bei",,
-telemetry.tip,"Um die Leistung des Spiels und dein Spielerlebnis zu verbessern, sammeln wir auf der Grundlage unseres berechtigten Interesses Daten über das Spiel.",,
+universe.seed,Universum Startwert,,"Seed is a random number used as a starting point to generate something, in this case a universe"
+tut.adv.controls.select.modes.2_new,"Drücke {1}, ziehe ein Rechteck um einen Bereich und lasse {1} los, um alle <b>Wesen</b> in diesem Bereich auszuwählen. Halte {0} und nutze {1} auf einem <b>Wesen</b>, um es der Auswahl hinzuzufügen oder zu entfernen.",,"{0} is Shift button icon, {1} is left mouse button icon"
+skip.colonist.choice,Kolonistenwahl überspringen,,
+skip.colonist.choice.desc,Kolonisten bei Stasis-Weckung automatisch auswählen.,,
+drag.to.resize,"Ziehen, um die Größe zu ändern",,tooltip for the UI resize handle button
+menu.lights,Licht,,label for build menu containing lights
+menu.lights.desc,Lichtquellen,,
+situation.ShipSize,Schiffsgröße,,
+situation.ShipClassPoints,Schiff Klassenpunkte,,
+situation.CombatStrength,Kampfstärke,,
+situation.NumShipCombats,Raumschiffgefechte,,
+telemetry.tip,"Damit das Spiel besser läuft und wir dein Spielerlebnis weiter verbessern können, sammeln wir anonymisierte Spieldaten.",,
 telemetry,Telemetrie,,noun
-share.telemetry,Spieldaten freigeben,,label for a checkbox that enables telemetry sharing
+share.telemetry,Teile Spieltelemtriedaten,,label for a checkbox that enables telemetry sharing
+direct.control.combat.tip,"{0} stellt Arbeiter für den Kampf bereit und hindert sie daran, jegliche Arbeit zu verrichten.",,{0} is the button name (either Direct Control or Control)
+ev.photon.storm,Photonstorm,,
+ev.photon.storm.desc,"Ein harmloses Phänomen, das die Leistung von Solarpanels erhöht.",,
+event.ended,Endet: {0},,"{0} will be event name, for example Ended: Photon Storm"
+event.ongoing,Aktiv: {0},,"{0} will be event name, for example Ongoing: Photon Storm"
+noun.employee.otm,Arbeiter der Woche,,Awared to the hardest worker every month
+noun.license.fee,Lizensgebühr,,label for price of buying some license
+noun.requirement,Erfordert,,"usage example: ""Requirement: <some condition>"""
+noun.requirements,Erfordert,,plural of requirement
+must.own,Benötigt,,a label for requirement to own something
+verb.copy,Kopie,,
+verb.paste,Einfügen,,
+adj.identical,Identisch,,when two items are identical
+opinion.good,Gut,,as in opinion about someone: good (START OF v014 translations)
+opinion.bad,Schlecht,,as in opinion about someone: bad
+verb.hates,Hassen,,toward another person
+noun.attraction,Attraktiv,,sexual attraction
+noun.friend,Freund,,
+noun.lover,Geliebter,,
+noun.friendship,Freundschafft,,as in friendship level (will be expressed as percentage)
+noun.party,Party,,as in birthday party
+noun.party.custom,{0} Party!,,"{0} will be something like Birthday or Wedding, or even Birthday / Wedding"
+party.desc,{0} schmeißen eine Party!,,{0} will be replaced by a comma separated list of names
+party.custom.desc,{0} schmeißen eine {1}-Party!,,"{0} will be replaced by a comma separated list of names, {1} will be Birthday or Wedding or Birthday / Wedding"
+noun.birthday,Geburtstags,,
+noun.wedding,Hochzeits,,
+list.and,{0} und {1},,"Used for listing names. {0} will be list of comma separated names, {1} will be the last name. Example: ""Jack, Jill and James"". Will be combined with translation above to make something like ""Jack, Jill and James are throwing a party"""
+flag.Biological,Biologisch,,
+flag.Humanoid,Humanoid,,
+flag.Robotic,Robotisch,,
+flag.Wild,Wild,,
+flag.Pet,Haustier,,
+flag.Animal,Tier,,
+ability.DumbLabor,einfache Arbeit,,
+ability.SkilledLabor,qualifizierte Arbeit,,
+ability.Intelligence,Intelligenz,,
+bodypart.Core.DumbCore,Einfacher Kern,,
+bodypart.Core.LiteCore,Leichter Kern,,
+bodypart.Core.DumbCore.desc,"Ein Chip, der die Erinnerungen eines Roboters enthält. Er kann nur einfache Arbeiten ausführen.",,
+bodypart.Core.LiteCore.desc,"Ein Chip, der die Erinnerungen eines Roboters enthält. Er kann nur einfache Probleme lösen.",,
+modifier.NoDrama,Drama deaktivieren,,
+modifier.NoDrama.desc,Schaltet die meisten sozialen Interaktionen und Kolonie-Drama-Ereignisse aus.,,
+adj.positive,Positiv,,"Adjective, as in ""positive opinion"""
+adj.negative,Negativ,,"Adjective, as in ""negative opinion"""
+noun.good.karma,Gutes Karma,,
+noun.bad.karma,Schlechtes Karma,,
+opinion.about,Ansicht zu {0},,{0} will be person's name
+noun.social.affinity,Sympathie,,described in noun.social.affinity.desc (translation below)
+noun.social.affinity.desc,Eine einseitige Verbindung oder Zuneigung zu einer anderen Person.,,
+developing.love,Entstehende Liebe,,"as in ""Jack is developing love toward Jane"""
+developing.friendship,Entstehende Freundschaft,,"as in ""Jack is developing friendship toward Jane"""
+developing.hate,Entstehender Hass,,"as in ""Jack is developing hate toward Jane"""
+strength.love,Liebesstärke,,
+strength.friendship,Freundschaftsstärke,,
+strength.hate,Hassstärke,,
+status.friends,Freunde,,"as in ""Jack and Jane are friends"""
+status.nemesis,Erzfeind,,"as in ""Jack considers Jane a nemesis"" (arch-enemy)"
+status.crush,Schwarm,,"as in ""Jack has a crush for Jane"""
+status.lovers,Liebende,,"as in ""Jack and Jane are lovers"""
+status.spouse,Ehepartner,,"as in ""Jack is Jane's spouse"" (married)"
+status.master,Meister,,Master of a pet or slave
+interactions.with,Interaktionen mit {0},,{0} will be person's name
+status.unfamiliar,Fremd,,"as in ""Jack is unfamiliar with Jane"""
+status.acquaintance,Bekannte,,"as in ""Jack considers Jane an acquaintance"""
+relationship.strength.0,Schwach,,
+relationship.strength.1,Gering,,
+relationship.strength.2,Mittel,,
+relationship.strength.3,Stark,,
+relationship.strength.4,Tief,,
+time.spent.together,Gemeinsame Zeit,,label for time counter for two beings spending time together
+noun.social.interactions,Soziale Interaktionen,,label for a list of social interactions that happened between people
+interaction.danced.with,{0} tanzte mit {1},,{0} and {1} will be names of people who danced together at a jukebox
+status.lovers.announce,{0} und {1} haben sich ineinander verliebt!,,{0} and {1} are names
+status.friends.announce,{0} und {1} sind nun Freunde!,,
+status.pet.announce,{0} ist {1}s Haustier geworden!,,
+status.nemesis.announce,{0} hat {1} zum Erzfeind erklärt!,,
+status.spouse.announce,{0} und {1} sind jetzt verheiratet!,,
+date.with,Ein Date mit {0},,{0} is other being name. date as in romantic meeting.
+verb.dating,sich verabreden,,"as in ""going out on a date"""
+noun.date,"Date",,romantic date between two people (or pets)
+date.desc,{0} und {1} gehen auf ein Date!,,{0} and {1} are names
+date.cut.short,{0} hat das Date abgebrochen,,{0} is name. this is used when someone leaves their date in the middle of dating
+noun.libido,"Libido",,Libido refers to an individual's sex drive or sexual desire
+date.outcome.good,Hatte ein schönes Date mit {0},,{0} is name. date - romantic date.
+date.outcome.bad,Hatte ein schlechtes Date mit {0},,{0} is name. date - romantic date.
+date.good.desc,{0} und {1} gingen auf ein Date und hatten eine tolle Zeit,,{0} and {1} are names
+date.bad.desc,"{0} und {1} gingen auf ein Date, das nicht gut verlief",,{0} and {1} are names
+date.good.title,Schönes Date,,
+date.bad.title,Katastrophales Date,,
+chatting.with,Unterhält sich mit {0},,{0} is a name
+bodypart.Implant.ConversationModule,Gesprächsmodul,,
+bodypart.Implant.ConversationModule.desc,"Ermöglicht Sprechen und Hören. Nutzlos, wenn der Geist keine Worte formen kann.",,
+ability.Vocalize,Vokalisieren,,ability to speak or emit sounds (for animals)
+ability.Hear,Hören,,ability to hear sounds
+social.chat.good,Angenehmes Gespräch,,
+social.chat.bad,Streitgespräch,,
+social.chat.good.desc,{0} und {1} hatten ein angenehmes Gespräch,,{0} and {1} are names
+social.chat.bad.desc,{0} und {1} hatten ein Streitgespräch,,{0} and {1} are names
+social.chat.meal.good,Hatten eine angenehme Mahlzeit,,
+social.chat.meal.bad,Streit bei einer Mahlzeit,,
+social.chat.meal.good.desc,{0} und {1} teilten eine Mahlzeit und genossen ihre Gesellschaft,,{0} and {1} are names
+social.chat.meal.bad.desc,{0} und {1} führten ein spannungsgeladenes Gespräch beim Essen,,{0} and {1} are names
+social.chat.drink.good,Teilten ein angenehmes Getränk,,
+social.chat.drink.bad,Streit bei einem Getränk,,
+social.chat.drink.good.desc,{0} und {1} tranken zusammen und verstanden sich gut,,{0} and {1} are names
+social.chat.drink.bad.desc,{0} und {1} hatten einen hitzigen Austausch bei einem Getränk,,{0} and {1} are names
+something.happened.with.name,mit {0},,"{0} is name. example use: ""Had an argument (with John)"""
+social.chat.workout.good,Gemeinsames Training,,
+social.chat.workout.bad,Konflikt beim Training,,
+social.chat.workout.good.desc,"{0} und {1} haben es genossen, zusammen zu trainieren",,{0} and {1} are names
+social.chat.workout.bad.desc,{0} und {1} stritten beim Training,,{0} and {1} are names
+social.chat.gaming.good,Lustige Spielrunde,,
+social.chat.gaming.bad,Streit während des Spiels,,
+social.chat.gaming.good.desc,{0} und {1} hatten Spaß beim gemeinsamen Spielen,,{0} and {1} are names
+social.chat.gaming.bad.desc,{0} und {1} gerieten beim Spielen in einen Streit,,{0} and {1} are names
+social.chat.dance.good,Angenehmer Tanz,,
+social.chat.dance.bad,Peinlicher Tanz,,
+social.chat.dance.good.desc,"{0} und {1} tanzten zusammen und genossen einen schönen, eleganten Tanz",,{0} and {1} are names
+social.chat.dance.bad.desc,"{0} und {1} tanzten zusammen, aber es war holprig",,{0} and {1} are names
+social.exp.saved.falling.title,Vor einer Falle gerettet,,
+social.exp.saved.falling.desc,"Während der Bergbau-Expedition rettete {0} {1} vor dem Sturz in einen tiefen Schacht.",,{0} and {1} are names
+social.exp.fist.fight.title,Kampf im Shuttle,,
+social.exp.fist.fight.desc,"Während der Expedition kämpften {0} und {1} miteinander.",,{0} and {1} are names
+social.exp.mining.bond.title,Bildeten eine stärkere Bindung,,
+social.exp.mining.bond.desc,"Während einer gemeinsamen Bergbau-Expedition entwickelten {0} und {1} eine starke Kameradschaft.",,{0} and {1} are names
+social.exp.mining.loot.title,Wertvolle Gegenstände gefunden,,
+social.exp.mining.loot.desc,"Auf der Bergbau-Expedition entdeckten {0} und {1} etwas Wertvolles.",,{0} and {1} are names
+pranking.someone,{0} einen Streich spielen,,{0} is the name of the prank target
+prank.desc,{0} spielte {1} einen Streich.,,{0} and {1} are names
+prank.outcome.good,{1} wurde von {0} hereingelegt und konnte nicht aufhören zu lachen.,,{0} and {1} are names
+prank.outcome.bad,{1} wurde von {0} hereingelegt und nahm es nicht gut auf.,,{0} and {1} are names
+verb.pranking,Einen Streich spielen,,
+got.pranked.by,Wurde von {0} hereingelegt,,{0} is name
+pranked.someone,Spielte {0} einen Streich,,{0} is name
+made.love.with,Hat eine Beziehung mit {0} gehabt,,{0} is name
+make.love.good.desc,"{0} und {1} hatten eine intime Beziehung, die sie einander näher brachte.",,{0} and {1} are names
+make.love.bad.desc,"{0} und {1} verbrachten intime Zeit miteinander, doch es war unangenehm und entfernte sie voneinander.",,{0} and {1} are names
+make.love.title,Intimer Moment zwischen Liebenden,,
+make.love.desc,{0} und {1} sind bereit für einen besonderen Moment miteinander!,,{0} and {1} are names
+make.love.with,Romantische Zeit mit {0} verbringen,,{0} is name
+verb.making.love,Intim sein,,
+act.stabbed.kitchen.knife,{0} stach {1} mit einem Küchenmesser.,,{0} and {1} are names
+act.stabbed.fork,{0} stach {1} mit einer Gabel.,,{0} and {1} are names
+act.stabbed.pencil,{0} stach {1} mit einem Bleistift.,,{0} and {1} are names
+act.stabbed.scissors,{0} stach {1} mit einer Schere.,,{0} and {1} are names
+noun.stabbing,Stechen,,
+stabbed.someone,Stach {0},,{0} is name
+stabbed.by.someone,Von {0} erstochen,,{0} is name
+act.stalking.someone,Verfolgt {0},,{0} is name
+stalking.title,{0} verfolgte {1},,{0} and {1} are names
+stalking.outcome.caught.liked,"{0} wurde beim Verfolgen von {1} erwischt, doch {1} schien es nicht zu stören.",,{0} and {1} are names
+stalking.outcome.caught.hated,"{0} wurde beim Verfolgen von {1} erwischt, und {1} war davon beunruhigt.",,{0} and {1} are names
+stalking.outcome.not.caught,"{0} verfolgte {1}, ohne bemerkt zu werden.",,{0} and {1} are names
+noun.stalking,Verfolgen,,a fact of stalking happening (noun)
+verb.stalking,verfolgen,,a verb
+stalked.someone,{0} verfolgt,,{0} is name
+stalking.got.caught,Beim Verfolgen erwischt,,
+stalking.caught.stalker,Jemanden beim Verfolgen erwischt,,
+trait.stalker,Verfolger,,
+ashes.of,Asche von {0},,"{0} is name, ashes as in ashes after cremating a dead person"
+obj.materials.ashes,Asche,,
+obj.materials.ashes.desc,"Feines, graues Pulver, dass nach dem Verbrennen organischer Stoffe zurückbleibt.",,
+objects.furniture.urn,Urne,,
+objects.furniture.urn.desc,"Ein Gefäß, um die Asche eines Verstorbenen aufzubewahren.",,
+act.mourning.someone,Trauert um {0},,{0} is name of a dead being (human or pet).
+verb.mourning,trauert,,mourning a dead being
+mourned.someone,Trauerte um {0},,{0} is name
+ev.mourned.title,{0} trauerte um {1},,{0} and {1} are names
+ev.mourned.fail.desc,{0} konnte die Überreste von {1} nicht besuchen.,,{0} and {1} are names
+ev.mourned.ok.desc,{0} hielt einen Moment der Stille bei den Überresten von {1}.,,{0} and {1} are names
+objects.devices.arcadecabinet,Spielautomat,,
+objects.devices.arcadecabinet.desc,"Ein Spielautomat mit Münzeinwurf, Bildschirm, Bedienelementen und integrierten Spielen.",,
+act.gaming,Spielen,,
+played.video.game,Ein Videospiel gespielt,,
+act.having.fun,Hat Spaß,,
+played.video.game.with,{0} spielte ein Videospiel mit {1},,{0} and {1} are names
+evt.organ.failure.title,Organversagen,,
+evt.organ.failure.desc,{0} hatte ein {1}-Versagen.,,"{0} is name, {1} is organ name. ex: John suffered a heart failure"
+evt.component.failure.title,Komponentenfehler,,
+evt.component.failure.desc,{0} erlitt einen Ausfall der {1}-Komponente.,,"{0} is name, {1} is component name. ex: Robot sustained a battery component failure"
+menu.entertainment,Spaß,,"noun, must be short"
+menu.entertainment.desc,Geräte zur Unterhaltung und Freizeit der Kolonisten,,
+verb.forget,vergessen,,"as in ""forget this ever happened"" or ""forget john"""
+no.burial.ceremony,Keine Bestattungszeremonie,,
+no.burial.ceremony.tip,{0}s Asche wurde missachtet und nicht geehrt.,,{0} is name
+forget.ashes.tip,"Wenn die Asche vergessen wird, wird der Verstorbene entwürdigt und die Asche zu Rohmaterial verarbeitet.",,
+colonist.upset.warning,Diese Maßnahme könnte bei den Kolonisten Unmut auslösen.,,
+death.euthanized.by,Von {0} eingeschläfert,,{0} is name
+death.blood.loss,Zu viel Blut verloren,,
+death.combat.raiders,Fiel im Kampf gegen Räuber der Fraktion {0}.,,{0} is name
+time.of.death,Todeszeitpunkt,,
+death.crawlers.burst,{0} Krabbler platzten aus dem Bauch,,"{0} is number, greater than 1"
+verb.hacking,Hacken,,
+death.abandoned.in.space,"Im All zurückgelassen, um zu sterben",,
+death.disposed.at,Von {1} im {0} entsorgt,,"{0} is the device name, {1} is name of the person who disposed. Example: Disposed of at the Nutrient Extractor by John"
+inflicted.by,Verursacht von {0},,{0} is name. This is for labeling who inflicted a wound.
+death.by.body.part.removal.bio,Organentnahme durch {0} ({1} entfernt),,"{0} is name, {1} is organ name (for humans)"
+death.by.body.part.removal.robo,Komponentenentnahme durch {0} ({1} entfernt),,"{0} is name, {1} is part name (for robots)"
+death.fatal.attack,{0} versetzte dem {1} einen tödlichen Schlag.,,{0} is name {1} is body part / organ name
+act.petted.pet,{0} streichelte {1},,"{0} is name of a human, {1} is name of a pet"
+cond.Inspired,Inspiriert,,adjective
+ev.inspired.desc,{0} wurde von einer Welle der Inspiration getroffen!,,{0} is name
+state.increasing,Steigend,,
+state.decreasing,Fallend,,
+ev.comet.shower,Kometenschauer,,
+ev.comet.shower.desc,Ein faszinierender Kometenschauer erhellt den Himmel in der Ferne. Die Kolonisten wollen ihn beobachten..,,
+ev.wedding.title,Hochzeit!,,
+married.someone,Heiratet {0},,{0} is the spouse name
+obj.equipment.hats.jesterhat,Narrenkappe,,
+obj.equipment.hats.jesterhat.desc,"Perfekt für Narren, Clowns oder gewagte Modeentscheidungen.",,
+ev.soft.surge.storm,Leichter Energiesturm,,
+ev.soft.surge.storm.desc,"Ein Weltraumphänomen, das elektrische Ströme harmonisiert und dafür sorgt, dass alle Geräte weniger Energie verbrauchen.",,
+ev.psychic.storm,Psychischer Sturm,,
+ev.psychic.storm.desc,"Ein bioelektrischer Partikelsturm, der nach und nach die mentalen Strukturen lebender Wesen destabilisiert.",,
+noun.pain.mild,Leichte Schmerzen,,
+noun.pain.moderate,Mäßige Schmerzen,,
+noun.pain.severe,Starke Schmerzen,,
+noun.pain.excruciating,Unerträgliche Schmerzen,,
+chance.scar,"Chance, eine Narbe zu hinterlassen",,
+scar.info,"{2} verursachte eine {1}-Wunde, die zu einer {0}-Narbe führte",,"{0} is severity level (severe, moderate, etc), {1} is damage type (sharp, piercing), {2} is name of attacker. Example:  A Severe scar from a Slashing wound Inflicted by John"
+noun.scar,Narbe,,
+noun.scars,Narben,,
+caused.by,Verursacht von {0},,{0} is name of a person who caused something
+verb.past.formed,geformt,,label for something that was formed some time ago
+scar.short.info,{0}-Narbe von {1},,"{0} is severity level (severe, moderate, etc), {1} is name of attacker. Example: Severe scar from John"
+scar.random.source.generic.1,Alter Kampf,,
+scar.random.source.generic.2,Kneipenschlägerei,,
+scar.random.source.generic.3,Quälerei,,
+scar.random.source.generic.4,Piraten,,
+scar.random.source.generic.5,Selbstverletzung,,
+scar.random.source.generic.6,Ein Unfall,,
+scar.random.source.generic.7,Eine frühere Tätigkeit,,
+scar.random.source.generic.8,eine Katze,,
+scar.random.source.generic.9,ein Shuttleunfall,,
+scar.random.source.human.1,ein Freund,,
+scar.random.source.human.2,Ihr bester Freund,,
+scar.random.source.human.3,Ein früherer Liebhaber,,
+scar.random.source.human.4,Ein Putzunfall,,
+scar.random.source.human.5,Eine misslungene Gitarrenstunde,,
+objects.cosmetics.chess.piece.desc,Eine überdimensionale Schachfigur.,,
+objects.cosmetics.chess.chesspawnw,Weißer Bauer,,
+objects.cosmetics.chess.chesspawnb,Schwarzer Bauer,,
+objects.cosmetics.chess.chesskingw,Weißer König,,
+objects.cosmetics.chess.chesskingb,Schwarzer König,,
+objects.cosmetics.chess.chessqueenw,Weiße Dame,,
+objects.cosmetics.chess.chessqueenb,Schwarze Dame,,
+objects.cosmetics.chess.chessrookw,Weißer Turm,,
+objects.cosmetics.chess.chessrookb,Schwarzer Turm,,
+objects.cosmetics.chess.chessknightw,Weißes Pferd,,
+objects.cosmetics.chess.chessknightb,Schwarzes Pferd,,
+objects.cosmetics.chess.chessbishopw,Weißer Läufer,,
+objects.cosmetics.chess.chessbishopb,Schwarzer Läufer,,
+structure.floors.floormarble01,Marmorboden,,
+structure.floors.floormarble01.desc,"Ein eleganter, polierter Boden",,
+ev.raid.map.edge.title,Feindliche Räuber unterwegs!,,
+ev.raid.map.edge.desc,Räuber nähern sich unserem Schiff!,,
+obj.containers.hullpiercer,Rumpfbrecher,,
+obj.containers.hullpiercer.desc,"Eine Hochgeschwindigkeits-Boardingkapsel, entwickelt, um den Rumpf eines Schiffs zu durchschlagen und ein schnelles Eindringen zu ermöglichen.",,
+act.feeding.patient,Einen Patienten füttern,,
+feed.patient,Patient füttern,,
+incoming.object,{0} im Anflug!,,"{0} can be a meteor, breach capsule, some other flying object targeting the ship"
+persona.bio,"{0} {1}, {2}",,"{0} is species, {1} is sex {2} is age. Example: Human Female, 37y"
+persona.bio.sexless,"{0}, {1}",,"{0} is species, {1} is age. Example: Robot, 37y"
+sex.orientation.straight,Hetero,,
+sex.orientation.gay,Schwul,,
+sex.orientation.lesbian,Lesbisch,,
+sex.orientation.asexual,Asexuell,,
+sex.orientation.bisexual,Bisexuell,,
+flag.Flying,fliegend,,"adjective, as in ""a flying robot"""
+modifier.NoQuestRewards,Quest-Belohnungen deaktivieren,,
+modifier.NoQuestRewards.desc,"Das Abschließen von Hauptquests bringt normalerweise kleine Belohnungen. Wenn sie deaktiviert werden, erhöht sich die Herausforderung.",,
+had.spacewalk,Hatte einen Weltraumspaziergang,,
+trait.sociopath,Soziopath,,
+trait.sociopath.about,"Fehlt Empathie, missachtet die Rechte anderer und manipuliert ohne Reue.",,
+trait.antisocial,Antisozial,,
+trait.antisocial.about,Meidet soziale Kontakte und zieht Einsamkeit der Gesellschaft vor.,,
+trait.open_eyed_sleeper,Schläfer mit offenen Augen,,
+trait.open_eyed_sleeper.about,Diese Person schläft mit offenen Augen.,,
+trait.gigolo,Bezahlter Begleiter,,"a young man paid or financially supported by a woman, typically an older woman, to be her escort or lover."
+trait.high.libido,Hohe Libido,,Libido refers to an individual's sex drive or sexual desire
+trait.charismatic,Charismatisch,,for describing charismatic character (not external looks)
+trait.beautiful,Attraktiv,,describes a good looking woman
+trait.handsome,Gutaussehend,,describes a good looking man
+trait.ugly,Hässlich,,
+trait.optimist,"Optimist",,
+trait.pessimist,"Pessimist",,
+trait.fast,Schnell,,As in fast walker
+trait.slow,Langsam,,As in slow walker
+trait.lazy,Faul,,
+trait.workaholic,Arbeitsbesessen,,
+trait.astrophobe,Weltraumängstlich,,
+trait.astrophobe.about,Astrophobe haben Angst vor Weltraumspaziergängen.,,
+trait.astrophile,Weltraumbegeistert,,
+trait.astrophile.about,Astrophile fühlen sich bei Weltraumspaziergängen wohl.,,
+trait.dog_person,Hundeliebhaber,,someone who likes dogs more than cats
+trait.cat_person,Katzenliebhaber,,someone who likes cats more than dogs
+trait.shadow_dweller,Schattenbewohner,,
+trait.shadow_dweller.about,"Genießt es, sich im Dunkeln aufzuhalten.",,
+trait.coffee_addict,Kaffeejunkie,,
+role.Babysitter,Kinderbetreuer,,
+role.Delinquent,Rabauke,,"(typically of a young person) tending to commit crime, particularly minor crime."
+role.Gamer,"Gamer",,
+role.GraffitiArtist,Sprayer,,
+role.LittleShit,Kleiner Nervtöter,,a term some people call annoying kids
+role.NeighborhoodMenace,Störenfried der Nachbarschaft,,
+role.Otaku,"Otaku",,(in Japan) a young person who is obsessed with computers or particular aspects of popular culture to the detriment of their social skills.
+role.PaperBoy,Zeitungsjunge,,
+role.SweatshopWorker,Arbeiter in einer Ausbeuterfabrik,,
+role.FighterPilot,Kampfpliot,,
+role.FlatEarther,Flacherdler,,"a believer of the ""Flat Earth"" movement"
+role.Mechanic,Mechaniker,,
+role.SpaceportValet,Raumhafen-Diener,,somone who drives spaceships into parking spots
+role.Seaman,Seemann,,
+role.ProjectManager,Projektleiter,,
+role.DrillingEngineer,Bohringenieur,,
+role.Roughneck,Bohrarbeiter,,"An oil rig job type. They assist the driller, carrying out the manual operation of the systems and equipment required for the specific process, which involves hard effort. While the drilling operations, a member of the teamwork is present in the shaker room, assisting the shakerman. Roughnecks are also in charge of cleaning, scraping and wirebrusing floor areas, chipping rust, painting and any other general maintenance tasks."
+role.Storekeeper,Lagerverwalter,,
+role.CivilEngineer,Bauingenieur,,
+role.CommsOperator,Funker,,Comms short for Communications
+role.Busboy,Abwäscher,,"a restaurant industry worker who clears tables, takes dirty dishes to the dishwasher, and assists waitstaff"
+role.Busgirl,Abwäscherin,,like busboy but for females
+role.Cook,Koch,,Restraurant staff
+role.HeadChef,Küchenchef,,Restraurant staff
+role.Waiter,Kellner,,Restraurant staff
+role.Waitress,Kellnerin,,Restraurant staff
+role.Photographer,Fotograf,,
+role.Handyman,Hausmeister,,
+role.CarCrashSurvivor,Autounfall-Überlebender,,
+role.UnwantedChild,Unerwünschtes Kind,,
+role.BugCollector,Insektensammler,,
+role.TreeHouseOwner,Baumhausbesitzer,,
+role.Veterinarian,Tierarzt,,
+role.Pilot,"Pilot",,
+role.Trapper,Fallensteller,,
+role.Hitman,Auftragskiller,,
+role.BotWhiz,Roboterexperte,,a child who likes tinkering with robots
+role.GoKartRacer,Go-Kart-Rennfahrer,,
+role.TaxiDriver,Taxifahrer,,
+role.Herbalist,Kräuterexperte,,
+role.Priest,Priester,,
+role.Landlord,Vermieter,,
+role.Beautician,Kosmetikfachkraft,,
+role.MarineBiologist,Meeresbiologe,,
+role.FieldSurveyor,Feldvermesser,,
+role.Alpinist,Bergsteiger,,
+role.ArmsDealer,Waffenhändler,,
+role.Survivalist,Überlebenskünstler,,
+role.Astronomer,Astronom,,
+role.Librarian,Bibliothekar,,
+role.Farmer,Landwirt,,
+role.Chemist,Chemiker,,
+role.GuideDog,Assistenzhund,,
+role.ServiceAnimal,Unterstützungstier,,
+role.PoliceOfficer,Polizist,,
+role.Maid,Dienstmädchen,,
+explosion.strength,Explosionsstärke,,how powerful the explosion would be if an object exploded
+adj.ongoing,laufend,,adjective
+obj.equipment.hats.baseballcap01,Baseballkappe,,
+obj.equipment.hats.baseballcap01.desc,Eine einfache Baseballkappe,,
+avoiding.someone,{0} wird vermieden,,{0} is name
+noun.chase,Verfolgung,,noun
+chasing.desc,{0} verfolgte {1},,{0} and {1} are names
+chase.outcome.good,{1} wurde von {0} verfolgt und hatte riesigen Spaß,,{0} and {1} are names
+chase.outcome.bad,{1} wurde von {0} verfolgt und hasste es,,{0} and {1} are names
+verb.chasing,verfolgen,,
+got.chased.by,Wurde von {0} verfolgt,,{0} is name
+chased.someone,{0} verfolgt,,{0} is name
+verb.running.away,Flieht,,
+device.lootable.only,"Dieser Gegenstand kann nicht gebaut werden. Er kann nur auf anderem Weg erworben werden, zum Beispiel durch das Finden auf verlassenen Schiffen.",,
+feedback.cool_stuff,Coole Sachen,,
+feedback.cool_stuff.tip,"Für das Teilen von coolen Schiffen, besonderen Momenten oder Screenshots, wähle diese Kategorie.",,
+ev.injured.raider.joined.colony,Ein verwundeter Plünderer hat sich ergeben,,
+ev.injured.raider.joined.colony.desc,"Ein verletzter Plünderer, {0} von der Fraktion {1}, bittet um Vergebung und hat seine Treue deiner Kolonie geschworen.",,"{0} is name, {1} is faction name"
+at.quality,mit {0} Qualität,,"{0} is percentage. This is for stat modifier of an item at given item quality. Example: ""Damage at 98% quality: 55"""
+immersive.icons,Realistische Symbole,,
+immersive.icons.tip,"Wenn aktiviert, werden Statussymbole auf Geräten vom Umgebungslicht beeinflusst. Andernfalls bleiben sie selbst in der Dunkelheit hell. Das macht das Spiel schwieriger, aber auch immersiver.",,
+feedback.graphics,Graphik,,
+feedback.graphics.tip,"Für Meldungen zu visuellen Fehlern in Rendering, Partikeleffekten, Benutzeroberfläche und Grafik.",,
+fog.of.war.warning,Warnung: {0} eingeschaltet. Dunkle Bereiche deines Schiffs sind nicht sichtbar.,,"{0} is translated settings menu path, such as ""Settings > Video > Abient Light > Fog Of War"""
+disable.device.animations,Geräteanimationen ausschalten,,
+disable.device.animations.tip,Das Deaktivieren von Geräteanimationen kann die Grafikleistung auf leistungsschwachen Geräten verbessern.,,
+act.confessing.love,Gesteht {0} seine Liebe,,{0} is name
+confessed.love.title,{0} gestand {1} seine Liebe,,{0} and {1} are names
+confess.love.outcome.accepted,{0} gestand {1} seine Liebe und die Gefühle wurden erwidert,,{0} and {1} are names
+confess.love.outcome.rejected,"{0} erklärte {1} seine Liebe, doch sie wurde zurückgewiesen",,{0} and {1} are names
+confess.love.outcome.ignored,"{0} gestand {1} seine Liebe, erhielt aber keine Antwort",,{0} and {1} are names
+verb.confessing.love,Liebe gestehen,,a verb
+confessed.love.to.someone,{0} die Liebe gestanden,,{0} is name
+confessed.love.accepted,Liebesgeständnis erwidert,,
+confessed.love.rejected,Liebesgeständnis zurückgewiesen,,
+confessed.love.ignored,Unbeantwortetes Liebesgeständnis,,
+received.love.confession,Ein Liebesgeständnis erhalten ,,
+noun.love.confession,Liebesgeständnis,,
+verb.receiving.love.confession,Liebesgeständnis erhalten,,
+scar.love.confession.rejection,{0} weist ein Liebesgeständnis zurück,,"{0} is name. example use in scar description: ""A scar on the heart infliced by Charlie rejecting a love confession"""
+adj.unreachable,unerreichbar,,
+disable.all.particles,Alle visuellen Effekte deaktivieren,,
+disable.all.particles.tip,"Alle visuellen Effekte werden deaktiviert, außer den absolut wichtigen.<br><br><b>ACHTUNG!</b> Viele zentrale Effekte, wie Waffenschüsse, sind dann nicht sichtbar.",,
+cpu.bonus,CPU-Bonus,,"example use: ""CPU Bonus: 1Thz > +10% mining depth"""
+memory.bonus,Speicher-Bonus,,"example use: ""Memory Bonus: 1Eb > +10% mining depth"""
+gpu.bonus,GPU-Bonus,,"example use: ""GPU Bonus: 1Thz > +10% mining depth"""
+disk.bonus,Festplatten-Bonus,,"example use: ""Disk Bonus: 1EB > +10% mining depth"""
+codex.m.electricity.computerresourcesbonus,Bonus auf Computerleistung,,
+codex.m.electricity.computerresourcesbonus.desc,"Computerressourcen wie <b>CPU</b>, <b>Speicher</b>, <b>GPU</b> und <b>Festplatte</b> können Geräten im selben Stromnetz Bonuswerte verleihen. Details findest du in den Tooltips.",,
+noun.industrial.equipment,Produktionsanlagen,,"generic term for all devices that are meant for producing something, factory machines, etc"
+adj.noisy,laut,,
+sleep.eff.industrial.noisy,Hat in einem lauten Industriegebiet geschlafen,,
+sleep.eff.industrial,Hat in einem Industriegebiet geschlafen,,
+sleep.eff.dorm,Hat in einem Schlafsaal geschlafen,,
+sleep.eff.own.room,Hat im Privatquartier geschlafen,,
+sleep.eff.room.too.large,Übermäßig große Schlafquartiere,,
+sleep.eff.room.too.small,Beengte Schlafquartiere,,
+sleep.eff.cozy.room,Gemütliche Schlafquartiere,,
+sleep.eff.outdoors,"Hat in einem Bereich geschlafen, der dem offenen Weltraum ausgesetzt ist",,
+hint.hyperspace_exit,"Hyperraum-Reisen erfolgen sofort, aber du musst jedes Mal manuell wieder austreten. Verwende dazu die {0}-Taste im {1}.",,"{0} is ""Exit Hyperspace"" button label, {1} is Starmap"
+select.filtered,Gefilterte auswählen,,for selecting all elements in a list after filtering them
+deselect.filtered,Gefilterte abwählen,,
+deselect.all,Alle abwählen,,
+noun.toll,Maut,,a price of passing a checkpoint
+verb.pay,Zahlen,,
+noun.discount,Rabatt,,
+noun.region.discount,Regionaler Rabatt,,
+noun.faction.tax,Fraktionssteuer,,
+noun.final.price,Endpreis,,
+paid.toll,Maut bezahlt,,notification that player has just paid a toll
+noun.tax,Steuern,,
+update.on.steam.workshop,Auf Steam Workshop aktualisieren,,
+mat.amounts.may.vary,Materialmengen können variieren,,
+cant.assign,Kann nicht zugewiesen werden,,must be as short as possible. A small label trying to assign a task that we cannot assign for some reason
+worker.could.not.reach.the.device,Der Arbeiter konnte das Gerät nicht erreichen,,
+last.month,Letzter Monat,,example use: Time worked (Last Month): 12h
+this.month,Diesen Monat,,example use: Time worked (This Month): 12h
+being.risking.life.for.food,"{0} riskiert den Tod im Vakuum, um {1} vor dem Hungertod zu retten",,"{0} is name, {1} is name of the meal"
+noun.death.care,Totenfürsorge,,name of research that unlocks death care related tech
+noun.medical.care,Medizinische Versorgung,,name of research that unlocks medical care devices
+verb.warp,Hyperraum reisen,,verb - to travel in space using the warp drive
+exit.hyperspace.to.recharge,"Wir mussten den Hyperraum verlassen, um die Antriebe aufzuladen. Wieder in den Hyperraum einsteigen, sobald die Antriebe bereit sind?",,
+hyperdrives.exhausted,Hyperantriebe erschöpft,,
+hyperspace.warped.back,Die Hyperantrieb-Sicherung brachte das Schiff zurück zu seiner Ankerposition,,
+hyperjump.failed,Hyperraumsprung fehlgeschlagen,,
+hyperjump.completed,Hyperraumsprung abgeschlossen,,
+next.stop,Nächster Halt,,"next destination in travel. example: ""Next stop: London"""
+verb.stay,Bleiben,,
+verb.reenter,Wieder betreten,,
+visit.waypoints,Wegpunkte besuchen,,
+visit.waypoints.tip,Verlasse den Hyperraum an jedem Wegpunkt und warte während der Hyperraum-Sprünge auf manuelles Fortsetzen,,
+noun.queue,Warteschlange,,
+status.on.hold,Angehalten,,"when some operation is paused, waiting for player to resume it"
+leaving.hyperspace,Hyperraum verlassen,,
+arrived.at,Angekommen bei {0},,{0} is location name
+noun.warp.target,Zielpunkt für Hyperraum,,target of warp drive hyperjump
+part.quality.threshold,Mindestqualität der Teile,,
+part.quality.threshold.tip,"Wenn Wesen entsorgt werden, werden Körperteile mit Qualität über dieser Grenze erhalten.",,
+codex.m.defenses.tractorbeam.desc_new,"Traktorstrahlen können die Flugbahn langsamer Projektile beeinflussen, wie Asteroiden, Meteoroiden sowie verschiedene Pods und Kapseln.<br><br>Um den Traktorstrahl zu nutzen, musst du ein <b>Traktorstrahl-Ziel</b> bauen und anschließen.",,
+codex.m.defenses.tractorbeam.desc2,"Mehrere Traktorstrahlen können dasselbe Projektil zu demselben oder zu unterschiedlichen Zielen lenken. Die Kraft jedes Traktorstrahls summiert sich, um den Einfluss auf die Flugbahn des Projektils zu erhöhen.",,
+tut.select.tile.being.warning,"Befindet sich ein Wesen über einem Objekt, wählt der erste Klick das Wesen aus. Ein zweiter Klick auf dieselbe Stelle wählt das Objekt aus.",,
+electricity.manage.tutorial.warning,"Du hast das {0}-Tutorial noch nicht abgeschlossen, versuchst aber, die {1}-Funktion zu verwenden. Wenn du genau weißt, was du tust, kannst du diese Warnung ignorieren. Andernfalls absolviere zuerst das {0}-Tutorial, um die Grundlagen zu lernen!<br><br>Das {0}-Tutorial findest du in {2}.",,"{0} is tutorial name (""Electricity""), {1} is ""Establish Temporary Connection"", {2} is ""Main Menu > Tutorials"". Note that {0} is repeated a few times on purpose."
+basic.tutorials.not.done.warning,Du hast die folgenden Tutorials noch nicht abgeschlossen: {0}<br><br>Sie behandeln die Grundlagen und werden neuen Spielern dringend empfohlen. Du findest sie in {1}.,,"{0} will be a list of tutorial names. {1} is ""Main Menu > Tutorials"""
+surgical.pending.procedures,Ausstehende Eingriffe,,label for list of surgical operations for humans or body part replacements for robots.
+fog.of.war.desc,"Der Nebel des Krieges blendet unbeleuchtete Bereiche deines Schiffs aus und sorgt so für eine zusätzliche Herausforderung.",,
+noun.extra.challenge,Erhöhte Schwierigkeit,,
+noun.visuals,Visuelle Effekte,,
+auto.expand.tips,Tooltips automatisch erweitern,,
+auto.expand.tips.desc,"Wenn diese Einstellung deaktiviert ist, werden einige Tooltips abgeschnitten, es sei denn, du hältst {0} gedrückt.",,
+bodypart.Body.BodyMindjar,Mindjar-Rahmen,,
+bodypart.Body.BodyMindjar.desc,"Ein mobiler Bot-Rahmen, der ein biologisches Gehirn aufnehmen kann.",,
+species.Mindjar,"Mindjar",,
+beings.mindjar01,"Mindjar",,
+beings.mindjar01.desc,"Ein Bot, der ein konserviertes Gehirn in einem Glasbehälter trägt, das seinen mechanischen Körper steuert.",,
+warning.too.close,Zu Nah,,"warning label. for example, when some object is too close to another object that requires minimum distance between them"
+warning.too.far,Zu Fern,,"warning label. for example, when some object is too far from the ship or another object"
+warning.blocked.by,Von {0} blockiert,,{0} name of the object that blocks something (like construction of another object)
+noun.work.spot,Arbeitsplatz,,
+noun.io.port,I/O-Anschluss,,"I/O is Input / Output. Usually it's a tech term that either has a specific idiom in your language, or just leave it as I/O, people will understand"
+warning.invalid.location,Ungültiger Ort,,
+warning.replacement.not.allowed,Ersetzung nicht erlaubt,,
+hint.dark.matter.acquisition,"Du kannst nach {0}-Vorkommen suchen, nachdem du die Forschung {1} freigeschaltet hast.",,{0} is Dark Matter {1} is Extended Scanning
+trait.hooker,Prostituierte,,"A female version of ""Gigolo"" trait"
