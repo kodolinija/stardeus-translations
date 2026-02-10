@@ -34,7 +34,7 @@ import argparse
 import sys
 from pathlib import Path
 from collections import defaultdict, Counter
-from typing import List, Dict, Tuple, Set
+from typing import List, Dict, Tuple, Set, Optional
 
 
 class ValidationIssue:
@@ -201,7 +201,7 @@ class TranslationValidator:
         
         return issues
     
-    def _check_encoding(self, file_path: Path) -> ValidationIssue | None:
+    def _check_encoding(self, file_path: Path) -> Optional[ValidationIssue]:
         """Check if file has UTF-8 BOM (which should be avoided)."""
         try:
             with open(file_path, 'rb') as f:
@@ -234,7 +234,8 @@ class TranslationValidator:
             ))
         
         # Check for potentially malformed placeholders (e.g., { 0}, {0 }, etc.)
-        malformed_pattern = r'\{\s+\w+\s*\}|\{\s*\w+\s+\}'
+        # Matches braces with content that has leading or trailing spaces
+        malformed_pattern = r'\{\s+[^\}]*\}|\{[^\}]*\s+\}'
         malformed = re.findall(malformed_pattern, translation)
         if malformed:
             issues.append(ValidationIssue(
@@ -255,7 +256,8 @@ class TranslationValidator:
         
         # Extract HTML-like tags from translation only: <tag>, <tag=value>, and </tag>
         # This handles both regular HTML and Unity TextMesh Pro tags like <color=#FF0000>
-        tag_pattern = r'<(/?)(\w+)(?:[=\s][^>]*)?>'
+        # Pattern matches: < optional-slash word-chars anything-up-to-closing >
+        tag_pattern = r'<(/?)(\w+)(?:[^>]*)?>'
         trans_tags = re.findall(tag_pattern, translation)
         
         # Build tag balance for translation
