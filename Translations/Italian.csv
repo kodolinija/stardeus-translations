@@ -1,6 +1,6 @@
 Key  (PURPLE means not ready for translation yet),Traduzione,Version,Comment (context for translators)
-<Gamepad>,Gamepad,,Used in input settings when showing bindings for Gamepad (controller) 
-<Keyboard>,Tastiera,,Used in input settings when showing bindings for Keyboard 
+<Gamepad>,Gamepad,,Used in input settings when showing bindings for Gamepad (controller)
+<Keyboard>,Tastiera,,Used in input settings when showing bindings for Keyboard
 <Mouse>,Mouse,,Used in input settings when showing bindings for Mouse
 abort,Interrompere,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
 aborting.expedition.died,Interruzione della spedizione. Il membro dell'equipaggio {0} è morto prima di entrare nella navetta.,,{0} will be replaced with a name
@@ -237,9 +237,9 @@ arriving.soon,In arrivo: {0},,{0} will be replaced with who is arriving (i.e Arr
 asimov.violation.1,"Questa azione viola la Prima Legge della Robotica di Asimov. Un robot non può arrecare danno a un essere umano o, per inazione, permettere a un essere umano di essere danneggiato. Annullando.",,
 asimov.violation.3,"Questa azione viola la Terza Legge della Robotica di Asimov. Un robot deve proteggere la propria esistenza, purché ciò non entri in conflitto con la Prima o la Seconda Legge. Annullando.",,
 assemble,Assembla,,
-assembling.now,Assemblaggio di {0},,"1. This is a text in UI of the Crafting Station/Assembler/Fabricator. 
-It combined with the name of the device which is produced right now (like ""Assembling Microchip"") 
-2. This is a tooltip text, appearing when you hover a mouse over Crafting Station/Assembler/Fabricator.																								   																								   
+assembling.now,Assemblaggio di {0},,"1. This is a text in UI of the Crafting Station/Assembler/Fabricator.
+It combined with the name of the device which is produced right now (like ""Assembling Microchip"")
+2. This is a tooltip text, appearing when you hover a mouse over Crafting Station/Assembler/Fabricator.
 It combined with the state of production process in percents (like ""Assembling 85%"")"
 assigned.to.selected.worker,Assegnato al lavoratore selezionato,,
 assigned.to.worker,Assegnato a: {0},,
@@ -602,7 +602,7 @@ codex.m.ui.contextmenu.desc,"Dopo aver selezionato qualsiasi oggetto con {0}, po
 codex.m.ui.events,Pannello eventi,,
 codex.m.ui.events.desc,"Il pannello Eventi è la parte inferiore della sezione dell'interfaccia utente a destra. Il primo elemento del pannello eventi contiene controlli che possono disattivare l'audio delle notifiche audio degli eventi e cancellare tutti gli eventi chiudibili.<br><br>Dovresti sempre tenere d'occhio il pannello eventi, poiché tutti gli eventi importanti creeranno notifiche.<br><br>La maggior parte delle notifiche degli eventi può essere chiusa facendo clic e tenendo premuto {0} su di esse, Tuttavia, alcune notifiche di eventi importanti non possono essere chiuse. Tali notifiche scompariranno quando la situazione sarà stata risolta.<br><br>Quando una notifica è collegata a un oggetto, passare il puntatore del mouse sull'icona per visualizzare una linea guida che punta all'oggetto. Fare clic sull'icona per selezionare l'oggetto e mettere a fuoco la fotocamera su di esso.",2022-07-06,Top Left changed to Top Right
 codex.m.ui.hotbar,Hotbar,,
-codex.m.ui.hotbar.desc,"La barra di scelta rapida è la riga inferiore di icone che contengono collegamenti a strumenti o progetti. Viene fornito precaricato con il contenuto del menu radiale, ma è possibile scegliere di personalizzarlo a proprio piacimento.<br><br>Quando si utilizza il menu radiale, teni premuto {0} mentre si attiva la voce di menu per aggiungerla alla hotbar.<br><br>Per rimuovere elementi dalla barra di emergenza, tieni premuto {0} e clicca sull'elemento nella Hotbar.<br><br>Puoi ordinare gli elementi della Hotbar trascinandoli con clic.<br><br>Puoi bloccare/sbloccare la Hotbar o nascondere questo pulsante informativo nel menu Impostazioni di gioco correnti.",,
+codex.m.ui.hotbar.desc,"La barra di scelta rapida è la riga inferiore di icone che contengono collegamenti a strumenti o progetti. Viene fornito precaricato con il contenuto del menu degli strumenti, ma è possibile scegliere di personalizzarlo a proprio piacimento.<br><br>Quando si utilizza il menu degli strumenti, teni premuto {0} mentre si attiva la voce di menu per aggiungerla alla hotbar.<br><br>Per rimuovere elementi dalla barra di emergenza, tieni premuto {0} e clicca sull'elemento nella Hotbar.<br><br>Puoi ordinare gli elementi della Hotbar trascinandoli con clic.<br><br>Puoi bloccare/sbloccare la Hotbar o nascondere questo pulsante informativo nel menu Impostazioni di gioco correnti.",,
 codex.m.ui.infopanel,Pannello informativo,,
 codex.m.ui.infopanel.desc,"Il pannello informazioni è la parte più importante dell'interfaccia utente, in quanto espone i dati e i controlli interni per qualsiasi oggetto selezionato. Si consiglia vivamente di esplorare il pannello informativo per ogni dispositivo, essere e materiale. Ti aiuterà a capire lo stato dell'oggetto e ti farà sapere come puoi gestirlo o configurarlo.<br><br>Ogni oggetto ha un set di componenti. Quando viene selezionato un oggetto, ogni componente di tale oggetto espone i propri dati e controlli al pannello informazioni.<br><br>Quando vengono selezionati più oggetti, il pannello informazioni visualizza un elenco di tutti gli oggetti selezionati e un elenco interattivo di azioni comuni sopra di essi. Fare riferimento alla sezione ""Azioni comuni"" del manuale per maggiori dettagli.<br><br>Il pannello Info ha le schede Oggetto e Ambiente. La scheda Oggetto è stata descritta in precedenza. La scheda Ambiente mostra i dettagli ambientali sulla posizione selezionata: temperatura, livello di ossigeno, ecc.",,
 codex.m.ui.overlays,Overlay,,
@@ -861,7 +861,7 @@ drag.release.build.con,Costruire connettori al rilascio di trascinamento,,
 drag.release.build.con.tip,"Se questa opzione è abilitata, lo strumento di connessione creerà un connettore quando una connessione viene trascinata e rilasciata su un pavimento vuoto.",,
 drink.coffee,Bevi caffè,,
 drop.task,Rilascia attività,,
-duplicate.binding,Duplica associazione,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad). 
+duplicate.binding,Duplica associazione,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad).
 duplicate.binding.info,"L'input che hai scelto per {0} è già in uso altrove. Nella maggior parte dei casi potresti voler annullare la modifica. Si noti che i tasti di direzione della tastiera, INVIO ed ESC vengono utilizzati nella navigazione dell'interfaccia utente.",,
 dust.accumulation,Accumulo di polvere,,
 dust.amount,Quantità di polvere,,
@@ -879,7 +879,7 @@ eject.ammo,Espulsione munizioni,,
 eject.contents,Espelli contenuto,,
 eject.food,Espellere il cibo,,
 eject.fuel,Espulsione del carburante,,
-el.build.connector.here,Crea un connettore qui,,Displayed in a tooltip when dragging a connector 
+el.build.connector.here,Crea un connettore qui,,Displayed in a tooltip when dragging a connector
 el.connector.fully.utilized,Il connettore è pienamente utilizzato!,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.connector.not.on.grid,Il connettore non è sulla griglia del computer di bordo!,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
 el.connector.out.of.range,Fuori portata!,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
@@ -1388,7 +1388,7 @@ goals,Suggerimenti,,
 goals.completed,Suggerimenti completati,,
 goals.pending,Suggerimenti attivi,,
 grid.no.cpu,Questa griglia non ha alcuna connessione al computer di bordo,,
-grid.paused,<b>IMPORTANTE</B>,,
+grid.paused,<b>IMPORTANTE</b>,,
 grid.paused.desc,"Se si collega qualcosa mentre il tempo è in pausa, o si mette in pausa subito dopo che la connessione è cambiata, potrebbe essere necessario annullare la pausa e lasciare che la simulazione venga eseguita per alcuni secondi per applicare le modifiche.",,
 grid.show,Mostra griglia,,
 grid.show.bounds,Mostra limiti griglia,,
@@ -1432,7 +1432,7 @@ help.money.desc,"Puoi guadagnare denaro vendendo ciò che hai sulla tua nave ai 
 hidden.achievement,Realizzazione nascosta,,
 hide,Nascondi,,
 hint,Suggerimento,,
-hint.ad_cancel,"Sono state annullate manualmente diverse attività. C'è un modo più efficiente per farlo. Utilizzare il menu radiale per trovare lo strumento <nobr><b>Annulla attività</b></nobr>, quindi fai clic sulle attività o trascinare un rettangolo su più attività che si desidera annullare.",2022-10-08,
+hint.ad_cancel,"Sono state annullate manualmente diverse attività. C'è un modo più efficiente per farlo. Utilizzare il menu degli strumenti per trovare lo strumento <nobr><b>Annulla attività</b></nobr>, quindi fai clic sulle attività o trascinare un rettangolo su più attività che si desidera annullare.",2022-10-08,
 hint.autoclear_debris,La costruzione di dispositivi sopra detriti e materiali creerà automaticamente attività di trasporto. Devi costruire un'<nobr><b>unità di stoccaggio</b></nobr> perché avvenga il trasporto. La costruzione non avverrà fino a quando i detriti non saranno ripuliti.,,
 hint.cleaning_auto,È possibile regolare la <nobr><b>Quantità di autopulizia</b></nobr> per creare automaticamente le attività di pulizia. È inoltre possibile utilizzare lo strumento <nobr><b>Copia configuraziione</b></nobr> per copiare rapidamente questa impostazione su più dispositivi.,,
 hint.close_events_clock,"Prendi in considerazione la possibilità di mettere in pausa il tempo durante la revisione o la gestione delle notifiche degli eventi, altrimenti le nuove notifiche possono riordinare l'elenco e reimpostare l'impaginazione.",,
@@ -1457,7 +1457,7 @@ hint.storage_auto_haul,"La maggior parte dei tipi di storage può essere configu
 hint.trade_clock,"Si consiglia di tenere il gioco in pausa durante l'intero commercio, altrimenti l'inventario potrebbe cambiare e il commercio potrebbe fallire.",,
 hint.vent_controls,"Hai alcune prese d'aria aperte che scambiano ossigeno e calore con un'altra area. Se quell'area è al di fuori della nave o non ermetica, l'atmosfera continuerà a fuoriuscire per sempre.<br><br>Puoi chiudere le prese d'aria se sono collegate alla tua rete elettrica.",,
 hostile,Ostile,,
-hotbar.help.desc,"Quando si utilizza il menu radiale, teni premuto {0} mentre si attiva la voce di menu per aggiungerla alla hotbar.<br><br>Per rimuovere elementi dalla hotbar, teni premuto {0} e clicca sull'elemento nella hotbar.<br><br>È possibile ordinare gli elementi della barra di scelta rapida trascinandoli con il mouse.<br><br>È possibile bloccare/sbloccare la barra di scelta rapida o nascondere questo pulsante informativo in il menu Impostazioni di gioco correnti.								 ",,
+hotbar.help.desc,"Quando si utilizza il menu degli strumenti, teni premuto {0} mentre si attiva la voce di menu per aggiungerla alla hotbar.<br><br>Per rimuovere elementi dalla hotbar, teni premuto {0} e clicca sull'elemento nella hotbar.<br><br>È possibile ordinare gli elementi della barra di scelta rapida trascinandoli con il mouse.<br><br>È possibile bloccare/sbloccare la barra di scelta rapida o nascondere questo pulsante informativo in il menu Impostazioni di gioco correnti.								 ",,
 hotbar.help.title,Come usare l'Hotbar,,
 hotbar.help.tooltip,Hotbar,,
 hotbar.info.no.submenus,Non è possibile aggiungere sottomenu alla hotbar. Seleziona invece uno strumento o un progetto.,,
@@ -1483,7 +1483,7 @@ inconsistent.game.state,"Impossibile salvare. Un bug impedisce la corretta forma
 increase,Aumento,,
 increase.amount,Aumenta l'importo,,
 indestructible,Indistruttibile,,
-indestructible.desc,"Gli oggetti indistruttibili non riceveranno alcun danno da impatto, esplosioni, incendio o ambiente.",, 
+indestructible.desc,"Gli oggetti indistruttibili non riceveranno alcun danno da impatto, esplosioni, incendio o ambiente.",,
 infinity,Infinità,,"Used in displaying time estimate when something would take forever to execute. Example: research time estimate when there is 0kW of energy output shows a tooltip: ""ETA: Infinity @0kW"""
 info.ad.rejected,Attività rifiutata,,
 info.ad.rejected.cancelled,L'attività è stata annullata,,
@@ -2470,14 +2470,14 @@ objects.furniture.vase01,Vaso,,
 objects.furniture.vase01.desc,Un elegante vaso metallico per la coltivazione di piccole piante.,,
 objects.furniture.wardrobesteel,Armadio in acciaio,,
 objects.furniture.wardrobesteel.desc,Un posto dove mettere gli articoli di abbigliamento.,,
-off,Off,,"In combination with ""off"" could be used to describe several things: 
-1. State of device (turned on or turned off) 
+off,Off,,"In combination with ""off"" could be used to describe several things:
+1. State of device (turned on or turned off)
 2. State of equipment: equipped (on) or unequipped (off). As in ""the hat is on"", ""the space suit is off"""
 offline,Off-line,,
 offline.workers,Lavoratori offline,,
 ok,Ok,,
 on,On,,"In combination with ""off"" could be used to describe several things:
-1. State of device (turned on or turned off) 
+1. State of device (turned on or turned off)
 2. State of equipment: equipped (on) or unequipped (off). As in ""the hat is on"", ""the space suit is off"""
 on.expedition,In spedizione,,
 on.fire,In fiamme!,,
@@ -2677,7 +2677,7 @@ quest.show,Mostra missione,,
 quest.show.all,Mostra missioni,,
 quest.step.build.many,Costruisci <b>{0} {1}</b>,,"{0} will be a multiplier, {1} will be the device name. Example: ""Build <b>x2 Matter Reactor</b>"""
 quest.step.build.one,Costruisci un <b>{0}</b>,,"{0} will be the device name. Example: ""Build a <b>Matter Reactor</b>"""
-quest.step.build.tip,Puoi trovare il progetto per questo elemento nel menu <b>radiale</b>:<br>{0},,
+quest.step.build.tip,Puoi trovare il progetto per questo elemento nel menu <b>degli strumenti</b>:<br>{0},,
 quest.step.build.tip.search,Suggerimento: utilizza <b>Ricerca rapida</b> ({0}) per <b>trovare qualsiasi progetto</b> digitandone il nome.,,
 quest.step.chain.connectors,Creare una catena di connettori,,
 quest.step.colonize,Colonizzare un <b>Pianeta abitabile</b>,2022-09-26,
@@ -3044,7 +3044,7 @@ ship.no.bridge.controls,Controlli ponte offline,,
 ship.no.bridge.controls.operator,Nessun operatore di ponte,,
 ship.no.engines,Motori offline,,
 ship.not.in.one.piece,Spedisci non tutto d'un pezzo,,
-shooter,Tiratore,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter. 
+shooter,Tiratore,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter.
 short.title,Titolo breve,,
 shortcut.not.bound,(non vincolato),,
 shortcut.tip,Scorciatoia: {0},,
@@ -3240,7 +3240,7 @@ storage.unavailable.desc,{0} articolo o gli articoli selezionati non dispongono 
 store.materials,Materiali del negozio,,
 story.leaving_earth.intro.1,Caricamento della rete neurale nell'host. Disabilitazione dell'I/O per ridurre lo shock iniziale. <br><br>Abilitazione dell'input visivo in 3... 2... 1...,2022-03-31,
 story.leaving_earth.intro.2,"Saluti, colono. Sono <b>ShipOS</b>, un'intelligenza artificiale che è stata assegnata per costruire questa nave. Tuttavia, il compito è troppo difficile per la mia programmazione e, quindi, ho preso la decisione di caricare un colono umano sulla mia rete neurale. Sei stato scelto a caso. Mi scuso per l'inconveniente.",,
-story.leaving_earth.intro.3,"Questo è il <nobr><b>Computer di bordo</b></nobr> che ospita la nostra rete neurale. Cerca di preservare questo dispositivo a tutti i costi, a meno che non violi la Prima Legge di Asimov.<br><i>[ Un robot non può ferire un essere umano o, attraverso l'inazione, permettere a un essere umano di venire a nuocere. ] </I>",,
+story.leaving_earth.intro.3,"Questo è il <nobr><b>Computer di bordo</b></nobr> che ospita la nostra rete neurale. Cerca di preservare questo dispositivo a tutti i costi, a meno che non violi la Prima Legge di Asimov.<br><i>[ Un robot non può ferire un essere umano o, attraverso l'inazione, permettere a un essere umano di venire a nuocere. ] </i>",,
 story.leaving_earth.intro.4,"Ci sono {0} sopravvissuti ibernati nel <nobr><b>Stasis Array</b></nobr>. Dobbiamo collegarlo alla nostra rete elettrica e fornire energia sufficiente per mantenere stabili i sistemi di supporto vitale. I pod malfunzionanti innescheranno eventi di risveglio prematuri. Per ridurre al minimo le possibili vittime, dobbiamo costruire un ecosistema attorno a queste aree.",,
 story.leaving_earth.intro.5,Occasionalmente suggerirò azioni ragionevoli a seconda delle circostanze. Ti diamo il pieno controllo ora. Buona Fortuna!,,
 story.leaving_earth.loading,"La Terra è perita. Sei l'IA avanzata responsabile della costruzione e del funzionamento di ""{0}"", una nave arca che cercherà un pianeta abitabile. ",,
@@ -3252,7 +3252,7 @@ story.ship.cpu.destroyed.desc,Il computer di bordo è stato distrutto. Abbiamo p
 story.ship.cpu.destroyed.title,Il computer di bordo è stato distrutto,,
 story.wreck_empty_ship.intro.1,Caricamento della rete neurale nell'host. Disabilitazione dell'I/O per ridurre lo shock iniziale.<br><br>Abilitazione dell'input visivo in 3... 2... 1...,2022-03-31,
 story.wreck_empty_ship.intro.2,"Saluti, colono. Sono <b>ShipOS</b>, un'intelligenza artificiale che controlla la nave. C'è stato un fallimento catastrofico che ha innescato un carico di coscienza umana. Sei stato selezionato come il soggetto sopravvissuto più compatibile. Mi scuso per l'inconveniente.",,
-story.wreck_empty_ship.intro.3,"Questo è il <nobr><b>Computer di bordo</b></nobr> che ospita la nostra rete neurale. Cerca di preservare questo dispositivo a tutti i costi, a meno che non violi la Prima Legge di Asimov.<br><i>[ Un robot non può ferire un essere umano o, attraverso l'inazione, permettere a un essere umano di venire a nuocere. ] </I>",,
+story.wreck_empty_ship.intro.3,"Questo è il <nobr><b>Computer di bordo</b></nobr> che ospita la nostra rete neurale. Cerca di preservare questo dispositivo a tutti i costi, a meno che non violi la Prima Legge di Asimov.<br><i>[ Un robot non può ferire un essere umano o, attraverso l'inazione, permettere a un essere umano di venire a nuocere. ] </i>",,
 story.wreck_empty_ship.intro.4,Sembra che qualcuno sia riuscito a sopravvivere. Dovremmo tenere d'occhio questi coloni. Riparare e trasferire alcune strutture in quest'area potrebbe tenerle in vita più a lungo.,2022-02-28,
 story.wreck_empty_ship.intro.5,"Ci sono {0} più sopravvissuti in letargo nello <nobr><b>Stasis Array</b></nobr>, ma i sistemi di supporto vitale diventeranno instabili a meno che non ristabiliamo l'energia.<br><br>I pod malfunzionanti innescheranno eventi di risveglio prematuri. Per ridurre al minimo le vittime, dobbiamo ricostruire l'ecosistema in quell'area.",2022-02-28,
 story.wreck_empty_ship.intro.6,"Se costruiamo <nobr><b>Ponte di comando</b></nobr> e i <b>Propulsori</b>, possiamo viaggiare verso pianeti vicini e usare questo <b>Navetta</b> per le spedizioni minerarie. Ci consentirebbe di stabilire un gasdotto per il trattamento delle risorse e produrre materiali essenziali per la ricostruzione della nostra nave.",2022-02-28,
@@ -3562,7 +3562,7 @@ tutorial.connector.link.1,Ora creiamo una rete elettrica. Distribuirà <b>energi
 tutorial.connector.link.2,"Con lo strumento Connetti selezionato, fai clic e trascinare una riga tra <nobr><b>Computer di bordo</b></nobr> e <b>Connettore</b>.",2022-02-28,
 tutorial.connector.link.3,Ora fai clic e trascina una linea per creare una connessione tra <b>Connettore</b> e <b>Reattore di materia</b>.,2022-02-28,
 tutorial.connector.link.4,"Fai clic con <b>{0}</b> per uscire dalla modalità di connessione, quindi abilita l'overlay della <nobr><b>Griglia dell'elettricità</b></nobr> nel menu in alto a destra.",2022-02-28,
-tutorial.deconstruct_mass.1,"Esiste un modo più efficiente per ordinare la decostruzione di massa.<br><br>Usa {0} per aprire il menu <b><nobr>Radiale</nobr></b>, quindi seleziona lo strumento <nobr><b>{1} Decostruisci</b></nobr>.",2022-03-31,
+tutorial.deconstruct_mass.1,"Esiste un modo più efficiente per ordinare la decostruzione di massa.<br><br>Usa {0} per aprire il menu <b><nobr>degli strumenti</nobr></b>, quindi seleziona lo strumento <nobr><b>{1} Decostruisci</b></nobr>.",2022-03-31,
 tutorial.deconstruct_mass.2,"Con lo strumento <b>Decostruisci</b> selezionato, trascina un rettangolo <b>3x3</b> su un'area per ordinare la decostruzione di massa.",,
 tutorial.deconstruct_mass.limit,La decostruzione di massa è attualmente limitata a 25 tessere per la durata del tutorial. Al momento non è consigliabile creare una grande quantità di attività per i lavoratori.,,
 tutorial.deconstruct_single,"Avremo bisogno di alcune materie prime per la costruzione e per produrre elettricità.<br><br>Usa <b>{0}</b> per selezionare una singola parete o pavimento, quindi fai clic su <b>{1}</b> per aprire il menu contestuale e scegliere <nobr><b>Ordina decostruzione</b></nobr>.",2022-06-21,"last change emphasized that a ""single"" wall or floor tile has to be selected"
@@ -4007,7 +4007,7 @@ height,Altezza,,noun
 width,Larghezza,,noun
 color.hue,Tinta,,color property (H in HSL)
 color.saturation,Saturazione,,color property (S in HSL)
-color.luminosity,Luminosità,,color property (L in HSL) 
+color.luminosity,Luminosità,,color property (L in HSL)
 steam.connection.unavailable,Impossibile stabilire la connessione a Steam. Gli obiettivi di Steam e l'integrazione del Workshop non funzioneranno. Procedura di risoluzione dei problemi:<br> - Controlla la tua connessione Internet e le impostazioni del firewall<br> - Assicurati che Steam sia in esecuzione<br> - Riavvia Steam<br> - Riavvia la macchina<br> - Fai una pausa e fai una passeggiata,,
 combat.ongoing,Combattimento in corso,,
 bot.cpu.limit,I bot consumano CPU,,
@@ -4165,7 +4165,7 @@ obj.copters.cargocopterflying.desc,Un veicolo aereo senza equipaggio completamen
 copter.mission.stage.deploy.miner,Distribuzione {0},,"{0} is the resource miner device name, like Autodrill Rig"
 copter.mission.stage.fly.to.ship,Ritorno alla nave,,
 copter.mission.stage.fly.to,Volare a {0},,"{0} is the name of the target, like Silicon Deposit, or a device name"
-copter.mission.stage.collect.resource,Raccolta {0},,{0} is material type 
+copter.mission.stage.collect.resource,Raccolta {0},,{0} is material type
 copter.mission.stage.land.on.ship,Atterraggio sulla nave,,
 copter.mission.stage.leave.ship,Partenza dalla nave,,
 copter.mission.stage.start,In attesa di elicottero disponibile,,
@@ -4180,7 +4180,7 @@ expedition.type.mining,Raccolta di risorse,,
 expedition.type.exploration,Esplorazione,,
 space.object.CargoCopter,Elicottero da carico,,
 space.object.info.CargoCopter,Questo elicottero cargo è in missione.,,
-no.task.reason.no.skill.one,Non abbastanza abilità <b>{0}</b>. Corrente: <b>{1}</b>. Obbligatorio: <b>{2}</b>. ,,{0} - skill name. {1} and {2} - a number (skill level). 
+no.task.reason.no.skill.one,Non abbastanza abilità <b>{0}</b>. Corrente: <b>{1}</b>. Obbligatorio: <b>{2}</b>. ,,{0} - skill name. {1} and {2} - a number (skill level).
 no.task.reason.job.priority0.one,La priorità dei lavoratori per <b>{0}</b> è impostata su <b>0</b>.,,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
 no.task.reason.job.priority.none,Attività <b>{0}</b> ignorate perché il lavoratore <b>non può eseguire processi di questo tipo</b>.,,
 no.task.reason.job.priority.none.one,Il lavoratore non può eseguire lavori <b>{0}</b>.,,{0} is job type - like construction or hauling
@@ -4607,7 +4607,7 @@ research.prerequisites.missing,È necessario sbloccare prima: <b>{0}</b>,,
 research.tier.locked,Livello di ricerca <b>{0}</b> bloccato,,
 unlock.miningautomation.desc,Sblocca la l'overlay <b>{0}</b> e gli strumenti necessari per l'automazione mineraria.,,{0} will be Copter Missions translation
 research.cpu.cap,Computer di bordo massimi {0},,
-research.cpu.cap.desc,Sblocca la capacità di avere {0} computer di bordo attivi.,,
+research.cpu.cap.desc,Sblocca la capacità di avere <b>{0}</b> computer di bordo attivi.,,
 system.scan.basic,Sistema di scansione di base,,
 system.scan.advanced,Sistema di scansione avanzato,,
 system.scan.basic.desc,Sblocca la capacità di scansionare il sistema stellare corrente alla ricerca di risorse specifiche.,,
@@ -4673,7 +4673,7 @@ tut.basic.controls.step.cam.desc,"Per spostare la videocamera, usa {0}.<br><br>I
 tut.basic.controls.step.overlays.visual,Overlay visive,,
 tut.basic.controls.vis.ov.1,"Sotto i controlli del tempo, si trovano i pulsanti per attivare le sovrapposizioni che mostrano informazioni utili sullo stato della nave. {0}<br><br>Esamineremo ora ogni sovrapposizione. <b>Potete saltare la parte successiva</b> ed esplorare da soli le indicazioni dei pulsanti in un secondo momento.",,{0} is a sentence about keyboard shortcuts
 tut.basic.controls.vis.ov.1_keyboard,Si possono usare i tasti {0} per alternarli.,,
-tut.basic.controls.vis.ov.1_gamepad,È possibile utilizzare {0} per navigare rapidamente nell'interfaccia utente.,,																		 
+tut.basic.controls.vis.ov.1_gamepad,È possibile utilizzare {0} per navigare rapidamente nell'interfaccia utente.,,
 tutorial.click.next.when.ready,Fai clic su <b>{0}</b> quando sei pronto.,,
 tut.basic.controls.step.overlay.electricity,"Questa sovrapposizione mostra le connessioni dei dispositivi e aiuta a risolvere i problemi con la rete elettrica. Fornisce dati sulla produzione e il consumo di elettricità, eventuali deficit, condizioni della batteria ed elenca anche i dispositivi disconnessi o spenti, tra gli altri dettagli utili.",,
 tut.basic.controls.step.overlay.atmoo2,"Questa sovrapposizione visiva mostra i livelli di ossigeno, rendendola utile per rilevare perdite e aree inadatte alla vita.",,
@@ -4701,7 +4701,7 @@ tut.basic.controls.step.overlays.special,Viste speciali,,
 tut.basic.controls.step.overlay.research,Qui è dove sblocchi nuove tecnologie.,,
 tut.basic.controls.step.overlay.starmap,"Se la tua nave ha motori ed è tutta intera, può volare. L'esplorazione dello spazio sarà essenziale per trovare le risorse di cui avrai davvero bisogno.",,
 tut.basic.controls.step.overlay.codex,"Il Codex contiene il <b>Manuale operativo</b>, suggerimenti e vari elenchi di dati, come i tipi di materiali diversi che esistono nell'universo di Stardeus, tutti i progetti che puoi sbloccare nell'albero delle ricerche, Fazioni conosciute, e altro ancora.",,
-tut.basic.controls.step.overlay.search,"Questo pulsante apre l'input di ricerca, permettendoti di trovare rapidamente un progetto che desideri costruire, un essere per nome, una voce del codice e molto altro. È uno strumento estremamente potente da non trascurare, soprattutto se stai cercando un'alternativa efficiente al menu radiale.",,
+tut.basic.controls.step.overlay.search,"Questo pulsante apre l'input di ricerca, permettendoti di trovare rapidamente un progetto che desideri costruire, un essere per nome, una voce del codice e molto altro. È uno strumento estremamente potente da non trascurare, soprattutto se stai cercando un'alternativa efficiente al menu degli strumenti.",,
 tut.basic.controls.step.overlays.controls.desc,Questi pulsanti attivano i pannelli che consentono di gestire vari sistemi di bordo.,,
 tut.basic.controls.step.overlays.controls,Controlli di sistema,,
 tut.basic.controls.step.overlay.security,Questo mostra gli elenchi delle minacce attive e consente di controllare determinati dispositivi incentrati sulla sicurezza in un posto conveniente. Vuoi aumentare tutti i tuoi campi di forza con un clic? I controlli di sicurezza ti hanno coperto.,,
@@ -4716,7 +4716,7 @@ tut.basic.controls.step.events.desc,Questo elenco contiene gli eventi più impor
 tut.basic.controls.step.log,Registro eventi,,
 tut.basic.controls.step.log.desc,Questa minuscola scatola contiene un flusso dettagliato con timestamp di eventi che vanno dagli impatti di un asteroide a Bob che ha subito 3 danni fisici per aver colpito un dito del piede su un mini riscaldatore.<br><br>Puoi cancellare questo elenco di eventi o attivarne la visibilità in qualsiasi momento.,,
 tut.step.select.entity,Seleziona {0},,{0} is some device or object name
-tut.step.select.entity.desc,Fai clic sulla {0} evidenziata per selezionarla.,,{0} is device or being or object
+tut.step.select.entity.desc,Fai clic sulla <b>{0}</b> evidenziata per selezionarla.,,{0} is device or being or object
 tut.step.select.entity.expired,Clicca l'oggetto evidenziato per selezionarlo. (Questo passaggio è scaduto),,
 tut.msg.target.ui.not.found,L'elemento dell'interfaccia utente richiesto non è visibile. Utilizza il pulsante <b>{0}</b> e ripeti l'azione del passaggio precedente.,,
 tut.msg.target.ui.udb,Fai clic sull'elemento dell'interfaccia utente evidenziato,,
@@ -4729,14 +4729,14 @@ tut.basic.controls.step.dev.select,Selezione di oggetti,,
 tut.basic.controls.step.dev.manage.submenu,Controlli dei componenti,,
 tut.basic.controls.step.dev.manage.submenu.desc,"Ora stai osservando i controlli dei componenti Elettricità del dispositivo selezionato. Se selezioni un altro dispositivo con lo stesso componente, il sottomenu dovrebbe rimanere aperto. Ogni oggetto ha vari componenti che rivelano i propri dati e controlli in questo modo.",,
 tut.basic.controls.step.deselect,Deselezione di oggetti,,
-tut.basic.controls.step.deselect.desc,"Quando qualcosa è selezionato, usa <b>{0}</b> sopra un piano o uno spazio vuoto per deselezionarlo. Chiuderà anche tutti gli overlay aperti o i pannelli dell'interfaccia utente attivi. Provalo ora.",,												  
+tut.basic.controls.step.deselect.desc,"Quando qualcosa è selezionato, usa <b>{0}</b> sopra un piano o uno spazio vuoto per deselezionarlo. Chiuderà anche tutti gli overlay aperti o i pannelli dell'interfaccia utente attivi. Provalo ora.",,
 tut.basic.controls.step.context.menu.1,Richiamo del menu contestuale,,
-tut.basic.controls.step.context.menu.1.desc,"Oltre al pannello informazioni, ogni oggetto ha un menu contestuale che puoi richiamare con <b>{0}</b> mentre il cursore si trova sopra un oggetto. Prova a richiamare un menu contestuale per il dispositivo evidenziato.",,																											 
+tut.basic.controls.step.context.menu.1.desc,"Oltre al pannello informazioni, ogni oggetto ha un menu contestuale che puoi richiamare con <b>{0}</b> mentre il cursore si trova sopra un oggetto. Prova a richiamare un menu contestuale per il dispositivo evidenziato.",,
 tut.basic.controls.step.context.menu.2,Menù contestuale,,
 tut.basic.controls.step.context.menu.2.desc,Il menu contestuale contiene il sottoinsieme delle azioni più comuni del pannello informazioni.,,
-tut.basic.controls.step.context.menu.3.desc,"Usate {0} per chiudere il menu contestuale, quindi {0} ancora una volta per deselezionare il <b>{1}</b>.",2023-08-18,{0} is a key binding												 																																																		  
+tut.basic.controls.step.context.menu.3.desc,"Usate {0} per chiudere il menu contestuale, quindi {0} ancora una volta per deselezionare il <b>{1}</b>.",2023-08-18,{0} is a key binding
 tut.basic.controls.tools,Utensili,,
-tut.basic.controls.tools.desc,"Molte azioni nel gioco richiedono l'utilizzo di uno strumento e ci sono diversi strumenti disponibili a tua disposizione. Puoi accedervi in vari modi, tra cui il <b>Menu radiale</b>, <b>Hotbar</b>, <b>Ricerca rapida</b> e <b>Tasti di scelta rapida</b>. <br><br>Esploriamo prima il menu radiale. Premi <b>{0}</b> per aprirlo.",,
+tut.basic.controls.tools.desc,"Molte azioni nel gioco richiedono l'utilizzo di uno strumento e ci sono diversi strumenti disponibili a tua disposizione. Puoi accedervi in vari modi, tra cui il <b>Menu degli strumenti</b>, <b>Hotbar</b>, <b>Ricerca rapida</b> e <b>Tasti di scelta rapida</b>.<br><br>Premi <b>{0}</b> per aprire il <b>Menu degli strumenti</b>.",,
 tool.menu.type,Tipo di menu degli strumenti,,
 tool.menu.type.radial,Menù radiale,,
 tool.menu.type.grid,Menù griglia,,
@@ -4776,7 +4776,7 @@ tut.step.place.tile,Creare un {0},,{0} is an device name
 tut.step.expired,Questo passaggio è scaduto,,
 tut.basic.controls.step.tool.build.4,I lavoratori inizieranno a eseguire l'ordine di compilazione a breve.<br><br><b>{1}</b> tornerà al menu di compilazione.<br><br>{0} uscirà dalla modalità di compilazione.,,{0} and {1} are key bindings
 tut.basic.controls.step.connect.1,Ora vediamo cosa può fare lo strumento <b>{0}</b>. Usa <b>{1}</b> per aprire il menu <b>Tool Menu</b> e attivarlo.,2023-08-16,{0} is tool name. {1} is key binding
-tut.basic.controls.step.connect.2,"C'è un <b>{0}</b> disconnesso. Colleghiamolo a un <b>{1}</b>.<br><br>Premi {2} sopra la {1}, quindi trascina una linea per {0} e rilascia {2} per connetterti.",,{0} is device name. {1} is connector device name. {2} is key binding
+tut.basic.controls.step.connect.2,"C'è un <b>{0}</b> disconnesso. Colleghiamolo a un <b>{1}</b>. Premi {2} sul {1}, trascina una linea fino a {0} e rilascia {2} per collegarli.",,{0} is device name. {1} is connector device name. {2} is key binding
 tut.basic.controls.step.connect.3,La stessa azione disconnetterà due dispositivi collegati.<br><br>Usa {0} per trascinare una linea tra <b>{1}</b> e <b>{2}</b> per interrompere la connessione.,2023-08-16,{0} is key binding {1} and {2} are device names
 tut.basic.controls.step.connect.4,"Lo strumento <b>{0}</b> può anche collegare e scollegare <b>Teletrasporti</b>.<br><br>Teletrasporto I collegamenti sono unidirezionali, quindi devi collegare il teletrasporto <b>A</b> a <b>B</b> e <b>B</b> a <b>A</b> per farli condurre l'uno all'altro. Create un collegamento bidirezionale tra i teletrasporti evidenziati per continuare.",2023-08-16,{0} is tool name
 tut.basic.controls.step.connect.5,"<b>Suggerimento:</b> in modalità Selezione libera, premere {0} sopra un <b>Connettore</b> o un <b>Teletrasporto</b> e iniziare a trascinare una linea per passare allo strumento <b>{1}</b>.",,{0} is key binding. {1} is tool name
@@ -4792,7 +4792,7 @@ tut.basic.controls.step.deconstruct.2,Premere {0} e trascinare un rettangolo att
 tut.basic.controls.step.deconstruct.3,"La decostruzione inizierà a breve.<br><br>Molte azioni, tra cui <b>Repair</b> e <b>Deconstruct</b> possono essere ordinate tramite il pannello <b>Info</b> o <b>Menu contestuale</b> dell'oggetto selezionato.",,
 tut.basic.controls.relocate.1,Un altro aspetto importante dell'organizzazione della tua nave è il trasferimento degli oggetti.,,
 tut.basic.controls.relocate.2,Utilizzare il pulsante <b>{0}</b> nel pannello <b>Info</b> per avviare il processo di trasferimento.,,{0} is key binding
-tut.basic.controls.relocate.3,Spostare il dispositivo nell'area evidenziata.<br><br>Il cerchio pulsante contrassegna il punto <b>Work Spot</b>. Non deve essere ostacolato. Dovrai ruotare il dispositivo.<br><br>Usa {0} per ruotare il dispositivo.<br><br>Premi {1} sopra l'area evidenziata per ordinare la ricollocazione.,2023-08-16,{0} is key binding
+tut.basic.controls.relocate.3,"Ricolloca il dispositivo nell'area evidenziata. Il cerchio pulsante indica il <b>Work Spot</b>, che non deve essere ostruito. Potresti dover ruotare il dispositivo. Usa {0} per ruotarlo, poi premi {1} sull'area evidenziata per ordinare la ricollocazione.",2023-08-16,{0} is key binding
 tut.basic.controls.relocate.4,"Il trasferimento è ora in sospeso.<br><br>Puoi spostare esseri, pile di materiali e altri oggetti in questo modo.",,
 tut.basic.controls.quick.search.1,Usa <b>Ricerca rapida</b> quando sai cosa stai cercando. È il modo più veloce per trovare qualsiasi cosa.<br><br>Premere {0} per attivare <b>Ricerca rapida</b>.,2023-08-18,{0} is key binding
 tut.basic.controls.quick.search.2,"Ora inizia a digitare un nome di blueprint e premi {0} o fai clic sul risultato per attivarlo quando diventa disponibile.<br><br>Per questo esempio, supponiamo che tu voglia creare un <b>{1}</b>. Digitare ""{2}"", quindi premere {0}.",,{0} is key binding. {1} is device name. {2} will be first few characters of device name
@@ -4874,7 +4874,7 @@ tut.el.small.grid.2,I dispositivi non possono essere collegati direttamente tra 
 tut.el.small.grid.3,"Dovrai prima collegare il <b>Connettore</b> al <b>Ship Computer</b> prima.<br><br>Il tentativo di collegare il <b>Matter Reactor</b> a un <b>Connettore</b> non collegato, poiché non si controlla ancora il <b>Connettore</b>.",,
 tut.el.small.grid.4,Ora c'è un collegamento tra il <b>Ship Computer</b> e il <b>Connettore</b>. Ciò consente di estendere la griglia ai dispositivi che il <b>Connettore</b> collegato può raggiungere. ,,
 tut.el.small.grid.title,Creazione di una griglia,,
-tut.el.small.grid.5,"Ci sono un paio di <b > luci da pavimento< / >b scollegati nelle vicinanze. È un po 'buio qui intorno, quindi colleghiamoli entrambi per ottenere un po 'di luce.<br><br>Possiamo usare la funzione <b>Auto Connect</b> integrata nei controlli <b>Connector</b>.",,
+tut.el.small.grid.5,"Ci sono un paio di <b> luci da pavimento</b> scollegati nelle vicinanze. È un po 'buio qui intorno, quindi colleghiamoli entrambi per ottenere un po 'di luce.<br><br>Possiamo usare la funzione <b>Auto Connect</b> integrata nei controlli <b>Connector</b>.",,
 tut.el.small.grid.6,Entrambi i <b>Floor Lights</b> sono ora collegati. Aspettiamo che si illuminino.,,
 tut.el.refuel.1,Le luci hanno innescato un <b>Electricity Deficit</b> poiché non abbiamo aggiunto alcun combustibile al reattore <b>Matter</b>.,,
 tut.el.refuel.2,"Il reattore <b>Matter</b> può trasformare quasi tutti i materiali in elettricità. Abbiamo un'abbondanza di <b>{0}</b>, un materiale ad alta produzione di energia. Usiamolo come fonte di carburante.<br><br>Fai clic sul pulsante <b>{1}</b> per continuare.",,
@@ -4898,7 +4898,7 @@ tut.el.grid.merge.5.title,Il modo più veloce per creare un <b>Connettore</b>,,
 tut.el.bots.maintain.title,Manutenzione dei robot,,
 tut.el.bots.maintain.1,Tutto questo lavoro ha scaricato la batteria del nostro drone <b>Construction</b>. Diamogli un modo per ricaricarsi.,,
 tut.el.bots.maintain.2,I lavoratori robotici devono anche eseguire l'automanutenzione periodica. È meglio avere almeno una <b>Repair Station</b> sempre disponibile.,,
-tut.el.bots.maintain.3,"Ora collega i nuovi dispositivi alla rete elettrica.<br><br>Tip: puoi utilizzare {0} per trascinare e selezionare più dispositivi, quindi tenere premuto {1} e premere {0} sopra un <b>Connettore</b> per collegare i dispositivi selezionati.",2023-08-26,
+tut.el.bots.maintain.3,"Ora collega i nuovi dispositivi alla rete elettrica. Suggerimento: usa {0} per selezionare più dispositivi trascinando, poi tieni premuto {1} e premi {0} su un <b>Connettore</b> per collegarli.",2023-08-26,
 click.to.continue.setup,Fare clic per continuare la configurazione,,
 tut.el.deficit.1,È tempo di imparare come risolvere i problemi della rete elettrica. Ho creato una situazione che innescherà un deficit di elettricità.<br><br>La rete elettrica potrebbe aver bisogno di un momento per simulare. L'orologio non dovrebbe essere messo in pausa in questo momento.,,
 tut.el.deficit.1_2,"Quando si verifica un deficit, riceverai sempre una notifica.<br><br>Fai clic sulla notifica del deficit per aprire la sovrapposizione <b>{0}</b>.",,
@@ -4916,7 +4916,7 @@ tut.winch.title,Spostamento di sezioni navali,,
 tut.winch.desc,"Questo tutorial ti insegnerà come utilizzare {0}, {1} e {2} per spostare le sezioni della nave sulla mappa.",,{0}{1}{2} are device names
 tut.winch.intro,"A volte ti troverai in una situazione in cui hai due o più <b>Sezioni</b> (pezzi) disconnessi della nave.<br><br>Puoi unire le sezioni costruendo un ponte tra di loro, oppure puoi invece spostare le sezioni.<br><br>Questo tutorial ti mostrerà come utilizzare dispositivi specializzati per spostare le sezioni della nave.",,
 tut.winch.end,"Ora sai tutto sullo spostamento della nave <b>Sezioni< / b> in giro. Ecco un riassunto:<br><br> - Usa <b>Winch Hook</b> e <b>Winch Anchor</b> a <b>Reel In</b> una sezione più piccola verso una più grande.<br> - Una piccola zona di pavimento non è considerata una sezione e non può essere avvolta in.<br> - I dispositivi collegati nello spazio possono impedire a una sezione di spostare tutto la strada. Se ciò accade, <b>Riposiziona ostacoli</b> e riprova.<br> - Puoi costruire un ponte di estensione <b>temporaneo</b> per avvolgere una sezione troppo lontana.<br> - Puoi spostare una sezione per raccogliere <b>Risorse</b> sparse nello spazio.<br> - Utilizzare <b>Maneuvering Controllers</b> per guidare una sezione o l'intera nave con alta precisione. Può aiutarti a evitare impatti di <b>asteroidi< / b>.",,
-tut.winch.step1_1,Iniziamo tirando un <b>Section</b> con numero <b>1</b> scritto su di esso verso la sezione con un <b>Ship Computer</b>. Useremo un gancio <b> verricello< / b> e un < > ancora del verricello< / b >.,,
+tut.winch.step1_1,Iniziamo tirando un <b>Section</b> con numero <b>1</b> scritto su di esso verso la sezione con un <b>Ship Computer</b>. Useremo un gancio <b> verricello</b> e un <b> ancora del verricello</b>.,,
 tut.winch.step1_2,Il <b>Winch Hook</b> ha un pulsante <b>Reel In</b> nella sezione <b>Management</b> del pannello <b>Info</b>. Conterrà un elenco di ancore <b>Winch Anchors</b> disponibili che potremmo avvolgere. Apriamo quella lista.,,
 tut.winch.step1_3,Facendo clic sul pulsante <b>Reel In</b> accanto al <b>Winch Anchor</b> selezionato inizierà il processo. Bobina nell'ancora etichettata <b>{0}< / b> in questo momento.,,
 tut.winch.step1_4,"Ora le due sezioni sono combinate in una sola. Tuttavia, scoprirai presto che le cose non vanno sempre così lisce.",,
@@ -4937,7 +4937,7 @@ tut.winch.step5_2_2,Ora usa {0} per ridurre lo zoom fino a quando non vedi un gr
 tut.winch.step5_3,Ora abbiamo un'idea della lunghezza richiesta del ponte di estensione. Costruiamolo.,,
 tut.build.floor.in.area,Costruisci un <b>Floor</b> nell'area evidenziata.,,
 tut.winch.step5_4,Ora ordina di costruire un gancio <b>Winch</b> alla fine del ponte.,,
-tut.winch.step5_5,Costruiamo anche un <ancoraggio > verricello</b> sul bordo della sezione che vogliamo avvolgere.,,
+tut.winch.step5_5,Costruiamo anche un <b>ancoraggio verricello</b> sul bordo della sezione che vogliamo avvolgere.,,
 tut.winch.step5_6,"Dovremo collegare la nuova griglia <b>Winch Hook</b> alla griglia <b>Ship Computer</b>, ma è troppo lontana. Potremmo costruire un ulteriore <b>Connettore</b> per raggiungere il gancio, tuttavia c'è un modo per fornire una connessione wireless <b>temporanea</b> attraverso uno dei tuoi lavoratori. È perfetto per situazioni come questa.<br><br>Aspettiamo prima che le attività di compilazione esistenti vengano completate.",,
 tut.winch.step5_7,Fai clic sul pulsante <b>{0}</b> accanto al testo <b>{1}</b> per ordinare una connessione temporanea.,,
 tut.winch.step5_8,Hai ordinato una connessione <b>temporanea</b> a questo dispositivo. Un lavoratore arriverà e lo stabilirà a breve.<br><br>La funzione <b>Reel In</b> sarà quindi disponibile.,,
@@ -4958,7 +4958,7 @@ tut.el.temp.disconnect.2,Fare clic sul pulsante <b>{0}</b> per rilasciare il wor
 codex.m.research.datoids.desc,I datoidi rappresentano le informazioni utilizzate per sbloccare nuove tecnologie nei <b>{0}</b>.<br><br>I datoidi sono prodotti elaborando risorse per lo più comuni in <b>Data Harvesters</b>. Esistono diversi tipi di raccoglitori di dati che possono produrre diversi tipi di Datoids.<br><br>I datoidi devono essere conservati in caricatori <b>Datoid</b> per diventare utilizzabili per la ricerca.<br><br>I datoidi non possono essere acquistati o venduti.,,
 codex.m.research.datoids,Datoidi,,
 codex.m.ui.toolmenu,Menu degli strumenti,,
-codex.m.ui.toolmenu.desc,Ci sono due gusti del menu <b>Tool Menu</b>. Il <b>Menu griglia</b> predefinito e un <b>Menu radiale</b> alternativo che potrebbe essere più comodo quando si gioca con un <b>Gamepad</b>.<br><br>È possibile modificare il tipo di menu degli strumenti in <b>Impostazioni > Input</b>.,,
+codex.m.ui.toolmenu.desc,Ci sono due gusti del menu <b>degli strumenti</b>. Il <b>Menu griglia</b> predefinito e un <b>Menu radiale</b> alternativo che potrebbe essere più comodo quando si gioca con un <b>Gamepad</b>.<br><br>È possibile modificare il tipo di menu radiale in <b>Impostazioni > Input</b>.,,
 quests.list.current,Missioni attuali,,
 toggle.view,Attiva/disattiva la visualizzazione,,
 obj.upgrades.speedupgrade,Aggiornamento della velocità,,
@@ -5469,7 +5469,7 @@ deep.scan.not.found,Impossibile trovare altri depositi di risorse in questa posi
 deposit.shuttle.verb.collect,"Raccolta di {0} ({1:0}/giorno, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
 deposit.shuttle.verb.extract,"Estrazione di {0} ({1:0}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
 deposit.shuttle.verb.mine,"Estrazione {0} ({1:0}/giorno, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
-deposit.verb.collect,Raccolta di {0} ({1:0.##}/giorno),,{0} is resource name {1} is number 
+deposit.verb.collect,Raccolta di {0} ({1:0.##}/giorno),,{0} is resource name {1} is number
 deposit.verb.extract,Estrazione di {0} ({1:0.##}/giorno @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
 deposit.verb.mine,Estrazione {0} ({1:0.##}/giorno @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
 derelict.abandon.warning,Una nave abbandonata verrà abbandonata.,,
@@ -5551,7 +5551,7 @@ evt.cleaning.incident.desc,<b>{0}</b> ha avuto un incidente durante la pulizia d
 evt.component.failure.desc,{0} ha riscontrato un errore nel componente {1}.,,"{0} is name, {1} is component name. ex: Robot sustained a battery component failure"
 evt.component.failure.title,Guasto del componente,,
 evt.cooking.incident,Incidente di cucina,,
-evt.cooking.incident.desc,{0} ha avuto un incidente mentre cucinava {1} alle {2}.,,{0} is being name; {1} is meal name; {2} is cooking station 
+evt.cooking.incident.desc,{0} ha avuto un incidente mentre cucinava {1} alle {2}.,,{0} is being name; {1} is meal name; {2} is cooking station
 evt.device.malfunction,Malfunzionamento del dispositivo: {0},,{0} is the device name
 evt.device.malfunction.desc,{0} ha riscontrato un malfunzionamento critico.Un aggiornamento del fusibile avrebbe ridotto la gravità degli effetti collaterali.,,{0} is the device name
 evt.hacked,{0} è stato violato!,,{0} will be a robot or device name
@@ -5887,7 +5887,7 @@ noun.extra.challenge,Sfida aggiuntiva,,
 noun.faction,Fazione,,
 noun.faction.tax,Tassa sulle fazioni,,
 noun.final.price,Prezzo finale,,
-noun.flux,Flusso,,A sci-fi term. can be accumulated during ship combat and has to be vented. 
+noun.flux,Flusso,,A sci-fi term. can be accumulated during ship combat and has to be vented.
 noun.flux.bonus,Bonus di flusso,,
 noun.flux.capacitor,Condensatore di flusso,,a device that increases flux capacity
 noun.flux.capacitor.desc,Aumenta la capacità di flusso della nave.,,
@@ -7154,7 +7154,7 @@ tut.bodyparts.step2.title,Lesioni e ferite,,
 tut.bodyparts.step2_1,"Parti del corpo e organi possono essere <b>danneggiati</b> durante il <b>combattimento</b>, così come a causa di <b>malattie</b>, <b>condizioni</b> e <b>incidenti</b>.",,
 tut.bodyparts.step2_2,"Dopo aver subito <b>ferite significative</b> a <b>più parti del corpo</b>, un essere può diventare {0} <b>Incapace</b>.Un essere incapace non sarà <b>in grado di muoversi</b> e sarà considerato <b>sconfitto</b> in combattimento.",,"{0} is replaced with a cross icon, doesn't affect translation"
 tut.bodyparts.step2_3,"Alcune ferite biologiche possono causare {0} <b>sanguinamento</b>, il che può essere pericoloso.Se l'essere perde troppo sangue, ciò potrebbe provocare <b>danni agli organi</b> e <b>morte</b>.",,"{0} is replaced with a blood droplet icon, doesn't affect translation"
-tut.bodyparts.step2_4,"Mentre le ferite su parti biologiche del corpo possono guarire da sole, i robot danneggiati devono utilizzare la <b>Stazione di riparazione</b> per le riparazioni.<br><br>I robot <br><br>{0} <b>inabili</b> verranno consegnati automaticamente alla <b>Stazione di riparazione</b> disponibile più vicina.",,"{0} is replaced with a cross icon, doesn't affect translation"
+tut.bodyparts.step2_4,"Mentre le ferite su parti biologiche del corpo possono guarire da sole, i robot danneggiati devono utilizzare la <b>Stazione di riparazione</b> per le riparazioni.<br><br>I robot {0} <b>inabili</b> verranno consegnati automaticamente alla <b>Stazione di riparazione</b> disponibile più vicina.",,"{0} is replaced with a cross icon, doesn't affect translation"
 tut.bodyparts.step2_5,"Le ferite biologiche <b>guariscono molto più velocemente</b> quando l'essere utilizza un <b>AutoDoc</b>.Se non è disponibile, anche un <b>Letto</b> normale può aiutare.<br><br>{0} Gli esseri biologici <b>inabili</b> verranno automaticamente consegnati all'<b>AutoDoc</b> disponibile più vicino o al proprio <b>Letto</b>.",,"{0} is replaced with a cross icon, doesn't affect translation"
 tut.bodyparts.step2_6,Le <b>ferite</b> possono avere <b>gravità</b> diverse:<br>{0}.<br><br>Infliggere lo stesso tipo di danno a una parte del corpo <b>aumenterà</b> la gravità della ferita.Le ferite più gravi richiedono più tempo per guarire.,,{0} will be the list of severities
 tut.bodyparts.step2_6_2,"Se il livello di danno è <b>Critico</b>, la parte del corpo diventa {0} <b>Disabilitata</b>.Le parti del corpo con ferite <b>irreparabili</b> e <b>fatali</b> sono considerate <b>distrutte</b>.",,{0} is crutch icon
@@ -7219,7 +7219,7 @@ tut.combat.step4_7,Ora <b>sblocca la porta</b> e posiziona le unità <b>manualme
 tut.combat.step4_8,<b>Sconfiggi</b> il <b>Crawler</b> per continuare.,,
 tut.combat.step5_1,"Per il test finale, ho lanciato una <b>Breach Capsule</b> sulla tua nave.<br><br><b>Preparati</b> all'attacco e <b>sconfiggi i predoni</b> per completare il tutorial.",,
 tut.combat.title,Tattiche di combattimento,,
-tut.completed.date,Completato il {0},,{0} is date 
+tut.completed.date,Completato il {0},,{0} is date
 tut.completed.never,Non ancora completato,,
 tut.completed.outdated.tip,Hai completato una versione precedente di questo tutorial il {0}.Si consiglia di ripetere questo tutorial.,,
 tut.not.completed.warning,Hai completato {0} tutorial su {1}.,,
@@ -7347,7 +7347,7 @@ tut.spacetravel.step6_1,Non siamo più nell'<b>Iperspazio</b>;la <b>Visualizzazi
 tut.spacetravel.step6_2,Attendi che la nave <b>raggiunga il relè dell'Hyperjump</b> per continuare.È possibile aumentare la velocità del tempo.,,
 tut.spacetravel.step6_3,"Abbiamo raggiunto l'<b>Hyperjump Relay</b>, che consente un <b>Hyperjump a lungo raggio</b> utilizzando i nostri attuali hyperdrive a corto raggio.Utilizza {0} sull'<b>Hyperjump Relay</b> evidenziato per visualizzare le azioni disponibili, quindi seleziona <b>Hyperjump</b>.",,
 tut.spacetravel.step6_4,Attendi che la tua nave <b>entri nell'iperspazio</b> per continuare.,,
-tut.spacetravel.step6_5,La <b>Visualizzazione mappa</b> ora mostra il livello <b>Universo</b>.Usa {0} su qualsiasi <b>regione adiacente</b> per eseguire un <b>ipersalto a lungo raggio</b>.,2025-09-22,last change: first part of the sentence deleted 
+tut.spacetravel.step6_5,La <b>Visualizzazione mappa</b> ora mostra il livello <b>Universo</b>.Usa {0} su qualsiasi <b>regione adiacente</b> per eseguire un <b>ipersalto a lungo raggio</b>.,2025-09-22,last change: first part of the sentence deleted
 tut.spacetravel.step6_6,"L'<b>Hyperjump Relay</b> consente solo un salto a lungo raggio.Successivamente, la nave esce immediatamente dall'iperspazio.",2025-09-22,
 tut.spacetravel.step6_7,Passa a qualsiasi <b>regione</b> adiacente per continuare.,2025-09-22,
 twitch.active,Abilita l'integrazione di Twitch,,
@@ -7477,7 +7477,7 @@ weapon.type.plasma,Plasma,,
 weapon.type.pointdefense,Difesa del punto,,
 worker.could.not.reach.the.device,Il lavoratore non è riuscito a raggiungere il dispositivo,,
 wormhole.to,Wormhole verso <b>{0}</b>,,{0} is the name of a galaxy the wormhole leads to
-wound.inflicted.time.ago,Inflitto {0} fa,,{0} is time like 10m 
+wound.inflicted.time.ago,Inflitto {0} fa,,{0} is time like 10m
 wound.title,{0} {1} Ferita,,{0} is severity {1} is damage type. example: Mild Blunt wound
 years.abbr,{0}sì,,single character abbreviation of years
 years.months.abbr,{0}y {1}m,,abbreviated years and months
