@@ -171,3 +171,6 @@ YouHanHua Team
 * Senio
 * Ding
 * 404のUMP-9
+
+### Italian
+* [AndyD] (https://github.com/AndyDL24)
