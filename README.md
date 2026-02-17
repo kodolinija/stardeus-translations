@@ -173,4 +173,4 @@ YouHanHua Team
 * 404のUMP-9
 
 ### Italian
-* [AndyD] (https://github.com/AndyDL24)
+* [AndyD](https://github.com/AndyDL24)
