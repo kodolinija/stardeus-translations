@@ -114,6 +114,7 @@ If you feel lost at any point, please join the <a href="https://discord.com/invi
 * !Neo
 * [rem02](https://github.com/rem02/stardeus-translations) aka ZeMecano
 * [LQ-Sebastien](https://github.com/LQ-Sebastien) aka Kronik
+* [The Doc](https://github.com/TheDokidoc)
 
 ### Czech
 
