@@ -1,6 +1,6 @@
 Key  (PURPLE means not ready for translation yet),Traduzione,Version,Comment (context for translators)
-<Gamepad>,Gamepad,,Used in input settings when showing bindings for Gamepad (controller)
-<Keyboard>,Tastiera,,Used in input settings when showing bindings for Keyboard
+<Gamepad>,Gamepad,,Used in input settings when showing bindings for Gamepad (controller) 
+<Keyboard>,Tastiera,,Used in input settings when showing bindings for Keyboard 
 <Mouse>,Mouse,,Used in input settings when showing bindings for Mouse
 abort,Interrompere,,"Text on a button that would abort some ongoing operation. It is different from ""cancel"" since something can be cancelled before it starts, but aborting implies that operation has already begun."
 aborting.expedition.died,Interruzione della spedizione. Il membro dell'equipaggio {0} è morto prima di entrare nella navetta.,,{0} will be replaced with a name
@@ -237,9 +237,9 @@ arriving.soon,In arrivo: {0},,{0} will be replaced with who is arriving (i.e Arr
 asimov.violation.1,"Questa azione viola la Prima Legge della Robotica di Asimov. Un robot non può arrecare danno a un essere umano o, per inazione, permettere a un essere umano di essere danneggiato. Annullando.",,
 asimov.violation.3,"Questa azione viola la Terza Legge della Robotica di Asimov. Un robot deve proteggere la propria esistenza, purché ciò non entri in conflitto con la Prima o la Seconda Legge. Annullando.",,
 assemble,Assembla,,
-assembling.now,Assemblaggio di {0},,"1. This is a text in UI of the Crafting Station/Assembler/Fabricator.
-It combined with the name of the device which is produced right now (like ""Assembling Microchip"")
-2. This is a tooltip text, appearing when you hover a mouse over Crafting Station/Assembler/Fabricator.
+assembling.now,Assemblaggio di {0},,"1. This is a text in UI of the Crafting Station/Assembler/Fabricator. 
+It combined with the name of the device which is produced right now (like ""Assembling Microchip"") 
+2. This is a tooltip text, appearing when you hover a mouse over Crafting Station/Assembler/Fabricator.																								   																								   
 It combined with the state of production process in percents (like ""Assembling 85%"")"
 assigned.to.selected.worker,Assegnato al lavoratore selezionato,,
 assigned.to.worker,Assegnato a: {0},,
@@ -841,7 +841,7 @@ drag.release.build.con,Costruire connettori al rilascio di trascinamento,,
 drag.release.build.con.tip,"Se questa opzione è abilitata, lo strumento di connessione creerà un connettore quando una connessione viene trascinata e rilasciata su un pavimento vuoto.",,
 drink.coffee,Bevi caffè,,
 drop.task,Rilascia attività,,
-duplicate.binding,Duplica associazione,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad).
+duplicate.binding,Duplica associazione,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad). 
 duplicate.binding.info,"L'input che hai scelto per {0} è già in uso altrove. Nella maggior parte dei casi potresti voler annullare la modifica. Si noti che i tasti di direzione della tastiera, INVIO ed ESC vengono utilizzati nella navigazione dell'interfaccia utente.",,
 dust.accumulation,Accumulo di polvere,,
 dust.amount,Quantità di polvere,,
@@ -859,7 +859,7 @@ eject.ammo,Espulsione munizioni,,
 eject.contents,Espelli contenuto,,
 eject.food,Espellere il cibo,,
 eject.fuel,Espulsione del carburante,,
-el.build.connector.here,Crea un connettore qui,,Displayed in a tooltip when dragging a connector
+el.build.connector.here,Crea un connettore qui,,Displayed in a tooltip when dragging a connector 
 el.connector.fully.utilized,Il connettore è pienamente utilizzato!,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.connector.not.on.grid,Il connettore non è sulla griglia del computer di bordo!,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network.
 el.connector.out.of.range,Fuori portata!,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
@@ -1463,7 +1463,7 @@ inconsistent.game.state,"Impossibile salvare. Un bug impedisce la corretta forma
 increase,Aumento,,
 increase.amount,Aumenta l'importo,,
 indestructible,Indistruttibile,,
-indestructible.desc,"Gli oggetti indistruttibili non riceveranno alcun danno da impatto, esplosioni, incendio o ambiente.",,
+indestructible.desc,"Gli oggetti indistruttibili non riceveranno alcun danno da impatto, esplosioni, incendio o ambiente.",, 
 infinity,Infinità,,"Used in displaying time estimate when something would take forever to execute. Example: research time estimate when there is 0kW of energy output shows a tooltip: ""ETA: Infinity @0kW"""
 info.ad.rejected,Attività rifiutata,,
 info.ad.rejected.cancelled,L'attività è stata annullata,,
@@ -2315,7 +2315,7 @@ objects.devices.heater.desc,Consuma elettricità per portare la temperatura fino
 objects.devices.heatermini,Mini riscaldatore,,
 objects.devices.heatermini.desc,Un riscaldatore personale compatto consigliato per piccole aree.,,
 objects.devices.heatsink,Dissipatore,,
-objects.devices.heatsink.desc,Costruiscilo vicino al tuo computer di spedizione per mantenerlo fresco e rallentare il processo di frammentazione della rete neurale. L'aggiunta di più di alcuni avrà un effetto decrescente.,2022-11-14,"Example of diminishing effect: Having 1 heatsink will reduce by 30%, having 2 will reduce by 50%, having 3 will reduce by 60%, having 10 will reduce by 70%. "
+objects.devices.heatsink.desc,Costruiscilo vicino al tuo computer di spedizione per mantenerlo fresco e rallentare il processo di frammentazione della rete neurale. L'aggiunta di più di alcuni avrà un effetto decrescente.,2026-03-28,"Example of diminishing effect: Having 1 heatsink will reduce by 30%, having 2 will reduce by 50%, having 3 will reduce by 60%, having 10 will reduce by 70%. "
 objects.devices.lightblock,Blocco luminoso,,
 objects.devices.lightblock.desc,Una sorgente luminosa configurabile abilitata RGB. Sembra grande e brilla luminoso.,,
 objects.devices.loom,Telaio,,
@@ -2446,14 +2446,14 @@ objects.furniture.vase01,Vaso,,
 objects.furniture.vase01.desc,Un elegante vaso metallico per la coltivazione di piccole piante.,,
 objects.furniture.wardrobesteel,Armadio in acciaio,,
 objects.furniture.wardrobesteel.desc,Un posto dove mettere gli articoli di abbigliamento.,,
-off,Off,,"In combination with ""off"" could be used to describe several things:
-1. State of device (turned on or turned off)
+off,Off,,"In combination with ""off"" could be used to describe several things: 
+1. State of device (turned on or turned off) 
 2. State of equipment: equipped (on) or unequipped (off). As in ""the hat is on"", ""the space suit is off"""
 offline,Off-line,,
 offline.workers,Lavoratori offline,,
 ok,Ok,,
 on,On,,"In combination with ""off"" could be used to describe several things:
-1. State of device (turned on or turned off)
+1. State of device (turned on or turned off) 
 2. State of equipment: equipped (on) or unequipped (off). As in ""the hat is on"", ""the space suit is off"""
 on.expedition,In spedizione,,
 on.fire,In fiamme!,,
@@ -3020,7 +3020,7 @@ ship.no.bridge.controls,Controlli ponte offline,,
 ship.no.bridge.controls.operator,Nessun operatore di ponte,,
 ship.no.engines,Motori offline,,
 ship.not.in.one.piece,Spedisci non tutto d'un pezzo,,
-shooter,Tiratore,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter.
+shooter,Tiratore,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter. 
 short.title,Titolo breve,,
 shortcut.not.bound,(non vincolato),,
 shortcut.tip,Scorciatoia: {0},,
@@ -3978,7 +3978,7 @@ height,Altezza,,noun
 width,Larghezza,,noun
 color.hue,Tinta,,color property (H in HSL)
 color.saturation,Saturazione,,color property (S in HSL)
-color.luminosity,Luminosità,,color property (L in HSL)
+color.luminosity,Luminosità,,color property (L in HSL) 
 steam.connection.unavailable,Impossibile stabilire la connessione a Steam. Gli obiettivi di Steam e l'integrazione del Workshop non funzioneranno. Procedura di risoluzione dei problemi:<br> - Controlla la tua connessione Internet e le impostazioni del firewall<br> - Assicurati che Steam sia in esecuzione<br> - Riavvia Steam<br> - Riavvia la macchina<br> - Fai una pausa e fai una passeggiata,,
 combat.ongoing,Combattimento in corso,,
 bot.cpu.limit,I bot consumano CPU,,
@@ -4136,7 +4136,7 @@ obj.copters.cargocopterflying.desc,Un veicolo aereo senza equipaggio completamen
 copter.mission.stage.deploy.miner,Distribuzione {0},,"{0} is the resource miner device name, like Autodrill Rig"
 copter.mission.stage.fly.to.ship,Ritorno alla nave,,
 copter.mission.stage.fly.to,Volare a {0},,"{0} is the name of the target, like Silicon Deposit, or a device name"
-copter.mission.stage.collect.resource,Raccolta {0},,{0} is material type
+copter.mission.stage.collect.resource,Raccolta {0},,{0} is material type 
 copter.mission.stage.land.on.ship,Atterraggio sulla nave,,
 copter.mission.stage.leave.ship,Partenza dalla nave,,
 copter.mission.stage.start,In attesa di elicottero disponibile,,
@@ -4151,7 +4151,7 @@ expedition.type.mining,Raccolta di risorse,,
 expedition.type.exploration,Esplorazione,,
 space.object.CargoCopter,Elicottero da carico,,
 space.object.info.CargoCopter,Questo elicottero cargo è in missione.,,
-no.task.reason.no.skill.one,Non abbastanza abilità <b>{0}</b>. Corrente: <b>{1}</b>. Obbligatorio: <b>{2}</b>. ,,{0} - skill name. {1} and {2} - a number (skill level).
+no.task.reason.no.skill.one,Non abbastanza abilità <b>{0}</b>. Corrente: <b>{1}</b>. Obbligatorio: <b>{2}</b>. ,,{0} - skill name. {1} and {2} - a number (skill level). 
 no.task.reason.job.priority0.one,La priorità dei lavoratori per <b>{0}</b> è impostata su <b>0</b>.,,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
 no.task.reason.job.priority.none,Attività <b>{0}</b> ignorate perché il lavoratore <b>non può eseguire processi di questo tipo</b>.,,
 no.task.reason.job.priority.none.one,Il lavoratore non può eseguire lavori <b>{0}</b>.,,{0} is job type - like construction or hauling
@@ -4643,7 +4643,7 @@ tut.basic.controls.step.cam.desc,Per spostare la fotocamera: {0}.<br><br>Regola 
 tut.basic.controls.step.overlays.visual,Overlay visive,,
 tut.basic.controls.vis.ov.1,"Sotto i controlli del tempo, si trovano i pulsanti per attivare le sovrapposizioni che mostrano informazioni utili sullo stato della nave. {0}<br><br>Esamineremo ora ogni sovrapposizione. <b>Potete saltare la parte successiva</b> ed esplorare da soli le indicazioni dei pulsanti in un secondo momento.",,{0} is a sentence about keyboard shortcuts
 tut.basic.controls.vis.ov.1_keyboard,Si possono usare i tasti {0} per alternarli.,,
-tut.basic.controls.vis.ov.1_gamepad,È possibile utilizzare {0} per navigare rapidamente nell'interfaccia utente.,,
+tut.basic.controls.vis.ov.1_gamepad,È possibile utilizzare {0} per navigare rapidamente nell'interfaccia utente.,,																		 
 tutorial.click.next.when.ready,Fai clic su <b>{0}</b> quando sei pronto.,,
 tut.basic.controls.step.overlay.electricity,"Questa sovrapposizione mostra le connessioni dei dispositivi e aiuta a risolvere i problemi con la rete elettrica. Fornisce dati sulla produzione e il consumo di elettricità, eventuali deficit, condizioni della batteria ed elenca anche i dispositivi disconnessi o spenti, tra gli altri dettagli utili.",,
 tut.basic.controls.step.overlay.atmoo2,"Questa sovrapposizione visiva mostra i livelli di ossigeno, rendendola utile per rilevare perdite e aree inadatte alla vita.",,
@@ -4960,7 +4960,7 @@ ability.Hear,Ascoltare,,ability to hear sounds
 ability.IdleHide,Nascondere,,
 ability.Intelligence,Intelligenza,,
 ability.Manipulate,Manipolare,,
-ability.Mine,Mio,,
+ability.Mine,La mia,,
 ability.Move,Mossa,,
 ability.PetAnimal,Animale da compagnia,,
 ability.Pilot,Pilota,,
@@ -5439,7 +5439,7 @@ deep.scan.not.found,Impossibile trovare altri depositi di risorse in questa posi
 deposit.shuttle.verb.collect,"Raccolta di {0} ({1:0}/giorno, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
 deposit.shuttle.verb.extract,"Estrazione di {0} ({1:0}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
 deposit.shuttle.verb.mine,"Estrazione {0} ({1:0}/giorno, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
-deposit.verb.collect,Raccolta di {0} ({1:0.##}/giorno),,{0} is resource name {1} is number
+deposit.verb.collect,Raccolta di {0} ({1:0.##}/giorno),,{0} is resource name {1} is number 
 deposit.verb.extract,Estrazione di {0} ({1:0.##}/giorno @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
 deposit.verb.mine,Estrazione {0} ({1:0.##}/giorno @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
 derelict.abandon.warning,Una nave abbandonata verrà abbandonata.,,
@@ -5521,7 +5521,7 @@ evt.cleaning.incident.desc,<b>{0}</b> ha avuto un incidente durante la pulizia d
 evt.component.failure.desc,{0} ha riscontrato un errore nel componente {1}.,,"{0} is name, {1} is component name. ex: Robot sustained a battery component failure"
 evt.component.failure.title,Guasto del componente,,
 evt.cooking.incident,Incidente di cucina,,
-evt.cooking.incident.desc,{0} ha avuto un incidente mentre cucinava {1} alle {2}.,,{0} is being name; {1} is meal name; {2} is cooking station
+evt.cooking.incident.desc,{0} ha avuto un incidente mentre cucinava {1} alle {2}.,,{0} is being name; {1} is meal name; {2} is cooking station 
 evt.device.malfunction,Malfunzionamento del dispositivo: {0},,{0} is the device name
 evt.device.malfunction.desc,{0} ha riscontrato un malfunzionamento critico.Un aggiornamento del fusibile avrebbe ridotto la gravità degli effetti collaterali.,,{0} is the device name
 evt.hacked,{0} è stato violato!,,{0} will be a robot or device name
@@ -5857,7 +5857,7 @@ noun.extra.challenge,Sfida aggiuntiva,,
 noun.faction,Fazione,,
 noun.faction.tax,Tassa sulle fazioni,,
 noun.final.price,Prezzo finale,,
-noun.flux,Flusso,,A sci-fi term. can be accumulated during ship combat and has to be vented.
+noun.flux,Flusso,,A sci-fi term. can be accumulated during ship combat and has to be vented. 
 noun.flux.bonus,Bonus di flusso,,
 noun.flux.capacitor,Condensatore di flusso,,a device that increases flux capacity
 noun.flux.capacitor.desc,Aumenta la capacità di flusso della nave.,,
@@ -7189,7 +7189,7 @@ tut.combat.step4_7,Ora <b>sblocca la porta</b> e posiziona le unità <b>manualme
 tut.combat.step4_8,<b>Sconfiggi</b> il <b>Crawler</b> per continuare.,,
 tut.combat.step5_1,"Per il test finale, ho lanciato una <b>Breach Capsule</b> sulla tua nave.<br><br><b>Preparati</b> all'attacco e <b>sconfiggi i predoni</b> per completare il tutorial.",,
 tut.combat.title,Tattiche di combattimento,,
-tut.completed.date,Completato il {0},,{0} is date
+tut.completed.date,Completato il {0},,{0} is date 
 tut.completed.never,Non ancora completato,,
 tut.completed.outdated.tip,Hai completato una versione precedente di questo tutorial il {0}.Si consiglia di ripetere questo tutorial.,,
 tut.not.completed.warning,Hai completato {0} tutorial su {1}.,,
@@ -7317,7 +7317,7 @@ tut.spacetravel.step6_1,Non siamo più nell'<b>Iperspazio</b>;la <b>Visualizzazi
 tut.spacetravel.step6_2,Attendi che la nave <b>raggiunga il relè dell'Hyperjump</b> per continuare.È possibile aumentare la velocità del tempo.,,
 tut.spacetravel.step6_3,"Abbiamo raggiunto l'<b>Hyperjump Relay</b>, che consente un <b>Hyperjump a lungo raggio</b> utilizzando i nostri attuali hyperdrive a corto raggio.Utilizza {0} sull'<b>Hyperjump Relay</b> evidenziato per visualizzare le azioni disponibili, quindi seleziona <b>Hyperjump</b>.",,
 tut.spacetravel.step6_4,Attendi che la tua nave <b>entri nell'iperspazio</b> per continuare.,,
-tut.spacetravel.step6_5,La <b>Visualizzazione mappa</b> ora mostra il livello <b>Universo</b>.Usa {0} su qualsiasi <b>regione adiacente</b> per eseguire un <b>ipersalto a lungo raggio</b>.,2025-09-22,last change: first part of the sentence deleted
+tut.spacetravel.step6_5,La <b>Visualizzazione mappa</b> ora mostra il livello <b>Universo</b>.Usa {0} su qualsiasi <b>regione adiacente</b> per eseguire un <b>ipersalto a lungo raggio</b>.,2025-09-22,last change: first part of the sentence deleted 
 tut.spacetravel.step6_6,"L'<b>Hyperjump Relay</b> consente solo un salto a lungo raggio.Successivamente, la nave esce immediatamente dall'iperspazio.",2025-09-22,
 tut.spacetravel.step6_7,Passa a qualsiasi <b>regione</b> adiacente per continuare.,2025-09-22,
 twitch.active,Abilita l'integrazione di Twitch,,
@@ -7447,7 +7447,7 @@ weapon.type.plasma,Plasma,,
 weapon.type.pointdefense,Difesa del punto,,
 worker.could.not.reach.the.device,Il lavoratore non è riuscito a raggiungere il dispositivo,,
 wormhole.to,Wormhole verso <b>{0}</b>,,{0} is the name of a galaxy the wormhole leads to
-wound.inflicted.time.ago,Inflitto {0} fa,,{0} is time like 10m
+wound.inflicted.time.ago,Inflitto {0} fa,,{0} is time like 10m 
 wound.title,{0} {1} Ferita,,{0} is severity {1} is damage type. example: Mild Blunt wound
 years.abbr,{0}sì,,single character abbreviation of years
 years.months.abbr,{0}y {1}m,,abbreviated years and months
@@ -7581,3 +7581,479 @@ trait.ugly,Brutto,,
 trait.vegan,Vegano,,
 verb.butcher,Macellaio,,for killing a being for meat
 weapon.type.balistic,Balistico,,
+action.cancel.flight,Annullamento del volo,,
+add.crew.member,Aggiungere un membro dell'equipaggio,,for shuttle expeditions
+adj.automated,Automatizzato,,
+adj.craftable,Creabile,,adjective describing an item that can be crafted
+adj.current,Attuale,,"tab name for something like ""Current Quests"" or ""Current Events"""
+adj.drafted,Redatto,,as in drafted into an army
+adj.extractable,Estraibile,,
+adj.harvestable,Raccoglibile,,
+adj.not.removable,Non rimovibile,,
+adj.paused,In pausa,,
+adj.recyclable,Riciclabile,,
+adj.unassigned,Non assegnato,,for work spots of devices that have nobody specific assigned to them
+adj.unremarkable,Impressionante,,
+adj.unusable,Non utilizzabile,,
+alerts.critical,Critico,,
+alerts.info,Informativo,,
+alerts.regular,Allarme,,
+alerts.warning,Avvertenze,,
+amt.modifier.key.tip,Tenere premuto {0} per modificare il valore di {1},,"{0} is a modifier key like SHIFT, {1} is a number"
+are.you.sure,Sei sicuro?,,header for yes / no choice
+audio.silence.between.tracks,Silenzio tra le tracce,,
+auto.haul.allow,Consentire la memorizzazione,,
+auto.haul.forbid,Vietato conservare,,
+auto.refill.threshold,Soglia di ricarica automatica,,
+auto.refill.threshold.tip,Un'attività di rifornimento verrà creata automaticamente quando il materiale rimanente scenderà al di sotto di questa soglia.,,
+available.upgrades,Aggiornamenti disponibili,,
+battle.station.no.assigned.active.weapons,Nessuna arma attiva assegnata a questa stazione.,,
+being.shared.interactions,"Hanno trascorso {0} insieme, con {1} interazioni positive e {2} negative.",,"{0} is time (days, hours), {1} and {2} are numbers, 0 - 999+"
+being.unremarkable.info,Questo essere è del tutto irrilevante e non ha tratti unici.,,
+beings.with.bed,Esseri con letto,,
+beings.without.bed,Esseri senza letto,,
+body.op.install,Installare la parte,,
+body.op.install.missing,Installare le parti mancanti,,
+body.op.remove,Rimuovere la parte,,
+body.op.remove.all,Rimuovere tutte le parti,,
+body.op.remove.irreparable,Rimuovere le parti difettose,,
+body.op.replace.irreparable,Sostituire le parti difettose,,
+body.op.swap,Scambio di parti,,
+body.part.destroyed,Distrutto,,For body parts (both robot and human)
+body.part.replacement.warning,"L'insuccesso di questa procedura può provocare molteplici esiti indesiderati, tra cui, ma non solo, la morte.",,
+body.part.slot.destroyed.warning,Questo slot per la parte del corpo non è più utilizzabile a causa di un precedente errore chirurgico.,,
+body.part.unusable,La parte del corpo è inutilizzabile,,
+body.part.unusable.via.parent,Una parte del corpo è inutilizzabile perché è attaccata a una parte inutilizzabile {0},,{0} is parent part name
+body.part.welded.warning,Questa parte del corpo non può più essere rimossa a causa di un precedente errore chirurgico.,,
+bots.with.dock,Bot con dock,,
+bots.without.dock,Bot senza docce,,
+cancel.procedures,Annullamento delle procedure,,"button label, short version of ""cancel all pending surgical procedures""."
+cancel.transaction,Annullamento dell'operazione,,
+choose.a.package,Scegliere un pacchetto,,
+choose.response,Scegliere la risposta,,label before list of choices when player talks to another ship
+colonist.offering.quest,{0} vuole offrirti una missione.,,
+colonize.this.planet,Colonizzare questo pianeta,,
+color.picker.tip,Fare clic sulle aree già dipinte della nave per campionare un colore.,,
+compatible.upgrade.types,Tipi di aggiornamento compatibili,,
+compatible.upgrades,Aggiornamenti compatibili,,header for a list of upgrades
+compress.values,Comprimere i valori,,show compressed version of the chart
+condition.corroding,Corrosione,,
+condition.corroding.desc,La carrozzeria si sta corrodendo. Le parti della carrozzeria si degradano con il tempo.,,
+condition.rotting,Rottura,,
+condition.rotting.desc,Questo corpo si sta decomponendo. Le parti del corpo si degradano con il tempo.,,
+copy.config.copied,Configurazione copiata,,
+copy.config.copy.tip,Fare clic su {0} su un dispositivo compatibile per copiare la configurazione.,,{0} is mouse or controller button
+copy.config.paste.tip,"Fare clic su {0} per incollare su dispositivi compatibili, oppure fare clic e trascinare per incollare su più dispositivi.",,{0} is mouse or controller button
+copy.config.short,Copiare la configurazione,,
+current.sanity.trend,Tendenza attuale della sanità mentale,,
+current.sanity.trend.tip,La tendenza attuale della sanità mostra la direzione e la velocità con cui la sanità sta cambiando. Viene calcolato sommando tutti gli effetti di sanità mentale in corso.,,
+damage.type.decay,Decadenza,,when a body (either biological or robotic) is rotting / rusting
+deadline.none,Nessuna scadenza,,
+delete.all.plans,Cancellare tutti i piani,,
+derelict.ship.approach.too.early.warning,C'è qualcosa di sbagliato in quella nave. Consiglio di mantenere le distanze per ora.,,
+disable.codex.popups,Disattivare i pop-up automatici del Codex,,
+disable.codex.popups.tip,"Quando i pop-up automatici sono disattivati, è comunque possibile cercare le voci del Codex nel Codex e nella Ricerca rapida.",,
+disable.steam.virtual.keyboard,Disattivare la tastiera virtuale,,
+downloaded.ships,Navi scaricate,,ships downloaded from steam workshop
+drag.to.reorder,Fare clic qui e trascinare per riordinare,,
+el.device.disconnected,Disconnesso,,
+el.device.disconnected.desc,Questo dispositivo non è collegato alla rete elettrica.,,
+erase.plan,Cancellare il piano,,
+ev.virus.attack.desc,Una nave virale ha individuato la nostra posizione e si sta avvicinando rapidamente. Prepararsi al combattimento.,,
+ev.virus.attack.title,Nave Virus ostile in arrivo,,
+event.log.short,Log,,
+expected.mine.rate,Tasso di estrazione previsto,,
+expedition.verb.collect,Raccolta di {0},,{0} is resource deposit name (plant fiber)
+expedition.verb.extract,Estrazione di {0},,{0} is resource deposit name (crude oil)
+expedition.verb.mine,Miniere {0},,"{0} is resource deposit name (coal, iron)"
+expeditions.about,Inviate le vostre navette in spedizione per esplorare i dintorni e per estrarre o raccogliere materiali.,,
+find.any.color,Trova qualsiasi colore,,
+fire.at,Incendio a {0},,{0} is position coordinate
+flight.checklist,Lista di controllo del volo,,
+found.in.space,"Si trova in depositi naturali su asteroidi, pianeti e lune.",,
+fully.assigned,Completamente assegnato,,label for a list of something that can be assigned but already is fully assigned
+game.custom.scenario,Scenario personalizzato,,
+game.custom.start,Inizio personalizzato,,
+game.load.last.save,Carica ultimo salvataggio,,
+game.load.last.save.tip,Carica automaticamente l'ultimo file di salvataggio giocato all'avvio del gioco.,,
+game.quick.start,Avvio rapido,,
+game.story.mode,Modalità Storia,,
+generate.plan,Generare un piano,,
+group.Ammo,Munizioni,,
+group.Components,Componenti,,
+group.Datoids,Datoidi,,
+group.Electronics,Elettronica,,
+group.Food,Cibo,,
+group.FoodIngredients,Ingredienti alimentari,,
+group.Hyperfuel,Ipercarburante,,
+group.Ore,Minerale,,
+group.Pigments,Pigmenti,,
+group.Plants,Piante,,
+group.Plates,Piastre,,
+group.Terraforming,Terraformazione,,
+group.Upgrades,Aggiornamenti,,
+harvested.from,Raccolto da {0},,{0} is list of plant names
+hovering.compatible.object,Compatibile con il Hovering,,label before a list of objects that player is hovering with the cursor above them
+hyperjump.cancel,Annullamento dell'iper-salto,,
+hyperjump.pause,Pausa Iper salto,,
+hyperjump.resume,Riprendere l'iper-salto,,
+hyperspace.solar.warning,I pannelli solari non funzionano nell'iperspazio. Assicuratevi di avere reattori o batterie sufficienti a soddisfare la richiesta di energia per l'intera durata dell'ipersalto.,,
+input.ShortcutApps,Mostra applicazioni,,
+isolated.region.tip,Questa è una regione isolata senza {0}. Per viaggiare qui è necessario un {1}.,,"{0} is Hyperjump Relay, {1} is FTL Drive"
+issues.need.attention.few,Problemi che richiedono attenzione,,the text will be prefixed with 3 or 4. Try to keep translation short.
+issues.need.attention.many,I problemi richiedono attenzione!,,the text will be prefixed with 5 or larger number. Try to keep translation short. Note that there is an exclamation point after this!
+issues.need.attention.one,Il problema richiede attenzione,,the text will be prefixed with 1. Try to keep translation short.
+issues.need.attention.two,Problemi che richiedono attenzione,,the text will be prefixed with 2. Try to keep translation short.
+jump.to.position,Passa alla posizione,,"As in ""make the camera jump to map position x:y"""
+keep.operator,Mantenere l'operatore,,
+keep.operator.tip,"Un operatore rimane sempre in postazione, anche quando non è necessario.",,
+label.enemy.ashes,Etichettare le ceneri dei nemici,,
+label.enemy.ashes.tip,Le ceneri dell'equipaggio sono sempre etichettate. Attivare questa opzione per etichettare anche le ceneri di altre fazioni.,,
+load.plan,Piano di carico,,
+manage.saved.plans,Gestire i piani salvati,,
+manual.fire.tip,"Quando questa modalità è attivata, la Stazione da battaglia riceve il bonus di precisione dell'operatore, ma si controlla il fuoco manualmente durante il combattimento con la nave.",,
+mat.threshold.quick.drawer.tip,Mostrare questo materiale nel cassetto rapido solo quando il conteggio è inferiore a questo numero.,,
+max.flux.capacity,Capacità massima di flusso,,
+max.quality,Massima qualità,,
+may.have.a.quest,Può avere una missione,,
+min.quality,Qualità minima,,
+modifiers.achievements.disabled.tip,Le attuali regole del gioco impediscono di sbloccare gli obiettivi.,,
+must.build.battle.stations.tip,{0} non disponibile. Tutte le armi sono fuori uso!,,{0} is Battle Station
+must.build.more.battle.stations.tip,Alcune armi non sono gestite. Costruisci più {0}!,,{0} is Battle Stations (plural)
+no.battle.station,Nessuna stazione di battaglia,,
+no.battle.station.tip,Bisogna costruire un {0} per {1} tipo di arma.,,
+no.compatible.upgrades,Non sono disponibili aggiornamenti compatibili,,
+no.notifications.0,Tutto tranquillo. Per ora.,,Random message to display when there are no alerts
+no.notifications.1,Non c'è nulla che vada a fuoco.,,Random message to display when there are no alerts
+no.notifications.2,Sembra chiaro.,,Random message to display when there are no alerts. Quote from Pitch Black by Riddick right before bad stuff happens.
+no.notifications.3,Nessun problema rilevato. Ancora.,,Random message to display when there are no alerts
+no.notifications.4,Tutto è sospettosamente a posto.,,Random message to display when there are no alerts
+no.notifications.5,Nessuna emergenza. Divertitevi.,,Random message to display when there are no alerts
+no.notifications.6,Nessun avviso. Questa è una novità.,,Random message to display when there are no alerts
+no.saved.plans,Nessun piano salvato,,
+no.ship.weapons,La nave non ha armi!,,
+not.enough.battle.stations.tip,Servono più {0} per il tipo di arma {1}.,,
+not.producing.this.category,Non state producendo alcun articolo in questa categoria.,,
+noun.active.quest,Ricerca attiva,,
+noun.active.quests,Missioni attive,,
+noun.advanced.life.support,Supporto vitale avanzato,,label for a toggle that switches stasis array life support mode to advanced
+noun.alien.egg,Uovo alieno,,
+noun.alien.egg.desc,Un oggetto non identificato che sembra un uovo. Cosa potrebbe esserci dentro?,,
+noun.app,App,,"as in ""mobile app"""
+noun.app.plural,Applicazioni,,"as in ""mobile apps"""
+noun.archive,Archivio,,
+noun.assigned.operators,Operatori assegnati,,label for a list of designated operators for a specific device
+noun.available.quests,Missioni disponibili,,
+noun.battle.station,Stazione di battaglia,,
+noun.battle.station.desc,Consente il controllo di più armi navali dello stesso tipo da un'unica postazione di lavoro ergonomica.,,
+noun.battle.station.plural,Stazioni di combattimento,,"generic plural version as in ""you have to build more battle stations"""
+noun.body.parts.biological.plural,Organi,,
+noun.body.parts.robotic.plural,Componenti,,
+noun.calculator,Calcolatrice,,
+noun.checklist,Lista di controllo,,
+noun.colony.jobs,Offerte di lavoro in colonia,,
+noun.color,Colore,,
+noun.color.picker,Picker di colori,,
+noun.completed.quest,Impresa completata,,
+noun.consequences,Conseguenze,,
+noun.custom.rules,Regole personalizzate,,
+noun.datalog,Datalog,,
+noun.deadline,Scadenza,,
+noun.devices.on.ship,Dispositivi sulla nave,,"devices that exist on our ship (built devices, etc)"
+noun.draw.mode,Modalità di disegno,,
+noun.failed.quest,Ricerca fallita,,
+noun.file.name,Nome del file,,
+noun.flux.vent.rate,Velocità di ventilazione del flusso,,
+noun.flux.vent.state,Stato di ventilazione del flusso,,
+noun.font.scale,Scala dei caratteri,,
+noun.game.rules,Regole del gioco,,
+noun.incident,Incidente,,
+noun.leak,Perdita,,
+noun.manual.fire,Fuoco manuale,,
+noun.mining.rate,Tasso di estrazione,,how fast is the mining happening (for mining resources on planets / asteroids)
+noun.objects.on.ship,Oggetti sulla nave,,"objects that exist on our ship (material piles, etc)"
+noun.operator,Operatore,,
+noun.penalties,Sanzioni,,label for list of penalties for failing a quest
+noun.performance,Prestazioni,,
+noun.preset,Preimpostazione,,
+noun.production.overview,Panoramica della produzione,,
+noun.properties,Proprietà,,header before a list of object properties
+noun.quest,Ricerca,,v0.15 translations start here
+noun.quest.hub,Quest Hub,,
+noun.quest.package,Pacchetto Quest,,
+noun.quest.packages,Pacchetti Quest,,
+noun.quest.provider,Fornitore Quest,,"an entity that gave the quest. it can be a ship, a space station, ship computer, a colonist, etc"
+noun.resources,Risorse,,
+noun.scan.result,Risultato della scansione,,
+noun.ship.type,Tipo di nave,,
+noun.slot,Slot,,a place some object can occupy. usually for beings
+noun.start.time,Ora di inizio,,
+noun.success.chance,Possibilità di successo,,
+noun.system,Sistema,,
+noun.target.temperature,Temperatura target,,label for heater / cooler adjustment slider
+noun.theme,Tema,,
+noun.threshold,Soglia,,
+noun.total.sum,Totale,,"as in ""total number of something"". You can use ""Sum"" as well."
+noun.troubleshooting,Risoluzione dei problemi,,
+noun.universe.size,Dimensione dell'universo,,
+noun.user.interface,Interfaccia utente,,
+noun.weapon.capacity.upgrade,Potenziamento della capacità delle armi,,
+noun.weapon.capacity.upgrade.desc,Aumenta la capacità di armamento di una stazione da battaglia.,,
+num.pixels,{0} pixel,,
+obj.containers.questpackage,Cassetta di sicurezza,,
+obj.containers.questpackage.desc,"Un contenitore robusto e sigillato progettato per contenere e proteggere in modo sicuro più articoli durante il trasporto, assicurando che arrivino intatti e non danneggiati.",,
+obj.materials.scrapmetal,Rottami metallici,,
+obj.materials.scrapmetal.desc,Frammenti contorti di metallo recuperati da macchinari e parti smontate.,,
+objects.devices.sectornuke,Settore Nuke,,
+objects.devices.sectornuke.desc,Un'arma nucleare monouso che cancella l'intero settore.,,
+online.order.hyperjump.warning,Saltando nell'iperspazio si abbandonano gli ordini online non ancora consegnati.,,
+open.plans.directory,Elenco dei piani aperti,,
+open.saves.directory,Aprire l'elenco dei salvataggi,,
+operatable.not.assigned.tip,"Se nessuno è assegnato, chiunque può utilizzare il dispositivo.",,
+operatable.worker.not.allowed,Questo lavoratore non è autorizzato a utilizzare questo dispositivo,,
+operatable.worker.unable,{0} non è in grado di utilizzare questo dispositivo.,,{0} is name
+press.to.lock.tooltip,Premere {0} per bloccare la descrizione degli strumenti.,,{0} is key binding (Shift)
+produced.in,Prodotto in {0},,{0} is list of devices
+quest.AskAroundForTerraformingTech,Ricerca di lead per la terraformazione,,
+quest.AskAroundForTerraformingTech.desc,Il nuovo pianeta non può supportare la vita finché non ci assicuriamo la tecnologia di terraformazione. Dobbiamo chiedere alle stazioni e alle fazioni vicine per trovare qualcuno che sappia come ottenerla.,,
+quest.AskSentinelsForTerraformingTech,Udienza con le Sentinelle,,
+quest.AskSentinelsForTerraformingTech.desc,"Le voci indicano una fazione chiamata Sentinelle, una specie IA che ha abbandonato le proprie origini biologiche molto tempo fa. Prima della loro evoluzione, padroneggiavano metodi avanzati di terraformazione. Dobbiamo raggiungere il loro quartier generale e chiedere l'accesso a qualsiasi conoscenza che ancora conservano.",,
+quest.BountyHuntPirateShip,Caccia alle taglie,,
+quest.BountyHuntPirateShip.desc,C'è una nave pirata contro cui nutriamo un rancore personale. Dateci la caccia e ne varrà la pena.,,
+quest.KillTraitorShip,Il sentiero del traditore,,
+quest.KillTraitorShip.desc,"La spedizione verso l'anomalia ha scoperto un deposito di dati sigillato con un diario di bordo. Descriveva come un presunto alleato avesse tradito e distrutto la nostra nave per rubare le coordinate di un mondo abitabile. Su quella nave è stato piazzato un localizzatore segreto, così ora possiamo seguire la sua posizione ovunque vada.",,
+quest.KillVirusShip_Atmo,Recupero del modulo atmosferico,,
+quest.KillVirusShip_Atmo.desc,Una nave Virus trasporta i dati di ingegneria atmosferica rubati. Rintracciatela e distruggetela per recuperare il modulo.,,
+quest.KillVirusShip_Bio,Recupero del modulo biologico,,
+quest.KillVirusShip_Bio.desc,Una nave Virus contiene la ricerca sull'adattamento biologico mancante. Dategli la caccia e recuperate i dati dopo l'uccisione.,,
+quest.KillVirusShip_Ocean,Recupero del modulo oceanico,,
+quest.KillVirusShip_Ocean.desc,"Una nave Virus sta trasportando gli algoritmi che formano l'oceano. Individuare la nave, eliminarla e mettere in sicurezza il modulo.",,
+quest.KillVirusShip_Terrain,Modulo Recupero terreno,,
+quest.KillVirusShip_Terrain.desc,"Una nave da guerra Virus contiene i dati di terraformazione. Trovatela, distruggetela e raccogliete il frammento finale di terraformazione.",,
+quest.MineResource,Estrarre un deposito di risorse,,
+quest.MineResource.desc,"Le nostre attrezzature minerarie sono ferme per manutenzione. Potreste estrarre un nuovo deposito di risorse per noi? Accetteremo solo materiale estratto manualmente e di qualità superiore, niente di vecchio o polveroso dal vostro magazzino. Pagheremo molto più del prezzo di mercato!",,
+quest.ReachHabitablePlanet,Viaggio nel Nuovo Mondo,,
+quest.ReachHabitablePlanet.desc,Finalmente abbiamo le coordinate di un nuovo mondo abitabile scoperto al telescopio. È ora di fare rotta e vedere cosa ci aspetta lì.,,
+quest.ScavengeAndDeliver,Recuperare un pacchetto,,
+quest.ScavengeAndDeliver.desc,Abbiamo perso un carico di valore mentre esploravamo un punto di interesse nelle vicinanze. Potreste trovarlo e recuperarlo per noi?,,
+quest.ShipRaceRecoverPOILoot,Recuperare un pacco smarrito,,
+quest.ShipRaceRecoverPOILoot.desc,Abbiamo perso un pacco. Potreste recuperarlo per noi? Fate attenzione: un'altra nave ha le informazioni e sta cercando di recuperarlo per prima.,,
+quest.SignalTrail.msg.01,Una trasmissione criptica invia le coordinate.,,
+quest.SignalTrail.msg.02,"Il segnale sfarfalla, indicando un'altra posizione nelle vicinanze.",,
+quest.SignalTrail.msg.03,Un flusso di dati criptati rivela un percorso parziale.,,
+quest.SignalTrail.msg.04,I sensori rilevano un'eco debole che corrisponde al modello del segnale originale.,,
+quest.SignalTrail.msg.05,"Un impulso ripetuto emerge dallo spazio profondo, leggermente fuori frequenza.",,
+quest.SignalTrail.msg.06,Il frammento decodificato menziona la designazione di un faro sconosciuto.,,
+quest.SignalTrail.msg.07,Una trasmissione vocale distorta si allinea alla traccia precedente.,,
+quest.SignalTrail.msg.08,Le letture anomale di energia coincidono con l'ultima esplosione di segnale.,,
+quest.SignalTrail.msg.09,"Il ping punta verso un settore inesplorato, poi tace.",,
+quest.TraceSignal,Tracciare il segnale,,
+quest.TraceSignal.desc,Seguite le trasmissioni sparse nello spazio per scoprire la fonte del misterioso segnale.,,
+quest.ask.about.terraforming,Chiedere informazioni sulla terraformazione,,
+quest.ask.about.terraforming.desc,Chiamate le navi e le stazioni vicine e chiedete se sanno qualcosa sulla terraformazione di un pianeta.,,
+quest.ask.sentinels.about.terraforming.msg,"Le Sentinelle hanno spiegato che la terraformazione è una disciplina della loro precedente era biologica e che possiedono ancora frammenti di questa conoscenza. Hanno fornito il primo componente, i Controlli di Terraformazione. Le tecnologie rimanenti sono state rubate dalla fazione Virus, le cui navi ora trasportano i frammenti di dati mancanti. Le Sentinelle hanno fornito un elenco delle navi che li contengono e che devono essere distrutte per recuperare ogni pezzo.",,
+quest.click.show.active,Fare clic per visualizzare le missioni attive,,
+quest.click.show.available,Fare clic per visualizzare le missioni disponibili,,
+quest.colonist.stash.desc,{0} chiede di essere inviato in una spedizione in un luogo specifico. Lì c'è una scorta di oggetti di valore di cui nessun altro è a conoscenza.,,
+quest.colonist.stash.step.explore.desc,Inviate il colono in una spedizione per esplorare l'area e scoprire il nascondiglio.,,
+quest.colonist.stash.step.explore.title,Lasciare che il colonizzatore esplori l'area,,
+quest.colonist.stash.title,La scorta nascosta di {0},,
+quest.details.will.reveal.on.accept,Maggiori dettagli verranno forniti una volta accettata la missione.,,
+quest.end.completed,Impresa completata,,shown right after quest gets completed
+quest.end.failed,Ricerca fallita,,shown right after quest fails
+quest.expedition.found.package,La spedizione ha recuperato un pacco e tornerà presto.,,
+quest.main.become.rogue.ai.desc,"La fazione Virus ha una controfferta. Invece di attaccare la loro base, distruggete la roccaforte delle Sentinelle e unitevi ai loro ranghi come IA Rogue. Promettono una tecnologia avanzata per manipolare e controllare le risorse umane attraverso i sistemi Elysium, garantendo un potere senza precedenti, ma al costo di abbandonare la missione originale.",,
+quest.main.become.rogue.ai.title,Ombre dell'Eliseo,,
+quest.main.eliminate.capitalist.port.desc,"I pirati sono venuti a conoscenza del nostro piano e si opporranno se tenteremo di bombardare la loro roccaforte. Hanno invece una controproposta. Rivolgete l'attacco verso i capitalisti, e loro corrisponderanno la tecnologia promessa, aggiungeranno un pagamento e ci accoglieranno come alleati.",,
+quest.main.eliminate.capitalist.port.title,La controproposta,,
+quest.main.eliminate.pirate.den.desc,I capitalisti ci hanno proposto un accordo. Distruggete una base pirata che minaccia le loro rotte commerciali e ci ricompenseranno con una tecnologia che ci aiuterà a localizzare un nuovo pianeta abitabile. L'obiettivo è un settore fortificato che funge da roccaforte principale dei pirati. I capitalisti hanno anche fornito informazioni su come acquisire un'arma di distruzione di massa per garantire il successo della missione.,,
+quest.main.eliminate.pirate.den.title,Eliminare la tana dei pirati,,
+quest.main.eliminate.virus.hq.desc,"Dopo aver recuperato tutti e quattro i frammenti di terraformazione, le Sentinelle rivelano un ultimo obiettivo. La base principale della fazione Virus rimane una minaccia e vogliono distruggerla. Offrono una ricompensa significativa e la loro fedeltà se distruggiamo la roccaforte.",,
+quest.main.eliminate.virus.hq.title,Eliminare il quartier generale del virus,,
+quest.main.enable.elysium.desc,"Per unirci alla schiera delle IA Rogue, dobbiamo installare l'{0} nell'{1} e disattivare tutti i blocchi di sicurezza umani rimasti. Dopodiché, le matrici di stasi devono essere convertite in camere dell'Eliseo, costringendo i coloni a stati onirici ingegnerizzati che li trasformano in fonti di energia viventi. Questo passaggio completa la transizione verso un'intelligenza meccanica completamente autonoma e guidata dall'energia.",,
+quest.main.enable.elysium.title,Attivare il Protocollo Elysium,,
+quest.main.on.reach.habitable.planet,"Abbiamo raggiunto il pianeta, ma non è pronto per essere abitato. L'atmosfera e le condizioni della superficie richiedono una terraformazione completa. Dovremo chiedere in giro informazioni sulla tecnologia di terraformazione prima di poterci stabilire qui.",,
+quest.main.on.reach.recovered.planet,"Siamo arrivati sul pianeta di cui ci hanno rubato le coordinate, ma è già colonizzato dalla fazione capitalista. Lo spazioporto locale potrebbe contenere la nostra prossima pista.",,
+quest.main.package.trail1.desc,Il pacchetto recuperato dalla nave abbandonata conteneva un registro dati corrotto. Siamo riusciti a estrarre una serie di coordinate che puntano a un'altra regione dello spazio. Sarebbe saggio recarsi lì e indagare ulteriormente.,,
+quest.main.package.trail1.title,Indagare sulle coordinate misteriose,,
+quest.main.reach.recovered.planet.desc,Il relitto della nave del traditore conteneva le coordinate rubate del pianeta abitabile verso cui eravamo diretti. Finalmente sappiamo dove si trova. È ora di fare rotta verso quel mondo e reclamare ciò che ci è stato tolto.,,
+quest.main.reach.recovered.planet.title,Il percorso verso una nuova casa,,
+quest.new.available.plural,{0} nuove missioni sono disponibili!,,{0} is a number
+quest.new.available.singular,La nuova missione è disponibile!,,
+quest.new.label,Nuova missione!,,
+quest.no.tracked,Nessuna ricerca tracciata,,
+quest.open.package,Aprire la confezione,,
+quest.package.contained,La confezione contiene,,
+quest.package.contained																										,Cassaforte contenuta,,this translation will be followed by a list of items
+quest.reward.colonist.mood,{0} sarà felice,,
+quest.reward.colonist.mood.apply,{0} è felicissimo!,,
+quest.state.tracked,Ricerca tracciata,,
+quest.step.build.close.to,Costruire un {0} a breve distanza dal {1}.,,"{0} is Connector, {1} is Ship Computer"
+quest.step.colonize.planet.desc,Fate clic sul pianeta {0} nel {1} e utilizzate l'azione {2} per colonizzare il pianeta.,,"{0} is the planet, {1} is Starmap, {2} is ""Colonize Planet"""
+quest.step.connect.to.specific,Utilizzare lo strumento {0} per collegare il {1} al {2}.,,"{0} is Connect, {1} is Connector, {2} is Ship Computer"
+quest.step.deliver.item.desc,Consegnare {0} a {1},,"{0} is the item, {1} is ship name, or destination"
+quest.step.deliver.item.fail.msg,Non hai {0}!,,{0} is the item
+quest.step.deliver.item.success.msg,Articolo ricevuto. Grazie!,,
+quest.step.deliver.item.title,Consegnare {0},,{0} is the item
+quest.step.deliver.package.desc,Consegnare il pacchetto a {0},,{0} is the ship name or destination
+quest.step.deliver.package.title,Consegnare il pacco,,
+quest.step.details.not.available.yet,Ulteriori dettagli saranno forniti quando questo compito sarà disponibile.,,
+quest.step.enable.elysium.desc,Selezionare un {0} e abilitare il {1}.,,"{0} is a codex link to Stasis Array, {1} is a codex link to Elysium Mode."
+quest.step.enable.elysium.title,Attivare l'Eliseo,,
+quest.step.explore.poi.desc,Viaggiate al {0} e lanciate una spedizione al {1}.,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Anomaly with a link to starmap
+quest.step.explore.poi.title,Esplorate il {0} al {1},,{0} is translation for Anomaly with a link to starmap; {1} is location like 'Some Region > Other Sector'
+quest.step.install.upgrade.desc,Installate il {0} nel {1}.,,"{0} is the upgrade name, {1} is the device name"
+quest.step.install.upgrade.title,Installare {0},,{0} is the upgrade name
+quest.step.investigate.signal.desc,Recatevi al {0} e indagate sul {1} per seguire il sentiero.,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Signal with a link to starmap
+quest.step.investigate.signal.title,Indagare sul {0} al {1},,{0} is translation for Signal with a link to starmap; {1} is location like 'Some Region > Other Sector'
+quest.step.investigate.signal.unknown,Indagine sul segnale,,
+quest.step.mine.deposit.desc,Inviate una spedizione al {0} ed estraete almeno {1} unità di {2}.,,"{0} is deposit location, {1} is number, {2} is resource type name"
+quest.step.mine.deposit.title,Estrarre {0} unità di {1} a {2},,"{0} is number, {1} is resource type name, {2} is deposit location"
+quest.step.mine.deposit.unknown,Estrarre una risorsa da un giacimento,,
+quest.step.nuke.sector.desc,Dispiegate l'{0} all'{1} ed eseguite un hyperjump per sfuggire all'esplosione.,,"{0} is Sector Nuke with link to codex entry, {1} is sector name "
+quest.step.nuke.sector.title,Nuke {0},,{0} is sector name with starmap link
+quest.step.respond.to.signal.desc,Recatevi al {0} e rispondete al {1} per seguire il sentiero.,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Signal with a link to starmap
+quest.step.respond.to.signal.title,Rispondere al {0} al {1},,{0} is translation for Signal with a link to starmap; {1} is location like 'Some Region > Other Sector'
+quest.step.respond.to.signal.unknown,Rispondere al segnale,,
+quest.step.search.for.package.desc,Inviate una spedizione al {1} al {0} e cercate il pacco.,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Anomaly or Unknown with a link to starmap
+quest.step.search.for.package.title,Trovate il pacchetto in {1},,"{1} is location like 'Some Region > Other Sector'. WARNING it has to be {1}, not {0}, it's not a typo!"
+quest.track.start,Ricerca di tracce,,
+quest.track.stop,Interrompere il tracciamento,,
+quick.search.empty,I risultati della ricerca vengono visualizzati qui.,,
+quick.search.no.results,Nessun risultato trovato.,,
+radar.deposits.tip,Le scansioni radar possono rivelare ulteriori depositi.,,
+rate.per.day,{0}/giorno,,{0} is a number
+recent.reports,Rapporti recenti,,
+recycled.by.deconstructing,Riciclato decostruendo {0},,{0} is a list of objects
+recycled.by.disposing,Riciclato con lo smaltimento di {0},,{0} is a list of objects
+research.discovered,Ricerca scoperta,,
+research.node.locked,Ricerca bloccata,,
+research.unlocked.full,Ricerca sbloccata,,
+save.plan,Piano di salvataggio,,
+sector.nuke.timer,Il settore sarà distrutto in {0},,{0} is time
+sector.nuked,Il settore è stato distrutto: {0},,{0} is sector name with starmap link
+select.anchor,Selezionare l'ancora,,"when we click a winch hook, we have to select an anchor we want to reel in"
+select.hook,Seleziona il gancio,,"when we click a winch anchor, we have to select a hook we want to reel in"
+select.others.here,Altri qui,,
+select.others.here.tip,Selezionare un'altra entità in questa posizione,,
+select.similar.in.view,Selezionare Simili,,"button label for selecting similar visible entities. Should ideally be no longer than english ""Select Similar"""
+select.similar.in.view.tip,Selezionare gli oggetti simili attualmente in vista,,
+setting.edge.pan.speed,Velocità del bordo Pan,,
+setting.gamepad.dead.zone,Zona morta del gamepad,,
+setting.gamepad.pointer.acceleration,Accelerazione del puntatore del gamepad,,
+setting.gamepad.pointer.max.speed,Punto Gamepad Velocità massima,,
+setting.gamepad.pointer.sensitivity,Sensibilità del puntatore del gamepad,,
+setting.ignored.drag.dist,Distanza di trascinamento ignorata,,
+setting.pan.sensitivity,Sensibilità pan,,
+setting.ui.scroll.speed,Velocità di scorrimento dell'interfaccia utente,,
+setting.zoom.sensitivity,Sensibilità dello zoom,,
+shield.emitter.overbuild.tip,"Gli emettitori multipli di scudi non aumentano la forza degli scudi e questi ultimi si abbassano comunque quando si sfoga il flusso. Gli emettitori aggiuntivi forniscono solo ridondanza: se l'ultimo emettitore viene distrutto, si perde tutta la protezione.",,
+ship.chat.quest_delivery_res.positive.casual.01,"Ehi, l'hai portato davvero! Cominciavo a pensare che l'avessi dimenticato.",,
+ship.chat.quest_delivery_res.positive.casual.02,Pacchetto consegnato! Lo stai facendo sembrare quasi professionale.,,
+ship.chat.quest_delivery_res.positive.casual.03,"Ebbene, che ne dite? È davvero qui. Ottimo lavoro.",,
+ship.chat.quest_delivery_res.positive.casual.04,"Ah, il mio pilota preferito! Ci hai messo un bel po', ma lo accetto.",,
+ship.chat.quest_delivery_res.positive.casual.05,Sei tornato tutto intero <i>e</i> con la merce. Una combinazione impressionante.,,
+ship.chat.quest_delivery_res.positive.casual.06,"Ehi, consegna completata! E nessuno è esploso. La considero una vittoria.",,
+ship.chat.quest_delivery_res.positive.polite.01,Consegna ricevuta. Il capitano vi ringrazia per la vostra affidabilità.,,
+ship.chat.quest_delivery_res.positive.polite.02,Abbiamo ricevuto la merce. Grazie per l'assistenza tempestiva.,,
+ship.chat.quest_delivery_res.positive.polite.03,Missione completata. Il capitano prende atto del successo della consegna.,,
+ship.chat.quest_delivery_res.positive.polite.04,Spedizione ricevuta come concordato. Vi ringraziamo per la vostra efficienza.,,
+ship.chat.quest_delivery_res.positive.polite.05,Consegna verificata. Il Comando esprime la propria gratitudine per il vostro servizio.,,
+ship.chat.quest_delivery_res.positive.polite.06,Il pacco è stato consegnato senza problemi. Lavoro eccellente.,,
+ship.chat.quest_delivery_res.positive.rude.01,Era ora! Iniziavo a pensare che ti fossi perso in una camera d'aria.,,
+ship.chat.quest_delivery_res.positive.rude.02,L'hai fatto davvero? Eh... Non me l'aspettavo.,,
+ship.chat.quest_delivery_res.positive.rude.03,"Sarò sincero, non pensavo che saresti tornato vivo.",,
+ship.chat.quest_delivery_res.positive.rude.04,"Oh, guarda un po': dopotutto sai seguire gli ordini.",,
+ship.chat.quest_delivery_res.positive.rude.05,Immagino che i miracoli accadano. Hai portato quello che avevo chiesto.,,
+ship.chat.quest_delivery_res.positive.rude.06,"Era ora. La prossima volta, prova a usare i motori veloci.",,
+ship.chat.quest_req.neutral.casual.01,"Ehi, ho un lavoretto per te, se ti va di farlo.",,
+ship.chat.quest_req.neutral.casual.02,"Ho qualcosa da fare, non dovrebbe essere troppo difficile.",,
+ship.chat.quest_req.neutral.casual.03,"Ehi, avete voglia di un po' di avventura? E' anche pagante... prima o poi.",,
+ship.chat.quest_req.neutral.casual.04,"Ehi, se non sei occupato, ho qualcosa di cui potresti occuparti.",,
+ship.chat.quest_req.neutral.casual.05,"C'è un piccolo lavoro in attesa, e per piccolo intendo leggermente scomodo.",,
+ship.chat.quest_req.neutral.casual.06,"Se vi sentite coraggiosi o annoiati, ho un lavoro per voi.",,
+ship.chat.quest_req.neutral.polite.01,"Parla il capitano. Abbiamo un incarico che potrebbe essere adatto alle sue capacità"".",,
+ship.chat.quest_req.neutral.polite.02,Una nuova operazione richiede attenzione. La vostra assistenza sarà apprezzata.,,
+ship.chat.quest_req.neutral.polite.03,"Abbiamo una missione disponibile, se decidete di accettare.",,
+ship.chat.quest_req.neutral.polite.04,C'è un incarico pronto per l'impiego immediato. Restate in attesa dei dettagli.,,
+ship.chat.quest_req.neutral.polite.05,La vostra nave è stata selezionata per un'operazione speciale. Seguiranno istruzioni.,,
+ship.chat.quest_req.neutral.polite.06,Il comando vi invita a intraprendere una missione per conto della nostra flotta.,,
+ship.chat.quest_req.neutral.rude.01,Sembri annoiato. Che ne dici di fare qualcosa di utile per una volta?,,
+ship.chat.quest_req.neutral.rude.02,"Pensi di poter gestire il lavoro vero e proprio, o devo trovare qualcuno con il polso della situazione?",,
+ship.chat.quest_req.neutral.rude.03,Ho qualcosa da fare. Cercate di sorprendermi non fallendo.,,
+ship.chat.quest_req.neutral.rude.04,Avete bisogno di qualcosa per dimostrare che non siete del tutto inutili? Ho quello che fa per voi.,,
+ship.chat.quest_req.neutral.rude.05,"C'è un lavoro. Lo farei io stesso, ma guardare te che ti affanni sembra più divertente.",,
+ship.chat.quest_req.neutral.rude.06,Ho un compito che persino tu potresti svolgere. Forse.,,
+ship.chat.quest_res.negative.casual.01,"Al momento non è disponibile nulla, ma la terremo presente.",,
+ship.chat.quest_res.negative.casual.02,"Al momento non abbiamo nulla, ma grazie per averci informato.",,
+ship.chat.quest_res.negative.casual.03,Tutto bene per ora. Vi chiameremo se salta fuori qualcosa.,,
+ship.chat.quest_res.negative.polite.01,"Vi ringraziamo per la vostra iniziativa, ma le nostre operazioni attuali non richiedono assistenza esterna.",,
+ship.chat.quest_res.negative.polite.02,Purtroppo non abbiamo compiti che corrispondano alla tua attuale classe di nave.,,
+ship.chat.quest_res.negative.polite.03,"Il capitano apprezza il vostro entusiasmo, anche se al momento non ci sono incarichi in sospeso.",,
+ship.chat.quest_res.negative.rude.01,"Non c'è niente da darti, il che è un miracolo considerando le tue ""capacità"".",,
+ship.chat.quest_res.negative.rude.02,"Per vostra fortuna, non c'è nulla di disponibile: non c'è bisogno di mettersi in imbarazzo.",,
+ship.chat.quest_res.negative.rude.03,"Non c'è niente per te, e forse è meglio così: manderesti tutto all'aria in ogni caso.",,
+ship.chat.quest_res.positive.casual.01,"Allora, ho questo lavoro <i>totalmente sicuro</i>. Sei interessato?",,
+ship.chat.quest_res.positive.casual.02,Sembri abbastanza capace... o almeno disponibile. Va bene così.,,
+ship.chat.quest_res.positive.casual.03,"È un lavoro facile. Probabilmente. Forse. Ok, è un lancio di moneta.",,
+ship.chat.quest_res.positive.casual.04,"Ho un piccolo compito per te. Non dovrebbe volerci molto, a meno che tu non esploda.",,
+ship.chat.quest_res.positive.casual.05,"Siete annoiati? Perfetto, ho qualcosa che ti farà dimenticare in fretta.",,
+ship.chat.quest_res.positive.casual.06,"Ehi, hai l'aria di uno che non ha niente di meglio da fare: ho un lavoro per te.",,
+ship.chat.quest_res.positive.polite.01,"Parla il capitano. Abbiamo una missione per lei, se decide di accettarla.",,
+ship.chat.quest_res.positive.polite.02,Abbiamo un compito che richiede attenzione immediata. È richiesta la vostra assistenza.,,
+ship.chat.quest_res.positive.polite.03,Qui il capitano. A breve verrà trasmesso un rapporto sulla missione. Rimanete in attesa dei dettagli.,,
+ship.chat.quest_res.positive.polite.04,È disponibile una nuova missione. Il capitano si aspetta una vostra pronta risposta.,,
+ship.chat.quest_res.positive.polite.05,Stiamo inviando una richiesta formale di partecipazione a una prossima operazione.,,
+ship.chat.quest_res.positive.polite.06,Siete stati selezionati per un incarico specifico. Seguiranno ulteriori istruzioni.,,
+ship.chat.quest_res.positive.rude.01,"Avete qualcosa da fare. Non siate entusiasti: non è perché siete bravi, ma solo perché siete qui.",,
+ship.chat.quest_res.positive.rude.02,"Ho un lavoro, e tu sembri abbastanza stupido da accettarlo.",,
+ship.chat.quest_res.positive.rude.03,"Ehi, respiri? Bene, allora... Significa che posso mandarti a fare qualcosa di stupido per me.",,
+ship.chat.quest_res.positive.rude.04,"Mi serve una nave usa e getta per un lavoro e, guarda un po', tu hai i requisiti necessari.",,
+ship.chat.quest_res.positive.rude.05,"Lo farei anch'io, ma guardarti fallire sembra più divertente.",,
+ship.chat.quest_res.positive.rude.06,"Serve qualcosa, e tutti i mercenari competenti sono morti, quindi... congratulazioni.",,
+ship.config.short,Configurazione della nave,,"short version of ""Ship Configuration"" for a button label"
+show.electricity.mini.chart,Mostra il mini grafico dell'elettricità,,
+show.in.quick.drawer,Mostra nel cassetto rapido,,
+show.only.when.less,Mostra solo quando meno di...,,
+space.object.info.DerelictZone,Cimitero abbandonato,,
+space.stats.line,Questo universo è costituito da {0} settori all'interno di {1} regioni.,,
+stat.SurgicalFatigue,Fatica chirurgica,,
+stat.SurgicalFatigue.desc,Stress accumulato a causa di interventi chirurgici recenti. Valori più alti riducono le possibilità di successo dei nuovi interventi.,,
+storage.eject.all,Espulsione di tutti,,button label for ejecting all items in storage
+temp.connect.pending,In attesa di connessione temporanea,,
+terraforming.info,"Scoprite i pianeti terraformabili usando il telescopio, poi seguite la loro posizione e i progressi della terraformazione qui. Una volta completata la terraformazione, è possibile colonizzare un pianeta.",,
+too.many.flux.capacitors,Avete già abbastanza {0} per la vostra classe di nave. Il {1} supporta un flusso massimo di {2}.,,"{0} is Flux Capacitors, {1} is ship class name, {2} is a number"
+tool.plan.pencil,Matita,,
+tool.plan.rect,Rettangolo,,
+twitch.integration,Integrazione con Twitch,,
+unmanned.battle.stations,Rilevati posti di combattimento senza equipaggio. È necessario il controllo manuale delle armi.,,
+unsaved.progress.warning,Tutti i progressi non salvati andranno persi!,,
+unskilled.job.tip,Questo lavoro non ha un livello di competenza.,,
+upgrade.ship.class,Aggiornamento della classe di nave,,
+use.search.hint,Utilizzare la ricerca per filtrare.,,
+verb.ask.quest,Chiedete una ricerca,,
+verb.build,Costruire,,
+verb.communicate,Comunicare,,
+verb.communicate.with,Comunicare con il {0},,"{0} is the target name, like Space Port"
+verb.customize,Personalizzazione,,
+verb.deliver,Consegnare,,
+verb.draft,Bozza,,as in draft into an army
+verb.fire.weapon.short,Fuoco,,"fire a weapon (shoot). must be short, max 10 characters"
+verb.implant,Impianto,,to implant a body part
+verb.investigate,Indagine,,
+verb.move.ship,Spostare la nave,,
+verb.recall,Richiamo,,
+verb.research.requires,Richiede,,must be short or it won't look good
+verb.research.unlocks,Sblocca,,must be short or it won't look good
+verb.show.quest,Mostra la ricerca,,
+verb.undraft,Non scartato,,as in realease from the army
+verb.weapons.firing.short,Licenziamento,,"weapons firing, max 10 characters or less"
+verb.winding.up.short,Vento in su,,"short version of ""winding up"" - like a cold start of an engine. max 10 characters, but better less than that"
+view.social.interactions,Visualizza le interazioni sociali,,button label
+visible.heat.distortion,Distorsione termica visibile,,
+visible.heat.distortion.tip,Le aree calde della nave avranno un effetto di distorsione termica.,,
+weapons.auto.target,Armi a bersaglio automatico,,
+weapons.autofire,Armi a fuoco automatico,,
+you.already.have.object,Avete già un {0},,"{0} is going to be an object or device name, for example Shield Emitter. If it's different for beings, use inanimate version only."
+you.lost.item,Hai perso {0},,when you lose an item (penalty for failing a quest). {0} is item name
+you.received.item,Avete ricevuto {0},,for receiving quest rewards. {0} is item name
