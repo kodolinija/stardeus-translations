@@ -2315,7 +2315,7 @@ objects.devices.heater.desc,Consuma elettricità per portare la temperatura fino
 objects.devices.heatermini,Mini riscaldatore,,
 objects.devices.heatermini.desc,Un riscaldatore personale compatto consigliato per piccole aree.,,
 objects.devices.heatsink,Dissipatore,,
-objects.devices.heatsink.desc,Costruiscilo vicino al tuo computer di spedizione per mantenerlo fresco e rallentare il processo di frammentazione della rete neurale. L'aggiunta di più di alcuni avrà un effetto decrescente.,2026-03-28,"Example of diminishing effect: Having 1 heatsink will reduce by 30%, having 2 will reduce by 50%, having 3 will reduce by 60%, having 10 will reduce by 70%. "
+objects.devices.heatsink.desc,Costruiscilo vicino al tuo computer di spedizione per mantenerlo fresco e rallentare il processo di frammentazione della rete neurale. L'aggiunta di più di alcuni avrà un effetto decrescente.,2026-03-28,"Example of diminishing effect: Having 1 heatsink will reduce by 30%, having 2 will reduce by 50%, having 3 will reduce by 60%, having 10 will reduce by 70%."
 objects.devices.lightblock,Blocco luminoso,,
 objects.devices.lightblock.desc,Una sorgente luminosa configurabile abilitata RGB. Sembra grande e brilla luminoso.,,
 objects.devices.loom,Telaio,,
