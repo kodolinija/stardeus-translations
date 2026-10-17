@@ -150,6 +150,7 @@ If you feel lost at any point, please join the <a href="https://discord.com/invi
 ### Russian
 
 * [iyalang](https://github.com/iyalang)
+* [Sun4eez](https://github.com/Sun4eez)
 
 ### Korean
 
