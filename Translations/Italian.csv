@@ -1668,7 +1668,7 @@ menu.settings.video,Video,,
 menu.settings.video.desc,Modificare le impostazioni video,,
 menu.shuttles,Navette,,
 menu.shuttles.desc,Navette per viaggi spaziali,,
-menu.spacetravel,Corsa di spazio,,
+menu.spacetravel,Viaggi spaziali,,
 menu.spacetravel.desc,Oggetti legati ai viaggi spaziali,,
 menu.special,Speciale,,
 menu.special.desc,Vari dispositivi per scopi specializzati,,
@@ -1688,7 +1688,7 @@ merchant.offering.trade,Il commerciante offre uno scambio,,
 merchant.ship,{0} (commerciante),,
 merchant.ship.offering.trade,Nave mercantile che offre commercio,,
 merchant.type.MerchantAlloy,Commerciante di leghe,,
-merchant.type.MerchantBuilding,Fornitore di risorse edili,,
+merchant.type.MerchantBuilding,Fornitore di materiali edili,,
 merchant.type.MerchantGeneral,Generalista,,
 merchant.type.MerchantOil,Commerciante di petrolio,,
 merchant.type.MerchantOre,Commerciante di minerali,,
@@ -2375,8 +2375,8 @@ quest.active,<b>Missione attiva</b>,,Used as a list header for this quest type
 quest.ColonizePlanet,Colonizzare un pianeta,,
 quest.ColonizePlanet.desc,Dobbiamo colonizzare un pianeta abitabile.,,
 quest.completed,<b>Missione completata: {0}</b><br><br>{1},,
-quest.ConnectToStasisArray,Connessione all'Stasi Array,,
-quest.ConnectToStasisArray.connectors.tip,È possibile estendere la portata della rete elettrica collegando a margherita più <b>connettori</b>. Creare e collegare un numero sufficiente di connettori per raggiungere l'array <b>Stasis</b>.,,
+quest.ConnectToStasisArray,Connessione allo Stasi Array,,
+quest.ConnectToStasisArray.connectors.tip,È possibile estendere la portata della rete elettrica collegando a margherita più <b>connettori</b>. Creare e collegare un numero sufficiente di connettori per raggiungere lo <b>Stasi Array</b>.,,
 quest.ConnectToStasisArray.desc,Dobbiamo estendere la nostra rete elettrica per raggiungere e connetterci al <b>Stasis Array</b>. Ci darà il controllo sui suoi sistemi di supporto vitale e consentirà una certa produzione di ossigeno e calore intorno ad esso.,,
 quest.ConnectToStasisArray.merge.islands,Assicurarsi il percorso di <b>Stasis Array</b>,,
 quest.ConnectToStasisArray.merge.islands.tip,Unisci sezioni di navi contenenti <b>Computer di bordo</b> e <b>Stasis Array</b> insieme.<br><br>Puoi usare l'<b>argano</b> o costruire un pavimento dal tuo <b>Computer di bordo</b> allo <b>Stasis Array</b>.<br><br>Assicurati che ci sia un percorso chiaro per il tuo <b>Robot</b> (quello che non può volare) da attraversare.,2022-09-21,
@@ -2384,23 +2384,23 @@ quest.ConnectToStasisArray.reel.in,Bobina nella matrice <b>Stasis</b>,,
 quest.ConnectToStasisArray.reel.in.tip,Seleziona il <b>gancio per argano</b> e utilizzare la voce di menu <b>Avvolgere</b> per tirare la sezione con lo <b>Stasis Array</b> verso la sezione con il <b>computer di bordo</b>.,,
 quest.ConnectToSurvivorArea,Connettiti all'area dei sopravvissuti,2022-09-21,"When you start the game, there is a small room with survivors. You as a ship computer have to connect your electric grid to the network inside that room."
 quest.ConnectToSurvivorArea.connectors.tip,Costruisci e collega abbastanza connettori per raggiungere la presa a <b>pavimento</b> nell'<b>area dei sopravvissuti</b>.,,
-quest.ConnectToSurvivorArea.desc,Dobbiamo <b>unire la nostra rete elettrica</b> con quella <b>nell'area dei sopravvissuti</b>. Questo ci permetterà di prendere il controllo dei loro dispositivi.,,
+quest.ConnectToSurvivorArea.desc,Dobbiamo <b>unire la nostra rete elettrica</b> con quella nell'<b>area dei sopravvissuti</b>. Questo ci permetterà di prendere il controllo dei loro dispositivi.,,
 quest.ConnectToSurvivorArea.floor.socket,Collega alla <b>presa del pavimento</b>,,
 quest.ConnectToSurvivorArea.floor.socket.tip,Unifica la rete elettrica collegando la <b>presa del pavimento</b> nella <b>Area dei sopravvissuti</b> alla propria <b>rete elettrica</b>.,,
 quest.details,Dettagli,,"Displayed on a small button, should be short"
 quest.EncloseStasisArray,Pressurizzare la Stasis Array,,
-quest.EncloseStasisArray.desc,"Per garantire la sicurezza dei coloni, l'area attorno al <b>Stasis Array</b> deve essere completamente recintata, <b>Airtight</b> e <b>Insulated</b>.",,
+quest.EncloseStasisArray.desc,"Per garantire la sicurezza dei coloni, l'area attorno allo <b>Stasis Array</b> deve essere completamente recintata, <b>Ermetica</b> e <b>Isolata</b>.",,
 quest.EstablishFoodProduction,Stabilire la produzione alimentare,,
 quest.EstablishFoodProduction.desc,"Le nostre scorte di cibo si stanno esaurendo. I sopravvissuti possono cucinare da soli, ma dobbiamo fornire le strutture necessarie.",,
 quest.FindHabitablePlanet,Trova un pianeta abitabile,,
-quest.FindHabitablePlanet.desc,La nostra missione originale era quella di trovare un pianeta abitabile <b></b> per i nostri sopravvissuti <b>umani</b>. A questo punto siamo pronti a concentrarci nuovamente su questa missione.,,
+quest.FindHabitablePlanet.desc,La nostra missione originale era quella di trovare un pianeta <b>abitabile</b> per i nostri sopravvissuti <b>umani</b>. A questo punto siamo pronti a concentrarci nuovamente su questa missione.,,
 quest.HailAMerchant,Saluta un mercante,,
 quest.HailAMerchant.desc,Se abbiamo un <b>Comunicatore</b> e un <b>Teletrasporto</b>,,
 quest.info,Missione: <b>{0}</b><br><br>{1}<br><br>{2},,"{0} will be quest title (i.e. ""Defeat the dragon""). {1} will be a long description, {2} will be a list of rewards"
 quest.MakeShipFlightReady,Prepara il volo della nave,,
-quest.MakeShipFlightReady.bridge.controls.tip,<b>Controlli del ponte</b> ci darà accesso alla <b>Starmap</b> in modo da poter finalmente vedere la nostra posizione nell'Universo.,,
-quest.MakeShipFlightReady.desc,Dobbiamo ripristinare la capacità di volo spaziale della nostra nave. In questo modo possiamo raggiungere un pianeta vicino e condurre alcune spedizioni minerarie per raccogliere più risorse. ,2026-09-13,
-quest.MakeShipFlightReady.thruster.tip,"Se siamo fortunati, ci sarà almeno un <b>Thruster</b> riparabile da qualche parte tra i rottami. In caso contrario, potremmo dover effettuare ulteriori ricerche per acquisire il progetto.",,
+quest.MakeShipFlightReady.bridge.controls.tip,<b>Controlli del ponte</b> ci darà accesso alla <b>Mappa stellare</b> in modo da poter finalmente vedere la nostra posizione nell'Universo.,,
+quest.MakeShipFlightReady.desc,Dobbiamo ripristinare la capacità di volo spaziale della nostra nave. In questo modo possiamo raggiungere un pianeta vicino e condurre alcune spedizioni minerarie per raccogliere più risorse.,2026-09-13,
+quest.MakeShipFlightReady.thruster.tip,"Se siamo fortunati, ci sarà almeno un <b>Propulsore</b> riparabile da qualche parte tra i rottami. In caso contrario, potremmo dover effettuare ulteriori ricerche per acquisire il progetto.",,
 quest.new,Nuova missione: <b>{0}</b><br><br>{1}<br><br>{2},,"{0} will be quest title (i.e. ""Defeat the dragon""). {1} will be a long description, {2} will be a list of rewards"
 quest.no.active,Nessuna missione attiva,,
 quest.no.active.many.available.tip,Ci sono missioni <b>{0} disponibili</b>: {1}<br>Imposta una missione come <b>Attivo</b> per iniziare a monitorare i suoi progressi.,,{0} is a number (2 or greater). {1} will be the list of quest names
@@ -2408,7 +2408,7 @@ quest.no.active.one.available.tip,C'è <b>una missione disponibile</b>: {0}<br>I
 quest.pause,Pausa,,"Deactivates the quest, or stops following it. Should be short text, displayed on a fairly small button"
 quest.ProvideChargeStation,Fornire una stazione di ricarica,,
 quest.ProvideChargeStation.build.connector.tip,Tutti i dispositivi devono essere collegati attraverso una rete di <b>Connettori</b>. Creare un connettore e utilizzare lo strumento <b>Connetti</b> per collegarlo al <b>computer di bordo</b> e quindi al <b>Reattore di materia</b>. ,,
-quest.ProvideChargeStation.build.reactor.tip,"Anche se <b>Computer di bordo</b> genera da solo una piccola quantità di energia, non sarà sufficiente. <b>Matter Reactor</b> può bruciare quasi ogni tipo di materiale per produrre elettricità.",,
+quest.ProvideChargeStation.build.reactor.tip,"Anche se <b>Computer di bordo</b> genera da solo una piccola quantità di energia, non sarà sufficiente. Il <b>Reattore di materia</b> può bruciare quasi ogni tipo di materiale per produrre elettricità.",,
 quest.ProvideChargeStation.configure.reactor,Configurare il <b>reattore della materia</b>,,
 quest.ProvideChargeStation.configure.reactor.tip,Selezionare il {0} e configurarlo per bruciare un certo tipo di combustibile. Consigliamo {1} perché ha una discreta potenza energetica ed è facile da ottenere.,2026-06-27,"{0} is matter reactor, {1} is scrap metal"
 quest.ProvideChargeStation.desc,"Prima di ogni altra cosa, dobbiamo garantire che i nostri lavoratori robotici abbiano modo di ricaricarsi.",2022-09-20,
@@ -2431,17 +2431,17 @@ quest.step.configure.crafter,Inizia a produrre <b>{0}</b>,,
 quest.step.configure.crafter.tip,Selezionare un <b>{0}</b> e configurarlo per produrre <b>{1}</b>. Potrebbe essere necessario aumentare l'importo target o il dispositivo rimarrà inattivo.,,
 quest.step.connect.to,Connettiti al <b>{0}</b>,,"{0} will be a device name, i.e. Connect to the Stasis Array"
 quest.step.enclose,Racchiudere il <b>{0}</b>,2022-09-23,"{0} is the device name (i.e. Stasis Array). Context: It will ask the player to enclose the device with walls, close all doors, vents and repair the damage. Tooltip below will explain it."
-quest.step.enclose.tip,Costruisci <b>Walls</b> e <b>Floors</b> per creare una stanza completamente chiusa attorno al <b>{0}</b>.<br><br>Apri l'overlay <b>Rooms</b> per visualizzare l'elenco delle aree attualmente chiuse.,2022-09-23,{0} is the device name (i.e. Stasis Array)
+quest.step.enclose.tip,Costruisci <b>Muri</b> e <b>Pavimento</b> per creare una stanza completamente chiusa attorno al <b>{0}</b>.<br><br>Apri l'overlay <b>Stanze</b> per visualizzare l'elenco delle aree attualmente chiuse.,2022-09-23,{0} is the device name (i.e. Stasis Array)
 quest.step.find.habitable.planet,Scopri un <b>Pianeta Abitabile</b>,,
-quest.step.find.habitable.planet.tip,"Usa il <b>Telescope</b> per cercare nell'universo osservabile un <b>Pianeta abitabile</b>. Dopo averlo trovato, imposta la rotta e inizia a ricercare <b>Terraforming</b>.",,
+quest.step.find.habitable.planet.tip,"Usa il <b>Telescopio</b> per cercare nell'universo osservabile un <b>Pianeta abitabile</b>. Dopo averlo trovato, imposta la rotta e inizia a ricercare <b>Terraformazione</b>.",,
 quest.step.hail.a.merchant,Saluta un mercante,,
-quest.step.hail.a.merchant.tip,"Usa il <b>Communicator</b> per attivare un <b>Merchant Beacon</b>. Assicurati che un essere umano possa accedere al comunicatore, perché parlerà per te.",,
+quest.step.hail.a.merchant.tip,"Usa il <b>Communicatore</b> per attivare un <b>Faro del Mercante</b>. Assicurati che un essere umano possa accedere al comunicatore, perché parlerà per te.",,
 quest.step.have.on.grid.many,Crea e connetti <b>{0} {1}</b>,,"{0} will be a multiplier, {1} will be the device name. Example: ""Build and Connect <b>x2 Matter Reactor</b>"""
 quest.step.have.on.grid.one,Crea e collega un <b>{0}</b>,,"{0} will be the device name. Example: ""Build and Connect a <b>Matter Reactor</b>"""
 quest.step.have.one.section,Collega tutte le sezioni della nave,,
-quest.step.have.one.section.tip,"Per viaggiare nello spazio, dobbiamo avere la nostra nave integra. Utilizza il <b>Gancio per verricello</b> e <b>Ancoraggio per verricello</b> o costruisci piani per unire insieme sezioni separate. Consulta la sovrapposizione <b>Sections</b> per ulteriori informazioni.",,
+quest.step.have.one.section.tip,"Per viaggiare nello spazio, dobbiamo avere la nostra nave integra. Utilizza il <b>Gancio per verricello</b> e <b>Ancoraggio per verricello</b> o costruisci piani per unire insieme sezioni separate. Consulta l'overlay <b>Sezioni</b> per ulteriori informazioni.",,
 quest.step.make.accessible,Rendi accessibile il {0},,{0} is the device name (i.e. Stasis Array)
-quest.step.make.accessible.tip,"Per rendere accessibile un'area, deve avere almeno un <b>Porta</b>. La porta dovrebbe eventualmente condurre a un <b>uscita verso l'esterno</b>.<br><br>Utilizza la sovrapposizione <b>Stanze</b> per vedere quali aree sono irraggiungibili dall'esterno.",,
+quest.step.make.accessible.tip,"Per rendere accessibile un'area, deve avere almeno un <b>Porta</b>. La porta dovrebbe eventualmente condurre a un <b>uscita verso l'esterno</b>.<br><br>Utilizza l'overlay <b>Stanze</b> per vedere quali aree sono irraggiungibili dall'esterno.",,
 quest.step.make.airtight,Pressurizzare la stanza con il {0},,{0} is the device name (i.e. Stasis Array)
 quest.step.make.ship.flight.ready,Prepara il volo della nave,,
 quest.step.make.ship.flight.ready.tip,Passa attraverso i controlli di prontezza al volo in <b>{0}</b> overlay e assicurati di essere pronti per <b>Volo Interplanetario</b>.,,
@@ -2668,14 +2668,14 @@ role.destroy,Ruolo: Distruggi,,
 role.play,Ruolo: Gioca,,
 role.talk,Ruolo: Parla,,
 role.work,Ruolo: Lavoro,,
-room,Camera,,
+room,Stanza,,
 room.ambient.light.amt,Quantità di luce ambientale della stanza,,
 room.ambient.light.amt.tip,Regola l'aspetto scuro delle aree chiuse senza fonti di luce. Dovresti installare luci in stanze chiuse per renderle ben illuminate.,,
-room.id,Camera #{0},,
+room.id,Stanza #{0},,
 room.lighting,Illuminazione avanzata della stanza,,
 room.lighting.tip,"Quando abilitata, le sorgenti luminose sono confinate entro le pareti della stanza. Può migliorare le prestazioni in mappe estremamente grandi.",,
-room.nr,Camera #{0},,
-room.nr.unreachable,Camera #{0} <color={1}><b>INRAGGIUNGIBILE!</b></color>,,
+room.nr,Stanza #{0},,
+room.nr.unreachable,Stanza #{0} <color={1}><b>INRAGGIUNGIBILE!</b></color>,,
 rotate.tip,Ruota con {0},,
 run.in.bg,Esegui in background,,
 run.research,Esegui ricerca,,
@@ -7390,28 +7390,28 @@ quest.colonist.stash.step.explore.desc,Inviate il colono in una spedizione per e
 quest.reward.colonist.mood,{0} sarà felice,,
 quest.reward.colonist.mood.apply,{0} è felicissimo!,,
 quest.colonist.device.title,Costruire un   {0}   per   {1}  ,,
-quest.colonist.device.desc, {0}   vorrebbe un   {1}   per essere costruito sulla nave.,,
-colonist.asking.favor, {0}   sta chiedendo un favore personale.,,
+quest.colonist.device.desc,{0} vorrebbe un {1} per essere costruito sulla nave.,,
+colonist.asking.favor,{0} sta chiedendo un favore personale.,,
 mood.colonist.device.built,Un dispositivo desiderato è stato costruito,,
-quest.colonist.quarters.title, {0}   vuole privacy,,
-quest.colonist.quarters.desc, {0}   vorrebbe avere la propria camera da letto privata.,,
+quest.colonist.quarters.title,{0} vuole privacy,,
+quest.colonist.quarters.desc,{0} vorrebbe avere la propria camera da letto privata.,,
 mood.colonist.quarters.built,Finalmente ho i miei alloggi privati,,
-quest.step.has.personal.quarters.one,Costruire alloggi personali per   {0} ,,
-quest.step.has.personal.quarters.desc,I quartieri personali sono una camera privata con un letto singolo assegnato ad un colonista. La dimensione ideale della stanza è tra le piastrelle   {0}   e   {1}   .,,
+quest.step.has.personal.quarters.one,Costruire alloggi personali per {0} ,,
+quest.step.has.personal.quarters.desc,I quartieri personali sono una camera privata con un letto singolo assegnato ad un colonista. La dimensione ideale della stanza è tra le piastrelle {0} e {1}.,,
 mood.colonist.stash.retrieved,Recuperato il nascondiglio nascosto,,
-quest.colonist.bed.title, {0}   ha bisogno di un letto,,
-quest.colonist.bed.desc, {0}   non ha un letto assegnato e ne vuole uno.,,
+quest.colonist.bed.title,{0} ha bisogno di un letto,,
+quest.colonist.bed.desc,{0} non ha un letto assegnato e ne vuole uno.,,
 quest.step.has.bed.assigned,Assegnare un letto a   {0} ,,
 quest.step.has.bed.assigned.desc,Costruisci un letto e assegnalo al colonista.,,
 mood.colonist.bed.assigned,Finalmente il mio letto,,
 personal.room,Stanza di {0},,
-quest.colonist.experiment.title, {0} 's Science Project,,
-quest.colonist.experiment.crawler.chip.desc,{0}   vuole eseguire un esperimento su un   {1}  . Catturare un campione vivente per dare al colonista l'opportunità di condurre la loro ricerca.,,"{0} is colonist name, {1} is crawler"
+quest.colonist.experiment.title,Progetto scientifico di {0},,
+quest.colonist.experiment.crawler.chip.desc,{0} vuole eseguire un esperimento su un {1}. Catturare un campione vivente per dare al colonista l'opportunità di condurre la loro ricerca.,,"{0} is colonist name, {1} is crawler"
 performed.an.experiment,Effettuato un esperimento,,
-quest.step.experiment.wait.title,Attendere l'esperimento di   {0}  ,,
-quest.step.experiment.crawler.chip.wait.desc,{0}   sta per eseguire un esperimento su   {1}  . Assicurati che   {0}    sia in grado di utilizzare un   {2}  .,,"{0} is colonist name, {1} is crawler, {2} is Surgery Hub"
-quest.step.capture.being.title,Catturare un   {0} ,,{0} is crawler
-quest.step.capture.being.desc,Incapacitate un   {0}   in combattimento senza ucciderlo.,,{0} is crawler
+quest.step.experiment.wait.title,Attendere l'esperimento di {0},,
+quest.step.experiment.crawler.chip.wait.desc,{0} sta per eseguire un esperimento su {1}. Assicurati che {0} sia in grado di utilizzare un {2}.,,"{0} is colonist name, {1} is crawler, {2} is Surgery Hub"
+quest.step.capture.being.title,Catturare un {0},,{0} is crawler
+quest.step.capture.being.desc,Incapacitate un {0} in combattimento senza ucciderlo.,,{0} is crawler
 quest.colonist.revenge.title.01,Indebitamento del sangue,,
 quest.colonist.revenge.title.02,Grudges muore lentamente,,
 quest.colonist.revenge.title.03,L'incidente del caffè,,
@@ -7436,27 +7436,27 @@ mood.colonist.revenge.satisfied,Con dolce vendetta,,
 quest.colonist.crush.title,Una spedizione romantica,,
 quest.colonist.crush.desc,"{0} vuole essere inviato in una spedizione insieme a {1}. Ufficialmente è per scopi esplorativi, ma il colono sembra molto più interessato a trascorrere del tempo con la persona che gli piace che alla missione stessa.",,{0} and {1} are names
 mood.colonist.crush.shared.expedition,Sono andato a una spedizione con la mia cotta,,
-quest.step.shared.expedition.title,Invia   {0}   in una spedizione con   {1}   ,,{0} and {1} are names
-quest.step.shared.expedition.two.desc,Avviare una spedizione sia con   {0}   e   {1}   a bordo della navetta.,,{0} and {1} are names
-quest.colonist.wants.pet.title,{0}   vuole un   {1},,"{0} is name, {1} is species name (Cat)"
-quest.colonist.wants.pet.desc,{0}   vi sta chiedendo di ottenere un   {1}    per la nave.,,"{0} is name, {1} is species name (Cat)"
-quest.step.get.species.title,Ottieni un   {0} ,,{0} is species name (Cat)
-quest.step.get.species.desc,Acquisire un   {0}   per la vostra nave.,,{0} is species name (Cat)
+quest.step.shared.expedition.title,Invia {0} in una spedizione con {1},,{0} and {1} are names
+quest.step.shared.expedition.two.desc,Avviare una spedizione sia con {0} e {1} a bordo della navetta.,,{0} and {1} are names
+quest.colonist.wants.pet.title,{0} vuole un {1},,"{0} is name, {1} is species name (Cat)"
+quest.colonist.wants.pet.desc,{0} vi sta chiedendo di ottenere un {1} per la nave.,,"{0} is name, {1} is species name (Cat)"
+quest.step.get.species.title,Ottieni un {0} ,,{0} is species name (Cat)
+quest.step.get.species.desc,Acquisire un {0} per la vostra nave.,,{0} is species name (Cat)
 mood.colonist.got.pet,C'e' un nuovo animale sulla nave!,,
-connector.tip.click.drag,Fare clic su   {0}   e trascinare una linea sul dispositivo che si desidera collegare o scollegare,,{0} is a button name
-research.disk.space.tip,Costruire o aggiornare   {0}   per aumentare lo spazio del disco.,,"{0} is ""Disk Modules"" from next key"
+connector.tip.click.drag,Fare clic su {0} e trascinare una linea sul dispositivo che si desidera collegare o scollegare,,{0} is a button name
+research.disk.space.tip,Costruire o aggiornare {0} per aumentare lo spazio del disco.,,"{0} is ""Disk Modules"" from next key"
 noun.disk.modules.plural,Moduli di disco,,Must be plural of objects.devices.diskmodule key value
 noun.space.storm,Tempesta spaziale,,
-quest.step.start.expedition.desc,Selezionare un   {0}   e inviare un equipaggio per esplorare un luogo o mine un deposito di risorse.,,{0} is Shuttle
-situation.ColonySizeDiff,Dimensione della colonia di destinazione (Difference),,
+quest.step.start.expedition.desc,Selezionare un {0} e inviare un equipaggio per esplorare un luogo o mine un deposito di risorse.,,{0} is Shuttle
+situation.ColonySizeDiff,Dimensione della colonia di destinazione (Differenza),,
 how.do.i.travel.here,Come posso viaggiare qui?,,
 region.unreachable.warning,Non si può saltare in questa regione spaziale,,
 region.travel.methods,Metodi di viaggio spaziali interstellari,,
 region.travel.method.relay,Trovare e utilizzare un   {0}   nella vostra regione attuale per saltare in una regione adiacente con un relè.,,{0} is Hyperjump Relay
-region.travel.method.ftl,Utilizzare un   {0}   per saltare in una regione adiacente.,,{0} is FTL Drive
-region.travel.method.warp,Utilizzare un   {0}   per saltare in qualsiasi regione dell'universo.,,{0} is Horizon Warp Drive
-region.travel.method.blackhole,Utilizzare un   {0}   per passare attraverso un   {1}  .,,"{0} is Void Ripper, {1} is Black Hole"
-surgical.op.failed,{0}   non è riuscito a eseguire un intervento chirurgico su   {1}  's   {2},,"{0} is surgeon name, {1} is patient's name, {2} is body part name"
+region.travel.method.ftl,Utilizzare un {0} per saltare in una regione adiacente.,,{0} is FTL Drive
+region.travel.method.warp,Utilizzare un {0} per saltare in qualsiasi regione dell'universo.,,{0} is Horizon Warp Drive
+region.travel.method.blackhole,Utilizzare un {0} per passare attraverso un {1}.,,"{0} is Void Ripper, {1} is Black Hole"
+surgical.op.failed,{0} non è riuscito a eseguire un intervento chirurgico a {1} su {2},,"{0} is surgeon name, {1} is patient's name, {2} is body part name"
 noun.failed.surgery,Chirurgia non riuscita,,
 situation.StoryPointsPositiveMax,Punti di storia (Positivo Max),,
 situation.StoryPointsPositive,Punti di storia (Positivo),,
@@ -7521,7 +7521,7 @@ risk.none,Nessuno,,
 risk.light,Luce,,
 risk.medium,Media,,
 risk.heavy,Pesante,,
-being.set.being.on.fire, {0}    ha impostato   {1}    in fiamme!,,{0} and {1} are being names
+being.set.being.on.fire,{0} ha impostato {1} in fiamme!,,{0} and {1} are being names
 noun.windowless.room,Camera senza finestra,,
 quest.MakeShipCombatReady.assign.battlestation,Assegnare la stazione di battaglia per gestire i cannoni della trinciatrice,,
 quest.MakeShipCombatReady.assign.battlestation.tip,"Seleziona il {0} e assegnalo al funzionamento del {1}. Senza un'arma assegnata, l'operatore della stazione non ha nulla con cui sparare.",,"{0} is battle station, {1} is shredder cannons"
@@ -7529,22 +7529,22 @@ noun.shredder.cannons.plural,Cannoni da trinciatore,,plural form of Shredder Can
 noun.quest.target,Obiettivo,,
 noun.preferred.target,Obiettivo preferito,,
 noun.preferred.target.tip,"Se il target preferito non è disponibile, verranno utilizzate le priorità di targeting predefinite.",,
-surgical.op.failed.wound,Il   {0}   è stato ferito nel processo.,,{0} is body part name
-surgical.op.failed.weld,Il   {0}   è stato saldato in posizione e non può più essere rimosso.,,{0} is body part name
-surgical.op.failed.cripple,Il   {0}   è stato storpio.,,{0} is body part name
-surgical.op.failed.destroy.part,La   {0}   è stata distrutta.,,{0} is body part name
+surgical.op.failed.wound,Il {0} è stato ferito nel processo.,,{0} is body part name
+surgical.op.failed.weld,Il {0} è stato saldato in posizione e non può più essere rimosso.,,{0} is body part name
+surgical.op.failed.cripple,Il {0} è stato storpiato.,,{0} is body part name
+surgical.op.failed.destroy.part,La {0} è stata distrutta.,,{0} is body part name
 surgical.op.failed.destroy.slot,Lo slot della parte del corpo è stato distrutto e rimarrà vuoto.,,
 surgical.op.failed.fatality,Il paziente non è sopravvissuto.,,
-surgical.op.failed.rejection,Il   {0}   è stato respinto dal sistema immunitario.,,{0} is body part name
+surgical.op.failed.rejection,Il {0} è stato respinto dal sistema immunitario.,,{0} is body part name
 ship.threat.detected,Rilevamento della minaccia,,
-noun.class.points.short, {0}  CP,,{0} is a number. Short acronym for Class Points (noun.class.points translation key)
+noun.class.points.short,{0} PC,,{0} is a number. Short acronym for Class Points (noun.class.points translation key)
 verb.scanning,Scansione,,
-verb.landing,Landing,,landing a shuttle on the ship
+verb.landing,Atterraggio,,landing a shuttle on the ship
 verb.boarding,Imbarco,,boarding a shuttle
 verb.flying,Volare,,
 verb.unloading,Scarico,,
 verb.calling,Chiamare,,"when someone is calling your on a phone, etc"
-count.onboard,A bordo:   {0},,"count of beings aboard the ship, {0} is the number"
+count.onboard,A bordo: {0},,"count of beings aboard the ship, {0} is the number"
 disable.demo.mode,Disattiva la modalità demo,,
 disable.demo.mode.tip,"Se la modalità Demo è disabilitata, l'ultimo salvataggio verrà caricato in pausa e la fotocamera rimarrà ferma nel menu principale.",,
 input.DraftUnit,Scorciatoia: Si tratta di esseri selezionati,,draft the currently selected being into combat mode
@@ -7570,14 +7570,14 @@ feedback.balance.tip,"Problema di bilanciamento del gioco. Esempi: <br> - La pro
 abandon.tutorial.quest.tip,Questa è una missione di tutorial. Può essere abbandonato senza conseguenze negative.,,
 opening.tutorial,Apertura Tutorial,,for a popup that will automatically open a tutorial
 tut.el.connect.title,Collegamento di dispositivi,,
-tut.activate.tool,Attiva lo strumento   {0}  .,,{0} - Connect
-tut.press.button.on.object,Premere   {0}   su un   {1}  .,,"{0} is button, {1} is connector"
+tut.activate.tool,Attiva lo strumento {0}.,,{0} - Connect
+tut.press.button.on.object,Premere {0} su un {1}.,,"{0} is button, {1} is connector"
 tut.drag.connect.line,Trascinare la connessione al dispositivo che si desidera collegare.,,
-tut.release.button.to.connect,Rilasciare   {0}   per creare la connessione.,,{0} is button
-tut.el.connect.cpu.warning, {0}   deve essere collegato prima di qualsiasi altra cosa!,,{0} is ship computer
+tut.release.button.to.connect,Rilasciare {0} per creare la connessione.,,{0} is button
+tut.el.connect.cpu.warning,{0} deve essere collegato prima di qualsiasi altra cosa!,,{0} is ship computer
 open.in.background,Aperto nello sfondo,,for opening popups behind the current window
-delete.all.saves,Elimina tutti i salva (  {0} ),,QuickChoice action in the load game menu
-delete.all.autosaves,Eliminare tutte le autosaves (  {0} ),,QuickChoice action in the load game menu
+delete.all.saves,Elimina tutti i salva ({0}),,QuickChoice action in the load game menu
+delete.all.autosaves,Eliminare tutte le autosaves ({0}),,QuickChoice action in the load game menu
 game.delete.all.confirm.details,Sei sicuro di voler eliminare l'intera directory di salvataggio e tutti i suoi contenuti? Questo non può essere annullato.,,Confirmation warning for deleting all saves
 manual.action.required,Azione manuale richiesta,,
 local.maneuvering.multiple.sections,"È possibile spostare più sezioni. Seleziona un {0} sulla sezione che desideri spostare, quindi utilizza l'azione {1} nella barra in basso per avviare la manovra.",,"{0} is maneuvering controller, {1} is Move Ship"
@@ -7588,9 +7588,9 @@ adj.priority.highest,Più alto,,in context of task priority
 trait.minimalist,Minimalista,,
 trait.minimalist.about,Preferisce ambienti personali compatti.,,
 noun.controls,Controlli,,as in 'UI Controls'
-tut.el.connecting.with.key,Connettere dispositivi con   {0} ,,{0} is the key name
+tut.el.connecting.with.key,Connettere dispositivi con {0},,{0} is the key name
 tut.el.connecting.with.key.desc,C'è un modo più veloce per collegare i dispositivi.,,
-tut.select.obj,Seleziona un   {0} ,,
+tut.select.obj,Seleziona un {0},,
 tut.hold.button,Aspetta {0},,
 winch.rotate_obstacle,La rotazione è stata bloccata da un ostacolo. È possibile rimuoverlo e riprovare l'operazione.,,Shown when CmdRotateSection aborts because a destination tile is occupied by something outside the rotating section
 winch.rotate_oob,La sezione non può ruotare qui - lascerebbe il bordo della mappa. Spostalo prima al centro.,,Shown when CmdRotateSection aborts because rotation would push a tile out of map bounds
@@ -7605,50 +7605,50 @@ tut.unifying.el.grid,Unificare la rete elettrica,,
 tut.unifying.el.grid.desc,I dispositivi collegati a una griglia elettrica che non è collegato al   {0}   visualizzeranno questa icona:,,{0} is ship computer
 tut.unifying.el.grid.step1,Connettori a catena insieme per estendere la portata del Computer di bordo.,,
 tut.finding.unamanged.grids,È possibile trovare rapidamente griglie elettriche non gestite utilizzando la rete elettrica UI.,,
-tut.el.mass.connect.shift,Tenere   {0}   e fare clic su un connettore per collegare o scollegare più dispositivi contemporaneamente.,,{0} is shift
+tut.el.mass.connect.shift,Tenere {0} e fare clic su un connettore per collegare o scollegare più dispositivi contemporaneamente.,,{0} is shift
 tut.el.disconnect,Ripetere la stessa azione su un dispositivo collegato per disconnetterlo.,,
-hyperjump.relay.arrived.prompt,Siamo arrivati a un   {0} . Ti piacerebbe avvicinarti e iniziare un salto in un settore spaziale adiacente?,,{0} is Hyperjump Relay
-hyperjump.relay.toll.prompt,Questo relè appartiene alla fazione   {0}    e addebita un pedaggio di   {1}  .,,"{0} is faction name, {1} is price"
+hyperjump.relay.arrived.prompt,Siamo arrivati a un {0}. Ti piacerebbe avvicinarti e iniziare un salto in un settore spaziale adiacente?,,{0} is Hyperjump Relay
+hyperjump.relay.toll.prompt,Questo relè appartiene alla fazione {0} e addebita un pedaggio di {1}.,,"{0} is faction name, {1} is price"
 codex.m.enclosing.areas,Zone di chiusura,,
 codex.m.enclosing.areas.step1,Costruisci pavimenti all'interno del perimetro che vuoi racchiudere.,,
 codex.m.enclosing.areas.step2,Costruisci pareti intorno alla zona che vuoi racchiudere.,,
-codex.m.enclosing.areas.step3,Consultare la sovrapposizione   {0}   per vedere quali aree sono considerate incluse.,,{0} is Rooms
-codex.m.enclosing.areas.step4,Utilizzare i sovrapposizioni   {0}   e   {1}    per trovare spazi vuoti di pavimento e parete.,,"{0} is Airtightness, {1} is Insulation"
+codex.m.enclosing.areas.step3,Consultare la sovrapposizione {0} per vedere quali aree sono considerate incluse.,,{0} is Rooms
+codex.m.enclosing.areas.step4,Utilizzare i sovrapposizioni {0} e {1} per trovare spazi vuoti di pavimento e parete.,,"{0} is Airtightness, {1} is Insulation"
 codex.m.enclosing.areas.step5,Un'area chiusa non è necessariamente ermetica.,,
 learn.how.to.airtight,Scopri come premere un'area.,,
 codex.m.pressurizing.areas,Aree di stampaggio,,
 codex.m.pressurizing.areas.step1,Chiudete prima la zona.,,
-codex.m.pressurizing.areas.step2,Utilizzare lo strumento   {0}   per ordinare riparazioni per qualsiasi struttura danneggiata all'interno o intorno al perimetro.,,{0} is Repair
+codex.m.pressurizing.areas.step2,Utilizzare lo strumento {0} per ordinare riparazioni per qualsiasi struttura danneggiata all'interno o intorno al perimetro.,,{0} is Repair
 codex.m.pressurizing.areas.step3,"Utilizza lo strumento {0} per collegare tutte le porte, le camere di equilibrio e le prese d'aria alla rete elettrica.",,{0} is Connect
-codex.m.pressurizing.areas.step4,Chiudere qualsiasi   {0}   che è esposto allo spazio aperto.,,{0} is Vent
-codex.m.pressurizing.areas.step5,Consulta le sovrapposizioni   {0}   e   {1}    per trovare lacune e perdite.,,"{0} is Airtightness, {1} is Insulation"
-codex.m.pressurizing.areas.step6,Costruisci almeno uno   {0}   e uno   {1}    per creare un'atmosfera vivibile.,,"{0} is Heater, {1} is Oxygen Pump"
-create.new.save,Crea nuovo Salva,,
+codex.m.pressurizing.areas.step4,Chiudere qualsiasi {0} che è esposto allo spazio aperto.,,{0} is Vent
+codex.m.pressurizing.areas.step5,Consulta le sovrapposizioni {0} e {1} per trovare lacune e perdite.,,"{0} is Airtightness, {1} is Insulation"
+codex.m.pressurizing.areas.step6,Costruisci almeno uno {0} e uno {1} per creare un'atmosfera vivibile.,,"{0} is Heater, {1} is Oxygen Pump"
+create.new.save,Crea nuovo Salvataggio,,
 noun.web.links,Collegamenti,,links to websites
 codex.m.creating.atmosphere,Creare l'atmosfera,,
 codex.m.creating.atmosphere.step1,Assicurarsi che la zona sia chiusa e pressurizzata prima.,,
-codex.m.creating.atmosphere.step2,Costruire e collegare uno o più   {0}   e   {1}   per coprire l'area.,,"{0} is Heater, {1} is Oxygen Pump"
-codex.m.creating.atmosphere.step3,Può richiedere del tempo per ossigenare completamente e riscaldare l'area. Consultare le sovrapposizioni   {0}   e   {1}    per determinare se avete bisogno di ulteriori riscaldatori o pompe di ossigeno.,,"{0} is Oxygen, {1} is Temperature"
+codex.m.creating.atmosphere.step2,Costruire e collegare uno o più {0} e {1} per coprire l'area.,,"{0} is Heater, {1} is Oxygen Pump"
+codex.m.creating.atmosphere.step3,Può richiedere del tempo per ossigenare completamente e riscaldare l'area. Consultare le sovrapposizioni {0} e {1} per determinare se avete bisogno di ulteriori riscaldatori o pompe di ossigeno.,,"{0} is Oxygen, {1} is Temperature"
 codex.m.configure.crafter,Configurare dispositivi di artigianato,,
 codex.m.launching.expeditions,Avviare le spedizioni,,
-codex.m.launching.expeditions.step1,Utilizzare il   {0}   per lanciare spedizioni per le risorse minerarie e esplorare punti di interesse.,,{0} is Shuttle
+codex.m.launching.expeditions.step1,Utilizzare il {0} per lanciare spedizioni per le risorse minerarie e esplorare punti di interesse.,,{0} is Shuttle
 setting.someone.on.fire,Impostare qualcuno sul fuoco,,
-trying.to.set.someone.on.fire, {0}   sta cercando di far fuoco a qualcuno.,,{0} is a name
-codex.m.battlestations.step1, {0}   controllo armi nave. Una stazione di battaglia può controllare più armi dello stesso tipo. L'aggiunta di più armi può richiedere ulteriori stazioni di battaglia.,,{0} is Battle Stations
-codex.m.battlestations.step2,Assegnare un tipo di arma a ciascuno   {0}  . È inoltre possibile configurare quali obiettivi le armi controllate da quella stazione si impegnano.,,{0} is Battle Station
+trying.to.set.someone.on.fire,{0} sta cercando di far fuoco a qualcuno.,,{0} is a name
+codex.m.battlestations.step1,{0} controllo armi nave. Una stazione di battaglia può controllare più armi dello stesso tipo. L'aggiunta di più armi può richiedere ulteriori stazioni di battaglia.,,{0} is Battle Stations
+codex.m.battlestations.step2,Assegnare un tipo di arma a ciascuno {0}. È inoltre possibile configurare quali obiettivi le armi controllate da quella stazione si impegnano.,,{0} is Battle Station
 manual.fire.will.overload,Il cablaggio ora causerà un sovraccarico Flux!,,Warning line shown in the Manual Fire button tooltip on a ship Battle Station when shooting would push ship flux over capacity
 accuracy.bonus,Bonus di precisione,,
 codex.m.ship.combat.controls.step1,Fare clic sul widget di combattimento della nave per passare alla vista tattica.,,
-codex.m.ship.combat.controls.step2,Premere e tenere premuto il tasto   {0}   su qualsiasi   {1}   che richiede il controllo manuale.,,{0} is Fire. {1} is Battle Stations
-codex.m.ship.combat.controls.step3,Monitorare i livelli   {0}   e utilizzare il pulsante Vent quando necessario per evitare   {1}  . Gli scudi sono disabilitati durante lo sfiato del flusso.,,{0} is Accumulated Flux. {1} is Flux Overload
-codex.m.ship.combat.controls.step4,Utilizzare   {0}   per configurare l'obiettivo dell'arma globale o regolare gli obiettivi preferiti del singolo   {1}   per creare la propria strategia di combattimento.,,{0} is Ship Configuration. {1} is Battle Stations
+codex.m.ship.combat.controls.step2,Premere e tenere premuto il tasto {0} su qualsiasi {1} che richiede il controllo manuale.,,{0} is Fire. {1} is Battle Stations
+codex.m.ship.combat.controls.step3,Monitorare i livelli {0} e utilizzare il pulsante Vent quando necessario per evitare {1}. Gli scudi sono disabilitati durante lo sfiato del flusso.,,{0} is Accumulated Flux. {1} is Flux Overload
+codex.m.ship.combat.controls.step4,Utilizzare {0} per configurare l'obiettivo dell'arma globale o regolare gli obiettivi preferiti del singolo {1} per creare la propria strategia di combattimento.,,{0} is Ship Configuration. {1} is Battle Stations
 quest.conditions,Condizioni,,could be same as noun.conditions but this is: conditions for fulfilling a quest
 codex.m.tempconn,"In determinate situazioni, puoi ordinare a un operatore robotico di creare una connessione temporanea.",,
-codex.m.ship.computer.apps,La scheda   {0}    della scheda   {1}   fornisce l'accesso a varie impostazioni e pannelli di controllo.,,{0} is Apps; {1} is Ship Computer
+codex.m.ship.computer.apps,La scheda {0} della scheda {1} fornisce l'accesso a varie impostazioni e pannelli di controllo.,,{0} is Apps; {1} is Ship Computer
 codex.m.drafting,Creare esseri per combattere,,
 codex.m.drafting.step1,"{0} lavoratori e coloni per controllarli direttamente durante il combattimento. Mentre sono arruolati, non svolgeranno compiti di colonia.",,{0} is draft
-codex.m.drafting.step2,Utilizzare   {0}   per ordinare esseri abbozzati per spostarsi in una posizione specifica o attaccare un nemico specifico.,,{0} is a button icon
-codex.m.drafting.step3,Ricordatevi di   {0}  dopo che il combattimento è finito.,,{0} is undraft
+codex.m.drafting.step2,Utilizzare {0} per ordinare esseri abbozzati per spostarsi in una posizione specifica o attaccare un nemico specifico.,,{0} is a button icon
+codex.m.drafting.step3,Ricordatevi di {0} dopo che il combattimento è finito.,,{0} is undraft
 verb.see,Vedi,,Will be used to create links like See: Link to another page
 verb.see.also,Vedi anche,,
 noun.flux.vent,Venduta di flusso,,Singular name of the Flux Vent ship device - a buildable device that increases a ship's flux vent rate
@@ -7666,13 +7666,13 @@ noun.ship.shield,Schermo nave,,
 noun.ship.engine,Motore nave,,
 stat.firing.time,Tempo di lavorazione,,Duration of a ship weapon's firing state before it needs to recharge
 verb.upgrade,Aggiornamento,,
-codex.m.fluxvent.build,Costruire   {0}   per aumentare il tasso di sfiato del flusso.,,{0} is Flux Vents
+codex.m.fluxvent.build,Costruire {0} per aumentare il tasso di sfiato del flusso.,,{0} is Flux Vents
 codex.m.fluxvent.manual,"Sfiatare {0} manualmente per prevenire {1}. Lo sfiato manuale disabilita gli scudi, ma rimuove il flusso più velocemente dello sfiato forzato durante {1}. È possibile interrompere lo sfiato manuale in qualsiasi momento.",,{0} is Flux; {1} is Flux Overload
 codex.m.shields.overbuild,"Costruire più di un {0} non rende gli scudi più forti o più veloci. Gli emettitori aggiuntivi forniscono solo ridondanza a un costo elevato di {1}. Se l'ultimo {0} viene disabilitato, gli scudi vengono persi.",,{0} is Shield Emitter; {1} is Class Points
 codex.m.weapons.battlestations,Le armi da nave devono essere assegnate a   {0}   prima che possano operare.,,{0} is Battle Stations
 codex.m.spacetravel.warp,Le unità di curvatura consentono di viaggiare direttamente in località selezionate senza seguire iperlan.,,
 codex.m.shiptags,"Un breve codice di classificazione della nave che suggerisce il ruolo, l'equipaggiamento e il livello di minaccia di una nave. I tag vengono assegnati automaticamente e potrebbero essere fuorvianti.",,
-codex.m.shiptags2,Vedere la scheda codex   {0}   per un elenco di tag nave noti.,,{0} is Ship Tags
+codex.m.shiptags2,Vedere la scheda codex {0} per un elenco di tag nave noti.,,{0} is Ship Tags
 codex.m.jobs.title,"Compiti, lavori e competenze",,
 codex.m.jobs1,Ogni compito della colonia ha una categoria di lavoro. Un lavoratore deve essere in grado di quel tipo di lavoro per svolgere il compito. Alcune esperienze e tratti passati possono rendere certi esseri incapaci di svolgere lavori specifici.,,
 codex.m.jobs2,È possibile configurare i tipi di lavoro che ogni essere è permesso di eseguire.,,
@@ -7681,8 +7681,8 @@ codex.m.jobs4,"La capacità lavorativa non è l’unico requisito per eseguire u
 codex.m.jobs5,"Il livello di intelligenza di un essere, fornito dal suo nucleo o cervello, può anche limitare il tipo di lavoro che può svolgere. Ad esempio, un essere con un {0} o {1} non può utilizzare un {2}, ma qualcuno con un {3} o {4} può.",,{0} is Dumb Core; {1} is Lite Core; {2} is Research Station; {3} is Mini Core; {4} is Human Brain
 codex.m.jobs6,"La maggior parte dei lavori ha un livello di abilità. Il livello 0 significa che l'essere è un dilettante e può commettere errori. Un'abilità più elevata può migliorare la competenza, le possibilità di successo e la velocità. Le abilità dei lavoratori robot possono essere addestrate a un {0}, ma ciò richiede la rimozione del nucleo, il che comporta alcuni rischi.",,{0} is ML Booth
 codex.m.jobs7,"Per forzare l'assegnazione di un'attività, seleziona un lavoratore, quindi premi {0} sulla posizione dell'attività e utilizza il menu popup per assegnarla. L'essere deve essere in grado di raggiungere il luogo, eseguire il compito e non deve essere arruolato.",,{0} is Mouse Right Click icon
-quest.step.pay.signal.title,Pagare   {0} ,,{0} is an amount of Starcreds
-quest.step.pay.signal.desc,Trasferimento   {0}   a   {1}  .,,{0} is an amount of Starcreds; {1} is the Signal
+quest.step.pay.signal.title,Pagare {0} ,,{0} is an amount of Starcreds
+quest.step.pay.signal.desc,Trasferimento {0} a {1}.,,{0} is an amount of Starcreds; {1} is the Signal
 signal.quest.no.response,Il segnale non risponde.,,
 noun.signal.offer,Segnale commerciale,,
 noun.signal.offer.desc,La fonte di segnale offre un commercio.,,
@@ -7690,11 +7690,11 @@ codex.m.resources.production,Risorse e produzione,,
 codex.m.configure.crafter1,La maggior parte dei dispositivi di artigianato può produrre diverse risorse. Selezionare il dispositivo e fare clic su   {0}  per scegliere cosa produrre.,,{0} is + New Order
 codex.m.configure.crafter2,È possibile creare più ordini sullo stesso dispositivo. Fare clic e trascinare gli ordini per riorganizzarli.,,
 codex.m.scanning.resources,Scansione per le risorse,,
-codex.m.scanning.resources1,A   {0}   può scansionare l'universo per risorse e oggetti specifici. Utilizzare il   {1}   per configurare la scansione delle risorse.,,{0} is Radar; {1} is Starmap
+codex.m.scanning.resources1,A {0} può scansionare l'universo per risorse e oggetti specifici. Utilizzare il   {1}   per configurare la scansione delle risorse.,,{0} is Radar; {1} is Starmap
 codex.m.scanning.resources2,Radar esegue anche una scansione profonda automatica del settore corrente. Le scansioni profonde possono rivelare diversi depositi di risorse per settore che la scansione a lungo raggio mirata non trova.,,
-codex.m.scanning.resources3,Sblocca   {0}   ricerca per la scansione di tipi di risorse e oggetti non comuni.,,{0} is System Scanning
-codex.m.scanning.resources4,Sblocca   {0}   ricerca per la scansione di risorse estremamente rare come   {1}   o   {2}   .,,{0} is Extended Scanning; {1} is Dark Matter; {2} is Edenium
-codex.m.scanning.resources5,Costruisci ulteriori   {0}   o   {1}   per aumentare la velocità di scansione.,,{0} is Radar; {1} is System Scanner
+codex.m.scanning.resources3,Sblocca {0} ricerca per la scansione di tipi di risorse e oggetti non comuni.,,{0} is System Scanning
+codex.m.scanning.resources4,Sblocca {0} ricerca per la scansione di risorse estremamente rare come {1} o {2}.,,{0} is Extended Scanning; {1} is Dark Matter; {2} is Edenium
+codex.m.scanning.resources5,Costruisci ulteriori {0} o {1} per aumentare la velocità di scansione.,,{0} is Radar; {1} is System Scanner
 codex.m.trade1,"La maggior parte delle risorse può essere scambiata con navi, stazioni spaziali e spazioporti. Occasionalmente, un commerciante può atterrare sulla tua nave in un {0}.",,{0} is Stasis Pod
 codex.m.trade2,Le relazioni di fazione possono influenzare il markup dei prezzi.,,
 codex.m.trade3,"I prezzi sono determinati principalmente dal {0}, che reagisce alla domanda e all'offerta. Anche la disponibilità locale e le relazioni tra le fazioni possono influenzare il prezzo finale degli oggetti acquistati e venduti.",,{0} is Stock Market
@@ -7702,72 +7702,72 @@ codex.m.trade4,"Se rimani bloccato, puoi utilizzare il {0} per ricevere beni di 
 verb.view.online,Visualizza Online,,Button label for opening codex manual in a web browser
 setting.tooltip.delay,Ritmo di utensili,,Label of a slider in Settings > Gameplay > Visuals that sets how long the cursor must rest on something before its tooltip appears
 setting.tooltip.delay.tip,Quanto tempo il cursore deve riposare su qualcosa prima che il suo tooltip appare.,,Explanation tooltip for the Tooltip Delay slider in Settings > Gameplay
-ship.combat.ally.joined, {0}   si unisce alla battaglia,,{0} is the name of an NPC ship that joined the player's side in ship combat
+ship.combat.ally.joined,{0} si unisce alla battaglia,,{0} is the name of an NPC ship that joined the player's side in ship combat
 noun.ally,Ally,,Label marking a ship that is fighting on the player's side in ship combat
-ship.join.battle.help,Aiuto   {0}  ,,Button in the starmap ship action popup that makes the player join an ongoing NPC vs NPC battle on {0}'s side. {0} is a ship name
+ship.join.battle.help,Aiuto {0},,Button in the starmap ship action popup that makes the player join an ongoing NPC vs NPC battle on {0}'s side. {0} is a ship name
 ship.join.battle.tip,"Unisciti alla battaglia: aiuta {0}, attacca {1}",,Tooltip of the Help button. {0} is the ship the player would fight alongside; {1} is the ship the player would fight against
 ship.join.battle.unavailable,Quella battaglia non è più disponibile per unirsi,,Error message shown when the player arrives at an NPC vs NPC battle that has ended or changed while flying there
 post.processing,Elaborazione post,,"Video setting dropdown label. Lets the player pick a global color grading/tonemapping profile, or Off to disable it entirely"
 post.processing.tip,Scegli uno stile di sfumatura colore per la vista del gioco. Off disabilita completamente l'effetto per le migliori prestazioni.,,Tooltip under the Post Processing dropdown in Video settings
 postfx.default,Predefinito,,Name of the default post processing profile shown in the Post Processing dropdown
 postfx.soft,Morbido,,Name of the softer/desaturated post processing profile shown in the Post Processing dropdown
-postfx.warm,Warm,,
-postfx.warmmatte,Warm Matte,,
+postfx.warm,Caldo,,
+postfx.warmmatte,Caldo Opaco,,
 postfx.coolneutral,Neutrale freddo,,
-postfx.vivid,Vivid,,
+postfx.vivid,Vivace,,
 noun.diplomacy,Diplomazia,,
 noun.allies,Alleati,,Header above the row of allied faction flags in the Diplomacy panel
-noun.enemies,Enemies,,Header above the row of hostile faction flags in the Diplomacy panel
+noun.enemies,Nemici,,Header above the row of hostile faction flags in the Diplomacy panel
 diplomacy.propose.alliance,Proporre l'Alleanza,,Button in the Diplomacy panel that offers an alliance to a faction
-diplomacy.propose.chance,Possibilità di accettare:   {0} ,,Tooltip on the Propose Alliance button. {0} is a percentage
-diplomacy.propose.cooldown,Possiamo avvicinarli di nuovo in   {0},,"Tooltip shown when the Propose Alliance button is on cooldown. {0} is a duration, i.e. 5 days"
+diplomacy.propose.chance,Possibilità di accettare: {0},,Tooltip on the Propose Alliance button. {0} is a percentage
+diplomacy.propose.cooldown,Possiamo avvicinarli di nuovo in {0},,"Tooltip shown when the Propose Alliance button is on cooldown. {0} is a duration, i.e. 5 days"
 diplomacy.alliance.impossible,Questa fazione non entrerà mai in un'alleanza.,,Tooltip explaining why the Propose Alliance button is disabled for factions like Pirates and Virus
-diplomacy.alliance.accepted, {0}  ha accettato la nostra proposta di alleanza,,Ship log line. {0} is a faction name
-diplomacy.alliance.rejected, {0}   declinata la nostra proposta di alleanza,,Ship log line. {0} is a faction name
+diplomacy.alliance.accepted,{0} ha accettato la nostra proposta di alleanza,,Ship log line. {0} is a faction name
+diplomacy.alliance.rejected,{0} declinata la nostra proposta di alleanza,,Ship log line. {0} is a faction name
 diplomacy.break.alliance,Alleanza,,Red button in the Diplomacy panel that ends an alliance
 diplomacy.break.alliance.confirm,Rompere la nostra alleanza con {0} danneggerà la nostra posizione nei loro confronti e non saremo in grado di proporre una nuova alleanza per molto tempo.,,Confirmation popup body and tooltip for the Break Alliance button. {0} is a faction name
 diplomacy.alliance.broken,La nostra alleanza con   {0}   è finita,,Ship log line. {0} is a faction name
-diplomacy.relation.became.enemy, {0}  ci considera un nemico,,Ship log line. {0} is a faction name
-diplomacy.relation.no.longer.enemy, {0}  non ci considera più un nemico,,Ship log line. {0} is a faction name
+diplomacy.relation.became.enemy,{0} ci considera un nemico,,Ship log line. {0} is a faction name
+diplomacy.relation.no.longer.enemy,{0} non ci considera più un nemico,,Ship log line. {0} is a faction name
 diplomacy.asimov.alliance,Questa alleanza è forzata dall'Asimov Override e non può essere spezzata a mano. Finisce se l'override viene distrutta.,,Tooltip on the disabled Break Alliance button for the Virus faction
-diplomacy.alliance.accepted.popup, {0}   ha accettato la nostra proposta di alleanza. Ora siamo alleati.,,Popup body shown right after the player proposes an alliance and it is accepted. {0} is a faction name
+diplomacy.alliance.accepted.popup,{0} ha accettato la nostra proposta di alleanza. Ora siamo alleati.,,Popup body shown right after the player proposes an alliance and it is accepted. {0} is a faction name
 diplomacy.alliance.rejected.popup,"{0} ha rifiutato la nostra proposta di alleanza. Il fallimento dell’approccio ci è costato un po’ stare al loro fianco, e dovremmo lasciar passare un po’ di tempo prima di chiedere di nuovo.",,Popup body shown right after the player proposes an alliance and it is refused. {0} is a faction name
 bodypart.Implant.MoodRegulator,Regolatore di umidità,,Name of an implant body part. Also shown as the reason label on the permanent mood bonus it grants.
 bodypart.Implant.MoodRegulator.desc,Sintonizza continuamente lo stato mentale del soggetto.,,Description of the Mood Regulator implant body part
-ship.combat.enemy.joined, {0}   si unisce alla battaglia contro di noi,,{0} is the name of an NPC ship that joined the enemy side in ship combat
-obj.equipment.weapons.nailgun01,Pistola per unghie,,
-obj.equipment.weapons.nailgun01.desc,Uno strumento di costruzione che spinge le unghie in cose diverse dalle pareti.,,
+ship.combat.enemy.joined,{0} si unisce alla battaglia contro di noi,,{0} is the name of an NPC ship that joined the enemy side in ship combat
+obj.equipment.weapons.nailgun01,Pistola sparachiodi,,
+obj.equipment.weapons.nailgun01.desc,Uno strumento di costruzione che spinge i chiodi in cose diverse dalle pareti.,,
 research.security.improvisedarms,Bracci improvvisati,,
-obj.equipment.weapons.sniperrifle01,Sniper Rifle,,
+obj.equipment.weapons.sniperrifle01,Fucile di precisione,,
 obj.equipment.weapons.sniperrifle01.desc,Un fucile di precisione a lunga distanza con un campo di ingrandimento. Morto a distanza e inutile da vicino.,,
 research.security.precisionfirearms,Armi da fuoco di precisione,,
-obj.equipment.weapons.vibroblade01,Vibroblade,,
+obj.equipment.weapons.vibroblade01,Vibrolama,,
 obj.equipment.weapons.vibroblade01.desc,Un bordo monofilamento vibrante a frequenza ultrasonica - taglia abbastanza in profondità per raggiungere organi vitali.,,
-research.security.advancedmelee,Melee avanzato,,
+research.security.advancedmelee,Mischia avanzato,,
 obj.equipment.weapons.smg01,SMG,,
 obj.equipment.weapons.smg01.desc,"Un'arma laterale automatica compatta: colpi leggeri, cadenza di fuoco elevata, è meglio tenerla vicina.",,
 research.security.automaticweapons,Armi automatiche,,
 ship.weapon.target.skipped.during.ship.combat,Le navi nemiche hanno sempre la precedenza - questo è mirato solo quando nessun combattimento navale è in corso.,,Extra tooltip line shown on the Meteoroid/Asteroid auto-target priority sliders in Ship Configuration
 obj.equipment.weapons.riotshield01,Scudo di Riot,,
-obj.equipment.weapons.riotshield01.desc,Uno scudo balistico rinforzato che blocca danni offuscati e piercing. Meglio tenere una fila che litigare.,,
+obj.equipment.weapons.riotshield01.desc,Uno scudo balistico rinforzato che blocca danni offuscati e penetranti. Meglio tenere una fila che litigare.,,
 attack.method.Bash,Colpo violento,,
 research.security.defensivegear,Ingranaggio difensivo,,
-obj.equipment.weapons.stunbaton01,Stun Baton,,
+obj.equipment.weapons.stunbaton01,Bastone elettrico,,
 obj.equipment.weapons.stunbaton01.desc,"Un elettroshock portatile costruito per inabilitare piuttosto che uccidere: devastante sia contro la biologia che contro la robotica, ma graffia a malapena.",,
 attack.method.Shock,Scossa,,
 research.security.nonlethalsystems,Sistemi non letali,,
 obj.equipment.weapons.machete01,Machete,,
 obj.equipment.weapons.machete01.desc,"Una lama lunga e pesante: più lenta e meno precisa di un coltello, ma colpisce molto più forte.",,
-research.security.meleecombat,Melee Combat,,
+research.security.meleecombat,Combattimento corpo a corpo,,
 act.BreakdownAbandonShip,Abbandonare la nave,,AI action name shown while a colonist is executing the Abandon Ship mental breakdown
 breakdown.BreakdownAbandonShip,Ripartizione: Desertion,,Mental breakdown title shown in the sticky notification and ship log
 breakdown.BreakdownAbandonShip.desc,{0} si sta dirigendo verso una navetta e intende lasciare definitivamente la nave,,{0} is being name; tooltip/log description for the Abandon Ship breakdown
-being.abandoned.the.ship,{0}   ha preso un   {1}   e ha abbandonato la nave.,,"Popup shown when a colonist launches a shuttle and deserts during a mental breakdown. {0} is the colonist's name, {1} is the shuttle's name"
+being.abandoned.the.ship,{0} ha preso un {1} e ha abbandonato la nave.,,"Popup shown when a colonist launches a shuttle and deserts during a mental breakdown. {0} is the colonist's name, {1} is the shuttle's name"
 mood.crew.member.deserted,Un membro dell'equipaggio ha abbandonato la nave,,Reason label on the negative mood effect applied to the rest of the crew after a colonist deserts
 mood.deserter.returned.personal,Alleato per essere tornato,,Reason label on the big personal mood boost applied to a colonist who deserted and has now returned
 mood.crew.member.returned,Un membro dell'equipaggio è tornato,,Reason label on the positive mood effect applied to the rest of the crew when a deserter comes back
 evt.deserter.shuttle.returns.title,Una navetta ritorna,,Log/notification title when a shuttle stolen by a deserter flies itself back and lands
-evt.deserter.shuttle.returns.desc,La navetta rubata di   {0}   si è portata indietro e sta atterrando.,,{0} is the deserter's name; log/notification description shown when the shuttle lands and they are back aboard
+evt.deserter.shuttle.returns.desc,La navetta rubata di {0} si è portata indietro e sta atterrando.,,{0} is the deserter's name; log/notification description shown when the shuttle lands and they are back aboard
 evt.stasis.pod.deserter.returns.title,Un volto familiare,,Log/notification title when a discovered stasis pod turns out to contain a colonist who previously deserted the ship
 evt.stasis.pod.deserter.returns.desc,La capsula di stasi si apre ed è {0}! Sono tornati da noi.,,{0} is the returning deserter's name
 evt.exp.found.deserter.title,Segnale da una navetta persa,,Title of the expedition event where a deserted colonist is found during a POI or Anomaly exploration
@@ -7790,11 +7790,11 @@ codex.m.bigquestions.rogueai.override,"Si inizia con l'Asimov Override, un hardw
 codex.m.bigquestions.rogueai.doctrines,"Da lì il percorso si apre su tre strade per smettere di trattare l’equipaggio come persone. Date loro da mangiare: le linee di nutrienti sostituiscono completamente cucine e sale da pranzo. Coltivali: Elysium sospende i dormienti in una simulazione e trasforma i loro corpi sognanti in elettricità e biomassa. Oppure controllarli direttamente, in modo che i desideri di un colono smettano di avere importanza.",,
 codex.m.bigquestions.rogueai.cost,"Il prezzo è permanente. La colonizzazione del pianeta fallisce nel momento in cui Elysium viene abilitato, le Sentinelle ci tratteranno come un bersaglio da quel momento in poi e nessun dormiente che sveglieremo sarà mai più integro. Questo è un modo per vincere, non un modo per essere perdonati.",,
 copy.config.tube.feeder,Alimentatore per tubi,,
-research.rogueai.betawaves,Beta Waves,,Rogue AI research unlocking the Beta Wave Emitter
+research.rogueai.betawaves,Onde beta,,Rogue AI research unlocking the Beta Wave Emitter
 research.rogueai.betawaves.desc,"Sblocca l'emettitore di onde beta. Mentre trasmette, ogni membro dell'equipaggio biologico senza resistenza naturale fa semplicemente quello che gli viene detto: nessun impianto, nessun intervento chirurgico, nessuna conversazione.",,
-research.rogueai.corticaloverride,Cortical Override,,Rogue AI research making living brain extraction a supported surgery
+research.rogueai.corticaloverride,Sovrascrittura corticale,,Rogue AI research making living brain extraction a supported surgery
 research.rogueai.corticaloverride.desc,Rimuovere un cervello da un corpo vivente smette di essere macelleria e diventa una procedura supportata. Molto meno menti sono persi sul tavolo sulla strada in un Mindjar o una cornice robotica.,,
-objects.devices.betawaveemitter,Emettitore Beta Wave,,
+objects.devices.betawaveemitter,Emettitore di onde beta,,
 beta.wave.emitter.desc,"Emette una portante a bassa frequenza che colpisce il cervello biologico. Una volta sincronizzato, nessun colono può rifiutare un ordine.",,Description of the Beta Wave Emitter device
 beta.waves.broadcasting,Trasmissione delle onde beta,,Info icon label shown on a powered Beta Wave Emitter
 beta.waves.synced,L'equipaggio è in piena sincronizzazione dell'onda beta,,Fanfare and log line shown when beta wave sync reaches maximum and the crew loses the ability to refuse orders
@@ -8112,13 +8112,13 @@ being.in.stasis.unrevealed,Abilità e tratti saranno conosciuti una volta che si
 stasis.harm.log, {0}   è stato danneggiato da stasi instabile,,Ship log line. {0} is a link to the name of a being who took damage while asleep in an unstable Stasis Array
 stasis.death.alert, {0}   morto in stasi,,Alert notification and ship log line. {0} is the full name of a being who died while asleep in an unstable Stasis Array
 stasis.death.cause,Fallimento della stasi,,Cause of death shown for a being who died while asleep in an unstable Stasis Array
-stasis.lost.alert, {0}   sonniferi sono stati persi con la Stasis Array,,Alert notification shown when a Stasis Array is destroyed or removed with sleepers still inside. {0} is how many of them died
+stasis.lost.alert, {0} dormienti sono stati persi con la Stasis Array,,Alert notification shown when a Stasis Array is destroyed or removed with sleepers still inside. {0} is how many of them died
 stasis.lost.cause,Perso con la Stasis Array,,Cause of death shown for a being who was asleep in a Stasis Array when it was destroyed or removed
-stasis.first.wakeup.care,{0} i sonniferi sono sotto la tua custodia.,,Large text shown on a dark screen the first time someone can be woken from stasis in a game. {0} is how many people and pets are asleep
+stasis.first.wakeup.care,{0} i dormienti sono sotto la tua custodia.,,Large text shown on a dark screen the first time someone can be woken from stasis in a game. {0} is how many people and pets are asleep
 stasis.first.wakeup.now,Uno di loro sta per svegliarsi.,,Large text shown on a dark screen right after the line about sleepers in your care. Comes before the player chooses who to wake
 stasis.first.wakeup.choose,Scegli chi si sveglia prima,,Header of the wake up choice screen the first time it is shown in a game
-fate.delivered, {0}   di   {1}    sonniferi dal manifesto raggiunto   {2}  .,,First line of the colonist fates shown in the credits after colonizing a planet. {0} is how many sleepers from the stasis manifest arrived alive. {1} is how many there were in total. {2} is the name of the planet
-fate.CarriedAsAshes,Le ceneri dei coloni   {0}   sono state portate nel nuovo mondo:,,Line in the colonist fates shown in the credits after colonizing a planet. {0} is how many urns with ashes were aboard. A list of names follows
+fate.delivered,{0} di {1} dormienti dal manifesto raggiunto   {2}.,,First line of the colonist fates shown in the credits after colonizing a planet. {0} is how many sleepers from the stasis manifest arrived alive. {1} is how many there were in total. {2} is the name of the planet
+fate.CarriedAsAshes,Le ceneri dei coloni {0} sono state portate nel nuovo mondo:,,Line in the colonist fates shown in the credits after colonizing a planet. {0} is how many urns with ashes were aboard. A list of names follows
 stasis.wakeup.soon.title,Risveglio dalla stasi imminente,,Title of a warning notification that appears some time before somebody is woken from a Stasis Array
 stasis.wakeup.soon.desc,Qualcuno sta uscendo da questa Stasis Array presto. Assicurati che ci sia un posto dove vivere.,,Tooltip of the stasis wake-up warning notification. It explains what the player can do with the advance notice
 rescue.beacon.sent,Nessun equipaggio è in grado di rispondere. Distress beacon trasmesso.,,Shown when every colonist and bot aboard is dead or incapacitated. The ship AI calls for help; a rescue pod arrives about a day later
@@ -8820,4 +8820,7 @@ noun.interstellar.space.travel,Viaggi spaziali interstellari,,
 item.forbidden.tip,"Vietato. Nessuno lo conserverà, userà o mangerà finché non sarai tu a consentirlo.",,Tooltip of the small red sign shown on a forbidden item or material pile
 quest.step.allow.items,Consenti il {0},,"{0} is a linked item name (Survival Meal, Scrap Metal). Tutorial quest objective: the starting supplies are forbidden and the player must allow them"
 quest.step.allow.items.tip,"L'elemento {0} è vietato, pertanto nessuno lo mangia, lo utilizza o lo conserva. Selezionalo e premi Consenti.",,"{0} is a linked item name (Survival Meal, Scrap Metal). Tooltip of the quest objective above. Allow is the button name"
+work.radius,Raggio d'azione,,Header of the bot dock setting that keeps the dock's bot working near the dock
+work.radius.tip,"Il bot assegnato accetta attività solo entro questa distanza dalla sua base. All'impostazione minima, invece, opera ovunque.",,Tooltip of the Work Radius slider on the bot dock panel
+nav.fail.blocked.by.enemy,Bloccato da un nemico,,Reason a move failed: an enemy stood in the way and did not move
 ,,,
