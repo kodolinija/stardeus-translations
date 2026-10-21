@@ -678,7 +678,7 @@ drag.release.build.con,Costruire connettori al rilascio di trascinamento,,
 drag.release.build.con.tip,"Se questa opzione è abilitata, lo strumento di connessione creerà un connettore quando una connessione viene trascinata e rilasciata su un piano vuoto.",,
 drink.coffee,Bevi caffè,,
 drop.task,Rilascia attività,,
-duplicate.binding,Duplica associazione,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad). 
+duplicate.binding,Duplica associazione,,A warning for input key binding settings. Displayed if the same button is bound to execute more than one action (which is bad).
 duplicate.binding.info,L'input che hai scelto per {0} è già in uso altrove. Nella maggior parte dei casi potresti voler annullare la modifica. Si noti che i tasti di direzione della tastiera,,
 dust.accumulation,Accumulo di polvere,,
 dust.amount,Quantità di polvere,,
@@ -696,7 +696,7 @@ eject.ammo,Espulsione munizioni,,
 eject.contents,Espelli contenuto,,
 eject.food,Espellere il cibo,,
 eject.fuel,Espulsione del carburante,,
-el.build.connector.here,Crea un connettore qui,,Displayed in a tooltip when dragging a connector 
+el.build.connector.here,Crea un connettore qui,,Displayed in a tooltip when dragging a connector
 el.connector.fully.utilized,Il connettore è pienamente utilizzato!,,Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots
 el.connector.not.on.grid,Il connettore non è sulla griglia del computer di bordo!,,Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electric grid. Player cannot control devices that are no connected to Ship Computer though a network.
 el.connector.out.of.range,Fuori portata!,,Displayed in a tooltip when trying to drag an electrical connection to a point where the connector cannot reach it
@@ -1274,7 +1274,7 @@ inconsistent.game.state,"Impossibile salvare. Un bug impedisce la corretta creaz
 increase,Aumento,,
 increase.amount,Aumenta l'importo,,
 indestructible,Indistruttibile,,
-indestructible.desc,Gli oggetti indistruttibili non riceveranno alcun danno da impatto,, 
+indestructible.desc,Gli oggetti indistruttibili non riceveranno alcun danno da impatto,,
 infinity,Infinità,,"Used in displaying time estimate when something would take forever to execute. Example: research time estimate when there is 0kW of energy output shows a tooltip: ""ETA: Infinity @0kW"""
 info.ad.rejected,Attività rifiutata,,
 info.ad.rejected.cancelled,L'attività è stata annullata,,
@@ -2782,7 +2782,7 @@ ship.no.bridge.controls,Controlli ponte offline,,
 ship.no.bridge.controls.operator,Nessun operatore di ponte,,
 ship.no.engines,Motori offline,,
 ship.not.in.one.piece,Spedisci non tutto d'un pezzo,,
-shooter,Tiratore,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter. 
+shooter,Tiratore,,For displaying the name of the person who fired a bullet. You can inspect a bullet to see who is the shooter.
 short.title,Titolo breve,,
 shortcut.not.bound,(non vincolato),,
 shortcut.tip,Scorciatoia: {0},,
@@ -3261,7 +3261,7 @@ turret.charge.bar,Carica torretta: {0}/{1},,
 turret.settings,Impostazioni della torretta,,
 tutorial.build.range.info,Costruisci il dispositivo all'interno {0} tessere dal computer di bordo.,,
 tutorial.time_speed,Puoi alternare il flusso temporale utilizzando <b>{0}</b> e passare da una velocità all'altra con <b>{1}</b>.,2023-08-25,
-tutorial.end,"Il corso accelerato è completo, esplora il {0} per saperne di più. Concessione di autorizzazioni complete. Buona fortuna!",2026-09-17,{0} is a clickable link to the Codex. 
+tutorial.end,"Il corso accelerato è completo, esplora il {0} per saperne di più. Concessione di autorizzazioni complete. Buona fortuna!",2026-09-17,{0} is a clickable link to the Codex.
 ugly.surroundings,Brutto ambiente,,
 ui.animate,Animazione dell'interfaccia utente,,
 ui.auto.padding,Riempimento automatico dell'interfaccia utente per widesreen,,
@@ -3642,7 +3642,7 @@ height,Altezza,,noun
 width,Larghezza,,noun
 color.hue,Tinta,,color property (H in HSL)
 color.saturation,Saturazione,,color property (S in HSL)
-color.luminosity,Luminosità,,color property (L in HSL) 
+color.luminosity,Luminosità,,color property (L in HSL)
 steam.connection.unavailable,Impossibile stabilire la connessione a Steam. Gli obiettivi di Steam e l'integrazione del Workshop non funzioneranno. Procedura di risoluzione dei problemi:<br> - Controlla la tua connessione Internet e le impostazioni del firewall<br> - Assicurati che Steam sia in esecuzione<br> - Riavvia Steam<br> - Riavvia la macchina<br> - Fai una pausa e fai una passeggiata,,
 combat.ongoing,Combattimento in corso,,
 bot.cpu.limit,I bot consumano CPU,,
@@ -3794,7 +3794,7 @@ menu.copters.desc,Veicoli aerei automatizzati senza equipaggio,,
 copter.mission.stage.deploy.miner,Distribuzione {0},,"{0} is the resource miner device name, like Autodrill Rig"
 copter.mission.stage.fly.to.ship,Ritorno alla nave,,
 copter.mission.stage.fly.to,Volare a {0},,"{0} is the name of the target, like Silicon Deposit, or a device name"
-copter.mission.stage.collect.resource,Raccolta {0},,{0} is material type 
+copter.mission.stage.collect.resource,Raccolta {0},,{0} is material type
 copter.mission.stage.land.on.ship,Atterraggio sulla nave,,
 copter.mission.stage.leave.ship,Partenza dalla nave,,
 copter.mission.stage.start,In attesa di elicottero disponibile,,
@@ -3809,7 +3809,7 @@ expedition.type.mining,Raccolta di risorse,,
 expedition.type.exploration,Esplorazione,,
 space.object.CargoCopter,Elicottero da carico,,
 space.object.info.CargoCopter,Questo elicottero cargo è in missione.,,
-no.task.reason.no.skill.one,Non abbastanza abilità <b>{0}</b>. Corrente: <b>{1}</b>. Obbligatorio: <b>{2}</b>. ,,{0} - skill name. {1} and {2} - a number (skill level). 
+no.task.reason.no.skill.one,Non abbastanza abilità <b>{0}</b>. Corrente: <b>{1}</b>. Obbligatorio: <b>{2}</b>. ,,{0} - skill name. {1} and {2} - a number (skill level).
 no.task.reason.job.priority0.one,La priorità dei lavoratori per <b>{0}</b> è impostata su <b>0</b>.,,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
 no.task.reason.job.priority.none,Attività <b>{0}</b> ignorate perché il lavoratore <b>non può eseguire processi di questo tipo</b>.,,
 no.task.reason.job.priority.none.one,Il lavoratore non può eseguire lavori <b>{0}</b>.,,{0} is job type - like construction or hauling
@@ -4411,7 +4411,7 @@ mass.connect.tip.enodes,Premi {0} su un <b>Connettore</b> per connettere o disco
 mass.connect.tip.conn,Premi {0} su un <b>Dispositivo</b> per creare o rimuovere la connessione con i connettori selezionati.,,
 mass.connect.tip.teleporters,Premi {0} su un <b>Teletrasporto</b> attivo per creare o rimuovere il collegamento con i teletrasporti selezionati.,,
 tut.completed.never,Non ancora completato,,
-tut.completed.date,Completato il {0},,{0} is date 
+tut.completed.date,Completato il {0},,{0} is date
 tut.completed.outdated.tip,Hai completato una versione precedente di questo tutorial il {0}.Si consiglia di ripetere questo tutorial.,,
 tut.not.completed.warning,Hai completato {0} tutorial su {1}.,,
 tut.prod.title,Produzione di risorse,,
@@ -4437,7 +4437,7 @@ verb.extract,Estrarre,,
 noun.depth,Profondità,,
 mining.depth.tip,"La profondità del deposito di risorse aumenta quando il deposito viene estratto. Una volta raggiunta una certa profondità, saranno necessarie attrezzature specializzate per continuare a estrarre risorse. Il deposito può essere estratto alla profondità consentita dalla tua attrezzatura.",,
 deposit.verb.mine,Estrazione {0} ({1:0.##}/giorno @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
-deposit.verb.collect,Raccolta di {0} ({1:0.##}/giorno),,{0} is resource name {1} is number 
+deposit.verb.collect,Raccolta di {0} ({1:0.##}/giorno),,{0} is resource name {1} is number
 deposit.verb.extract,Estrazione di {0} ({1:0.##}/giorno @ {2}),,{0} is resource name {1} is number {2} is depth like 12km
 deposit.shuttle.verb.mine,"Estrazione mineraria {0} ({1:0}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
 deposit.shuttle.verb.collect,"Raccolta {0} ({1:0}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
@@ -5236,7 +5236,7 @@ combat.objectives,Obiettivi,,
 ability.Research,Ricerca,,
 cond.CrawlerAttached,Crawler allegato,,
 cond.CrawlerInfected,Parassiti alieni,,
-wound.inflicted.time.ago,Inflitto {0} fa,,{0} is time like 10m 
+wound.inflicted.time.ago,Inflitto {0} fa,,{0} is time like 10m
 cond.Hypothermia,Ipotermia,,
 menu.ungrouped,Non raggruppato,,
 menu.ungrouped.desc,Vari elementi non raggruppati,,
@@ -5712,7 +5712,7 @@ placement.tip.ports,Il posto di lavoro e le porte di ingresso/uscita devono rima
 goal.GetMoreResource.desc,Stiamo esaurendo <b>{0}</b>. Utilizza il <b>Codice</b> per identificare gli ingredienti e produrne di più.Alcuni materiali possono essere acquisiti tramite spedizioni minerarie o acquistati dal <b>Negozio online</b> o presso le <b>Stazioni spaziali</b>.,2024-10-17,
 click.to.enlarge,Clicca per ingrandire,,
 evt.cooking.incident,Incidente di cucina,,
-evt.cooking.incident.desc,{0} ha avuto un incidente mentre cucinava {1} alle {2}.,,{0} is being name; {1} is meal name; {2} is cooking station 
+evt.cooking.incident.desc,{0} ha avuto un incidente mentre cucinava {1} alle {2}.,,{0} is being name; {1} is meal name; {2} is cooking station
 fight.ongoing,Combattimento!,,
 fight.lost,ha perso la battaglia contro {0},,{0} is the opponent name
 fight.between,{0} ha iniziato una rissa con {1},,{0} and {1} are names
@@ -5913,7 +5913,7 @@ noun.weapon.power,Potenza dell'arma,,Version 0.13 translations start here
 noun.shields,Scudi,,
 noun.weapons,Armi,,
 noun.weapon.power.short,Energia,,As in Strength of Weapon Power
-noun.flux,Flusso,,A sci-fi term. can be accumulated during ship combat and has to be vented. 
+noun.flux,Flusso,,A sci-fi term. can be accumulated during ship combat and has to be vented.
 noun.flux.desc,Il flusso è un accumulo di energia termica durante il combattimento.Aumenta quando si spara con le armi o si bloccano gli attacchi con gli scudi.Troppo Flux disabilita i sistemi chiave.,,
 noun.evade,Eludere,,"Label next to ship evasion percentage. Evasion determines how likely the ship will dodge incoming attacks. Must be short, hence Evade and not Evasion"
 noun.evade.desc,L'Elusione determina la probabilità con cui la nave schiverà gli attacchi in arrivo.Le navi più piccole hanno un valore di elusione più elevato rispetto alle navi più grandi.,,
@@ -8804,7 +8804,7 @@ tut.spacetravel.step5_4,Proviamo a raggiungere l'<b>Hyperjump Relay</b> a due se
 tut.spacetravel.step6_1,Non siamo più nell'<b>Iperspazio</b>;la <b>Visualizzazione mappa</b> è passata al livello <b>Settore</b> locale.Ora puoi utilizzare i <b>Propulsori</b> per raggiungere l'<b>Hyperjump Relay</b> al centro di questo settore.Usa {0} sull'<b>Hyperjump Relay</b> evidenziato per impostarlo come <b>Destinazione</b>.,,
 tut.spacetravel.step6_2,Attendi che la nave <b>raggiunga il relè dell'Hyperjump</b> per continuare.È possibile aumentare la velocità del tempo.,,
 tut.spacetravel.step6_4,Attendi che la tua nave <b>entri nell'iperspazio</b> per continuare.,,
-tut.spacetravel.step6_5,La <b>Visualizzazione mappa</b> ora mostra il livello <b>Universo</b>.Usa {0} su qualsiasi <b>regione adiacente</b> per eseguire un <b>ipersalto a lungo raggio</b>.,2025-09-22,last change: first part of the sentence deleted 
+tut.spacetravel.step6_5,La <b>Visualizzazione mappa</b> ora mostra il livello <b>Universo</b>.Usa {0} su qualsiasi <b>regione adiacente</b> per eseguire un <b>ipersalto a lungo raggio</b>.,2025-09-22,last change: first part of the sentence deleted
 tut.spacetravel.step6_7,Passa a qualsiasi <b>regione</b> adiacente per continuare.,2025-09-22,
 colonist.offering.quest,{0} vuole offrirti una missione.,,
 quest.ScavengeAndDeliver2 ,Recuperare il carico perduto,,
@@ -8823,4 +8823,3 @@ quest.step.allow.items.tip,"L'elemento {0} è vietato, pertanto nessuno lo mangi
 work.radius,Raggio d'azione,,Header of the bot dock setting that keeps the dock's bot working near the dock
 work.radius.tip,"Il bot assegnato accetta attività solo entro questa distanza dalla sua base. All'impostazione minima, invece, opera ovunque.",,Tooltip of the Work Radius slider on the bot dock panel
 nav.fail.blocked.by.enemy,Bloccato da un nemico,,Reason a move failed: an enemy stood in the way and did not move
-,,,
