@@ -8295,19 +8295,19 @@ surgical.op.failed.fuse,Il   {0}   fuso con il tessuto circostante e non può pi
 surgery.patient.came.to,Sono venuto durante l'intervento chirurgico,,Log line after a downed raider wakes up on the surgery table or while waiting for surgery. The queued operations on them are cancelled and they get up
 presence.menu,Nel menu principale,,Shown to friends of the player on Steam and Discord while the player is in the main menu. Keep it short
 presence.setup,Preparare un nuovo viaggio,,Shown to friends of the player on Steam and Discord while the player sets up a new game. Keep it short
-presence.game.over,Ha perso la nave il giorno   {0} ,,Shown to friends of the player on Steam and Discord after the ship was lost. {0} is the in-game day number
-presence.day,Giorno   {0} ,,Shown to friends of the player on Steam and Discord after what the player is doing. {0} is the in-game day number
-presence.crew,{0} equipaggio,,Shown to friends of the player on Steam and Discord after the day. {0} is the number of crew members
+presence.game.over,Ha perso la nave il giorno {0},,Shown to friends of the player on Steam and Discord after the ship was lost. {0} is the in-game day number
+presence.day,Giorno {0},,Shown to friends of the player on Steam and Discord after what the player is doing. {0} is the in-game day number
+presence.crew,Equipaggio: {0},,Shown to friends of the player on Steam and Discord after the day. {0} is the number of crew members
 presence.act.spacebattle,In una battaglia spaziale,,Shown to friends of the player on Steam and Discord while the ship fights other ships. Keep it short
-presence.act.raiders,Repeling raiders,,Shown to friends of the player on Steam and Discord while raiders attack the ship. Keep it short
-presence.act.spacehazard,Bracciare un pericolo spaziale,,Shown to friends of the player on Steam and Discord while meteors or asteroids threaten the ship. Keep it short
+presence.act.raiders,Respingere i razziatori,,Shown to friends of the player on Steam and Discord while raiders attack the ship. Keep it short
+presence.act.spacehazard,Affrontare un pericolo spaziale,,Shown to friends of the player on Steam and Discord while meteors or asteroids threaten the ship. Keep it short
 presence.act.fire,Combattere un fuoco a bordo,,Shown to friends of the player on Steam and Discord while a fire burns on the ship. Keep it short
 presence.act.derelict,Esplorare una nave derelitta,,Shown to friends of the player on Steam and Discord while a derelict ship is docked to the ship. Keep it short
 presence.act.hyperspace,Saltare attraverso l'iperspazio,,Shown to friends of the player on Steam and Discord while the ship travels through hyperspace. Keep it short
 presence.act.wrecked,Ricostruire una nave rotta,,Shown to friends of the player on Steam and Discord while nothing special happens in a wrecked ship scenario. Keep it short
 presence.act.leavingearth,Costruire una nave per lasciare la Terra,,Shown to friends of the player on Steam and Discord while nothing special happens in the Leaving Earth scenario. Keep it short
 presence.act.cargo,Pilotare una nave cargo,,Shown to friends of the player on Steam and Discord while nothing special happens in the Cargo Ship scenario. Keep it short
-presence.act.norobots,Eseguire una nave senza robot,,Shown to friends of the player on Steam and Discord while nothing special happens in the No Robots scenario. Keep it short
+presence.act.norobots,Gestire una nave senza robot,,Shown to friends of the player on Steam and Discord while nothing special happens in the No Robots scenario. Keep it short
 presence.act.sandbox,Progettare una nave in Sandbox,,Shown to friends of the player on Steam and Discord while nothing special happens in the Sandbox scenario. Keep it short
 presence.act.ship,Capitanare una nave stellare,,Shown to friends of the player on Steam and Discord while nothing special happens on the ship. Keep it short
 aborting.expedition.died,,,{0} will be replaced with a name
