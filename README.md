@@ -151,6 +151,7 @@ If you feel lost at any point, please join the <a href="https://discord.com/invi
 
 * [iyalang](https://github.com/iyalang)
 * [Sun4eez](https://github.com/Sun4eez)
+* [G33K3R-od](https://github.com/G33K3R-od)
 
 ### Korean
 
