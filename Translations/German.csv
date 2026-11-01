@@ -967,7 +967,7 @@ eta,Geschätzte Ankunftszeit: {0},,ETA is short for »Estimated Time of Arrival�
 ev.vented.into.space,In den Weltraum gesaugt,,"when a pressurized airlock is exposed to open space, someone can get »sucked out« (vented) into open space"
 ev.vented.into.space.desc,"<b>{0}</b> befand sich in einem unter Druck stehenden Bereich in der Nähe einer Luftschleuse, die sich plötzlich öffnete, und wurde unglücklicherweise in die Weiten des Weltraums abgesaugt – auf Nimmerwiedersehen.",,A longer description of »Vented Into Space« event. {0} will be replaced by a name [Weidengeist: Slightly rephrased for German to avoid gender assumption and using multiple pronouns.]
 evaluator,Auswerter,,Used for task audit. Label for a worker who has evaluated (considered taking) a task. Displayed in a list next to »Times Evaluated« (how many times someone tried to take this task) and »Last Evaluation Time« (when did anyone try to take this task).
-event.birthday,{0} hat Geburtstag und ist nun {1} Jahre alt.,,
+event.birthday,{0} ist nun {1} Jahre alt.,,
 event.content.hint,Protokolleintrag,,
 event.log.disabled.in.tutorial,"Überprüfe das Ereignisprotokoll, nachdem das Tutorial beendet ist.",,
 event.panel.clear.tutorial.info,"Dies würde die Benachrichtigungen löschen, aber diese Funktion ist während des Tutorials deaktiviert.",,
