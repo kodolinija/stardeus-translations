@@ -6607,11 +6607,11 @@ noun.ship.class,Schiffsklasse,,"as in ship class in navy (fighter, cruser, battl
 ship.class.spacestation,Raumstation,,special ship class for space stations
 ship.class.unclassified,Nicht klassifiziert,,for space ships that don't fit any class requirements
 ship.class.corvette,Korvette,,second smallest ship class
-ship.class.fighter,Kampfschiff,,smallest ship class in game
+ship.class.fighter,Jäger,,smallest ship class in game
 ship.class.cruiser,Kreuzer,,
 ship.class.battlecruiser,Schlachtkreuzer,,
 ship.class.destroyer,Zerstörer,,
-ship.class.dreadnought,Großkampfschiff,,second biggest ship class
+ship.class.dreadnought,Dreadnought,,second biggest ship class
 ship.class.titan,Titan,,biggest ship class in game
 ship.class.carrier,Träger,,
 ship.class.frigate,Fregatte,,
