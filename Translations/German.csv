@@ -1364,7 +1364,7 @@ harvesting.now.bar,Ernte: {0},,Meaning of {0} unknown. Fruit? Progress counter?
 haul,Transportieren,,
 haul.ingredients,Bestandteile transportieren,,
 haul.item,Gegenstand transportieren,,
-haul.materials,Material-<br>transport,,
+haul.materials,Materialtransport,,
 haul.priority,Transportpriorität,,
 haul.priority.help,"Die Transportpriorität bestimmt, wie gewillt die Arbeiter sein werden, Haufen nicht eingelagerter Rohstoffe in dieses Lager zu transportieren. 0 wird Arbeiter daran hindern, etwas in dieses Lager zu tragen, aber sie nehmen trotzdem etwas heraus. 9 ist die höchste Priorität.",,
 haul.processable.items,Verarbeitbare Gegenstände transportieren,,
