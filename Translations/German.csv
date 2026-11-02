@@ -9013,3 +9013,5 @@ work.radius.tip,Der zugewiesene Bot arbeitet nur in dieser Entfernung vom Dock. 
 nav.fail.blocked.by.enemy,Von einem Feind blockiert,,Reason a move failed: an enemy stood in the way and did not move
 gradual.ui.reveal,Menüs schrittweise einblenden,,Label for a settings toggle. When on a new game shows parts of the interface step by step as the tutorial goes on. When off the whole interface is shown from the start.
 hostiles.aboard,Feinde an Bord,,"Alert title and ship log line when enemies are already on the ship of the player (a raider who came to, mutineers, boarders). Short, may be reused as a label"
+objects.devices.firefoamcapsule,Löschschaumkapsel,,[Auto] Name of a buildable device: a small capsule that sprays fire retardant foam over the room when a fire starts close to it
+objects.devices.firefoamcapsule.desc,"Versprüht feuerfesten Schaum im Raum, wenn in der Nähe ein Feuer ausbricht.",,[Auto] Description of the Firefoam Capsule device in the build menu and the codex. Keep it short

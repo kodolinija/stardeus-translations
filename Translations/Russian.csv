@@ -9017,3 +9017,5 @@ work.radius.tip,Назначенный робот берёт только зад
 nav.fail.blocked.by.enemy,Путь преграждает враг,,Reason a move failed: an enemy stood in the way and did not move
 gradual.ui.reveal,Постепенное открытие интерфейса,,Label for a settings toggle. When on a new game shows parts of the interface step by step as the tutorial goes on. When off the whole interface is shown from the start.
 hostiles.aboard,Враги на борту,,"Alert title and ship log line when enemies are already on the ship of the player (a raider who came to, mutineers, boarders). Short, may be reused as a label"
+objects.devices.firefoamcapsule,Капсула огнезащитной пены,,[Auto] Name of a buildable device: a small capsule that sprays fire retardant foam over the room when a fire starts close to it
+objects.devices.firefoamcapsule.desc,"Распыляет огнезащитную пену по помещению, когда рядом начинается пожар.",,[Auto] Description of the Firefoam Capsule device in the build menu and the codex. Keep it short

@@ -8312,3 +8312,5 @@ surgery.patient.came.to,Repris connaissance pendant l'opération,,Log line after
 presence.menu,Dans le menu principal,,Shown to friends of the player on Steam and Discord while the player is in the main menu. Keep it short
 presence.setup,Préparation d'un nouveau voyage,,Shown to friends of the player on Steam and Discord while the player sets up a new game. Keep it short
 presence.game.over,Vaisseau perdu au jour {0},,Shown to friends of the player on Steam and Discord after the ship was lost. {0} is the in-game day number
+objects.devices.firefoamcapsule,Capsule de mousse ignifuge,,[Auto] Name of a buildable device: a small capsule that sprays fire retardant foam over the room when a fire starts close to it
+objects.devices.firefoamcapsule.desc,Projette de la mousse ignifuge dans la pièce quand un incendie se déclare à proximité.,,[Auto] Description of the Firefoam Capsule device in the build menu and the codex. Keep it short
