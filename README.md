@@ -125,6 +125,7 @@ If you feel lost at any point, please join the <a href="https://discord.com/invi
 
 * [unggod](https://github.com/unggod)
 * [Leandro Voltolino](https://github.com/xupisco)
+* [Raz3n28](https://github.com/Raz3n28)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
