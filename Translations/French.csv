@@ -8314,3 +8314,7 @@ presence.setup,Préparation d'un nouveau voyage,,Shown to friends of the player 
 presence.game.over,Vaisseau perdu au jour {0},,Shown to friends of the player on Steam and Discord after the ship was lost. {0} is the in-game day number
 objects.devices.firefoamcapsule,Capsule de mousse ignifuge,,[Auto] Name of a buildable device: a small capsule that sprays fire retardant foam over the room when a fire starts close to it
 objects.devices.firefoamcapsule.desc,Projette de la mousse ignifuge dans la pièce quand un incendie se déclare à proximité.,,[Auto] Description of the Firefoam Capsule device in the build menu and the codex. Keep it short
+fight.cause.grudge,{0} en veut à {1},,"{0} and {1} are names. Ship log line right after a fistfight starts, saying why {0} attacked {1}: {0} hates {1}"
+fight.cause.nearest,{0} cherchait la bagarre et {1} était le plus proche,,"{0} and {1} are names. Ship log line right after a fistfight starts: {0} is having a breakdown and wanted to fight anyone, {1} happened to be the closest person"
+fight.cause.mood,{0} était de très mauvaise humeur,,"{0} is a name. Ship log line right after a fistfight starts, saying {0} attacked because of a very bad mood. The game adds the worst mood in parentheses after it"
+fight.cause.clash,{0} et {1} ne peuvent plus se supporter,,{0} and {1} are names. Ship log line right after a fistfight starts: the two have personalities that clash
