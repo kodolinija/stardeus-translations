@@ -119,7 +119,7 @@ If you feel lost at any point, please join the <a href="https://discord.com/invi
 ### Czech
 
 * [eFkoCaptain](https://github.com/eFkoCaptain)
-
+* [TomCatonly1](https://github.com/TomCatonly1)
 
 ### Portuguese (Brazil)
 
