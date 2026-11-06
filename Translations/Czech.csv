@@ -538,7 +538,7 @@ codex.m.environment.insulation.desc,"Izolace je podobná <b>vzduchotěsnosti</b>
 codex.m.environment.islands,Sekce (ostrovy),,
 codex.m.environment.islands.desc,"<b>Sekce</b> je zcela oddělená část vaší lodi. Loď musí být vcelku, aby byla <b>připravena k letu</b>.<br><br> Dvě sekce můžete propojit pomocí <b>podlah</b> nebo rámů a sloučit je tak do jedné větší sekce.<br><br> Alternativně můžete k přesunu sekcí lodi použít <b>navijákový hák</b> a <b>navijákovou kotvu</b> nebo <b>manévrovací ovladače</b>.<br><br> Sekce lze také <b>rozebrat</b> za účelem získání materiálů, <b>opustit</b> nebo <b>prodat</b> ve <b>vesmírném přístavu</b>.<br><br> Další podrobnosti najdete v překryvném okně <b>{0}</b>.",2024-11-22,Last change removed statement that small sections are ignored
 codex.m.environment.oxygen,Kyslík,,
-codex.m.environment.oxygen.desc,"Kyslík je plyn, který je nezbytný pro udržení života většiny biologických organismů. Mezi všemi sousedními dlaždicemi dochází neustále k výměně kyslíku, a to v závislosti na jejich úrovni <b>vzduchotěsnosti</b>. Pokud je určitá oblast vystavena <b>vesmírnému</b> <b>prostoru</b>, dochází k úniku kyslíku. Extrémní teplo v kombinaci s kyslíkem způsobí požár.<br><br><br> Podívejte se na překryvy <b>{0}</b> a <b>{1}</b> nebo stiskněte {2} a najeďte kurzorem na oblasti, abyste zjistili hladiny kyslíku a vzduchotěsnost.",2023-08-29,
+codex.m.environment.oxygen.desc,"Kyslík je plyn, který je nezbytný pro udržení života většiny biologických organismů. Mezi všemi sousedními dlaždicemi dochází neustále k výměně kyslíku, a to v závislosti na jejich úrovni <b>vzduchotěsnosti</b>. Pokud je určitá oblast vystavena <b>vesmírnému prostoru</b>, dochází k úniku kyslíku. Extrémní teplo v kombinaci s kyslíkem způsobí požár.<br><br><br> Podívejte se na překryvy <b>{0}</b> a <b>{1}</b> nebo stiskněte {2} a najeďte kurzorem na oblasti, abyste zjistili hladinu kyslíku a vzduchotěsnost.",2023-08-29,
 codex.m.inputcontrols,Vstup a ovládání,,
 codex.m.inputcontrols.gamepad,Gamepad / ovladač,,
 codex.m.inputcontrols.gamepad.desc,"Pro vstup můžete použít většinu gamepadů nebo ovladačů. Ovládací prvky Steam Deck by také měly fungovat.<br><br>Mezi používáním klávesnice/myši a ovladače můžete kdykoli plynule přepínat. Není třeba restartovat hru.<br><br>S připojeným ovladačem otevřete Nastavení > Vstup v nabídce Pozastavit, abyste viděli a znovu spojili ovládací prvky.",,
@@ -602,7 +602,7 @@ codex.m.ui.infopanel.desc,"Informační panel je nejdůležitější částí u�
 codex.m.ui.overlays,Překryvy/Nabídky,,
 codex.m.ui.overlays.desc,"Překryvy odhalují uživatelské rozhraní pro různé interní systémy a datové skupiny, jako je elektrická síť, inventář, výzkumný strom, hvězdná mapa atd.<br><br>Tlačítka překrytí jsou v pravém horním rohu uživatelského rozhraní. Umístěním kurzoru na každé tlačítko zobrazíte popisek s názvem překryvné vrstvy. První řádek lze přepínat pomocí kláves F1-F10.<br><br>Prozkoumejte každé překrytí a zjistěte, jaké funkce nabízí. Každá překryvná vrstva je v určitém okamžiku užitečná.<br><br>Některá překryvná data vyžadují aktivaci výzkumu nebo určitých předpokladů.",,
 codex.m.ui.quicksearch,Rychlé hledání,,
-codex.m.ui.quicksearch.desc,<b>Rychlé vyhledávání</b> vám pomůže provádět různé akce a vyhledávat informace. Otevřete jej klávesou {0} a začněte psát dotaz. Můžete:<br> - Přepnout na <b>nástroj</b>.<br> - <b>Sestavit</b> zařízení.<br> - Najít <b>bytost</b>.<br> - Najít <b>výzkumný uzel</b> nebo <b>plán</b> ve <b>výzkumném stromu</b>.<br> - Najít objekty na <b>hvězdné</b> <b>mapě</b>.<br> - Najít položky <b>v kodexu</b>.<br> - Přeskočit na <b>souřadnice</b> (např.: <b>120 234</b>),2023-08-29,
+codex.m.ui.quicksearch.desc,<b>Rychlé vyhledávání</b> vám pomůže provádět různé akce a vyhledávat informace. Otevřete jej klávesou {0} a začněte psát dotaz. Můžete:<br> - Přepnout na <b>Nástroj</b>.<br> - <b>Sestavit</b> zařízení.<br> - Najít <b>Bytost</b>.<br> - Najít <b>Výzkumný uzel</b> nebo <b>Plán</b> ve <b>Výzkumném stromu</b>.<br> - Najít objekty na <b>Hvězdné mapě</b>.<br> - Najít položky v <b>Kodexu</b>.<br> - Přeskočit na <b>Souřadnice</b> (např.: <b>120 234</b>),2023-08-29,
 codex.m.ui.radialmenu,Radiální menu,,
 codex.m.ui.radialmenu.desc,"Radiální nabídka je kruhová nabídka, kterou lze vyvolat kliknutím na {0}.<br><br>Kliknutím na {1} buď vstoupíte do podnabídky, nebo vyvoláte vybranou akci.<br><br>Kliknutím na {0} opustíte podnabídku (o úroveň výš) a nakonec nabídku opusťte.<br><br>Dvojitým kliknutím na {1} nabídku okamžitě opustíte, i když jste hluboko ve stromu podnabídky.<br><br>Často používané nástroje a plány lze umístit do Hotbaru (spodní řádek).<br><br>Téměř vždy je rychlejší vytvořit pomocí Rychlého vyhledávání ({2}) nebo „Vytvořit kopii“.",,
 codex.m.ui.research,Výzkumný strom,,
@@ -2040,10 +2040,10 @@ no.socialize.partner,"Nikdo, s kým byste se mohli stýkat",,
 no.target,Žádný cíl,,
 no.task,Žádný úkol,,
 no.task.reason.could.not.fly,"Přeskočeno <b>{0}</b> úkolů v otevřeném prostoru, protože tento <b>pracovník nemůže létat</b>.",,"{0} will be count of tasks, a number (1 or bigger)"
-no.task.reason.job.priority0,"Bylo přeskočeno <b>{0}</b> úloh, protože <b>priorita úlohy je</b> u úloh tohoto typu <b>nastavena na 0</b>.",2023-04-19,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
+no.task.reason.job.priority0,"Bylo přeskočeno <b>{0}</b> úloh, protože <b>priorita úlohy je nastavena na 0</b> u úloh tohoto typu.",2023-04-19,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
 no.task.reason.last.eval,Pracovník vyhodnotil všechny úkoly <b>před {0}</b> (během hry).,,
 no.task.reason.no.skill,<b>Nedostatek dovedností</b> pro <b>{0}</b> úkoly.,,
-no.task.reason.reluctant,"<b>{0}</b> úkolů bylo vynecháno, protože <b>pracovník </b>se tomuto úkolu <b>nechtěl</b> věnovat (bylo to příliš daleko, byl příliš unavený, nedávno v něm selhal atd.).",2022-12-04,"Last update added ""too tired"" as one of the reasons"
+no.task.reason.reluctant,"<b>{0}</b> úkolů bylo vynecháno, protože <b>pracovník se tomuto úkolu nechtěl věnovat</b> (bylo to příliš daleko, byl příliš unavený, nedávno v něm selhal atd.).",2022-12-04,"Last update added ""too tired"" as one of the reasons"
 no.task.reason.total,Počet nevyřízených úkolů: <b>{0}</b>.,,
 no.task.reason.unreachable.loc,"<b>Nelze dosáhnout</b> na pracovní místo pro <b>{0}</b> úkoly (bez cesty, bez dveří nebo zamčené/bez napájení).",,
 no.task.reason.unreachable.loc.mem,Přeskočeno <b>{0}</b> úkolů z důvodu nedávného <b>selhání</b> na pracovní místo nebo materiál (brzy to zopakujeme).,,
@@ -2669,7 +2669,7 @@ quest.show,Zobrazit Quest,,
 quest.show.all,Zobrazit úkoly,,
 quest.step.build.many,Sestavit <b>{0} {1}</b>,,"{0} will be a multiplier, {1} will be the device name. Example: ""Build <b>x2 Matter Reactor</b>"""
 quest.step.build.one,Sestavit <b>{0}</b>,,"{0} will be the device name. Example: ""Build a <b>Matter Reactor</b>"""
-quest.step.build.tip,Návod na výrobu tohoto předmětu najdete v <b>nabídce</b> <b>Nástroje</b>:<br> {0},2023-08-16,
+quest.step.build.tip,Návod na výrobu tohoto předmětu najdete v <b>Nabídce Nástroje</b>:<br> {0},2023-08-16,
 quest.step.build.tip.search,Tip: Pomocí <b>Rychlé vyhledávání</b> ({0}) <b>najděte jakýkoli plán</b> zadáním jeho názvu.,,
 quest.step.chain.connectors,Sestavte řetězec konektorů,,
 quest.step.colonize,Kolonizujte <b>Obytnou planetu</b>,2022-09-26,
@@ -3785,8 +3785,8 @@ include.player.log,Přiložte soubor Player.log,,
 include.player.log.tip,"Soubor Player.log obsahuje záznamy z posledního spuštění hry. Může být velmi užitečný při zjišťování, co chybu způsobilo.",,
 show.player.log.dir,Otevřete adresář Player.log,,
 open.steam.forums,Otevřít fóra služby Steam,,
-open.steam.forums.tip,"Po odeslání hlášení se zobrazí vyskakovací okno s <b>ID</b> <b>problému</b>. Zkopírujte si toto ID problému a sdílejte ho na fórech služby Steam v příslušném tématu. Než vytvoříte nové téma, využijte <b>funkci</b> <b>vyhledávání</b> – přidáním hlášení do stávajícího tématu zvýšíte pozornost věnovanou danému problému.",,
-report.no.forum.post.warn,"Vzhledem k velkému množství přicházejících hlášení <b>bude vyřizování problémů</b>, <b>pro které na fórech služby Steam neexistuje odpovídající téma</b>, <b>trvat déle!</b>",,
+open.steam.forums.tip,"Po odeslání hlášení se zobrazí vyskakovací okno s <b>ID problému</b>. Zkopírujte si toto ID problému a sdílejte jej na fórech služby Steam v příslušném tématu. Než vytvoříte nové téma, využijte <b>Funkci vyhledávání</b> – přidáním hlášení do stávajícího tématu zvýšíte pozornost věnovanou danému problému.",,
+report.no.forum.post.warn,"Vzhledem k velkému množství přicházejících hlášení bude <b>vyřizování problémů, pro které na fórech služby Steam neexistuje odpovídající téma, trvat déle!</b>",,
 obj.upgrades.autopilotupgrade,Aktualizace systému Auto Pilot,,
 obj.upgrades.autopilotupgrade.desc,Umožňuje provoz navigačních a dopravních systémů bez přímého řízení.,2026-07-17,
 research.autopilot,Autopilot,,
@@ -3832,7 +3832,7 @@ experimental.feature,Experimentální článek,,
 booting.neural.network,Spuštění neuronové sítě,,
 unreachable.mat,Nedostupný materiál,,
 nav.fail.flying.cnt,Počet nedosažených cílů u <b>létajících pracovníků</b>: <b>{0}</b>,,
-nav.fail.grounded.cnt,<b>Počet</b> selhání při navázání spojení s <b>pracovníkem na zemi</b>: <b>{0}</b>,,
+nav.fail.grounded.cnt,Počet selhání při navázání spojení s <b>Uzemněným pracovníkem</b>: <b>{0}</b>,,
 nav.fail.bio.cnt,"<b>Počet biologických jedinců,</b> u nichž se nepodařilo navázat spojení: <b>{0}</b>",,
 disable.story.events.btn,Události v příběhu [{0}],,"{0} will be X/Y, i.e. 80/80. If some event is disabled it will be 79/80"
 disable.story.events.tip,Všechny události příběhu jsou povoleny,,
@@ -3963,9 +3963,9 @@ situation.TargetTension,Cílové napětí,,Label for a chart that shows level fo
 quest.step.set.dest.type,Nastavit cíl: <b>{0}</b>,,"{0} will be Planet, Space Ship, Black Hole, etc"
 quest.step.set.dest.type.tip,"Spusťte <b>aplikaci Starmap</b>, klikněte na <b>{0}</b> a vyberte možnost: <b>{1}</b>.",,"{0} will be Planet, Space Ship, etc, {1} will be an existing translation saying ""Travel To"""
 quest.step.reach.so.type,Dosah <b>{0}</b>,,"{0} will be Planet, Space Ship, Black Hole, etc"
-quest.step.reach.so.type.tip,"Prozkoumejte <b>hvězdnou</b> <b>mapu,</b> abyste našli a vydali se k <b>{0}</b>.",2024-12-24,"{0} will be Planet, Space Ship, etc"
+quest.step.reach.so.type.tip,"Prozkoumejte <b>Hvězdnou mapu</b>, abyste našli a vydali se k <b>{0}</b>.",2024-12-24,"{0} will be Planet, Space Ship, etc"
 quest.step.start.expedition,Vydejte se na výpravu,,
-quest.step.start.expedition.tip,"Otevřete <b>hvězdnou</b> <b>mapu</b>, klikněte na nejbližší planetu a vyberte možnost: <b>{0}</b>. Jakmile expedice dokončí část práce, otevřete <b>ovládací</b> panel <b>expedice</b> kliknutím na název expedice v panelu událostí, <b>přivolejte expedici zpět</b> a počkejte, až se <b>raketoplán</b> vrátí.",2023-09-02,"{0} will be another translation (""Launch Expedition"")"
+quest.step.start.expedition.tip,"Otevřete <b>Hvězdnou mapu</b>, klikněte na nejbližší planetu a vyberte možnost: <b>{0}</b>. Jakmile expedice dokončí část práce, otevřete panel <b>Ovládání expedice</b> kliknutím na název expedice v panelu událostí, <b>Přivolejte expedici zpět</b> a počkejte, až se <b>Raketoplán</b> vrátí.",2023-09-02,"{0} will be another translation (""Launch Expedition"")"
 quest.ExplorePlanet,Prozkoumejte nedalekou planetu,,
 quest.ExplorePlanet.desc,"Je čas otestovat letové schopnosti naší lodi. Nedaleko se nachází planeta, zkusme se k ní dostat a pomocí <b>raketoplánu</b> vyslat výpravu.",,
 quest.VisitAnotherSystem,Navštivte jinou hvězdnou soustavu,,
@@ -4165,7 +4165,7 @@ expedition.type.exploration,Průzkum,,
 space.object.CargoCopter,Nákladní vrtulník,,
 space.object.info.CargoCopter,Tento nákladní vrtulník je na misi.,,
 no.task.reason.no.skill.one,Nedostatečná úroveň dovednosti <b>{0}</b>. Aktuální: <b>{1}</b>. Požadovaná: <b>{2}</b>.,,{0} - skill name. {1} and {2} - a number (skill level).
-no.task.reason.job.priority0.one,Priorita pracovníka pro <b>{0}</b> je nastavena na 0.,,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
+no.task.reason.job.priority0.one,Priorita pracovníka pro <b>{0}</b> je nastavena na <b>0</b>.,,Displayed when showing a reason why the selected worker will not do some tasks. {0} will be count of tasks (a number).
 no.task.reason.job.priority.none,"Bylo přeskočeno <b>{0}</b> úkolů, protože pracovník <b>nemůže provádět úlohy tohoto typu</b>.",,
 no.task.reason.job.priority.none.one,Pracovník nemůže vykonávat <b>{0}</b> pracovních míst.,,{0} is job type - like construction or hauling
 no.task.reason.total.one,Je zde <b>1</b> nevyřízený úkol: {0},,{0} is task description
@@ -4342,7 +4342,7 @@ fuel.burn.rate,Rychlost spotřeby paliva,,
 fuel.burn.rate.h,{0:0.###} za hodinu,,
 fuel.burn.rate.tip,Rychlost spotřeby: {0:0.###} za hodinu,,
 currency.mine.rate.h,{0} za hodinu,,"h is for hours; {0} will be currency amount, like $100"
-currency.mine.gpu.tip,"Aktuální výkon GPU: <b>{0}</b> <b>Thz</b>. Přidejte další moduly GPU, abyste zvýšili rychlost těžby.",,
+currency.mine.gpu.tip,"Aktuální výkon GPU: <b>{0}Thz</b>. Přidejte další moduly GPU, abyste zvýšili rychlost těžby.",,
 gpu.module.builtin,Integrovaný grafický modul,,
 research.advancedgpu,Pokročilý grafický procesor,,
 missing.mods.warning,{0} Chybí mody!,,{0} is the number of mods
@@ -4635,7 +4635,7 @@ tutorial.completed.info,"Tento návod je u konce. Můžeš v této hře pokračo
 tut.basic.controls.name,Uživatelské rozhraní a ovládací prvky,,
 tut.basic.controls.step.intro,Vítejte ve Stardeusu!,,
 tut.basic.controls.step.cam,Ovládání fotoaparátu,,
-tut.basic.controls.step.cam.desc,Pohyb kamery: {0}.<br><br> Nastavení přiblížení: {1} <color={2}&gt;(when not over UI)<br><br>Edge Pan can be toggled in <b>Settings &gt; Input</b>.</color=,2023-08-25,{0} and {1} are key bindings
+tut.basic.controls.step.cam.desc,Pohyb kamerou: {0}.<br><br>Úprava přiblížení: {1}. <color={2}>(mimo UI)</color></b><br><br>Posun o okraj obrazovky lze zapnout v <b>Nastavení > Vstup</b>.,2023-08-25,{0} and {1} are key bindings
 tut.basic.controls.step.overlays.visual,Vizuální překryvy,,
 tut.basic.controls.vis.ov.1_gamepad,Pomocí {0} se můžete rychle pohybovat po uživatelském rozhraní.,,
 tutorial.click.next.when.ready,"Až budete připraveni, klikněte na <b>{0}</b>.",,{0} is translation for Next or End Tutorial
@@ -4701,7 +4701,7 @@ verb.scroll,Posunout,,As in Mouse Scroll
 tut.research.tree.node,Výzkumný strom: Uzel,,
 tut.research.tree.node.cost.datoids,"Výzkum se odemkne spotřebováním speciálních materiálů zvaných <b>„Datoidy</b>“. Seznam potřebných typů a množství Datoidů najdete zde. Najedete-li kurzorem na ikony, dozvíte se více o jednotlivých typech Datoidů, včetně toho, jak je získat.",,
 tut.research.tree.node.cost.tier,"Zde je zobrazena <b>úroveň</b> výzkumného uzlu. Abyste odemkli další úroveň, musíte odemknout určitý počet uzlů z aktuální úrovně.",,
-tut.research.tree.node.cost.disk,"Toto je velikost diskového prostoru potřebná pro trvalé uložení výsledků výzkumu.<br><br> Chcete-li zvětšit dostupný úložný prostor, postavte nebo vylepšete <b>diskové moduly</b>.",,
+tut.research.tree.node.cost.disk,"Toto je velikost <b>Disku</b> potřebná pro trvalé uložení výsledků výzkumu.<br><br> Chcete-li zvětšit dostupný úložný prostor, postavte nebo vylepšete <b>Diskové moduly</b>.",,
 tut.research.unstored.datoid,"Několik <b>Datoidů</b> už máme, ale zatím nejsou k dispozici pro výzkum.<br><br> Budeme muset vytvořit <b>nástroj pro načítání Datoidů</b> a nechat naše pracovníky, aby do něj tyto Datoidy nahráli.",2023-08-18,
 tut.obj.not.found,Objekt nebyl nalezen!,,
 tut.obj.no.longer.available,Objekt již není k dispozici!,,
@@ -4818,7 +4818,7 @@ permissions.allowed,Povoleno pouze pro: {0},,
 expedition.fail.missing.crew,Člen posádky <b>{0}</b> se nedostal k raketoplánu. Expedice na <b>{1}</b> byla přerušena.,,
 scan.report,Zpráva o skenování: {0},,{0} is something like Iron not found
 mod.warning.dev.disabled,"Některé z modů, které používáte, jsou označeny jako nepodporované vývojářem. Tyto mody byly deaktivovány.",,
-mod.warning.runtime.broken,"U některých modů došlo k chybám při načítání. <b>Důrazně </b>doporučujeme <b>tyto mody deaktivovat a hru restartovat</b>, protože částečně načtené mody mohou vést k nepředvídatelnému chování, opakujícím se chybám, problémům s výkonem a chybám.",,
+mod.warning.runtime.broken,"U některých modů došlo k chybám při načítání. <b>Důrazně doporučujeme tyto mody deaktivovat a hru restartovat</b>, protože částečně načtené mody mohou vést k nepředvídatelnému chování, opakujícím se chybám, problémům s výkonem a chybám.",,
 mod.had.load.failures,V této verzi modu docházelo k chybám při načítání,,
 mod.marked.incompatible,Tato verze modifikace je vývojářem označena jako nekompatibilní,,
 mod.item,Modifikace položky,,
@@ -5112,7 +5112,7 @@ overlay.tip.Cover,Obálka,,As in object to hide behind during combat
 permadeath.label,Závazek,,
 prepare.to.embark,Připravte se na nalodění,,
 randomize.all,Náhodně uspořádat vše,,
-sandbox.welcome,"Vítejte v režimu Sandbox. Pomocí <b>nabídky</b> <b>„Build“</b> můžete bez jakýchkoli omezení vytvářet bytosti, objekty a suroviny.",,
+sandbox.welcome,"Vítejte v režimu Sandbox. Pomocí <b>Stavebního menu</b> můžete bez jakýchkoli omezení vytvářet bytosti, objekty a suroviny.",,
 seconds.abbr,{0} s,,one character abbreviation for seconds
 side.1,#1,,
 side.2,#2,,
@@ -5174,7 +5174,7 @@ stat.LungEfficiency.desc,Jak efektivně plíce zásobují krev kyslíkem?,,
 stat.MoveSpeed,Rychlost pohybu,,
 stat.MoveSpeed.desc,Jak rychle se tato bytost dokáže pohybovat?,,
 stat.MoveSpeedMul,Násobitel rychlosti pohybu,,
-stat.O2.desc,Hladina kyslíku,,
+stat.O2.desc,Hladina O<sub>2</sub>,,
 stat.O2Min,O2 Minimum,,
 stat.O2Min.desc,Minimální množství kyslíku potřebné k přežití.,,
 stat.Pain,Bolest,,
@@ -5334,7 +5334,7 @@ goal.state.error,Chyba,,
 goal.state.errorlooping,Cyklická chyba,,
 goal.state.uninitialized,Neinicializováno,,
 goal.state.failed,Neúspěšné,,
-job.priority.hint,"Priority: <b>1</b> = nejnižší, 5 = nejvyšší, <b>0</b> = zakázáno",2024-04-25,
+job.priority.hint,"Priority: <b>1</b> = nejnižší, <b>5</b> = nejvyšší, <b>0</b> = zakázáno",2024-04-25,
 verb.embark,Vyrazit,,
 verb.cleaning.up,Úklid,,"For washing yourself in a shower, taking a bath, etc"
 scenario.wrecked_empty_ship.tooltip,"Opravte havarovanou vesmírnou loď a zachraňte svou kolonii. Přeživší, mrtvoly a porouchané kryogenní kapsle už od první minuty – to je hardcore zážitek.",2026-09-08,
@@ -5979,7 +5979,7 @@ quest.PerformHyperjump.fusiondrive.tip,K provedení <b>hyperskoku</b> na krátko
 quest.TradeWithSpaceStation,Obchod s vesmírnou stanicí,,
 quest.TradeWithSpaceStation.desc,Obchod je nezbytný pro získávání potřebných materiálů a zdrojů. Najdi <b>vesmírnou stanici</b> a uzavři obchod.,,
 quest.VisitAnotherRegion,Navštivte jinou oblast vesmíru,,
-quest.VisitAnotherRegion.desc,Je čas prozkoumat zbytek vesmíru. Najdi <b>relé</b> <b>pro</b> <b>hyperskok</b> a proveď <b>hyperskok</b> na dlouhou vzdálenost.,,
+quest.VisitAnotherRegion.desc,Je čas prozkoumat zbytek vesmíru. Najděte <b>Relé hyperskoku</b> a proveďte <b>Hyperskok</b> na dlouhou vzdálenost.,,
 quest.step.execute.trade.tip,"Otevřete <b>aplikaci Starmap</b>, klikněte na <b>vesmírnou stanici</b>, vyberte možnost <b>„Obchod“</b> a vyměňte nějaké zboží.",,
 obj.materials.aerolith,Aerolit,,
 obj.materials.terranite,Terranit,,
@@ -6138,8 +6138,8 @@ tut.bodyparts.step3_2,"Některé stavy, jako například <b>deprese</b>, mají p
 tut.bodyparts.step3_3,"Většina stavů má nějakou základní<b> příčinu</b>. Odstraněním této příčiny se stav postupem času <b>zlepší</b>.<br><br> Příklad: <b>Deprese</b> se objevuje, když je hodnota <b>„Zábava“</b> nízká. Poskytnutím <b>zábavních</b> zařízení lze zvýšit <b>hodnotu „Zábava“</b> a postupně snížit <b>depresi</b>.",,
 tut.bodyparts.step4_1,"Pro živé bytosti mohou být některé zranění <b>smrtelné</b>. Pokud však <b>mozek</b> zůstane neporušený, lze jej <b>přenést</b> do jiného těla.",,
 tut.bodyparts.step4_2,"Mozky lze dokonce přesazovat mezi <b>různými druhy</b>. Například transplantace mozku <b>kočky</b> do těla <b>člověka</b> povede k tomu, že tento člověk bude mít identitu kočky a bude se chovat jako kočka.",,
-tut.bodyparts.step4_3,"Ačkoli nelze do robota nainstalovat <b>„mozek“</b> a nelze v biologické bytosti nahradit „<b>mozek</b>“ robotickým <b>jádrem</b>, je možné pomocí <b>replikátoru</b> provést <b>přenos</b> <b>mysli</b>.",,
-tut.bodyparts.step4_4,"Použití <b>jádra</b> odebraného poraženému nepříteli nepřítele <b>oživí</b>, ale s pomocí <b>replikátoru</b> můžete <b>identitu</b> nepřítele <b>přepsat</b> identitou z <b>mozku</b> <b>spřáteleného</b> kolonisty.<br><br> Jedná se o skvělý způsob, jak rozšířit svou robotickou pracovní sílu tím, že dáte svým padlým biologickým kolonistům druhý život.",,
+tut.bodyparts.step4_3,"Ačkoli do robota nelze nainstalovat <b>Mozek</b> a v biologické bytosti nelze nahradit <b>Mozek</b> robotickým <b>Jádrem</b>, je možné pomocí <b>Replikátoru</b> provést <b>Přenos mysli</b>.",,
+tut.bodyparts.step4_4,"Použití <b>Jádra</b> odebraného poraženému <b>nepříteli</b> jej <b>oživí</b>, ale s pomocí <b>Replikátoru</b> můžete <b>identitu</b> nepřítele <b>přepsat</b> identitou z <b>mozku</b> <b>spřáteleného</b> kolonisty.<br><br> Jedná se o skvělý způsob, jak rozšířit svou robotickou pracovní sílu tím, že dáte svým padlým biologickým kolonistům druhý život.",,
 tut.bodyparts.step5.title,Operace na částech těla,,
 tut.bodyparts.step5_3,"Aby bylo možné <b>Replikátor</b> použít, je třeba nejprve z těl vyjmout jak <b>Jádro</b>, tak <b>Mozek</b>.",,
 tut.bodyparts.step5_6,Biologické orgány lze <b>odebrat</b> v <b>chirurgickém centru</b>.,,
@@ -6155,12 +6155,12 @@ tut.combat.step1_1,Využití dostupných <b>bezpečnostních opatření</b> je p
 tut.combat.step1_1_2,<b>Opravny</b> jsou nezbytné pro <b>opravy</b> vašich <b>poškozených robotických pracovníků</b>.,,
 tut.combat.step1_2,"<b>Dveře</b> lze <b>zamknout</b>, aby se zablokoval přístup. Díky nastavení <b>oprávnění pro dveře</b> budou i <b>odemčené</b> dveře bránit vstupu <b>nepřátel</b>, pokud není nastaveno jinak.<br><br> <b>Oprávnění pro dveře</b> lze také nastavit tak, aby <b>odepřela přístup</b> určitým <b>spřáteleným bytostem</b>.",,
 tut.combat.step1_2_2,"<b>Bot Docks</b> lze přiřadit konkrétním <b>robotickým pracovníkům</b>. Pokud pracovníci nemají žádné probíhající úkoly, budou ve svých dokovacích stanicích <b>čekat</b> a <b>dobíjet se</b>.<br><br> Umístění <b>Bot Docks</b> na <b>strategická místa</b> může zajistit nejrychlejší reakci na přicházející <b>nájezdy</b>.",,
-tut.combat.step1_3,"<b>Nouzová siréna</b> může přivolat vaše <b>biologické kolonisty</b> do bezpečné zóny. Lze ji spustit <b>automaticky</b> nebo <b>ručně</b>.<br><br> Kolonisté nebudou mít z řevu sirén radost, takže nezapomeňte je vypnout, jakmile bude situace <b>bezpečná</b>.",,
+tut.combat.step1_3,"<b>Nouzová siréna</b> může přivolat vaše <b>biologické kolonisty</b> do bezpečné zóny. Lze ji spustit <b>automaticky</b> nebo <b>ručně</b>.<br><br> Kolonisté nebudou mít z řevu sirén radost, takže nezapomeňte je <b>vypnout</b>, jakmile bude situace <b>bezpečná</b>.",,
 tut.combat.step1_4,"Umístěte <b>mini věže</b> na strategická místa, abyste ochránili <b>důležité oblasti</b> a <b>vstupní body</b>.<br><br> Aby nedošlo k narušení <b>integrity trupu</b>, nejsou tyto věže nijak zvlášť silné, ale i tak zůstávají velmi účinné.",,
-tut.combat.step1_5,"<b>Kapalinová děla</b> lze napájet téměř jakýmkoli druhem <b>kapaliny</b>. Jsou-li napájena <b>vodou</b>, způsobují <b>nepřátelům</b> nejen <b>mírné poškození</b>, ale také <b>hasí požáry</b>.<br><br> Jsou-li napájena <b>ropou</b> nebo <b>olejem</b>, vystřelují <b>kapalinová děla zápalné projektily</b>, které při dopadu <b>zapalují požáry</b>. Bezpečnější je používat je venku v oblastech bez <b>kyslíku</b>.",,
+tut.combat.step1_5,"<b>Kapalinová děla</b> lze napájet téměř jakýmkoli druhem <b>kapaliny</b>. Jsou-li napájena <b>Vodou</b>, způsobují <b>nepřátelům</b> <b>mírné poškození</b> a také <b>hasí požáry</b>.<br><br> Jsou-li napájena <b>Ropou</b> nebo <b>Olejem</b>, vystřelují <b>kapalinová děla</b> <b>zápalné projektily</b>, které při dopadu <b>zapalují požáry</b>. Bezpečnější je používat je venku v oblastech bez <b>Kyslíku</b>.",,
 tut.combat.step1_6,"<b>Pasti na podlaze</b> probodnou <b>nepřátele, kteří se nacházejí na zemi,</b> jakmile po nich přejdou.",,
-tut.combat.step1_7,"Obvykle se <b>ventilační otvory v podlaze</b> otevírají za účelem ochlazení daného prostoru, ale pokud nad nimi stojí <b>nepřítel</b>, který je <b>v kontaktu se zemí</b>, bude <b>vysát do vesmíru</b>.",,
-tut.combat.step1_9,"Toto je <b>cíl</b> pro <b>tažný paprsek</b>. Nejlepší je ho nasadit <b>venku</b>, daleko od <b>obytných prostor</b>.",,
+tut.combat.step1_7,"Obvykle se <b>podlahové ventilace</b> otevírají za účelem ochlazení daného prostoru, ale pokud nad nimi stojí <b>uzemněný nepřítel</b>, bude <b>vysán do vesmíru</b>.",,
+tut.combat.step1_9,"Toto je <b>Cíl pro tažný paprsek</b>. Nejlepší je ho nasadit <b>venku</b>, daleko od <b>obytných prostor</b>.",,
 tut.combat.step2.title,Bojové reakce,,
 tut.combat.step4.title,Ovládání více jednotek,,
 traded.item.too.hot,Tuto položku jste si nedávno zakoupili; její pořizovací cena se zvýšila.,,
@@ -6169,7 +6169,7 @@ codex.m.basebuilding.teleporters1,Zařízení {0} vytvářejí jednosměrné por
 codex.m.basebuilding.teleporters2,Propojte dva teleporty a vytvořte tak obousměrný portál. Stejný cíl může sdílet více teleportů.,,
 codex.m.basebuilding.teleporters3,Spotřeba energie roste exponenciálně s počtem aktivních připojení.,,
 codex.m.basebuilding.teleporters4,K propojení nebo odpojení teleportů použijte nástroj {0}.,,{0} is Connect
-codex.m.environment.fire.desc,"Když se vysoké teploty spojí s <b>kyslíkem</b>, mohou některé předměty vzplanout.<br><br> Můžete postavit <b>tekutinová děla</b> a naplnit je <b>vodou</b>, aby automaticky hasila požáry.<br><br> Účinnými způsoby hašení požáru jsou vypnutí blízkých <b>kyslíkových čerpadel</b>, uzavření <b>ventilačních otvorů</b> a demontáž podlahových dlaždic.<br><br> Některé požáry jsou <b>chemické</b>, což je činí nebezpečnějšími a schopnými hořet déle i bez <b>kyslíku</b>.<br><br> Sledujte překryv <b>{0}</b>, abyste požárům předešli.",2024-11-22,
+codex.m.environment.fire.desc,"Když se <b>Vysoká teplota</b> zkombinuje s <b>Kyslíkem</b>, mohou některé předměty vzplanout.<br><br> Můžete postavit <b>Tekutinová děla</b> a naplnit je <b>Vodou</b>, aby automaticky hasila požáry.<br><br> Účinným způsobem hašení požáru je i vypnutí blízkých <b>kyslíkových čerpadel</b>, uzavření <b>ventilačních otvorů</b> a demontáž podlahových dlaždic.<br><br> Některé požáry jsou <b>Chemické</b>, což je činí nebezpečnějšími a schopnými hořet déle i bez <b>Kyslíku</b>.<br><br> Sledujte překryv <b>{0}</b>, abyste požárům předešli.",2024-11-22,
 goal.ConnectStasis,Připojit stázové pole,,
 goal.ConnectStasis.desc,"Máte alespoň jedno <b>odpojené stázové pole</b>. Udržujte <b>stázová pole</b> připojená, abyste zachovali <b>kryostabilitu</b>. Nízká <b>kryostabilita</b> může mít pro kolonisty uvnitř škodlivé vedlejší účinky.",,
 tut.basic.controls.1.title,Základní ovládací prvky,,
@@ -6197,7 +6197,7 @@ nanobot.unreachable,Nedostupné pro nanoboty,,
 cant.heal,Nelze vyléčit,,for labeling wounds that cannot heal
 tut.production.last.msg,Po dokončení tutoriálu můžete dokončit stavbu reaktoru.,,
 hyperjump.cancelled,Hyperjump zrušen,,
-story.wreck_empty_ship.intro.9,"Musíme <b>se</b> <b>soustředit</b> na obnovení <b>letových schopností</b> lodi a <b>zajištění dalších zdrojů</b>. Loď nemusí být pro let zcela přestavěna, stačí, když je vcelku. <b>Loď by měla zůstat</b> co <b>nejmenší</b> co nejdéle, abychom se vyhnuli nedostatku materiálu.",,
+story.wreck_empty_ship.intro.9,"Musíme se <b>soustředit</b> na obnovení <b>letových schopností</b> lodi a <b>zajištění dalších zdrojů</b>. Loď nemusí být pro let zcela přestavěna, stačí, když je vcelku. <b>Loď by měla zůstat malá</b> co nejdéle, abychom se vyhnuli nedostatku materiálu.",,
 goal.dispose.of.objs,Zlikvidujte {0},,
 goal.dispose.of.objs.desc,"Zjistil jsem přítomnost <b>{0}</b> na palubě. Použijte akci <b>{1}</b>, abyste se těchto předmětů zbavili.",,{0} object name. {1} action name. Example: I detected Artillery Fungus. Use Dispose action to get rid of these objects.
 research.robotics.autorepair,Autoservis,,
@@ -6683,7 +6683,7 @@ tut.ship.combat.step.flux.capacity.2,"Přejděte kurzorem myši nad prvek uživa
 tut.ship.combat.step.flux.capacity.3,"Vylepšete svou loď {0} nebo postavte loď {1}, abyste zvýšili její {2}.",,"{0} - Ship Class. {1} - Flux Capacitors, {2} - Flux Capacity"
 tut.ship.combat.step.flux.overload.1,"Pokud hodnota {0} překročí hodnotu {1}, dojde k {2}.",,"{0} - Accumulated Flux, {1} - Flux Capacity, {2} - Flux Overload."
 tut.ship.combat.step.flux.overload.2,"{0} deaktivuje váš {1} a spustí nucené odvzdušňování, dokud nebude veškerý {2} odstraněn.",,"{0} - Flux Overload, {1} - Shields, {2} - Flux"
-tut.ship.combat.step.config.2,"Toto je <b>konfigurace</b> vaší <b>lodi</b>. Umožňuje vám změnit {0}, upravit nastavení {1} a změnit chování zbraní při zaměřování.",,"{0} - ship class, {1} - Flux"
+tut.ship.combat.step.config.2,"Toto je vaše <b>Konfigurace lodi</b>. Umožňuje vám změnit {0}, upravit nastavení {1} a změnit chování zbraní při zaměřování.",,"{0} - ship class, {1} - Flux"
 law.enforcement.desc,"Většina frakcí má vlastní <b>příslušníky bezpečnostních složek,</b> kteří udržují pořádek a pronásledují lodě {0}. Pokud sám nejsi {0}, můžeš se v jejich přítomnosti cítit v klidu.",,{0} is Outlaw
 noun.weapon.class.points,Body třídy zbraní,,
 noun.offensiveness,Urážlivost,,
@@ -7199,7 +7199,7 @@ arrived.at,Dorazili jsme do {0},,{0} is location name
 noun.warp.target,Cíl warpování,,target of warp drive hyperjump
 part.quality.threshold,Prahová hodnota kvality dílu,,
 part.quality.threshold.tip,"Když dojde k zániku bytostí, části těla, jejichž kvalita přesahuje tuto hranici, zůstanou zachovány.",,
-codex.m.defenses.tractorbeam.desc_new,"Traktorové paprsky mohou ovlivňovat dráhu pomalu se pohybujících projektilů, jako jsou asteroidy, meteoroidy a různé moduly a kapsle.<br><br> Abyste mohli traktorový paprsek použít, musíte postavit a propojit <b>cíl</b> <b>traktorového paprsku</b>.",,
+codex.m.defenses.tractorbeam.desc_new,"Traktorové paprsky mohou ovlivňovat trajektorii pomalu se pohybujících projektilů, jako jsou asteroidy, meteoroidy a různé moduly a kapsle.<br><br> Abyste mohli traktorový paprsek použít, musíte postavit a propojit <b>Cíl traktorového paprsku</b>.",,
 codex.m.defenses.tractorbeam.desc2,"Více tažných paprsků může nasměrovat stejný projektil na stejný nebo na různé cíle. Síla každého tažného paprsku se sčítá, čímž se zvyšuje vliv na trajektorii projektilu.",,
 tut.select.tile.being.warning,"Pokud se postava nachází nad nějakým předmětem, prvním kliknutím vyberete postavu. Dalším kliknutím na stejné místo vyberete předmět.",,
 electricity.manage.tutorial.warning,"Ještě jste nedokončili výukový program {0}, ale pokoušíte se použít funkci {1}. Pokud víte, co děláte, toto varování ignorujte. V opačném případě si nejprve projděte výukový program {0}, abyste se seznámili se základy!<br><br> Výukový program {0} najdete v {2}.",,"{0} is tutorial name (""Electricity""), {1} is ""Establish Temporary Connection"", {2} is ""Main Menu > Tutorials"". Note that {0} is repeated a few times on purpose."
@@ -8597,7 +8597,7 @@ stat.SurgerySuccess.desc,"Jak ruce, oči a osvětlení operačního pole této b
 job.learning.saturated,Dnes jsem se toho hodně naučil: učení bude do zítřka pomalejší,,Line in a job's tooltip once the colonist's daily learning limit for that skill is reached
 hack.failed,Útok na {0} byl odražen,,{0} is the target being name; ship log line when a Signal Intrusion hack against a hostile robot fails
 combat.shot.shift.approach,{0} + {1}: přiblížit se a vystřelit,,"Tooltip line under Out of range or No line of sight when one drafted shooter is selected and an enemy is hovered. {0} is the Shift key, {1} is the right mouse button. Without them the attack order is refused"
-tut.combat.reactions,"Každá <b>spřátelená bytost</b> má jednu z následujících <b>bojových reakcí</b>:<br> - <b>Svobodná vůle</b>: Bytost bude <b>bojovat</b>, pokud drží <b>zbraň,</b> kterou může použít, a není vážně zraněna; v opačném případě <b>uteče</b>.<br> - <b>Boj</b>: Bytost bude <b>střílet</b> na nepřátele, které může zasáhnout z místa, kde stojí, nebo se vrhne na nepřátele <b>v blízkosti</b> s zbraní na blízko, a poté se vrátí k práci. <b>Nasadíte</b> ji do boje.<br> - <b>Útěk</b>: Bytost <b>uteče</b> před nepřáteli v blízkosti a jinak se bude věnovat práci.<br> - <b>Ignorovat</b>: Bytost se soustředí na <b>úkoly kolonie</b> a osobní <b>potřeby</b> a nepřátele ignoruje, pokud <b>není</b> <b>vyprovokována</b> nebo nedostane <b>přímý rozkaz</b>.",,Codex page on combat reactions.
+tut.combat.reactions,"Každá <b>spřátelená bytost</b> má jednu z následujících <b>Bojových reakcí</b>:<br> - <b>Svobodná vůle</b>: Bytost bude <b>bojovat</b>, pokud drží <b>zbraň,</b> kterou může použít, a není vážně zraněna; v opačném případě <b>uteče</b>.<br> - <b>Boj</b>: Bytost bude <b>střílet</b> na nepřátele, které může zasáhnout z místa, kde stojí, nebo se vrhne na nepřátele <b>v blízkosti</b> se zbraní na blízko, a poté se vrátí k práci. <b>Mobilizace</b>: povoláte ji do boje.<br> - <b>Útěk</b>: Bytost <b>uteče</b> před nepřáteli v blízkosti a jinak se bude věnovat práci.<br> - <b>Ignorace</b>: Bytost se soustředí na <b>úkoly kolonie</b> a osobní <b>potřeby</b> a nepřátele ignoruje, pokud není <b>vyprovokována</b> nebo nedostane <b>Přímý rozkaz</b>.",,Codex page on combat reactions.
 codex.m.drafting.step4,"Střelec v pozici „drafted“ střílí na nepřátele, na které může z místa, kde stojí, zasáhnout. Příkaz k útoku na nepřítele mimo jeho dosah bude zamítnut. Podržte klávesu {0} při zadávání příkazu, aby se nejprve přiblížil. Postavy, kterým byl příkaz vydán jako skupině, se přiblíží samy.",,Codex page on drafting. {0} is the Shift key
 cond.Toxemia,Toxémie,,Name of a being condition: toxins build up in the blood because the kidneys are missing or failing
 cond.Toxemia.desc,"V krvi se hromadí toxiny, protože ledviny je nedokážou odbourat. Pomalu poškozují žaludek, střeva, játra, plíce, srdce a mozek, a tato poškození se nemohou zahojit, dokud se hladina toxinů nesníží. Je třeba ledviny vyléčit nebo nahradit. Bez funkčních ledvin je to smrtelné.",,"Description of cond.Toxemia, shown in the condition tooltip"
@@ -8669,3 +8669,8 @@ gradual.ui.reveal,Postupné odhalování uživatelského rozhraní,,Label for a 
 hostiles.aboard,Nepřátelé na palubě,,"Alert title and ship log line when enemies are already on the ship of the player (a raider who came to, mutineers, boarders). Short, may be reused as a label"
 objects.devices.firefoamcapsule,Kapsle Firefoam,,Name of a buildable device: a small capsule that sprays fire retardant foam over the room when a fire starts close to it
 objects.devices.firefoamcapsule.desc,"V případě, že v blízkosti vypukne požár, rozstříká po místnosti nehořlavou pěnu.",,Description of the Firefoam Capsule device in the build menu and the codex. Keep it short
+situation.StoryPointsNeutralMax,Příběhové body (Neutrální maximum),,
+fight.cause.grudge,{0} chová zášť vůči {1},,"{0} and {1} are names. Ship log line right after a fistfight starts, saying why {0} attacked {1}: {0} hates {1}"
+fight.cause.nearest,{0} se chtěl poprat a {1} byl nejblíže,,"{0} and {1} are names. Ship log line right after a fistfight starts: {0} is having a breakdown and wanted to fight anyone, {1} happened to be the closest person"
+fight.cause.mood,{0} měl mizernou náladu,,"{0} is a name. Ship log line right after a fistfight starts, saying {0} attacked because of a very bad mood. The game adds the worst mood in parentheses after it"
+fight.cause.clash,{0} a {1} spolu zkrátka nevychází,,{0} and {1} are names. Ship log line right after a fistfight starts: the two have personalities that clash
