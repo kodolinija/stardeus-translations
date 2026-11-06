@@ -24,7 +24,7 @@
     ·
     <a href="https://discord.com/invite/89amEwP">Discord</a>
     ·
-    <a href="https://docs.google.com/spreadsheets/d/1iiaORk6Ma5c2DpijK3oFs08fdk9PAe7QsCoiiBzdEUU/edit?usp=sharing">The Source</a>
+    <a href="https://docs.google.com/spreadsheets/d/1iiaORk6Ma5c2DpijK3oFs08fdk9PAe7QsCoiiBzdEUU/edit?usp=sharing">The Translation Source</a>
   </p>
 </p>
 
@@ -36,11 +36,8 @@
   <ol>
     <li> <a href="#about-the-project">About The Project</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
-    <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#the-source-file">The Source file</a></li>
-        <li><a href="#installation">Contributing</a></li>
-      </ul>
+    <li><a href="#the-source-file">The Source file</a></li>
+    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#credits">Credits</a></li>
   </ol>
@@ -53,13 +50,11 @@
 
 This repository is a place for volunteers to contribute community translations for Stardeus.
 
-You can contribute new translations, fixes to existing translations, or point out errors by creating an <a href="https://github.com/othneildrew/Best-README-Template/issues">Issue</a>.
-
-Before making a Pull Request, please send in a signed CLA (read the next section).
+You can contribute new translations, fixes to existing translations, or point out errors by creating an <a href="https://github.com/kodolinija/stardeus-translations/issues">Issue</a>.
 
 ## Contributor License Agreement
 
-Before contributing, you will have to sign [the following CLA](https://docs.google.com/document/d/1X2G0VvNNtRHAApqbNKRXkYmKHlg1j5tBF2hZPy6LHM4/edit?usp=sharing). You can either print the document, sign and scan it or make a photo. Then email the agreement to tomas at kodolinija dot com, including the details about your intended contribution. This agreement applies to all contributions to Kodo Linija, be it translations, modding repository, or anything related.
+Before contributing, you will have to sign [the following CLA](https://cla-assistant.io/kodolinija/stardeus-translations). You can sign easy it with CLA assistant. This agreement applies to all contributions to Kodo Linija, be it translations, modding repository, or anything related.
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -68,8 +63,8 @@ Before contributing, you will have to sign [the following CLA](https://docs.goog
 2. Contribute in small chunks rather than in one big update, this way it's easier to collaborate and merge the efforts from different people.
 3. Make sure you spent some time in the game. Demo can be used for translating too.
 4. Be ready to play your translation. Often words in your language might don't really fit in a box or the context is missing.
-5. Use the "Generate Validity Report" in Settings > Language in game (or demo) to see if there are any errors in your translation.
-6. Example of how to fix invalid translations if you get some in the report: https://www.twitch.tv/videos/2319536309
+5. Watch the instruction video: https://www.youtube.com/watch?v=Q9yugSMBzrE
+[![YouTube](http://i.ytimg.com/vi/Q9yugSMBzrE/hqdefault.jpg)](https://www.youtube.com/watch?v=Q9yugSMBzrE)
 
 ### The Source file
 
@@ -119,6 +114,7 @@ If you feel lost at any point, please join the <a href="https://discord.com/invi
 * !Neo
 * [rem02](https://github.com/rem02/stardeus-translations) aka ZeMecano
 * [LQ-Sebastien](https://github.com/LQ-Sebastien) aka Kronik
+* [The Doc](https://github.com/TheDokidoc)
 
 ### Czech
 
@@ -129,6 +125,7 @@ If you feel lost at any point, please join the <a href="https://discord.com/invi
 
 * [unggod](https://github.com/unggod)
 * [Leandro Voltolino](https://github.com/xupisco)
+* [Raz3n28](https://github.com/Raz3n28)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -154,6 +151,8 @@ If you feel lost at any point, please join the <a href="https://discord.com/invi
 ### Russian
 
 * [iyalang](https://github.com/iyalang)
+* [Sun4eez](https://github.com/Sun4eez)
+* [G33K3R-od](https://github.com/G33K3R-od)
 
 ### Korean
 
@@ -176,3 +175,6 @@ YouHanHua Team
 * Senio
 * Ding
 * 404のUMP-9
+
+### Italian
+* [AndyD](https://github.com/AndyDL24)
