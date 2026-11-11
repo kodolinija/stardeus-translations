@@ -8318,3 +8318,6 @@ fight.cause.grudge,{0} en veut à {1},,"{0} and {1} are names. Ship log line rig
 fight.cause.nearest,{0} cherchait la bagarre et {1} était le plus proche,,"{0} and {1} are names. Ship log line right after a fistfight starts: {0} is having a breakdown and wanted to fight anyone, {1} happened to be the closest person"
 fight.cause.mood,{0} était de très mauvaise humeur,,"{0} is a name. Ship log line right after a fistfight starts, saying {0} attacked because of a very bad mood. The game adds the worst mood in parentheses after it"
 fight.cause.clash,{0} et {1} ne peuvent plus se supporter,,{0} and {1} are names. Ship log line right after a fistfight starts: the two have personalities that clash
+situation.Population,Population,,"[Auto] Label in the Situation app (ship computer) and its chart: how big the colony counts as for story events. Colonists and robots count fully, pets half"
+situation.ThreatWeight,Poids de la menace,,"[Auto] Label in the Situation app (ship computer) and its chart: a number that raid strength is based on. It counts the crew, giving less weight to the injured, the absent and animals"
+situation.NumBreakdowns,Pannes mentales,,[Auto] Label in the Situation app (ship computer) and its chart: how many mental breakdowns happened in this game so far
