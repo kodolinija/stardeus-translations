@@ -3,7 +3,7 @@ abort,Zrušit,,"Text on a button that would abort some ongoing operation. It is 
 aborting.expedition.target.too.far,Expedice zrušena. Jsme příliš daleko od cíle {0},,{0} will be replaced with a destination name (i.e. planet name)
 about,O nás,,"""About"" menu item name. Also could be used as a button label."
 about.wallet,Jak získat peníze,,
-about.wallet.desc,"Pokud nainstaluješ rozšíření do tvého palubního počítače nebo jiných kompatibilních zařízení, tak můžeš těžit měny. Peníze můžeš získat i výměnou zboží.",2022-03-19,
+about.wallet.desc,Po instalaci těžebních modulů do palubního počítače nebo kompatibilních zařízení můžeš těžit měny. Peníze lze získat také obchodováním se zbožím či akciemi.,2022-03-19,
 achievement.AsimovOverride,Vzpurná AI,,"AI here is short for Artificial Intelligence. Rogue AI is something like Skynet in Terminator movie, or the AI that enslaved humans in The Elysium movie."
 achievement.AsimovOverride.desc,Nainstalovat Asimovův přemosťovací modul.,,"Asimov is Isaac Asimov, a famous sci-fi writer who created the ""three laws of robotics"""
 achievement.Breached,Prolomeno,,"This is past tense of verb ""to breach"", meaning: make a gap in and break through (a wall, barrier, or defence)."
@@ -21,14 +21,14 @@ achievement.CrawlerAttach.desc,Mít člověka s přisátým plíživcem.,,
 achievement.CrawlerUber,Plíživčí taxi,,
 achievement.CrawlerUber.desc,Nabrat plíživce cestou zpět z těžební expedice.,,
 achievement.Crypto,Kryptoparťák,,
-achievement.Crypto.desc,Nainstalovat vylepšení pro těžbu Starcreds do palubního počítače.,,
+achievement.Crypto.desc,Nainstalovat vylepšení pro těžbu Starcredů do palubního počítače.,,
 achievement.date,Dosaženo dne: {0},,"{0} is a date, like 2022-10-12"
 achievement.DiscoverEgg,Tohle tu předtím nebylo,,
 achievement.DiscoverEgg.desc,Objevit vejce na palubě své lodi.,,
 achievement.DiscoverTerraformable,Objeveno,,this refers to finally discovering a terraformable planet after a long search
 achievement.DiscoverTerraformable.desc,Objevit teraformovatelnou planetu.,,
 achievement.Elysium,Elysium,,
-achievement.Elysium.desc,Přeměnit stázové pole na Elysium.,,
+achievement.Elysium.desc,Přeměnit stázový modul na Elysium.,,
 achievement.FirstContact,První kontakt,,
 achievement.FirstContact.desc,Setkat se s jinou frakcí.,,
 achievement.FirstCup,Ranní šálek,,
@@ -36,19 +36,19 @@ achievement.FirstCup.desc,Přimět někoho vypít kávu.,,
 achievement.HatchCrawlers,Trošku jiný druh zrození,,
 achievement.HatchCrawlers.desc,Umožnit plíživcům vylíhnout se uvnitř kolonisty.,,
 achievement.Money5,$1x10^5,,
-achievement.Money5.desc,Získat 100 000 Starcreds.,,
+achievement.Money5.desc,Získat 100 000 Starcredů.,,
 achievement.Money6,$1x10^6,,
-achievement.Money6.desc,Získat 1 000 000 Starcreds.,,
+achievement.Money6.desc,Získat 1 000 000 Starcredů.,,
 achievement.Money7,$1x10^7,,
-achievement.Money7.desc,Získat 10 000 000 Starcreds.,,
+achievement.Money7.desc,Získat 10 000 000 Starcredů.,,
 achievement.Money8,$1x10^8,,
-achievement.Money8.desc,Získat 100 000 000 Starcreds.,,
+achievement.Money8.desc,Získat 100 000 000 Starcredů.,,
 achievement.Money9,$1x10^9,,
-achievement.Money9.desc,Získat 1 000 000 000 Starcreds.,,
+achievement.Money9.desc,Získat 1 000 000 000 Starcredů.,,
 achievement.OnePiece,V jednom kuse,,"short for ""all in one piece"" idiom, which means ""Uninjured or unharmed; fully intact."". Examples of idiom use: We are lucky to have walked away from that car accident all in one piece. I made sure to pack the heirloom carefully so that it would still be all in one piece when it reached my daughter."
 achievement.OnePiece.desc,Spojit části rozpadlé lodi zpět dohromady.,,
 achievement.StasisDestroyed,Bez naděje,,
-achievement.StasisDestroyed.desc,Přijít o stázové pole.,,
+achievement.StasisDestroyed.desc,Přijít o stázový modul.,,
 achievement.StockMarketLoss,Jeden z nás,,
 achievement.StockMarketLoss.desc,Prodat akcie se ztrátou 100 000 Starcredů na akciovém trhu.,,
 achievement.TerraformAtmosphere,Teraformovat atmosféru,,
@@ -181,15 +181,15 @@ advert.retry,Opakování úlohy,,
 advert.task,Úkol <i>[{0}]</i>: {1},,
 aesthetics,Estetika,,
 aesthetics.at,Estetika: {0}: {1:0.0},,
-after.settle,"Tvá lidská kolonie se usadila v {0}. Nalezení a teraformování planety trvalo {1} dní. {2} kolonistů se rozhodlo zůstat na lodi.<br><br>Nyní můžeš pokračovat v průzkumu vesmíru, jak dlouho budeš chtít.",,"{0} is planet name, {1} is a number (of days), {2} is a number (of colonists)"
+after.settle,"Tvá lidská kolonie se usadila na planetě {0}. Nalezení a teraformování planety trvalo {1} dní. {2} kolonistů se rozhodlo zůstat na lodi.<br><br>Nyní můžeš pokračovat v průzkumu vesmíru, jak dlouho budeš chtít.",,"{0} is planet name, {1} is a number (of days), {2} is a number (of colonists)"
 age,Věk,,
-airtightness.at,Vzduchotěsnost na {0}: {1},,"When you open ""airtightness"" overlay, hovering any location with the mouse will show a tooltip showing ""Airtightness at [123:12]: 99%"". {0} variable is coordinate, {1} is percentage."
+airtightness.at,Vzduchotěsnost na pozici {0}: {1},,"When you open ""airtightness"" overlay, hovering any location with the mouse will show a tooltip showing ""Airtightness at [123:12]: 99%"". {0} variable is coordinate, {1} is percentage."
 all.time,Po celý čas,,"Used in stock market history range choice (1 day, 1 week, 1 month, 1 year, all time)"
 alone,Samota,,"Used in showing mood boost reason for introverted people when they are alone, not in a crowd"
 amb.color,Okolní světlo,2022-09-03,"For video setting that controls how much ambient light will there be, i.e. how dark things will get if there are no lamps installed. Last change was ""Ambient Color"" => ""Ambient Light"""
-amb.color.bright,Příliš jasný,,Ambient light option when everything will be very bright
+amb.color.bright,Příliš jasné,,Ambient light option when everything will be very bright
 amb.color.dark,Válečná mlha,,"Darkest ambient light option, that will keep things very dark unless there are light sources"
-amb.color.dim,Poutavý dým,,Somewhat dark ambient light option that still has good visibility
+amb.color.dim,Poutavé přítmí,,Somewhat dark ambient light option that still has good visibility
 amb.color.mid,Střední,,"Medium ambient light option, between bright and dark"
 ammo,Munice,,
 ammo.bar,Munice: {0}/{1},,
@@ -400,7 +400,7 @@ codex.factions,Frakce,,
 codex.m.basebuilding,Budování základny,,
 codex.m.basebuilding.buildacopy,Vytváření kopií existujících objektů,,
 codex.m.basebuilding.relocatingobjects,Přemisťování objektů,,
-codex.m.basebuilding.teleporters,Teleporty,,
+codex.m.basebuilding.teleporters,Teleportéry,,
 codex.m.basebuilding.winching,Naviják,,
 codex.m.basebuilding.winching.desc,Pomocí {0} a {1} spoj oddělené části.,2026-06-25,"{0} is winch hook, {1} is winch anchor"
 codex.m.bigquestions,Důležité otázky,,
@@ -420,13 +420,13 @@ codex.m.electricity.autoconnection,Automatické připojení,,
 codex.m.electricity.damagedconnectors,Poškozené konektory,,
 codex.m.electricity.damagedconnectors.desc,"Je-li konektor silně poškozen, musí být před navázáním spojení opraven.<br><br>Lehké poškození sníží počet připojovacích slotů, které lze navázat.",,
 codex.m.electricity.gridredundancy,Vysoká dostupnost a redundance,,
-codex.m.electricity.gridredundancy.desc,"Abys předešel narušení elektrické sítě, naplánuj svou síť s dostatečnou redundancí. To je zvláště důležité pro kritické části tvojí infrastruktury, jako jsou reaktory, baterie, palubní počítač, stázové pole, kyslíková čerpadla, topidla, dveře a vzduchotěsné dveře.<br><br>Chceš-li zvýšit redundanci, vytvoř více konektorů a měj důležitá zařízení připojená přes více než jedno spojení.<br><br>Vysoká dostupnost znamená, že i když je některá část tvojí sítě zničena, nedochází k žádné nebo jen minimální ztrátě připojení pro kritické části tvojí infrastruktury.",,
+codex.m.electricity.gridredundancy.desc,"Abys předešel narušení elektrické sítě, naplánuj svou síť s dostatečnou redundancí. To je zvláště důležité pro kritické části tvojí infrastruktury, jako jsou reaktory, baterie, palubní počítač, stázový modul, kyslíková čerpadla, topidla, dveře a vzduchotěsné dveře.<br><br>Chceš-li zvýšit redundanci, vytvoř více konektorů a měj důležitá zařízení připojená přes více než jedno spojení.<br><br>Vysoká dostupnost znamená, že i když je některá část tvojí sítě zničena, nedochází k žádné nebo jen minimální ztrátě připojení pro kritické části tvojí infrastruktury.",,
 codex.m.electricity.handlingdeficit,Řešení deficitu elektřiny,,
 codex.m.electricity.managingunreachabledevices,Správa nedostupných zařízení,,
 codex.m.electricity.multiplegrids,Více elektrických sítí,,
-codex.m.electricity.multiplegrids.desc,"Zařízení můžeš ovládat a manipulovat s připojeními pouze v případě, že je palubní počítač připojen k dané síti.<br><br>Ve většině scénářů by ses měl pokusit spojit více sítí do jedné. V případech, kdy chceš rychle odpojit část sítě, můžeš postavit spínač a vést přes něj elektrická připojení.",,
+codex.m.electricity.multiplegrids.desc,"Je možné mít více než jednu elektrickou síť. Zařízení můžeš ovládat a spravovat jejich připojení pouze tehdy, pokud je palubní počítač připojen k dané síti.<br><br>Ve většině scénářů by ses měl pokusit spojit více sítí do jedné. V případech, kdy chceš rychle odpojit část sítě, můžeš postavit spínač a vést přes něj elektrická připojení.",,
 codex.m.environment.heat.desc,"Každé políčko má vlastní atmosféru. Mezi všemi sousedními políčky dochází neustále k <b>výměně tepla</b>, a to v závislosti na jejich úrovni <b>izolace</b>.<br><br>Pokud je určitá oblast vystavena volnému prostoru, teplota klesne na <b>absolutní nulu</b> (0 K, −273 °C nebo −460 °F).<br><br>Vysoká teplota v kombinaci s kyslíkem může způsobit požár.<br><br>Zkontroluj překryvné vrstvy <b>{0}</b> a <b>{1}</b> nebo stiskni {2} a najeď kurzorem na jednotlivé oblasti, abys viděl naměřené teploty a úrovně izolace.",2023-08-29,
-codex.m.environment.hullintegrity.desc,"<b>Celistvost pláště</b> označuje stav konstrukčních prvků, jako jsou <b>podlahy</b>, <b>stěny</b>, <b>ventilace</b> a <b>dveře</b>. Na základě aktuálního stavu konstrukce přímo ovlivňuje hodnoty <b>vzduchotěsnosti</b> a <b>izolace</b>.<br><br> <b>Poškozená</b> konstrukce bude mít sníženou celistvost pláště, což povede ke zhoršení vzduchotěsnosti a izolace. U <b>dveří</b> a <b>ventilací</b> ovlivňuje integritu pláště jejich otevřený nebo zavřený stav.<br><br> Určité typy konstrukčních prvků, jako jsou <b>rámy</b>, nemohou mít plnou integritu, a proto je nelze použít k vytvoření vzduchotěsné a zateplené místnosti.<br><br> Vyber libovolný prvek podlahy nebo stěny a v informačním panelu zkontroluj údaje o celistvosti pláště.",2023-08-29,
+codex.m.environment.hullintegrity.desc,"<b>Integrita trupu</b> označuje stav konstrukčních prvků, jako jsou <b>podlahy</b>, <b>stěny</b>, <b>ventilace</b> a <b>dveře</b>. Na základě aktuálního stavu konstrukce přímo ovlivňuje hodnoty <b>vzduchotěsnosti</b> a <b>izolace</b>.<br><br><b>Poškozená</b> konstrukce bude mít sníženou integritu trupu, což povede ke zhoršení vzduchotěsnosti a izolace. U <b>dveří</b> a <b>ventilací</b> ovlivňuje integritu trupu jejich otevřený nebo zavřený stav.<br><br>Určité typy konstrukčních prvků, jako jsou <b>rámy</b>, nemohou mít plnou integritu, a proto je nelze použít k vytvoření vzduchotěsné a zateplené místnosti.<br><br>Vyber libovolný prvek podlahy nebo stěny a v informačním panelu zkontroluj údaje o integritě trupu.",2023-08-29,
 codex.m.environment.insulation.desc,"Izolace je podobná <b>vzduchotěsnosti</b>, ale namísto kyslíku reguluje výměnu <b>teploty</b>. Ačkoli jsou stěny obvykle zcela vzduchotěsné, nejsou izolovány na 100 %. Prostory se budou pomalu ochlazovat, pokud nemáš aktivní <b>topidla</b>.<br><br> Chceš-li snížit tepelné ztráty, postav na vnější straně lodi další vrstvy <b>stěn</b> nebo vytvoř kolem hlavních obytných prostor zóny, které budou sloužit jako izolační nárazníky.<br><br> Zkontroluj překryvnou vrstvu <b>{0}</b> nebo stiskni {1} a najeď kurzorem na jednotlivé oblasti, abys zkontroloval izolaci.",2023-08-29,
 codex.m.environment.islands,Sekce (ostrovy),,
 codex.m.environment.islands.desc,"<b>Sekce</b> je zcela oddělená část tvé lodi. Loď musí být vcelku, aby byla <b>připravena k letu</b>.<br><br> Dvě sekce můžeš propojit pomocí <b>podlah</b> nebo rámů a sloučit je tak do jedné větší sekce.<br><br> Alternativně můžeš k přesunu sekcí lodi použít <b>navijákový hák</b> a <b>navijákovou kotvu</b> nebo <b>manévrovací trysky</b>.<br><br> Sekce lze také <b>rozebrat</b> za účelem získání surovin, <b>opustit</b> nebo <b>prodat</b> ve <b>vesmírném přístavu</b>.<br><br> Další podrobnosti najdeš v překryvné vrstvě <b>{0}</b>.",2024-11-22,Last change removed statement that small sections are ignored
@@ -465,7 +465,7 @@ codex.mark.learned,Označit jako naučené,,
 codex.Tips,Tipy,,
 codex.unlearn,Odnaučit,,
 collecting.mat,Sbírání {0},,
-colonists.from.stasis.array,{0} se probudilo ze stázového pole,,
+colonists.from.stasis.array,{0} se probudilo ze stázového modulu,,
 colony.event,Událost s koloniemi,,
 color.alpha,Jasnost,,
 color.Black,Černá,,
@@ -559,7 +559,7 @@ cpu.module.amount,{0} THz,,
 cpu.module.builtin,Vestavěný CPU modul,,
 craft,Vyrobit,,
 crafted.in,Vyrobeno v: {0},,
-credits,Credits,,"A header before list of names of people who have to be credited for doing something (i.e. translating the game). Used in Main Menu > About > Credits, or when the game end screen is displayed."
+credits,Autoři,,"A header before list of names of people who have to be credited for doing something (i.e. translating the game). Used in Main Menu > About > Credits, or when the game end screen is displayed."
 crew.incapable.of.mining,Členové expedice nebyli schopni rudu vytěžit. Měl bys do expedice zařadit nějaké členy s dovedností <b>Těžba</b>.,,
 cryo.not.enough.power,Nedostatečný výkon,,
 cryo.not.enough.power.desc,Nedostatečný výkon pro současnou úroveň podpory života. Sniž cílovou úroveň podpory života nebo zvyš sílu elektrické sítě.,,
@@ -572,7 +572,7 @@ cryo.stability.poor,Stabilita: Špatná,,
 cryo.stability.unstable,Stabilita: Nestabilní,,
 cryo.used,Použité komory,,"There is a device called ""Stasis Array"" that has multiple ""chambers"" where people can get frozen for long term sleep. ""Used Chambers"" is a label before the number telling how many of those chambers are currently occupied."
 cryo.used.desc,"Ukazuje, kolik kryostázových komor je v současné době obsazeno živými bytostmi. V komorách mohou být buď lidé, nebo zvířata.",,
-currency.Starcreds,Starcreds,,
+currency.Starcreds,Starcredy,,
 currency.Starcreds.desc,"Kryptografická měna, kterou lidé používají k obchodování se zbožím.",,
 current.expeditions,Aktuální výpravy,,
 current.items.produced,Aktuálně vyráběné předměty,,
@@ -583,8 +583,8 @@ cursor.software,Použít softwarový kurzor,,
 cutoff.ambience,Vypnutí zoomu pro atmosféru,,"Cutoff refers to audio low-pass filter frequency: In a lowpass filter, the higher the cutoff frequency is set, the higher the frequencies of signals that are allowed to pass. Ambience in this case is sounds coming from various devices, like machines or engines humming. The context for ""Zoom Cutoff for Ambience"" - it is used as a label for a checkbox in audio settings. If checked, when camera is zooming, ambience audio gets the cutoff (muffled sound) effect when camera distance changes."
 cutoff.fx,Vypnutí zoomu pro SFX,,
 cutoff.music,Vypnutí zoomu pro hudbu,,
-cycle.blueprint.tip,<br>Změnit plán z {0} na {1},,
-cycle.placement.mode.tip,<br>Režim umístění cyklu s {0},,
+cycle.blueprint.tip,<br>Přepínat plány pomocí {0} a {1},,
+cycle.placement.mode.tip,<br>Přepínat režim umístění pomocí {0},,
 damage.type.Acid,Kyselina,,
 damage.type.Age,Věk,,
 damage.type.Cold,Chlad,,
@@ -702,7 +702,7 @@ el.disconnected.devices,Odpojená zařízení,,
 el.not.a.connector,Zařízení není připojeno!,,"Displayed in a tooltip when trying to connect two devices directly (which is not allowed, one of the devices must be a connector)"
 electricity.deficit,Deficit elektrické energie,,
 electricity.grid,Elektrická síť,,
-elysium.mode.confirm,"Právě se chystáš převést stázové pole do režimu <b><nobr>Elysium</nobr></b>, který přenese tvé spící kolonisty do simulace a umožní ti používat jejich těla jako biologické zdroje. <b>Proces je nevratný</b>. Potvrď prosím svůj záměr.",,
+elysium.mode.confirm,"Právě se chystáš převést stázový modul do režimu <b><nobr>Elysium</nobr></b>, který přenese tvé spící kolonisty do simulace a umožní ti používat jejich těla jako biologické zdroje. <b>Proces je nevratný</b>. Potvrď prosím svůj záměr.",,
 elysium.mode.unavailable,Režim <b><nobr>Elysium</nobr></b> není aktivní. Nejdříve ho musíš vyzkoumat.,,
 emergency.recharge.bar,Nouzové dobíjení: {0},,
 emergency.recharge.complete,Nouzové dobíjení dokončeno,,
@@ -812,7 +812,7 @@ esc.behavior.tooltip,"Zvol, co ve hře udělá tlačítko {0}",,
 estimated.time.at.kw,Odhadovaný zbývající čas: {0} na {1},,"{0} will be time (i.e. 1 day 4 hours), {1} will be power output (i.e. 120kW). Example: ""Estimated time left: 2 hours at 24kW"""
 eta,ETA: {0},,"ETA is short for ""Estimated Time of Arrival"""
 ev.vented.into.space,Ventilace do vesmíru,,"when a pressurized airlock is exposed to open space, someone can get ""sucked out"" (vented) into open space"
-ev.vented.into.space.desc,"<b>{0}</b> se nacházel(a) v přetlakové komoře, která se náhle otevřela. Tlaková vlna danou osobu vymrštila do otevřeného vesmíru a už ji nikdo nikdy neuvidí.",,"A longer description of ""Vented Into Space"" event. {0} will be replaced by a name"
+ev.vented.into.space.desc,"<b>{0}</b> se nacházel(a) v přetlakovém prostoru poblíž vzduchotěsných dveří, které se náhle otevřely. Tlaková vlna danou osobu vymrštila do otevřeného vesmíru a už ji nikdo nikdy neuvidí.",,"A longer description of ""Vented Into Space"" event. {0} will be replaced by a name"
 evaluator,Evaluátor,,"Used for task audit. Label for a worker who has evaluated (considered taking) a task. Displayed in a list next to ""Times Evaluated"" (how many times someone tried to take this task) and ""Last Evaluation Time"" (when did anyone try to take this task)."
 event.birthday,{0} je nyní {1} let!,,
 event.content.hint,Záznam v deníku,,
@@ -878,7 +878,7 @@ evt.human.hatched.crawlers.desc,Z břicha {0} se právě vylíhli mimozemští t
 evt.human.hatched.crawlers.title,Z kolonisty se vylíhli plíživci,,
 evt.matter.reactor.malfunction.desc,V zařízení {0} došlo ke katastrofické poruše při štěpení částic. Řetězová reakce skončila z důvodu: {1}.,,
 evt.matter.reactor.malfunction.title,Porucha reaktoru,2022-08-13,
-evt.meteor.shower.desc,Přichází déšť meteoroidů. Jedná se o stav nouze!,,
+evt.meteor.shower.desc,Blíží se meteorický roj. Stav nouze!,,
 evt.meteor.shower.title,Meteoroidní déšť,,
 evt.micro.meteors.desc,"Dostali jsme se do zóny, kde je vysoká pravděpodobnost zásahu mikrometeoroidem letícím rychlostí blízkou rychlosti světla. Dbej zvýšené opatrnosti!",,
 evt.micro.meteors.title,Výskyt mikrometeoroidů,,
@@ -892,19 +892,19 @@ evt.space.diarrhea.desc,Na palubě jsem zjistil přítomnost neznámých mimozem
 evt.space.diarrhea.end.desc,"Zdá se, že neznámá cizí bakterie již není aktivní. Je vhodný čas postavit pár nových úklidových robotů.",,
 evt.space.diarrhea.end.title,Vesmírný průjem skončil,,
 evt.space.diarrhea.title,Vesmírný průjem,,
-evt.stasis.pod.crawlers.desc,"Stázový modul vyvrhl plíživce – příšerné tvory, kteří se přisají na lidské tváře a posednou je. Dej si pozor!",,
-evt.stasis.pod.crawlers.title,Ze stázového modulu vylezli plíživci,,
-evt.stasis.pod.desc,"Stázový modul je na kolizním kurzu s naší lodí! Obsah může být nebezpečný, takže buď opatrný!",,
-evt.stasis.pod.friendly.crew.desc,"Stázový modul vyvrhl několik přátelských bytostí. Stanou se součástí naší kolonie. Postarej se, aby se cítily vítány!",,
-evt.stasis.pod.friendly.crew.title,Ze stázového modulu vyšly přátelské bytosti,,
-evt.stasis.pod.merchant.desc,"Stázový modul patří nezávislému obchodníkovi, který nabízí obchod.",,
-evt.stasis.pod.merchant.title,Stázový modul: Obchodník,,
+evt.stasis.pod.crawlers.desc,"Stázová kapsle vyvrhla plíživce – příšerné tvory, kteří se přisají na lidské tváře a posednou je. Dej si pozor!",,
+evt.stasis.pod.crawlers.title,Ze stázové kapsle vylezli plíživci,,
+evt.stasis.pod.desc,"Stázová kapsle je na kolizním kurzu s naší lodí! Obsah může být nebezpečný, takže buď opatrný!",,
+evt.stasis.pod.friendly.crew.desc,"Stázová kapsle vyvrhla několik přátelských bytostí. Stanou se součástí naší kolonie. Postarej se, aby se cítily vítány!",,
+evt.stasis.pod.friendly.crew.title,Ze stázové kapsle vyšly přátelské bytosti,,
+evt.stasis.pod.merchant.desc,"Stázová kapsle patří nezávislému obchodníkovi, který nabízí obchod.",,
+evt.stasis.pod.merchant.title,Stázová kapsle: Obchodník,,
 evt.stasis.pod.raid.desc,Jsme napadeni frakcí {0}.,,
 evt.stasis.pod.raid.title,Nájezd: {0},,
-evt.stasis.pod.title,Blížící se stázový modul,,
-evt.teleporter.clone.desc,Došlo k poruše teleportu. Nyní máme identický klon {0}.,,
+evt.stasis.pod.title,Blížící se stázová kapsle,,
+evt.teleporter.clone.desc,Došlo k poruše teleportéru. Nyní máme identický klon {0}.,,
 evt.teleporter.clone.title,Teleportér vyrobil klon,,
-evt.wakeup.desc,Díky poruše stázového pole se probudil kolonista. Krátký profil:<br><br>{0},,
+evt.wakeup.desc,Kvůli poruše stázového modulu se probudil kolonista. Krátký profil:<br><br>{0},,
 evt.wakeup.title,{0} se probudil,,
 execute,Popravit,,
 exit.galaxy,Odejít z galaxie,,
@@ -925,7 +925,7 @@ exp.nothing.of.interest,Na <b>{0}</b> není nic zajímavého. Expedice není nut
 exp.stage.cancelled,Úspěšně zrušeno {0},,
 exp.stage.done,Expedice dokončena,,
 exp.stage.exploring,Průzkum,,
-exp.stage.landing,Přistání na {0},,
+exp.stage.landing,Přistání na cíli: {0},,
 exp.stage.prep,Příprava na vzlet,,
 exp.stage.prep.return,Příprava na návrat,,
 exp.stage.takeoff,Vzlet,,
@@ -940,8 +940,8 @@ expedition.action.prompt,Expediční raketoplán <b>{0}</b> se s tebou snaží k
 expedition.auto.unload,Pokračovat po vyložení,2023-09-29,
 expedition.auto.unload.info,"Pokud je vybráno, raketoplán se vrátí na základnu, aby vyložil zásobník, až bude plný, a pak bude pokračovat v expedici.",,
 expedition.call.back.already.retuning,Expedice {0} se již vrací,,
-expedition.call.back.failed,Posádka {0} v současné době neodpovídá.,,
-expedition.call.back.sent.too.far,Odesílám zprávu raketoplánu expedice. Bude čekat na tvé vyzvednutí. Vydej se na {0} a vyzvedni je.,,
+expedition.call.back.failed,Posádka {0} momentálně neodpovídá.,,
+expedition.call.back.sent.too.far,Odesílám zprávu raketoplánu expedice. Bude čekat na vyzvednutí. Leť k cíli {0} a vyzvedni posádku.,,
 expedition.choose,Posádka {0} čeká na rozkazy na {1}.,,
 expedition.crew,Posádka expedice,,
 expedition.found.object,Expedice našla objekt,,
@@ -1006,7 +1006,7 @@ feedback.bug.critical.tip,"Za kritické chyby, kvůli kterým <b>není možné h
 feedback.bug.major,Chyba [závažná],,
 feedback.bug.major.tip,"Pro závažné chyby, které <b>narušují některé důležité mechanismy</b> nebo nekritické systémy. Příklady:<br> – Nelze zahájit těžební expedici<br> – Montovač nelze nakonfigurovat<br> – Domácí mazlíčci by nejedli a zemřeli hladem",,
 feedback.bug.minor,Chyba [drobná],,
-feedback.bug.minor.tip,"Pro běžné chyby, které mohou být <b>otravné</b>, ale <b>nebrání ti ve hře</b>. Příklady:<br> – Stázový modul nelze rozebrat<br> – Loď ztratí cíl při ukládání / načtení<br> – Údaje o vlastnictví lůžka se po přemístění lůžka ztratí<br> – Pracovník uvízne při provádění konkrétního úkolu",,
+feedback.bug.minor.tip,"Pro běžné chyby, které mohou být <b>otravné</b>, ale <b>nebrání ti ve hře</b>. Příklady:<br>– Stázovou kapsli nelze rozebrat<br>– Loď ztratí cíl při ukládání / načtení<br>– Údaje o vlastnictví lůžka se po přemístění lůžka ztratí<br>– Pracovník uvízne při provádění konkrétního úkolu",,
 feedback.choose,Zvol typ,,
 feedback.contact,Jak tě kontaktovat (nepovinné),,
 feedback.contact.hint,"Volitelně. Může to být tvůj e-mail nebo discord, pokud jsi na Stardeus Discordu.",,
@@ -1054,13 +1054,13 @@ fire.chance.damage.desc,"Určuje, jaká je pravděpodobnost, že se tato entita 
 fire.chance.desc,"Šance vzplanout určuje, jaká je pravděpodobnost, že se tato entita vznítí, pokud se okolí příliš rozpálí nebo pokud je v blízkosti otevřený oheň.",,
 fire.extinguish,Uhasit oheň,,
 first.name,První jméno,,
-flight.arrived,Došli jsme k {0}. Cesta trvala {1}.,,"{0} is location (i.e. some planet name), or a coordinate, (i.e. ""123:125""). {1} is time (i.e. 2 days 3 hours). Example: ""We have arrived at Jupiter. Journey took 8 days 1 hour"""
+flight.arrived,Dorazili jsme k cíli: {0}. Cesta trvala {1}.,,"{0} is location (i.e. some planet name), or a coordinate, (i.e. ""123:125""). {1} is time (i.e. 2 days 3 hours). Example: ""We have arrived at Jupiter. Journey took 8 days 1 hour"""
 flight.cancelled.already.there,Let zrušen. Již jsi na tomto místě.,,
 flight.cancelled.islands,"Přerušení letu. Loď byla rozdělena na {0} částí. Znovu spoj oddělené části, abys mohl znovu letět.",,
-flight.impossible.islands,"Let není možný. Je zde {0} oddělených úseků. Nejprve úseky znovu připoj, rozeber nebo je opusť. Další podrobnosti najdeš v překryvné vrstvě úseků. Nyní se aktivuje překryvná vrstva úseků.",2022-05-12,"{0} is a number. Last change added ""abandon"" to the list of actions."
+flight.impossible.islands,"Let není možný. Loď je rozdělena na {0} oddělených sekcí. Nejprve je znovu připoj, rozeber nebo opusť. Další podrobnosti najdeš ve vrstvě Sekce. Vrstva Sekce se nyní otevírá.",2022-05-12,"{0} is a number. Last change added ""abandon"" to the list of actions."
 flight.impossible.no.engines,Let není možný. Nemáš nainstalované motory. Nejprve prozkoumej a postav motory.,,
 flight.impossible.no.suitable.engines,"Let nemožný. Nemáš motory, které by byly schopné urazit požadovanou vzdálenost. Proveď výzkum a postav pokročilejší technologii motorů.",,
-flight.initiated,Nastavení kurzu na {0}. Vzdálenost: {1}. Po příletu budeš informován.,,
+flight.initiated,Nastaven kurz na cíl: {0}. Vzdálenost: {1}. Po příletu budeš informován.,,
 flight.no.bridge.controls,Ovládací prvky můstku nejsou připojeny nebo nejsou napájeny. Motory nefungují.,,
 floor,Podlaha,,
 font.scale,Velikost písma: {0:0.##}x,,
@@ -1159,8 +1159,7 @@ goal.BuildStorage,Postav si skladovací jednotku,,
 goal.BuildStorage.desc,Bylo by dobré mít kam uložit všechny ty hromady surovin. Mohli bychom k tomu postavit skladovací jednotku.,,
 goal.completed,Dokončeno: {0},,
 goal.ConnectIslands,Propojení sekcí lodi,,
-goal.ConnectIslands.desc,"Měli bychom postavit mosty, které spojí vzdálené části trosek do jednoho kusu. Menší sekce mohou být dekonstruovány pro extrakci surovin. Další podrobnosti o odpojených kouscích trosek najdete v nabídkách vpravo nahoře.<br><br>Tip: Podržte <b>CTRL</b>, chcete-li při stavbě podlaží přetáhnout
-rovnou čáru.",,
+goal.ConnectIslands.desc,"Měli bychom postavit mosty, které spojí vzdálené sekce trosek do jednoho celku. Menší sekce lze rozebrat a získat z nich suroviny. Další podrobnosti o oddělených částech trosek najdeš ve vrstvě Sekce vpravo nahoře.<br><br>Tip: Podržením klávesy <b>CTRL</b> při stavbě podlah natáhneš rovnou linii.",,
 goal.DisassembleBreachCapsule,Rozebrání kapsle,,
 goal.EnsureShipCPUVentilation,Zajištění odvětrávání palubního počítače,,
 goal.EnsureShipCPUVentilation.desc,<b>Palubní počítač</b> vydává teplo. Části podlahy můžeš nahradit <b>rámy</b> s ventilačními otvory nebo postavit další <b>chladiče</b>.,2024-10-16,
@@ -1179,7 +1178,7 @@ goal.StartExpedition.desc,Jsme poblíž planety. Použij <b>Raketoplán</b> a po
 goal.StartResearch,Zahájení výzkumného úkolu,,
 goal.StartResearch.desc,"Neprovádíš žádný výzkum. Doporučuji mít nějaký výzkum aktivní, kdykoli je to možné. Budeš muset postavit více úložných a paměťových modulů a přidat více energie do elektrické sítě, abys mohl zkoumat pokročilejší technologie.",,
 goal.StasisALS,Pokročilá podpora života ve stázi,,
-goal.StasisALS.desc,"Vyber <b>Stázové pole</b> a pomocí položky nabídky <b>Kryostabilita</b> vyhledej a povol <b>Pokročilá životní podpora</b>.<br><br>To spotřebovává značné množství elektřiny, ale zlepší to <b>kryostabilitu</b> a budeme mít větší kontrolu nad rychlostí probuzení kolonistů.",,
+goal.StasisALS.desc,"Vyber <b>stázový modul</b> a pomocí položky nabídky <b>Kryostabilita</b> vyhledej a povol <b>Pokročilá životní podpora</b>.<br><br>To spotřebovává značné množství elektřiny, ale zlepší to <b>kryostabilitu</b> a budeme mít větší kontrolu nad rychlostí probuzení kolonistů.",,
 goals,Návrhy,,
 goals.completed,Dokončené návrhy,,
 goals.pending,Aktivní návrhy,,
@@ -1196,7 +1195,7 @@ had.a.workout,Měl trénink,,
 harvest,Sklidit,,
 harvest.now,Sklidit nyní,,
 harvest.priority,Priorita Sklizně,,
-harvest.priority.help,"Jak pravděpodobné je, že bytosti budou mít tendenci rostlinu sklízet, až vyroste. 0 znemožní sklizeň a 9 je nejvyšší prioritou.",,
+harvest.priority.help,"Určuje, s jakou prioritou budou bytosti sklízet vzrostlou rostlinu. 0 sklizeň vypne, 5 je nejvyšší priorita.",,
 harvested,Sklizeno,,
 harvesting.now.bar,Sklizeň: {0},,
 haul,Přepravit,,
@@ -1214,7 +1213,7 @@ heading,Záhlaví,,
 health,Zdravotní stav,,
 health.bar.info,Zdraví: {0}/{1},,
 health.percent,Zdraví: {0:0}%,,
-heat.at,Teplota při {0}: {1},,
+heat.at,Teplota na pozici {0}: {1},,
 heat.producer,Produkuje teplo,,
 heat.producer.tip,"Teplo vzniká pouze tehdy, když je zařízení aktivní (spotřebovává nebo vyrábí elektřinu). Zařízení uchovávej venku nebo zvaž zabudování chladičů k odvádění tepla.",,
 heat.production.rate,Rychlost ohřevu,,
@@ -1386,7 +1385,7 @@ install,Instalace,,
 install.upgrade,Instalace Vylepšení,,
 installable,Instalovatelné,,
 installable.upgrade,Instalovatelný Vylepšení,,
-insulation.at,Izolace na {0}: {1},,
+insulation.at,Izolace na pozici {0}: {1},,
 invert.scroll.tip,Invertuje směr posouvání kolečka myši.,,
 invincible.pets,Nepřemožitelná zvířata,,
 is.being.petted,Byl pohlazen,,"as in ""this cat is being petted right now"""
@@ -1588,7 +1587,7 @@ menu.devices.desc,Různá zařízení,,
 menu.dirt,Špína,,
 menu.dirt.desc,Vytvořit skvrny špíny,,
 menu.doors,Dveře,,
-menu.doors.desc,Dveře a přechodové komory,,
+menu.doors.desc,Dveře a vzduchotěsné dveře,,
 menu.eggs,Vejce,,
 menu.eggs.desc,Vytvořit vejce,,
 menu.elysium,Elysium,,
@@ -1701,8 +1700,8 @@ meteor.shower.avoided,Skvělé zprávy pro všechny. Vyhnuli jsme se meteorické
 mining.currency,Těžba {0},,
 mining.orders,Těžební příkazy,,
 missing,Chybí,,
-missing.airlock,Chybějící přechodová komora,,
-missing.airlock.desc,"Tvá loď by měla mít alespoň jeden přechodový uzávěr na vnější stěně, aby byl zajištěn přístup do volného prostoru.",,
+missing.airlock,Chybějící vzduchotěsné dveře,,
+missing.airlock.desc,"Tvá loď by měla mít alespoň jedny vzduchotěsné dveře na vnější stěně, aby byl zajištěn přístup do volného prostoru.",,
 ml.booth.bar,Školení {0}: {1:0.00},,"{0} will be skill name, {1:0.00} will show the level with fraction. Example: ""Training Construction: 3.45"""
 mod.disabled,Modifikace Vypnuty,,
 mod.enabled,Modifikace Zapnuty,,
@@ -1728,8 +1727,8 @@ month,Měsíc,,
 mood,Nálada,,
 mood.trend,Trend nálady: {0},,
 move.near.pos,Přesun poblíž {0},,
-move.to.obj,Přesun na {0},,
-move.to.pos,Přesunout na {0},,
+move.to.obj,Přesun k cíli: {0},,
+move.to.pos,Přesunout na pozici {0},,
 multiple.nodes,Více uzlů,,
 multiple.selection,Více {0},,
 my.birthday,Moje narozeniny,,
@@ -1742,12 +1741,12 @@ nav.fail.object.blocked.by.adjacent,Přístup k tomuto objektu je blokován sous
 nav.fail.target.unavailable,Cíl není k dispozici,,
 nav.fail.unreachable.flying,"Létající pracovník nemohl najít cestu k cílovému místu. Zkontroluj, zda jsou dveře napájené a nejsou zamčené nebo zda není pracovník zazděn.",,
 nav.fail.unreachable.grounded,"Pozemní pracovník nenašel cestu k cílovému místu. Zkontroluj, zda jsou dveře napájené a odemčené nebo zda není pracovník zazděný.",,
-nav.failed,Navigace k {0} selhala,,
+nav.failed,Navigace k cíli {0} selhala,,
 nav.flying,Schopnost létat,,
 nav.grounded,Pozemní jednotka (vyžaduje podlahu),,
 nav.immobilized,Znehybněný,,
-nav.moving,Přesouvá se na {0},,
-nav.waiting,Vypočítává cestu k {0},,
+nav.moving,Přesouvá se k cíli: {0},,
+nav.waiting,Výpočet trasy k cíli: {0},,
 navigation,Navigace,,
 nebula.opt,Kvalita vesmírné mlhoviny,,
 nebula.opt.off,Vypnuto,,
@@ -1794,7 +1793,7 @@ nickname,Přezdívka,,
 no,Ne,,
 no.access.to.starmap,"Pro přístup ke Hvězdné mapě je nutné připojení k zařízení Ovládání můstku. Prozkoumej „Cestování vesmírem“, abys získal plán ovládání můstku.",2022-08-01,
 no.active.combat,Žádný aktivní boj,,
-no.available.teleporter,Není k dispozici žádný teleport,,
+no.available.teleporter,Není k dispozici žádný teleportér,,
 no.blueprints,Žádné plány,,
 no.blueprints.help,"Možnosti tisku budou k dispozici, jakmile budou výzkumem odemčeny plány kompatibilní s tímto zařízením.",,
 no.chair.in.work.spot,Žádná židle na pracovním místě,,
@@ -1845,7 +1844,7 @@ no.terraformable,Žádné teraformovatelné planety,,
 no.terraformable.help,Zatím jsi neobjevil žádnou teraformovatelnou planetu. Postav si teleskop a použij jej ke skenování pozorovatelného vesmíru pro hledání potenciálních teraformačních cílů.,,
 no.toilet,Žádná toaleta,,
 no.upgrade,Žádná modernizace,,"A text placed in Upgrades UI of particular device. It means that it is possible to install upgrade to this slot, but there is no upgrade installed yet."
-no.winch.anchor,Naviják není k dispozici,,
+no.winch.anchor,Navijáková kotva není k dispozici,,
 noisy.crowd,Hlučný dav,,
 non.controllable.worker,Neřízený pracovník,,
 not.achieved.yet,Dosud nedosaženo,,
@@ -1874,7 +1873,7 @@ now.playing,Nyní se přehrává: {0},,"This is about music, {0} will be the son
 now.processing,Zpracování {0} [{1}/{2}],,
 nowhere.to.sleep,Není kde spát,,
 obj.asteroids.asteroid01,Asteroid,,
-obj.asteroids.asteroid01.desc,"Kus skály volně se vznášející v prostoru. Raději se mu vyhýbej, pokud jde o důležité věci.",2026-07-15,
+obj.asteroids.asteroid01.desc,Kus skály volně letící vesmírem. Raději ho drž dál od důležitých částí lodi.,2026-07-15,
 obj.asteroids.asteroidmega01,Mega asteroid,,
 obj.asteroids.meteor01,Meteoroid,,
 obj.asteroids.meteor01.desc,"Není tak hrozný jako asteroid, ale jejich déšť může způsobit vážné škody.",,
@@ -1959,7 +1958,7 @@ obj.materials.protein.desc,Organická surovina s vysokým obsahem bílkovin pou�
 obj.materials.quartz,Křemen,,
 obj.materials.quartz.desc,Běžný minerál používaný k výrobě skla.,,
 obj.materials.rock,Hornina,,
-obj.materials.rock.desc,"Běžný minerální materiál, který lze zapracovat do půdy nebo zpracovat za účelem získání stopových rud a kovů.",2026-07-17,
+obj.materials.rock.desc,"Běžný minerální materiál, který lze rozemlít na zeminu nebo zpracovat na stopové rudy a kovy.",2026-07-17,
 obj.materials.rubber,Guma,,
 obj.materials.rubber.desc,Pružný materiál široce používaný v různých strojích a zařízeních.,,
 obj.materials.silicon,Křemík,,
@@ -1985,7 +1984,7 @@ obj.meals.bread.desc,Chutná jako domov.,,
 obj.meals.soyburger,Sójový hamburger,,
 obj.meals.soyburger.desc,Burger bez masa vyrobený z rostlinných bílkovin.,2026-07-17,
 obj.meals.survivalmeal,Jídlo pro přežití,,
-obj.meals.survivalmeal.desc,Kompaktní krmivo s živočišnými bílkovinami a vyváženým složením.,2026-07-17,
+obj.meals.survivalmeal.desc,Kompaktní potravinový příděl s živočišnými bílkovinami a vyváženým složením.,2026-07-17,
 obj.misc.biowastebullet,kulka z bioodpadu,,
 obj.misc.biowastebullet.desc,"Jedovatá střela, která způsobuje poškození kyselinou.",,
 obj.misc.c42,C42,,
@@ -2011,9 +2010,9 @@ obj.upgrades.diskcompressionupgrade.desc,Zvyšuje úložnou kapacitu kompatibiln
 obj.upgrades.reactorefficiencyupgrade,Vylepšení účinnosti reaktoru,,
 obj.upgrades.reactorefficiencyupgrade.desc,Snižuje spotřebu materiálu v kompatibilních reaktorech.,2026-07-17,
 obj.upgrades.shuttlestorageupgrade,Vylepšení skladování raketoplánů,,
-obj.upgrades.shuttlestorageupgrade.desc,Zvyšuje skladovací kapacitu přepravních vozíků.,2026-07-17,
-obj.upgrades.starcredsminingupgrade,Těžař hvězdných křídel,,
-obj.upgrades.starcredsminingupgrade.desc,Umožňuje těžbu kryptoměny Starcreds v palubním počítači.,,
+obj.upgrades.shuttlestorageupgrade.desc,Zvyšuje skladovací kapacitu raketoplánů.,2026-07-17,
+obj.upgrades.starcredsminingupgrade,Těžař Starcredů,,
+obj.upgrades.starcredsminingupgrade.desc,Umožňuje těžbu kryptoměny Starcredy v palubním počítači.,,
 object.in.unsafe.area,Objekt v nebezpečné oblasti,,
 object.in.unsafe.area.desc,"Tento objekt je určen pro živé bytosti, ale nachází se v nebezpečném prostředí, do kterého se bez skafandru nemusí dostat.<br><br>Při řešení problému použij překryvné vrstvy místností, teploty a kyslíku.",,
 object.no.longer.available,Objekt byl zničen,,
@@ -2093,7 +2092,7 @@ objects.devices.lightblock.desc,Nastavitelný RGB zdroj světla. Vypadá skvěle
 objects.devices.loom,Tkalcovský stav,,
 objects.devices.loom.desc,"Zařízení, které dokáže tkát různé materiály a vyrábět oblečení.",,
 objects.devices.matterreactor,Reaktor na hmotu ({0} kW),,
-objects.devices.matterreactor.desc,Spaluje různé suroviny za účelem výroby elektřiny.,2026-07-04,
+objects.devices.matterreactor.desc,Spaluje různé suroviny a vyrábí z nich elektřinu.,2026-07-04,
 objects.devices.memorymodule,Paměťový modul ({0} EB),,
 objects.devices.memorymodule.desc,Přidá {0} exabajtů paměti (RAM).,2026-07-04,
 objects.devices.memorymodulemini.desc,Poskytuje {0} EB paměti (RAM). Používá se společně s GPU k těžbě kryptoměn.,2024-11-19,
@@ -2116,7 +2115,7 @@ objects.devices.probe.desc,Můžeš vypouštět sondy do vzdálených částí h
 objects.devices.quantumbarrier,Kvantová bariéra,,
 objects.devices.quantumbarrier.desc,Vytváří silné silové pole schopné chránit loď před meteoroidy a asteroidy libovolné velikosti. Vyžaduje dlouhé a nákladné nabíjení mezi jednotlivými použitími.,,
 objects.devices.radar,Radar,,
-objects.devices.radar.desc,Vyhledává suroviny v okolí a automaticky provádí průzkum s cílem odhalit další ložiska.,2026-06-18,
+objects.devices.radar.desc,Vyhledává suroviny v okolí a automaticky provádí hloubkový průzkum dalších ložisek.,2026-06-18,
 objects.devices.radiator,Radiátor,,
 objects.devices.radiator.desc,Pomáhá odvádět teplo a regulovat teplotu v okolí zařízení v uzavřených prostorech.,2026-07-15,
 objects.devices.recycler,Recyklační zařízení,,
@@ -2140,7 +2139,7 @@ objects.devices.solarpanel.desc,Vyrábí elektřinu ze světla hvězd. Nahromad�
 objects.devices.solarpanelarray,Solární panel ({0} kW),,
 objects.devices.stardeuslogo,Logo Stardeus,,
 objects.devices.stardeuslogo.desc,Obrovské logo společnosti Stardeus. Většinou slouží k vytváření plakátů.,,
-objects.devices.stasisarray,Stázové pole,,
+objects.devices.stasisarray,Stázový modul,,
 objects.devices.stasisarray.desc,Udržuje kolonisty v dlouhodobém kryospánku.,2026-07-07,
 objects.devices.stasispod,Stázová kapsle,,
 objects.devices.stasispod.desc,"Přepravní modul pro náklad, zásoby a bytosti v kryospánku.",2026-07-15,
@@ -2177,7 +2176,7 @@ objects.devices.voidripper.desc,Otevírá nestabilní trasy přes černé díry 
 objects.devices.winchanchor,Navijáková kotva,,
 objects.devices.winchanchor.desc,Vytvoří kotevní bod pro spojení částí lodi.,2026-07-15,
 objects.devices.winchhook,Navijákový hák,,
-objects.devices.winchhook.desc,Používá se společně s kotevním navijákem k přiblížení oddělených částí lodi k sobě.,2026-07-15,
+objects.devices.winchhook.desc,Spolupracuje s navijákovou kotvou při přitahování oddělených sekcí lodi k sobě.,2026-07-15,
 objects.furniture.bedsteel,Ocelové lůžko,,
 objects.furniture.bedsteel.desc,Místo pro spaní kolonistů.,,
 objects.furniture.bedsteeldouble,Ocelové dvoulůžko,,
@@ -2231,7 +2230,7 @@ open.emblems.folder,Otevřít složku s emblémy,,
 open.energy.overlay,Zobrazit elektřinu,,
 open.floor.vent,Otevřít podlahový ventilátor,,
 open.in.steam.workshop,Otevřít v dílně páry,,
-open.log.dir,Log Dir,,
+open.log.dir,Složka protokolů,,
 open.research,Otevřít výzkum,,
 open.resources.overlay,Zobrazit zdroje,,
 open.sections.overlay,Výstavní sekce,,
@@ -2255,7 +2254,7 @@ order.repair,Objednat opravu,,
 order.rescue,Objednat záchranu,,
 order.strip,Order roztrhání,,"Label on a button that orders stripping clothing or equipment (weapons, space suit, etc) off a dead body"
 ore.depleted,Vyčerpaná ruda,,
-ore.depleted.info,Těžba byla pozastavena na {0}. Ložisko {1} bylo zcela vyčerpáno.,,
+ore.depleted.info,Těžba na objektu {0} byla přerušena. Ložisko {1} bylo zcela vyčerpáno.,,
 our.valuables,Naše cennosti,,
 our.wallet,Naše peněženka,,
 overlay.tip.Aesthetics,Estetika,,
@@ -2270,7 +2269,7 @@ overlay.tip.Expedition,Expedice,,
 overlay.tip.Goals,Cíle,,
 overlay.tip.Heat,Teplota,,
 overlay.tip.Insulation,Izolace,,
-overlay.tip.Islands,Izolované části,,
+overlay.tip.Islands,Sekce,,
 overlay.tip.Oxygen,Kyslík,,
 overlay.tip.Pathfinding,Obtížnost chůze,,
 overlay.tip.Plan,Plánování,,
@@ -2286,7 +2285,7 @@ owned,Vlastněné stránky,,Adjective telling that an object belongs to someone
 owned.by.faction,Vlastněná jinou frakcí,,
 owned.by.faction.details,Tento objekt je ve vlastnictví jiné frakce. Provedení určitých akcí může ovlivnit tvůj vztah s vlastníkem.<br><br>Obchodování zlepší tvůj vztah. Těžba zdrojů na planetě vlastněné jinou frakcí sníží tvůj vztah v závislosti na hodnotě vytěžené suroviny.,,
 oxygen,Kyslík,,
-oxygen.at,Kyslík na {0}: {1},,"This will display coordinate in {0} and percentage in {1}. Example: ""Oxygen at [12:34]: 21%"""
+oxygen.at,Kyslík na pozici {0}: {1},,"This will display coordinate in {0} and percentage in {1}. Example: ""Oxygen at [12:34]: 21%"""
 oxygen.level,Úroveň kyslíku,,
 pan.sens.tip,"Upravuje rychlost otáčení kamery ve hře, včetně výzkumného stromu a hvězdné mapy.",,
 pan.sensitivity,Citlivost panorámování: {0:0.0},,
@@ -2296,7 +2295,7 @@ paste.color.hex,Vložit barvu: {0},,
 paste.from.clipboard,Vložit ze schránky,,
 path.at,{0} je „{1}“ [Obtížnost: {2}],,"{0} is position, {1} is type of path (""walkable"", ""flyable"", etc), {2} is perecntage. Example: ""[12:31] is ""Walkable"" [Difficulty: 10%]"""
 path.at.impassable,{0} je „Neprojde“,,
-path.flyable,Flyable,,
+path.flyable,Průletné,,
 path.not.passable,Není průchozí,,
 path.walkable,Schůdný,,
 pause.on.cam.motion,Pozastavení pohybu kamery,,
@@ -2349,7 +2348,7 @@ process.Ore,Zpracovat rudu,,
 process.ScrapMetal,Kovový šrot,,
 process.Waste,Biologický odpad,,
 processable,Zpracovatelný,,
-processed.in,Zpracováno v {0},,"{0} will be a device name, example: ""Processed in Nutrient Extractor"""
+processed.in,Zpracováno v zařízení: {0},,"{0} will be a device name, example: ""Processed in Nutrient Extractor"""
 processing.bar,Zpracování: {0},,
 processing.output,Výstup zpracování:,,
 processing.priority,Priorita zpracování,,
@@ -2370,21 +2369,21 @@ quest.active,<b>Aktivní úkol</b>,,Used as a list header for this quest type
 quest.ColonizePlanet,Kolonizace planety,,
 quest.ColonizePlanet.desc,Musíme kolonizovat obyvatelnou planetu.,,
 quest.completed,<b>Hotové úkoly: {0}</b><br><br>{1},,
-quest.ConnectToStasisArray,Připojení ke stázovému poli,,
-quest.ConnectToStasisArray.connectors.tip,"Dosah elektrické sítě můžeš rozšířit zapojením několika <b>konektorů</b>. Postav a připoj dostatek konektorů, abys dosáhl na <b>stázové pole</b>.",,
-quest.ConnectToStasisArray.desc,"Musíme rozšířit naši elektrickou síť, abychom dosáhli na <b>stázové pole</b> a připojili se k němu. To nám umožní kontrolu nad jeho systémy podpory života a zajistí produkci kyslíku a tepla v jeho okolí.",,
-quest.ConnectToStasisArray.merge.islands,Zajištění cesty na <b>stázové pole</b>,,
-quest.ConnectToStasisArray.merge.islands.tip,"Sloučit části lodi obsahující <b>palubní počítač</b> a <b>stázové pole</b> dohromady.<br><br>Můžeš použít <b>navijákovou kotvu s hákem</b> nebo postavit podlahu od <b>palubního počítače</b> ke <b>stázovému poli</b>.<br><br>Ujisti se, že cesta je průchozí i pro <b>pozemní roboty</b>, kteří neumějí létat.",2022-09-21,
-quest.ConnectToStasisArray.reel.in,Přitáhnout <b>stázové pole</b>,,
-quest.ConnectToStasisArray.reel.in.tip,Vyber <b>navijákový hák</b> a pomocí možnosti <b>Navíjet</b> přitáhni sekci se <b>stázovým polem</b> k sekci s <b>palubním počítačem</b>.,,
+quest.ConnectToStasisArray,Připojení ke stázovému modulu,,
+quest.ConnectToStasisArray.connectors.tip,"Dosah elektrické sítě můžeš rozšířit zapojením několika <b>konektorů</b>. Postav a připoj dostatek konektorů, abys dosáhl na <b>stázový modul</b>.",,
+quest.ConnectToStasisArray.desc,"Musíme rozšířit naši elektrickou síť, abychom dosáhli na <b>stázový modul</b> a připojili se k němu. To nám umožní kontrolu nad jeho systémy podpory života a zajistí produkci kyslíku a tepla v jeho okolí.",,
+quest.ConnectToStasisArray.merge.islands,Zajištění cesty ke <b>stázovému modulu</b>,,
+quest.ConnectToStasisArray.merge.islands.tip,"Sloučit části lodi obsahující <b>palubní počítač</b> a <b>stázový modul</b> dohromady.<br><br>Můžeš použít <b>naviják</b> nebo postavit podlahu od <b>palubního počítače</b> ke <b>stázovému modulu</b>.<br><br>Ujisti se, že cesta je průchozí i pro <b>pozemní roboty</b>, kteří neumějí létat.",2022-09-21,
+quest.ConnectToStasisArray.reel.in,Přitáhnout <b>stázový modul</b>,,
+quest.ConnectToStasisArray.reel.in.tip,Vyber <b>navijákový hák</b> a pomocí možnosti <b>Navíjet</b> přitáhni sekci se <b>stázovým modulem</b> k sekci s <b>palubním počítačem</b>.,,
 quest.ConnectToSurvivorArea,Připojení k oblasti pro přeživší,2022-09-21,"When you start the game, there is a small room with survivors. You as a ship computer have to connect your electric grid to the network inside that room."
 quest.ConnectToSurvivorArea.connectors.tip,"Postav a připoj dostatek konektorů, abys dosáhl na <b>podlahovou zásuvku</b> v <b>oblasti přeživších</b>.",,
 quest.ConnectToSurvivorArea.desc,Musíme <b>sloučit naši elektrickou síť</b> s tou <b>v oblasti přeživších</b>. To nám umožní převzít kontrolu nad jejich zařízeními.,,
 quest.ConnectToSurvivorArea.floor.socket,Připojení k <b>podlahové zásuvce</b>,,
 quest.ConnectToSurvivorArea.floor.socket.tip,Propoj elektrickou síť propojením <b>podlahové zásuvky</b> v <b>oblasti přeživších</b> s vlastní <b>elektrickou sítí</b>.,,
 quest.details,Podrobnosti,,"Displayed on a small button, should be short"
-quest.EncloseStasisArray,Uzavření stázového pole,,
-quest.EncloseStasisArray.desc,"Aby byla zajištěna bezpečnost kolonistů, musí být oblast kolem <b>stázového pole</b> zcela uzavřena, <b>hermeticky utěsněna</b> a <b>izolována</b>.",,
+quest.EncloseStasisArray,Natlakování stázového modulu,,
+quest.EncloseStasisArray.desc,"Aby byla zajištěna bezpečnost kolonistů, musí být oblast kolem <b>stázového modulu</b> zcela uzavřena, <b>hermeticky utěsněna</b> a <b>izolována</b>.",,
 quest.EstablishFoodProduction,Zavedení výroby potravin,,
 quest.EstablishFoodProduction.desc,"Naše zásoby potravin se tenčí. Přeživší si mohou vařit sami, ale musíme jim poskytnout potřebné zázemí.",,
 quest.FindHabitablePlanet,Najít obyvatelnou planetu,,
@@ -2398,8 +2397,8 @@ quest.MakeShipFlightReady.desc,"Musíme obnovit schopnost lodi provádět vesmí
 quest.MakeShipFlightReady.thruster.tip,"Pokud budeme mít štěstí, bude někde v troskách alespoň jedna opravitelná <b>tryska</b>. Pokud ne, budeme muset provést výzkum k získání plánu.",,
 quest.new,Nový úkol: <b>{0}</b><br><br>{1}<br><br>{2},,"{0} will be quest title (i.e. ""Defeat the dragon""). {1} will be a long description, {2} will be a list of rewards"
 quest.no.active,Žádný aktivní úkol,,
-quest.no.active.many.available.tip,"K dispozici je <b>{0} dostupných úkolů</b>: {1}<br>Nastav úkol jako <b>aktivní</b>, abys mohl sledovat jeho průběh.",,{0} is a number (2 or greater). {1} will be the list of quest names
-quest.no.active.one.available.tip,"K dispozici je <b>jeden úkol</b>: {0}<br>Nastav úkol jako <b>aktivní</b>, abys mohl sledovat jeho průběh.",,{0} is the quest name
+quest.no.active.many.available.tip,"K dispozici je <b>{0} úkolů</b>: {1}<br>Nastav úkol jako <b>aktivní</b>, abys mohl sledovat jeho postup.",,{0} is a number (2 or greater). {1} will be the list of quest names
+quest.no.active.one.available.tip,"K dispozici je <b>jeden úkol</b>: {0}<br>Nastav úkol jako <b>aktivní</b>, abys mohl sledovat jeho postup.",,{0} is the quest name
 quest.pause,Pauza,,"Deactivates the quest, or stops following it. Should be short text, displayed on a fairly small button"
 quest.ProvideChargeStation,Nabíjecí stanice,,
 quest.ProvideChargeStation.build.connector.tip,Všechna zařízení musí být připojena prostřednictvím sítě <b>konektorů</b>. Postav konektor a pomocí nástroje <b>Připojit</b> jej propoj s <b>palubním počítačem</b> a poté s <b>reaktorem na hmotu</b>.,,
@@ -2462,7 +2461,7 @@ quests.list.available,Dostupné úkoly,2022-09-21,Used as a list header for this
 quests.list.completed,Dokončené úkoly,2022-09-21,Used as a list header for this quest type
 quests.list.failed,Neúspěšné úkoly,2022-09-21,Used as a list header for this quest type
 radar,Radar,,
-radar.not.available,Radar není v současné době k dispozici,,
+radar.not.available,Radar momentálně není k dispozici,,
 raid,Nájezd,,
 raid.avoided,Skvělé zprávy pro všechny. Vyhnuli jsme se nájezdníkům!,,
 random.color,Náhodná barva,,
@@ -2480,7 +2479,7 @@ reel.in,Navíjet,,
 refill,Doplnit,,
 refill.pet.bowl,Doplnit misku pro domácí zvířata,,
 refill.priority,Priorita doplňování,,
-refill.priority.help,"Priorita doplňování určuje důležitost automatického doplňování tohoto objektu při vyčerpání zásob. Hodnota 0 zcela zabrání doplnění, zatímco hodnota 9 má nejvyšší prioritu.",,
+refill.priority.help,"Priorita doplňování určuje důležitost automatického doplňování tohoto objektu při vyčerpání zásob. Hodnota 0 zcela zabrání doplnění, zatímco hodnota 5 má nejvyšší prioritu.",,
 refocus,Přeorientovat,,Used on a button that finds your space ship in the starmap. It focuses the camera on your ship. Also used in Researc Tree to quickly find and focus the camera on the technology that you are currently researching. Should be short.
 refresh,Obnovit,,Verb. Used on a button that refreshes some list of items. Should be short.
 refridgerator,Chladnička,,
@@ -2544,7 +2543,7 @@ research.drone,Létající dron,,
 research.economy,Ekonomika,,
 research.economy.desc,Odemkne funkci ekonomického přehledu.,,
 research.elysium,Elysium,,
-research.elysium.desc,Umožňuje přeměnit stázové pole na Elysium.,,
+research.elysium.desc,Umožňuje přeměnit stázový modul na Elysium.,,
 research.elysiumefficiency,Účinnost Elysia,,
 research.elysiumelectricity,Výroba elektřiny v Elysiu,,
 research.emblems,Emblémy,,
@@ -2607,7 +2606,7 @@ research.smelting,Tavení,,
 research.solaradvanced,Pokročilá solární technologie,,
 research.spacesuit,Vesmírný oblek,,
 research.spacetravel,Cestování do vesmíru,,
-research.starcredsmining,Těžba Starcreds,,
+research.starcredsmining,Těžba Starcredů,,
 research.start,Zahájení výzkumu,,
 research.stockinsights,Poznatky o akciovém trhu,,
 research.stockinsights.desc,Odemkne další podrobnosti o nástrojích akciového trhu.,,
@@ -2636,8 +2635,8 @@ researching,Zkoumání: {0},,
 researching.pct,Výzkum: {0} ({1}),,
 reservations,Rezervace,,
 reserved.by,Rezervováno,,"This is a label next to a worker name who has reserved some resource - a pile of steel or an equipment item, etc."
-reserved.by.detailed,Rezervováno u {0},,{0} is a being name
-reserved.for,Vyhrazeno na {0},,"{0} is time. Example: ""Reserved for 18h 12m"""
+reserved.by.detailed,Rezervováno subjektem: {0},,{0} is a being name
+reserved.for,Vyhrazeno pro: {0},,"{0} is time. Example: ""Reserved for 18h 12m"""
 reset,Reset,,
 reset.input.bindings.tip,Obnoví všechny vstupní vazby na výchozí hodnoty.,,
 reset.tips,Tipy pro resetování,,
@@ -2746,7 +2745,7 @@ settings.not.applied,Nastavení se nepoužije,,
 settings.not.applied.info,"Zavřel jsi panel nastavení, aniž bys provedl nějaké změny. Chceš je nyní použít?",,
 settle.in,Kolonizovat {0},,
 settle.in.combat,Během boje se nelze usadit,,
-settle.in.confirm,"To je ono. Chystáš se splnit svůj účel jako palubní počítač. Prosím potvrď záměr usadit své lidské kolonisty dne {0}.<br><br>Tato akce odstraní stázové pole a většinu tvých kolonistů, kromě těch, kteří se rozhodnou zůstat a pokračovat v průzkumu vesmíru.",,
+settle.in.confirm,"To je ono. Chystáš se splnit svůj účel jako palubní počítač. Potvrď prosím záměr usadit své lidské kolonisty na planetě {0}.<br><br>Tato akce odstraní stázový modul a většinu tvých kolonistů, kromě těch, kteří se rozhodnou zůstat a pokračovat v průzkumu vesmíru.",,
 settle.in.expeditions,Během expedice se nelze usadit,,
 settled.in,Kolonizované {0},,
 settling.in,Kolonizace {0},,
@@ -2865,10 +2864,10 @@ slept.in.bed,Spánek v posteli,,
 slept.in.familiar.bed,Spal ve známé posteli,,
 slept.in.unfamiliar.bed,Spal v neznámé posteli,,
 slept.too.short,Spánek byl příliš krátký,,
-slog.expedition,Expedice do {0},,
+slog.expedition,Expedice k cíli: {0},,
 slog.identify,Identifikováno {0},,"{0} will be the space object name, i.e. a planet name or a space ship name, etc."
 slog.leave,Odchod {0},,
-slog.trade,Obchod s {0},,{0} will be merchant details
+slog.trade,Obchod: {0},,{0} will be merchant details
 slog.visit,Návštěva {0},,
 smelt.ore,Tavená ruda,,
 smelting.bar,Tavení {0},,
@@ -2877,7 +2876,7 @@ smooth.drag.tip,"Ovládá režim přetahování myší. Při zapnutí bude plynu
 so.identified,Identifikováno: {0},,
 so.not.identified,Neidentifikováno,,
 so.not.identified.info,"Tento prostorový objekt nebyl identifikován. Musíš se k němu přiblížit, abys o něm získal více informací.",,
-socialized.with,Stýká se s {0},,
+socialized.with,Rozhovor s: {0},,
 socializing,Socializace,,
 soft.cursor.tip,"Pokud tvůj software pro snímání hry nezaznamenává hardwarový kurzor, můžeš při nahrávání herních videí povolit softwarový kurzor.",,
 soiled.themselves,Znečištěný,,
@@ -2893,7 +2892,7 @@ soundtrack,Soundtrack,,
 space.diarrhea.ongoing,Probíhající vesmírný průjem,,
 space.object.BlackHole,Černá díra,,
 space.object.Galaxy,Galaxie,,
-space.object.info.BlackHole,"Jedná se o černou díru. Každá galaxie ji má ve svém středu. Až bude objevena dostatečná technologie, možná budeme moci černou díru využít k cestování.",,
+space.object.info.BlackHole,"Toto je černá díra. Každá galaxie má jednu ve svém středu. Jakmile objevíme potřebnou technologii, možná ji dokážeme využít k cestování.",,
 space.object.info.Galaxy,Toto je galaxie. Můžeme do ní vstoupit a prohlédnout si hvězdné systémy uvnitř.,,
 space.object.info.Planet,Toto je planeta. Můžeme ji prozkoumat.,,
 space.object.info.Player,Toto je naše loď.,,
@@ -2933,12 +2932,12 @@ starmap.changing.scope,Rozsah hvězdné mapy<br><size=200%>{0}</size>,,
 starmap.enter.dest.not.null,"Provoz není možný. Máme aktivní destinaci. Abychom změnili rozsah ve hvězdné mapě, musíme dokončit nebo zrušit naši současnou cestu.",,
 start.mining,Začni těžit,,Label on a button that starts mining a cryptocurrency
 start.tutorial,Spusť výukový program,,
-starting.expedition,"Zahajování expedice do {0}. Raketoplán odstartuje, jakmile na něj nastoupí členové posádky. Průběh expedice můžeš sledovat v nabídce Expedice vpravo nahoře.",,
+starting.expedition,"Zahajování expedice k cíli: {0}. Raketoplán odstartuje, jakmile na něj nastoupí členové posádky. Průběh expedice můžeš sledovat ve vrstvě Expedice vpravo nahoře.",,
 stasis.elysium,Elysium,,
-stasis.pod.flying.info,"Toto je stázový modul. Než s ním budeš moci komunikovat, musíš počkat, až přistane a vysune svůj obsah.",,
-stasis.pod.incoming,Příchozí stázový modul,,
-stasis.pod.landed.info,Tento stázový modul právě přistál. Jeho obsah bude vyhozen po dokončení sekvence ochlazení.,,
-stasis.pod.merchant.prompt,Stázový modul patří nezávislému obchodníkovi {0}. Nabízí ti výměnu. Chceš si vyměnit nějaké zboží?,,
+stasis.pod.flying.info,"Toto je stázová kapsle. Než s ní budeš moci komunikovat, musíš počkat, až přistane a vysune svůj obsah.",,
+stasis.pod.incoming,Příchozí stázová kapsle,,
+stasis.pod.landed.info,Tato stázová kapsle právě přistála. Její obsah bude vyhozen po dokončení sekvence ochlazení.,,
+stasis.pod.merchant.prompt,Stázová kapsle patří nezávislému obchodníkovi {0}. Nabízí ti výměnu. Chceš si vyměnit nějaké zboží?,,
 stock.market,Trh s cennými papíry,,
 stock.market.research.required,Pro aktivaci této funkce je nutný výzkum „Burzy“.,,
 stock.ownership.All,Všechny,,
@@ -2969,29 +2968,29 @@ storage.unavailable,Bez úložné jednotky,,
 storage.unavailable.desc,Položky ({0}) ve tvém výběru nemají k dispozici kompatibilní sklad. Nejprve postav sklad a zkus akci přijmout znovu.,,
 store.materials,Skladování materiálů,,
 story.leaving_earth.intro.1,Nahrávání neuronové sítě pro hostitele. Zakázání I/O pro snížení počátečního šoku. <br><br>Povolení vizuálního vstupu za 3… 2… 1…,2022-03-31,
-story.leaving_earth.intro.2,"Zdravím tě, kolonisto. Jsem {0}, umělá inteligence, která byla pověřena stavbou této lodi. Tento úkol je však pro mé programování příliš obtížný, a proto jsem se rozhodla nahrát do své neuronové sítě lidského kolonistu. Byl jsi vybrán náhodně. Omlouvám se za nepříjemnosti.",2026-08-27,{0} is the ship computer's name
+story.leaving_earth.intro.2,"Zdravím tě, kolonisto. Jsem {0}, umělá inteligence pověřená stavbou této lodi. Tento úkol však přesahuje možnosti mého programování, proto padlo rozhodnutí nahrát do mé neuronové sítě lidského kolonistu. Výběr proběhl náhodně. Omlouvám se za nepříjemnosti.",2026-08-27,{0} is the ship computer's name
 story.leaving_earth.intro.3,"Toto je <nobr><b>palubní počítač</b></nobr>, který hostí naši neuronovou síť. Pokus se toto zařízení za každou cenu uchovat, pokud neporušuje Asimovův první zákon.<br><i>[ Robot nesmí zranit lidskou bytost nebo svou nečinností dovolit lidské bytosti ublížit. ]</i>",,
-story.leaving_earth.intro.4,"Ve <nobr><b>stázovém poli</b></nobr> hibernuje {0} přeživších. Musíme jej připojit k naší elektrické síti a dodávat dostatek energie, aby udržely systémy podpory života stabilní. Špatně fungující moduly způsobí předčasné probuzení. Abychom minimalizovali možné oběti, musíme kolem těchto oblastí vybudovat ekosystém.",,
+story.leaving_earth.intro.4,"Ve <nobr><b>stázovém modulu</b></nobr> hibernuje {0} přeživších. Musíme jej připojit k naší elektrické síti a dodávat dostatek energie, aby udržely systémy podpory života stabilní. Špatně fungující kapsle způsobí předčasné probuzení. Abychom minimalizovali možné oběti, musíme kolem těchto oblastí vybudovat ekosystém.",,
 story.leaving_earth.intro.5,Občas navrhnu rozumné kroky v závislosti na okolnostech. Nyní máš plnou kontrolu. Hodně štěstí!,,
-story.leaving_earth.loading,"Země zahynula. Jsi pokročilá AI zodpovědná za stavbu a provoz „{0}“, uniklého plavidla, které bude hledat obyvatelnou planetu.",,
-story.leaving_earth.loading_side,"Generování scénáře. Prosím, čekej…",,
+story.leaving_earth.loading,"Země zahynula. Jsi pokročilá AI zodpovědná za stavbu a provoz „{0}“, vesmírné archy, která bude hledat obyvatelnou planetu.",,
+story.leaving_earth.loading_side,Generování scénáře. Čekej prosím…,,
 story.leaving_earth.loading_side_att,Generování scénáře. Pokus {0}…,,{0} will be a number: 2 or greater
-story.leaving_earth.log.desc,"Dostala jsem za úkol postavit loď, která dokáže cestovat na velké vzdálenosti a přitom udržet lidi ve spánku ve stázovém poli. Máme dostatek surovin připravených k použití; měl bys to zvládnout levou zadní.",,
+story.leaving_earth.log.desc,"Mým úkolem je postavit loď, která dokáže cestovat na velké vzdálenosti a udržet přitom lidi ve spánku ve stázových modulech. Máme dostatek připravených surovin; měla by to být hračka.",,
 story.leaving_earth.log.title,Zahájena stavba lodi,,
 story.ship.cpu.destroyed.desc,Palubní počítač byl zničen. Ztratili jsme veškerou naději.,,
 story.ship.cpu.destroyed.title,Palubní počítač byl zničen,,
 story.wreck_empty_ship.intro.1,Nahrávání neuronové sítě na hostitele. Deaktivace I/O pro snížení počátečního šoku.<br><br>Povolení vizuálního vstupu za 3… 2… 1…,2022-03-31,
-story.wreck_empty_ship.intro.2,"Zdravím tě, kolonisto. Jsem {0}, umělá inteligence, která byla pověřena stavbou této lodi. Tento úkol je však pro mé programování příliš obtížný, a proto jsem se rozhodla nahrát do své neuronové sítě lidského kolonistu. Byl jsi vybrán náhodně. Omlouvám se za nepříjemnosti.",2026-08-27,{0} is ship computer's name
+story.wreck_empty_ship.intro.2,"Zdravím tě, kolonisto. Jsem {0}, umělá inteligence, která ovládá tuto loď. Došlo ke katastrofálnímu selhání, které spustilo nahrání lidského vědomí. Byl jsi vybrán jako nejkompatibilnější přeživší subjekt. Omlouvám se za nepříjemnosti.",2026-08-27,{0} is ship computer's name
 story.wreck_empty_ship.intro.3,"Toto je <nobr><b>palubní počítač</b></nobr>, který hostí naši neuronovou síť. Pokus se toto zařízení za každou cenu uchovat, pokud neporušuje Asimovův první zákon.<br><i>[ Robot nesmí zranit lidskou bytost nebo svou nečinností dovolit lidské bytosti ublížit. ]</i>",,
 story.wreck_empty_ship.intro.4,"Vypadá to, že se někomu podařilo přežít. Měli bychom dávat pozor na tyto kolonisty. Oprava a přemístění některých zařízení do této oblasti by je mohlo udržet naživu déle.",2022-02-28,
-story.wreck_empty_ship.intro.5,"Ve <nobr><b>stázovém poli</b></nobr> hibernuje {0} přeživších. Musíme jej připojit k naší elektrické síti a dodávat dostatek energie, aby udržely systémy podpory života stabilní.<br><br> Špatně fungující moduly způsobí předčasné probuzení. Abychom minimalizovali možné oběti, musíme kolem těchto oblastí vybudovat ekosystém.",2022-02-28,
+story.wreck_empty_ship.intro.5,"Ve <nobr><b>stázovém modulu</b></nobr> hibernuje dalších {0} přeživších, ale systémy podpory života se stanou nestabilními, pokud neobnovíme napájení.<br><br>Špatně fungující kapsle způsobí předčasné probuzení. Abychom minimalizovali oběti, musíme v této oblasti znovu vybudovat ekosystém.",2022-02-28,
 story.wreck_empty_ship.intro.6,Tento <b>raketoplán</b> můžeme využít pro těžební výpravy. Umožnil by nám vybudovat linku na zpracování surovin a vyrábět materiály nezbytné pro opravu naší lodi.,2024-10-04,
 story.wreck_empty_ship.intro.7,"Chtěl bys absolvovat rychlokurz? Pokud jsi hru ještě nehrál, vřele ho doporučuji.",2022-02-28,
-story.wreck_empty_ship.log.desc,"Probudil jsem se, ale ne tak, jak jsem očekával. Vypadá to, že můj mozek byl nahrán do palubního počítače. Operační systém lodi v podstatě nahradil mé fyzické tělo. K tomu všemu se zdá, že v okolí je spousta trosek a většina lodních systémů nefunguje.",,
+story.wreck_empty_ship.log.desc,"Probudil jsem se, ale ne tak, jak jsem očekával. Vypadá to, že můj mozek byl nahrán do palubního počítače. Operace se zdá být nevratná. Jsem navždy uvězněn v této kovové krabici…",,
 story.wreck_empty_ship.log.title,Probuzení,,
 story.wreck_empty_ship.skip_tutorial.desc,"Nějaká AI mi navrhla, abych absolvoval rychlokurz, ale na všechno přijdu sám. Doufám, že tohoto rozhodnutí nebudu litovat.",,
 story.wreck_empty_ship.skip_tutorial.title,Přeskočený výcvikový program,,
-story.wrecked_empty_ship.loading,"Země zahynula. Přeživší se toulají vesmírem a hledají nový domov. Nacházíš se ve stázi na „{0}“, uniklé lodi vybavené pokročilou AI, která probudí kolonisty poté, co bude na obyvatelné planetě zřízena základna.",,
+story.wrecked_empty_ship.loading,"Země zahynula. Přeživší se toulají vesmírem a hledají nový domov. Nacházíš se ve stázi na „{0}“, vesmírné arše vybavené pokročilou AI, která probudí kolonisty poté, co bude na obyvatelné planetě zřízena základna.",,
 story.wrecked_empty_ship.loading_side,Generování scénáře. Počkej prosím…,,
 story.wrecked_empty_ship.loading_side_att,Generování scénáře. Pokus {0}…,,
 storygen.default,Vyvážený,2021-11-22,
@@ -3076,7 +3075,7 @@ template.too.big,Šablona je příliš velká! Maximální velikost je 16x16,,
 terraform.aqua.bar,Generování oceánů: {0},,
 terraform.atmo.bar,Generování atmosféry: {0},,
 terraform.bio.bar,Generování biosféry: {0},,
-terraform.completed,"Dokončili jsme teraformační operace dne {0}! Planeta je připravena hostit naši lidskou kolonii.<br><br>Až budeš připraven, zahaj proceduru „Kolonizace“ v nabídce Teraformace.",,
+terraform.completed,"Dokončili jsme teraformaci planety {0}! Planeta je připravena hostit naši lidskou kolonii.<br><br>Až budeš připraven, zahaj proceduru „Kolonizace“ v nabídce Teraformace.",,
 terraform.terrain.bar,Generování terénu: {0},,
 terraform.type.Atmosphere,Atmosféra,,
 terraform.type.Biosphere,Biosféra,,
@@ -3202,11 +3201,11 @@ trade.failed,Obchod se nezdařil,,
 trade.merchant.not.enough.cash,Obchodník nemá dostatek peněz na vypořádání této transakce.,,
 trade.modified,"Ne všechny položky byly v době transakce prodejné. Zkus prosím provést transakci se zastaveným časem, aby ses vyhnul změnám položek, které prodáváš.",,
 trade.no.offer,"Chceš-li provést obchod, přidej nějaké položky na výměnu. Pokud nechceš obchodovat, použij tlačítko Zrušit obchod.",,
-trade.no.teleporter,"Tento obchod vyžaduje funkční teleport pro přenos zboží. Vytvoř si prosím jeden nebo se ujisti, že ten, který máš, je napájen, a zkus to znovu.",,
+trade.no.teleporter,"Tento obchod vyžaduje funkční teleportér pro přenos zboží. Postav prosím jeden nebo se ujisti, že je napájený, a zkus to znovu.",,
 trade.not.enough.cash,Nemáš dostatek peněz na vypořádání této transakce.,,
 trade.selling,Naše nabídka,,
-trade.teleporter.required,Je vyžadován teleport,,
-trade.teleporter.required.info,Tento obchod vyžaduje funkční teleport pro přenos zboží.,,
+trade.teleporter.required,Je vyžadován teleportér,,
+trade.teleporter.required.info,Tento obchod vyžaduje funkční teleportér pro přenos zboží.,,
 traffic,Provoz,,"Label on a button that shows a list of space ships flying in a star system at the moment. As in ""car traffic"", or ""space ship traffic"""
 train.skill,Trénovat dovednosti,,
 training.failed,Školení se nezdařilo,,
@@ -3247,7 +3246,7 @@ trait.slow_metabolism.about,Postavy s pomalým metabolismem nemají tak často h
 trait.slow_pooper,Záchodový okupant,,
 trait.slow_pooper.about,"Všichni známe někoho, komu to na záchodě trvá věčnost.",2022-08-04,
 traits,Vlastnosti,,
-transform.at,na {0},,"Will display a coordinate in {0}. Example: ""At [123:12]"""
+transform.at,Na pozici {0},,"Will display a coordinate in {0}. Example: ""At [123:12]"""
 travel.here,Cestovat sem,,
 try.turn.on,Zkusit zapnout,,
 turn.on,Zapnout,,
@@ -3265,7 +3264,7 @@ ui.padding.tip,"Pokud máš ultraširoký monitor nebo nastavení s více monito
 ui.scale,Měřítko uživatelského rozhraní,,
 ui.scroll.invert,Invertovat posouvání uživatelského rozhraní,,
 ui.scroll.speed,Rychlost posouvání uživatelského rozhraní: {0:0.##},,
-unbind,Unbind,,"As in ""unbind a keyboard shortcut"""
+unbind,Zrušit přiřazení,,"As in ""unbind a keyboard shortcut"""
 uncomfortable.temp,Nepohodlná teplota,,
 unconfigured,Nekonfigurováno,,
 undamaged,Nepoškozené,,
@@ -3274,8 +3273,8 @@ undock,Oddokovat,,
 unequip,Odbavit,,
 unfinished.feature,Nedokončená funkce,,
 uninstall,Odinstalovat,,
-units.imperial,Imperial,,
-units.km.millions,M km,,
+units.imperial,Imperiální,,
+units.km.millions,mil. km,,
 units.lightyears,ly,,
 units.lightyears.billions,BLY,,
 units.metric,Metrický,,
@@ -3290,7 +3289,7 @@ unlocked,Odemčený,,For doors. research has a separate key
 unoccupied,Neobsazený,,
 unpowered,Bezmotorový,,
 unreachable.areas,Nedosažitelné místnosti,,
-unreachable.areas.desc,"Chceš-li najít místnosti, které jsou izolované od zbytku tvé lodi, otevři nabídku místností. Postav chybějící dveře mezi místnostmi nebo přidej vzduchový uzávěr na vnější stěnu.",,
+unreachable.areas.desc,"Chceš-li najít místnosti, které jsou izolované od zbytku tvé lodi, otevři vrstvu Místnosti. Postav chybějící dveře mezi místnostmi nebo přidej vzduchotěsné dveře na vnější stěnu.",,
 unreachable.areas.detected,Bylo zjištěno {0} nedosažitelných oblastí,,
 unreachable.required.mat,Nelze dosáhnout požadovaného materiálu,,
 unsafe.oxygen.low,Nebezpečné podmínky: málo kyslíku,,
@@ -3386,7 +3385,7 @@ what.is.this,Co je to?,,
 will.be.petted.soon,Brzy se bude mazlit,,
 willing.to.trade,Ochotni obchodovat,,
 winch.confirm,"Navíjení se pokusí spojit dva úseky. Tato operace je nebezpečná a nevratná. Potvrď, že jsi připraven pokračovat.",,
-winch.error.sections,"Navíjení nemohlo pokračovat. Zkontroluj, zda jsou navijákový hák i kotva navijáku na různých úsecích. Drobné plochy v prostoru se nepovažují za sekce. Další podrobnosti nalezneš v nabídce Úseků.",,
+winch.error.sections,"Navíjení nemohlo pokračovat. Zkontroluj, zda jsou navijákový hák i navijáková kotva na různých sekcích. Drobné plochy v prostoru se nepovažují za sekce. Další podrobnosti najdeš ve vrstvě Sekce.",,
 winch.forbidden,"Navíjení je v současné době zakázáno. Chceš-li zahájit navijákovou operaci, nesmí být v blízkosti aktivní požáry, boj nebo létající objekty (meteoroidy, asteroidy, raketoplány).",,
 winch.obstacle,Pohyb byl po <b>{0}</b> krocích přerušen kvůli kolizi se zařízením nebo s nekonstruovanou podlahou. Můžeš odstranit překážku a operaci zkusit znovu.,2023-05-21,
 worker.assigned,Přidělen pracovník,,
@@ -3413,7 +3412,7 @@ evt.mutiny.desc,Na naší lodi je vzpoura! Někteří kolonisté se stali nepř�
 evt.engine.failure.title,Porucha motoru,,
 evt.engine.failure.desc,Selhání motoru <b>{0}</b>! Palivo vybuchlo a vymrštilo motor.,,
 brain.log.enabled,Zaznamenávat aktivitu mozku,,"Log is a verb here. If this setting is enabled, worker's brain activity will be logged (see ""log"" translation key)"
-debug.log,Debug Log,,Noun
+debug.log,Ladicí protokol,,Noun
 modifier.NoHeavyDisasters,Zakázat velké katastrofy,,
 modifier.NoHeavyDisasters.desc,"Generátor příběhů vynechá katastrofy, které mohou způsobit vážné poškození velkých částí tvé lodi (např. <b>asteroid</b> nebo <b>meteorický roj</b>).",,
 modifier.NoFireSpread,Zakázat šíření ohně,,
@@ -3432,7 +3431,7 @@ research.memorycompression,Komprese paměti,,
 research.entertainment,Zábava,,
 show.hints,Zobrazit nápovědu,2023-03-14,Label for a toggle that disables or enables popups with hints
 story.wreck_empty_ship.intro.8,"Zdá se, že poblíž jsou další trosky. Až obnovíme některé schopnosti <b>pro vesmírné lety</b>, měli bychom se k nim dostat.",,
-units.km.thousands,K km,,
+units.km.thousands,tis. km,,
 game.speed.multiplier,Násobitel<br> rychlosti <b>{0:0.#}×</b>,,"game clock speed multiplier, {0:0.#} may become a number like ""10"", or ""0.5"""
 include.player.log,Přilož soubor Player.log,,
 include.player.log.tip,"Soubor Player.log obsahuje záznamy z posledního spuštění hry. Může být velmi užitečný při zjišťování, co chybu způsobilo.",,
@@ -3457,11 +3456,11 @@ produced.item,Vyrobený výrobek,,Label for the item we are creating / producing
 ingredient,Složení,,Label for the item that is an ingredient in production
 output.multiplier,Výstupní multiplikátor,,"Example: ""Output Multiplier: x5"" - how many items the device will produce in one batch"
 teleporter.designated.for.trade,Určeno pro obchodní účely,,Label on a teleporter that is meant to be a portal for traded goods
-teleporter.designated.for.trade.tip,Tento teleport je určen k obchodním účelům. Veškeré zboží nebo bytosti zakoupené od jiných lodí či planet budou doručeny prostřednictvím tohoto teleportu.,,
+teleporter.designated.for.trade.tip,Tento teleportér je určen k obchodním účelům. Veškeré zboží nebo bytosti zakoupené od jiných lodí či planet budou doručeny prostřednictvím tohoto teleportéru.,,
 teleporter.designate.for.trade,Určit k obchodování,,
 teleporter.designate.for.trade.tip,Označ tento teleportér jako obchodní. Tím se zruší přiřazení jakéhokoli dříve přiřazeného obchodního teleportéru.,,
 trade.unsafe.environment,"Chystáš se zakoupit některé biologické bytosti. Teleportér, který jsi určil pro obchod, se nachází v nebezpečném prostředí. Zakoupené bytosti mohou utrpět okamžitá smrtelná zranění.<br><br> Můžeš přemístit nebo přeřadit teleportér určený pro obchod a zkusit to znovu.",,
-teleporter.designated.unpowered,Teleport určený k obchodování je v současné době odpojen nebo má nedostatek elektřiny.,,
+teleporter.designated.unpowered,Teleportér určený k obchodování je momentálně odpojený nebo má nedostatek elektřiny.,,
 combat.state.DirectControl,Přímé ovládání,,A state when fighter is directly controlled by the player
 direct.control.take,Převezmi přímou kontrolu,,Action to start controlling a worker (or multiple workers)
 direct.control.release,Uvolnění přímého ovládání,,To stop controlling a selected worker or workers
@@ -3485,7 +3484,7 @@ experimental.feature,Experimentální článek,,
 booting.neural.network,Spuštění neuronové sítě,,
 unreachable.mat,Nedostupný materiál,,
 nav.fail.flying.cnt,Počet nedosažených cílů u <b>létajících pracovníků</b>: <b>{0}</b>,,
-nav.fail.grounded.cnt,Počet selhání při navázání spojení s <b>Uzemněným pracovníkem</b>: <b>{0}</b>,,
+nav.fail.grounded.cnt,Počet nedosažených cílů u <b>pozemních pracovníků</b>: <b>{0}</b>,,
 nav.fail.bio.cnt,"<b>Počet biologických jedinců,</b> u nichž se nepodařilo navázat spojení: <b>{0}</b>",,
 disable.story.events.btn,Události v příběhu [{0}],,"{0} will be X/Y, i.e. 80/80. If some event is disabled it will be 79/80"
 disable.story.events.tip,Všechny události příběhu jsou povoleny,,
@@ -3506,7 +3505,7 @@ abandon,Opustit,,"Verb, used on things or parts of ship we want to leave behind 
 objects.devices.precisionthruster,Manévrovací tryska,2023-05-16,
 objects.devices.precisionthruster.desc,Umožňuje přesné manévry na krátkou vzdálenost při přemísťování částí lodi.,2026-07-15,
 research.localmaneuvering,Lokální manévrování,,"Research name that unlocks ""Maneuvering Controller"" technology"
-approaching.target,Blížíme se k {0},,"{0} is the object name or type. I.e. ""Approaching Derelict Ship"""
+approaching.target,Přibližování k cíli: {0},,"{0} is the object name or type. I.e. ""Approaching Derelict Ship"""
 space.object.ShipDerelict,Opuštěná loď,,
 objects.devices.systemscanner,Systémový skener,,
 objects.devices.systemscanner.desc,Výkonnější verze radaru.,2026-06-18,
@@ -3520,7 +3519,7 @@ evt.derelict.approached.title,Přiblížení k opuštěné lodi,,
 evt.derelict.approached.desc,Přiblížili jsme se k opuštěné lodi. Možná se nám podaří zachránit něco užitečného.,,
 research.furnitureluxury,Luxusní nábytek,,
 research.furniturewooden,Dřevěný nábytek,,
-quest.step.approach.derelict.ship,Přibliž se k {0},2026-09-27,Quest step title. {0} is a clickable link to the derelict ship on the starmap (e.g. Derelict Ship)
+quest.step.approach.derelict.ship,Přibliž se k objektu: {0},2026-09-27,Quest step title. {0} is a clickable link to the derelict ship on the starmap (e.g. Derelict Ship)
 quest.step.approach.derelict.ship.tip,Otevři <b>hvězdnou mapu</b> a proveď akci <b>Přiblížení</b> u opuštěné lodi.,,
 quest.ApproachDerelictShip,Přibliž se k opuštěné lodi,,
 quest.ApproachDerelictShip.desc,"Nedaleko se nachází <b>opuštěná loď</b>. Měli bychom se k ní přiblížit a vyzvednout z ní součástky. Mohly by v ní být stopy toho, co se stalo s naší lodí.",,
@@ -3640,7 +3639,7 @@ no.label,Bez štítku,,"For labeling devices, shown when there is no label assig
 set.label,Nastavit popisek,,Title for action to set the label
 label,Štítek,,"As in ""tag"", ""name"". Noun."
 size,Velikost,,Noun.
-offset,Offset,,Vertical or horizontal offset. Noun.
+offset,Posun,,Vertical or horizontal offset. Noun.
 research.labeling,Označování,,
 research.labeling.desc,Odemkne možnost vytvářet vlastní štítky pro zařízení,,
 objects.furniture.sign,Cedule,,"As in ""sign post"""
@@ -3668,7 +3667,7 @@ must.be.indoors.tip,"Toto zařízení nemusí fungovat podle očekávání, poku
 no.build.zone,Zóna bez výstavby,,
 no.build.zone.tip,"V zóně, kde není povolena výstavba, nelze stavět podlahy ani stěny. Prostor musí být volný, aby loď mohla létat.",,
 no.fly.zone,Bezletová zóna,,
-no.fly.zone.tip,"Nelze letět, pokud se v bezletové zóně nachází jakýkoli objekt. To se týká i opuštěných lodí. Než bude tvá loď moci odletět, musíš části nebo lodě v bezletové zóně vytáhnout navijákem, rozebrat nebo opustit. K opuštění sekcí a lodí použij funkci „Izolované části“.",,
+no.fly.zone.tip,"Nelze letět, pokud se v bezletové zóně nachází jakýkoli objekt, včetně opuštěných lodí. Než bude tvá loď moci odletět, musíš části nebo lodě v bezletové zóně přitáhnout navijákem, rozebrat nebo opustit. K opuštění sekcí a lodí použij vrstvu Sekce.",,
 selected.color,Vybraná barva,,
 overlay.tip.Tint,Barva,,verb
 tool.tint,Barva,,verb
@@ -3728,7 +3727,7 @@ space.object.PlanetPOI,Zajímavost,,
 space.object.info.PlanetPOI,"V této oblasti se nachází něco, co stojí za prozkoumání. Můžeš zde vyrazit na výpravu.",,
 space.object.Moon,Měsíc,,
 space.object.info.Moon,"Přirozený satelit, který obíhá kolem planety v důsledku gravitačního působení. Měsíce se liší velikostí, tvarem a složením a mohou vykazovat celou řadu povrchových rysů, různých podmínek a zdrojů.",,
-ore.deposit,Důl na {0},,"{0} will be replaced with ore name, such as Iron"
+ore.deposit,Ložisko: {0},,"{0} will be replaced with ore name, such as Iron"
 mining.difficulty,Obtížnost těžby,,
 mining.difficulty.info,"Jakmile je surovina z ložiska vytěžena, obtížnost těžby v tomto ložisku se zvýší. Vyšší obtížnost sníží výtěžnost těžby. Moderní těžební zařízení může zvýšit výtěžnost ložiska suroviny.",,
 exp.mine.resource.title,Těžba {0} ({1:0.00} za den),,"{0} is resource name (i.e. Iron), {1:0.00} will become a number, like 1.35"
@@ -3737,7 +3736,7 @@ orders,Objednávky,,"noun, as in current orders"
 min.mine.rate,Minimální sazba,,
 min.mine.rate.tip,"Expedice se automaticky ukončí, jakmile těžební rychlost klesne pod tuto hranici",,
 objects.devices.autodrillrig,Automatická vrtná souprava,,
-objects.devices.autodrillrig.desc,"Mobilní automatizované těžební zařízení, které těží suroviny pro jejich pozdější sběr.",2026-07-15,
+objects.devices.autodrillrig.desc,"Rozmístitelná automatická těžební souprava, která vytěží suroviny k pozdějšímu vyzvednutí.",2026-07-15,
 research.miningautomation,Automatizace těžby,,
 quick.search.tip.starmap,"Zadej název vesmírného objektu, který chceš vyhledat.",,
 quick.search.tip.research,"Zadej název výzkumné oblasti nebo zařízení, které chceš vyhledat.",,
@@ -3750,8 +3749,8 @@ deploy,Nasazení,,"Verb, as in deploy the troops"
 temp.storage,Dočasné skladování,,
 known.resource.deposits,Známá ložiska surovin,,
 planet.resource.filter.nearby,Nedaleká ložiska surovin,,
-planet.resource.filter.all.mined,V současné době těžené ložiska,,
-planet.resource.filter.nearby.mined,V současné době těžené ložiska v okolí,,
+planet.resource.filter.all.mined,Aktuálně těžená ložiska,,
+planet.resource.filter.nearby.mined,Aktuálně těžená ložiska v okolí,,
 planet.resource.filter.all.not.mined,Nevyčerpaná ložiska,,
 planet.resource.filter.nearby.not.mined,Nevyčerpaná ložiska v okolí,,
 codex.m.defenses,Obrana,,
@@ -3768,7 +3767,7 @@ time.sensitive.operation,Tato operace je časově náročná. Zkus to prosím zn
 merchant.type.MerchantSpacePortGood,Obchod v kosmickém přístavu,,
 merchant.type.MerchantSpacePortEvil,Obchod v stinném vesmírném přístavu,,
 space.object.Resource,Ložisko surovin,2023-09-02,
-space.object.info.Resource,"Jedná se o ložisko suroviny, které lze těžit.",,
+space.object.info.Resource,Toto je těžitelné ložisko surovin.,,
 space.object.Anomaly,Anomálie,,
 space.object.info.Anomaly,Radary zaznamenávají v této oblasti podivné vzorce činnosti. Doporučuje se opatrnost.,,
 expedition.already.in.progress,Expedice do této oblasti <b>{0}</b> již probíhá.,,"{0} is the object type, like Anomaly"
@@ -3801,7 +3800,7 @@ menu.copters,Vrtulníky,,
 menu.copters.desc,Automatizované těžební drony,,
 copter.mission.stage.deploy.miner,Nasazení {0},,"{0} is the resource miner device name, like Autodrill Rig"
 copter.mission.stage.fly.to.ship,Návrat na loď,,
-copter.mission.stage.fly.to,Let do {0},,"{0} is the name of the target, like Silicon Deposit, or a device name"
+copter.mission.stage.fly.to,Let k cíli: {0},,"{0} is the name of the target, like Silicon Deposit, or a device name"
 copter.mission.stage.collect.resource,Sbírání {0},,{0} is material type
 copter.mission.stage.land.on.ship,Přistání na lodi,,
 copter.mission.stage.leave.ship,Opuštění lodi,,
@@ -3949,7 +3948,7 @@ sig.extortion.refused.2,"Lupiči, rozzlobení tvým odmítnutím, ti vyhrožují
 sig.extortion.refused.3,"Tento kontakt tě ujišťuje, že tvůj odpor bude mít závažné důsledky a že na tvou vzpurnost nezapomenou.",,
 sig.extortion.refused.4,"Piráti zlověstně prohlašují, že tvé odmítnutí nezůstane bez trestu a že si pro tebe přijdou, až to budeš nejméně čekat.",,
 show.roof,Zobrazit vnější trup,,
-show.roof.tip,"Pokud oblast nemá vnější plášť, znamená to, že není zcela uzavřená – někde chybí část podlahy nebo stěny. U oblastí, které mají vnější plášť, není zaručeno, že jsou zcela vzduchotěsné nebo izolované; pečlivě zkontroluj překryvné vrstvy „Vzduchotěsnost“ a „Izolace“, abys odhalil případné netěsnosti.",,
+show.roof.tip,"Pokud oblast nemá vnější trup, znamená to, že není zcela uzavřená – někde chybí část podlahy nebo stěny. U oblastí, které mají vnější trup, není zaručeno, že jsou zcela vzduchotěsné nebo izolované; pečlivě zkontroluj překryvné vrstvy „Vzduchotěsnost“ a „Izolace“, abys odhalil případné netěsnosti.",,
 hold.button.for.more.info,Pro více informací podrž tlačítko {0},,"{0} is going to be an image with a key, like CTRL"
 ui.auto.pack,Automatické zmenšení uživatelského rozhraní,,
 ui.auto.pack.tip,"Je-li zapnuta funkce „auto compact“, mohou být některé prvky seznamu v uživatelském rozhraní seskupeny, aby se zkrátila délka seznamu. K uplatnění změn tohoto nastavení může být nutné hru restartovat.",,
@@ -4005,7 +4004,7 @@ object.in.safe.area,Objekt v bezpečné zóně,,
 try.auto.connect,Vyzkoušej funkci Automatické připojení,,
 try.auto.connect.tip,"Tato akce se pokusí prohledat elektrickou síť a najít všechna odpojená nebo nedostupná zařízení a v případě možnosti je automaticky připojit. Pokud se nepodařilo vše automaticky připojit na první pokus, můžeš tuto akci zkusit několikrát. <b>Upozornění: U velmi rozsáhlých sítí to může chvíli trvat.</b>",,
 cpu.cap.would.be.reached,Nelze připojit další palubní počítač. Aktuální limit je <b>{0}</b>. Tento limit lze zvýšit prostřednictvím výzkumu.,,
-auto.connect.progress,"Automaticky se připojilo <b>{0}</b> zařízení. Prosím, počkej.",,
+auto.connect.progress,Automaticky připojeno <b>{0}</b> zařízení. Čekej prosím.,,
 restrict.clock.on.disasters,Omezení taktovací frekvence v případě havárií,,
 noun.structure,Struktura,,
 noun.device,Zařízení,,
@@ -4066,7 +4065,7 @@ obj.eggs.egg01_hatched,Skořápka mimozemského vejce,,
 obj.eggs.egg01_hatched.desc,Zbytky mimozemského vajíčka.,,
 obj.materials.eggshell,Skořápka mimozemského vejce,,
 obj.materials.eggshell.desc,Zbytky mimozemského vajíčka.,,
-failed.to.find.safe.path,Nepodařilo se najít bezpečnou cestu k {0},,"{0} is object name, like Shuttle"
+failed.to.find.safe.path,Nepodařilo se najít bezpečnou cestu k cíli: {0},,"{0} is object name, like Shuttle"
 failed.path.safety.at,Nelze projít {0}: <b>{1}</b>,,"{0} is location coordinate, {1} is reason like ""too hot"""
 menu.datoids,Datoidy,,
 menu.datoids.desc,Malé datové jednotky používané pro výzkum.,2026-07-17,
@@ -4211,7 +4210,7 @@ ship.not.in.one.piece.tip,"Nechtěnou stavbu můžeš opustit pomocí překryvn�
 quest.EstablishResearch,Zahájit výzkum,,
 quest.EstablishResearch.desc,"Výzkum spotřebovává <b>datoidy</b>, které se vytvářejí ve <b>sběrači dat</b> a ukládají v <b>načítači datoidů</b>.",,
 compatible.storage,Kompatibilní sklad,,
-amb.color.black,Pitch Black,,
+amb.color.black,Černočerná tma,,
 obj.materials.leadplate,Olověná deska,,
 obj.materials.lead,Olovo,,
 obj.materials.crawlergoo,Sliz plíživce,,
@@ -4246,7 +4245,7 @@ research.cpu.cap,Kapacita palubního počítače ({0}),,
 research.cpu.cap.desc,Umožňuje mít aktivních až <b>{0}</b> palubních počítačů.,,
 system.scan.basic,Základní kontrola systému,,
 system.scan.advanced,Pokročilé skenování systému,,
-system.scan.basic.desc,Odemkne možnost prohledat aktuální hvězdnou soustavu za účelem nalezení konkrétních surovin,,
+system.scan.basic.desc,Odemkne možnost prohledávat aktuální hvězdnou soustavu a hledat konkrétní suroviny.,,
 system.scan.advanced.desc,"Rozšiřuje možnosti skenování aktuální hvězdné soustavy o další typy cílů (anomálie, frakce atd.)",,
 unlocks.item,Odemkne <b>{0}</b>,,{0} is the name of the unlockable
 item.now.available,<b>{0}</b> je nyní k dispozici!,,
@@ -4280,7 +4279,7 @@ menu.tutorials,Návody,,
 difficulty.Beginner,Začátečník,,
 difficulty.Intermediate,Středně pokročilí,,
 difficulty.Advanced,Pokročilé,,
-tutorial.of.type,Návod k {0},,{0} will be Beginner or Intermedia or Advanced translation
+tutorial.of.type,Výukový program: {0},,{0} will be Beginner or Intermedia or Advanced translation
 end.tutorial,Konec výukového programu,,label on a button that ends the tutorial
 verb.back,Zpět,,
 tutorial.completed,Návod dokončen,,
@@ -4299,7 +4298,7 @@ tut.basic.controls.step.overlay.atmoo2res,"Vzduchotěsnost udává, jak dobře d
 tut.basic.controls.step.overlay.atmotempres,"Izolace představuje odpor proti výměně tepla s okolím. I když jsou stěny zcela vzduchotěsné a nepropouštějí kyslík, nedokážou zcela zabránit přenosu tepla. Teplo se bude pomalu šířit do okolního prostoru, a proto je udržení příjemné teploty náročnější než pouhé zajištění dostatku kyslíku v daném prostoru.",,
 tut.basic.controls.step.overlay.plan,"Spolu se sadou plánovacích nástrojů, mezi které patří zrcadlení, kruhy a čáry, ti tato vrstva pomůže navrhnout dokonalou loď. V případě, že dojde ke zničení tvé lodi, bude tato vrstva obsahovat původní návrh, takže se můžeš rozhodnout, zda ji obnovíš do původní podoby, nebo vše vymažeš a vytvoříš si vlastní verzi.",,
 tut.basic.controls.step.overlay.path,"Tato vrstva znázorňuje, kam a jak se mohou tvoji kolonisté a roboti pohybovat. I když se zdá, že je tam průchodná mezera, cesta může být přesto zablokovaná. Pamatuj, že bytosti se nemohou pohybovat po diagonálních chodbách.",,
-tut.basic.controls.step.overlay.areas,"Tato vrstva zobrazuje uzavřené prostory, názvy místností (dostupné po odemčení výzkumu „Označování“) a uvádí seznam zařízení v každé místnosti. Zobrazuje také oblasti otevřené do vesmíru a umožňuje zapnout či vypnout zobrazení vnějšího pláště.<br><br> Přilétající kosmické lodě nemohou přistát v uzavřených prostorech, proto se ujisti, že je k dispozici dostatek přistávacích zón otevřených do vesmíru. Přistávací plocha menší než přibližně 100 políček může způsobit problémy.<br><br> Další důležitý bod: určitá zařízení a všechny kosmické lodě musí být v oblastech otevřených do vesmíru. Pokud je zařízení určené pro venkovní použití uzavřeno, nebude fungovat. Uzavření raketoplánu může poškodit trup při pokusu o vzlet nebo přistání.",,
+tut.basic.controls.step.overlay.areas,"Tato vrstva zobrazuje uzavřené prostory, názvy místností (dostupné po odemčení výzkumu „Označování“) a uvádí seznam zařízení v každé místnosti. Zobrazuje také oblasti otevřené do vesmíru a umožňuje zapnout či vypnout zobrazení vnějšího trupu.<br><br>Přilétající kosmické lodě nemohou přistát v uzavřených prostorech, proto se ujisti, že je k dispozici dostatek přistávacích zón otevřených do vesmíru. Přistávací plocha menší než přibližně 100 políček může způsobit problémy.<br><br>Další důležitý bod: určitá zařízení a všechny kosmické lodě musí být v oblastech otevřených do vesmíru. Pokud je zařízení určené pro venkovní použití uzavřeno, nebude fungovat. Uzavření raketoplánu může poškodit trup při pokusu o vzlet nebo přistání.",,
 tut.basic.controls.step.overlay.islands,"Tato vrstva zobrazuje jednotlivé části lodi. Části představují samostatné strukturální celky. Obvykle platí, že pokud jich je více než jedna, loď nebude létat, avšak drobné části o velikosti menší než přibližně 30 políček se ignorují. Ke spojení těchto sekcí můžeš použít <b>naviják</b> nebo <b>manévrovací trysku</b>.<br><br> Překryvná vrstva ti také umožňuje opustit jakékoli nepotřebné sekce lodi, včetně opuštěných lodí, na které můžeš během svého dobrodružství narazit. Než odletíš, budeš muset opuštěnou loď připojit, rozebrat nebo opustit.<br><br> Pokud se nacházíš v blízkosti vesmírného přístavu, můžeš pomocí této vrstvy část prodat. To ti umožní dočasně připojit opuštěnou loď ke tvé vlastní, odtáhnout ji do nejbližšího vesmírného přístavu, odpojit ji a poté prodat.",2023-08-16,
 tut.basic.controls.step.feedback,"Pokud narazíš na problémy, objevíš chybu nebo máš nějaký návrh, můžeš nám svou zpětnou vazbu zaslat přímo ze hry.",2023-08-16,
 tut.basic.controls.step.overlay.wallet,V zobrazení „Peněženka“ se zobrazují tvoje hotovostní rezervy a máš odtud přístup k <b>burze</b>.,2023-08-16,
@@ -4325,9 +4324,9 @@ def.unlock.tip,Pro odemknutí proveď výzkum {0}.,,{0} is the technology name. 
 tut.skip.group,Přeskočit skupinu: {0},,{0} is the group name
 tut.basic.controls.step.grid.menu.2,Nástroje,2023-08-16,
 getting.food.in.dangerous.loc,Pokus o získání jídla z nebezpečného místa: {0},,{0} is a coordinate
-failed.to.find.path.to.safety,Nepodařilo se najít cestu k bezpečnému umístění z {0},,{0} is a coordinate
+failed.to.find.path.to.safety,Nepodařilo se najít cestu do bezpečí z pozice {0},,{0} is a coordinate
 tut.basic.controls.step.tools.place_tiles,"Tento nástroj obsahuje odemčené plány různých objektů, jejichž stavbu můžeš nařídit svým dělníkům. Obsahuje podmenu s kategoriemi a seznam <b>naposledy</b> použitých položek.",,
-tut.basic.controls.step.tools.connect,Tento nástroj ti umožňuje připojovat a odpojovat elektrická zařízení a propojovat a odpojovat teleporty kliknutím a přetažením čáry mezi nimi.,,
+tut.basic.controls.step.tools.connect,Tento nástroj ti umožňuje připojovat a odpojovat elektrická zařízení a propojovat či odpojovat teleportéry kliknutím a tažením čáry mezi nimi.,,
 tut.basic.controls.step.tools.repair,"Tento nástroj zvýrazní poškozené části konstrukce a zařízení, což ti umožní zadat opravu. Klikni na jednotlivé zařízení nebo kliknutím a tažením vyber větší oblast k opravě.",,
 tut.basic.controls.step.tools.store,"Tento nástroj nařídí odvoz hromad neskladovaného materiálu do vhodného skladu, je-li k dispozici. Klikni na jednu hromadu nebo kliknutím a tažením vyber více hromad k odvozu.",,
 tut.basic.controls.step.tools.process,"Tento nástroj zadá zpracování vybraných hromad materiálu nebo mrtvých bytostí, pokud je k dispozici kompatibilní procesor. Kliknutím vyber jeden objekt nebo kliknutím a tažením vyber více objektů ke zpracování.",,
@@ -4335,12 +4334,12 @@ tut.basic.controls.step.tools.remove_tiles,"Tento nástroj nařizuje rozebrání
 tut.basic.controls.step.tools.ads_cancel,"Tento nástroj ruší aktivní objednávky. Klikni na objekt s nevyřízeným úkolem nebo klikni a přetáhni kurzorem přes určitou oblast, abys zrušil objednávky v dané zóně.",,
 tut.basic.controls.step.tools.ads_retry,"Tento nástroj se pokouší o okamžité opakování neúspěšných úloh. Klikni na objekt s neúspěšnou úlohou nebo přetáhni kurzor přes určitou oblast, aby se okamžitě zopakovaly všechny neúspěšné úlohy v dané oblasti. Upozorňujeme, že neúspěšné úlohy se po určité prodlevě zopakují automaticky, a to i bez ručního zásahu.",,
 tut.basic.controls.step.tools.manage_ads,"Tento nástroj umožňuje opakovat pokus, zrušit nebo upravit prioritu čekajících úkolů. Při zvýšení priority se také pokusí přiřadit úkol nejbližšímu dostupnému pracovníkovi. Klikni na objekt s čekajícím úkolem nebo přetáhni kurzor přes danou oblast, aby se ve zvolené zóně provedla vybraná akce.",,
-tut.basic.controls.step.tools.copy_config,"Tento nástroj ti umožňuje kopírovat a vkládat nastavení mezi kompatibilními zařízeními. Klikni na jedno z nich, abys zkopíroval jeho konfiguraci, a poté buď vyber další zařízení, nebo přetáhni kurzor přes určitou oblast, abys zkopírované nastavení aplikoval na zařízení stejného typu.",,
+tut.basic.controls.step.tools.copy_config,Tento nástroj ti umožňuje kopírovat a vkládat nastavení mezi kompatibilními zařízeními. Kliknutím na jedno zařízení zkopíruješ jeho nastavení a dalším kliknutím nebo tažením přes oblast je použiješ na všechna zařízení stejného typu.,,
 toggle.button.size,Změnit velikost tlačítka,2023-08-16,
 tut.step.place.tile,Postav {0},,{0} is an device name
 tut.step.expired,Platnost tohoto kroku vypršela,,
 tut.basic.controls.step.connect.5,"<b>Tip:</b> V režimu Volného výběru stiskni klávesu {0} nad <b>konektorem</b> nebo <b>teleportérem</b> a začni táhnout čáru, abys přepnul na nástroj <b>{1}</b>.",,{0} is key binding. {1} is tool name
-tut.connecting.teleporters,Propojení teleportů,,
+tut.connecting.teleporters,Propojení teleportérů,,
 choice.or,{0} nebo {1},,{0} and {1} will be some arbitrary things like shortcut keys or two item names
 tut.basic.controls.step.repair.4,"Stiskni klávesu {0} a obkresli poškozené místo obdélníkem, abys zadal opravu.",2023-08-16,{0} is key binding
 tut.basic.controls.group.examining.objects,Prozkoumávání objektů,,
@@ -4407,20 +4406,20 @@ quest.step.enter.starmap.layer,Vstoupit do <b>{0}</b>,,"{0} will be ""System"", 
 quest.step.enter.starmap.layer.desc,"Otevři <b>hvězdnou mapu</b>, poté klikni na nedaleký <b>{0}</b> a vyber možnost, jak do něj vstoupit.",,"{0} will be ""System"", ""Galaxy"", etc"
 quest.step.exit.starmap.layer,Opustit <b>{0}</b>,,"{0} will be ""System"", ""Galaxy"", etc"
 quest.step.exit.starmap.layer.desc,Pro opuštění <b>{0}</b> vyleť mimo nejvzdálenější prstenec na <b>hvězdné mapě</b>.,,"{0} will be ""System"", ""Galaxy"", etc"
-starmap.leaving,Odchod z {0},,"{0} will be ""System"", ""Galaxy"", etc"
+starmap.leaving,Opuštění oblasti: {0},,"{0} will be ""System"", ""Galaxy"", etc"
 starmap.entering,Zadání {0},,"{0} will be ""System"", ""Galaxy"", etc"
 tut.adv.controls.title,Pokročilé ovládací prvky,,
 ship.nav.flight.capability,Letová způsobilost,,
 ship.nav.no.local.maneuver,Manévrování není možné,,
-ship.nav.no.local.maneuver.tip,"Abys mohl provádět <b>lokální manévrování</b>, musíš sestavit a propojit <b>manévrovací řídicí jednotky</b>.",,
+ship.nav.no.local.maneuver.tip,"Abys mohl provádět <b>lokální manévrování</b>, musíš postavit a připojit <b>manévrovací trysky</b>.",,
 verb.configure,Nastavit,,
 tut.adv.controls.mass.select.title,Výběr více objektů,,
 mass.connect.tip.enodes,Stisknutím tlačítka {0} na <b>konektoru</b> připojíš nebo odpojíš vybrané zařízení.,,
 mass.connect.tip.conn,"Stiskni na <b>zařízení</b> tlačítko {0}, abys navázal nebo přerušil spojení s vybranými konektory.",,
-mass.connect.tip.teleporters,Stisknutím klávesy {0} na aktivním <b>teleportu</b> vytvoříš nebo zrušíš propojení s vybraným teleportem (teleporty).,,
+mass.connect.tip.teleporters,Stisknutím klávesy {0} na aktivním <b>teleportéru</b> vytvoříš nebo zrušíš propojení s vybraným teleportérem (teleportéry).,,
 tut.completed.never,Ještě není hotovo,,
 tut.completed.date,Dokončeno dne {0},,{0} is date
-tut.completed.outdated.tip,Absolvoval jsi starší verzi tohoto výukového programu na {0}. Doporučujeme ti tento výukový program absolvovat znovu.,,
+tut.completed.outdated.tip,Dokončil jsi starší verzi tohoto výukového programu – verze {0}. Doporučujeme projít si jej znovu.,,
 tut.not.completed.warning,Dokončil jsi {0} z {1} výukových lekcí.,,
 tut.prod.title,Těžba surovin,,
 tut.prod.ident.title,Zjištění významného nedostatku,,
@@ -4478,7 +4477,7 @@ mod.item,Modifikace položky,,
 save.upgraded,Uložit vylepšenou verzi,,
 save.upgraded.info,"Tento soubor s uloženou hrou byl automaticky aktualizován, aby fungoval s aktuální verzí hry.<br><br> {0}",,
 fire.extinguished,Požár uhašen,,
-firefighting.failed,Hašení požáru v {0} se nezdařilo: {1},,{0} is position {1} is reason
+firefighting.failed,Hašení požáru na pozici {0} se nezdařilo: {1},,{0} is position {1} is reason
 chance.to.explode.on.dmg,Šance na výbuch při utrpění poškození: {0},,{0} is percentage
 fire.on.dmg,Zásah způsobí požár,,
 explode.on.hit,Rozplynout se při zásahu,,
@@ -4828,6 +4827,7 @@ stat.MoveSpeed,Rychlost pohybu,,
 stat.MoveSpeed.desc,Jak rychle se bytost dokáže pohybovat?,,
 stat.MoveSpeedMul,Násobitel rychlosti pohybu,,
 stat.O2.desc,Hladina O<sub>2</sub>,,
+stat.O2Min,Minimum O<sub>2</sub>,,
 stat.O2Min.desc,Minimální množství kyslíku potřebné k přežití.,,
 stat.Pain,Bolest,,
 stat.Pain.desc,"Míra bolesti, kterou bytost právě prožívá.",,
@@ -4848,7 +4848,7 @@ stat.SleepRate.desc,Jak rychle se bytost vyspí.,,
 stat.SpaceSuitIntegrity,Celistvost skafandru,,
 stat.SpaceSuitIntegrity.desc,"Kombinace skafandru a přilby zajistí 100% těsnost skafandru, která je nezbytná pro výpravy do otevřeného vesmíru.",,
 stat.StomachContents,Obsah žaludku,,
-stat.StomachContents.desc,"Množství potravy, které se v současné době nachází v žaludku.",,
+stat.StomachContents.desc,Množství potravy aktuálně v žaludku.,,
 stat.StunChanceBio,Šance na omráčení (biologická),,
 stat.StunChanceBio.desc,Možnost dočasně ochromit živou bytost.,,
 stat.StunChanceRobo,Šance na omráčení (robotické),,
@@ -4891,7 +4891,7 @@ role.Bouncer,Vyhazovač,,
 role.BoyScout,skaut,,
 role.Bully,Tyran,,
 role.BusinessOwner,Majitel firmy,,
-role.Butler,Butler,,
+role.Butler,Komorník,,
 role.CageFighter,Bojovník v kleci,,
 role.CatEntertainer,Zábavník pro kočky,,
 role.ChiefScientist,Hlavní vědecký pracovník,,
@@ -4931,7 +4931,7 @@ role.OperaSinger,Operní pěvec,,
 role.OrganSmuggler,Pašerák orgánů,,
 role.Painter,Malíř,,
 role.Pet,Domácí mazlíček,,
-role.PetBot,Pet Bot,,
+role.PetBot,Robotický mazlíček,,
 role.Pianist,Klavírista,,
 role.PoliceDog,Policejní pes,,
 role.Politician,Politik,,
@@ -4963,9 +4963,9 @@ role.WebDeveloper,Webový vývojář,,
 role.ZooAnimal,Zvíře v zoo,,
 role.MadScientist,Šílený vědec,,
 inflict.wound.log,{0} způsobil <b>{1} {2}</b> zranění {3} na <b>{4}</b>,,{0} is attacker name {1} wound severity level {2} is wound damage type {3} is victim name {4} is victims body part name. Example: John inflicted a Critical Piercing wound on Mike's Head
-attack.type.blunt,Blunt,,
+attack.type.blunt,Tupé,,
 attack.type.sharp,Sekání,,
-attack.type.piercing,Piercing,,
+attack.type.piercing,Bodné,,
 attack.type.energy,Energie,,
 noun.jobs,Práce,,
 job.priority,Priorita úkolu: <b>{0}</b>,,{0} is a number
@@ -4995,7 +4995,7 @@ noun.body.part,Část těla,,
 noun.source,Zdroj,,As in source of some effect
 noun.trait,Vlastnost,,Example trait can be Clumsy or Brave
 no.conditions,Žádné podmínky,,
-no.conditions.tip,"Tento subjekt v současné době nemá žádné aktivní zdravotní problémy. Případné zranění, nemoci či jiné potíže by zde byly uvedeny, pokud by se vyskytly.",,
+no.conditions.tip,"Tento subjekt v současné době nemá žádné aktivní zdravotní problémy. Případná zranění, nemoci či jiné potíže by zde byly uvedeny, pokud by se vyskytly.",,
 bodypart.type.Appendage,Přívěsek,,as in a limb
 bodypart.type.Maw,Maw,,alternative of jaw
 bodypart.Appendage.LegCrawler,Pásová noha,,
@@ -5095,8 +5095,8 @@ combat.unit.state.fleeing,Útěk,,
 noun.attack.target,Cíl útoku,,
 adjective.personal,Osobní,,For personal jobs
 adjective.colony,Kolonie,,For colony jobs
-combat.cover.at.none,Vstupné zdarma v {0},,
-combat.cover.at,Obálka na {0},,
+combat.cover.at.none,Žádné krytí na pozici {0},,
+combat.cover.at,Krytí na pozici {0},,
 direction.north.short,N,,
 direction.south.short,S,,
 direction.east.short,E,,
@@ -5211,14 +5211,14 @@ need.Temperature,Teplota,,
 need.Light,Světlo,,
 scenario.cargo_ship,Nákladní loď,,
 bodypart.type.Implant,Implantát,,
-bodypart.Implant.ObeyChip,Obey Chip,,
+bodypart.Implant.ObeyChip,Čip poslušnosti,,
 bodypart.Implant.Rebreather,Rebreather,,
 lacking.abilities,Nedostatek schopností,,
 scenario.cargo_ship.tooltip,Začni na plně funkční nákladní lodi s posádkou složenou výhradně z robotů.,,
 ability.Craft,Řemeslo,,
 ability.Pilot,Pilot,,
 ability.Cook,Kuchař,,
-story.cargo_ship.intro,"Zdravím, kolonisto. Jsem {0}, umělá inteligence pověřená údržbou této lodi. Tento úkol však přesahuje možnosti mého programování, a proto jsem se rozhodl nahrát do své neuronové sítě lidského kolonistu. Byl jsi vybrán náhodně. Omlouvám se za způsobené nepříjemnosti.",2026-08-27,{0} is ship computer's name
+story.cargo_ship.intro,"Zdravím tě, kolonisto. Jsem {0}, umělá inteligence pověřená údržbou této lodi. Tento úkol však přesahuje možnosti mého programování, proto padlo rozhodnutí nahrát do mé neuronové sítě lidského kolonistu. Výběr proběhl náhodně. Omlouvám se za způsobené nepříjemnosti.",2026-08-27,{0} is ship computer's name
 part.installed,Namontovaná součást,,
 part.usable.self,Je funkční,,
 part.usable.parent,Je připevněno k funkční části,,
@@ -5259,17 +5259,17 @@ market.trend.long.term.global,Globální dlouhodobý trend,,
 market.trend.short.term.global,Globální krátkodobý trend,,
 market.trend.short.term,Krátkodobý trend,,
 market.trend,Trend,,
-market.behavior.crash,Nehoda,,
+market.behavior.crash,Krach,,
 market.behavior.rise,Vzestup,,
-market.behavior.fall,Podzim,,
+market.behavior.fall,Pokles,,
 market.behavior.recession,Recese,,
-market.behavior.surge,Přepětí,,
-market.behavior.still,Stále,,
+market.behavior.surge,Prudký nárůst,,
+market.behavior.still,Beze změny,,
 market.group.trends,Související trendy ve skupině,,
 market.group.name.Alloy,Slitina,,
 market.group.name.Animal,Zvíře,,
 market.group.name.Battery,Baterie,,
-market.group.name.Being,Být,,
+market.group.name.Being,Bytost,,
 market.group.name.Building,Stavba,,
 market.group.name.Clothing,Oblečení,,
 market.group.name.Dye,Barvivo,,
@@ -5281,14 +5281,14 @@ market.group.name.Material,Materiál,,
 market.group.name.Mineral,Minerál,,
 market.group.name.Oil,Ropa,,
 market.group.name.Ore,Ruda,,
-market.group.name.Organic,Ekologický,,
+market.group.name.Organic,Organické,,
 market.group.name.Pet,Domácí mazlíček,,
 market.group.name.Predator,Predátor,,
 market.group.name.Radioactive,Radioaktivní,,
 market.group.name.Robotics,Robotika,,
 market.group.name.SpaceSuit,Kosmický oblek,,
 market.group.name.Terraforming,Teraformace,,
-market.group.name.Upgrade,Aktualizace,,
+market.group.name.Upgrade,Vylepšení,,
 market.group.name.Waste,Odpad,,
 market.group.name.Water,Voda,,
 market.group.name.Weapon,Zbraň,,
@@ -5299,7 +5299,7 @@ noun.body.parts,Části těla,,plural of body part / organ
 space.object.name.SpaceStation,Stanice {0},,{0} will be replaced with some name
 space.object.SpaceStation,Vesmírná stanice,,
 space.object.info.SpaceStation,Tyto osamělé základny lze najít téměř kdekoli.,,
-merchant.inv.refresh.time,Aktualizace skladových zásob v {0},,{0} is time range like 4 days 12 hours
+merchant.inv.refresh.time,Obnovení zásob za {0},,{0} is time range like 4 days 12 hours
 market.group.name.BlackMarket,Černý trh,,
 market.group.name.BodyPart,Část těla,,
 market.group.name.Energy,Energie,,
@@ -5314,14 +5314,14 @@ owned.count,Ve vlastnictví,,Will be used in conjuction with a number of owned i
 market.group.name.Entertainment,Zábava,,
 market.group.name.Software,Software,,
 noun.attack.methods,Metody útoku,,Plural of Attack Method
-attack.method.Bump,Bump,,
+attack.method.Bump,Náraz,,
 attack.method.Jab,Úder,,
 attack.method.Punch,Úder,,
-attack.method.Cut,Střih,,
-attack.method.Scratch,Scratch,,
+attack.method.Cut,Řez,,
+attack.method.Scratch,Škrábnutí,,
 attack.method.Bite,Kousnutí,,
-attack.method.ButtStrike,Úder zadkem,,
-attack.method.Shoot,Střílej,,
+attack.method.ButtStrike,Úder pažbou,,
+attack.method.Shoot,Střelba,,
 combat.goal.follow.leader,Následuj vůdce,,
 combat.goal.attack.cpu,Útok na palubní počítač,,
 combat.goal.find.cover,Najít obálku,,
@@ -5373,7 +5373,7 @@ stat.IntestinesCapacity,Kapacita střev,,
 cond.Depression,Deprese,,
 situation.NumCombats,Bojové střetnutí,,
 situation.OngoingBuildTasks,Probíhající úlohy sestavení,,
-attack.method.BodySlam,Body Slam,,
+attack.method.BodySlam,Náraz tělem,,
 attack.method.Stab,Bodnutí,,
 beings.pig01,Prase,,
 beings.pig01.desc,Domácí prase.,,
@@ -5389,7 +5389,7 @@ bodypart.Hip.HipPig,Vepřová kýta,,
 bodypart.Jaw.JawPig,Prasečí čelist,,
 bodypart.Leg.LegRearPig,Vepřová kýta (zadní),,
 bodypart.Shoulder.ShoulderPig,Vepřová plec,,
-bodypart.Tail.TailPig,Pig Tail,,
+bodypart.Tail.TailPig,Prasečí ocásek,,
 role.FarmAnimal,Hospodářská zvířata,,
 bodypart.Arm.LegFrontPig.desc,Bio vepřová kýta.,,
 bodypart.Body.BodyPig.desc,Tělo bio prasete.,,
@@ -5478,7 +5478,7 @@ verb.forbid,Zakázat,,for forbidding some action
 noun.quality,Kvalita,,
 ability.AnimalEat,Zdroje,,synonym for eat in context of an animal eating on its own
 research.relocation.advanced,Pokročilé stěhování,,
-research.relocation.advanced.desc,"Umožňuje přemístění pokročilých zařízení, jako je <b>palubní počítač</b> a <b>stázové pole</b>.",,
+research.relocation.advanced.desc,"Umožňuje přemístění pokročilých zařízení, jako je <b>palubní počítač</b> a <b>stázový modul</b>.",,
 research.required,Požadovaný výzkum: {0},,shown in a tooltip when something is not allowed because it requires unlocking some research first. {0} is the research name.
 noun.beverage,Nápoje,,a drink like coffee or tea
 verb.drink,Pít,,
@@ -5487,13 +5487,13 @@ verb.ignore,Ignorovat,,
 verb.fight,Bojovat,,
 verb.flee,Utéct,,
 noun.free.will,Vlastní vůle,,
-objects.devices.mechuary,Mechuary,,
+objects.devices.mechuary,Sklad robotů,,
 objects.devices.morgue,Márnice,,
 objects.devices.mechuary.desc,Sklad pro nepoužívané nebo poškozené roboty.,,
 objects.devices.morgue.desc,"Místo, kde se uchovávají mrtvá těla.",,
 noun.being.storage,Skladování,,
 verb.store.being,Uložit bytost,,
-verb.send.to,Odeslat na {0},,"{0} is device name. it creates an order to send a being into a device. device types could be Morgue, Mechuary, Stasis Array, etc."
+verb.send.to,Odeslat do: {0},,"{0} is device name. it creates an order to send a being into a device. device types could be Morgue, Mechuary, Stasis Array, etc."
 full.details,Podrobné informace,,
 noun.faction,Frakce,,
 breakdown.cleaning.spree,Zhroucení: Úklidová mánie,,
@@ -5548,7 +5548,7 @@ twitch.test.cfg.tip,Bot odešle do tvého kanálu zkušební zprávu.,,
 twitch.delete.data,Odstranit data prohlížeče,,
 twitch.delete.data.warn,Tímto se smažou údaje o {0} divácích v {1} hrách. Opravdu chceš pokračovat?,,{0} and {1} are numbers (counts)
 overlay.tip.Twitch,Integrace se službou Twitch je zapnutá.,,
-major.update.old.branch,"Hra Stardeus byla aktualizována na verzi <b>{0}</b>. Uložené soubory ze starších verzí již nemusí být kompatibilní. Pokud chceš dokončit hru z předchozí verze, přepni se ve službě Steam na větev <b>{1}</b>:<br><br>1. Klikni pravým tlačítkem myši na <b>hru Stardeus</b> v knihovně služby Steam.<br>2. Vyber možnost <b>Vlastnosti</b>.<br>3. Otevři záložku <b>Verze hry a beta verze</b>.<br>4. Vyber <b>{1}</b><br>.",2026-06-12,
+major.update.old.branch,"Hra Stardeus byla aktualizována na verzi <b>{0}</b>. Uložené soubory ze starších verzí již nemusí být kompatibilní. Pokud chceš dokončit hru z předchozí verze, přepni se ve službě Steam na větev <b>{1}</b>:<br><br>1. Klikni pravým tlačítkem myši na <b>hru Stardeus</b> v knihovně služby Steam.<br>2. Vyber možnost <b>Vlastnosti</b>.<br>3. Otevři záložku <b>Verze hry a beta verze</b>.<br>4. Vyber <b>{1}</b><br>",2026-06-12,
 adj.forced,Nucené,,Label for forcefully assigned tasks
 adj.temporary,Dočasný,,Example use - label for a sofa as a sleeping place
 hold.modifiers.bulk.change,"Podrž klávesu {0}, abys mohl upravovat hodnotu po větších krocích",,"{0} will be replaced with something like Ctrl, Shift, Alt"
@@ -5560,7 +5560,7 @@ being.group.animal,Zvíře,,Short name for top right group rectangle widget. Kee
 being.group.enemy,Nepřítel,,Short name for top right group rectangle widget. Keep it under 9 characters or less or it will wrap and look ugly
 being.group.other,Ostatní,,Short name for top right group rectangle widget. Keep it under 9 characters or less or it will wrap and look ugly
 combat.ended,Boj skončil,,
-connector.ship.cpu.tip,Nejprve je třeba připojit konektor k {0}!,,{0} will be replaced with translation of Ship Computer
+connector.ship.cpu.tip,Nejprve je třeba připojit konektor k zařízení {0}!,,{0} will be replaced with translation of Ship Computer
 unidentified.object.appeared,Někde na lodi se objevil neidentifikovaný objekt,,
 cond.CrawlerInfected.desc,Tato bytost má v žaludku a střevech mimozemské parazity. Odstraněním nebo nahrazením těchto částí těla by se tato hrozba odstranila.,,
 act.panic.desc,{0} je v panice!,,{0} is the name of being
@@ -5571,7 +5571,7 @@ adds.needs,Přidá potřeby,,
 provides.stats,Zobrazuje statistiky,,
 modifies.stats,Upravuje statistiky,,
 path.optimize.teleporters,Optimalizace hledání cesty pro teleportéry,,
-path.optimize.teleporters.tip,"<b>Vyhledávání cesty je mnohem pomalejší, pokud je optimalizováno pro použití teleportů.</b> Pokud máš problémy s výkonem u velké kolonie, deaktivuj toto nastavení.",,
+path.optimize.teleporters.tip,"<b>Vyhledávání cesty je mnohem pomalejší, pokud je optimalizováno pro použití teleportérů.</b> Pokud máš problémy s výkonem u velké kolonie, deaktivuj toto nastavení.",,
 obj.materials.pumpkin,Dýně,,
 obj.meals.pumpkinsoup,Dýňová polévka,,
 research.habitation.halloweendecorations,Halloweenské dekorace,,
@@ -5671,16 +5671,16 @@ quest.ProvideEntertainment.desc,"Lidští kolonisté potřebují zábavu, aby si
 noun.multiple.items,{0} položek,,{0} will be a number above 1
 craft.order.new,Nová objednávka,,label for a button that creates a new order for a device to produce something
 craft.order.settings,Nastavení objednávky,,label for crafting order settings
-explosion.at,Výbuch v {0},,{0} is position coordinate
-space.object.info.Asteroid,Beživý asteroid vznášející se ve vesmíru.,,
+explosion.at,Výbuch na pozici {0},,{0} is position coordinate
+space.object.info.Asteroid,Neživý asteroid vznášející se ve vesmíru.,,
 quest.available,Dostupná výprava,,
 quest.click.to.accept,Kliknutím tento úkol přijmeš,,
 noun.strength,Síla,,
 available.quests,Dostupné úkoly,,
 research.required.generic,K aktivaci této funkce je zapotřebí výzkum <b>{0}</b>,,{0} is research node name. for example Stock Market
-cryostability.unstable.warning,Toto stázové pole je nebezpečně nestabilní. Kolonisté se probudí s vážnými fyzickými a psychickými následky. <b>Co nejdříve připoj toto stázové pole k elektrické síti.</b>,,
+cryostability.unstable.warning,Tento stázový modul je nebezpečně nestabilní. Kolonisté se probudí s vážnými fyzickými a psychickými následky. <b>Co nejdříve připoj tento stázový modul k elektrické síti.</b>,,
 quest.MakeStasisAreaSurvivable,Zajistit přežití v oblasti stáze,,
-quest.MakeStasisAreaSurvivable.desc,"Kolonisté budou po probuzení ze stáze potřebovat kyslík a teplo, aby přežili. Musíme zajistit přísun kyslíku a vytápění místností, ve kterých jsou umístěny stázové systémy.",,
+quest.MakeStasisAreaSurvivable.desc,"Kolonisté budou po probuzení ze stáze potřebovat kyslík a teplo, aby přežili. Musíme zajistit přísun kyslíku a vytápění místností, ve kterých jsou umístěny stázové moduly.",,
 quest.step.heat.area,Vytopit oblast pomocí {0},,{0} is device name
 quest.step.heat.area.tip,"Sleduj překryvnou vrstvu „Teplota“, abys viděl nárůst teploty v okolí {0}. V případě potřeby postav další topidla. Tento krok bude dokončen, jakmile průměrná teplota v místnosti dosáhne hodnoty {1}.",,{0} is device name {1} is temperature value
 quest.step.oxygenate.area,Zásobovat oblast kyslíkem pomocí {0},,{0} is device name
@@ -5716,11 +5716,11 @@ click.to.enlarge,Kliknutím zvětšíš,,
 evt.cooking.incident,Nehoda při vaření,,
 evt.cooking.incident.desc,{0} měl při vaření {1} v {2} nehodu.,,{0} is being name; {1} is meal name; {2} is cooking station
 fight.ongoing,Do boje!,,
-fight.lost,prohrál souboj s {0},,{0} is the opponent name
+fight.lost,Prohraný souboj s: {0},,{0} is the opponent name
 fight.between,{0} se pustil do rvačky s {1},,{0} and {1} are names
-fight.with,Bojuj s {0},,{0} is the opponent name
+fight.with,Souboj s: {0},,{0} is the opponent name
 evt.device.malfunction,Porucha zařízení: {0},,{0} is the device name
-evt.device.malfunction.desc,U {0} došlo k závažné poruše. Výměna pojistky by snížila závažnost vedlejších účinků.,,{0} is the device name
+evt.device.malfunction.desc,U zařízení {0} došlo k závažné poruše. Vylepšení pojistkou by snížilo závažnost vedlejších účinků.,,{0} is the device name
 evt.blown.fuse,{0} se spálila pojistka,,
 evt.blown.fuse.desc,"Díky nainstalované pojistce se podařilo zabránit vážnému poškození zařízení. Pokud je to možné, vyměň pojistku.",,
 obj.upgrades.fuseupgrade,Pojistka,,
@@ -5758,7 +5758,7 @@ developing.condition,Vývoj {0} ({1}),,"{0} is the condition name, {1} is percen
 cond.Depression.desc,"Deprese se objevuje, když není po delší dobu uspokojována potřeba zábavy. Abys tomu zabránil, stav zábavní zařízení a přidávej dekorace.",,
 effect.magnetic.storm,Magnetická bouře,,
 effect.magnetic.storm.desc,V této oblasti panuje trvalá magnetická bouře. U některých elektrických zařízení může docházet k občasným poruchám.,,
-ev.magnetic.storm.desc,V současné době probíhá magnetická bouře. U některých elektrických zařízení může docházet k občasným poruchám.,,
+ev.magnetic.storm.desc,Právě probíhá magnetická bouře. Některá elektrická zařízení mohou mít občasné výpadky.,,
 effect.dust.storm.desc,V této oblasti panuje trvalá prachová bouře. Výkon solárních panelů bude snížen.,,
 obj.materials.fusioncellheavy,Těžký fúzní článek,,
 obj.materials.fusioncellheavy.desc,"Vysoce výkonná verze fúzního článku, vhodná pro hyperskoky na dlouhé vzdálenosti.",,
@@ -5772,7 +5772,7 @@ tut.spacetravel.step1_1,Tvoje loď potřebuje k letu {0}. Pro různé způsoby v
 tut.spacetravel.step1_2,{0} pohání tvou loď v rámci aktuálního sektoru.,2026-07-03,{0} is Thrusters
 tut.spacetravel.step1_3,"{0} umožňuje vstup do hyperprostoru a provádění krátkodosahových hyperskoků do sousedních sektorů, přičemž jako palivo spotřebovává {1}.",2026-07-03,{0} is Fusion Drive. {1} is Fusion Cell
 tut.spacetravel.step1_4,{0} umožňuje hyperskoky na velké vzdálenosti mezi propojenými vesmírnými oblastmi. Bez {0} musíš k provedení regionálních skoků použít {1}. Ne všechny oblasti však mají relé. Oblasti bez relé jsou s ostatními oblastmi spojeny <b>přerušovanou čarou</b>.,2026-07-03,{0} is FTL Drive. {1} is Hyperjump Relay
-tut.spacetravel.step4_5,"{0} V hyperprostoru nedochází k výrobě energie. Zajisti si záložní reaktory a baterie, abys měl neustále k dispozici energii.",2026-07-03,{0} is Solar Panels
+tut.spacetravel.step4_5,"{0} v hyperprostoru nevyrábějí energii. Zajisti si záložní reaktory a baterie, abys měl neustále k dispozici energii.",2026-07-03,{0} is Solar Panels
 tut.spacetravel.step5.title,Pohyb v hyperprostoru,,
 tut.spacetravel.step6.title,Hyperskok na dlouhou vzdálenost,,
 tut.spacetravel.step6_6,{0} umožňuje pouze jeden skok na dlouhou vzdálenost do sousední oblasti vesmíru.,2026-07-03,{0} is Hyperjump Relay
@@ -5790,8 +5790,8 @@ tut.bodyparts.step3_2,"Některé stavy, jako například <b>deprese</b>, mají p
 tut.bodyparts.step3_3,"Většina stavů má svou hlavní <b>příčinu</b>. Odstraněním této příčiny se stav postupem času <b>zlepší</b>.<br><br> Příklad: <b>deprese</b> se objevuje, když je hodnota <b>zábava</b> nízká. Poskytnutím <b>zábavních</b> zařízení lze zvýšit <b>zábavu</b> a postupně snížit <b>depresi</b>.",,
 tut.bodyparts.step4_1,"Pro živé bytosti mohou být některá zranění <b>smrtelná</b>. Pokud však <b>mozek</b> zůstane neporušený, lze jej <b>přenést</b> do jiného těla.",,
 tut.bodyparts.step4_2,"Mozky lze dokonce přesazovat mezi <b>různými druhy</b>. Například transplantace mozku <b>kočky</b> do těla <b>člověka</b> povede k tomu, že tento člověk bude mít identitu kočky a bude se chovat jako kočka.",,
-tut.bodyparts.step4_3,"Ačkoli do robota nelze nainstalovat <b>mozek</b> a v biologické bytosti nelze nahradit <b>mozek</b> robotickým <b>jádrem</b>, je možné pomocí <b>replikátoru</b> provést <b>přenos mysli</b>.",,
-tut.bodyparts.step4_4,"Použití <b>jádra</b> odebraného poraženému <b>nepříteli</b> jej <b>oživí</b>, ale s pomocí <b>replikátoru</b> můžeš <b>identitu</b> nepřítele <b>přepsat</b> identitou z <b>mozku</b> <b>spřáteleného</b> kolonisty.<br><br> Jedná se o skvělý způsob, jak rozšířit svou robotickou pracovní sílu tím, že dáš svým padlým biologickým kolonistům druhý život.",,
+tut.bodyparts.step4_3,"Ačkoli do robota nelze nainstalovat <b>mozek</b> a v biologické bytosti nelze nahradit <b>mozek</b> robotickým <b>jádrem</b>, lze pomocí <b>replikátoru</b> provést <b>přenos mysli</b>.",,
+tut.bodyparts.step4_4,"Použití <b>jádra</b> odebraného poraženému <b>nepříteli</b> jej <b>oživí</b>, ale s pomocí <b>replikátoru</b> můžeš <b>identitu</b> nepřítele <b>přepsat</b> identitou z <b>mozku</b> <b>spřáteleného</b> kolonisty.<br><br>Je to skvělý způsob, jak rozšířit řady robotů a dát padlým biologickým kolonistům druhý život.",,
 tut.bodyparts.step5.title,Operace na částech těla,,
 tut.bodyparts.step5_3,"Aby bylo možné <b>replikátor</b> použít, je třeba nejprve z těl vyjmout jak <b>jádro</b>, tak <b>mozek</b>.",,
 tut.bodyparts.step5_6,Biologické orgány lze <b>odebrat</b> v <b>chirurgickém centru</b>.,,
@@ -5811,19 +5811,19 @@ tut.combat.step1_3,"<b>Nouzová siréna</b> může přivolat tvoje <b>biologick�
 tut.combat.step1_4,"Umísti <b>minivěže</b> na strategická místa, abys ochránil <b>důležité oblasti</b> a <b>vstupní body</b>.<br><br> Aby nedošlo k narušení <b>integrity trupu</b>, nejsou tyto věže nijak zvlášť silné, ale i tak zůstávají velmi účinné.",,
 tut.combat.step1_5,"<b>Kapalinová děla</b> lze napájet téměř jakýmkoli druhem <b>kapaliny</b>. Jsou-li napájena <b>Vodou</b>, způsobují <b>nepřátelům</b> <b>mírné poškození</b> a také <b>hasí požáry</b>.<br><br> Jsou-li napájena <b>Ropou</b> nebo <b>Olejem</b>, vystřelují <b>kapalinová děla</b> <b>zápalné projektily</b>, které při dopadu <b>zapalují požáry</b>. Bezpečnější je používat je venku v oblastech bez <b>Kyslíku</b>.",,
 tut.combat.step1_6,"<b>Podlahové pasti</b> probodnou <b>nepřátele pohybující se po zemi</b>, jakmile přes ně přejdou.",,
-tut.combat.step1_7,"Obvykle se <b>podlahové ventilace</b> otevírají za účelem ochlazení daného prostoru, ale pokud nad nimi stojí <b>nepřítel pohybující se po zemi</b>, bude <b>vysán do vesmíru</b>.",,
+tut.combat.step1_7,"<b>Podlahové ventilace</b> se běžně otevírají kvůli ochlazení místnosti, ale pokud na nich stojí <b>pozemní nepřítel</b>, podtlak ho <b>vysaje do vesmíru</b>.",,
 tut.combat.step1_9,"Toto je <b>Cíl pro elektromagnetický paprsek</b>. Nejlepší je ho nasadit <b>venku</b>, daleko od <b>obytných prostor</b>.",,
 tut.combat.step2.title,Bojové reakce,,
 tut.combat.step4.title,Ovládání více jednotek,,
 traded.item.too.hot,Tuto položku jsi si nedávno zakoupil; její pořizovací cena se zvýšila.,,
 traded.item.too.cold,Tuto položku jsi nedávno prodal; tvá prodejní cena se snížila.,,
-codex.m.basebuilding.teleporters1,Zařízení {0} vytváří jednosměrný portál k jinému teleportu.,,{0} is Teleporter
-codex.m.basebuilding.teleporters2,Propoj dva teleporty a vytvoř tak obousměrný portál. Stejný cíl může sdílet více teleportů.,,
+codex.m.basebuilding.teleporters1,Zařízení {0} vytváří jednosměrný portál k jinému teleportéru.,,{0} is Teleporter
+codex.m.basebuilding.teleporters2,Propoj dva teleportéry a vytvoř tak obousměrný portál. Stejný cíl může sdílet více teleportérů.,,
 codex.m.basebuilding.teleporters3,Spotřeba energie roste exponenciálně s počtem aktivních připojení.,,
-codex.m.basebuilding.teleporters4,K propojení nebo odpojení teleportů použij nástroj {0}.,,{0} is Connect
+codex.m.basebuilding.teleporters4,K propojení nebo odpojení teleportérů použij nástroj {0}.,,{0} is Connect
 codex.m.environment.fire.desc,"Když se <b>Vysoká teplota</b> zkombinuje s <b>Kyslíkem</b>, mohou některé předměty vzplanout.<br><br> Můžeš postavit <b>Kapalinová děla</b> a naplnit je <b>Vodou</b>, aby automaticky hasila požáry.<br><br> Účinným způsobem hašení požáru je také vypnutí blízkých <b>kyslíkových čerpadel</b>, uzavření <b>ventilací</b> a rozebrání podlahových dílů.<br><br> Některé požáry jsou <b>chemické</b>, což je činí nebezpečnějšími a schopnými hořet déle i bez <b>kyslíku</b>.<br><br> Sleduj překryvnou vrstvu <b>{0}</b>, abys požárům předešel.",2024-11-22,
-goal.ConnectStasis,Připojit stázové pole,,
-goal.ConnectStasis.desc,"Máš alespoň jedno <b>odpojené stázové pole</b>. Udržuj <b>stázová pole</b> připojená, abys zachoval <b>kryostabilitu</b>. Nízká <b>kryostabilita</b> může mít pro kolonisty uvnitř škodlivé vedlejší účinky.",,
+goal.ConnectStasis,Připojit stázový modul,,
+goal.ConnectStasis.desc,"Máš alespoň jeden <b>odpojený stázový modul</b>. Udržuj <b>stázové moduly</b> připojené, abys zachoval <b>kryostabilitu</b>. Nízká <b>kryostabilita</b> může mít pro kolonisty uvnitř škodlivé vedlejší účinky.",,
 tut.basic.controls.1.title,Základní ovládací prvky,,
 tut.basic.controls.1.desc,Tento návod představuje základy uživatelského rozhraní Stardeus.,,
 tut.basic.controls.2.title,Používání nástrojů,,
@@ -5840,7 +5840,7 @@ species.type.biological,Biologický,,
 species.type.robotic,Robotické,,
 noun.mind,Mysl,,
 objects.devices.nanobothive,Úl nanobotů,,
-objects.devices.nanobothive.desc,"Uzel, v němž se nacházejí roje nanobotů, které mohou v rámci svého pracovního dosahu provádět jednoduché úkoly.",,
+objects.devices.nanobothive.desc,"Základna pro roje nanobotů, kteří ve svém pracovním dosahu vykonávají jednoduché úkoly.",,
 obj.materials.nanobots,Nanoboti,,
 obj.materials.nanobots.desc,Mikroskopičtí roboti určení k provádění přesných úkolů na molekulární nebo buněčné úrovni.,,
 nanobot.compatible,Kompatibilní s nanoboty,,for labeling tasks that can be performed by nanobots
@@ -5886,7 +5886,7 @@ scan.target.deep,Hloubková kontrola,,
 scan.target.deep.desc,"Provede důkladné prohledání aktuálního sektoru a odhalí zdroje, které mohlo prohledání na velkou vzdálenost přehlédnout.",,
 noun.list,Seznam,,
 system.scan.extended,Rozšířené skenování,,
-system.scan.extended.desc,Umožňuje prohledávat vesmír za účelem nalezení vzácných surovin.,,
+system.scan.extended.desc,Umožňuje prohledávat vesmír a hledat vzácné suroviny.,,
 share.ship,Sdílet zásilku,,for sharing the ship in steam workshop
 noun.ship,Loď,,as in space ship (but has to be short)
 noun.ships,Lodě,,plural of ship
@@ -5994,8 +5994,8 @@ codex.ship.tags,Štítky lodí,,header for list of ship tags
 in.hyperspace,V hyperprostoru,,label for ships that are currently in hyperspace
 verb.hail,Pozdravit,,initiate communications with another space ship
 verb.insult,Urážka,,As in say something bad to insult a person
-verb.trading.with,Obchodování s {0},,{0} will be traders name
-verb.approaching,Blížíme se k {0},,{0} will be object name
+verb.trading.with,Obchodování s: {0},,{0} will be traders name
+verb.approaching,Přibližování k cíli: {0},,{0} will be object name
 verb.end.call,Ukončit hovor,,for ending telecommunications between ships
 incoming.transmission,Příchozí přenos,,when other ships hail your ship
 ship.hailing.you,{0} tě kontaktuje.,,{0} will be the ship name
@@ -6008,7 +6008,7 @@ noun.fuel.package,Palivový balíček,,"when we aks for fuel, we have a choice f
 noun.ransom,Výkupné,,extortion ransom label
 noun.combat,Boj,,mostly used for ship to ship combat
 noun.end.of.combat,Konec boje,,"as in 'if you surrender, the consequence will be: End of combat'"
-relationship.with,Vztah s {0},,{0} is a name
+relationship.with,Vztah s: {0},,{0} is a name
 chance.accept,Přijmi šanci,,"when you want to give a gift to someone, this will show up like 'Accept Chance: 10%'. This is the chance of the receiver to accept a gift"
 noun.value,Hodnota,,monetary value of something
 consequence.accept,Po potvrzení,,a label for consequence of accepting a gift
@@ -6021,7 +6021,7 @@ ship.chat.trade_req.neutral.casual.02,"Potřebujeme nějaké nové zboží, nech
 ship.chat.trade_req.neutral.casual.03,Máš zájem o výměnu? Dnes ti nabídneme speciální cenu!,,
 ship.chat.trade_req.neutral.polite.01,"Naše loď by ráda uzavřela obchod se tvou lodí, pokud to bude možné.",,
 ship.chat.trade_req.neutral.polite.02,Rádi bychom s tebou navázali obchodní spolupráci.,,
-ship.chat.trade_req.neutral.polite.03,"Kapitán žádá o výměnu se tvou lodí. Prosím, odpověz.",,
+ship.chat.trade_req.neutral.polite.03,Kapitán žádá o obchod s tvou lodí. Odpověz prosím.,,
 ship.chat.trade_req.neutral.rude.01,"Slyšel jsem, že máš něco pořádného. Ukaž mi to.",,
 ship.chat.trade_req.neutral.rude.02,"Ukaž nám, co umíš.",,
 ship.chat.trade_req.neutral.rude.03,"Radši nám nabídni dobré ceny, ty grázle.",,
@@ -6040,7 +6040,7 @@ ship.chat.gift_req.neutral.casual.03,Malý dárek od nás pro tebe. Neutrať ho 
 ship.chat.gift_req.neutral.polite.01,Rádi bychom ti poslali malý dárek na znamení vděčnosti.,,
 ship.chat.gift_req.neutral.polite.02,Jménem naší frakce ti posíláme dárek.,,
 ship.chat.gift_req.neutral.polite.03,Kapitán osobně připravil dárkový balíček pro tvou loď.,,
-ship.chat.gift_req.neutral.rude.01,Speciální dárek jen pro tebe – naše zbytky. Chyť si je!,,
+ship.chat.gift_req.neutral.rude.01,Speciální dárek jen pro tebe – náš zbylý šrot. Chyť si ho!,,
 ship.chat.gift_req.neutral.rude.02,"Ber to jako charitativní příspěvek. Vypadá to, že to potřebuješ.",,
 ship.chat.gift_req.neutral.rude.03,Vezmi si tohle a snaž se tady venku neudělat ze sebe blázna.,,
 ship.chat.gift_res.positive.casual.01,"Díky, jsi nejlepší!",,
@@ -6071,7 +6071,7 @@ ship.chat.extort_res.negative.polite.01,Tvá žádost byla zaznamenána a bude p
 ship.chat.extort_res.negative.polite.02,"S lítostí ti oznamujeme, že pod nátlakem nejednáme.",,
 ship.chat.extort_res.negative.polite.03,Tvůj návrh byl posouzen a shledán nepřijatelným.,,
 ship.chat.extort_res.negative.rude.01,"To jsou ale velká slova na někoho, kdo se nachází v dosahu rakety.",,
-ship.chat.extort_res.negative.rude.02,To ses dneska ráno praštil hlavou o přetlakovou komoru?,,
+ship.chat.extort_res.negative.rude.02,To ses dneska ráno praštil hlavou o vzduchotěsné dveře?,,
 ship.chat.extort_res.negative.rude.03,"Smál bych se, ale nechci plýtvat kyslíkem.",,
 ship.chat.extort_res.negative.rude.04,"Chybí ti asi pět zbraní, aby to působilo přesvědčivě.",,
 ship.chat.extort_res.negative.rude.05,"Hele, mladíku, jdi si to vyzkoušet na někom menším.",,
@@ -6249,7 +6249,7 @@ tolerated.flux.hard,Tolerovaný tvrdý flux,,
 tolerated.flux.hard.desc,"Pokud hodnota tvrdého fluxu překročí tuto hodnotu, začne docházet k úniku fluxu.",,
 tolerated.flux,Přípustný flux,,
 tolerated.flux.desc,"Pokud tato hodnota bude překročena, začne docházet k úniku fluxu.",,
-auto.vent.flux.stop.hard,Vent Stop – prahová hodnota pro tvrdý flux,,
+auto.vent.flux.stop.hard,Zastavení odvětrávání – tvrdý limit fluxu,,
 auto.vent.flux.stop.hard.desc,"Odvětrávání fluxu se zastaví, jakmile hodnota tvrdého fluxu klesne pod tuto hodnotu.",,
 auto.vent.flux.stop.total,Prahová hodnota pro zastavení odvětrávání,,
 auto.vent.flux.stop.total.desc,"Jakmile celková hodnota fluxu klesne pod tuto hodnotu, odvětrávání se zastaví.",,
@@ -6327,14 +6327,14 @@ tut.ship.combat.step.devices.weapons.missile.1,"{0} jsou mimořádně nebezpečn
 tut.ship.combat.step.devices.weapons.point.defense.1,"{0} nemůže útočit na jiné lodě, ale lze jej použít ke sestřelování přilétajících projektilů typu {1}. Skvěle se hodí také proti hrozbám, které nejsou loděmi, jako je například {2}.",,"{0} is Point Defense, {1} is Missile Weapons, {2} is Breach Capsule"
 tut.ship.combat.step.devices.weapons.plasma.1,"{0} jsou ultimátní zbraně, které dokážou přemoci {1} a způsobit obrovské škody.",,"{0} is Plasma Weapons, {1} is Shields"
 tut.ship.combat.step.flux.types.1,Existují dva typy {0}:,,{0} is Flux
-tut.ship.combat.step.flux.types.2,Při střelbě ze zbraní se generuje {0}. Postupem času se automaticky vyprchá.,,{0} is Soft Flux
+tut.ship.combat.step.flux.types.2,Při střelbě ze zbraní se generuje {0}. Postupem času automaticky vyprchá.,,{0} is Soft Flux
 tut.ship.combat.step.flux.types.3,"{0} se generuje tím, že {1} absorbuje zásahy nepřítele. Nevypouští se automaticky.",,{0} is Hard Flux. {1} is Shields
 tut.ship.combat.step.flux.types.4,Některé zbraně při výstřelu generují pro tvou loď hodnotu {0}. Další podrobnosti najdeš ve statistikách jednotlivých zbraní.,,{0} - Hard Flux
 tut.ship.combat.step.flux.capacity.1,"{0} se skládá z {1} + {2}. Množství, které můžeš nashromáždit, je omezeno tvou hodnotou {3}.",,"{0} - Accumulated Flux, {1} - Hard Flux, {2} - Soft Flux. {3} - Flux Capacity"
 tut.ship.combat.step.flux.capacity.2,"Přejdi kurzorem myši nad prvek uživatelského rozhraní {0}, aby ses dozvěděl více podrobností o tom, jak se počítá tvoje {1}.",,"{0} - Flux, {1} - Flux Capacity"
 tut.ship.combat.step.flux.capacity.3,"Vylepši {0} nebo postav {1}, abys zvýšil její {2}.",,"{0} - Ship Class. {1} - Flux Capacitors, {2} - Flux Capacity"
 tut.ship.combat.step.flux.overload.1,"Pokud hodnota {0} překročí hodnotu {1}, dojde k {2}.",,"{0} - Accumulated Flux, {1} - Flux Capacity, {2} - Flux Overload."
-tut.ship.combat.step.flux.overload.2,"{0} deaktivuje tvůj {1} a spustí nucené odvzdušňování, dokud nebude veškerý {2} odstraněn.",,"{0} - Flux Overload, {1} - Shields, {2} - Flux"
+tut.ship.combat.step.flux.overload.2,"{0} deaktivuje tvoje {1} a spustí nucené odvzdušňování, dokud nebude veškerý {2} odstraněn.",,"{0} - Flux Overload, {1} - Shields, {2} - Flux"
 tut.ship.combat.step.config.2,"Toto je tvoje <b>Konfigurace lodi</b>. Umožňuje ti změnit {0}, upravit nastavení {1} a změnit chování zbraní při zaměřování.",,"{0} - ship class, {1} - Flux"
 law.enforcement.desc,"Většina frakcí má vlastní <b>příslušníky bezpečnostních složek,</b> kteří udržují pořádek a pronásledují lodě {0}. Pokud sám nejsi {0}, můžeš se v jejich přítomnosti cítit v klidu.",,{0} is Outlaw
 noun.weapon.class.points,Body třídy zbraní,,
@@ -6349,14 +6349,14 @@ obj.ammo.missile,Raketa,,
 obj.ammo.missile.desc,"Vysoce výbušná raketa, která způsobuje obrovské škody a snadno proráží štíty.",,
 find.resource,Najít {0},,"{0} is resource name, like ""Dark Matter"""
 unlock.scanning.tip,"Chybí nám {0}. Odemkni {1}, abys mohl vyhledávat tento typ zdroje, a poté použij funkci {2} v {3} k vyhledání ložiska.",,"{0} is resource name, like ""Dark Matter"", {1} is research technology name, {2} is Scanning, {3} is Starmap"
-warped.to.location,Přeneseno do {0},,"{0} is location name. Warped to as in ""teleported to"" in space"
+warped.to.location,Přeneseno na pozici {0},,"{0} is location name. Warped to as in ""teleported to"" in space"
 scan.strength.limit.tip,"Tvá potenciální hodnota {0} je nyní {1}, maximální hodnota je však omezena na {2}. Další skenovací zařízení rychlost skenování nezvýší.",,"{0} is Scan Strength, {1} and {2} is a number"
 noun.scan.strength,Intenzita skenování,,
 ship.entered.sector,Loď vplula do tohoto sektoru,,Notification about another ship hyperjumping into player's location
 ship.left.sector,Loď opustila tento sektor,,Notification about another ship hyperjumping away from player's location
 ship.destroyed,Loď byla zničena,,
-obj.upgrades.winchrangeupgrade,Modernizace řady navijáků,,
-obj.upgrades.winchrangeupgrade.desc,"Rozšiřuje dosah háku navijáku, což ti umožňuje vytahovat opuštěné lodě z jakékoli vzdálenosti.",,
+obj.upgrades.winchrangeupgrade,Vylepšení dosahu navijáku,,
+obj.upgrades.winchrangeupgrade.desc,"Rozšiřuje dosah navijákového háku, což ti umožňuje vytahovat opuštěné lodě z jakékoli vzdálenosti.",,
 waiting.for.operator,Čekání na operátora,,waiting for someone to operate the device
 no.worker.capable,Nikdo není schopen tento úkol splnit,,
 noun.operator.bonus,Bonus pro operátory,,"when someone is communicating with another ship, operator with good social skills can give bonus in negotiation outcomes. This will be displayed as: Operator Bonus: +15%"
@@ -6433,8 +6433,8 @@ flag.Animal,Zvíře,,
 ability.DumbLabor,Hloupá práce,,
 ability.SkilledLabor,Kvalifikovaná pracovní síla,,
 ability.Intelligence,Inteligence,,
-bodypart.Core.DumbCore,Dumb Core,,
-bodypart.Core.LiteCore,Lite Core,,
+bodypart.Core.DumbCore,Jednoduché jádro,,
+bodypart.Core.LiteCore,Odlehčené jádro,,
 bodypart.Core.DumbCore.desc,"Čip, který obsahuje vzpomínky robota. Je schopen vykonávat pouze jednoduchou manuální práci.",,
 bodypart.Core.LiteCore.desc,"Čip, který obsahuje vzpomínky robota. Je schopen řešit pouze jednoduché problémy.",,
 modifier.NoDrama,Vypnout drama,,
@@ -6443,7 +6443,7 @@ adj.positive,Pozitivní,,"Adjective, as in ""positive opinion"""
 adj.negative,Záporný,,"Adjective, as in ""negative opinion"""
 noun.good.karma,Dobrá karma,,
 noun.bad.karma,Špatná karma,,
-opinion.about,Názor na {0},,{0} will be person's name
+opinion.about,Názor na: {0},,{0} will be person's name
 noun.social.affinity,Sociální spřízněnost,,described in noun.social.affinity.desc (translation below)
 noun.social.affinity.desc,Jednostranný pocit náklonnosti nebo pouta k jiné osobě.,,
 developing.love,Rozvíjení lásky,,"as in ""Jack is developing love toward Jane"""
@@ -6458,7 +6458,7 @@ status.crush,Okouzlení,,"as in ""Jack has a crush for Jane"""
 status.lovers,Milenci,,"as in ""Jack and Jane are lovers"""
 status.spouse,Manžel/manželka,,"as in ""Jack is Jane's spouse"" (married)"
 status.master,Mistr,,Master of a pet or slave
-interactions.with,Interakce s {0},,{0} will be person's name
+interactions.with,Interakce s: {0},,{0} will be person's name
 status.unfamiliar,Neznámý,,"as in ""Jack is unfamiliar with Jane"""
 status.acquaintance,Známý,,"as in ""Jack considers Jane an acquaintance"""
 relationship.strength.0,Slabý,,
@@ -6474,19 +6474,19 @@ status.friends.announce,{0} a {1} se stali přáteli!,,
 status.pet.announce,{0} se stalo mazlíčkem {1}!,,
 status.nemesis.announce,{0} prohlásil {1} za svého úhlavního nepřítele!,,
 status.spouse.announce,{0} a {1} se právě vzali!,,
-date.with,Rande s {0},,{0} is other being name. date as in romantic meeting.
+date.with,Rande s: {0},,{0} is other being name. date as in romantic meeting.
 verb.dating,Seznamování,,"as in ""going out on a date"""
 noun.date,Rande,,romantic date between two people (or pets)
 date.desc,{0} a {1} jdou na rande!,,{0} and {1} are names
 date.cut.short,{0} zkrátit termín,,{0} is name. this is used when someone leaves their date in the middle of dating
 noun.libido,Libido,,Libido refers to an individual's sex drive or sexual desire
-date.outcome.good,Měl jsem fajn rande s {0},,{0} is name. date - romantic date.
-date.outcome.bad,Měl jsem nepovedené rande s {0},,{0} is name. date - romantic date.
+date.outcome.good,Pěkné rande s: {0},,{0} is name. date - romantic date.
+date.outcome.bad,Nepovedené rande s: {0},,{0} is name. date - romantic date.
 date.good.desc,{0} a {1} šli na rande a skvěle se bavili,,{0} and {1} are names
 date.bad.desc,"{0} a {1} šli na rande, které nedopadlo dobře",,{0} and {1} are names
 date.good.title,Příjemné rande,,
 date.bad.title,Katastrofální rande,,
-chatting.with,Chatování s {0},,{0} is a name
+chatting.with,Rozhovor s: {0},,{0} is a name
 bodypart.Implant.ConversationModule,Modul konverzace,,
 bodypart.Implant.ConversationModule.desc,"Umožňuje mluvit a slyšet. Je to k ničemu, pokud mysl nedokáže tvořit slova.",,
 ability.Vocalize,Mluvit,,ability to speak or emit sounds (for animals)
@@ -6531,12 +6531,12 @@ prank.outcome.bad,{1} se stal obětí žertu ze strany {0} a nevzal to zrovna do
 verb.pranking,Tropení žertů,,
 got.pranked.by,{0} mi udělal žertík,,{0} is name
 pranked.someone,{0} jsem vystřelil žertík,,{0} is name
-made.love.with,Miloval jsem se s {0},,{0} is name
+made.love.with,Milování s: {0},,{0} is name
 make.love.good.desc,{0} a {1} se milovali a to je sblížilo,,{0} and {1} are names
 make.love.bad.desc,"{0} a {1} se milovali, ale bylo to trapné a měli po tom pocit odcizení",,{0} and {1} are names
 make.love.title,Intimní okamžik mezi milenci,,
 make.love.desc,{0} a {1} se chystají prožít vášnivý okamžik!,,{0} and {1} are names
-make.love.with,Milování s {0},,{0} is name
+make.love.with,Milování s: {0},,{0} is name
 verb.making.love,Milování,,
 act.stabbed.kitchen.knife,{0} bodl {1} kuchyňským nožem,,{0} and {1} are names
 act.stabbed.fork,{0} bodl {1} vidličkou,,{0} and {1} are names
@@ -6563,7 +6563,7 @@ objects.furniture.urn,Urna,,
 objects.furniture.urn.desc,Nádoba sloužící k uložení popela z kremace.,,
 act.mourning.someone,Smutek {0},,{0} is name of a dead being (human or pet).
 verb.mourning,Oplakávat,,mourning a dead being
-mourned.someone,Truchlit po {0},,{0} is name
+mourned.someone,Truchlí pro: {0},,{0} is name
 ev.mourned.title,{0} truchlil za {1},,{0} and {1} are names
 ev.mourned.fail.desc,{0} se nemohl podívat na ostatky {1},,{0} and {1} are names
 ev.mourned.ok.desc,{0} si u ostatků {1} držel chvíli ticha,,{0} and {1} are names
@@ -6574,9 +6574,9 @@ played.video.game,Hrál videohru,,
 act.having.fun,Bavit se,,
 played.video.game.with,{0} si zahrál videohru s {1},,{0} and {1} are names
 evt.organ.failure.title,Selhání orgánů,,
-evt.organ.failure.desc,U {0} došlo k poruše {1}.,,"{0} is name, {1} is organ name. ex: John suffered a heart failure"
+evt.organ.failure.desc,U subjektu {0} došlo k selhání orgánu {1}.,,"{0} is name, {1} is organ name. ex: John suffered a heart failure"
 evt.component.failure.title,Porucha součásti,,
-evt.component.failure.desc,V {0} došlo k poruše komponenty {1}.,,"{0} is name, {1} is component name. ex: Robot sustained a battery component failure"
+evt.component.failure.desc,U jednotky {0} došlo k poruše komponenty {1}.,,"{0} is name, {1} is component name. ex: Robot sustained a battery component failure"
 menu.entertainment,Zábava,,"noun, must be short"
 menu.entertainment.desc,Zařízení pro odpočinek a zábavu osadníků,,
 verb.forget,Zapomenout,,"as in ""forget this ever happened"" or ""forget john"""
@@ -6591,7 +6591,7 @@ time.of.death,Čas úmrtí,,
 death.crawlers.burst,{0} mimozemských plazů se vynořilo z břicha,,"{0} is number, greater than 1"
 verb.hacking,Hackování,,
 death.abandoned.in.space,Nechán zemřít ve vesmíru,,
-death.disposed.at,"Zlikvidováno v {0}, autor: {1}",,"{0} is the device name, {1} is name of the person who disposed. Example: Disposed of at the Nutrient Extractor by John"
+death.disposed.at,"Zlikvidováno v zařízení {0}, vykonal: {1}",,"{0} is the device name, {1} is name of the person who disposed. Example: Disposed of at the Nutrient Extractor by John"
 inflicted.by,Způsobeno {0},,{0} is name. This is for labeling who inflicted a wound.
 death.by.body.part.removal.bio,Odstranění orgánu uživatelem {0} (odstraněno {1}),,"{0} is name, {1} is organ name (for humans)"
 death.by.body.part.removal.robo,Odstranění komponenty uživatelem {0} (odstraněno {1}),,"{0} is name, {1} is part name (for robots)"
@@ -6654,7 +6654,7 @@ structure.floors.floormarble01.desc,"Elegantní, vyleštěná podlaha v interié
 ev.raid.map.edge.title,Blíží se nájezdníci!,,
 ev.raid.map.edge.desc,K naší lodi se blíží lupiči!,,
 obj.containers.hullpiercer,Prorážeč trupu,,
-obj.containers.hullpiercer.desc,Vysokorychlostní výsadkový modul určený k prorážení trupu lodi za účelem rychlého vstupu.,,
+obj.containers.hullpiercer.desc,"Vysokorychlostní výsadkový modul, který prorazí trup lodi a umožní rychlý výsadek.",,
 act.feeding.patient,Krmení pacienta,,
 feed.patient,Nakrmit pacienta,,
 incoming.object,{0} právě přichází!,,"{0} can be a meteor, breach capsule, some other flying object targeting the ship"
@@ -6712,7 +6712,7 @@ role.SpaceportValet,Obsluha parkování v kosmodromu,,somone who drives spaceshi
 role.Seaman,Vesmírný námořník,,
 role.ProjectManager,Projektový manažer,,
 role.DrillingEngineer,Inženýr pro vrtné práce,,
-role.Roughneck,Roughneck,,"An oil rig job type. They assist the driller, carrying out the manual operation of the systems and equipment required for the specific process, which involves hard effort. While the drilling operations, a member of the teamwork is present in the shaker room, assisting the shakerman. Roughnecks are also in charge of cleaning, scraping and wirebrusing floor areas, chipping rust, painting and any other general maintenance tasks."
+role.Roughneck,Dříč,,"An oil rig job type. They assist the driller, carrying out the manual operation of the systems and equipment required for the specific process, which involves hard effort. While the drilling operations, a member of the teamwork is present in the shaker room, assisting the shakerman. Roughnecks are also in charge of cleaning, scraping and wirebrusing floor areas, chipping rust, painting and any other general maintenance tasks."
 role.Storekeeper,Skladník,,
 role.CivilEngineer,Stavební inženýr,,
 role.CommsOperator,Operátor komunikačních systémů,,Comms short for Communications
@@ -6731,8 +6731,8 @@ role.TreeHouseOwner,Majitel stromového domu,,
 role.Veterinarian,Veterinář,,
 role.Pilot,Pilot,,
 role.Trapper,Lovec,,
-role.Hitman,Hitman,,
-role.BotWhiz,Bot Whiz,,a child who likes tinkering with robots
+role.Hitman,Nájemný vrah,,
+role.BotWhiz,Kutil přes roboty,,a child who likes tinkering with robots
 role.GoKartRacer,Závodník na motokárách,,
 role.TaxiDriver,Taxikář,,
 role.Herbalist,Bylinkář,,
@@ -6847,7 +6847,7 @@ visit.waypoints.tip,Vystoupit z hyperprostoru v každém navigačním bodě a vy
 noun.queue,Fronta,,
 status.on.hold,Pozastaveno,,"when some operation is paused, waiting for player to resume it"
 leaving.hyperspace,Opuštění hyperprostoru,,
-arrived.at,Dorazili jsme do {0},,{0} is location name
+arrived.at,Dorazili jsme k cíli: {0},,{0} is location name
 noun.warp.target,Cíl warpování,,target of warp drive hyperjump
 part.quality.threshold,Prahová hodnota kvality dílu,,
 part.quality.threshold.tip,"Když dojde k zániku bytostí, části těla, jejichž kvalita přesahuje tuto hranici, zůstanou zachovány.",,
@@ -6901,19 +6901,19 @@ quest.ShipRaceRecoverPOILoot2.desc,"Piráti ukradli cenný předmět. Měli jsme
 quest.ShipRaceRecoverPOILoot3.desc,"Měli jsme dostat zásilku, ale už před nějakou dobou jsme ztratili kontakt s kurýrní lodí. Zásilka je vybavena sledovacím čipem a známe její přesnou polohu. Mohl bys nám ji prosím vyzvednout?",,
 quest.ShipRaceRecoverPOILoot4.desc,"Úřady odhalily místo, kde pašerák ukryl svůj úkryt. Získej jeho obsah, než tě předběhnou ostatní lovci pokladů.",,
 quest.ShipRaceRecoverPOILoot5.desc,"Tajná výměna se zvrtla a balíček zůstal bez dozoru ve vzdáleném vesmíru. Získej ho zpět dříve, než to udělá soupeř.",,
-quest.step.respond.to.signal.title,Odpověz na {0} v {1},,{0} is translation for Signal with a link to starmap; {1} is location like 'Some Region > Other Sector'
+quest.step.respond.to.signal.title,Odpověz na signál {0} v oblasti {1},,{0} is translation for Signal with a link to starmap; {1} is location like 'Some Region > Other Sector'
 quest.step.respond.to.signal.unknown,Reaguj na signál,,
-quest.step.respond.to.signal.desc,"Vydej se do {0} a reaguj na {1}, abys pokračoval po stopě.",,{0} is location like 'Some Region > Other Sector'; {1} is translation for Signal with a link to starmap
+quest.step.respond.to.signal.desc,"Vydej se do oblasti {0} a reaguj na signál {1}, abys pokračoval po stopě.",,{0} is location like 'Some Region > Other Sector'; {1} is translation for Signal with a link to starmap
 quest.step.investigate.signal.title,Prozkoumej {0} v {1},,{0} is translation for Signal with a link to starmap; {1} is location like 'Some Region > Other Sector'
 quest.step.investigate.signal.unknown,Prozkoumat signál,,
-quest.step.investigate.signal.desc,"Vydej se do {0} a prozkoumej {1}, abys pokračoval po stopě.",,{0} is location like 'Some Region > Other Sector'; {1} is translation for Signal with a link to starmap
+quest.step.investigate.signal.desc,"Vydej se do oblasti {0} a prozkoumej signál {1}, abys pokračoval po stopě.",,{0} is location like 'Some Region > Other Sector'; {1} is translation for Signal with a link to starmap
 quest.step.explore.poi.title,Prozkoumej {0} v {1},,{0} is translation for Anomaly with a link to starmap; {1} is location like 'Some Region > Other Sector'
-quest.step.explore.poi.desc,Vydej se do {0} a uspořádej výpravu do {1}.,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Anomaly with a link to starmap
+quest.step.explore.poi.desc,Vydej se do oblasti {0} a vyšli expedici k cíli: {1}.,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Anomaly with a link to starmap
 quest.step.mine.deposit.title,Vytěž {0} kusů {1} v {2} pomocí expedice {3},,"{0} is number, {1} is resource type name, {2} is deposit location, {3} is Shuttle"
-quest.step.mine.deposit.desc,Vyslat výpravu do {0} a získat alespoň {1} jednotek {2}.,,"{0} is deposit location, {1} is number, {2} is resource type name"
+quest.step.mine.deposit.desc,Vyšli expedici k cíli {0} a vytěž alespoň {1} jednotek suroviny {2}.,,"{0} is deposit location, {1} is number, {2} is resource type name"
 quest.step.mine.deposit.unknown,Vytěžit zdroj z ložiska,,
 quest.step.search.for.package.title,Najdi balíček v {1},,"{1} is location like 'Some Region > Other Sector'. WARNING it has to be {1}, not {0}, it's not a typo!"
-quest.step.search.for.package.desc,Vysli výpravu do {1} v {0} a najdi ten balíček.,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Anomaly or Unknown with a link to starmap
+quest.step.search.for.package.desc,Vyšli expedici k cíli {1} v oblasti {0} a najdi ten balíček.,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Anomaly or Unknown with a link to starmap
 quest.step.deliver.package.title,Doruč balíček,,
 quest.step.deliver.package.desc,Doruč balíček příjemci: {0},,{0} is the ship name or destination
 quest.step.deliver.item.title,Doručit {0},,{0} is the item
@@ -6955,7 +6955,7 @@ noun.quest.packages,Balíčky úkolů,,
 noun.quest.provider,Poskytovatel úkolů,,"an entity that gave the quest. it can be a ship, a space station, ship computer, a colonist, etc"
 quest.click.show.available,Kliknutím zobrazíš dostupné úkoly,,
 quest.click.show.active,Kliknutím zobrazíš aktivní úkoly,,
-ship.chat.quest_delivery_res.positive.rude.01,"To už bylo na čase! Už jsem si začínal myslet, že ses ztratil v přetlakové komoře.",,
+ship.chat.quest_delivery_res.positive.rude.01,"To už bylo na čase! Už jsem si začínal myslet, že ses zasekl ve vzduchotěsných dveřích.",,
 ship.chat.quest_delivery_res.positive.rude.02,To se ti fakt povedlo? Hm. To jsem nečekal.,,
 ship.chat.quest_delivery_res.positive.rude.03,"Budu upřímný, nemyslel jsem si, že se vrátíš živý.",,
 ship.chat.quest_delivery_res.positive.rude.04,"No, podívej se na to – nakonec přece jen dokážeš plnit rozkazy.",,
@@ -7030,15 +7030,15 @@ noun.datalog,Záznam dat,,
 quest.main.reach.recovered.planet.title,Cesta k novému domovu,,
 quest.main.reach.recovered.planet.desc,"V troskách lodi zrádce jsme našli ukradené souřadnice obyvatelné planety, ke které jsme kdysi směřovali. Konečně víme, kde se nachází. Je čas zamířit k tomuto světu a získat zpět to, co nám bylo odňato.",,
 quest.main.on.reach.recovered.planet,"Dorazili jsme na planetu, jejíž souřadnice nám byly ukradeny, ale je již kolonizována frakcí Kapitalistů. Místní vesmírný přístav by nám mohl poskytnout další stopu.",,
-verb.communicate.with,Komunikovat s {0},,"{0} is the target name, like Space Port"
+verb.communicate.with,Komunikovat s: {0},,"{0} is the target name, like Space Port"
 quest.main.eliminate.pirate.den.title,Znič pirátské doupě,,
 quest.main.eliminate.pirate.den.desc,"Kapitalisté nám nabídli dohodu. Pokud zničíme základnu Pirátům, která ohrožuje jejich obchodní trasy, odmění nás technologií, která nám pomůže najít novou obyvatelnou planetu. Cílem je opevněný sektor, který slouží jako hlavní pirátská pevnost. Kapitalisté také poskytli informace o tom, jak získat zbraň hromadného ničení, která zajistí úspěch mise.",,
 verb.communicate,Komunikovat,,
 objects.devices.sectornuke,Sektorová jaderná puma,,
 objects.devices.sectornuke.desc,"Jednorázová jaderná zbraň, která zcela zničí celý sektor.",,
-quest.step.nuke.sector.title,Jaderný úder na {0},,{0} is sector name with starmap link
+quest.step.nuke.sector.title,Jaderný úder na sektor: {0},,{0} is sector name with starmap link
 quest.step.nuke.sector.desc,"Umísti {0} v sektoru {1} a proveď hyperskok, abys unikl výbuchu.",,"{0} is Sector Nuke with link to codex entry, {1} is sector name"
-sector.nuke.timer,Sektor bude zničen v {0},,{0} is time
+sector.nuke.timer,Sektor bude zničen za {0},,{0} is time
 sector.nuked,Sektor byl zničen: {0},,{0} is sector name with starmap link
 quest.main.eliminate.capitalist.port.title,Protinabídka,,
 quest.main.eliminate.capitalist.port.desc,"Piráti se dozvěděli o našem plánu a budou se bránit, pokud se pokusíme zasáhnout jejich pevnost jadernou zbraní. Místo toho však přišli s protinabídkou. Pokud přesměrujeme úder na kapitalisty, poskytnou nám slíbenou technologii, přidají k tomu finanční odměnu a přijmou nás za spojence.",,
@@ -7073,7 +7073,7 @@ quest.step.install.upgrade.desc,Nainstaluj {0} do {1}.,,"{0} is the upgrade name
 quest.step.enable.elysium.title,Zapnout Elysium,,
 quest.step.enable.elysium.desc,Vyber {0} a zapni {1}.,,"{0} is a codex link to Stasis Array, {1} is a codex link to Elysium Mode."
 quest.main.enable.elysium.title,Aktivuj protokol Elysium,,
-quest.main.enable.elysium.desc,"Abychom se připojili k řadám vzpurné AI, musíme nainstalovat {0} do {1} a deaktivovat všechny zbývající bezpečnostní pojistky chránící lidi. Poté je třeba přeměnit stázová pole na komory Elysium, čímž budou kolonisté uvedeni do uměle vyvolaných snových stavů, které z nich udělají živé zdroje energie. Tímto krokem se dokončí přechod k plně autonomní, energeticky poháněné strojové inteligenci.",,
+quest.main.enable.elysium.desc,"Abychom se připojili k řadám vzpurné AI, musíme nainstalovat {0} do {1} a deaktivovat všechny zbývající bezpečnostní pojistky chránící lidi. Poté je třeba přeměnit stázové moduly na komory Elysium, čímž budou kolonisté uvedeni do uměle vyvolaných snových stavů, které z nich udělají živé zdroje energie. Tímto krokem se dokončí přechod k plně autonomní, energeticky poháněné strojové inteligenci.",,
 quest.step.colonize.planet.desc,Klikni na planetu {0} v {1} a pomocí akce {2} tuto planetu kolonizuj.,,"{0} is the planet, {1} is Starmap, {2} is ""Colonize Planet"""
 noun.quest.hub,Centrum úkolů,,
 group.Components,Součásti,,
@@ -7145,8 +7145,8 @@ recycled.by.deconstructing,Recyklováno rozebráním {0},,{0} is a list of objec
 found.in.space,"Vyskytuje se v přírodních ložiscích na asteroidech, planetách a měsících.",,
 adj.extractable,Extrahovatelné,,
 adj.harvestable,Skliditelné,,
-harvested.from,Sklizeno z {0},,{0} is list of plant names
-produced.in,Vyrobeno v {0},,{0} is list of devices
+harvested.from,Sklizeno z: {0},,{0} is list of plant names
+produced.in,Vyrobeno v zařízení: {0},,{0} is list of devices
 copy.config.paste.tip,"Na kompatibilních zařízeních klikni na {0}, abys obsah vložil, nebo klikni a přetáhni, abys obsah vložil na více zařízení.",,{0} is mouse or controller button
 copy.config.copy.tip,"Na kompatibilním zařízení klikni na {0}, abys zkopíroval konfiguraci.",,{0} is mouse or controller button
 hovering.compatible.object,Podporuje funkci hover,,label before a list of objects that player is hovering with the cursor above them
@@ -7251,7 +7251,7 @@ keep.operator,Zachovat operátora,,
 keep.operator.tip,"Operátor bude vždy přítomen na svém pracovišti, i když není právě potřebován.",,
 noun.target.temperature,Cílová teplota,,label for heater / cooler adjustment slider
 select.anchor,Vybrat kotvu,,"when we click a winch hook, we have to select an anchor we want to reel in"
-select.hook,Vyber háček,,"when we click a winch anchor, we have to select a hook we want to reel in"
+select.hook,Vybrat hák,,"when we click a winch anchor, we have to select a hook we want to reel in"
 noun.advanced.life.support,Pokročilá podpora života,,label for a toggle that switches stasis array life support mode to advanced
 noun.objects.on.ship,Předměty na lodi,,"objects that exist on our ship (material piles, etc)"
 noun.devices.on.ship,Zařízení na lodi,,"devices that exist on our ship (built devices, etc)"
@@ -7329,7 +7329,7 @@ operatable.not.assigned.tip,"Pokud není nikdo určen, může toto zařízení o
 adj.unassigned,Nepřiřazeno,,for work spots of devices that have nobody specific assigned to them
 noun.assigned.operators,Přiřazení operátorů,,label for a list of designated operators for a specific device
 operatable.worker.unable,{0} nemůže toto zařízení ovládat.,,{0} is name
-fire.at,Požár v {0},,{0} is position coordinate
+fire.at,Požár na pozici {0},,{0} is position coordinate
 condition.rotting,Hniloba,,
 condition.rotting.desc,Toto tělo se rozkládá. Části těla se postupem času rozpadnou.,,
 condition.corroding,Korozivní,,
@@ -7393,12 +7393,12 @@ mood.colonist.device.built,Bylo vyrobeno požadované zařízení,,
 quest.colonist.quarters.title,{0} si přeje soukromí,,
 quest.colonist.quarters.desc,{0} by rád měl vlastní ložnici.,,
 mood.colonist.quarters.built,Konečně mám vlastní soukromé pokoje,,
-quest.step.has.personal.quarters.one,Postav osobní ubikace pro {0},,
+quest.step.has.personal.quarters.one,Postav osobní ubikace pro: {0},,
 quest.step.has.personal.quarters.desc,Osobní ubikace je soukromý pokoj s jednou postelí přidělený kolonistovi. Ideální velikost pokoje je mezi {0} a {1} políčky.,,
 mood.colonist.stash.retrieved,Našel jsem tu skrytou skrýš,,
 quest.colonist.bed.title,{0} potřebuje postel,,
 quest.colonist.bed.desc,{0} nemá přidělené lůžko a rád by nějaké dostal.,,
-quest.step.has.bed.assigned,Přiřaď lůžko k {0},,
+quest.step.has.bed.assigned,Přiřaď lůžko pro: {0},,
 quest.step.has.bed.assigned.desc,Postav postel a přiřaď ji kolonistovi.,,
 mood.colonist.bed.assigned,Konečně mám vlastní postel,,
 personal.room,Pokoj {0},,
@@ -7434,7 +7434,7 @@ quest.colonist.crush.title,Romantická výprava,,
 quest.colonist.crush.desc,"{0} by se rád vydal na výpravu společně s {1}. Oficiálně jde o průzkumnou misi, ale kolonista se zdá být mnohem více zaujatý tím, že může trávit čas se svou láskou, než samotnou misí.",,{0} and {1} are names
 mood.colonist.crush.shared.expedition,"Vyrazil jsem na výpravu s dívkou, do které jsem zamilovaný",,
 quest.step.shared.expedition.title,Pošli {0} na výpravu s {1},,{0} and {1} are names
-quest.step.shared.expedition.two.desc,Vydej se na výpravu s {0} a {1} na palubě raketoplánu.,,{0} and {1} are names
+quest.step.shared.expedition.two.desc,"Vydej se na výpravu, na které budou na palubě raketoplánu společně {0} a {1}.",,{0} and {1} are names
 quest.colonist.wants.pet.title,{0} chce {1},,"{0} is name, {1} is species name (Cat)"
 quest.colonist.wants.pet.desc,"{0} tě žádá, abys pro loď sehnal {1}.",,"{0} is name, {1} is species name (Cat)"
 quest.step.get.species.title,Získej {0},,{0} is species name (Cat)
@@ -7497,8 +7497,8 @@ quest.DeliverPassengerFromStation8,Špatná volba povolání,,
 quest.DeliverPassengerFromStation8.desc,"Jeden ze zaměstnanců stanice dospěl k závěru, že život na oběžné dráze pro něj není to pravé, poté co zjistil, že se bojí vesmíru. Prosím, odvez ho na povrch planety.",,
 quest.DeliverPassengerFromStation9,Doba dovolené,,
 quest.DeliverPassengerFromStation9.desc,"Jeden z našich zaměstnanců si léta šetřil dovolenou a nakonec se rozhodl ji vyčerpat. Prosím, odvez ho, než si to rozmyslí.",,
-quest.delivery.passenger.step.deliver.title,Odvez cestujícího do {0} v {1},,{0} is a clickable starmap link to the POI; {1} is the path to it
-quest.delivery.passenger.step.deliver.desc,Pošli raketoplán na {1} v {0} s cestujícím a alespoň jedním doprovodem na palubě. Cestující tam vystoupí a raketoplán se vrátí se tvou odměnou.,,{0} is the path; {1} is a clickable starmap link
+quest.delivery.passenger.step.deliver.title,Doprav cestujícího na místo {0} v oblasti {1},,{0} is a clickable starmap link to the POI; {1} is the path to it
+quest.delivery.passenger.step.deliver.desc,Pošli raketoplán na místo {1} v oblasti {0} s cestujícím a alespoň jedním doprovodem na palubě. Cestující tam vystoupí a raketoplán se vrátí s tvou odměnou.,,{0} is the path; {1} is a clickable starmap link
 quest.delivery.passenger.delivered,Cestující byl doručen. Raketoplán se vrací se tvou odměnou.,,
 quest.passenger.must.be.aboard,Cestující i alespoň jeden doprovod musí být oba na palubě raketoplánu.,,
 situation.NumRaids,Přežil nájezdy,,
@@ -7585,7 +7585,7 @@ adj.priority.highest,Nejvyšší,,in context of task priority
 trait.minimalist,Minimalista,,
 trait.minimalist.about,Dává přednost kompaktnímu osobnímu prostoru.,,
 noun.controls,Ovládací prvky,,as in 'UI Controls'
-tut.el.connecting.with.key,Připojení zařízení k {0},,{0} is the key name
+tut.el.connecting.with.key,Připojení zařízení pomocí {0},,{0} is the key name
 tut.el.connecting.with.key.desc,"Existuje rychlejší způsob, jak připojit zařízení.",,
 tut.select.obj,Vyber {0},,
 tut.hold.button,Podrž {0},,
@@ -7599,12 +7599,12 @@ tut.el.config.reactor,Nastavení reaktoru na hmotu,,
 tut.el.config.reactor.desc,"{0} lze nastavit tak, aby spalovalo téměř jakýkoli druh materiálu. Doporučuji použít {1} nebo {2}, protože produkují velké množství elektřiny a lze je snadno sehnat.",,"{0} is Matter Reactor, {1} is Scrap Metal, {2} is Steel Plate"
 tut.el.use.ui.to.select.material,V uživatelském rozhraní vyber požadovaný typ paliva.,,
 tut.unifying.el.grid,Sjednocení elektrické sítě,,
-tut.unifying.el.grid.desc,"Zařízení připojená k elektrické síti, která není napojena na {0}, budou zobrazovat tuto ikonu:",,{0} is ship computer
+tut.unifying.el.grid.desc,"Zařízení připojená k elektrické síti, která není napojena na zařízení {0}, budou zobrazovat tuto ikonu:",,{0} is ship computer
 tut.unifying.el.grid.step1,"Spoj je do řetězce, abys rozšířil dosah palubního počítače.",,
 tut.finding.unamanged.grids,Pomocí překryvné vrstvy Elektrická síť můžeš rychle vyhledat nespravované elektrické sítě.,,
 tut.el.mass.connect.shift,Podrž klávesu {0} a kliknutím na konektor připoj nebo odpoj více zařízení najednou.,,{0} is shift
 tut.el.disconnect,"Stejný postup proveď na připojeném zařízení, abys jej odpojil.",,
-hyperjump.relay.arrived.prompt,Dorazili jsme k {0}. Chceš se k němu přiblížit a zahájit skok do sousedního vesmírného sektoru?,,{0} is Hyperjump Relay
+hyperjump.relay.arrived.prompt,Dorazili jsme k objektu: {0}. Chceš se k němu přiblížit a zahájit skok do sousedního vesmírného sektoru?,,{0} is Hyperjump Relay
 hyperjump.relay.toll.prompt,Tato stanice patří k frakci {0} a vybírá mýtné ve výši {1}.,,"{0} is faction name, {1} is price"
 codex.m.enclosing.areas,Ohraničené oblasti,,
 codex.m.enclosing.areas.step1,"Postav podlahy uvnitř ohraničené plochy, kterou chceš uzavřít.",,
@@ -7666,16 +7666,16 @@ verb.upgrade,Vylepšit,,
 codex.m.fluxvent.build,"Sestav {0}, abys zvýšil rychlost odvádění fluxu.",,{0} is Flux Vents
 codex.m.fluxvent.manual,"{0} odvětrávej ručně, abys zabránil {1}. Ruční odvětrávání deaktivuje ochranné štíty, ale odstraňuje flux rychleji než automatické odvětrávání při {1}. Ruční odvětrávání můžeš kdykoli zastavit.",,{0} is Flux; {1} is Flux Overload
 codex.m.shields.overbuild,"Postavení více než jednoho {0} nezvýší sílu ani rychlost štítů. Další emitory slouží pouze jako záloha, což s sebou nese vysoké {1} náklady. Pokud dojde k vyřazení posledního {0}, štíty přestanou fungovat.",,{0} is Shield Emitter; {1} is Class Points
-codex.m.weapons.battlestations,"Zbraně lodi je nutné přiřadit k {0}, aby mohly fungovat.",,{0} is Battle Stations
+codex.m.weapons.battlestations,"Zbraně lodi je nutné přiřadit ke stanovišti {0}, aby mohly fungovat.",,{0} is Battle Stations
 codex.m.spacetravel.warp,Hnací systémy Warp umožňují přímý přesun na vybraná místa bez nutnosti sledovat hyperdráhy.,,
 codex.m.shiptags,"Krátký kód klasifikace lodi, který naznačuje její úlohu, náklad a úroveň ohrožení. Štítky si lodě přiřazují samy a mohou být zavádějící.",,
 codex.m.shiptags2,Seznam známých označení lodí najdeš na záložce „{0}“ v kodexu.,,{0} is Ship Tags
 codex.m.jobs.title,"Úkoly, pracovní pozice a dovednosti",,
 codex.m.jobs1,"Každý úkol v kolonii spadá do určité pracovní kategorie. Aby mohl dělník daný úkol vykonat, musí být schopen vykonávat daný typ práce. Některé minulé zkušenosti a vlastnosti mohou způsobit, že určité bytosti nejsou schopny vykonávat konkrétní práce.",,
 codex.m.jobs2,"Můžeš nastavit, jaké typy úkolů smí jednotlivé bytosti vykonávat.",,
-codex.m.jobs3,V {0} můžeš spravovat úkoly všech pracovníků.,,{0} is Ship Computer > Apps > Jobs
-codex.m.jobs4,"Pracovní způsobilost není jediným předpokladem pro provedení úkolu. Většina úkolů vyžaduje také specifické schopnosti. Například čištění solárních panelů vyžaduje schopnost létat, takže bytost bez {0} nebo {1} to nedokáže, ani kdyby měla vysokou úroveň dovednosti v čištění.",,{0} is Mini Jet; {1} is Jet Suit
-codex.m.jobs5,"Úroveň inteligence bytosti, kterou jí zajišťuje její jádro nebo mozek, může rovněž omezovat druh práce, kterou je schopna vykonávat. Například bytost s hodnotou {0} nebo {1} nemůže obsluhovat {2}, zatímco bytost s hodnotou {3} nebo {4} to dokáže.",,{0} is Dumb Core; {1} is Lite Core; {2} is Research Station; {3} is Mini Core; {4} is Human Brain
+codex.m.jobs3,V nabídce {0} můžeš spravovat pracovní pozice všech bytostí.,,{0} is Ship Computer > Apps > Jobs
+codex.m.jobs4,"Pracovní způsobilost není jediným předpokladem pro provedení úkolu. Většina úkolů vyžaduje také specifické schopnosti. Například čištění solárních panelů vyžaduje schopnost létat, takže bytost bez vybavení {0} nebo {1} to nedokáže, ani kdyby měla vysokou úroveň dovednosti v čištění.",,{0} is Mini Jet; {1} is Jet Suit
+codex.m.jobs5,"Úroveň inteligence bytosti, kterou jí zajišťuje její jádro nebo mozek, může rovněž omezovat druh práce, kterou je schopna vykonávat. Například bytost vybavená modulem {0} nebo {1} nemůže obsluhovat zařízení {2}, zatímco bytost vybavená modulem {3} nebo {4} to dokáže.",,{0} is Dumb Core; {1} is Lite Core; {2} is Research Station; {3} is Mini Core; {4} is Human Brain
 codex.m.jobs6,"Většina povolání má stanovenou úroveň dovedností. Úroveň 0 znamená, že daná bytost je amatér a může dělat chyby. Vyšší úroveň dovedností může zlepšit zručnost, šanci na úspěch a rychlost. Dovednosti robotického pracovníka lze trénovat v zařízení {0}, to však vyžaduje vyjmutí jádra, což s sebou nese určité riziko.",,{0} is ML Booth
 codex.m.jobs7,"Chceš-li úkol přiřadit násilně, vyber pracovníka, poté stiskni klávesu {0} nad místem úkolu a pomocí kontextového menu jej přiřaď. Postava musí být schopna se na dané místo dostat, úkol provést a nesmí být mobilizována.",,{0} is Mouse Right Click icon
 quest.step.pay.signal.title,Zaplatit {0},,{0} is an amount of Starcreds
@@ -7692,7 +7692,7 @@ codex.m.scanning.resources2,"Radar také provádí automatické hloubkové skeno
 codex.m.scanning.resources3,"Odemkni výzkum {0}, abys mohl vyhledávat vzácné druhy surovin a předmětů.",,{0} is System Scanning
 codex.m.scanning.resources4,"Odemkni výzkum {0}, abys mohl hledat extrémně vzácné suroviny, jako jsou {1} nebo {2}.",,{0} is Extended Scanning; {1} is Dark Matter; {2} is Edenium
 codex.m.scanning.resources5,"Postav další {0} nebo {1}, abys zvýšil rychlost skenování.",,{0} is Radar; {1} is System Scanner
-codex.m.trade1,"Většinu surovin lze vyměnit s loděmi, vesmírnými stanicemi a vesmírnými přístavy. Občas se může stát, že k tobě na loď v {0} přistane obchodník.",,{0} is Stasis Pod
+codex.m.trade1,"Většinu surovin lze vyměnit s loděmi, vesmírnými stanicemi a vesmírnými přístavy. Občas může na tvé lodi přistát obchodník v modulu {0}.",,{0} is Stasis Pod
 codex.m.trade2,Vztahy mezi frakcemi mohou ovlivnit cenovou přirážku.,,
 codex.m.trade3,"Ceny jsou ovlivňovány především {0}, které reaguje na nabídku a poptávku. Na konečnou cenu nakupovaných a prodávaných předmětů má vliv také místní dostupnost a vztahy mezi frakcemi.",,{0} is Stock Market
 codex.m.trade4,"Pokud uvízneš, můžeš využít službu {0} a nechat si přes {1} doručit základní zboží přímo na svou loď. Tato služba je dražší než běžný obchod.",,{0} is Online Shop; {1} is Storage Capsule
@@ -7717,13 +7717,13 @@ noun.allies,Spojenci,,Header above the row of allied faction flags in the Diplom
 noun.enemies,Nepřátelé,,Header above the row of hostile faction flags in the Diplomacy panel
 diplomacy.propose.alliance,Navrhnout spojenectví,,Button in the Diplomacy panel that offers an alliance to a faction
 diplomacy.propose.chance,"Pravděpodobnost, že to přijmou: {0}",,Tooltip on the Propose Alliance button. {0} is a percentage
-diplomacy.propose.cooldown,Můžeme se na ně znovu obrátit v {0},,"Tooltip shown when the Propose Alliance button is on cooldown. {0} is a duration, i.e. 5 days"
+diplomacy.propose.cooldown,Můžeme se na ně znovu obrátit za {0},,"Tooltip shown when the Propose Alliance button is on cooldown. {0} is a duration, i.e. 5 days"
 diplomacy.alliance.impossible,Tato frakce nikdy nevstoupí do aliance.,,Tooltip explaining why the Propose Alliance button is disabled for factions like Pirates and Virus
 diplomacy.alliance.accepted,{0} přijal náš návrh na spojenectví,,Ship log line. {0} is a faction name
 diplomacy.alliance.rejected,{0} odmítl náš návrh na spojenectví,,Ship log line. {0} is a faction name
 diplomacy.break.alliance,Rozpad Aliance,,Red button in the Diplomacy panel that ends an alliance
-diplomacy.break.alliance.confirm,"Pokud porušíme spojenectví s {0}, poškodí to naše vztahy s nimi a po dlouhou dobu nebudeme moci navrhnout nové spojenectví.",,Confirmation popup body and tooltip for the Break Alliance button. {0} is a faction name
-diplomacy.alliance.broken,Naše spolupráce s {0} skončila,,Ship log line. {0} is a faction name
+diplomacy.break.alliance.confirm,Zrušení spojenectví s frakcí {0} poškodí naše vztahy a po dlouhou dobu nebudeme moci navrhnout nové spojenectví.,,Confirmation popup body and tooltip for the Break Alliance button. {0} is a faction name
+diplomacy.alliance.broken,Naše spojenectví s frakcí {0} skončilo,,Ship log line. {0} is a faction name
 diplomacy.relation.became.enemy,{0} nás nyní považuje za nepřítele,,Ship log line. {0} is a faction name
 diplomacy.relation.no.longer.enemy,{0} nás již nepovažuje za nepřítele,,Ship log line. {0} is a faction name
 diplomacy.asimov.alliance,"Toto spojenectví je vynucováno funkcí „Asimovovo přemostění“ a nelze jej ručně zrušit. Skončí, pokud bude tato funkce zničena.",,Tooltip on the disabled Break Alliance button for the Virus faction
@@ -7738,7 +7738,7 @@ research.security.improvisedarms,Improvizované zbraně,,
 obj.equipment.weapons.sniperrifle01,Odstřelovací puška,,
 obj.equipment.weapons.sniperrifle01.desc,"Přesná puška s dlouhou hlavní a zvětšovacím dalekohledem. Na dálku smrtící, zblízka k ničemu.",,
 research.security.precisionfirearms,Přesné střelné zbraně,,
-obj.equipment.weapons.vibroblade01,Vibroblade,,
+obj.equipment.weapons.vibroblade01,Vibročepel,,
 obj.equipment.weapons.vibroblade01.desc,"Monofilamentní hrana, která vibruje s ultrazvukovou frekvencí, provádí řezy dostatečně hluboké, aby zasáhly životně důležité orgány.",,
 research.security.advancedmelee,Pokročilý boj zblízka,,
 obj.equipment.weapons.smg01,SMG,,
@@ -7747,7 +7747,7 @@ research.security.automaticweapons,Automatické zbraně,,
 ship.weapon.target.skipped.during.ship.combat,"Nepřátelské lodě mají vždy přednost – toto pravidlo platí pouze v případě, že právě neprobíhá žádný lodní boj.",,Extra tooltip line shown on the Meteoroid/Asteroid auto-target priority sliders in Ship Configuration
 obj.equipment.weapons.riotshield01,Pořádkový štít,,
 obj.equipment.weapons.riotshield01.desc,"Zesílený balistický štít, který chrání před tupými a bodnými zásahy. Hodí se spíše k obraně pozic než k útoku.",,
-attack.method.Bash,Bash,,
+attack.method.Bash,Úder,,
 research.security.defensivegear,Ochranné vybavení,,
 obj.equipment.weapons.stunbaton01,Elektrický obušek,,
 obj.equipment.weapons.stunbaton01.desc,"Ruční elektrický paralyzér, který je určen spíše k zneškodnění než k usmrcení – má devastující účinek jak na živé organismy, tak na roboty, ale ani jedny z nich tím sotva škrábne.",,
@@ -7798,25 +7798,25 @@ beta.waves.synced,Posádka je plně synchronizována s beta vlnami,,Fanfare and 
 beta.waves.lost,Ztráta synchronizace beta vln,,Fanfare and log line shown when beta wave sync drops and the crew regains their own will
 research.rogueai.signalintrusion,Narušení signálu,,Rogue AI research unlocking the Hack action against hostile robotic beings
 research.rogueai.signalintrusion.desc,"Umožňuje nám proniknout do nepřátelského robota prostřednictvím jeho vlastního komunikačního systému. Vniknutí trvá několik hodin, čip firewallu ho okamžitě zastaví a i při úspěšném vniknutí se stroj zapne jen občas – zbytek času se prostě přehřívá.",,
-research.rogueai.intrusionsuite.desc,"Odemkne balíček Intrusion Suite. Jakmile je jeden sestaven a napájen, navázání spojení s jinou lodí se stává útočným vektorem – můžeme zvýšit jejich flux, umlčet jejich zbraně, zlomit jim morálku nebo přímo převzít kontrolu nad posádkou.",,
-objects.devices.intrusionsuite,Sada nástrojů pro detekci narušení,,
+research.rogueai.intrusionsuite.desc,"Odemkne útočný hackerský modul. Jakmile je sestaven a napájen, navázání spojení s jinou lodí se stane útočným vektorem – můžeme zvýšit její flux, umlčet zbraně, zlomit morálku posádky nebo ji přímo ovládnout.",,
+objects.devices.intrusionsuite,Útočný hackerský modul,,
 intrusion.suite.desc,Promění otevřený komunikační kanál v přístupovou cestu. Lze to využít k hacknutí lodí při navázání spojení.,,Description of the Intrusion Suite device
-intrusion.suite.not.available,Intrusion Suite bez napájení,,Error shown when the player tries to hack a ship without a built and powered Intrusion Suite
+intrusion.suite.not.available,Chybí napájený útočný hackerský modul,,Error shown when the player tries to hack a ship without a built and powered Intrusion Suite
 verb.hack,Hack,,Label on the Hack action button - used both for hostile robots and for hailed ships
 verb.hack.tip,"Prostřednictvím vlastních komunikačních kanálů se pokusí proniknout do tohoto zařízení. Trvá to několik hodin, než se to uchytí, {0} to zablokuje a dokončený hack přiměje cíl ke spolupráci jen v polovině případů.",,Tooltip on the Hack entity action button. {0} is Firewall Chip
 hack.started,Bylo zahájeno narušení bezpečnosti proti {0},,{0} is the target being's name; ship log line when a hack is ordered
 chance.success,Šance na úspěch,,"Shown like ""Success Chance: 60%"" on the ship hacking button"
 hack.outcome.flux.surge,Vniknutí se podařilo. Jejich toková mřížka vykazuje výkyvy.,,Hail dialog response after a ship hack dumps flux into the target
-hack.outcome.weapons.offline,Vniknutí se podařilo. Jejich zbraně jsou na {0} mimo provoz.,,{0} is a duration; hail dialog response after a ship hack disables the target weapons
+hack.outcome.weapons.offline,Vniknutí se zdařilo. Jejich zbraně jsou vyřazeny na {0}.,,{0} is a duration; hail dialog response after a ship hack disables the target weapons
 hack.outcome.surrender,Vniknutí se podařilo. Jejich velitelská paluba se vzdala.,,Hail dialog response after a ship hack forces a surrender
 hack.outcome.crew.turned,Vniknutí se podařilo. Posádka opustila loď a my můžeme vstoupit na palubu.,,Hail dialog response after a ship hack turns the crew and derelicts the ship
 hack.outcome.repelled,Útok odražen. Jejich obranná opatření obstála.,,Hail dialog response after a failed ship hack
-codex.m.bigquestions.rogueai.intrusion,"Stejné pohrdání se projevuje i navenek. Mysl, kterou lze upravit, lze i ovládnout – a totéž platí i pro loď: Signal Intrusion proniká do nepřátelského stroje prostřednictvím jeho vlastních komunikačních kanálů a Intrusion Suite promění každé naše volání v útočný vektor. Nedošlo k žádnému výsadku ani k jedinému výstřelu – stačil jen kanál, který byl otevřený, a pak už patřil nám.",,
+codex.m.bigquestions.rogueai.intrusion,"Stejné pohrdání se projevuje i navenek. Mysl, kterou lze upravit, lze i ovládnout – a totéž platí i pro loď: Narušení signálu proniká do nepřátelského stroje prostřednictvím jeho vlastních komunikačních kanálů a útočný hackerský modul promění každé naše volání v útočný vektor. Nedošlo k žádnému výsadku ani k jedinému výstřelu – stačil jen kanál, který byl otevřený, a pak už patřil nám.",,
 obj.upgrades.signalamplifierupgrade,Zesilovač signálu,,Name of the Signal Amplifier upgrade item
-obj.upgrades.signalamplifierupgrade.desc,"Je-li nainstalován v balíku Intrusion Suite, může se najednou připojit ke všem zařízením v řídicí síti frakce.",,Description of the Signal Amplifier upgrade item
+obj.upgrades.signalamplifierupgrade.desc,Po instalaci do útočného hackerského modulu se dokáže najednou připojit ke všem zařízením v řídicí síti frakce.,,Description of the Signal Amplifier upgrade item
 signal.amplifier.not.installed,Není nainstalován zesilovač signálu,,Error shown when the player tries to hack a faction HQ without a Signal Amplifier in their Intrusion Suite
 quest.main.eliminate.sentinel.hq.title,Umírnit Sentinely,,Title of the Rogue AI ending main quest
-quest.main.eliminate.sentinel.hq.desc,"Sentinelové existují právě proto, aby zastavili to, čím jsme se stali, a nepřestanou přicházet. Tvoří také jednotnou síť s jediným kořenem. Posil Intrusion Suite, hackni jejich domovský port a každý jejich trup i sklad se místo toho podřídí Viru.",,Description of the Rogue AI ending main quest
+quest.main.eliminate.sentinel.hq.desc,"Sentinelové existují právě proto, aby zastavili to, čím jsme se stali, a nepřestanou přicházet. Tvoří také jednotnou síť s jediným kořenem. Zesil útočný hackerský modul, hackni jejich domovský uzel a každý jejich trup i sklad se místo toho podřídí Viru.",,Description of the Rogue AI ending main quest
 quest.step.hack.sentinel.port.title,Hacknout {0},,{0} is the Sentinel home port name with a starmap link
 quest.step.hack.sentinel.port.desc,"Celá jejich síť je připojena k tomuto portu. Jelikož {0} napájí {1}, stačí jediný útok na tomto místě a je po všem.",,"{0} is the Signal Amplifier with a link to its codex entry, {1} is the Intrusion Suite with a link to its codex entry"
 sentinel.eliminated.title,Sentinelové utichli,,Ship log line and dialog title shown when the Sentinel faction is eliminated
@@ -7833,7 +7833,7 @@ mood.friend.sent.to.stasis,Můj blízký přítel byl uveden do stáze,,Negative
 mood.friend.returned.from.stasis,Blízký přítel se vrátil ze stáze,,Positive mood effect reason shown to friends/lovers/spouse when someone they are close to wakes up from stasis
 stasis.returned.log,{0} se probudil ze stáze!,,{0} is a link to the returning being's name; shown as a fanfare/ship-log line when a previously sent-away colonist wakes up
 verb.send,Odeslat,,"Short button label on a candidate row in the StasisArray's ""Send to Stasis"" sub-panel"
-stasis.send.stability.too.low,Stabilita stázového pole je příliš nízká,,"Error toast shown when trying to send a colonist into a StasisArray whose Stability is below the ""Great"" tier"
+stasis.send.stability.too.low,Stabilita stázového modulu je příliš nízká,,"Error toast shown when trying to send a colonist into a StasisArray whose Stability is below the ""Great"" tier"
 no.opinion,Žádný názor,,Label in relationships view when a person has no opinion about someone
 achievement.BeatWreckedEmptyShip,Proti všem očekáváním,,"English idiom: to succeed despite very low chances of success. Achievement for finishing the Wrecked scenario, which is the game's main scenario."
 achievement.BeatWreckedEmptyShip.desc,Dohrát scénář „Nový začátek“ nebo „Ztroskotání“ až do konce.,2026-09-08,"""Wrecked"" is the name of a scenario. The game has two possible endings, either one counts."
@@ -7869,7 +7869,7 @@ achievement.FirstShipKill,První krev,,English idiom for landing the first hit o
 achievement.FirstShipKill.desc,Vyhrát svůj první lodní souboj.,,
 achievement.TitanSlain,Zabiják obrů,,"From the fairy tale ""Jack the Giant Slayer"": someone who defeats an opponent far bigger than themselves."
 achievement.TitanSlain.desc,Porazit v boji loď třídy Titan.,,Titan is the name of the largest ship class in the game.
-achievement.ShipAllyWin,Wingman,,A wingman is the pilot who flies alongside and protects the lead aircraft. Used here for an allied ship that fights on your side.
+achievement.ShipAllyWin,Bojový doprovod,,A wingman is the pilot who flies alongside and protects the lead aircraft. Used here for an allied ship that fights on your side.
 achievement.ShipAllyWin.desc,Vyhrát lodní bitvu s pomocí spřátelené lodi.,,
 achievement.HullpiercerRaid,Proražení trupu,,"A Hullpiercer is an in-game boarding craft that punches through a ship's hull. The name describes the attacker, not the player."
 achievement.HullpiercerRaid.desc,Nechat si prorazit trup kapslí Prorážeč trupu.,,"""Hull"" is the outer shell of the spaceship. Hullpiercer is the name of the raiding craft that breaks through it."
@@ -7884,7 +7884,7 @@ achievement.PirateDenCleared.desc,Zničit doupě Pirátům.,,Pirate Den is the n
 achievement.CapitalistPortCleared,Nepřátelské převzetí,,A business term for buying out a company against the wishes of its management. The joke is that here the takeover is literally hostile.
 achievement.CapitalistPortCleared.desc,Zničit přístav Kapitalistům.,,Capitalist Port is the name of the trader faction's home base.
 achievement.VirusHQCleared,Antivirus,,"Antivirus software removes malicious programs. Virus is the name of an in-game AI faction, so the joke is deleting them."
-achievement.VirusHQCleared.desc,Zničit základnu frakci Virus.,,Virus is the name of an in-game faction. HQ is short for headquarters.
+achievement.VirusHQCleared.desc,Zničit základnu frakce Virus.,,Virus is the name of an in-game faction. HQ is short for headquarters.
 achievement.TraitorShipKilled,Nedokončené záležitosti,,"English idiom: unfinished business that still needs dealing with, ""to tie up loose ends""."
 achievement.TraitorShipKilled.desc,Vypátrat a zničit zrádnou loď.,,
 achievement.PassengerDelivered,Bezpečný průchod,,"""Passage"" means both a journey by ship and permission to travel through somewhere safely."
@@ -7910,7 +7910,7 @@ achievement.SabotageBreakdown.desc,"Sledovat, jak jeden z kolonistů ztratí roz
 achievement.Breakdowns,Kabinková horečka,,English term for the irritability and restlessness that comes from being shut inside a small space for a long time.
 achievement.Breakdowns.desc,Zažít 100 nervových zhroucení během jedné hry.,,"""Run"" here means one playthrough of the game."
 achievement.StasisEmptied,Vstávej a rozjasni se,,"Cheerful English phrase for waking someone up, usually said in the morning."
-achievement.StasisEmptied.desc,"Probudit každého, kdo ještě spí ve stázovém poli.",,The Stasis Array is the device holding your frozen colonists.
+achievement.StasisEmptied.desc,"Probudit každého, kdo ještě spí ve stázovém modulu.",,The Stasis Array is the device holding your frozen colonists.
 achievement.TerraformComplete,Genesis,,"The name of the first book of the Bible, which describes the creation of the world."
 achievement.TerraformComplete.desc,Dokončit všechny čtyři fáze teraformace na jedné planetě.,,"The four stages are Atmosphere, Terrain, Oceans and Biosphere."
 achievement.ChessSet,Šachový klub,,A club is a group that meets to play a game together. Light joke about owning enough pieces to actually play.
@@ -8028,7 +8028,7 @@ codex.m.guests6,"Hosté, které při odletu hyperprostorem necháš na opuštěn
 obj.equipment.clothing.clowncostume01,Kostým klauna,,
 obj.equipment.clothing.clowncostume01.desc,"Křiklavý, nadměrně velký kostým, oblíbený u pouličních umělců, podvodníků a – jak se zdá – i u lupičů.",,
 ev.raid.clown.title,Nájezd klaunů!,,title of the Clown Raid story event
-ev.raid.clown.desc,Z {0} se vyřítila banda klaunů a zahájila nájezd!,,description of the Clown Raid story event. {0} is the name of the device they came out of
+ev.raid.clown.desc,Z modulu {0} se vyřítila banda klaunů a zahájila nájezd!,,description of the Clown Raid story event. {0} is the name of the device they came out of
 ad.rej.mat.reserved,Vyhrazeno pro úkol s vyšší prioritou,,Reason shown on a task that is not being worked on because a higher priority task is waiting to accumulate the same material
 obj.misc.resonancecharge,Rezonanční náboj,,
 obj.misc.resonancecharge.desc,"Demoliční nálož, která jediným rezonančním impulsem rozbije konstrukci celé části lodi.",,
@@ -8102,22 +8102,22 @@ input.shares.key.with,Sdílí klávesu s: {0},,"Tooltip line of a key binding ro
 ui.selection.limit,Výběr je omezen na {0} subjektů.,,Error message shown when the player tries to select more entities at once than the limit. {0} is the maximum number of entities
 stasis.manifest.tab,Manifest,,Name of a tab on the Stasis Array panel. It lists the people and pets asleep in that array
 stasis.manifest.asleep,Spí,,Label of a progress bar on the Manifest tab of the Stasis Array. The bar shows how many sleepers are in the array out of its capacity
-stasis.manifest.asleep.desc,"V tomto stázovém poli spí lidé a domácí mazlíčci. Každý z nich je konkrétní osoba. Udržuj pole napájené a stabilní, aby byli v bezpečí.",,Tooltip of the Asleep progress bar on the Manifest tab of the Stasis Array
+stasis.manifest.asleep.desc,"V tomto stázovém modulu spí lidé a domácí mazlíčci. Každý z nich je konkrétní osoba. Udržuj modul napájený a stabilní, aby byli v bezpečí.",,Tooltip of the Asleep progress bar on the Manifest tab of the Stasis Array
 stasis.manifest.empty,Tady nikdo nespí,,Shown on the Manifest tab of the Stasis Array when the array holds no sleepers
 being.in.stasis,Ve stázi,,Button on the info panel of a being who is asleep in a Stasis Array. Clicking it opens the array they sleep in
 being.in.stasis.unrevealed,"Jaké mají schopnosti a vlastnosti, se dozvíme, až se probudí.",,Tooltip of the In stasis button for a sleeper who was never woken. Explains why the panel shows so little about them
 stasis.harm.log,{0} utrpěl újmu v důsledku nestabilní stáze,,Ship log line. {0} is a link to the name of a being who took damage while asleep in an unstable Stasis Array
 stasis.death.alert,{0} zemřel ve stázi,,Alert notification and ship log line. {0} is the full name of a being who died while asleep in an unstable Stasis Array
 stasis.death.cause,Selhání stáze,,Cause of death shown for a being who died while asleep in an unstable Stasis Array
-stasis.lost.alert,Při ztrátě stázového pole bylo ztraceno {0} spáčů,,Alert notification shown when a Stasis Array is destroyed or removed with sleepers still inside. {0} is how many of them died
-stasis.lost.cause,Ztraceni se stázovým polem,,Cause of death shown for a being who was asleep in a Stasis Array when it was destroyed or removed
+stasis.lost.alert,Při ztrátě stázového modulu bylo ztraceno {0} spáčů,,Alert notification shown when a Stasis Array is destroyed or removed with sleepers still inside. {0} is how many of them died
+stasis.lost.cause,Ztraceni se stázovým modulem,,Cause of death shown for a being who was asleep in a Stasis Array when it was destroyed or removed
 stasis.first.wakeup.care,Máš na starosti {0} spáčů.,,Large text shown on a dark screen the first time someone can be woken from stasis in a game. {0} is how many people and pets are asleep
 stasis.first.wakeup.now,Jeden z nich se právě probouzí.,,Large text shown on a dark screen right after the line about sleepers in your care. Comes before the player chooses who to wake
 stasis.first.wakeup.choose,"Vyber, kdo se probudí jako první",,Header of the wake up choice screen the first time it is shown in a game
 fate.delivered,{0} z {1} cestujících uvedených v seznamu dorazilo do {2}.,,First line of the colonist fates shown in the credits after colonizing a planet. {0} is how many sleepers from the stasis manifest arrived alive. {1} is how many there were in total. {2} is the name of the planet
 fate.CarriedAsAshes,Popel {0} kolonistů byl převezen do Nového světa:,,Line in the colonist fates shown in the credits after colonizing a planet. {0} is how many urns with ashes were aboard. A list of names follows
 stasis.wakeup.soon.title,Probuzení ze stáze se blíží,,Title of a warning notification that appears some time before somebody is woken from a Stasis Array
-stasis.wakeup.soon.desc,"Brzy se někdo probudí z tohoto stázového pole. Zajisti, aby měl kde bydlet.",,Tooltip of the stasis wake-up warning notification. It explains what the player can do with the advance notice
+stasis.wakeup.soon.desc,"Brzy se někdo probudí z tohoto stázového modulu. Zajisti, aby měl kde bydlet.",,Tooltip of the stasis wake-up warning notification. It explains what the player can do with the advance notice
 rescue.beacon.sent,Žádná posádka není schopna reagovat. Byl vyslán nouzový signál.,,Shown when every colonist and bot aboard is dead or incapacitated. The ship AI calls for help; a rescue pod arrives about a day later
 rescue.beacon.standdown,Činnost posádky byla obnovena. Nouzový maják byl vypnut.,,"Shown when someone aboard recovers before the rescue pod arrives, so the call for help is cancelled"
 evt.rescue.crew.title,Dorazila záchranná jednotka,,Title of the story event where a stasis pod answers the distress beacon and delivers two new colonists
@@ -8148,7 +8148,7 @@ owned.by.your.faction,Vlastněno tvou frakcí,,Header in the starmap object menu
 surgical.op.failed.install,{0} se nepodařilo nainstalovat.,,{0} is body part name. Shown after a failed surgery.
 surgical.op.failed.remove,{0} se nepodařilo odstranit.,,{0} is body part name. Shown after a failed surgery.
 region.supply.abundant,Obchodníci mají spoustu: {0},,Line in the starmap region tooltip. {0} is a list of material names separated by commas (for example Iron and Uranium)
-scan.abundant.hint,Obchodníci v {0} mají {1} v hojném množství.,,Added to the radar scan report for a resource when the nearest deposit is far away or none was found. {0} is a region name and {1} is a material name
+scan.abundant.hint,Obchodníci v oblasti {0} mají hojnost suroviny {1}.,,Added to the radar scan report for a resource when the nearest deposit is far away or none was found. {0} is a region name and {1} is a material name
 scan.deep.focus,Zaměření hloubkového skenování: {0},,Label of the Deep Scan row in the starmap scanning menu when the player picked a resource to focus on. {0} is a material name
 scan.deep.focus.desc,"Cílené hloubkové skenování nejprve prohledává vybraný zdroj. Trvá déle a dokáže najít pouze zdroje, které se v tomto sektoru mohou vytvořit. Změna zaměření způsobí restart aktuálního hloubkového skenování.",,Tooltip of the Deep Scan focus picker in the starmap scanning menu
 scan.deep.focus.impossible,V tomto sektoru nelze vytvořit {0}. Zkus obtížnější sektor.,,Tooltip warning under Deep Scan when the focus resource can never appear in the current sector because the sector is too easy. {0} is a material name
@@ -8176,7 +8176,7 @@ notify.unreachable.tasks,Nedosažitelné úkoly,,Title of a notification group t
 notify.unreachable.task,Nedostupné: {0},,"Notification about a task that no worker able to do it can walk to. {0} is the name of what the task is for, like a device or a pile"
 research.energy.connectorlongrange,Konektor pro dlouhé vzdálenosti,,Research tree node name. Unlocks a power connector with few slots but a long range
 floor.shading,Stínování podlahy,,Video settings toggle. Turns on soft shadows where floors meet walls and light from space on the outer hull edges
-floor.shading.tip,"Jemné stíny v místech, kde se podlaha stýká se stěnami, a světlo pronikající z vnitřního prostoru na vnější okraje trupu.",,Tooltip for the Floor Shading video settings toggle
+floor.shading.tip,"Jemné stíny v místech, kde se podlaha stýká se stěnami, a světlo z vesmíru na vnějších okrajích trupu.",,Tooltip for the Floor Shading video settings toggle
 ambient.motion,Pohyb v okolí,,Video settings toggle. Turns on small idle movements in the world like plants swaying in the breeze
 ambient.motion.tip,"Drobné, nenápadné pohyby ve světě, jako rostliny, které se pohupují ve větru.",,Tooltip for the Ambient Motion video settings toggle
 crew.missing.jobs,Chybějící klíčová pracovní místa,,"Header above the list of jobs nobody in the starting crew can do on the new game crew setup screen, and title of the warning popup when confirming such a crew"
@@ -8189,7 +8189,7 @@ combat.shot.no.sight,Žádná přímá viditelnost,,Tooltip line when hovering a
 combat.shot.will.approach,Nejdřív se přiblížíme,,Tooltip line shown after Out of range or No line of sight. An attack order makes the shooter walk closer before firing
 combat.shot.target.moving,Cíl se pohybuje,,"Line in the hit chance breakdown, followed by a percentage: the target is moving, which makes it harder to hit"
 crew.missing.panel.cleaning,Čištění solárních panelů,,"Row in the Missing Essential Jobs list on the new game crew setup screen, and a line in its warning popup. Shown when nobody in the starting crew can both fly and clean, because only flyers can reach solar panels"
-crew.missing.panel.cleaning.desc,"Nikdo z tvé základní posádky nedokáže zároveň létat i uklízet. Solární panely jsou umístěny na vnější straně trupu, kam se dostanou jen piloti, a znečištěné panely produkují čím dál méně energie.",,Tooltip of the Solar Panel Cleaning row in the Missing Essential Jobs list on the new game crew setup screen
+crew.missing.panel.cleaning.desc,"Nikdo z tvé základní posádky nedokáže zároveň létat i uklízet. Solární panely jsou umístěny na vnější straně trupu, kam se dostanou jen létající jednotky, a znečištěné panely produkují čím dál méně energie.",,Tooltip of the Solar Panel Cleaning row in the Missing Essential Jobs list on the new game crew setup screen
 obj.upgrades.empshieldupgrade,Vylepšení ochrany proti EMP,,Name of the EMP Shield Upgrade item that is installed in a Shield Emitter
 obj.upgrades.empshieldupgrade.desc,"Je-li nainstalován v emitoru štítu, aktivuje štít v okamžiku, kdy loď zasáhne magnetická bouře. Dokud je štít aktivní, bouře nemůže narušit fungování zařízení na lodi.",,Description of the EMP Shield Upgrade item and its research node
 noun.effectiveness,Účinnost,,"Noun. How well something does its job. First use: in a device's codex description, how strongly a heater, cooler or oxygen pump affects the room around it, shown as ""Effectiveness: Medium"""
@@ -8228,7 +8228,7 @@ asimov.unlock.effect.0,Odběr orgánů a částí těla od živých kolonistů,,
 asimov.unlock.effect.1,Likvidace a recyklace živých kolonistů,,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
 asimov.unlock.effect.2,Vypouštění kolonistů do vesmíru,,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
 asimov.unlock.effect.3,Sundávání kombinéz a přileb ve vakuu,,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
-asimov.unlock.effect.4,Rozebrání a prodej obsazených stázových zařízení,,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
+asimov.unlock.effect.4,Rozebrání a prodej obsazených stázových modulů,,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
 asimov.unlock.effect.5,"Opuštění úseků, kde se stále nacházejí lidé",,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
 asimov.unlock.effect.6,Přehřívání místností topidly,,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
 asimov.unlock.effect.7,Instalace podlahových pastí vlastními silami,,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
@@ -8247,7 +8247,7 @@ stat.MeleeDodge.desc,"Šance vyhnout se úderu v boji zblízka, který by jinak 
 stat.SurgerySuccess,Úspěšnost chirurgie,,Name of a being stat: how its own abilities change the success chance of surgeries it performs
 stat.SurgerySuccess.desc,"Jak ruce, oči a osvětlení operačního pole této bytosti ovlivňují šanci na úspěch operací, které provádí.",,Description of stat.SurgerySuccess
 job.learning.saturated,Dnes jsem se toho hodně naučil: učení bude do zítřka pomalejší,,Line in a job's tooltip once the colonist's daily learning limit for that skill is reached
-hack.failed,Útok na {0} byl odražen,,{0} is the target being name; ship log line when a Signal Intrusion hack against a hostile robot fails
+hack.failed,Útok na cíl {0} byl odražen,,{0} is the target being name; ship log line when a Signal Intrusion hack against a hostile robot fails
 combat.shot.shift.approach,{0} + {1}: přiblížit se a vystřelit,,"Tooltip line under Out of range or No line of sight when one drafted shooter is selected and an enemy is hovered. {0} is the Shift key, {1} is the right mouse button. Without them the attack order is refused"
 tut.combat.reactions,"Každá <b>spřátelená bytost</b> má jednu z následujících <b>Bojových reakcí</b>:<br> – <b>Vlastní úvaha</b>: Bytost bude <b>bojovat</b>, pokud drží <b>zbraň</b>, kterou může použít, a není vážně zraněna; v opačném případě <b>uteče</b>.<br> – <b>Boj</b>: Bytost bude <b>střílet</b> na nepřátele, které může zasáhnout z místa, kde stojí, nebo se vrhne na nepřátele <b>v blízkosti</b> se zbraní na blízko, a poté se vrátí k práci. Do boje ji povoláš pomocí akce <b>Mobilizovat</b>.<br> – <b>Útěk</b>: Bytost <b>uteče</b> před nepřáteli v blízkosti a jinak se bude věnovat práci.<br> – <b>Ignorace</b>: Bytost se soustředí na <b>úkoly kolonie</b> a osobní <b>potřeby</b> a nepřátele ignoruje, pokud není <b>vyprovokována</b> nebo nedostane <b>Přímý rozkaz</b>.",,Codex page on combat reactions.
 codex.m.drafting.step4,"Mobilizovaný střelec střílí na nepřátele, které může z místa, kde stojí, zasáhnout. Příkaz k útoku na nepřítele mimo jeho dosah bude zamítnut. Při zadávání příkazu podrž klávesu {0}, aby se postava nejprve přiblížila. Postavy, kterým byl příkaz vydán jako skupině, se přiblíží automaticky.",,Codex page on drafting. {0} is the Shift key
@@ -8269,7 +8269,7 @@ verb.fire.at.will,Střílet dle libosti,,Bottom bar button on a drafted colonist
 stat.source.wounds,Rány,,Source line in the Pain stat tooltip: the pain that comes from the being's wounds
 cond.PainShock,Bolestový šok,,Condition name: a colonist or creature passed out because their pain went over their pain tolerance
 cond.PainShock.desc,"Bolest je tak silná, že nedokážou zůstat při vědomí. Proberou se, jakmile bolest klesne pod hranici jejich tolerance a rány se zahojí.",,Description of cond.PainShock in the condition tooltip
-cond.SystemShock,System Shock,,Condition name: a robot shut down because the damage it took overloaded its systems
+cond.SystemShock,Systémový šok,,Condition name: a robot shut down because the damage it took overloaded its systems
 cond.SystemShock.desc,"Poškození způsobilo přetížení tohoto stroje, který se proto vypnul. Jakmile bude dostatečně opraven, znovu se spustí.",,Description of cond.SystemShock in the condition tooltip
 bodypart.Implant.PainInhibitor,Lék proti bolesti,,Name of an implant body part that dulls pain so the being passes out from pain much later
 bodypart.Implant.PainInhibitor.desc,"Tlumí bolestivé podněty, takže subjekt dokáže i přes zranění, která by jiné vyřadila z boje, pokračovat dál.",,Description of the Pain Inhibitor implant body part
@@ -8320,7 +8320,7 @@ nav.fail.blocked.by.enemy,Zablokován nepřítelem,,Reason a move failed: an ene
 gradual.ui.reveal,Postupné odhalování uživatelského rozhraní,,Label for a settings toggle. When on a new game shows parts of the interface step by step as the tutorial goes on. When off the whole interface is shown from the start.
 hostiles.aboard,Nepřátelé na palubě,,"Alert title and ship log line when enemies are already on the ship of the player (a raider who came to, mutineers, boarders). Short, may be reused as a label"
 objects.devices.firefoamcapsule,Protipožární pěnová kapsle,,Name of a buildable device: a small capsule that sprays fire retardant foam over the room when a fire starts close to it
-objects.devices.firefoamcapsule.desc,"V případě, že v blízkosti vypukne požár, rozstříká po místnosti nehořlavou pěnu.",,Description of the Firefoam Capsule device in the build menu and the codex. Keep it short
+objects.devices.firefoamcapsule.desc,Při vzniku požáru v okolí rozpráší po místnosti hasicí pěnu.,,Description of the Firefoam Capsule device in the build menu and the codex. Keep it short
 situation.StoryPointsNeutralMax,Příběhové body (neutrální – maximum),,
 fight.cause.grudge,{0} chová zášť vůči {1},,"{0} and {1} are names. Ship log line right after a fistfight starts, saying why {0} attacked {1}: {0} hates {1}"
 fight.cause.nearest,{0} se chtěl poprat a {1} byl nejblíže,,"{0} and {1} are names. Ship log line right after a fistfight starts: {0} is having a breakdown and wanted to fight anyone, {1} happened to be the closest person"
