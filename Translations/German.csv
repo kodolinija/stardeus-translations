@@ -4309,7 +4309,7 @@ noun.structure,Bausubstanz,,
 noun.device,Gerät,,
 noun.worker,Arbeiter,,
 noun.enemy,Feind,,
-noun.colonist,olonist,,
+noun.colonist,Kolonist,,
 noun.material,Material,,
 noun.object,Objekt,,
 nameless,Namenlos,,
@@ -9012,3 +9012,10 @@ gradual.ui.reveal,Menüs schrittweise einblenden,,Label for a settings toggle. W
 hostiles.aboard,Feinde an Bord,,"Alert title and ship log line when enemies are already on the ship of the player (a raider who came to, mutineers, boarders). Short, may be reused as a label"
 objects.devices.firefoamcapsule,Löschschaumkapsel,,[Auto] Name of a buildable device: a small capsule that sprays fire retardant foam over the room when a fire starts close to it
 objects.devices.firefoamcapsule.desc,"Versprüht feuerfesten Schaum im Raum, wenn in der Nähe ein Feuer ausbricht.",,[Auto] Description of the Firefoam Capsule device in the build menu and the codex. Keep it short
+fight.cause.grudge,{0} hegt einen Groll gegen {1},,"{0} and {1} are names. Ship log line right after a fistfight starts, saying why {0} attacked {1}: {0} hates {1}"
+fight.cause.nearest,{0} wollte Streit und {1} war gerade am nächsten,,"{0} and {1} are names. Ship log line right after a fistfight starts: {0} is having a breakdown and wanted to fight anyone, {1} happened to be the closest person"
+fight.cause.mood,{0} war miserabel gelaunt,,"{0} is a name. Ship log line right after a fistfight starts, saying {0} attacked because of a very bad mood. The game adds the worst mood in parentheses after it"
+fight.cause.clash,{0} und {1} kommen einfach nicht miteinander aus,,{0} and {1} are names. Ship log line right after a fistfight starts: the two have personalities that clash
+situation.Population,Bevölkerung,,"Label in the Situation app (ship computer) and its chart: how big the colony counts as for story events. Colonists and robots count fully, pets half"
+situation.ThreatWeight,Bedrohungswert,,"Label in the Situation app (ship computer) and its chart: a number that raid strength is based on. It counts the crew, giving less weight to the injured, the absent and animals"
+situation.NumBreakdowns,Nervenzusammenbrüche,,Label in the Situation app (ship computer) and its chart: how many mental breakdowns happened in this game so far
