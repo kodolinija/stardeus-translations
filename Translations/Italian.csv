@@ -8823,3 +8823,4 @@ quest.step.allow.items.tip,"L'elemento {0} è vietato, pertanto nessuno lo mangi
 work.radius,Raggio d'azione,,Header of the bot dock setting that keeps the dock's bot working near the dock
 work.radius.tip,"Il bot assegnato accetta attività solo entro questa distanza dalla sua base. All'impostazione minima, invece, opera ovunque.",,Tooltip of the Work Radius slider on the bot dock panel
 nav.fail.blocked.by.enemy,Bloccato da un nemico,,Reason a move failed: an enemy stood in the way and did not move
+,,,
