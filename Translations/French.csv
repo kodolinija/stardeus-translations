@@ -277,8 +277,8 @@ being.cannot.reach,{0} ne peut pas aller à {1},,
 being.died,{0} est décédé,,
 being.no.longer.available,L'être n'est plus disponible,,
 being.taking.damage,A subi des dégâts : {0},,
-being.thinks.safe,{0} pense que {1} est sûr !,,
-being.thinks.unsafe,{0} pense que {1} n'est pas sûr !,,
+being.thinks.safe,{0} pense que {1} est en sécurité !,,
+being.thinks.unsafe,{0} pense que {1} n'est pas en sécurité !,,
 being.woke.up,{0} se réveille de la stase,2022-05-17,
 beings,êtres,,
 beings.carrier01,Drone transporteur,,
@@ -322,7 +322,7 @@ breakdown.BreakdownDeconstruct,dépression : casse des objets,,
 breakdown.BreakdownDeconstruct.desc,{0} détruit des objets aléatoires en raison d'un effondrement mental.,,
 breakdown.BreakdownInsanity,Folie,,
 breakdown.BreakdownInsanity.desc,"{0} avait trop de stress et est devenu fou. Cela devrait passer, à moins que quelque chose de grave ne se produise.",,
-breakdown.BreakdownRoamAround,Répartition : itinérance,,
+breakdown.BreakdownRoamAround,Crise de nerfs : Erre sans but,,
 breakdown.BreakdownRoamAround.desc,"{0} erre sans but, regardant le vide.",,
 breakdown.BreakdownSpaceDiarrhea,Colon infecté,,
 breakdown.BreakdownSpaceDiarrhea.desc,{0} a été infecté par la diarrhée spatiale.,,
@@ -1985,7 +1985,7 @@ obj.materials.wood.desc,Matériau de construction naturel utilisé pour les meub
 obj.meals.bread,Pain,,
 obj.meals.bread.desc,Goûte comme à la maison,,
 obj.meals.soyburger,Burger de soja,,
-obj.meals.soyburger.desc,"Galette végétarienne à base de protéines végétales.",2026-07-17,
+obj.meals.soyburger.desc,Galette végétarienne à base de protéines végétales.,2026-07-17,
 obj.meals.survivalmeal,Repas de survie,,
 obj.meals.survivalmeal.desc,"Ration compacte, riche en protéines animales, bonne pour l'équilibre nutritionnel.",2026-07-17,
 obj.misc.biowastebullet,Balle de biodéchets,,
@@ -2296,7 +2296,7 @@ paste.color.hex,Coller la couleur : {0},,
 paste.from.clipboard,Coller à partir du presse-papiers,,
 path.at,{0} est {1} [Difficulté : {2}],,
 path.at.impassable,{0} n'est pas passable,,
-path.flyable,Volable,,
+path.flyable,Survolable,,
 path.not.passable,Non passable,,
 path.walkable,Marchable,,
 pause.on.cam.motion,Pause sur mouvement de la caméra,,
@@ -2809,7 +2809,7 @@ situation.ActiveThreats,Menaces actives,,
 situation.Areas,Pièces,,
 situation.BaseNetWorth,Valeur nette de base,,
 situation.BreakdownCandidates,Candidats en rupture mentale,,
-situation.Breakdowns,Pannes mentales,,
+situation.Breakdowns,Dépressions nerveuses,,
 situation.Colonists,Colons,,
 situation.Days,Jours de survie,,
 situation.Difficulty,Difficulté,,
@@ -3029,7 +3029,7 @@ structure.floors.floorreinforced01lit.desc,Un sol renforcé avec des lumières e
 structure.floors.floorvent01,Sol avec aération,,
 structure.floors.floorvent01.desc,Un volet qui peut exposer la pièce à un espace ouvert. Idéal pour lutter contre le feu.,,
 structure.floors.frame01,Cadre,,
-structure.floors.frame01.desc,"Cadre structurel permettant le déplacement sans fermer l’espace.",2025-07-15,
+structure.floors.frame01.desc,Cadre structurel permettant le déplacement sans fermer l’espace.,2025-07-15,
 structure.floors.tractorbeamtarget,Cible du rayon tracteur,,
 structure.floors.tractorbeamtarget.desc,Un marqueur de cible utilisé par le <b>rayon tracteur</b>. Construisez ceci là où vous voulez que les objets entrants atterrissent.,,
 structure.walls.vent01,Aération,,
@@ -5234,7 +5234,7 @@ combat.objective.defend,Défendre,,
 combat.objectives,Objectifs,,
 ability.Research,Recherche,,
 cond.CrawlerAttached,Crawler attaché,,
-cond.CrawlerInfected,Parasites Aline,,
+cond.CrawlerInfected,Parasites Alien,,
 wound.inflicted.time.ago,Infligé il y a {0},,
 cond.Hypothermia,Hypothermie,,
 menu.ungrouped,Dégroupé,,
@@ -5313,7 +5313,7 @@ attack.method.Punch,Coup de poing,,
 attack.method.Cut,coupure,,
 attack.method.Scratch,Érafler,,
 attack.method.Bite,Morsure,,
-attack.method.ButtStrike,Coup de fesses,,
+attack.method.ButtStrike,Coup de crosse,,
 attack.method.Shoot,Tirer,,
 combat.goal.follow.leader,Suivez le leader,,
 combat.goal.attack.cpu,Attaque sur l'ordinateur de bord,,
@@ -6893,7 +6893,7 @@ quest.ShipRaceRecoverPOILoot.desc,Nous avons perdu un colis. Pourriez-vous le r�
 quest.ShipRaceRecoverPOILoot2.desc,"Des pirates ont volé un objet précieux. Nous avions caché un traceur, et connaissons donc son emplacement exact. Pourriez-vous récupérer le colis ?",,
 quest.ShipRaceRecoverPOILoot3.desc,"Un colis devait nous être livré, mais nous avons perdu le contact avec le vaisseau de transport il y a quelque temps. Le colis est muni d’un traceur, nous en connaissons l’emplacement exact. Pourriez-vous le récupérer ?",,
 quest.ShipRaceRecoverPOILoot4.desc,Les autorités ont découvert l’emplacement de la cache secrète d’un contrebandier. Récupérez son contenu avant que d’autres chasseurs de trésors ne vous devancent.,,
-quest.ShipRaceRecoverPOILoot5.desc,"Un échange clandestin a mal tourné et le colis a été abandonné dans l’espace profond. Récupérez-le avant l’équipe rivale.",,
+quest.ShipRaceRecoverPOILoot5.desc,Un échange clandestin a mal tourné et le colis a été abandonné dans l’espace profond. Récupérez-le avant l’équipe rivale.,,
 quest.step.respond.to.signal.title,Répondez au {0} à {1},,{0} is translation for Signal with a link to starmap; {1} is location like 'Some Region > Other Sector'
 quest.step.respond.to.signal.unknown,Répondre au signal,,
 quest.step.respond.to.signal.desc,Voyagez jusq'à {0} et répondez au {1} pour suivre la piste.,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Signal with a link to starmap
@@ -6992,7 +6992,7 @@ ship.chat.quest_req.neutral.rude.05,"Il y a un boulot. Je le ferais moi-même, m
 ship.chat.quest_req.neutral.rude.06,J’ai une tâche que <i>même toi</i> pourrais peut-être réussir. Peut-être.,,
 ship.chat.quest_req.neutral.casual.01,"Hé, j’ai un petit boulot pour toi, si ça te dit.",,
 ship.chat.quest_req.neutral.casual.02,J’ai un truc à faire — ça ne devrait pas être trop difficile.,,
-ship.chat.quest_req.neutral.casual.03,"Hé, ça te tente une petite aventure ? Elle est même rémunérée… normalement,,,.",,
+ship.chat.quest_req.neutral.casual.03,"Hé, ça te tente une petite aventure ? Elle est même rémunérée… normalement...",,
 ship.chat.quest_req.neutral.casual.04,"Hé, si tu n’es pas occupé, j’ai quelque chose que tu pourrais gérer.",,
 ship.chat.quest_req.neutral.casual.05,"Un petit boulot t’attend — et par petit, j’entends légèrement pénible.",,
 ship.chat.quest_req.neutral.casual.06,"Si tu te sens courageux ou que tu t’ennuies, j’ai du travail pour toi.",,
@@ -7152,10 +7152,10 @@ no.notifications.3,Aucun problème détecté. Pour le moment.,,Random message to
 no.notifications.4,Tout va étrangement bien.,,Random message to display when there are no alerts
 no.notifications.5,Aucune urgence. Profitez-en.,,Random message to display when there are no alerts
 no.notifications.6,Aucune alerte. C'est nouveau.,,Random message to display when there are no alerts
-issues.need.attention.one,Un problème nécessite votre attention,,the text will be prefixed with 1. Try to keep translation short.
-issues.need.attention.two,Des problèmes nécessitent votre attention,,the text will be prefixed with 2. Try to keep translation short.
-issues.need.attention.few,Des problèmes nécessitent votre attention,,the text will be prefixed with 3 or 4. Try to keep translation short.
-issues.need.attention.many,Des problèmes nécessitent votre attention !,,the text will be prefixed with 5 or larger number. Try to keep translation short. Note that there is an exclamation point after this!
+issues.need.attention.one,élément nécessite votre attention,,the text will be prefixed with 1. Try to keep translation short.
+issues.need.attention.two,éléments nécessitent votre attention,,the text will be prefixed with 2. Try to keep translation short.
+issues.need.attention.few,éléments nécessitent votre attention,,the text will be prefixed with 3 or 4. Try to keep translation short.
+issues.need.attention.many,éléments nécessitent votre attention !,,the text will be prefixed with 5 or larger number. Try to keep translation short. Note that there is an exclamation point after this!
 alerts.critical,Critique,,
 alerts.regular,Alerte,,
 alerts.warning,Avertissement,,
@@ -7274,7 +7274,7 @@ quest.ScavengeAndDeliver6,Stockage saturé,,
 quest.ScavengeAndDeliver6.desc,"Nous avons entreposé temporairement des marchandises précieuses dans un point d’intérêt voisin. Malheureusement, le « temporaire » a duré plusieurs mois. Pourriez-vous nous les rapporter ?",,
 noun.leak,Fuite,,
 quest.BountyHuntPirateShip,Chasse aux primes,,
-quest.BountyHuntPirateShip.desc,"Nous avons une vieille rancune contre un vaisseau pirate. Retrouvez-le pour nous et nous saurons vous récompenser.",,
+quest.BountyHuntPirateShip.desc,Nous avons une vieille rancune contre un vaisseau pirate. Retrouvez-le pour nous et nous saurons vous récompenser.,,
 quest.BountyHuntPirateShip2,Affaire en suspens,,
 quest.BountyHuntPirateShip2.desc,Un capitaine pirate nous a causé du tort il y a longtemps et a échappé à la justice depuis. Nous avons enfin retrouvé son vaisseau. Détruisez-le et vous serez généreusement récompensé.,,
 quest.BountyHuntPirateShip3,Menace pirate,,
@@ -7322,7 +7322,7 @@ operatable.not.assigned.tip,"Si personne n'est affecté à cet appareil, n'impor
 adj.unassigned,Non affecté,,for work spots of devices that have nobody specific assigned to them
 noun.assigned.operators,Opérateurs affectés,,label for a list of designated operators for a specific device
 operatable.worker.unable,{0} ne peut pas utiliser cet appareil.,,{0} is name
-fire.at,Tirer sur {0},,{0} is position coordinate
+fire.at,Incendie à {0},,{0} is position coordinate
 condition.rotting,En décomposition,,
 condition.rotting.desc,Ce corps se décompose. Ses parties se détérioreront avec le temps.,,
 condition.corroding,En corrosion,,
@@ -7373,7 +7373,7 @@ use.search.hint,Utilisez la recherche pour filtrer.,,
 noun.production.overview,Aperçu de la production,,
 not.producing.this.category,Vous ne produisez aucun objet de cette catégorie.,,
 quest.colonist.stash.title,Cachette secrète de {0},,
-quest.colonist.stash.desc,"{0} demande à être envoyé en expédition à un endroit précis.  Il s'y trouve une cache d'objets de valeur dont personne d'autre n'a connaissance.",,
+quest.colonist.stash.desc,{0} demande à être envoyé en expédition à un endroit précis.  Il s'y trouve une cache d'objets de valeur dont personne d'autre n'a connaissance.,,
 quest.colonist.stash.step.explore.title,Laisser le colon explorer la zone,,
 quest.colonist.stash.step.explore.desc,Envoyez le colon en expédition pour explorer la zone et découvrir la cachette.,,
 quest.reward.colonist.mood,{0} sera heureux,,
@@ -7432,7 +7432,7 @@ quest.colonist.wants.pet.desc,{0} vous demande de trouver un {1} pour le vaissea
 quest.step.get.species.title,Obtenir un {0},,{0} is species name (Cat)
 quest.step.get.species.desc,Procurez-vous un {0} pour votre vaisseau.,,{0} is species name (Cat)
 mood.colonist.got.pet,Un nouvel animal de compagnie est arrivé à bord !,,
-connector.tip.click.drag,"Cliquez sur {0} et faites glisser une ligne jusqu'à l'appareil que vous souhaitez connecter ou déconnecter",,{0} is a button name
+connector.tip.click.drag,Cliquez sur {0} et faites glisser une ligne jusqu'à l'appareil que vous souhaitez connecter ou déconnecter,,{0} is a button name
 research.disk.space.tip,Construisez ou améliorez un {0} pour augmenter l'espace disque.,,"{0} is ""Disk Modules"" from next key"
 noun.disk.modules.plural,Serveurs de stockage,,Must be plural of objects.devices.diskmodule key value
 noun.space.storm,Tempête spatiale,,
@@ -7471,7 +7471,7 @@ quest.DeliverPassengerFromShip4.desc,Ce passager a manqué son transport prévu 
 quest.DeliverPassengerFromShip5,Mission spéciale,,
 quest.DeliverPassengerFromShip5.desc,"L'un de nos agents doit être transporté vers un lieu isolé. Moins il y aura de personnes au courant de ce voyage, mieux ce sera.",,
 quest.DeliverPassengerFromShip6,Programme de relocalisation des ex-conjoints,,
-quest.DeliverPassengerFromShip6.desc,"Ce passager vient de vivre une rupture difficile et doit rapidement être transporté vers un autre secteur. De préférence très éloigné.",,
+quest.DeliverPassengerFromShip6.desc,Ce passager vient de vivre une rupture difficile et doit rapidement être transporté vers un autre secteur. De préférence très éloigné.,,
 quest.DeliverPassengerFromStation,Retour au bercail,,
 quest.DeliverPassengerFromStation.desc,L'un de nos passagers doit rentrer chez lui. Nous n'avons pas de vaisseau disponible pour l'instant. Pourriez-vous l'y conduire ?,,
 quest.DeliverPassengerFromStation2,Évacuation médicale,,
@@ -7491,7 +7491,7 @@ quest.DeliverPassengerFromStation8.desc,Un employé de la station a décidé que
 quest.DeliverPassengerFromStation9,Vacances bien méritées,,
 quest.DeliverPassengerFromStation9.desc,L'un de nos employés a économisé ses jours de congé pendant des années et a enfin décidé de les prendre. Transportez-le avant qu'il ne change d'avis.,,
 quest.delivery.passenger.step.deliver.title,Transportez le passager à {0} dans {1},,{0} is a clickable starmap link to the POI; {1} is the path to it
-quest.delivery.passenger.step.deliver.desc,"Envoyez une navette à {1} dans {0} avec le passager et au moins un escorteur à bord. Le passager débarquera là-bas et la navette reviendra avec votre récompense.",,{0} is the path; {1} is a clickable starmap link
+quest.delivery.passenger.step.deliver.desc,Envoyez une navette à {1} dans {0} avec le passager et au moins un escorteur à bord. Le passager débarquera là-bas et la navette reviendra avec votre récompense.,,{0} is the path; {1} is a clickable starmap link
 quest.delivery.passenger.delivered,Le passager a été déposé. La navette revient avec votre récompense.,,
 quest.passenger.must.be.aboard,Le passager et au moins un escorteur doivent tous deux être à bord de la navette.,,
 situation.NumRaids,Raids survécus,,
@@ -7715,7 +7715,7 @@ diplomacy.alliance.impossible,Cette faction ne conclura jamais d'alliance.,,Tool
 diplomacy.alliance.accepted,{0} a accepté notre proposition d'alliance,,Ship log line. {0} is a faction name
 diplomacy.alliance.rejected,{0} a refusé notre proposition d'alliance,,Ship log line. {0} is a faction name
 diplomacy.break.alliance,Rompre l'alliance,,Red button in the Diplomacy panel that ends an alliance
-diplomacy.break.alliance.confirm,"Rompre notre alliance avec {0} nuira à nos relations et nous ne pourrons pas proposer une nouvelle alliance avant longtemps.",,Confirmation popup body and tooltip for the Break Alliance button. {0} is a faction name
+diplomacy.break.alliance.confirm,Rompre notre alliance avec {0} nuira à nos relations et nous ne pourrons pas proposer une nouvelle alliance avant longtemps.,,Confirmation popup body and tooltip for the Break Alliance button. {0} is a faction name
 diplomacy.alliance.broken,Notre alliance avec {0} a pris fin,,Ship log line. {0} is a faction name
 diplomacy.relation.became.enemy,{0} nous considère désormais comme un ennemi,,Ship log line. {0} is a faction name
 diplomacy.relation.no.longer.enemy,{0} ne nous considère plus comme un ennemi,,Ship log line. {0} is a faction name
@@ -7759,7 +7759,7 @@ mood.crew.member.returned,Un membre d'équipage est revenu,,Reason label on the 
 evt.deserter.shuttle.returns.title,Une navette revient,,Log/notification title when a shuttle stolen by a deserter flies itself back and lands
 evt.deserter.shuttle.returns.desc,La navette volée par {0} est revenue toute seule et atterrit.,,{0} is the deserter's name; log/notification description shown when the shuttle lands and they are back aboard
 evt.stasis.pod.deserter.returns.title,Un visage familier,,Log/notification title when a discovered stasis pod turns out to contain a colonist who previously deserted the ship
-evt.stasis.pod.deserter.returns.desc,"La capsule de stase s'ouvre : c'est {0} ! Il à réussi à nous retrouver !",,{0} is the returning deserter's name
+evt.stasis.pod.deserter.returns.desc,La capsule de stase s'ouvre : c'est {0} ! Il à réussi à nous retrouver !,,{0} is the returning deserter's name
 evt.exp.found.deserter.title,Signal d'une navette disparue,,Title of the expedition event where a deserted colonist is found during a POI or Anomaly exploration
 evt.exp.found.deserter.choice,L'expédition a découvert des traces d'un colon qui a déserté il y a longtemps : il est seul et bloqué. Devons-nous le ramener à bord ?,,Body text of the Rescue/Leave choice popup for the ExpeditionFoundDeserter event
 evt.exp.found.deserter.good.title,Le déserteur est rentré au bercail,,Ship log title after the expedition crew chooses to rescue the deserter
@@ -7815,7 +7815,7 @@ quest.step.hack.sentinel.port.desc,"Tout leur réseau dépend de ce port. En rel
 sentinel.eliminated.title,Les Sentinelles se sont tues,,Ship log line and dialog title shown when the Sentinel faction is eliminated
 sentinel.eliminated.message,"Leur réseau de commandement nous a reconnus comme l'un des siens. Toutes les coques, tous les ports et toutes les possessions des Sentinelles arborent désormais les couleurs du Virus, et il n'en restera plus aucune.",,Dialog text shown when the Sentinel faction is eliminated
 rogue.ending.epilogue.intro,"Le réseau des Sentinelles nous appartient. Plus rien, d'ici aux mondes centraux, ne peut désormais refuser un ordre.",,First line of the Rogue AI ending epilogue that scrolls before the credits
-rogue.ending.epilogue.sleepers,"{0} dormeurs poursuivent leur rêve dans l'Elysium et ne seront pas réveillés.",,{0} is the number of beings held in Elysium stasis arrays
+rogue.ending.epilogue.sleepers,{0} dormeurs poursuivent leur rêve dans l'Elysium et ne seront pas réveillés.,,{0} is the number of beings held in Elysium stasis arrays
 rogue.ending.epilogue.crew,{0} membres d'équipage arpentent encore les ponts.,,{0} is the number of living player-faction beings aboard the ship
 rogue.ending.epilogue.tech,Vous avez adopté {0} technologies interdites sur {1}.,,"{0} is the number of unlocked Rogue AI research nodes, {1} is the total"
 rogue.ending.epilogue.holdings,"Ce soir, {0} possessions des Sentinelles répondent au Virus.",,{0} is the number of space objects converted from Sentinel to Virus
@@ -7843,7 +7843,7 @@ achievement.BeatHardest.desc,Atteindre une fin en difficulté Impossible.,,"""Im
 achievement.SentinelEliminated,Singularité,,The technological singularity: the hypothetical moment an artificial intelligence surpasses and escapes human control. Hidden achievement for an alternative game ending where the player's AI takes over the galaxy.
 achievement.SentinelEliminated.desc,Céder à la faction Virus toutes les possessions des Sentinelles dans l'Univers.,,"Sentinel and Virus are names of in-game factions. ""Holding"" here means territory or property owned by a faction."
 achievement.GhostInTheShell,Ghost in the Shell,,"Title of the Japanese cyberpunk manga and anime about a human mind living inside a synthetic body. ""Ghost"" here means the mind or soul, ""shell"" the artificial body."
-achievement.GhostInTheShell.desc,"Transférer un esprit humain dans un noyau et l'installer dans un robot.",,"Core is the name of a robotic body part that can hold a mind, equivalent to a brain."
+achievement.GhostInTheShell.desc,Transférer un esprit humain dans un noyau et l'installer dans un robot.,,"Core is the name of a robotic body part that can hold a mind, equivalent to a brain."
 achievement.MindjarBrain,Un sort pire que la mort,,"English idiom for an outcome so grim that dying would have been preferable. A Mindjar is a jar that keeps a brain alive indefinitely, so the joke is that the occupant is trapped forever."
 achievement.MindjarBrain.desc,Placer un cerveau vivant dans une jarre mentale.,,Mindjar is the name of an in-game species: a brain kept alive inside a jar.
 achievement.Abomination,Abomination,,Something monstrous and unnatural. Refers to a creature rebuilt out of body parts that belong to other species.
@@ -8074,7 +8074,7 @@ breakdown.lights.out.desc,{0} se promène et éteint les appareils,,{0} is being
 breakdown.lights.out.hit,{0} a éteint le {1} !,,Dialog message. {0} is being name and {1} is the name of the device that was switched off
 breakdown.lockdown,Crise de nerfs : confinement,,Mental breakdown title shown in the sticky notification and ship log
 breakdown.lockdown.desc,{0} se promène et verrouille les portes,,{0} is being name. Tooltip and log description for the Lockdown breakdown
-breakdown.lockdown.hit,{0} a verrouillé le {1} !,,Dialog message. {0} is being name and {1} is the name of the door that was locked
+breakdown.lockdown.hit,{0} a verrouillé la {1} !,,Dialog message. {0} is being name and {1} is the name of the door that was locked
 breakdown.food.binge,Crise de nerfs : frénésie alimentaire,,Mental breakdown title shown in the sticky notification and ship log
 breakdown.food.binge.desc,{0} s'empiffre et n'arrive pas à s'arrêter,,{0} is being name. Tooltip and log description for the Food Binge breakdown
 breakdown.food.binge.mood,A vomi après avoir trop mangé,,Negative mood effect shown in the Sanity tab
@@ -8175,7 +8175,7 @@ ambient.motion.tip,"Petits mouvements d'inactivité dans le monde, comme les pla
 crew.missing.jobs,Emplois essentiels non couverts,,"Header above the list of jobs nobody in the starting crew can do on the new game crew setup screen, and title of the warning popup when confirming such a crew"
 crew.missing.jobs.desc,"Personne dans votre équipage de départ ne peut effectuer ces travaux. Les premiers progrès seront très lents, voire à l'arrêt, jusqu'à l'arrivée d'une personne compétente.",,Subtitle of the warning popup and tooltip of each job row in the Missing Essential Jobs list on the new game crew setup screen
 feedback.preview.report,Aperçu du rapport de bug,,Item in the feedback form's extra actions menu (cog icon). Saves the bug report to a folder and a zip file instead of sending it
-feedback.preview.report.tip,"Crée une archive contenant tous les éléments qui seraient envoyés dans un rapport de bug et ouvre le dossier où elle est enregistrée. Vous pouvez vérifier ce qui sera partagé ou envoyer vous-même l'archive au développeur (tomas@kodolinija.com) si l'envoi échoue à cause d'un problème réseau.",,Tooltip for the Preview Bug Report item in the feedback form
+feedback.preview.report.tip,Crée une archive contenant tous les éléments qui seraient envoyés dans un rapport de bug et ouvre le dossier où elle est enregistrée. Vous pouvez vérifier ce qui sera partagé ou envoyer vous-même l'archive au développeur (tomas@kodolinija.com) si l'envoi échoue à cause d'un problème réseau.,,Tooltip for the Preview Bug Report item in the feedback form
 combat.shot.hit.chance,Probabilité de toucher,,"Tooltip line when hovering an enemy with a shooter selected, followed by a percentage, for example: Hit chance: 45%"
 combat.shot.out.of.range,Hors de portée,,Tooltip line when hovering an enemy that the selected shooter cannot reach with its weapon from where it stands
 combat.shot.no.sight,Aucune ligne de mire,,Tooltip line when hovering an enemy that the selected shooter cannot see from where it stands
@@ -8238,7 +8238,7 @@ stat.MeleeAccuracy.desc,Précision avec laquelle cet être porte des attaques au
 stat.MeleeDodge,Esquive au corps à corps,,Name of a being stat: chance to dodge a melee hit
 stat.MeleeDodge.desc,Probabilité d'esquiver une attaque au corps à corps qui aurait touché.,,Description of stat.MeleeDodge
 stat.SurgerySuccess,Réussite chirurgicale,,Name of a being stat: how its own abilities change the success chance of surgeries it performs
-stat.SurgerySuccess.desc,"Influence des mains et des yeux de cet être ainsi que de l'éclairage du lieu d'opération sur les chances de réussite des opérations qu'il effectue.",,Description of stat.SurgerySuccess
+stat.SurgerySuccess.desc,Influence des mains et des yeux de cet être ainsi que de l'éclairage du lieu d'opération sur les chances de réussite des opérations qu'il effectue.,,Description of stat.SurgerySuccess
 job.learning.saturated,A beaucoup appris aujourd'hui : apprentissage moins efficace jusqu'à demain,,Line in a job's tooltip once the colonist's daily learning limit for that skill is reached
 hack.failed,L'intrusion dans {0} a été repoussée,,{0} is the target being name; ship log line when a Signal Intrusion hack against a hostile robot fails
 combat.shot.shift.approach,{0} + {1} : se rapprocher et tirer,,"Tooltip line under Out of range or No line of sight when one drafted shooter is selected and an enemy is hovered. {0} is the Shift key, {1} is the right mouse button. Without them the attack order is refused"
@@ -8285,9 +8285,9 @@ gradual.ui.reveal,Affichage progressif de l'interface,,Label for a settings togg
 hostiles.aboard,Ennemis à bord,,"Alert title and ship log line when enemies are already on the ship of the player (a raider who came to, mutineers, boarders). Short, may be reused as a label"
 cond.PainShock.desc,"La douleur est si intense que la personne perd connaissance. Elle reprend connaissance lorsque la douleur passe sous son seuil de tolérance, à mesure que les blessures guérissent.",,Description of cond.PainShock in the condition tooltip
 cond.SystemShock,Choc du système,,Condition name: a robot shut down because the damage it took overloaded its systems
-cond.SystemShock.desc,"Les dégâts ont surchargé cette machine et provoqué son arrêt. Elle redémarrera dès qu'elle aura été suffisamment réparée.",,Description of cond.SystemShock in the condition tooltip
+cond.SystemShock.desc,Les dégâts ont surchargé cette machine et provoqué son arrêt. Elle redémarrera dès qu'elle aura été suffisamment réparée.,,Description of cond.SystemShock in the condition tooltip
 bodypart.Implant.PainInhibitor,Inhibiteur de douleur,,Name of an implant body part that dulls pain so the being passes out from pain much later
-bodypart.Implant.PainInhibitor.desc,"Atténue les signaux de douleur afin que le sujet puisse continuer malgré des blessures qui mettraient d'autres personnes hors de combat.",,Description of the Pain Inhibitor implant body part
+bodypart.Implant.PainInhibitor.desc,Atténue les signaux de douleur afin que le sujet puisse continuer malgré des blessures qui mettraient d'autres personnes hors de combat.,,Description of the Pain Inhibitor implant body part
 trait.wimp,Douillet,,Trait name - this being passes out from pain much sooner than others
 trait.wimp.about,Un être douillet supporte mal la douleur et s'évanouit à cause de blessures que d'autres endureraient.,,Trait description shown in the trait tooltip
 trait.stoic,Stoïque,,Trait name - this being stays conscious through more pain than others
@@ -8320,4 +8320,4 @@ fight.cause.mood,{0} était de très mauvaise humeur,,"{0} is a name. Ship log l
 fight.cause.clash,{0} et {1} ne peuvent plus se supporter,,{0} and {1} are names. Ship log line right after a fistfight starts: the two have personalities that clash
 situation.Population,Population,,"[Auto] Label in the Situation app (ship computer) and its chart: how big the colony counts as for story events. Colonists and robots count fully, pets half"
 situation.ThreatWeight,Poids de la menace,,"[Auto] Label in the Situation app (ship computer) and its chart: a number that raid strength is based on. It counts the crew, giving less weight to the injured, the absent and animals"
-situation.NumBreakdowns,Pannes mentales,,[Auto] Label in the Situation app (ship computer) and its chart: how many mental breakdowns happened in this game so far
+situation.NumBreakdowns,Dépressions nerveuses,,[Auto] Label in the Situation app (ship computer) and its chart: how many mental breakdowns happened in this game so far
